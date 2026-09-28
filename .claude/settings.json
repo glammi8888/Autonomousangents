@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(git push origin main:*)",
+      "Bash(git push origin master:*)",
+      "Bash(git push origin HEAD:main:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git merge:*)",
+      "Bash(git rebase:*)",
+      "Bash(vercel --prod:*)",
+      "Bash(npx vercel --prod:*)",
+      "Bash(vercel deploy --prod:*)",
+      "Bash(netlify deploy --prod:*)",
+      "Bash(npx netlify deploy --prod:*)",
+      "Bash(eas submit:*)",
+      "Bash(npx eas submit:*)",
+      "Bash(eas update --branch production:*)",
+      "Bash(fastlane:*)",
+      "Bash(supabase db push:*)",
+      "Bash(npx supabase db push:*)",
+      "Bash(supabase db reset --linked:*)",
+      "Bash(npx cap run ios --target:*)",
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./**/.env)",
+      "Read(./**/.env.*)"
+    ]
+  }
+}

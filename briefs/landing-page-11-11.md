@@ -30,3 +30,10 @@ Strong lines to adapt, not copy: "What would your life look like with your atten
 - Working sign-up form (email → list tool). Confirm where sign-ups go.
 - Real Privacy + Terms pages (footer links currently lead nowhere).
 - Social icons link to real ISSUE11 accounts, or remove.
+
+## 🤖 AEO (added Sep 29, Megan: start ISSUE11's own AEO pre-launch)
+Owner: 💚 GROWTH, same method as 🩷 AEO for Med Spas.
+- Baseline first: what ChatGPT / Perplexity / Google AI Overviews say today for the questions our users ask.
+- FAQ answers written as clear, quotable sentences (AI engines lift these). Add FAQ schema markup in Framer.
+- One plain sentence near the top that says exactly what ISSUE11 is and who it's for.
+- Get mentioned where AI reads: launch press, Reddit, app directories, founder interviews.

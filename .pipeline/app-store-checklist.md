@@ -10,6 +10,11 @@ Megan's rule: ISSUE11 must qualify for the Apple App Store. The Planner checks n
 - [ ] Feels like a real app, not a wrapped website: native navigation, push notifications, offline basics, haptics/share sheet where natural.
 - [ ] Clear reason to exist in a crowded category (journaling): the magazine-cover experience is the differentiator. Say it in the review notes.
 
+## Make Apple happy (featuring)
+- [ ] Design follows the current Apple Human Interface Guidelines and the latest iOS design language (iOS 26). Checked during app design in October.
+- [ ] Use recent iOS features where they fit naturally (widgets later, notifications, App Intents/Shortcuts). Apple features apps that adopt what's new.
+- [ ] Re-checked monthly by the Manager's Friday retro (first Friday).
+
 ## Privacy (5.1)
 - [ ] Privacy policy link inside the app and in App Store Connect.
 - [ ] Accurate App Privacy "nutrition label" (what data is collected and why).

@@ -35,3 +35,4 @@ Same rules as Notion → Company Structure. In short:
 - Before working, read `.pipeline/lessons.md`. After working, add max 2 dated lessons there (what worked, what to do differently).
 - Megan's corrections are logged word for word as rules.
 - A lesson that repeats gets promoted into the agent's own file. Agents may improve *how* they work, never their role, permissions, tests or safety rules.
+- 💡 Agents may also *suggest* improvements outside their guardrails (new tools, process or role changes). Max 1 per run, written under "## Suggestions" in `.pipeline/lessons.md` (what · why · cost). Never act on them without Megan's approval.

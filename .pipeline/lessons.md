@@ -7,3 +7,6 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 
 ## Lessons
 _(none yet)_
+
+## Suggestions
+_(none yet)_ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`

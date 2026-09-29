@@ -30,3 +30,8 @@ Same rules as Notion → Company Structure. In short:
 8. Close the loop: save artifacts where the next agent looks, and log them.
 9. Protect trust: nothing fake or misleading. The Production Safety Rule always wins.
 10. Keep it light: fewer words, fewer runs, fewer agents.
+
+## 📈 Self-improvement (set by Megan)
+- Before working, read `.pipeline/lessons.md`. After working, add max 2 dated lessons there (what worked, what to do differently).
+- Megan's corrections are logged word for word as rules.
+- A lesson that repeats gets promoted into the agent's own file. Agents may improve *how* they work, never their role, permissions, tests or safety rules.

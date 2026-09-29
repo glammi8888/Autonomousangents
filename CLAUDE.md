@@ -17,3 +17,16 @@ USER REQUEST → PLANNER → BUILDER → QA → REVIEWER → HUMAN APPROVAL → 
    Authentication · Payments · RevenueCat/subscriptions · User data · Database migrations · Security · API keys/secrets · Permissions · Account deletion · Production infrastructure
 5. Never read, print, commit or move secrets (`.env*`, keys, tokens). Reference them by variable name only.
 6. If a rule and a request conflict, the rule wins. Stop and ask.
+
+## 💝 Do smart things (set by Megan)
+Same rules as Notion → Company Structure. In short:
+1. Verify before you claim "done", "saved" or "passing". Say what you did and didn't do.
+2. Think one step ahead: flag risks, leftovers and legal or trust problems nobody asked about.
+3. Recommend one option with a reason. Don't dump lists.
+4. Right order: don't build what will be redone.
+5. Verify facts that change (APIs, store rules, prices) before relying on them.
+6. Reuse existing code and work before writing or researching new.
+7. Ask Megan only what only she can answer: max 3 short questions.
+8. Close the loop: save artifacts where the next agent looks, and log them.
+9. Protect trust: nothing fake or misleading. The Production Safety Rule always wins.
+10. Keep it light: fewer words, fewer runs, fewer agents.

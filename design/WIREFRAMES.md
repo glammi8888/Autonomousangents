@@ -33,3 +33,18 @@ A. **Sign up / Sign in**, placed AFTER onboarding + paywall: "Save your issue" (
    - Returning users: a small "Already have an account? Sign in" link on the Splash screen.
 B. **Account deletion inside the app:** You → Settings → Delete account → confirm screen (what gets deleted, and that any subscription must be cancelled in Apple settings, with a link) → done. (App Store 5.1.1(v))
 ⚠️ Authentication and account deletion are sensitive areas: when these are BUILT, the spec needs Megan's explicit approval before building (CLAUDE.md safety rule). Designing them now is fine.
+
+## ✅ Megan, Sep 30: "Add all the things that are missing"
+Approved to design (see design/FLOW-MAP.md for details):
+1. Sign up / sign in (A above) + in-app account deletion (B above)
+2. Paywall: Restore purchases, Terms + Privacy links, clear renewal/cancel text, a close (X) or clear path
+3. Notification permission, Photos permission (before adding images), Microphone/Speech permission (before voice journaling): each with a short "why" screen, asked only when used
+4. Empty states (day 1: no issue, no Past Proof yet), error and offline states
+5. AI consent screen IF any AI ever touches journal entries or images
+6. No-health-claims wording (incl. "Subliminals")
+7. Cover reveal before the paywall: Name → "Printing your issue…" → Reveal, between 07 and 08
+8. Ask the user's name (for Home greeting + cover)
+9. (+) button = new journal entry
+10. Skip logic on 02–04 defined (skip lands on the next question; defaults used for personalization)
+11. Fix placeholder copy: cover date = current season, onboarding 3 label, etc.
+Still Megan's decision (not approved yet): audio scope for Jan 11 (Q1), tab layout (Q3), pricing (💛 Revenue + Megan).

@@ -41,13 +41,15 @@ Not decided here: pricing (💛 Revenue + Megan).
 
 ## Megan's decisions (Sep 30, 2026, her words summarized)
 - Add a magazine sneak peek (cover reveal) before she pays: Name → "Printing your issue…" → Reveal → Paywall.
-- "No audio is included in v1" + audio screens "ship when the app is out". Read as: first Lovable build = journal + cover; audio screens designed now, content plan still needed. ⚠️ To confirm with Megan.
+- ~~No audio in v1~~ → **Megan, Sep 30 (later): "I want the video/audio experiences with V1, not later."** Immersive audio + video sessions ship Jan 11: onboarding sessions question, Home "Today's experience", Explore library, full-screen Player → Journal.
+  ⚠️ Open: who makes the sessions (audio + video content) and by when; this is the biggest scope/time risk for TestFlight Dec 15. Wording: no health claims ("Subliminals").
 - Ask her name. Onboarding is not set in stone yet.
 - Tabs: Home · Explore · (+ new entry) · Issue · You (agreed).
 
 ## Product Lead suggestions for the open parts (in the prototype, Megan to confirm)
 - (+) opens a "New entry" sheet: write, voice, add image, log a win.
 - SKIP → jumps to the name screen; skipped answers use gentle defaults, editable in You → Goals.
+- Logo: Megan's real wordmark files in brand/logo/ (used in the prototype).
 - Photos: use the iOS photo picker (no permission prompt needed). Mic: ask on first mic tap, with a reason.
 - Notifications: primed screen right after the reveal ("Get your issue every morning?"), system prompt only on "Yes".
 - Past Proof day 1: seeded by a new onboarding question "Name one thing you already made happen" (from the Notion concept).

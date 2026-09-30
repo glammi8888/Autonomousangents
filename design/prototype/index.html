@@ -230,6 +230,13 @@ textarea::placeholder,input::placeholder{color:#9b9193}
 .perm{background:#fff;border-radius:22px;padding:22px;text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center}
 .perm .big-ic{width:72px;height:72px;border-radius:20px;background:var(--pink);display:grid;place-items:center}
 .perm .big-ic svg{width:36px;height:36px}
+.immersive{padding-bottom:36px}
+.film{position:absolute;inset:0;overflow:hidden;z-index:0}
+.film canvas{position:absolute;inset:-12%;width:124%!important;height:124%!important;animation:drift 18s ease-in-out infinite alternate}
+.film::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,13,13,.35),rgba(13,13,13,0) 30%,rgba(13,13,13,.1) 50%,rgba(13,13,13,.85))}
+@keyframes drift{from{transform:scale(1) rotate(0)}to{transform:scale(1.12) rotate(4deg) translateY(-3%)}}
+@media (prefers-reduced-motion:reduce){.film canvas{animation:none}}
+.rows button.on{background:var(--blush)}
 .player-art{aspect-ratio:1;border-radius:22px;overflow:hidden;margin-bottom:22px}
 .scrub{height:4px;background:rgba(245,238,224,.25);border-radius:2px;margin:18px 0 6px}
 .scrub i{display:block;height:100%;width:38%;background:var(--pink);border-radius:2px}
@@ -251,7 +258,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <section class="screen" id="hook" data-title="02 Hook" data-note="Megan's pain-point hook. Stripe plates stand in for the cinematic editorial photography we'll shoot or source.">
-    <div class="top"><span class="step">01 / 08</span><button class="skip" data-go="dream">Skip</button></div>
+    <div class="top"><span class="step">01 / 09</span><button class="skip" data-go="dream">Skip</button></div>
     <div class="plate" style="height:40%;min-height:220px;margin-bottom:22px"><canvas class="art" data-seed="11" data-v="zebra"></canvas></div>
     <h1 class="big">Tired of scrolling other people's lives?</h1>
     <p class="lede">Your feed is full of their dreams. This space is for yours.</p>
@@ -260,7 +267,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <section class="screen" id="dream" data-title="03 Dream outcome" data-note="The dream outcome, in the brand's own words.">
-    <div class="top"><span class="step">02 / 08</span><button class="skip" data-go="ideal">Skip</button></div>
+    <div class="top"><span class="step">02 / 09</span><button class="skip" data-go="ideal">Skip</button></div>
     <div class="plate" style="height:40%;min-height:220px;margin-bottom:22px"><canvas class="art" data-seed="23" data-v="pinksun"></canvas></div>
     <h1 class="big">A more aligned you.</h1>
     <p class="lede">Write what you want. See it as your own magazine. Come back to it every day.</p>
@@ -269,7 +276,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <section class="screen" id="ideal" data-title="04 Your ideal life" data-note="The one effortful input. Tap-to-fill examples lower the effort. This text becomes the cover story (page 4 of her issue).">
-    <div class="top"><span class="step">03 / 08</span><button class="skip" data-go="areas">Skip</button></div>
+    <div class="top"><span class="step">03 / 09</span><button class="skip" data-go="areas">Skip</button></div>
     <h1 class="big">What does your ideal life feel like?</h1>
     <p class="lede">One sentence is enough. It becomes your cover story.</p>
     <textarea id="idealText" rows="4" placeholder="Start typing…"></textarea>
@@ -282,7 +289,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <section class="screen" id="areas" data-title="05 Life areas" data-note="Pick 3 or more. Picks shape the cover headlines on the reveal.">
-    <div class="top"><span class="step">04 / 08</span><span class="step" id="areasCount">0 / 3</span></div>
+    <div class="top"><span class="step">04 / 09</span><span class="step" id="areasCount">0 / 3</span></div>
     <h2 class="mid">What's your issue about?</h2>
     <p class="lede" style="margin-bottom:14px">Pick 3 or more.</p>
     <div class="grid2" id="areaGrid"></div>
@@ -291,16 +298,16 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <section class="screen" id="visuals" data-title="06 Visuals" data-note="Visual taste sets the cover style and the images in Explore.">
-    <div class="top"><span class="step">05 / 08</span><span class="step" id="visCount">0 / 3</span></div>
+    <div class="top"><span class="step">05 / 09</span><span class="step" id="visCount">0 / 3</span></div>
     <h2 class="mid">What visuals inspire you?</h2>
     <p class="lede" style="margin-bottom:14px">Choose 3 or more.</p>
     <div class="grid2" id="visGrid"></div>
     <div style="height:18px;flex:none"></div>
-    <button class="cta" id="visNext" data-go="proof1" disabled>Continue</button>
+    <button class="cta" id="visNext" data-go="audio" disabled>Continue</button>
   </section>
 
-  <section class="screen" id="proof1" data-title="07 Past proof · new" data-note="NEW (replaces audio for v1). From the Notion concept. Gives Past Proof something real on day 1 and becomes page 12 of her issue.">
-    <div class="top"><span class="step">06 / 08</span><button class="skip" data-go="name">Skip</button></div>
+  <section class="screen" id="proof1" data-title="08 Past proof · new" data-note="NEW. From the Notion concept. Gives Past Proof something real on day 1 and becomes page 12 of her issue.">
+    <div class="top"><span class="step">07 / 09</span><button class="skip" data-go="name">Skip</button></div>
     <h1 class="big">Name one thing you already made happen.</h1>
     <p class="lede">Big or small. It becomes the Proof page in your issue.</p>
     <textarea id="proofText" rows="3" placeholder="I moved to the city I'd always talked about…"></textarea>
@@ -308,8 +315,8 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <button class="cta" data-go="name">Continue</button>
   </section>
 
-  <section class="screen" id="name" data-title="08 Your name · new" data-note="NEW. Her name goes on the cover and on Home ('Good morning, Megan').">
-    <div class="top"><span class="step">07 / 08</span><span></span></div>
+  <section class="screen" id="name" data-title="09 Your name · new" data-note="NEW. Her name goes on the cover and on Home ('Good morning, Megan').">
+    <div class="top"><span class="step">08 / 09</span><span></span></div>
     <h1 class="big">Whose name goes on the cover?</h1>
     <p class="lede">First name is perfect.</p>
     <input type="text" id="nameIn" placeholder="Your name" autocomplete="given-name" value="Megan">
@@ -317,18 +324,18 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <button class="cta" data-go="printing">Print my issue</button>
   </section>
 
-  <section class="screen dark" id="printing" data-title="09 Printing · new" data-note="NEW. Short build-up before the reveal. Headlines come from her answers with templates, not AI.">
-    <div class="top"><span class="step">08 / 08</span><span></span></div>
+  <section class="screen dark" id="printing" data-title="10 Printing · new" data-note="NEW. Short build-up before the reveal. Headlines come from her answers with templates, not AI.">
+    <div class="top"><span class="step">09 / 09</span><span></span></div>
     <h1 class="big" style="color:var(--pink)">Printing your first issue…</h1>
     <div class="checklist" id="checklist">
       <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Writing your headlines</div>
       <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Designing your cover</div>
-      <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Laying out your pages</div>
+      <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Choosing your first session</div>
       <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Binding your issue</div>
     </div>
   </section>
 
-  <section class="screen blush" id="reveal" data-title="10 Cover reveal · new" data-note="NEW. The sneak peek before she pays (Megan's call). Her name, her season, headlines from her picks. Share is a natural growth loop.">
+  <section class="screen blush" id="reveal" data-title="11 Cover reveal · new" data-note="NEW. The sneak peek before she pays (Megan's call). Her name, her season, headlines from her picks. Share is a natural growth loop.">
     <div class="top"><span class="step" id="revealHi">MEGAN, YOUR ISSUE IS READY</span><span></span></div>
     <div id="revealCover" style="width:78%;margin:0 auto 22px"></div>
     <div class="grow"></div>
@@ -338,7 +345,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     </div>
   </section>
 
-  <section class="screen" id="signin" data-title="13 Save your issue · new" data-note="NEW. Approved: account AFTER onboarding + paywall. Sign in with Apple first; email as backup. Required for Apple's rule if we ever add Google login.">
+  <section class="screen" id="signin" data-title="14 Save your issue · new" data-note="NEW. Approved: account AFTER onboarding + paywall. Sign in with Apple first; email as backup. Required for Apple's rule if we ever add Google login.">
     <div class="top"><span></span><span></span></div>
     <div id="signinCover" style="width:46%;margin:0 auto 22px"></div>
     <h2 class="mid center">Save your issue</h2>
@@ -351,7 +358,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <p class="fine">By continuing you agree to the <u>Terms</u> and <u>Privacy Policy</u>.</p>
   </section>
 
-  <section class="screen" id="notif" data-title="11 Notifications · new" data-note="NEW. Primed ask with a real reason, before the iOS prompt. 'Not now' is equal weight: Apple-friendly.">
+  <section class="screen" id="notif" data-title="12 Notifications · new" data-note="NEW. Primed ask with a real reason, before the iOS prompt. 'Not now' is equal weight: Apple-friendly.">
     <div class="top"><span></span><span></span></div>
     <div class="grow"></div>
     <div class="perm">
@@ -366,11 +373,12 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     </div>
   </section>
 
-  <section class="screen" id="paywall" data-title="12 Paywall" data-note="Prices are NOT set: 💛 Revenue + Megan decide. Everything Apple requires is here: close (X), price + renewal + trial terms, cancel text, Restore, Terms, Privacy.">
+  <section class="screen" id="paywall" data-title="13 Paywall" data-note="Prices are NOT set: 💛 Revenue + Megan decide. Everything Apple requires is here: close (X), price + renewal + trial terms, cancel text, Restore, Terms, Privacy.">
     <div class="top"><button class="iconbtn" data-go="signin" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg></button><button class="skip" data-toast="Restores an earlier purchase">Restore</button></div>
     <h1 class="big" style="font-size:40px">Create a more aligned you.</h1>
     <ul class="benefits">
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg><span id="pwBenefit">See your Autumn 2026 issue every morning</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Immersive audio + visual sessions, every day</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Unlimited journal pages and images</li>
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>New cover styles and a new issue each season</li>
     </ul>
@@ -390,12 +398,12 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <!-- ============ APP ============ -->
-  <section class="screen tabbed" id="home" data-tab="home" data-title="Home" data-note="Daily page first, then the archive, then her world. No audio in v1, so today's experience is a journal prompt.">
+  <section class="screen tabbed" id="home" data-tab="home" data-title="Home" data-note="Today's immersive session first (wireframe 09). After it, the journal opens. Then the archive and her world.">
     <div class="top"><span style="width:64px;height:48px;display:block"><span class="logo" role="img" aria-label="ISSUE11"></span></span><button class="iconbtn" data-go="settings" aria-label="Notifications settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></button></div>
     <h1 class="big" style="font-size:38px" id="greet">Good morning, Megan.</h1>
     <button class="plate" style="height:190px;flex:none;text-align:left" data-go="issue"><canvas class="art" data-seed="5" data-v="pinksun"></canvas><span class="cap">Your issue · Autumn 2026</span></button>
-    <div class="label">Today's page</div>
-    <button class="card" data-go="journal"><span><span class="t">What did future you do this morning?</span><span class="s">Journal · 3 min</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+    <div class="label">Today's experience</div>
+    <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="61" data-v="noir"></canvas></span><span><span class="t">Become her</span><span class="s">Self concept · 12 min · audio + visuals</span></span><span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
     <div class="label">From the archive</div>
     <button class="card" data-go="archive"><span class="thumb"><canvas class="art" data-seed="41" data-v="red"></canvas></span><span><span class="t">Is this part of your life now?</span><span class="s">8 months ago · Past Proof</span></span></button>
     <div class="label">Continue your world</div>
@@ -405,19 +413,19 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     </div>
   </section>
 
-  <section class="screen tabbed" id="explore" data-tab="explore" data-title="Explore" data-note="v1 Explore = inspiration, not audio: image collections + journal prompts by goal. Tapping a collection opens a prompt in the journal.">
+  <section class="screen tabbed" id="explore" data-tab="explore" data-title="Explore" data-note="Wireframe 10. Library by goal: immersive sessions + journal prompts in each collection.">
     <div class="top"><h1 class="big" style="margin:0">Explore</h1><button class="iconbtn" aria-label="Search" data-toast="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button></div>
     <div class="chips" id="expChips" style="margin-bottom:18px"></div>
     <div style="display:flex;flex-direction:column;gap:12px">
-      <button class="card" data-go="journal"><span class="thumb"><canvas class="art" data-seed="31" data-v="zebra"></canvas></span><span><span class="t">Confidence</span><span class="s">24 prompts · 60 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="journal"><span class="thumb"><canvas class="art" data-seed="32" data-v="cream"></canvas></span><span><span class="t">Travel</span><span class="s">18 prompts · 80 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="journal"><span class="thumb"><canvas class="art" data-seed="33" data-v="pinksun"></canvas></span><span><span class="t">Style &amp; Beauty</span><span class="s">20 prompts · 120 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="journal"><span class="thumb"><canvas class="art" data-seed="34" data-v="red"></canvas></span><span><span class="t">Wealth</span><span class="s">16 prompts · 50 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="31" data-v="zebra"></canvas></span><span><span class="t">Confidence</span><span class="s">8 sessions · 24 prompts</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="32" data-v="cream"></canvas></span><span><span class="t">Travel</span><span class="s">6 sessions · 18 prompts</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="33" data-v="pinksun"></canvas></span><span><span class="t">Style &amp; Beauty</span><span class="s">7 sessions · 20 prompts</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="34" data-v="red"></canvas></span><span><span class="t">Wealth</span><span class="s">5 sessions · 16 prompts</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
     </div>
   </section>
 
-  <section class="screen" id="journal" data-title="Journal entry" data-note="Standalone now (no audio session before it). Mic asks permission only on first tap. 'Add to my issue' is the bridge from journal to magazine.">
-    <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><span class="chip" style="display:grid;place-items:center">Today</span></div>
+  <section class="screen" id="journal" data-title="Journal entry" data-note="Opens after a session (wireframe 13), or from (+). Mic asks permission only on first tap. 'Add to my issue' is the bridge from journal to magazine.">
+    <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><span class="chip" style="display:grid;place-items:center">After: Become her</span></div>
     <h1 class="big" style="font-size:36px">How are you feeling now?</h1>
     <div style="position:relative">
       <textarea id="jText" rows="6" placeholder="Let it flow…"></textarea>
@@ -468,7 +476,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <div class="card"><span><span class="t" id="proofEcho" style="font-family:var(--text);font-weight:700;text-transform:none;font-size:17px">“I moved to the city I'd always talked about.”</span><span class="s">From your first issue</span></span></div>
   </section>
 
-  <section class="screen tabbed" id="you" data-tab="you" data-title="You" data-note="Wireframe 16. Audio Library removed for v1. Settings holds the Apple must-haves.">
+  <section class="screen tabbed" id="you" data-tab="you" data-title="You" data-note="Wireframe 16. Sessions = the wireframe's Audio Library. Settings holds the Apple must-haves.">
     <div class="top"><span></span><button class="iconbtn" data-go="settings" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 0 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 0 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 0 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 0 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button></div>
     <div class="avatar" id="avatar">M</div>
     <h2 class="mid center" id="youName">Megan</h2>
@@ -477,6 +485,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
       <button data-go="world">My World<span class="val num">24 saved</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
       <button data-go="issue">My Issue<span class="val">Issue 01</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
       <button data-go="journal">Journal<span class="val num">12 entries</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
+      <button data-go="explore">Sessions<span class="val num">14 played</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
       <button data-go="archive">Past Proof<span class="val num">3 moments</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
     </div>
     <div class="rows" style="margin-top:14px">
@@ -523,25 +532,38 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <!-- ============ LATER (v1.1) ============ -->
-  <section class="screen" id="audio" data-title="Audio preferences · later" data-note="Wireframe 07. Not in the first build (Megan: no audio in v1). Kept so the design is ready when audio content exists. Wording: no health claims.">
-    <span class="later">Later · not in v1</span>
-    <h2 class="mid">What type of audio resonates with you?</h2>
-    <div class="rows" style="margin-top:10px">
-      <div class="row">Affirmations</div><div class="row">Subliminals</div><div class="row">Guided visualizations</div><div class="row">Meditations</div><div class="row">Breathwork</div>
+  <section class="screen" id="audio" data-title="07 Sessions" data-note="Wireframe 07, back in V1 (Megan). Picks shape her immersive sessions. Wording check: no health claims; 'Subliminals' needs a careful description before launch.">
+    <div class="top"><span class="step">06 / 09</span><button class="skip" data-go="proof1">Skip</button></div>
+    <h2 class="mid">What helps you step into your future?</h2>
+    <p class="lede" style="margin-bottom:14px">Pick any. Your sessions mix sound and moving visuals.</p>
+    <div class="rows" id="audioRows">
+      <button data-pick>Affirmations<span class="val">Short, spoken</span></button>
+      <button data-pick>Guided visualizations<span class="val">Eyes closed</span></button>
+      <button data-pick>Subliminals<span class="val">Music + words</span></button>
+      <button data-pick>Meditations<span class="val">Calm, slow</span></button>
+      <button data-pick>Breathwork<span class="val">A few minutes</span></button>
     </div>
+    <div class="grow" style="min-height:20px"></div>
+    <button class="cta" data-go="proof1">Continue</button>
   </section>
 
-  <section class="screen dark" id="player" data-title="Player · later" data-note="Wireframe 12. Later. When it ships, the journal prompt opens right after the session ends.">
-    <span class="later" style="background:var(--pink);color:var(--ink)">Later · not in v1</span>
-    <div class="player-art"><canvas class="art" data-seed="61" data-v="noir"></canvas></div>
-    <div class="label" style="margin:0 0 6px">Self concept · 12 min</div>
-    <h1 class="big" style="color:var(--cream)">Become her.</h1>
-    <div class="scrub"><i></i></div>
-    <div style="display:flex;justify-content:space-between;font-size:13px" class="num"><span>04:12</span><span>-07:48</span></div>
-    <div class="controls">
-      <button class="iconbtn" aria-label="Back 15 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/></svg></button>
-      <button class="pp" aria-label="Pause"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg></button>
-      <button class="iconbtn" aria-label="Forward 15 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 17l5-5-5-5M6 17l5-5-5-5"/></svg></button>
+  <section class="screen dark immersive" id="player" data-title="Immersive session" data-note="Back in V1 (Megan). Full-screen moving visuals + audio, built from her issue. Ends in the journal: 'How are you feeling now?'. Stripe motion stands in for real video.">
+    <div class="film"><canvas class="art" data-seed="61" data-v="noir"></canvas></div>
+    <div class="top" style="position:relative;z-index:2"><button class="iconbtn" data-back aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 15l6-6 6 6"/></svg></button><span class="step">🎧 Best with headphones</span></div>
+    <div class="grow"></div>
+    <div style="position:relative;z-index:2">
+      <div class="label" style="margin:0 0 6px;color:var(--blush)">Self concept · 12 min</div>
+      <h1 class="big" style="color:var(--cream);font-size:56px">Become her.</h1>
+      <div class="scrub"><i></i></div>
+      <div style="display:flex;justify-content:space-between;font-size:13px" class="num"><span>04:12</span><span>-07:48</span></div>
+      <div class="controls">
+        <button class="iconbtn" aria-label="Save" data-toast="Saved to your world"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button>
+        <button class="iconbtn" aria-label="Back 15 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/></svg></button>
+        <button class="pp" aria-label="Pause" data-pp><svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg></button>
+        <button class="iconbtn" aria-label="Forward 15 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 17l5-5-5-5M6 17l5-5-5-5"/></svg></button>
+        <button class="iconbtn" aria-label="Visuals only" data-toast="Visuals only: sound off"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 4V5L8 9zM17 9l4 6M21 9l-4 6"/></svg></button>
+      </div>
+      <button class="cta light" data-go="journal" style="margin-top:18px">Finish &amp; reflect</button>
     </div>
   </section>
 
@@ -757,7 +779,7 @@ document.addEventListener("click",e=>{
   if(b.dataset.vis){const v=b.dataset.vis;state.vis.has(v)?state.vis.delete(v):state.vis.add(v);b.classList.toggle("on");const n=state.vis.size;$("#visCount").textContent=Math.min(n,3)+" / 3";$("#visNext").disabled=n<3;}
   if(b.dataset.style!=null){state.style=+b.dataset.style;refresh("issue");paint($("#issue"));}
   if(b.hasAttribute("data-heart"))b.classList.toggle("on");
-  if(b.hasAttribute("data-toggle"))b.classList.toggle("on");
+  if(b.hasAttribute("data-toggle")||b.hasAttribute("data-pick"))b.classList.toggle("on");
   if(b.hasAttribute("data-exp")){$$("[data-exp]").forEach(x=>x.classList.remove("on"));b.classList.add("on");}
   if(b.closest("#plans")&&b.classList.contains("plan")){$$("#plans .plan").forEach(x=>x.classList.remove("on"));b.classList.add("on");}
   if(b.dataset.sheet){openSheet(b.dataset.sheet);return;}
@@ -770,7 +792,7 @@ $("#idealText").addEventListener("input",e=>state.ideal=e.target.value.trim());
 $("#proofText").addEventListener("input",e=>state.proof=e.target.value.trim());
 
 /* ---------- index ---------- */
-const groups=[["Onboarding",["splash","hook","dream","ideal","areas","visuals","proof1","name","printing","reveal","notif","paywall","signin"]],["App",["home","explore","newSheet","journal","micSheet","issue","reader","world","archive","you","settings","delete","offline"]],["Later (v1.1)",["audio","player"]]];
+const groups=[["Onboarding",["splash","hook","dream","ideal","areas","visuals","audio","proof1","name","printing","reveal","notif","paywall","signin"]],["App",["home","explore","player","newSheet","journal","micSheet","issue","reader","world","archive","you","settings","delete","offline"]]];
 $("#idx").innerHTML=groups.map(g=>`<h2>${g[0]}</h2>`+g[1].map(id=>{const t=document.getElementById(id).dataset.title;const m=t.match(/^(.*?)( · (new|later))?$/);return `<button data-to="${id}"><span>${m[1]}</span>${m[3]?`<span class="tag">${m[3].toUpperCase()}</span>`:""}</button>`}).join("")).join("");
 $("#idx").addEventListener("click",e=>{const b=e.target.closest("[data-to]");if(!b)return;e.stopPropagation();const id=b.dataset.to;if(id.endsWith("Sheet")){go(id=="newSheet"?"home":"journal");openSheet(id);}else go(id);side(false);});
 function side(open){$("#side").classList.toggle("open",open);let s=$(".scrim");if(open&&!s){s=document.createElement("div");s.className="scrim";s.onclick=()=>side(false);document.body.appendChild(s);}if(!open&&s)s.remove();}

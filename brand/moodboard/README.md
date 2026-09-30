@@ -18,3 +18,9 @@ To do when it's designed for real (vector, by a designer):
 - It reads ISSUE11 (Megan). Tip for the final vector: test that the E's bottom bar stays clear when the wordmark is small.
 - An app icon is tiny: the full wordmark won't read there. Needs a short mark in the same wavy-stripe style (e.g. "11" or "I11"), plus a check on a small phone screen.
 - Keep a straight, readable version for small sizes (App Store listing, social avatars).
+
+## Logo system (Megan considering a calm version, Sep 30)
+1. Hero (wavy): covers, landing page hero, launch posts, merch.
+2. Calm: the same tall condensed ISSUE11 letters, straight (or a barely-there wave). App Store name area, website header, emails, grant PDFs, small sizes.
+3. Short mark: "11" in the wavy stripe style for the app icon and social profile pictures.
+Same letters, same black/pink/cream, so all three read as one brand.

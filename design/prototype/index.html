@@ -1,0 +1,772 @@
+<title>ISSUE11 Prototype</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one phone-sized app. On desktop it sits in a device frame beside a screen index; on a phone it fills the screen.
+   Single brand look (light), every color set explicitly. */
+:root{
+  --blush:#fcd2dd; --pink:#f65aad; --red:#d40806; --cream:#f5eee0; --grey:#f2f2f2; --green:#4ba551; --ink:#0d0d0d;
+  --ink-2:#4a4346; --line:rgba(13,13,13,.14);
+  --display:"Archivo Black","Arial Black",Impact,system-ui,sans-serif;
+  --text:"Archivo Narrow","Arial Narrow","Helvetica Neue",system-ui,sans-serif;
+  color-scheme:light;
+}
+html,body{height:100%}
+body{background:#e9e1d2;color:var(--ink);font-family:var(--text);font-size:16px;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+button:focus-visible,input:focus-visible,textarea:focus-visible,.tile:focus-visible{outline:2px solid var(--pink);outline-offset:2px}
+
+/* ---------- stage ---------- */
+.stage{min-height:100%;display:flex;gap:40px;justify-content:center;align-items:center;padding-block:32px;padding-inline:16px}
+.device{position:relative;width:390px;height:844px;max-width:100%;border-radius:54px;background:var(--ink);padding:12px;box-shadow:0 30px 80px rgba(60,30,40,.25);flex:none}
+.app{position:relative;width:100%;height:100%;border-radius:42px;overflow:hidden;background:var(--cream)}
+.side{width:300px;max-height:844px;overflow:auto;display:flex;flex-direction:column;gap:18px}
+.side h1{font-family:var(--display);font-size:22px;margin:0;letter-spacing:.01em}
+.side p{margin:0;color:var(--ink-2);font-size:15px;line-height:1.45}
+.note{background:var(--cream);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.note b{font-family:var(--display);font-weight:400;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.note span{font-size:15px;line-height:1.45}
+.idx{display:flex;flex-direction:column;gap:2px}
+.idx h2{font-family:var(--display);font-weight:400;font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin:12px 0 4px;color:var(--ink-2)}
+.idx button{text-align:left;padding:6px 10px;border-radius:8px;font-size:15px;display:flex;justify-content:space-between;gap:8px}
+.idx button:hover{background:rgba(255,255,255,.5)}
+.idx button.on{background:var(--ink);color:var(--cream)}
+.idx .tag{font-size:12px;font-weight:700;color:var(--red)}
+.idx button.on .tag{color:var(--blush)}
+.fab{display:none}
+
+@media (max-width:760px){
+  body{background:var(--cream)}
+  .stage{padding:0;display:block;height:100%}
+  .device{width:100%;height:100%;border-radius:0;padding:0;box-shadow:none}
+  .app{border-radius:0}
+  .side{position:fixed;inset:auto 0 0 0;width:auto;max-height:78%;background:#efe6d6;border-radius:20px 20px 0 0;padding:20px 16px calc(24px + env(safe-area-inset-bottom,0px));z-index:50;transform:translateY(105%);transition:transform .3s ease;box-shadow:0 -10px 40px rgba(0,0,0,.2)}
+  .side.open{transform:none}
+  .fab{display:block;position:fixed;left:0;top:44%;z-index:40;background:var(--ink);color:var(--cream);font-family:var(--display);font-size:10px;letter-spacing:.14em;padding:12px 6px;border-radius:0 10px 10px 0;writing-mode:vertical-rl;transform:rotate(180deg);opacity:.85}
+  .scrim{position:fixed;inset:0;background:rgba(0,0,0,.3);z-index:45}
+}
+
+/* ---------- screens ---------- */
+.screen{position:absolute;inset:0;display:flex;flex-direction:column;overflow-y:auto;overflow-x:hidden;background:var(--cream);padding:58px 22px 28px;opacity:0;pointer-events:none;transform:translateX(24px);transition:opacity .28s ease,transform .28s ease}
+.screen.on{opacity:1;pointer-events:auto;transform:none}
+.screen.tabbed{padding-bottom:110px}
+.screen.blush{background:var(--blush)}
+.screen.dark{background:var(--ink);color:var(--cream)}
+@media (max-width:760px){.screen{padding-top:calc(20px + env(safe-area-inset-top,0px))}}
+@media (prefers-reduced-motion:reduce){.screen,.side{transition:none}}
+
+.top{display:flex;align-items:center;justify-content:space-between;min-height:44px;margin-bottom:14px}
+.step{font-family:var(--display);font-size:12px;letter-spacing:.12em}
+.skip{font-weight:700;font-size:14px;letter-spacing:.1em;text-transform:uppercase;min-height:44px;padding:0 4px}
+.iconbtn{width:44px;height:44px;display:grid;place-items:center;border-radius:50%}
+.iconbtn svg{width:24px;height:24px}
+.bar{height:4px;background:var(--line);border-radius:2px;overflow:hidden;margin-bottom:22px}
+.bar i{display:block;height:100%;background:var(--ink)}
+
+h1.big{font-family:var(--display);font-weight:400;font-size:44px;line-height:.95;letter-spacing:-.01em;text-transform:uppercase;margin:0 0 14px;text-wrap:balance}
+h1.xl{font-size:56px}
+h2.mid{font-family:var(--display);font-weight:400;font-size:28px;line-height:1;text-transform:uppercase;margin:0 0 10px;text-wrap:balance}
+.lede{font-size:18px;line-height:1.4;color:var(--ink-2);margin:0 0 20px;max-width:32ch}
+.dark .lede{color:#d8cfc2}
+.label{font-family:var(--display);font-size:12px;letter-spacing:.12em;text-transform:uppercase;margin:22px 0 10px;color:var(--ink-2)}
+.dark .label{color:#bdb3a6}
+.grow{flex:1}
+
+.cta{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:56px;border-radius:30px;background:var(--ink);color:var(--cream);font-family:var(--display);font-size:16px;letter-spacing:.06em;text-transform:uppercase;transition:transform .1s ease,opacity .2s}
+.cta:active{transform:scale(.98)}
+.cta[disabled]{opacity:.3;pointer-events:none}
+.cta.pink{background:var(--pink);color:var(--ink)}
+.cta.light{background:var(--cream);color:var(--ink)}
+.cta.ghost{background:transparent;color:var(--ink);border:1.5px solid var(--ink)}
+.cta.red{background:var(--red);color:#fff}
+.cta.green{background:var(--green);color:#fff}
+.round{width:60px;height:60px;border-radius:50%;background:var(--ink);color:var(--cream);display:grid;place-items:center;align-self:flex-end}
+.round svg{width:26px;height:26px}
+.fine{font-size:13px;line-height:1.45;color:var(--ink-2);text-align:center;margin:10px 0 0}
+.links{display:flex;justify-content:center;gap:18px;margin-top:8px}
+.links button{font-size:13px;font-weight:700;text-decoration:underline;min-height:32px}
+.dots{display:flex;gap:6px;align-items:center}
+.dots i{width:7px;height:7px;border-radius:50%;background:var(--line)}
+.dots i.on{background:var(--ink);width:20px;border-radius:4px}
+
+canvas.art,canvas.wave{display:block;width:100%;height:100%}
+.plate{position:relative;border-radius:18px;overflow:hidden;background:var(--blush)}
+.plate .cap,.tile .cap{position:absolute;left:10px;bottom:9px;font-family:var(--display);font-size:13px;letter-spacing:.06em;text-transform:uppercase;background:var(--cream);padding:4px 8px;border-radius:6px}
+
+/* inputs */
+textarea,input[type=text],input[type=email]{width:100%;font:inherit;font-size:18px;color:var(--ink);background:#fff;border:1.5px solid var(--line);border-radius:16px;padding:16px;resize:none}
+textarea::placeholder,input::placeholder{color:#9b9193}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{min-height:36px;padding:0 14px;border-radius:18px;border:1.5px solid var(--ink);font-weight:700;font-size:14px;letter-spacing:.04em;text-transform:uppercase}
+.chip.on{background:var(--ink);color:var(--cream)}
+.examples{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+.examples button{text-align:left;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,.6);font-size:15px;line-height:1.35}
+
+/* tile grids */
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.tile{position:relative;aspect-ratio:1/1.05;border-radius:18px;overflow:hidden;border:3px solid transparent;transition:border-color .15s}
+.tile.on{border-color:var(--ink)}
+.tile .tick{position:absolute;top:8px;right:8px;width:28px;height:28px;border-radius:50%;background:rgba(245,238,224,.9);border:1.5px solid var(--ink);display:grid;place-items:center}
+.tile.on .tick{background:var(--ink)}
+.tile .tick svg{width:16px;height:16px;opacity:0}
+.tile.on .tick svg{opacity:1}
+
+/* tab bar */
+.tabbar{position:absolute;left:0;right:0;bottom:0;z-index:20;display:grid;grid-template-columns:repeat(5,1fr);align-items:center;padding:8px 8px calc(22px + env(safe-area-inset-bottom,0px));background:rgba(245,238,224,.86);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);border-top:1px solid var(--line)}
+.tabbar[hidden]{display:none!important}
+.tabbar button{display:flex;flex-direction:column;align-items:center;gap:3px;font-size:11px;font-weight:700;letter-spacing:.04em;min-height:48px;justify-content:center;color:#8a8083}
+.tabbar button.on{color:var(--ink)}
+.tabbar svg{width:25px;height:25px}
+.tabbar .plus{width:54px;height:54px;border-radius:50%;background:var(--ink);color:var(--cream);margin:0 auto;justify-content:center}
+.tabbar .plus svg{width:26px;height:26px}
+
+/* cards & rows */
+.card{border-radius:20px;background:#fff;padding:16px;display:flex;gap:14px;align-items:center;text-align:left;width:100%}
+.card .t,.card .s{display:block}
+.card .t{font-family:var(--display);font-size:18px;text-transform:uppercase;line-height:1.05}
+.card .s{font-size:14px;color:var(--ink-2);margin-top:3px}
+.card .thumb{width:64px;height:78px;border-radius:10px;overflow:hidden;flex:none}
+.card .go{margin-left:auto;width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--cream);display:grid;place-items:center;flex:none}
+.card .go svg{width:18px;height:18px}
+.rows{display:flex;flex-direction:column;background:#fff;border-radius:18px;overflow:hidden}
+.rows button,.rows .row{display:flex;align-items:center;gap:14px;min-height:54px;padding:0 16px;text-align:left;border-bottom:1px solid var(--line);font-size:17px;font-weight:600}
+.rows > :last-child{border-bottom:0}
+.rows .val{margin-left:auto;color:var(--ink-2);font-weight:500;font-size:15px}
+.rows svg.chev{width:16px;height:16px;color:#aaa;flex:none}
+.rows .val + svg.chev{margin-left:6px}
+.rows .ico{width:30px;height:30px;border-radius:8px;display:grid;place-items:center;flex:none}
+.rows .ico svg{width:18px;height:18px}
+.toggle{margin-left:auto;width:51px;height:31px;border-radius:16px;background:var(--green);position:relative;flex:none}
+.toggle::after{content:"";position:absolute;top:2px;right:2px;width:27px;height:27px;border-radius:50%;background:#fff;box-shadow:0 2px 4px rgba(0,0,0,.2)}
+
+/* sheet */
+.sheetwrap{position:absolute;inset:0;z-index:30;display:flex;align-items:flex-end;background:rgba(13,13,13,.35);opacity:0;pointer-events:none;transition:opacity .2s}
+.sheetwrap.on{opacity:1;pointer-events:auto}
+.sheet{width:100%;background:var(--cream);border-radius:24px 24px 0 0;padding:10px 20px calc(30px + env(safe-area-inset-bottom,0px));transform:translateY(40px);transition:transform .25s ease}
+.sheetwrap.on .sheet{transform:none}
+.grab{width:38px;height:5px;border-radius:3px;background:#cfc6b8;margin:0 auto 16px}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{border-radius:18px;background:#fff;padding:16px;text-align:left;display:flex;flex-direction:column;gap:12px;min-height:110px}
+.opt .ic{width:40px;height:40px;border-radius:12px;display:grid;place-items:center}
+.opt .ic svg{width:22px;height:22px}
+.opt b{font-family:var(--display);font-weight:400;font-size:16px;text-transform:uppercase}
+.opt span{font-size:13px;color:var(--ink-2);margin-top:-8px}
+
+/* toast */
+.toast{position:absolute;left:50%;top:60px;z-index:40;transform:translate(-50%,-20px);background:var(--ink);color:var(--cream);padding:12px 18px;border-radius:24px;font-size:15px;font-weight:600;opacity:0;transition:all .25s;pointer-events:none;width:max-content;max-width:86%;text-align:center}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+
+/* cover */
+.cover{position:relative;aspect-ratio:3/4;border-radius:6px;overflow:hidden;background:var(--blush);box-shadow:0 18px 40px rgba(80,20,40,.22);display:flex;flex-direction:column;padding:14px 16px}
+.cover .mast{height:30%;margin:0 -6px}
+.cover .issue-no{position:absolute;top:14px;right:16px;font-family:var(--display);font-size:11px;letter-spacing:.1em;color:var(--red)}
+.cover .who{font-family:var(--display);font-size:44px;line-height:.9;text-transform:uppercase;margin-top:auto;position:relative;z-index:2}
+.cover .hl{font-size:15px;font-weight:700;line-height:1.25;max-width:22ch;background:var(--cream);padding:4px 7px;align-self:flex-start;border-radius:3px;position:relative;z-index:2;margin-top:6px}
+.cover .date{font-family:var(--display);font-size:11px;letter-spacing:.12em;text-transform:uppercase;margin-top:10px;position:relative;z-index:2}
+.cover .art-bg{position:absolute;right:-14%;top:28%;width:70%;aspect-ratio:1;border-radius:50%;overflow:hidden;z-index:1}
+.cover.sm{padding:8px 9px}
+.cover.sm .who{font-size:20px}
+.cover.sm .hl,.cover.sm .date,.cover.sm .issue-no{display:none}
+
+/* printing */
+.checklist{display:flex;flex-direction:column;gap:16px;margin-top:10px}
+.checklist div{display:flex;gap:14px;align-items:center;font-size:19px;font-weight:600;opacity:.35;transition:opacity .3s}
+.checklist div.done,.checklist div.now{opacity:1}
+.checklist i{width:28px;height:28px;border-radius:50%;border:2px solid currentColor;display:grid;place-items:center;flex:none}
+.checklist div.done i{background:var(--pink);border-color:var(--pink);color:var(--ink)}
+.checklist div.now i{border-top-color:transparent;animation:spin .8s linear infinite}
+.checklist i svg{width:15px;height:15px}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.checklist div.now i{animation:none}}
+
+/* paywall */
+.plan{display:flex;align-items:center;gap:14px;border:2px solid var(--line);border-radius:18px;padding:14px 16px;background:#fff;width:100%;text-align:left}
+.plan.on{border-color:var(--ink)}
+.plan .radio{width:24px;height:24px;border-radius:50%;border:2px solid var(--ink);flex:none;display:grid;place-items:center}
+.plan.on .radio::after{content:"";width:12px;height:12px;border-radius:50%;background:var(--ink)}
+.plan b{font-family:var(--display);font-weight:400;font-size:17px;text-transform:uppercase;display:block}
+.plan small{font-size:14px;color:var(--ink-2)}
+.plan .price{margin-left:auto;text-align:right;font-weight:700;font-size:15px}
+.pill{display:inline-block;background:var(--pink);color:var(--ink);font-family:var(--display);font-size:10px;letter-spacing:.08em;padding:3px 7px;border-radius:6px;text-transform:uppercase;margin-left:6px;vertical-align:middle}
+.tbd{color:var(--red)}
+.timeline{display:flex;flex-direction:column;gap:0;margin:6px 0 18px;padding-left:6px}
+.timeline div{display:flex;gap:14px;position:relative;padding-bottom:14px}
+.timeline div::before{content:"";position:absolute;left:10px;top:24px;bottom:0;width:2px;background:var(--pink)}
+.timeline div:last-child::before{display:none}
+.timeline i{width:22px;height:22px;border-radius:50%;background:var(--pink);flex:none}
+.timeline b{display:block;font-size:15px}
+.timeline span{font-size:14px;color:var(--ink-2)}
+.benefits{display:flex;flex-direction:column;gap:10px;margin:0 0 18px;padding:0;list-style:none}
+.benefits li{display:flex;gap:10px;font-size:16px;font-weight:600;align-items:flex-start}
+.benefits svg{width:20px;height:20px;flex:none;color:var(--green);margin-top:1px}
+
+/* reader */
+.pages{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin:0 -22px;padding:0 22px 12px;flex:1}
+.pages::-webkit-scrollbar{display:none}
+.page{flex:0 0 88%;scroll-snap-align:center;background:#fff;border-radius:6px;padding:22px 20px;display:flex;flex-direction:column;gap:12px;box-shadow:0 10px 30px rgba(80,20,40,.12);min-height:0}
+.page .pn{font-family:var(--display);font-size:11px;letter-spacing:.12em;color:var(--red)}
+.page h3{font-family:var(--display);font-weight:400;font-size:30px;line-height:.95;text-transform:uppercase;margin:0}
+.page p{margin:0;font-size:17px;line-height:1.45}
+.page .toc{display:flex;flex-direction:column;gap:12px;font-size:18px;font-weight:600}
+.page .toc span{display:flex;gap:12px}
+.page .toc em{font-style:normal;font-family:var(--display);color:var(--pink);width:26px}
+.page .q{font-family:var(--display);font-size:22px;line-height:1.1;text-transform:uppercase;border-left:4px solid var(--pink);padding-left:12px}
+
+/* misc */
+.avatar{width:96px;height:96px;border-radius:50%;background:var(--pink);display:grid;place-items:center;font-family:var(--display);font-size:40px;margin:0 auto 10px}
+.center{text-align:center}
+.later{background:var(--ink);color:var(--blush);font-family:var(--display);font-size:11px;letter-spacing:.1em;padding:6px 10px;border-radius:8px;align-self:flex-start;margin-bottom:14px;text-transform:uppercase}
+.hscroll{display:flex;gap:10px;overflow-x:auto;margin:0 -22px;padding:0 22px}
+.hscroll::-webkit-scrollbar{display:none}
+.tmpl{flex:0 0 96px;display:flex;flex-direction:column;gap:6px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.03em;text-align:left}
+.tmpl .sw{height:120px;border-radius:6px;border:3px solid transparent;overflow:hidden}
+.tmpl.on .sw{border-color:var(--ink)}
+.heart{position:absolute;right:8px;top:8px;width:34px;height:34px;border-radius:50%;background:rgba(245,238,224,.9);display:grid;place-items:center}
+.heart svg{width:18px;height:18px}
+.heart.on svg{fill:var(--red);color:var(--red)}
+.perm{background:#fff;border-radius:22px;padding:22px;text-align:center;display:flex;flex-direction:column;gap:10px;align-items:center}
+.perm .big-ic{width:72px;height:72px;border-radius:20px;background:var(--pink);display:grid;place-items:center}
+.perm .big-ic svg{width:36px;height:36px}
+.player-art{aspect-ratio:1;border-radius:22px;overflow:hidden;margin-bottom:22px}
+.scrub{height:4px;background:rgba(245,238,224,.25);border-radius:2px;margin:18px 0 6px}
+.scrub i{display:block;height:100%;width:38%;background:var(--pink);border-radius:2px}
+.controls{display:flex;justify-content:space-between;align-items:center;margin-top:18px}
+.controls .pp{width:76px;height:76px;border-radius:50%;background:var(--cream);color:var(--ink);display:grid;place-items:center}
+.controls svg{width:28px;height:28px}
+.num{font-variant-numeric:tabular-nums}
+</style>
+
+<div class="stage">
+  <div class="device"><div class="app" id="app">
+
+  <!-- ============ ONBOARDING ============ -->
+  <section class="screen blush" id="splash" data-title="01 Splash" data-note="Wavy ISSUE11 hero wordmark fills the screen, as in Megan's logo direction. One action: Enter.">
+    <div class="grow" style="margin:0 -8px"><canvas class="wave" data-text="ISSUE11"></canvas></div>
+    <p class="lede" style="font-family:var(--display);color:var(--ink);font-size:20px;line-height:1.1;text-transform:uppercase;margin:18px 0 22px">See it. Write it.<br>Become it.</p>
+    <button class="cta" data-go="hook">Enter <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+  </section>
+
+  <section class="screen" id="hook" data-title="02 Hook" data-note="Megan's pain-point hook. Stripe plates stand in for the cinematic editorial photography we'll shoot or source.">
+    <div class="top"><span class="step">01 / 08</span><button class="skip" data-go="name">Skip</button></div>
+    <div class="plate" style="height:40%;min-height:220px;margin-bottom:22px"><canvas class="art" data-seed="11" data-v="zebra"></canvas></div>
+    <h1 class="big">Tired of scrolling other people's lives?</h1>
+    <p class="lede">Your feed is full of their dreams. This space is for yours.</p>
+    <div class="grow"></div>
+    <div style="display:flex;align-items:center;justify-content:space-between"><div class="dots"><i class="on"></i><i></i><i></i></div><button class="round" data-go="dream" aria-label="Next">→</button></div>
+  </section>
+
+  <section class="screen" id="dream" data-title="03 Dream outcome" data-note="The dream outcome, in the brand's own words.">
+    <div class="top"><span class="step">02 / 08</span><button class="skip" data-go="name">Skip</button></div>
+    <div class="plate" style="height:40%;min-height:220px;margin-bottom:22px"><canvas class="art" data-seed="23" data-v="pinksun"></canvas></div>
+    <h1 class="big">A more aligned you.</h1>
+    <p class="lede">Write what you want. See it as your own magazine. Come back to it every day.</p>
+    <div class="grow"></div>
+    <div style="display:flex;align-items:center;justify-content:space-between"><div class="dots"><i></i><i class="on"></i><i></i></div><button class="round" data-go="ideal" aria-label="Next">→</button></div>
+  </section>
+
+  <section class="screen" id="ideal" data-title="04 Your ideal life" data-note="The one effortful input. Tap-to-fill examples lower the effort. This text becomes the cover story (page 4 of her issue).">
+    <div class="top"><span class="step">03 / 08</span><button class="skip" data-go="name">Skip</button></div>
+    <h1 class="big">What does your ideal life feel like?</h1>
+    <p class="lede">One sentence is enough. It becomes your cover story.</p>
+    <textarea id="idealText" rows="4" placeholder="Start typing…"></textarea>
+    <div class="examples">
+      <button data-fill="Slow mornings by the sea, work I'm proud of, and money that feels easy.">“Slow mornings by the sea, work I'm proud of…”</button>
+      <button data-fill="Calm, confident, and living in a home full of light.">“Calm, confident, and living in a home full of light.”</button>
+    </div>
+    <div class="grow" style="min-height:20px"></div>
+    <button class="cta" data-go="areas">Continue</button>
+  </section>
+
+  <section class="screen" id="areas" data-title="05 Life areas" data-note="Pick 3 or more. Picks shape the cover headlines on the reveal.">
+    <div class="top"><span class="step">04 / 08</span><span class="step" id="areasCount">0 / 3</span></div>
+    <h2 class="mid">What's your issue about?</h2>
+    <p class="lede" style="margin-bottom:14px">Pick 3 or more.</p>
+    <div class="grid2" id="areaGrid"></div>
+    <div style="height:18px;flex:none"></div>
+    <button class="cta" id="areasNext" data-go="visuals" disabled>Continue</button>
+  </section>
+
+  <section class="screen" id="visuals" data-title="06 Visuals" data-note="Visual taste sets the cover style and the images in Explore.">
+    <div class="top"><span class="step">05 / 08</span><span class="step" id="visCount">0 / 3</span></div>
+    <h2 class="mid">What visuals inspire you?</h2>
+    <p class="lede" style="margin-bottom:14px">Choose 3 or more.</p>
+    <div class="grid2" id="visGrid"></div>
+    <div style="height:18px;flex:none"></div>
+    <button class="cta" id="visNext" data-go="proof1" disabled>Continue</button>
+  </section>
+
+  <section class="screen" id="proof1" data-title="07 Past proof · new" data-note="NEW (replaces audio for v1). From the Notion concept. Gives Past Proof something real on day 1 and becomes page 12 of her issue.">
+    <div class="top"><span class="step">06 / 08</span><button class="skip" data-go="name">Skip</button></div>
+    <h1 class="big">Name one thing you already made happen.</h1>
+    <p class="lede">Big or small. It becomes the Proof page in your issue.</p>
+    <textarea id="proofText" rows="3" placeholder="I moved to the city I'd always talked about…"></textarea>
+    <div class="grow" style="min-height:20px"></div>
+    <button class="cta" data-go="name">Continue</button>
+  </section>
+
+  <section class="screen" id="name" data-title="08 Your name · new" data-note="NEW. Her name goes on the cover and on Home ('Good morning, Megan').">
+    <div class="top"><span class="step">07 / 08</span><span></span></div>
+    <h1 class="big">Whose name goes on the cover?</h1>
+    <p class="lede">First name is perfect.</p>
+    <input type="text" id="nameIn" placeholder="Your name" autocomplete="given-name" value="Megan">
+    <div class="grow" style="min-height:20px"></div>
+    <button class="cta" data-go="printing">Print my issue</button>
+  </section>
+
+  <section class="screen dark" id="printing" data-title="09 Printing · new" data-note="NEW. Short build-up before the reveal. Headlines come from her answers with templates, not AI.">
+    <div class="top"><span class="step">08 / 08</span><span></span></div>
+    <h1 class="big" style="color:var(--pink)">Printing your first issue…</h1>
+    <div class="checklist" id="checklist">
+      <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Writing your headlines</div>
+      <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Designing your cover</div>
+      <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Laying out your pages</div>
+      <div><i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></i>Binding your issue</div>
+    </div>
+  </section>
+
+  <section class="screen blush" id="reveal" data-title="10 Cover reveal · new" data-note="NEW. The sneak peek before she pays (Megan's call). Her name, her season, headlines from her picks. Share is a natural growth loop.">
+    <div class="top"><span class="step" id="revealHi">MEGAN, YOUR ISSUE IS READY</span><span></span></div>
+    <div id="revealCover" style="width:78%;margin:0 auto 22px"></div>
+    <div class="grow"></div>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button class="cta" data-go="signin">Keep my issue</button>
+      <button class="cta ghost" data-toast="Opens the iOS share sheet">Share the cover</button>
+    </div>
+  </section>
+
+  <section class="screen" id="signin" data-title="11 Save your issue · new" data-note="NEW. Account after value (from research). Sign in with Apple first; email as backup. Required for Apple's rule if we ever add Google login.">
+    <div class="top"><span></span><span></span></div>
+    <div id="signinCover" style="width:46%;margin:0 auto 22px"></div>
+    <h2 class="mid center">Save your issue</h2>
+    <p class="lede center" style="margin-inline:auto">So it's here tomorrow, and on any phone you sign in on.</p>
+    <div class="grow"></div>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button class="cta" data-go="notif"><svg width="18" height="20" viewBox="0 0 17 20" fill="currentColor"><path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9C3.6 4.8 2 5.8 1 7.4c-1.9 3.3-.5 8.2 1.4 10.9.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.7 1-1.5 1.5-3 1.5-3.1-.1 0-2.9-1.1-2.9-4.6zM11.5 3c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Sign in with Apple</button>
+      <button class="cta ghost" data-go="notif">Continue with email</button>
+    </div>
+    <p class="fine">By continuing you agree to the <u>Terms</u> and <u>Privacy Policy</u>.</p>
+  </section>
+
+  <section class="screen" id="notif" data-title="12 Notifications · new" data-note="NEW. Primed ask with a real reason, before the iOS prompt. 'Not now' is equal weight: Apple-friendly.">
+    <div class="top"><span></span><span></span></div>
+    <div class="grow"></div>
+    <div class="perm">
+      <div class="big-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></div>
+      <h2 class="mid" style="margin:6px 0 0">Your issue, every morning</h2>
+      <p class="lede" style="margin:0">One gentle note a day with today's page. Change the time or turn it off in Settings.</p>
+    </div>
+    <div class="grow"></div>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button class="cta" data-go="paywall" data-toast="iOS asks: “ISSUE11 would like to send you notifications”">Yes, 8:00 am</button>
+      <button class="cta ghost" data-go="paywall">Not now</button>
+    </div>
+  </section>
+
+  <section class="screen" id="paywall" data-title="13 Paywall" data-note="Prices are NOT set: 💛 Revenue + Megan decide. Everything Apple requires is here: close (X), price + renewal + trial terms, cancel text, Restore, Terms, Privacy.">
+    <div class="top"><button class="iconbtn" data-go="home" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg></button><button class="skip" data-toast="Restores an earlier purchase">Restore</button></div>
+    <h1 class="big" style="font-size:40px">Create a more aligned you.</h1>
+    <ul class="benefits">
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg><span id="pwBenefit">See your Autumn 2026 issue every morning</span></li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Unlimited journal pages and images</li>
+      <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>New cover styles and a new issue each season</li>
+    </ul>
+    <div style="display:flex;flex-direction:column;gap:10px" id="plans">
+      <button class="plan on"><span class="radio"></span><span><b>Yearly <span class="pill">7 days free</span></b><small>Billed once a year</small></span><span class="price tbd">Price TBD</span></button>
+      <button class="plan"><span class="radio"></span><span><b>Monthly</b><small>Billed every month</small></span><span class="price tbd">Price TBD</span></button>
+    </div>
+    <div class="label">How your free trial works</div>
+    <div class="timeline">
+      <div><i></i><p style="margin:0"><b>Today</b><span>Full access to your issue</span></p></div>
+      <div><i></i><p style="margin:0"><b>Day 5</b><span>We remind you before the trial ends</span></p></div>
+      <div><i></i><p style="margin:0"><b>Day 7</b><span>You're billed. Cancel before then to pay nothing</span></p></div>
+    </div>
+    <button class="cta" data-go="home" style="flex:none">Start free trial</button>
+    <p class="fine">Renews automatically at the price shown unless cancelled at least 24 hours before the end of the period. Cancel anytime in your Apple ID settings.</p>
+    <div class="links"><button data-toast="Opens Terms of Use">Terms</button><button data-toast="Opens Privacy Policy">Privacy</button><button data-toast="Restores an earlier purchase">Restore</button></div>
+  </section>
+
+  <!-- ============ APP ============ -->
+  <section class="screen tabbed" id="home" data-tab="home" data-title="Home" data-note="Daily page first, then the archive, then her world. No audio in v1, so today's experience is a journal prompt.">
+    <div class="top"><span style="width:112px;height:26px;display:block"><canvas class="wave" data-text="ISSUE11" data-calm="1"></canvas></span><button class="iconbtn" data-go="settings" aria-label="Notifications settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.9 1.9 0 0 0 3.4 0"/></svg></button></div>
+    <h1 class="big" style="font-size:38px" id="greet">Good morning, Megan.</h1>
+    <button class="plate" style="height:190px;flex:none;text-align:left" data-go="issue"><canvas class="art" data-seed="5" data-v="pinksun"></canvas><span class="cap">Your issue · Autumn 2026</span></button>
+    <div class="label">Today's page</div>
+    <button class="card" data-go="journal"><span><span class="t">What did future you do this morning?</span><span class="s">Journal · 3 min</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+    <div class="label">From the archive</div>
+    <button class="card" data-go="archive"><span class="thumb"><canvas class="art" data-seed="41" data-v="red"></canvas></span><span><span class="t">Is this part of your life now?</span><span class="s">8 months ago · Past Proof</span></span></button>
+    <div class="label">Continue your world</div>
+    <div class="grid2">
+      <button class="tile" data-go="world" style="aspect-ratio:1"><canvas class="art" data-seed="7" data-v="zebra"></canvas><span class="cap">Style</span></button>
+      <button class="tile" data-go="world" style="aspect-ratio:1"><canvas class="art" data-seed="8" data-v="cream"></canvas><span class="cap">Travel</span></button>
+    </div>
+  </section>
+
+  <section class="screen tabbed" id="explore" data-tab="explore" data-title="Explore" data-note="v1 Explore = inspiration, not audio: image collections + journal prompts by goal. Tapping a collection opens a prompt in the journal.">
+    <div class="top"><h1 class="big" style="margin:0">Explore</h1><button class="iconbtn" aria-label="Search" data-toast="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button></div>
+    <div class="chips" id="expChips" style="margin-bottom:18px"></div>
+    <div style="display:flex;flex-direction:column;gap:12px">
+      <button class="card" data-go="journal"><span class="thumb"><canvas class="art" data-seed="31" data-v="zebra"></canvas></span><span><span class="t">Confidence</span><span class="s">24 prompts · 60 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="journal"><span class="thumb"><canvas class="art" data-seed="32" data-v="cream"></canvas></span><span><span class="t">Travel</span><span class="s">18 prompts · 80 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="journal"><span class="thumb"><canvas class="art" data-seed="33" data-v="pinksun"></canvas></span><span><span class="t">Style &amp; Beauty</span><span class="s">20 prompts · 120 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="journal"><span class="thumb"><canvas class="art" data-seed="34" data-v="red"></canvas></span><span><span class="t">Wealth</span><span class="s">16 prompts · 50 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+    </div>
+  </section>
+
+  <section class="screen" id="journal" data-title="Journal entry" data-note="Standalone now (no audio session before it). Mic asks permission only on first tap. 'Add to my issue' is the bridge from journal to magazine.">
+    <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><span class="chip" style="display:grid;place-items:center">Today</span></div>
+    <h1 class="big" style="font-size:36px">How are you feeling now?</h1>
+    <div style="position:relative">
+      <textarea id="jText" rows="6" placeholder="Let it flow…"></textarea>
+      <button class="iconbtn" data-sheet="micSheet" style="position:absolute;right:6px;bottom:10px;background:var(--blush)" aria-label="Voice note"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></button>
+    </div>
+    <div class="label">Add to my issue</div>
+    <div class="chips"><button class="chip on" data-toggle>♡ Save as quote</button><button class="chip" data-toggle>Save image</button></div>
+    <div style="display:flex;gap:10px;margin-top:14px">
+      <span class="plate" style="width:76px;height:92px;border-radius:12px"><canvas class="art" data-seed="51" data-v="zebra"></canvas></span>
+      <span class="plate" style="width:76px;height:92px;border-radius:12px"><canvas class="art" data-seed="52" data-v="pinksun"></canvas></span>
+      <button style="width:76px;height:92px;border-radius:12px;border:1.5px dashed var(--ink);display:grid;place-items:center;font-size:28px" data-toast="Opens the iOS photo picker (no permission prompt needed)" aria-label="Add image">+</button>
+    </div>
+    <div class="grow" style="min-height:20px"></div>
+    <button class="cta" data-go="issue" data-toast="Saved to your issue">Save to my issue</button>
+  </section>
+
+  <section class="screen tabbed" id="issue" data-tab="issue" data-title="My Issue" data-note="Now its own tab (agreed). Cover styles replace the wireframe's 'templates'. Date follows the real season automatically.">
+    <div class="top"><h1 class="big" style="margin:0">Issue 01</h1><button class="iconbtn" data-toast="Share the cover" aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 8l5-5 5 5M5 13v7h14v-7"/></svg></button></div>
+    <div id="issueCover" style="width:74%;margin:0 auto 18px"></div>
+    <button class="cta" data-go="reader" style="flex:none">Enter issue →</button>
+    <div class="label">Cover style</div>
+    <div class="hscroll" id="styles"></div>
+  </section>
+
+  <section class="screen" id="reader" data-title="Issue reader" data-note="Swipe the pages. Every page is built from her own answers and journal saves.">
+    <div class="top"><button class="iconbtn" data-back aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg></button><span class="step">Swipe →</span></div>
+    <div class="pages" id="pages"></div>
+  </section>
+
+  <section class="screen" id="world" data-title="My World" data-note="Wireframe 11 'Visual World'. + uses the iOS photo picker, so no Photos permission prompt is needed.">
+    <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><button class="iconbtn" style="border:1.5px solid var(--ink)" data-toast="Opens the iOS photo picker" aria-label="Add image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 5v14M5 12h14"/></svg></button></div>
+    <h1 class="big">Your world</h1>
+    <div class="grid2" id="worldGrid"></div>
+  </section>
+
+  <section class="screen blush" id="archive" data-title="Past Proof" data-note="'8 months ago' is an example. On day 1 she sees the proof she typed in onboarding, so it's never empty.">
+    <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><span></span></div>
+    <h1 class="big">From the archive</h1>
+    <div class="label" style="margin-top:4px">8 months ago</div>
+    <div class="plate" style="height:210px;flex:none"><canvas class="art" data-seed="41" data-v="red"></canvas></div>
+    <p style="font-size:20px;font-weight:600;line-height:1.3;margin:16px 0 4px">“A home by the ocean.”</p>
+    <p class="lede">Is this part of your life now?</p>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button class="cta green" data-toast="Logged. It goes in your next issue's news">Yes, it happened</button>
+      <button class="cta ghost" data-toast="Kept in your vision">Not yet</button>
+    </div>
+    <div class="label">Your first proof</div>
+    <div class="card"><span><span class="t" id="proofEcho" style="font-family:var(--text);font-weight:700;text-transform:none;font-size:17px">“I moved to the city I'd always talked about.”</span><span class="s">From your first issue</span></span></div>
+  </section>
+
+  <section class="screen tabbed" id="you" data-tab="you" data-title="You" data-note="Wireframe 16. Audio Library removed for v1. Settings holds the Apple must-haves.">
+    <div class="top"><span></span><button class="iconbtn" data-go="settings" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 0 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 0 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 0 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 0 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg></button></div>
+    <div class="avatar" id="avatar">M</div>
+    <h2 class="mid center" id="youName">Megan</h2>
+    <div class="rows" style="margin-top:14px">
+      <button data-go="areas">My goals<span class="val" id="goalCount">3 areas</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
+      <button data-go="world">My World<span class="val num">24 saved</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
+      <button data-go="issue">My Issue<span class="val">Issue 01</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
+      <button data-go="journal">Journal<span class="val num">12 entries</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
+      <button data-go="archive">Past Proof<span class="val num">3 moments</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+    <div class="rows" style="margin-top:14px">
+      <button data-go="settings">Settings<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="margin-left:auto"><path d="M9 5l7 7-7 7"/></svg></button>
+      <button data-toast="Opens Privacy Policy">Privacy<svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" style="margin-left:auto"><path d="M9 5l7 7-7 7"/></svg></button>
+    </div>
+  </section>
+
+  <section class="screen" id="settings" data-title="Settings · new" data-note="NEW. Restore purchases, manage subscription, Terms, Privacy and in-app account deletion: all App Store requirements.">
+    <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><span></span></div>
+    <h1 class="big">Settings</h1>
+    <div class="label">Reminders</div>
+    <div class="rows"><div class="row">Morning issue<span class="toggle"></span></div><button>Time<span class="val num">8:00 am</span></button></div>
+    <div class="label">Subscription</div>
+    <div class="rows"><button data-toast="Opens Apple subscription management">Manage subscription</button><button data-toast="Restores an earlier purchase">Restore purchases</button></div>
+    <div class="label">Legal</div>
+    <div class="rows"><button data-toast="Opens Privacy Policy">Privacy Policy</button><button data-toast="Opens Terms of Use">Terms of Use</button></div>
+    <div class="label">Account</div>
+    <div class="rows"><button data-go="splash">Sign out</button><button data-go="delete" style="color:var(--red)">Delete account</button></div>
+  </section>
+
+  <section class="screen" id="delete" data-title="Delete account · new" data-note="NEW. Apple 5.1.1(v): deletion inside the app. Clear about what's lost and that the subscription is cancelled separately in Apple settings.">
+    <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><span></span></div>
+    <h1 class="big">Delete your account?</h1>
+    <p class="lede">This permanently deletes your issues, journal, images and Past Proof. It can't be undone.</p>
+    <p class="lede">Your subscription is billed by Apple. Cancel it in your Apple ID settings so you're not charged again.</p>
+    <div class="grow"></div>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button class="cta red" data-go="splash" data-toast="Account deleted">Delete my account</button>
+      <button class="cta ghost" data-back>Keep my account</button>
+    </div>
+  </section>
+
+  <!-- ============ LATER (v1.1) ============ -->
+  <section class="screen" id="audio" data-title="Audio preferences · later" data-note="Wireframe 07. Not in the first build (Megan: no audio in v1). Kept so the design is ready when audio content exists. Wording: no health claims.">
+    <span class="later">Later · not in v1</span>
+    <h2 class="mid">What type of audio resonates with you?</h2>
+    <div class="rows" style="margin-top:10px">
+      <div class="row">Affirmations</div><div class="row">Subliminals</div><div class="row">Guided visualizations</div><div class="row">Meditations</div><div class="row">Breathwork</div>
+    </div>
+  </section>
+
+  <section class="screen dark" id="player" data-title="Player · later" data-note="Wireframe 12. Later. When it ships, the journal prompt opens right after the session ends.">
+    <span class="later" style="background:var(--pink);color:var(--ink)">Later · not in v1</span>
+    <div class="player-art"><canvas class="art" data-seed="61" data-v="noir"></canvas></div>
+    <div class="label" style="margin:0 0 6px">Self concept · 12 min</div>
+    <h1 class="big" style="color:var(--cream)">Become her.</h1>
+    <div class="scrub"><i></i></div>
+    <div style="display:flex;justify-content:space-between;font-size:13px" class="num"><span>04:12</span><span>-07:48</span></div>
+    <div class="controls">
+      <button class="iconbtn" aria-label="Back 15 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 17l-5-5 5-5M18 17l-5-5 5-5"/></svg></button>
+      <button class="pp" aria-label="Pause"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></svg></button>
+      <button class="iconbtn" aria-label="Forward 15 seconds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 17l5-5-5-5M6 17l5-5-5-5"/></svg></button>
+    </div>
+  </section>
+
+  <!-- tab bar -->
+  <nav class="tabbar" id="tabbar" hidden>
+    <button data-go="home" data-t="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6h-6v6H4a1 1 0 0 1-1-1z"/></svg>Home</button>
+    <button data-go="explore" data-t="explore"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>Explore</button>
+    <button class="plus" data-sheet="newSheet" aria-label="New entry"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M12 5v14M5 12h14"/></svg></button>
+    <button data-go="issue" data-t="issue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="5" y="3" width="14" height="18" rx="1.5"/><path d="M8 7h8M8 11h5"/></svg>Issue</button>
+    <button data-go="you" data-t="you"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg>You</button>
+  </nav>
+
+  <!-- sheets -->
+  <div class="sheetwrap" id="newSheet" data-title="(+) New entry · new">
+    <div class="sheet">
+      <div class="grab"></div>
+      <h2 class="mid" style="margin-bottom:14px">New entry</h2>
+      <div class="opts">
+        <button class="opt" data-go="journal"><span class="ic" style="background:var(--blush)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 20h4L19 9l-4-4L4 16z"/></svg></span><b>Write</b><span>A journal page</span></button>
+        <button class="opt" data-go="journal"><span class="ic" style="background:var(--pink)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></span><b>Voice</b><span>Speak it, see it written</span></button>
+        <button class="opt" data-go="world"><span class="ic" style="background:var(--grey)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="M21 17l-5-5-8 8"/></svg></span><b>Image</b><span>Add to your world</span></button>
+        <button class="opt" data-go="archive"><span class="ic" style="background:var(--green);color:#fff"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12l5 5 9-10"/></svg></span><b>A win</b><span>Log proof</span></button>
+      </div>
+    </div>
+  </div>
+  <div class="sheetwrap" id="micSheet" data-title="Mic permission · new">
+    <div class="sheet">
+      <div class="grab"></div>
+      <div class="perm" style="background:transparent;padding:6px 0 16px">
+        <div class="big-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div>
+        <h2 class="mid" style="margin:4px 0 0">Talk it out</h2>
+        <p class="lede" style="margin:0">ISSUE11 uses your microphone only while you hold the mic, to turn your voice into words on the page.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <button class="cta" data-close data-toast="iOS asks for microphone access">Allow microphone</button>
+        <button class="cta ghost" data-close>Not now</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  </div></div>
+
+  <aside class="side" id="side">
+    <div>
+      <h1>ISSUE11 · prototype v1</h1>
+      <p style="margin-top:6px">Tap through it like the real app. Stripe plates stand in for editorial photography.</p>
+    </div>
+    <div class="note"><b id="noteTitle">01 Splash</b><span id="noteText"></span></div>
+    <div class="idx" id="idx"></div>
+  </aside>
+</div>
+<button class="fab" id="fab">SCREENS</button>
+
+<script>
+(function(){
+const $=s=>document.querySelector(s), $$=s=>Array.from(document.querySelectorAll(s));
+const state={name:"Megan",areas:new Set(),vis:new Set(),style:0,ideal:"",proof:""};
+const tick='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.2"><path d="M5 12l5 5 9-10" stroke="#f5eee0"/></svg>';
+
+/* ---------- season ---------- */
+function season(){const d=new Date(),m=d.getMonth(),y=d.getFullYear();
+  const s=m<2||m==11?"Winter":m<5?"Spring":m<8?"Summer":"Autumn";return s+" "+(m==11?y+1:y);}
+
+/* ---------- seeded random ---------- */
+function rng(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+/* ---------- stripe art (stand-in for photography) ---------- */
+const V={zebra:["#fcd2dd","#0d0d0d",null],pinksun:["#f5eee0","#0d0d0d","#f65aad"],red:["#fcd2dd","#d40806",null],cream:["#f65aad","#f5eee0",null],noir:["#0d0d0d","#f65aad","#fcd2dd"],green:["#f5eee0","#4ba551",null],blush:["#f5eee0","#f65aad","#0d0d0d"]};
+function stripes(ctx,w,h,r,ink,n){
+  const ang=(r()-.5)*0.9, diag=Math.hypot(w,h);
+  ctx.save();ctx.translate(w/2,h/2);ctx.rotate(ang);ctx.fillStyle=ink;
+  const gap=diag/n;
+  for(let i=0;i<n;i++){
+    const y0=-diag/2+i*gap+gap*.2, f1=(1.5+r()*3)/diag*Math.PI*2, f2=(4+r()*6)/diag*Math.PI*2, p1=r()*6, p2=r()*6, a1=gap*(.3+r()*.5), a2=gap*.12, t=gap*(.28+r()*.3);
+    ctx.beginPath();
+    for(let x=-diag/2;x<=diag/2;x+=6){const y=y0+a1*Math.sin(f1*x+p1)+a2*Math.sin(f2*x+p2);x==-diag/2?ctx.moveTo(x,y):ctx.lineTo(x,y);}
+    for(let x=diag/2;x>=-diag/2;x-=6){const y=y0+a1*Math.sin(f1*x+p1)+a2*Math.sin(f2*x+p2)+t*(.55+.45*Math.sin(f2*.7*x+p1));ctx.lineTo(x,y);}
+    ctx.closePath();ctx.fill();
+  }
+  ctx.restore();
+}
+function drawArt(c){
+  const w=c.clientWidth,h=c.clientHeight;if(!w||!h)return;
+  const dpr=Math.min(window.devicePixelRatio||1,2);c.width=w*dpr;c.height=h*dpr;
+  const ctx=c.getContext("2d");ctx.scale(dpr,dpr);
+  const [bg,ink,sun]=V[c.dataset.v]||V.zebra, r=rng(+c.dataset.seed||1);
+  ctx.fillStyle=bg;ctx.fillRect(0,0,w,h);
+  stripes(ctx,w,h,r,ink,7+Math.floor(r()*5));
+  if(sun){const R=Math.min(w,h)*(.28+r()*.1),cx=w*(.35+r()*.3),cy=h*(.35+r()*.3);
+    ctx.save();ctx.beginPath();ctx.arc(cx,cy,R,0,Math.PI*2);ctx.fillStyle=sun;ctx.fill();ctx.clip();
+    stripes(ctx,w,h,rng(+c.dataset.seed+99),bg,9);ctx.restore();}
+}
+
+/* ---------- wavy wordmark ---------- */
+function drawWave(c){
+  const w=c.clientWidth,h=c.clientHeight;if(!w||!h)return;
+  const dpr=Math.min(window.devicePixelRatio||1,2),W=Math.round(w*dpr),H=Math.round(h*dpr);
+  c.width=W;c.height=H;const ctx=c.getContext("2d");
+  const calm=!!c.dataset.calm, color=c.dataset.color||"#0d0d0d";
+  const fs=200, o=document.createElement("canvas"), oc=o.getContext("2d");
+  oc.font=fs+'px "Archivo Black", "Arial Black", sans-serif';
+  const tw=oc.measureText(c.dataset.text).width, th=fs*.74;
+  o.width=Math.ceil(tw);o.height=Math.ceil(th);
+  oc.font=fs+'px "Archivo Black", "Arial Black", sans-serif';oc.fillStyle=color;oc.textBaseline="alphabetic";oc.fillText(c.dataset.text,0,th);
+  // stretch into target (tall, condensed)
+  const amp=calm?0:H*.035, ampX=calm?0:W*.018, s=document.createElement("canvas");
+  s.width=W;s.height=H;const sc=s.getContext("2d");
+  sc.drawImage(o,0,0,o.width,o.height,ampX,amp,W-2*ampX,H-2*amp);
+  if(calm){ctx.drawImage(s,0,0);return;}
+  // pass 1: columns shift vertically
+  const t=document.createElement("canvas");t.width=W;t.height=H;const tc=t.getContext("2d");
+  const lx=W/2.3;for(let x=0;x<W;x+=2){const dy=amp*Math.sin(x/lx*Math.PI*2+.6);tc.drawImage(s,x,0,2,H,x,dy,2,H);}
+  // pass 2: rows shift horizontally
+  const ly=H/1.6;for(let y=0;y<H;y+=2){const dx=ampX*Math.sin(y/ly*Math.PI*2);ctx.drawImage(t,0,y,W,2,dx,y,W,2);}
+}
+
+/* ---------- cover ---------- */
+const STYLES=[["Fashion & Beauty","#fcd2dd","pinksun"],["Travel","#f5eee0","zebra"],["Art","#f65aad","noir"],["Business & Lifestyle","#f2f2f2","red"]];
+const HL={Wealth:n=>`How ${n} made money feel easy`,Career:n=>`${n} on the work that finally fits`,Love:()=>"Love, on her own terms",Body:()=>"Strong, soft and at home",Style:n=>`The ${n} edit: dressing for the life she's in`,Travel:n=>`Postcards from ${n}'s next city`};
+function headline(){const a=[...state.areas];const n=state.name||"You";return (HL[a[0]]||(x=>`How ${x} built a life of ease`))(n);}
+function cover(el,small){
+  const st=STYLES[state.style];
+  el.innerHTML=`<div class="cover${small?" sm":""}" style="background:${st[1]}">
+    <div class="mast"><canvas class="wave" data-text="ISSUE11"${st[1]=="#f65aad"?"":""}></canvas></div>
+    <span class="issue-no">NO. 01</span>
+    <div class="art-bg"><canvas class="art" data-seed="${3+state.style}" data-v="${st[2]}"></canvas></div>
+    <div class="who">${esc(state.name||"You")}</div>
+    <div class="hl">${esc(headline())}</div>
+    <div class="date">${season()} issue</div></div>`;
+}
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+
+/* ---------- builders ---------- */
+const AREAS=[["Wealth","red"],["Career","zebra"],["Love","pinksun"],["Body","cream"],["Style","blush"],["Travel","green"]];
+$("#areaGrid").innerHTML=AREAS.map((a,i)=>`<button class="tile" data-area="${a[0]}"><canvas class="art" data-seed="${70+i}" data-v="${a[1]}"></canvas><span class="tick">${tick}</span><span class="cap">${a[0]}</span></button>`).join("");
+const VIS=[["Soft glam","pinksun"],["Coastal","cream"],["City nights","noir"],["Minimal","zebra"],["Bold color","red"],["Dreamy","blush"]];
+$("#visGrid").innerHTML=VIS.map((a,i)=>`<button class="tile" data-vis="${i}"><canvas class="art" data-seed="${80+i}" data-v="${a[1]}"></canvas><span class="tick">${tick}</span><span class="cap">${a[0]}</span></button>`).join("");
+$("#worldGrid").innerHTML=[..."abcdef"].map((_,i)=>`<div class="tile" style="border:0"><canvas class="art" data-seed="${90+i}" data-v="${["zebra","pinksun","cream","red","noir","blush"][i]}"></canvas><button class="heart${i%3==0?" on":""}" data-heart aria-label="Favorite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button></div>`).join("");
+$("#expChips").innerHTML=["All","Self concept","Career","Body","Style","Travel"].map((c,i)=>`<button class="chip${i?"":" on"}" data-exp>${c}</button>`).join("");
+function renderStyles(){$("#styles").innerHTML=STYLES.map((s,i)=>`<button class="tmpl${i==state.style?" on":""}" data-style="${i}"><span class="sw" style="background:${s[1]}"><canvas class="art" data-seed="${3+i}" data-v="${s[2]}"></canvas></span>${s[0]}</button>`).join("");}
+function renderPages(){
+  const n=esc(state.name||"You");
+  const ideal=esc(state.ideal||"Slow mornings by the sea, work I'm proud of, and money that feels easy.");
+  const proof=esc(state.proof||"I moved to the city I'd always talked about.");
+  $("#pages").innerHTML=`
+  <div class="page"><span class="pn">CONTENTS</span><h3>Inside this issue</h3><div class="toc"><span><em>04</em>Your vision</span><span><em>08</em>Your steps</span><span><em>12</em>Your proof</span></div><p style="color:var(--ink-2);margin-top:auto">${season()} · ${n}</p></div>
+  <div class="page"><span class="pn">P. 04 · YOUR VISION</span><h3>${esc(headline())}</h3><div class="q">“${ideal}”</div><div class="plate" style="flex:1;min-height:140px"><canvas class="art" data-seed="12" data-v="zebra"></canvas></div></div>
+  <div class="page"><span class="pn">P. 08 · YOUR STEPS</span><h3>Three moves this season</h3><p>1. Write one page a week about the life you're building.<br>2. Save one image a day that looks like it.<br>3. Log every win, however small.</p></div>
+  <div class="page"><span class="pn">P. 12 · YOUR PROOF</span><h3>You've done this before</h3><div class="q">“${proof}”</div><p style="color:var(--ink-2)">Every win you log becomes news in your next issue.</p></div>`;
+}
+
+/* ---------- navigation ---------- */
+const hist=[];let cur=null;
+const TABS=["home","explore","issue","you"];
+function paint(scope){
+  scope.querySelectorAll("canvas.art").forEach(drawArt);
+  scope.querySelectorAll("canvas.wave").forEach(drawWave);
+}
+function refresh(id){
+  const n=state.name||"You";
+  if(id=="reveal"){$("#revealHi").textContent=n.toUpperCase()+", YOUR ISSUE IS READY";cover($("#revealCover"));}
+  if(id=="signin")cover($("#signinCover"),true);
+  if(id=="issue"){cover($("#issueCover"));renderStyles();}
+  if(id=="reader")renderPages();
+  if(id=="home")$("#greet").textContent=greeting()+", "+n+".";
+  if(id=="you"){$("#youName").textContent=n;$("#avatar").textContent=n[0].toUpperCase();$("#goalCount").textContent=(state.areas.size||3)+" areas";}
+  if(id=="archive")$("#proofEcho").textContent="“"+(state.proof||"I moved to the city I'd always talked about.")+"”";
+  if(id=="paywall")$("#pwBenefit").textContent="See your "+season()+" issue every morning";
+  if(id=="printing")runPrint();
+}
+function greeting(){const h=new Date().getHours();return h<12?"Good morning":h<18?"Good afternoon":"Good evening";}
+function go(id,push=true){
+  const el=document.getElementById(id);if(!el)return;
+  if(el.classList.contains("sheetwrap")){openSheet(id);return;}
+  closeSheets();
+  if(cur&&push&&cur!==id)hist.push(cur);
+  $$(".screen.on").forEach(s=>s.classList.remove("on"));
+  el.classList.add("on");el.scrollTop=0;cur=id;
+  refresh(id);
+  requestAnimationFrame(()=>paint(el));
+  const t=el.dataset.tab;$("#tabbar").hidden=!t;
+  $$("#tabbar [data-t]").forEach(b=>b.classList.toggle("on",b.dataset.t==t));
+  if(t&&el.dataset.tab)hist.length=0;
+  setNote(el);
+  try{localStorage.setItem("i11-screen",id)}catch(e){}
+}
+function setNote(el){
+  $("#noteTitle").textContent=el.dataset.title;$("#noteText").textContent=el.dataset.note||"";
+  $$("#idx button").forEach(b=>b.classList.toggle("on",b.dataset.to==el.id));
+}
+function openSheet(id){const s=document.getElementById(id);s.classList.add("on");$("#noteTitle").textContent=s.dataset.title;$("#noteText").textContent=id=="newSheet"?"NEW. The (+) tab opens this sheet: write, voice, image or log a win.":"NEW. Primed ask before iOS's own mic prompt, shown only on first tap.";}
+function closeSheets(){$$(".sheetwrap.on").forEach(s=>s.classList.remove("on"));}
+let tt;function toast(m){const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(tt);tt=setTimeout(()=>t.classList.remove("on"),2200);}
+
+let pt=[];
+function runPrint(){
+  pt.forEach(clearTimeout);pt=[];
+  const rows=$$("#checklist div");rows.forEach(r=>r.className="");
+  rows.forEach((r,i)=>{pt.push(setTimeout(()=>{if(i)rows[i-1].className="done";r.className="now";},i*800));});
+  pt.push(setTimeout(()=>{rows[rows.length-1].className="done";},rows.length*800));
+  pt.push(setTimeout(()=>{if(cur=="printing")go("reveal");},rows.length*800+500));
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click",e=>{
+  const b=e.target.closest("button,[data-go]");
+  if(e.target.classList.contains("sheetwrap")){closeSheets();setNote(document.getElementById(cur));return;}
+  if(!b)return;
+  if(b.dataset.toast)toast(b.dataset.toast);
+  if(b.dataset.fill){$("#idealText").value=b.dataset.fill;state.ideal=b.dataset.fill;}
+  if(b.dataset.area){const a=b.dataset.area;state.areas.has(a)?state.areas.delete(a):state.areas.add(a);b.classList.toggle("on");const n=state.areas.size;$("#areasCount").textContent=Math.min(n,3)+" / 3";$("#areasNext").disabled=n<3;}
+  if(b.dataset.vis){const v=b.dataset.vis;state.vis.has(v)?state.vis.delete(v):state.vis.add(v);b.classList.toggle("on");const n=state.vis.size;$("#visCount").textContent=Math.min(n,3)+" / 3";$("#visNext").disabled=n<3;}
+  if(b.dataset.style!=null){state.style=+b.dataset.style;refresh("issue");paint($("#issue"));}
+  if(b.hasAttribute("data-heart"))b.classList.toggle("on");
+  if(b.hasAttribute("data-toggle"))b.classList.toggle("on");
+  if(b.hasAttribute("data-exp")){$$("[data-exp]").forEach(x=>x.classList.remove("on"));b.classList.add("on");}
+  if(b.closest("#plans")&&b.classList.contains("plan")){$$("#plans .plan").forEach(x=>x.classList.remove("on"));b.classList.add("on");}
+  if(b.dataset.sheet){openSheet(b.dataset.sheet);return;}
+  if(b.hasAttribute("data-close")){closeSheets();setNote(document.getElementById(cur));return;}
+  if(b.hasAttribute("data-back")){go(hist.pop()||"home",false);return;}
+  if(b.dataset.go){if(cur=="name")state.name=($("#nameIn").value.trim()||"You").slice(0,14);go(b.dataset.go);}
+  if(b.dataset.to){go(b.dataset.to);side(false);}
+});
+$("#idealText").addEventListener("input",e=>state.ideal=e.target.value.trim());
+$("#proofText").addEventListener("input",e=>state.proof=e.target.value.trim());
+
+/* ---------- index ---------- */
+const groups=[["Onboarding",["splash","hook","dream","ideal","areas","visuals","proof1","name","printing","reveal","signin","notif","paywall"]],["App",["home","explore","newSheet","journal","micSheet","issue","reader","world","archive","you","settings","delete"]],["Later (v1.1)",["audio","player"]]];
+$("#idx").innerHTML=groups.map(g=>`<h2>${g[0]}</h2>`+g[1].map(id=>{const t=document.getElementById(id).dataset.title;const m=t.match(/^(.*?)( · (new|later))?$/);return `<button data-to="${id}"><span>${m[1]}</span>${m[3]?`<span class="tag">${m[3].toUpperCase()}</span>`:""}</button>`}).join("")).join("");
+$("#idx").addEventListener("click",e=>{const b=e.target.closest("[data-to]");if(!b)return;e.stopPropagation();const id=b.dataset.to;if(id.endsWith("Sheet")){go(id=="newSheet"?"home":"journal");openSheet(id);}else go(id);side(false);});
+function side(open){$("#side").classList.toggle("open",open);let s=$(".scrim");if(open&&!s){s=document.createElement("div");s.className="scrim";s.onclick=()=>side(false);document.body.appendChild(s);}if(!open&&s)s.remove();}
+$("#fab").onclick=()=>side(true);
+
+/* ---------- boot ---------- */
+let start="splash";try{const s=localStorage.getItem("i11-screen");if(s&&document.getElementById(s)&&!["printing"].includes(s))start=s;}catch(e){}
+function boot(){go(start,false);}
+(document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(boot);
+setTimeout(()=>{if(!cur)boot();},1500);
+let rz;window.addEventListener("resize",()=>{clearTimeout(rz);rz=setTimeout(()=>cur&&paint(document.getElementById(cur)),150);});
+})();
+</script>

@@ -1,6 +1,6 @@
 # ISSUE11 flow map + gaps (Design Room, step 1, Sep 30, 2026)
 🩵 PRODUCT + 🎨 BRAND. Source: design/wireframes-v0.webp + WIREFRAMES.md, checked against Notion "App Concept + Onboarding Flow", Roadmap Goal 3, .pipeline/app-store-checklist.md.
-Status: waiting on Megan's 3 answers before step 2 (branded prototype).
+Status: step 2 done. Prototype v1: https://claude.ai/artifact/LrFfSmECZknsurnx2LKKVf (source: design/prototype/index.html)
 
 ## Flow map
 ```
@@ -38,3 +38,18 @@ Tabs: Home · Explore · (+) · Journal · You
 3. **Tabs:** *Recommend Home · Explore · (+ new entry) · Issue · You.* Journal lives under (+) and You.
 
 Not decided here: pricing (💛 Revenue + Megan).
+
+## Megan's decisions (Sep 30, 2026, her words summarized)
+- Add a magazine sneak peek (cover reveal) before she pays: Name → "Printing your issue…" → Reveal → Paywall.
+- "No audio is included in v1" + audio screens "ship when the app is out". Read as: first Lovable build = journal + cover; audio screens designed now, content plan still needed. ⚠️ To confirm with Megan.
+- Ask her name. Onboarding is not set in stone yet.
+- Tabs: Home · Explore · (+ new entry) · Issue · You (agreed).
+
+## Product Lead suggestions for the open parts (in the prototype, Megan to confirm)
+- (+) opens a "New entry" sheet: write, voice, add image, log a win.
+- SKIP → jumps to the name screen; skipped answers use gentle defaults, editable in You → Goals.
+- Photos: use the iOS photo picker (no permission prompt needed). Mic: ask on first mic tap, with a reason.
+- Notifications: primed screen right after the reveal ("Get your issue every morning?"), system prompt only on "Yes".
+- Past Proof day 1: seeded by a new onboarding question "Name one thing you already made happen" (from the Notion concept).
+- Cover date: the real current season, set automatically (no "Spring 2025").
+- Paywall: visible close (X) + Restore + Terms/Privacy. Free vs hard-gated after closing = 💛 Revenue + Megan.

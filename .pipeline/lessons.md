@@ -10,3 +10,5 @@ _(none yet)_
 
 ## Suggestions
 _(none yet)_ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
+- 2026-09-30 · Design Room · Checking the wireframes against the Notion concept found the biggest gap (no cover reveal before the paywall). Always cross-check wireframes with the concept page before designing.
+- 2026-09-30 · Design Room · Megan's answers can conflict ("no audio in v1" vs "ships when the app is out"). Log my reading in design/FLOW-MAP.md and confirm it in one line instead of guessing silently.

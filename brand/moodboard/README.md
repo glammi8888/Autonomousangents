@@ -15,6 +15,6 @@ What these share (Manager's read, for 🎨 BRAND to build on, not a decision):
 ## Logo direction (Megan, Sep 30, 2026): logo-direction.webp
 Chosen by Megan: the ISSUE11 wordmark in tall, condensed black letters that warp into wavy stripes, filling the whole cover, on white over baby pink.
 To do when it's designed for real (vector, by a designer):
-- In the AI mockup the "E" reads like an "F" ("ISSUF11"). Redraw so it clearly reads ISSUE11.
+- It reads ISSUE11 (Megan). Tip for the final vector: test that the E's bottom bar stays clear when the wordmark is small.
 - An app icon is tiny: the full wordmark won't read there. Needs a short mark in the same wavy-stripe style (e.g. "11" or "I11"), plus a check on a small phone screen.
 - Keep a straight, readable version for small sizes (App Store listing, social avatars).

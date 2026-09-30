@@ -26,3 +26,10 @@ Functionality only; the look comes from brand/BRAND-GUIDE.md. 16 screens. Bottom
 - Notification permission screen (with a reason), empty states (first day: no issue yet), error/offline states
 - AI consent screen IF any AI touches journal entries or images
 - Wording check: "subliminals" and wellness audio must not make health claims
+
+## ✅ Approved by Megan, Sep 30, 2026: add these screens
+A. **Sign up / Sign in**, placed AFTER onboarding + paywall: "Save your issue" (no sign-in wall at the start; users invest first, then create an account).
+   - Sign in with Apple (primary, one tap) + email. If Google is ever added, Apple stays (App Store 4.8).
+   - Returning users: a small "Already have an account? Sign in" link on the Splash screen.
+B. **Account deletion inside the app:** You → Settings → Delete account → confirm screen (what gets deleted, and that any subscription must be cancelled in Apple settings, with a link) → done. (App Store 5.1.1(v))
+⚠️ Authentication and account deletion are sensitive areas: when these are BUILT, the spec needs Megan's explicit approval before building (CLAUDE.md safety rule). Designing them now is fine.

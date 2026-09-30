@@ -246,10 +246,11 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <div class="grow" style="margin:0 -8px"><canvas class="wave" data-text="ISSUE11"></canvas></div>
     <p class="lede" style="font-family:var(--display);color:var(--ink);font-size:20px;line-height:1.1;text-transform:uppercase;margin:18px 0 22px">See it. Write it.<br>Become it.</p>
     <button class="cta" data-go="hook">Enter <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    <p class="fine" style="margin-top:14px">Already have an account? <button style="font-weight:700;text-decoration:underline;min-height:32px" data-go="signin">Sign in</button></p>
   </section>
 
   <section class="screen" id="hook" data-title="02 Hook" data-note="Megan's pain-point hook. Stripe plates stand in for the cinematic editorial photography we'll shoot or source.">
-    <div class="top"><span class="step">01 / 08</span><button class="skip" data-go="name">Skip</button></div>
+    <div class="top"><span class="step">01 / 08</span><button class="skip" data-go="dream">Skip</button></div>
     <div class="plate" style="height:40%;min-height:220px;margin-bottom:22px"><canvas class="art" data-seed="11" data-v="zebra"></canvas></div>
     <h1 class="big">Tired of scrolling other people's lives?</h1>
     <p class="lede">Your feed is full of their dreams. This space is for yours.</p>
@@ -258,7 +259,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <section class="screen" id="dream" data-title="03 Dream outcome" data-note="The dream outcome, in the brand's own words.">
-    <div class="top"><span class="step">02 / 08</span><button class="skip" data-go="name">Skip</button></div>
+    <div class="top"><span class="step">02 / 08</span><button class="skip" data-go="ideal">Skip</button></div>
     <div class="plate" style="height:40%;min-height:220px;margin-bottom:22px"><canvas class="art" data-seed="23" data-v="pinksun"></canvas></div>
     <h1 class="big">A more aligned you.</h1>
     <p class="lede">Write what you want. See it as your own magazine. Come back to it every day.</p>
@@ -267,7 +268,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
   </section>
 
   <section class="screen" id="ideal" data-title="04 Your ideal life" data-note="The one effortful input. Tap-to-fill examples lower the effort. This text becomes the cover story (page 4 of her issue).">
-    <div class="top"><span class="step">03 / 08</span><button class="skip" data-go="name">Skip</button></div>
+    <div class="top"><span class="step">03 / 08</span><button class="skip" data-go="areas">Skip</button></div>
     <h1 class="big">What does your ideal life feel like?</h1>
     <p class="lede">One sentence is enough. It becomes your cover story.</p>
     <textarea id="idealText" rows="4" placeholder="Start typing…"></textarea>
@@ -331,25 +332,25 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <div id="revealCover" style="width:78%;margin:0 auto 22px"></div>
     <div class="grow"></div>
     <div style="display:flex;flex-direction:column;gap:10px">
-      <button class="cta" data-go="signin">Keep my issue</button>
+      <button class="cta" data-go="notif">Keep my issue</button>
       <button class="cta ghost" data-toast="Opens the iOS share sheet">Share the cover</button>
     </div>
   </section>
 
-  <section class="screen" id="signin" data-title="11 Save your issue · new" data-note="NEW. Account after value (from research). Sign in with Apple first; email as backup. Required for Apple's rule if we ever add Google login.">
+  <section class="screen" id="signin" data-title="13 Save your issue · new" data-note="NEW. Approved: account AFTER onboarding + paywall. Sign in with Apple first; email as backup. Required for Apple's rule if we ever add Google login.">
     <div class="top"><span></span><span></span></div>
     <div id="signinCover" style="width:46%;margin:0 auto 22px"></div>
     <h2 class="mid center">Save your issue</h2>
     <p class="lede center" style="margin-inline:auto">So it's here tomorrow, and on any phone you sign in on.</p>
     <div class="grow"></div>
     <div style="display:flex;flex-direction:column;gap:10px">
-      <button class="cta" data-go="notif"><svg width="18" height="20" viewBox="0 0 17 20" fill="currentColor"><path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9C3.6 4.8 2 5.8 1 7.4c-1.9 3.3-.5 8.2 1.4 10.9.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.7 1-1.5 1.5-3 1.5-3.1-.1 0-2.9-1.1-2.9-4.6zM11.5 3c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Sign in with Apple</button>
-      <button class="cta ghost" data-go="notif">Continue with email</button>
+      <button class="cta" data-go="home"><svg width="18" height="20" viewBox="0 0 17 20" fill="currentColor"><path d="M14.1 10.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9C3.6 4.8 2 5.8 1 7.4c-1.9 3.3-.5 8.2 1.4 10.9.9 1.3 2 2.8 3.4 2.7 1.4-.1 1.9-.9 3.5-.9s2.1.9 3.5.9c1.5 0 2.4-1.3 3.3-2.7 1-1.5 1.5-3 1.5-3.1-.1 0-2.9-1.1-2.9-4.6zM11.5 3c.7-.9 1.2-2.1 1.1-3.3-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.2 1.1.1 2.3-.6 3-1.5z"/></svg>Sign in with Apple</button>
+      <button class="cta ghost" data-go="home">Continue with email</button>
     </div>
     <p class="fine">By continuing you agree to the <u>Terms</u> and <u>Privacy Policy</u>.</p>
   </section>
 
-  <section class="screen" id="notif" data-title="12 Notifications · new" data-note="NEW. Primed ask with a real reason, before the iOS prompt. 'Not now' is equal weight: Apple-friendly.">
+  <section class="screen" id="notif" data-title="11 Notifications · new" data-note="NEW. Primed ask with a real reason, before the iOS prompt. 'Not now' is equal weight: Apple-friendly.">
     <div class="top"><span></span><span></span></div>
     <div class="grow"></div>
     <div class="perm">
@@ -364,8 +365,8 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     </div>
   </section>
 
-  <section class="screen" id="paywall" data-title="13 Paywall" data-note="Prices are NOT set: 💛 Revenue + Megan decide. Everything Apple requires is here: close (X), price + renewal + trial terms, cancel text, Restore, Terms, Privacy.">
-    <div class="top"><button class="iconbtn" data-go="home" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg></button><button class="skip" data-toast="Restores an earlier purchase">Restore</button></div>
+  <section class="screen" id="paywall" data-title="12 Paywall" data-note="Prices are NOT set: 💛 Revenue + Megan decide. Everything Apple requires is here: close (X), price + renewal + trial terms, cancel text, Restore, Terms, Privacy.">
+    <div class="top"><button class="iconbtn" data-go="signin" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 6l12 12M18 6L6 18"/></svg></button><button class="skip" data-toast="Restores an earlier purchase">Restore</button></div>
     <h1 class="big" style="font-size:40px">Create a more aligned you.</h1>
     <ul class="benefits">
       <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg><span id="pwBenefit">See your Autumn 2026 issue every morning</span></li>
@@ -382,7 +383,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
       <div><i></i><p style="margin:0"><b>Day 5</b><span>We remind you before the trial ends</span></p></div>
       <div><i></i><p style="margin:0"><b>Day 7</b><span>You're billed. Cancel before then to pay nothing</span></p></div>
     </div>
-    <button class="cta" data-go="home" style="flex:none">Start free trial</button>
+    <button class="cta" data-go="signin" data-toast="Apple payment sheet opens" style="flex:none">Start free trial</button>
     <p class="fine">Renews automatically at the price shown unless cancelled at least 24 hours before the end of the period. Cancel anytime in your Apple ID settings.</p>
     <div class="links"><button data-toast="Opens Terms of Use">Terms</button><button data-toast="Opens Privacy Policy">Privacy</button><button data-toast="Restores an earlier purchase">Restore</button></div>
   </section>
@@ -506,6 +507,18 @@ textarea::placeholder,input::placeholder{color:#9b9193}
       <button class="cta red" data-go="splash" data-toast="Account deleted">Delete my account</button>
       <button class="cta ghost" data-back>Keep my account</button>
     </div>
+  </section>
+
+  <section class="screen" id="offline" data-title="Offline · new" data-note="NEW. Error/offline state. Her issue and journal stay readable offline; new entries save on the phone and sync later.">
+    <div class="top"><span></span><span></span></div>
+    <div class="grow"></div>
+    <div class="perm">
+      <div class="big-ic" style="background:var(--blush)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8.8a15 15 0 0 1 20 0M5 12.5a10 10 0 0 1 14 0M8.5 16a5 5 0 0 1 7 0M3 3l18 18"/></svg></div>
+      <h2 class="mid" style="margin:6px 0 0">You're offline</h2>
+      <p class="lede" style="margin:0">Your issue and journal are still here. New pages save on your phone and sync when you're back online.</p>
+    </div>
+    <div class="grow"></div>
+    <button class="cta" data-go="home">Keep reading</button>
   </section>
 
   <!-- ============ LATER (v1.1) ============ -->
@@ -756,7 +769,7 @@ $("#idealText").addEventListener("input",e=>state.ideal=e.target.value.trim());
 $("#proofText").addEventListener("input",e=>state.proof=e.target.value.trim());
 
 /* ---------- index ---------- */
-const groups=[["Onboarding",["splash","hook","dream","ideal","areas","visuals","proof1","name","printing","reveal","signin","notif","paywall"]],["App",["home","explore","newSheet","journal","micSheet","issue","reader","world","archive","you","settings","delete"]],["Later (v1.1)",["audio","player"]]];
+const groups=[["Onboarding",["splash","hook","dream","ideal","areas","visuals","proof1","name","printing","reveal","notif","paywall","signin"]],["App",["home","explore","newSheet","journal","micSheet","issue","reader","world","archive","you","settings","delete","offline"]],["Later (v1.1)",["audio","player"]]];
 $("#idx").innerHTML=groups.map(g=>`<h2>${g[0]}</h2>`+g[1].map(id=>{const t=document.getElementById(id).dataset.title;const m=t.match(/^(.*?)( · (new|later))?$/);return `<button data-to="${id}"><span>${m[1]}</span>${m[3]?`<span class="tag">${m[3].toUpperCase()}</span>`:""}</button>`}).join("")).join("");
 $("#idx").addEventListener("click",e=>{const b=e.target.closest("[data-to]");if(!b)return;e.stopPropagation();const id=b.dataset.to;if(id.endsWith("Sheet")){go(id=="newSheet"?"home":"journal");openSheet(id);}else go(id);side(false);});
 function side(open){$("#side").classList.toggle("open",open);let s=$(".scrim");if(open&&!s){s=document.createElement("div");s.className="scrim";s.onclick=()=>side(false);document.body.appendChild(s);}if(!open&&s)s.remove();}

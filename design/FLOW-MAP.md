@@ -81,4 +81,5 @@ Not decided here: pricing (💛 Revenue + Megan).
 - Proposal: a web version of the Issue editor (same account, same Supabase data, syncs both ways). Lovable builds web apps natively, so this reuses the same code; the iOS app stays the main product.
 - Login on web: Sign in with Apple + email (works on web).
 - ⚠️ Payments: subscription bought on web vs in the app must follow Apple's multiplatform rules (3.1.3) — verify current rules before building. Payments = Megan approves the spec.
-- Open: ship in V1 (Jan 11) or right after.
+- **Decided by Megan (Oct 1, 2026): desktop editor ships in V1 (Jan 11).**
+- ⚠️ Scope risk: V1 now = iOS app + immersive audio/video sessions + magazine editor (layouts, colors, stickers, patterns, text editing) + desktop web editor. Roadmap's build window is Nov 2 – Dec 11; flag to the Manager for re-planning.

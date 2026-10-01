@@ -16,3 +16,5 @@ Source of truth: Megan's Canva identity kit: https://canva.link/pk44pxqmgmmqnol 
 - Home: logo + "A MAGAZINE BY YOU" header, full-bleed photo hero ("THE FUTURE ISSUE") with a word list, round outline arrow, "START CREATING" tiles: 01 Writing · 02 Image · 03 Audio · 04 Edit, with colored label blocks.
 - Inner pages read like magazine pages: "← ISSUE 11 · 01 / 11", "01 / WRITING", big headline, word list, full-bleed photo with serif quote, "NEXT 02 / IMAGE" block.
 - Tabs in the kit mockup: Home · Collect · Journal · Issue · profile circle (text only). The agreed app tabs are Home · Explore · (+) · Issue · You.
+- **Megan, Oct 1, 2026:** headlines stay Archivo Black but set TIGHT (letter-spacing about -0.06em, line-height about 0.82; "A2 is better"). Small labels: Archivo Narrow, all caps.
+- **Megan, Oct 1, 2026:** loves "Hold to log your win" (hold-to-confirm, fills green). Button set in the prototype (proposed, Megan to confirm): print press for main actions, wave fill for secondary, liquid glass on photos.

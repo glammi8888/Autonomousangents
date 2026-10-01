@@ -412,6 +412,31 @@ textarea,input[type=text],input[type=email]{border-radius:0;border:1px solid var
 .post{transform-origin:50% 50%;will-change:transform}
 #revealCover,.stage3d{touch-action:none}
 @media (prefers-reduced-motion:reduce){.logo3d,#revealCover.tilt{animation:none}.post{transform:none!important}}
+
+/* ===== Megan, Oct 1: tightened Archivo (A2) ===== */
+h1.big,h2.mid,.hero .hh h1,.post .pt b,.block b,.card .t,.cover .who,.nextp .np b,.plan b,.page h3{letter-spacing:-.06em!important;line-height:.82}
+.label,.step,.skip,.ksec,.knav,.lede,.card .s,.cap,.chip,.tabbar button,.khead .tag,.hero .words,.hero .hh p,.nextp .np small,.create .lb,.seg button,.post .band,.post .pt small{letter-spacing:0!important}
+/* ===== Buttons: print press (main) ===== */
+.cta{border:2px solid var(--ink);box-shadow:5px 5px 0 var(--ink);width:calc(100% - 5px);transition:transform .08s,box-shadow .08s}
+.cta:active{transform:translate(5px,5px);box-shadow:0 0 0 var(--ink)}
+/* wave fill (secondary) */
+.cta.ghost{position:relative;overflow:hidden;isolation:isolate;box-shadow:none;width:100%}
+.cta.ghost::before{content:"";position:absolute;inset:-2px;z-index:-1;background:var(--pink);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 40' preserveAspectRatio='none'%3E%3Cpath d='M0 0c10 8 20 8 30 0s20-8 30 0 20 8 30 0 20-8 30 0V40H0z'/%3E%3C/svg%3E") 0 0/100% 100%;
+  mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 40' preserveAspectRatio='none'%3E%3Cpath d='M0 0c10 8 20 8 30 0s20-8 30 0 20 8 30 0 20-8 30 0V40H0z'/%3E%3C/svg%3E") 0 0/100% 100%;
+  transform:translateY(105%);transition:transform .45s cubic-bezier(.3,.7,.2,1)}
+.cta.ghost:active::before,.cta.ghost:hover::before{transform:translateY(0)}
+.cta.ghost:active{transform:none}
+.app.night .cta.ghost:active,.app.night .cta.ghost:hover{color:#0d0d0d}
+/* liquid glass (on photos) */
+.glass,.hero .arrow,.poster .skip,.immersive .iconbtn{background:linear-gradient(180deg,rgba(255,255,255,.34),rgba(255,255,255,.12));-webkit-backdrop-filter:blur(18px) saturate(1.6);backdrop-filter:blur(18px) saturate(1.6);border:1px solid rgba(255,255,255,.55)!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.7),0 8px 24px rgba(0,0,0,.25);color:#fff!important}
+.poster .skip{border-radius:20px;padding:0 14px;min-height:36px}
+.poster .step{color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.4)}
+/* hold to confirm */
+.hold{position:relative;overflow:hidden;width:100%;min-height:58px;border:2px solid var(--ink);background:var(--cream);color:var(--ink);font-family:var(--mono);font-weight:700;font-size:14px;text-transform:uppercase;user-select:none;-webkit-user-select:none;touch-action:none}
+.hold::before{content:"";position:absolute;inset:0;background:var(--green);transform-origin:left;transform:scaleX(var(--p,0))}
+.hold span{position:relative}
+.hold.done{background:var(--green);color:#fff;border-color:var(--green)}
 </style>
 
 <div class="stage">
@@ -674,7 +699,7 @@ textarea,input[type=text],input[type=email]{border-radius:0;border:1px solid var
     <div class="grid2" id="worldGrid"></div>
   </section>
 
-  <section class="screen blush" id="archive" data-title="Past Proof" data-note="'8 months ago' is an example. On day 1 she sees the proof she typed in onboarding, so it's never empty.">
+  <section class="screen blush" id="archive" data-title="Past Proof" data-note="Hold to log your win (Megan loves it): fills green while held, then confirms with a haptic. '8 months ago' is an example. On day 1 she sees the proof she typed in onboarding, so it's never empty.">
     <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><span></span></div>
     <h1 class="big">From the archive</h1>
     <div class="label" style="margin-top:4px">8 months ago</div>
@@ -682,7 +707,7 @@ textarea,input[type=text],input[type=email]{border-radius:0;border:1px solid var
     <p style="font-size:20px;font-weight:600;line-height:1.3;margin:16px 0 4px">“Engaged to someone who adores me.”</p>
     <p class="lede">Is this part of your life now?</p>
     <div style="display:flex;flex-direction:column;gap:10px">
-      <button class="cta green" data-toast="Logged. It goes in your next issue's news">Yes, it happened</button>
+      <button class="hold" data-hold-done="Logged ✓ It goes in your next issue"><span>Hold to log your win</span></button>
       <button class="cta ghost" data-toast="Kept in your vision">Not yet</button>
     </div>
     <div class="label">Your first proof</div>
@@ -1035,6 +1060,16 @@ if(!RM){
   $$(".screen").forEach(sc=>sc.addEventListener("scroll",()=>depth(sc),{passive:true}));
   const _go=go;go=function(id,push){_go(id,push);const el=document.getElementById(id);if(el)requestAnimationFrame(()=>depth(el));};
 }
+
+
+/* ---------- hold to confirm ---------- */
+$$(".hold").forEach(b=>{const t=b.querySelector("span"),txt=t.textContent;let raf,start;
+  function step(ts){if(!start)start=ts;const p=Math.min((ts-start)/1200,1);b.style.setProperty("--p",p);
+    if(p<1)raf=requestAnimationFrame(step);else{b.classList.add("done");t.textContent=b.dataset.holdDone;try{navigator.vibrate&&navigator.vibrate(30)}catch(e){}setTimeout(()=>{b.classList.remove("done");b.style.setProperty("--p",0);t.textContent=txt;},2600);}}
+  const stop=()=>{if(!b.classList.contains("done")){cancelAnimationFrame(raf);start=null;b.style.setProperty("--p",0);}};
+  b.addEventListener("pointerdown",()=>{if(b.classList.contains("done"))return;start=null;raf=requestAnimationFrame(step);});
+  ["pointerup","pointerleave","pointercancel"].forEach(ev=>b.addEventListener(ev,stop));
+});
 
 /* ---------- light / night ---------- */
 let mode="auto";try{mode=localStorage.getItem("i11-mode")||"auto"}catch(e){}

@@ -79,6 +79,46 @@ header p{font-weight:600;font-size:14px;letter-spacing:.03em;text-transform:uppe
 .pick h2{font-family:var(--display);font-weight:400;font-size:30px;margin:0;text-transform:uppercase;line-height:.9}
 .pick ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:16px;line-height:1.45}
 @media (prefers-reduced-motion:reduce){.b-marq span{animation:none;left:16px}*{transition:none!important}}
+
+/* ===== Round 2: magazine x Apple ===== */
+.round2{display:flex;flex-direction:column}
+.r2h{font-family:var(--display);font-weight:400;font-size:clamp(34px,10vw,52px);line-height:.84;letter-spacing:-.06em;text-transform:uppercase;margin:6px 0 6px}
+.r2p{font-weight:600;font-size:14px;text-transform:uppercase;margin:0 0 22px;line-height:1.45;max-width:46ch}
+.spec h2{letter-spacing:-.06em;line-height:.84}
+/* A capsule with page number */
+.c-page{display:flex;align-items:center;gap:14px;width:100%;max-width:340px;min-height:56px;padding:0 8px 0 24px;border-radius:999px;background:var(--ink);color:var(--cream);font-family:var(--display);font-size:16px;letter-spacing:-.03em;text-transform:uppercase;transition:transform .15s}
+.c-page .pg{margin-left:auto;font-family:var(--narrow);font-weight:700;font-size:12px;letter-spacing:0;background:var(--pink);color:var(--ink);border-radius:999px;min-height:40px;padding:0 14px;display:flex;align-items:center;gap:6px}
+.c-page:active,.c-page.down{transform:scale(.97)}
+/* B editorial link */
+.c-link{font-family:var(--display);font-size:26px;letter-spacing:-.05em;text-transform:uppercase;line-height:1;background:linear-gradient(var(--pink),var(--pink)) 0 100%/100% 6px no-repeat;padding:6px 0 10px;transition:background-size .25s;display:inline-flex;gap:10px;align-items:baseline}
+.c-link small{font-family:var(--narrow);font-weight:700;font-size:12px;letter-spacing:0;color:var(--red)}
+.c-link:active,.c-link.down,.c-link:hover{background-size:100% 100%}
+/* C capsule with cover thumb (Apple Music style) */
+.c-thumb{display:flex;align-items:center;gap:12px;width:100%;max-width:340px;min-height:64px;padding:6px 18px 6px 6px;border-radius:999px;background:var(--paper);border:1px solid var(--ink);text-align:left;transition:transform .15s}
+.c-thumb img{width:52px;height:52px;border-radius:50%;object-fit:cover}
+.c-thumb b{display:block;font-family:var(--display);font-weight:400;font-size:16px;letter-spacing:-.04em;text-transform:uppercase;line-height:1}
+.c-thumb span{font-weight:700;font-size:11px;text-transform:uppercase;color:#5b5350}
+.c-thumb i{margin-left:auto;width:40px;height:40px;border-radius:50%;background:var(--pink);display:grid;place-items:center;font-style:normal}
+.c-thumb:active,.c-thumb.down{transform:scale(.97)}
+/* D folded corner */
+.c-fold{position:relative;width:100%;max-width:340px;min-height:58px;background:var(--pink);font-family:var(--display);font-size:17px;letter-spacing:-.04em;text-transform:uppercase;clip-path:polygon(0 0,calc(100% - 22px) 0,100% 22px,100% 100%,0 100%);transition:clip-path .25s}
+.c-fold::after{content:"";position:absolute;top:0;right:0;width:22px;height:22px;background:linear-gradient(225deg,transparent 50%,#c9407f 50%);transition:all .25s}
+.c-fold:active,.c-fold.down,.c-fold:hover{clip-path:polygon(0 0,calc(100% - 44px) 0,100% 44px,100% 100%,0 100%)}
+.c-fold:active::after,.c-fold.down::after,.c-fold:hover::after{width:44px;height:44px}
+/* E glass capsule w/ brand type */
+.c-glass{min-height:52px;padding:0 26px;border-radius:999px;color:#fff;font-family:var(--display);font-size:15px;letter-spacing:-.03em;text-transform:uppercase;
+  background:linear-gradient(180deg,rgba(255,255,255,.34),rgba(255,255,255,.1));-webkit-backdrop-filter:blur(20px) saturate(1.7);backdrop-filter:blur(20px) saturate(1.7);border:1px solid rgba(255,255,255,.55);box-shadow:inset 0 1px 0 rgba(255,255,255,.75),0 10px 30px rgba(0,0,0,.25);transition:transform .15s}
+.c-glass.pink{background:linear-gradient(180deg,rgba(246,90,173,.85),rgba(246,90,173,.65));color:#0d0d0d}
+.c-glass:active,.c-glass.down{transform:scale(.95)}
+.glassrow{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+/* F barcode */
+.c-bar{display:flex;align-items:stretch;width:100%;max-width:340px;border:2px solid var(--ink);background:var(--paper);text-align:left;transition:transform .15s}
+.c-bar .bc{width:92px;flex:none;background:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 4px,var(--ink) 4px 7px,transparent 7px 8px,var(--ink) 8px 9px,transparent 9px 12px);margin:10px;}
+.c-bar .tx{padding:12px 14px 12px 4px;display:flex;flex-direction:column;gap:2px}
+.c-bar b{font-family:var(--display);font-weight:400;font-size:18px;letter-spacing:-.04em;text-transform:uppercase;line-height:1}
+.c-bar span{font-weight:700;font-size:11px;text-transform:uppercase}
+.c-bar:active,.c-bar.down{transform:scale(.98)}
+.r1{font-family:var(--display);font-weight:400;font-size:28px;letter-spacing:-.05em;text-transform:uppercase;margin:34px 0 8px;line-height:.9;border-top:2px solid var(--ink);padding-top:16px}
 </style>
 
 <main class="wrap">
@@ -87,6 +127,73 @@ header p{font-weight:600;font-size:14px;letter-spacing:.03em;text-transform:uppe
     <p>Eight button ideas for ISSUE11. Tap and hold each one. Pick the ones you love; the app keeps two or three, not all eight.</p>
   </header>
 
+
+  <section class="round2">
+    <h2 class="r2h">Round 2: magazine × Apple</h2>
+    <p class="r2p">Same magazine feel, but with Apple's modern shapes: capsules, glass, big tap areas, clear labels. Built to pair with Hold to log your win.</p>
+
+    <section class="spec">
+      <div class="meta"><span class="n">No. 09</span><span>Page capsule</span></div>
+      <span class="rec">My pick: main buttons</span>
+      <h2>Apple capsule, magazine page number</h2>
+      <p>The rounded capsule shape Apple uses everywhere in iOS 26, in your black and pink, with a <b>page number</b> on the right so every step feels like turning a page.</p>
+      <div class="demo"><button class="c-page">Continue <span class="pg">P. 04 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button><button class="c-page" style="background:var(--pink);color:var(--ink)">Keep my issue <span class="pg" style="background:var(--ink);color:var(--cream)">P. 11 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button></div>
+      <span class="use">Use for: Continue, Keep my issue, Start free trial</span>
+    </section>
+
+    <section class="spec">
+      <div class="meta"><span class="n">No. 10</span><span>Editorial link</span></div>
+      <span class="rec">My pick: secondary</span>
+      <h2>"Continued on page 12"</h2>
+      <p>No box at all: a big headline with a pink underline that <b>floods up</b> behind the words when tapped. Pure magazine, very calm.</p>
+      <div class="demo"><button class="c-link">Read your issue <small>P. 12 →</small></button><button class="c-link">Not yet</button></div>
+      <span class="use">Use for: Not now, See all, Read more, Skip</span>
+    </section>
+
+    <section class="spec">
+      <div class="meta"><span class="n">No. 11</span><span>Cover capsule</span></div>
+      <h2>Capsule with her cover</h2>
+      <p>Like Apple Music's "now playing": a tiny round thumbnail of <b>her issue or session</b>, a title and a pink play/arrow. Personal and very iPhone.</p>
+      <div class="demo"><button class="c-thumb"><img src="img/p0.jpg" alt=""><span><b>Become her</b>Session · 12 min</span><i>▶</i></button></div>
+      <span class="use">Use for: Today's session, Resume, Open my issue</span>
+    </section>
+
+    <section class="spec">
+      <div class="meta"><span class="n">No. 12</span><span>Page fold</span></div>
+      <h2>Dog-eared page</h2>
+      <p>A corner folded like a magazine page. The fold <b>opens wider</b> when you tap, like you're about to turn it.</p>
+      <div class="demo"><button class="c-fold">Turn the page</button></div>
+      <span class="use">Use for: Next page in the Issue reader, "Enter issue"</span>
+    </section>
+
+    <section class="spec">
+      <div class="meta"><span class="n">No. 13</span><span>Glass capsule</span></div>
+      <span class="rec">My pick: on photos</span>
+      <h2>Liquid glass, in your type</h2>
+      <p>Apple's iOS 26 Liquid Glass, but in Archivo Black. Clear glass for quiet actions, <b>pink glass</b> for the main one. Readable on any photo.</p>
+      <div class="demo photo"><div class="glassrow"><button class="c-glass">Skip</button><button class="c-glass pink">Play session</button></div></div>
+      <span class="use">Use for: buttons on full-bleed photos, the Player, onboarding</span>
+    </section>
+
+    <section class="spec">
+      <div class="meta"><span class="n">No. 14</span><span>Barcode</span></div>
+      <h2>The magazine barcode</h2>
+      <p>Every real magazine has one. A <b>barcode button</b> for the printed-issue moment. Fun, and only in one place.</p>
+      <div class="demo"><button class="c-bar"><span class="bc"></span><span class="tx"><b>Order the print</b><span>Issue 01 · Autumn 2026</span></span></button></div>
+      <span class="use">Use for: Order printed issue (later)</span>
+    </section>
+
+    <section class="pick">
+      <h2>Round 2 pick</h2>
+      <ol>
+        <li><b>Page capsule (09)</b> for main actions: Apple shape, magazine detail.</li>
+        <li><b>Editorial link (10)</b> for secondary actions.</li>
+        <li><b>Glass capsule (13)</b> on photos and in the Player.</li>
+        <li><b>Hold to log your win (07)</b> for wins (you already love it).</li>
+      </ol>
+    </section>
+    <h2 class="r1">Round 1</h2>
+  </section>
   <section class="spec">
     <div class="meta"><span class="n">No. 01</span><span>Print press</span></div>
     <span class="rec">My pick: main buttons</span>

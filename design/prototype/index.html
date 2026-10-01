@@ -350,6 +350,50 @@ textarea,input[type=text],input[type=email]{border-radius:0;border:1px solid var
 .tmpl .sw{display:block;height:128px!important;flex:none}
 .tmpl{flex:0 0 100px!important}
 .hscroll,.grid2,.create,.rows,.card{flex:none}
+
+/* ===== Accents (Megan): pink = action, red = emphasis, green = proof/wins ===== */
+.cta{background:var(--pink);color:#0d0d0d}
+.cta.ghost{background:transparent;color:var(--ink)}
+.cta.red{background:var(--red);color:#fff}.cta.green{background:var(--green);color:#fff}
+.round{background:var(--pink);border:0;color:#0d0d0d}
+.chip.on{background:var(--pink);border-color:var(--pink);color:#0d0d0d}
+.tile.on{border-color:var(--pink)}.tile.on .tick{background:var(--pink);border-color:var(--pink)}
+.label{color:var(--red)}
+.plan.on{border-color:var(--pink)}.plan.on .radio::after{background:var(--pink)}
+.pill{background:var(--red);color:#fff}
+.tabbar .plus{background:var(--pink);color:#0d0d0d}
+.bar i,.dots i.on{background:var(--pink)}
+.issue-no{color:var(--pink)!important}
+.card .go{background:var(--pink);border:0;color:#0d0d0d}
+.timeline i,.timeline div::before{background:var(--red)}
+.benefits svg{color:var(--pink)}
+.rows .ico{background:var(--blush)}
+/* ===== Full-bleed visuals ===== */
+.bleed{margin-left:-22px;margin-right:-22px}
+#issueCover .cover{border-radius:0;box-shadow:none}
+.grid2{margin-left:-22px;margin-right:-22px;gap:2px}
+.grid2 .tile{border-radius:0}
+.create{margin-left:-22px;margin-right:-22px;gap:2px}
+.stack{display:flex;flex-direction:column;gap:2px;margin:0 -22px}
+.stack .post{margin:0}
+.post{position:relative;display:block;width:calc(100% + 44px);margin:0 -22px;flex:none;overflow:hidden;text-align:left;color:#f5eee0}
+.stack .post{width:100%}
+.post canvas{position:absolute;inset:0}
+.post::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.1),transparent 40%,rgba(0,0,0,.6))}
+.post .band{position:absolute;left:0;top:0;z-index:2;font-family:var(--mono);font-weight:600;font-size:11px;letter-spacing:.03em;text-transform:uppercase;padding:8px 12px;color:#0d0d0d}
+.post .band.lb-red,.post .band.lb-green{color:#fff}
+.post .pt{position:absolute;left:22px;right:84px;bottom:20px;z-index:2;display:flex;flex-direction:column;gap:6px}
+.post .pt b{font-family:var(--display);font-weight:400;font-size:44px;line-height:.9;text-transform:uppercase;letter-spacing:-.01em}
+.post .pt small{font-family:var(--mono);font-weight:600;font-size:12px;letter-spacing:.03em;text-transform:uppercase}
+.post .pp{position:absolute;right:20px;bottom:22px;z-index:2;width:54px;height:54px;border-radius:50%;background:var(--pink);color:#0d0d0d;display:grid;place-items:center}
+.post .pp svg{width:22px;height:22px}
+.label + .post,.label + .stack{margin-top:0}
+.post + .post{margin-top:2px}
+
+/* giant stacked type on a color block (Megan's Mozoo inspiration) */
+.block{background:var(--pink);color:#0d0d0d;padding:26px 22px 22px;flex:none;display:flex;flex-direction:column;gap:14px;margin-top:2px}
+.block b{font-family:var(--display);font-weight:400;font-size:58px;line-height:.86;text-transform:uppercase;letter-spacing:-.02em}
+.block small{font-family:var(--mono);font-weight:600;font-size:12px;letter-spacing:.03em;text-transform:uppercase}
 </style>
 
 <div class="stage">
@@ -523,10 +567,9 @@ textarea,input[type=text],input[type=email]{border-radius:0;border:1px solid var
       <button data-go="player"><span class="im"><canvas class="art" data-img="3"></canvas></span><span class="lb lb-red"><span>03<br>Audio</span>→</span></button>
       <button data-go="issue"><span class="im"><canvas class="art" data-img="2"></canvas></span><span class="lb lb-green"><span>04<br>Edit</span>→</span></button>
     </div>
-    <div class="label">Today's experience</div>
-    <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-img="3"></canvas></span><span><span class="t">Become her</span><span class="s">Self concept · 12 min · audio + visuals</span></span><span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
-    <div class="label">From the archive</div>
-    <button class="card" data-go="archive"><span class="thumb"><canvas class="art" data-img="1"></canvas></span><span><span class="t">Is this part of your life now?</span><span class="s">8 months ago · Past Proof</span></span></button>
+    <button class="post" data-go="player" style="height:420px"><canvas class="art" data-img="3"></canvas><span class="band lb-red">Today's experience · 12 min</span><span class="pt"><b>Become her</b><small>Self concept · audio + visuals</small></span><span class="pp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
+    <button class="post" data-go="archive" style="height:300px"><canvas class="art" data-img="1"></canvas><span class="band lb-green">From the archive · 8 months ago</span><span class="pt"><b>Is this part of your life now?</b><small>Past Proof</small></span><span class="pp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+    <div class="block bleed"><b>See it.<br><span style="padding-left:1.1em">Write it.</span><br>Become it.</b><small>● Your manifestation magazine</small></div>
     <div class="label">Your world</div>
     <div class="grid2">
       <button class="tile" data-go="world"><canvas class="art" data-img="4"></canvas><span class="cap">Style</span></button>
@@ -537,12 +580,7 @@ textarea,input[type=text],input[type=email]{border-radius:0;border:1px solid var
   <section class="screen tabbed" id="explore" data-tab="explore" data-title="Explore" data-note="Explore = experiences (Megan agreed). Immersive sessions sorted by goal. Images live inside each collection, to ♡ into her world.">
     <div class="top"><h1 class="big" style="margin:0">Explore</h1><button class="iconbtn" aria-label="Search" data-toast="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button></div>
     <div class="chips" id="expChips" style="margin-bottom:18px"></div>
-    <div style="display:flex;flex-direction:column;gap:12px">
-      <button class="card" data-go="collection"><span class="thumb"><canvas class="art" data-seed="31" data-v="zebra"></canvas></span><span><span class="t">Confidence</span><span class="s">8 sessions · 40 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="collection"><span class="thumb"><canvas class="art" data-seed="32" data-v="cream"></canvas></span><span><span class="t">Travel</span><span class="s">6 sessions · 32 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="collection"><span class="thumb"><canvas class="art" data-seed="33" data-v="pinksun"></canvas></span><span><span class="t">Style &amp; Beauty</span><span class="s">7 sessions · 48 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="collection"><span class="thumb"><canvas class="art" data-seed="34" data-v="red"></canvas></span><span><span class="t">Wealth</span><span class="s">5 sessions · 30 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-    </div>
+    <div class="stack"><button class="post" data-go="collection" style="height:300px"><canvas class="art" data-img="3"></canvas><span class="band lb-pink">Collection 01</span><span class="pt"><b>Confidence</b><small>8 sessions · 40 images</small></span><span class="pp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button><button class="post" data-go="collection" style="height:300px"><canvas class="art" data-img="0"></canvas><span class="band lb-cream">Collection 02</span><span class="pt"><b>Travel</b><small>6 sessions · 32 images</small></span><span class="pp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button><button class="post" data-go="collection" style="height:300px"><canvas class="art" data-img="4"></canvas><span class="band lb-red">Collection 03</span><span class="pt"><b>Style &amp; Beauty</b><small>7 sessions · 48 images</small></span><span class="pp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button><button class="post" data-go="collection" style="height:300px"><canvas class="art" data-img="2"></canvas><span class="band lb-green">Collection 04</span><span class="pt"><b>Wealth</b><small>5 sessions · 30 images</small></span><span class="pp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button></div>
   </section>
 
   <section class="screen" id="journal" data-title="Journal entry" data-note="Built on the kit's 'Notes to self' page: magazine nav (01 / Writing), big headline, word list, then a 'Next: 02 / Image' block. Opens after a session or from (+).">
@@ -569,7 +607,7 @@ textarea,input[type=text],input[type=email]{border-radius:0;border:1px solid var
 
   <section class="screen tabbed" id="issue" data-tab="issue" data-title="My Issue" data-note="Now its own tab (agreed). 'Your world' strip added so her vision board is one tap away. Cover styles replace the wireframe's 'templates'. Date follows the real season automatically.">
     <div class="top"><h1 class="big" style="margin:0">Issue 01</h1><button class="iconbtn" data-toast="Share the cover" aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 8l5-5 5 5M5 13v7h14v-7"/></svg></button></div>
-    <div id="issueCover" style="width:100%;margin:0 auto 18px"></div>
+    <div id="issueCover" class="bleed" style="margin-bottom:0"></div>
     <button class="cta" data-go="reader" style="flex:none">Enter issue →</button>
     <div class="label">Cover style</div>
     <div class="hscroll" id="styles"></div>

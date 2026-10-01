@@ -1,7 +1,7 @@
 <title>ISSUE11 Magazine Lab</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:wght@500;600;700&family=Instrument+Serif:ital@0;1&family=Caveat:wght@600&family=Permanent+Marker&family=Courier+Prime:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wdth,wght@62..125,800..900&family=Archivo+Narrow:wght@500;600;700&family=Instrument+Serif:ital@0;1&family=Caveat:wght@600&family=Mrs+Saint+Delafield&family=Permanent+Marker&family=Courier+Prime:wght@700&display=swap">
 <style>
 /* Layout: a horizontal "issue" of 3:4 magazine pages (swipe), with an edit panel below. Single brand look: black desk, cream paper pages. */
 :root{
@@ -191,6 +191,86 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .zType p b{color:var(--paper);font-weight:400}
 .zType p em{font-family:var(--serif);font-style:italic;letter-spacing:-.02em;color:var(--acc2)}
 
+
+/* ===== Editorial spreads (Megan's 2nd inspo set: real article structure) ===== */
+.cond{font-family:"Archivo","Archivo Black",Impact,sans-serif;font-stretch:62%;font-weight:900;text-transform:uppercase;letter-spacing:-.01em;line-height:.86;margin:0}
+.half{position:absolute;top:0;bottom:0;width:50%}.half.L{left:0}.half.R{left:50%}
+.cols{position:absolute;font-family:var(--narrow);font-weight:500;font-size:1.05cqw;line-height:1.42;color:#0d0d0d;overflow:hidden;column-gap:2cqw}
+.cols p{margin:0 0 .7em}
+.cols p:first-child::first-letter{font-family:var(--display);float:left;font-size:4.4em;line-height:.78;margin:.06em .1em 0 0;color:var(--acc2)}
+.rh,.pn{position:absolute;font-family:var(--narrow);font-weight:700;font-size:.85cqw;text-transform:uppercase;margin:0;color:#0d0d0d}
+.rh{bottom:2.4%}.rh.l{left:3%}.rh.r{right:3%}.pn{top:2.4%}.pn.l{left:3%}.pn.r{right:3%}
+.inv .rh,.inv .pn{color:#f5eee0}
+/* E1 quote + portrait */
+.eQuote .half.L{background:var(--paper)}.eQuote .half.R{background:var(--acc)}
+.eQuote .ph.pr{left:56%;right:6%;top:5%;bottom:0;background-position:center 20%}
+.eQuote .q{left:5%;top:9%;width:40%;height:76%;font-family:var(--display);font-size:5.6cqw;line-height:.94;letter-spacing:-.05em;color:var(--acc);margin:0}
+.eQuote .cap{right:3%;bottom:6%;width:13%;font-size:.75cqw;color:#0d0d0d}
+/* E2 headline over photo + text on tinted photo */
+.eOver .ph.pl{left:0;top:0;width:50%;height:100%}
+.eOver .sh{position:absolute;left:0;top:0;width:50%;height:100%;background:linear-gradient(90deg,rgba(0,0,0,.45),rgba(0,0,0,.1))}
+.eOver .hl{left:5%;top:7%;width:41%;height:74%;color:#fff;font-size:5.4cqw}
+.eOver .bar{position:absolute;left:0;width:50%;bottom:3%;height:1.6%;background:var(--acc)}
+.eOver .half.R{background:var(--acc)}
+.eOver .ph.pt{left:50%;top:0;width:50%;height:100%;filter:grayscale(1) contrast(1.1);mix-blend-mode:multiply;opacity:.45}
+.eOver .cols{left:54%;right:7%;top:6%;bottom:9%;column-count:2;font-weight:700;font-size:1.15cqw}
+.eOver .vert{position:absolute;right:.8%;top:0;bottom:0;writing-mode:vertical-rl;font-family:var(--narrow);font-weight:700;font-size:.95cqw;text-transform:uppercase;overflow:hidden;white-space:nowrap;color:#0d0d0d}
+.eOver .vert.l{left:.8%;right:auto;color:#fff}
+.eOver .fol{position:absolute;bottom:9%;font-family:var(--display);font-size:2.4cqw;transform:rotate(-90deg);color:#fff}
+/* E3 feature: photo + colored article page */
+.eFeat .ph.pl{left:0;top:0;width:50%;height:100%}
+.eFeat .half.R{background:var(--acc)}
+.eFeat .hl{left:53%;right:4%;top:6%;height:13%;font-size:3.6cqw;color:#0d0d0d}
+.eFeat .sf{position:absolute;left:53%;right:10%;top:21%;font-family:var(--serif);font-style:italic;font-size:1.55cqw;line-height:1.15;margin:0;color:#0d0d0d}
+.eFeat .cols{left:53%;right:4%;top:31%;bottom:8%;column-count:3;font-size:.95cqw}
+/* E4 giant headline across a dark spread */
+.eGiant{background:#0d0d0d}
+.eGiant .ph.pr{left:50%;top:0;width:50%;height:100%}
+.eGiant .hl{left:3%;top:5%;width:70%;font-size:10.8cqw;color:var(--acc);z-index:2}
+.eGiant .sf{position:absolute;left:31%;top:14.5%;width:16%;font-family:var(--narrow);font-weight:700;font-size:1.05cqw;line-height:1.2;text-transform:uppercase;color:var(--acc);margin:0;z-index:2}
+.eGiant .cr{position:absolute;font-family:var(--narrow);font-weight:700;font-size:1.05cqw;line-height:1.1;text-transform:uppercase;color:var(--acc);margin:0;z-index:2}
+/* E5 name portrait + quiet text page */
+.eName .half{background:var(--acc)}
+.eName .ph.pi{left:3%;width:44%;top:17%;bottom:17%}
+.eName .t1{left:3%;top:2.5%;width:44%;height:14%;font-size:14cqw;color:#0d0d0d}
+.eName .t2{left:3%;bottom:2.5%;width:44%;height:14%;font-size:14cqw;color:#0d0d0d;text-align:right}
+.eName .kick{position:absolute;left:54%;top:7%;font-family:var(--serif);font-style:italic;font-size:2.2cqw;margin:0;color:#0d0d0d}
+.eName .cols{left:72%;right:5%;top:8%;bottom:10%;column-count:1;font-size:1cqw}
+.eName .cols p:first-child::first-letter{color:#0d0d0d}
+/* E6 serif headline + columns */
+.eSerif .half{background:var(--paper)}
+.eSerif .ph.ps{left:6%;top:6%;width:13%;height:24%}
+.eSerif .hl{position:absolute;left:5%;top:34%;width:40%;font-family:var(--serif);font-size:5.4cqw;line-height:1.02;color:var(--acc2);margin:0}
+.eSerif .hl span{display:block}
+.eSerif .cols{left:54%;right:5%;top:8%;bottom:9%;column-count:2}
+.eSerif .over{position:absolute;left:66%;top:40%;font-family:var(--serif);font-style:italic;font-size:9cqw;color:var(--acc2);mix-blend-mode:multiply;margin:0}
+
+
+/* E7 script name (Sara Rikas) */
+.eScript{background:var(--acc2)}
+.eScript .nm{position:absolute;left:4%;top:4%;font-family:var(--display);font-size:2.6cqw;letter-spacing:-.04em;margin:0;color:#0d0d0d}
+.eScript .ph.a{left:6%;top:24%;width:38%;height:42%}
+.eScript .ph.b{left:70%;top:8%;width:26%;height:44%}
+.eScript .scr{position:absolute;left:8%;top:-8%;font-family:"Mrs Saint Delafield",cursive;font-size:44cqw;line-height:1;color:var(--paper);opacity:.92;white-space:nowrap;z-index:3;pointer-events:none}
+.eScript .cols{left:54%;right:6%;top:58%;bottom:8%;column-count:1;font-family:var(--display);font-weight:400;font-size:1.45cqw;line-height:1.2;letter-spacing:-.02em}
+.eScript .cols p:first-child::first-letter{all:unset}
+/* E8 split giant word (Creative Commons) */
+.eWord{background:#0d0d0d}
+.eWord .ph.a{left:3%;top:13%;width:44%;height:70%}
+.eWord .ph.b{left:70%;top:24%;width:27%;height:46%}
+.eWord .w1{position:absolute;left:3%;top:1%;font-size:14cqw;color:var(--acc);z-index:2;font-style:italic}
+.eWord .w2{position:absolute;right:3%;bottom:1%;font-size:14cqw;color:var(--acc);z-index:2}
+.eWord .sf{position:absolute;left:53%;right:4%;top:6%;font-family:var(--narrow);font-weight:700;font-size:1.3cqw;line-height:1.25;color:#f5eee0;margin:0}
+.eWord .cols{left:53%;right:32%;top:30%;bottom:28%;column-count:1;color:#f5eee0;font-style:italic;font-weight:600}
+.eWord .cr{position:absolute;left:4%;bottom:14%;font-family:var(--narrow);font-weight:700;font-size:1.2cqw;text-transform:uppercase;color:#f5eee0;margin:0;line-height:1.1;z-index:2}
+/* E9 circle article (pink circle page) */
+.eCircle .half.L{background:#f2f1ee}.eCircle .half.R{background:var(--acc)}
+.eCircle .ph.a{left:6%;top:6%;width:38%;height:88%;background-position:center 25%}
+.eCircle .circ{position:absolute;left:58%;top:12%;width:34cqw;height:34cqw;border-radius:50%;background:var(--paper)}
+.eCircle .lead{position:absolute;left:54%;right:5%;top:7%;font-family:var(--narrow);font-weight:700;font-size:1.25cqw;line-height:1.3;text-transform:uppercase;margin:0;color:#0d0d0d}
+.eCircle .cols{left:54%;right:5%;top:25%;bottom:8%;column-count:3;font-size:.95cqw}
+.eCircle .tk{position:absolute;left:7%;top:8%;font-family:var(--narrow);font-weight:700;font-size:1.1cqw;text-transform:uppercase;color:var(--acc2);margin:0;line-height:1.2}
+
 /* edit panel */
 .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;border-top:1px solid #3a3134;padding-top:18px}
 .f{display:flex;flex-direction:column;gap:6px;min-width:0}
@@ -247,10 +327,30 @@ const COVERS={
    <p class="n abs hl">${esc(s.head)} · ${season()} issue</p>`},
  D:{label:"Pink",html:s=>`<div class="logo"></div>${ph("",s.photo)}<h2 class="d abs who"><em>the</em>${esc(s.name)}<em>issue</em></h2><p class="n abs date">${season()}</p>`}
 };
+
+const body=s=>[`${esc(s.name)} used to keep her dreams in the notes app, somewhere between grocery lists and screenshots of other people's lives. This season she moved them somewhere she could see them every morning: the pages of her own magazine.`,
+`“${esc(s.quote)}” It started as one sentence, written half-awake. It became a rule for how she spends her days, her money and her attention.`,
+`She is not waiting for permission anymore. She writes one page a week, saves one image a day and logs every win, however small. The small ones add up faster than she expected.`,
+`The proof is already here. ${esc(s.proof)} She wrote it down months ago. Now she reads it as news.`,
+`Ask her what comes next and she doesn't hesitate. It isn't a mystery anymore. It's the next issue.`].map(t=>`<p>${t}</p>`).join("");
+const rh=(s,a,b,inv)=>`<p class="rh l">ISSUE11 · ${season()}</p><p class="rh r">The ${esc(s.name)} issue</p><p class="pn l">${a}</p><p class="pn r">${b}</p>`;
+const bg=(cls,n)=>`<div class="ph ${cls}" style="background-image:url(${IMG(n)})"></div>`;
+const ED=[
+ {tag:"Feature · quote + portrait",num:"P.04–05",cls:()=>"spread eQuote",html:s=>`<div class="half L"></div><div class="half R"></div>${bg("pr",8)}<p class="abs q fit" data-fit>‘${esc(s.quote)}’</p><p class="n abs cap">${esc(s.name)} photographed for ISSUE11, ${season()}.</p>${rh(s,"04","05")}`},
+ {tag:"Feature · headline over photo",num:"P.06–07",cls:()=>"spread eOver",html:s=>`${bg("pl",9)}<div class="sh"></div><h2 class="cond abs hl" data-fit>…${esc(s.head)}, and she wrote it down first</h2><div class="bar"></div><div class="half R"></div>${bg("pt",6)}<div class="cols">${body(s)}</div><div class="vert">${"Becoming · ".repeat(30)}</div><span class="fol" style="left:45%">06</span><span class="fol" style="left:51.5%;color:#0d0d0d">07</span>`},
+ {tag:"Feature · photo + article",num:"P.08–09",cls:()=>"spread eFeat",html:s=>`${bg("pl",3)}<div class="half R"></div><h2 class="d abs hl" data-fit>${esc(s.head)}</h2><p class="sf">${esc(s.name)} opens a world full of possibilities. In her own words, on the season everything started to move.</p><div class="cols">${body(s)}${body(s)}</div>${rh(s,"08","09")}`},
+ {tag:"Feature · giant headline",num:"P.10–11",cls:()=>"spread eGiant inv",html:s=>`${bg("pr",0)}<h2 class="cond abs hl">She<br>wrote<br>it down<br>first</h2><p class="sf">In a world that scrolls past everything, one woman decided to keep her dreams in print.</p><p class="cr" style="left:3%;bottom:6%">Words by<br>${esc(s.name)}</p><p class="cr" style="left:84%;top:5%;color:#fff">Photos by<br>her world</p>${rh(s,"10","11")}`},
+ {tag:"Feature · name portrait",num:"P.12–13",cls:()=>"spread eName",html:s=>{const n=(s.name||"YOU").toUpperCase();return `<div class="half L"></div><div class="half R"></div>${bg("pi",7)}<h2 class="cond abs t1" data-fit>${esc(n)}</h2><h2 class="cond abs t2" data-fit>Issue 01</h2><p class="kick">In conversation</p><div class="cols">${body(s)}</div>${rh(s,"12","13")}`}},
+ {tag:"Feature · serif + columns",num:"P.14–15",cls:()=>"spread eSerif",html:s=>`<div class="half L"></div><div class="half R"></div>${bg("ps",2)}<h2 class="hl"><span>It's a</span><span style="padding-left:30%">dream,</span><span>someone</span><span style="padding-left:18%">has to</span><span style="padding-left:40%">live it.</span></h2><div class="cols">${body(s)}${body(s)}</div><p class="over">yes.</p>${rh(s,"14","15")}`},
+ {tag:"Feature · script name",num:"P.16–17",cls:()=>"spread eScript",html:s=>`<p class="nm">${esc(s.name)} <span class="n" style="font-size:.9cqw">${season()}</span></p>${bg("a",9)}${bg("b",4)}<p class="scr">${esc(s.name)}</p><div class="cols"><p>${esc(s.head)}. ${esc(s.quote)} She brought a new energy to everything she touched this season, and it shows.</p></div>${rh(s,"16","17")}`},
+ {tag:"Feature · split word",num:"P.18–19",cls:()=>"spread eWord inv",html:s=>`${bg("a",7)}${bg("b",3)}<h2 class="cond w1">Future</h2><h2 class="cond w2">Self</h2><p class="sf">If the future is something you build, ${esc(s.name)} is already on site. Between ${season()} and the next issue, she wrote down the life she wants and started living it page by page.</p><div class="cols"><p>“${esc(s.quote)}”</p><p>${esc(s.proof)}</p></div><p class="cr">Photos: her world<br>Words: ${esc(s.name)}</p>${rh(s,"18","19")}`},
+ {tag:"Feature · circle article",num:"P.20–21",cls:()=>"spread eCircle",html:s=>`<div class="half L"></div><div class="half R"></div>${bg("a",8)}<p class="tk">How to become<br>${esc(s.name)}<br>in ten easy steps</p><div class="circ"></div><p class="lead">${esc(s.head)}. The rules she wrote for herself, in her own words.</p><div class="cols">${body(s)}${body(s)}</div>${rh(s,"20","21")}`},
+];
 const PAGES=[
  {tag:"Cover",num:"",cls:s=>"c"+s.cover,html:s=>COVERS[s.cover].html(s)},
  {tag:"Contents",num:"P.02",cls:()=>"pCont",html:s=>`<p class="n k">Inside this issue · ${season()}</p><h2 class="d">Contents</h2>
    <ol><li><b>04</b><span>Your vision<small>${esc(s.head)}</small></span></li><li><b>06</b><span>In her words<small>Pull quote</small></span></li><li><b>08</b><span>Your steps<small>Three moves this season</small></span></li><li><b>10</b><span>Her world<small>Saved images</small></span></li><li><b>12</b><span>The proof<small>It happened</small></span></li></ol>${ph("",7)}`},
+ ...ED,
  {tag:"Your vision",num:"P.04",cls:()=>"pVis",html:s=>`${ph("",0)}<div class="shade"></div><p class="n abs k">P.04 · Your vision</p><h2 class="d abs hl fit" data-fit>${esc(s.head)}</h2>
    <p class="abs intro">This season ${esc(s.name)} stopped waiting for permission. Here is the life she's building, in her own words.</p>`},
  {tag:"Pull quote",num:"P.06",cls:()=>"pQuote",html:s=>`<p class="n k">P.06 · In her words</p><div class="mark">“</div><p class="s q fit" data-fit>${esc(s.quote)}</p><p class="n by">— ${esc(s.name)}, ${season()}</p>`},

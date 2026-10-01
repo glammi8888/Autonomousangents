@@ -42,7 +42,7 @@ Not decided here: pricing (💛 Revenue + Megan).
 ## Megan's decisions (Sep 30, 2026, her words summarized)
 - Add a magazine sneak peek (cover reveal) before she pays: Name → "Printing your issue…" → Reveal → Paywall.
 - ~~No audio in v1~~ → **Megan, Sep 30 (later): "I want the video/audio experiences with V1, not later."** Immersive audio + video sessions ship Jan 11: onboarding sessions question, Home "Today's experience", Explore library, full-screen Player → Journal.
-  ⚠️ Open: who makes the sessions (audio + video content) and by when; this is the biggest scope/time risk for TestFlight Dec 15. Wording: no health claims ("Subliminals").
+  ✅ Megan, Oct 1: she makes the sessions herself with AI tools; launch with 10–20 sessions. Checks: commercial license of each AI tool (voice, music, video), no cloned real voices/likenesses, no health claims. (was: ⚠️ Open: who makes the sessions (audio + video content) and by when; this is the biggest scope/time risk for TestFlight Dec 15. Wording: no health claims ("Subliminals").)
 - Ask her name. Onboarding is not set in stone yet.
 - Tabs: Home · Explore · (+ new entry) · Issue · You (agreed).
 

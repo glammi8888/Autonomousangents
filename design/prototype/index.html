@@ -320,6 +320,7 @@ textarea,input[type=text],input[type=email]{border-radius:0;border:1px solid var
 .tabbar .me{width:22px;height:22px;border-radius:50%;border:1.5px solid var(--ink);margin:0 auto}
 
 /* ===== Night mode (Megan): black page, cream type. Same tokens, swapped on .app.night ===== */
+.app{color:var(--ink)}
 .app.night{--cream:#0d0d0d;--ink:#f5eee0;--ink-2:#cfc5b6;--line:rgba(245,238,224,.2)}
 .app.night .screen.blush{background:#0d0d0d}
 .app.night .lb-cream{background:#f5eee0;color:#0d0d0d}
@@ -1112,11 +1113,11 @@ $$(".hold").forEach(b=>{const t=b.querySelector("span"),txt=t.textContent;let ra
 });
 
 /* ---------- light / night ---------- */
-let mode="auto";try{mode=localStorage.getItem("i11-mode")||"auto"}catch(e){}
+let mode="night";try{mode=localStorage.getItem("i11-mode2")||"night"}catch(e){}
 const mq=window.matchMedia?matchMedia("(prefers-color-scheme: dark)"):null;
 function applyMode(){const night=mode=="night"||(mode=="auto"&&mq&&mq.matches);$("#app").classList.toggle("night",night);
   $$("#seg [data-mode]").forEach(b=>b.classList.toggle("on",b.dataset.mode==mode));if(cur)paint(document.getElementById(cur));}
-function setMode(m){if(m=="toggle")m=$("#app").classList.contains("night")?"light":"night";mode=m;try{localStorage.setItem("i11-mode",m)}catch(e){}applyMode();}
+function setMode(m){if(m=="toggle")m=$("#app").classList.contains("night")?"light":"night";mode=m;try{localStorage.setItem("i11-mode2",m)}catch(e){}applyMode();}
 document.addEventListener("click",e=>{const b=e.target.closest("[data-mode]");if(b){e.stopPropagation();setMode(b.dataset.mode);}},true);
 if(mq&&mq.addEventListener)mq.addEventListener("change",applyMode);
 applyMode();

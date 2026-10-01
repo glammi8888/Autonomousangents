@@ -483,6 +483,20 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .emojis button{width:44px;height:44px;font-size:24px;border:1px solid #4a3f42;border-radius:12px}
 .emojis input{width:120px;background:transparent;border:1px solid #4a3f42;padding:10px;font-size:20px;color:var(--cream)}
 
+
+/* ===== 3D stickers ===== */
+.s3-heart{width:22cqw;height:20cqw;position:relative;filter:drop-shadow(0 1.6cqw 1.6cqw rgba(0,0,0,.35))}
+.s3-heart::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 28%,#fff 0 6%,#ffb3dc 12%,var(--acc) 42%,#8e0f4f 100%);clip-path:path("M50 92 C20 70 0 52 0 30 C0 12 14 0 28 0 C38 0 46 6 50 14 C54 6 62 0 72 0 C86 0 100 12 100 30 C100 52 80 70 50 92 Z");transform:scale(calc(22/100*1cqw/1px))}
+.s3-chrome{font-family:var(--display);font-size:13cqw;line-height:1;letter-spacing:-.04em;text-transform:uppercase;background:linear-gradient(180deg,#fff 0%,#c9d2dc 30%,#5d6670 48%,#e9eef3 52%,#9aa4ae 75%,#fff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(.3cqw .3cqw 0 #3a4048) drop-shadow(.6cqw .9cqw 1cqw rgba(0,0,0,.4))}
+.s3-bubble{font-family:var(--display);font-size:13cqw;line-height:1;letter-spacing:-.02em;color:var(--acc);-webkit-text-stroke:.5cqw #fff;paint-order:stroke fill;text-shadow:0 .4cqw 0 #fff,.6cqw .9cqw 0 color-mix(in srgb,var(--acc) 55%,#000),1cqw 1.6cqw 1.6cqw rgba(0,0,0,.35);transform:rotate(-6deg)}
+.s3-extrude{font-family:var(--display);font-size:12cqw;line-height:1;letter-spacing:-.05em;text-transform:uppercase;color:#f5eee0;text-shadow:.25cqw .25cqw 0 var(--acc),.5cqw .5cqw 0 var(--acc),.75cqw .75cqw 0 var(--acc),1cqw 1cqw 0 var(--acc2),1.25cqw 1.25cqw 0 var(--acc2),1.5cqw 1.5cqw 0 var(--acc2),2.2cqw 2.6cqw 2cqw rgba(0,0,0,.35)}
+.s3-orb{width:20cqw;height:20cqw;border-radius:50%;background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.95) 0 7%,rgba(255,255,255,.25) 14%,transparent 30%),radial-gradient(circle at 70% 78%,color-mix(in srgb,var(--acc) 70%,#fff),transparent 55%),radial-gradient(circle at 50% 50%,color-mix(in srgb,var(--acc) 40%,transparent),color-mix(in srgb,var(--acc) 85%,#000));box-shadow:inset 0 0 3cqw rgba(255,255,255,.4),0 2cqw 3cqw rgba(0,0,0,.35)}
+.s3-coin{width:19cqw;height:19cqw;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-size:7cqw;color:#7a5200;background:radial-gradient(circle at 35% 30%,#fff6c4,#f2c94c 35%,#b8860b 75%,#7a5200);box-shadow:inset 0 0 0 1.2cqw #e3b33a,inset 0 0 0 1.6cqw #8a6200,0 1.4cqw 2cqw rgba(0,0,0,.4);animation:coin 3s ease-in-out infinite;text-shadow:0 .2cqw 0 #fff3b0}
+@keyframes coin{0%,100%{transform:rotateY(0)}50%{transform:rotateY(180deg)}}
+.s3-star{width:22cqw;height:22cqw;background:conic-gradient(from 0deg,#fff,#c7ccd3,#6f7781,#fff,#aab2bb,#fff,#7b838c,#e8ecf0,#fff);clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);filter:drop-shadow(0 1cqw 1cqw rgba(0,0,0,.4))}
+.s3-gem{width:18cqw;height:18cqw;background:linear-gradient(135deg,#fff 0 10%,color-mix(in srgb,var(--acc) 60%,#fff) 30%,var(--acc) 55%,color-mix(in srgb,var(--acc) 50%,#000) 100%);clip-path:polygon(25% 0,75% 0,100% 30%,50% 100%,0 30%);filter:drop-shadow(0 1cqw 1.2cqw rgba(0,0,0,.35))}
+@media (prefers-reduced-motion:reduce){.s3-coin{animation:none}}
+
 /* edit panel */
 .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;border-top:1px solid #3a3134;padding-top:18px}
 .f{display:flex;flex-direction:column;gap:6px;min-width:0}
@@ -516,7 +530,9 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
     <div class="f"><label>Issue color</label><div class="chips" id="themes"></div></div>
     <div class="f"><label>Cover template</label><div class="chips" id="covers"></div></div>
     <div class="f"><label>Cover photo</label><div class="thumbs" id="thumbs"></div></div>
+    <div class="f" style="grid-column:1/-1"><label>This page's color · tap a page first <span id="pgLabel" style="color:var(--pink)"></span></label><div class="chips" id="pageThemes"></div></div>
     <div class="f" style="grid-column:1/-1"><label>Stickers · tap a page, then a sticker, then drag it</label><div class="tray" id="tray"></div></div>
+    <div class="f" style="grid-column:1/-1"><label>3D stickers</label><div class="tray" id="tray3d"></div></div>
     <div class="f" style="grid-column:1/-1"><label>Emoji stickers · tap one, or type any emoji</label><div class="emojis" id="emojis"><button data-emoji="💖" aria-label="Add 💖">💖</button><button data-emoji="✨" aria-label="Add ✨">✨</button><button data-emoji="💸" aria-label="Add 💸">💸</button><button data-emoji="👑" aria-label="Add 👑">👑</button><button data-emoji="💋" aria-label="Add 💋">💋</button><button data-emoji="🦋" aria-label="Add 🦋">🦋</button><button data-emoji="🌙" aria-label="Add 🌙">🌙</button><button data-emoji="⭐" aria-label="Add ⭐">⭐</button><button data-emoji="🍒" aria-label="Add 🍒">🍒</button><button data-emoji="🔥" aria-label="Add 🔥">🔥</button><button data-emoji="💎" aria-label="Add 💎">💎</button><button data-emoji="🌸" aria-label="Add 🌸">🌸</button><button data-emoji="🥂" aria-label="Add 🥂">🥂</button><button data-emoji="🛍️" aria-label="Add 🛍️">🛍️</button><button data-emoji="💅" aria-label="Add 💅">💅</button><button data-emoji="🎀" aria-label="Add 🎀">🎀</button><button data-emoji="🌍" aria-label="Add 🌍">🌍</button><button data-emoji="✈️" aria-label="Add ✈️">✈️</button><button data-emoji="🏝️" aria-label="Add 🏝️">🏝️</button><button data-emoji="📖" aria-label="Add 📖">📖</button><button data-emoji="💌" aria-label="Add 💌">💌</button><button data-emoji="🪩" aria-label="Add 🪩">🪩</button><button data-emoji="🧿" aria-label="Add 🧿">🧿</button><button data-emoji="☁️" aria-label="Add ☁️">☁️</button><input id="emojiIn" placeholder="Type 🙂" maxlength="8" aria-label="Custom emoji"><button data-emoji-custom aria-label="Add typed emoji" style="width:auto;padding:0 12px;font-size:12px;font-weight:700">ADD</button></div></div>
   </section>
   <p class="note"><b>How it works in the app:</b> each page is a fixed template with slots (name, headline, quote, photos). Text automatically shrinks to fit its box, photos crop around the face, and the date follows the real season. Pages are drawn at real magazine proportions (3:4), so the same layouts can be printed later. Try a long name or a long quote to see the auto-fit.</p>
@@ -621,7 +637,7 @@ function render(){
   requestAnimationFrame(()=>strip.querySelectorAll("[data-fit]").forEach(fit));
 }
 
-const THEMES={Pink:["#fcd2dd","#f65aad","#d40806"],Red:["#f5e3d8","#d40806","#0d0d0d"],Green:["#e3eedf","#4ba551","#d40806"],Cobalt:["#e3e7f8","#2f4bd8","#f65aad"],Butter:["#fbf1c4","#f2cf2e","#d40806"],Lilac:["#ece2f6","#a982ea","#0d0d0d"],"Cream & Black":["#f5eee0","#0d0d0d","#d40806"]};
+const THEMES={Pink:["#fcd2dd","#f65aad","#d40806"],Red:["#f5e3d8","#d40806","#0d0d0d"],Green:["#e3eedf","#4ba551","#d40806"],Cobalt:["#e3e7f8","#2f4bd8","#f65aad"],Butter:["#fbf1c4","#f2cf2e","#d40806"],Lilac:["#ece2f6","#a982ea","#0d0d0d"],"Cream & Black":["#f5eee0","#0d0d0d","#d40806"],Black:["#0d0d0d","#f65aad","#d40806"]};
 let theme="Pink";
 function applyTheme(){const [p,a,b]=THEMES[theme];const r=document.documentElement.style;r.setProperty("--paper",p);r.setProperty("--acc",a);r.setProperty("--acc2",b);}
 document.getElementById("themes").innerHTML=Object.entries(THEMES).map(([k,v])=>`<button class="chip" data-theme="${k}" aria-pressed="${k===theme}"><span class="sw" style="background:linear-gradient(90deg,${v[0]} 50%,${v[1]} 50%)"></span>${k}</button>`).join("");
@@ -676,6 +692,40 @@ const _render2=render; render=function(){_render2();makeEditable();requestAnimat
 STK.emoji={l:"Emoji",h:st=>`<div class="s-emoji">${esc(st.e)}</div>`};
 function addEmoji(ch){if(!ch)return;(stickers[activePage]=stickers[activePage]||[]).push({k:"emoji",e:ch,x:30+Math.random()*40,y:25+Math.random()*50,r:Math.round(Math.random()*30-15)});selSticker=[activePage,stickers[activePage].length-1];paintStickers();}
 document.addEventListener("click",e=>{const b=e.target.closest("[data-emoji]");if(b)addEmoji(b.dataset.emoji);if(e.target.closest("[data-emoji-custom]")){const v=document.getElementById("emojiIn").value.trim();addEmoji(v);document.getElementById("emojiIn").value="";}});
+
+/* ---------- per-page color + auto contrast ---------- */
+const pageTheme={};
+const rgb=c=>{const m=c.match(/[\d.]+/g);return m?m.map(Number):[0,0,0,0];};
+const lum=([r,g,b])=>{const f=v=>{v/=255;return v<=.03928?v/12.92:Math.pow((v+.055)/1.055,2.4)};return .2126*f(r)+.7152*f(g)+.0722*f(b);};
+function bgOf(el,pg){let n=el;while(n&&n!==pg.parentElement){const cs=getComputedStyle(n);if(cs.backgroundImage&&cs.backgroundImage!=="none"&&!cs.backgroundImage.includes("gradient"))return null;const c=rgb(cs.backgroundColor);if((c[3]===undefined||c[3]>.5)&&cs.backgroundColor!=="transparent")return c;n=n.parentElement;}return null;}
+function overPhoto(el,pg){const r=el.getBoundingClientRect(),cx=r.left+r.width/2,cy=r.top+r.height/2;return [...pg.querySelectorAll(".ph,.riso,.win,.t")].some(ph=>{const q=ph.getBoundingClientRect();return cx>q.left&&cx<q.right&&cy>q.top&&cy<q.bottom&&getComputedStyle(ph).zIndex<=(getComputedStyle(el).zIndex||0);});}
+function contrast(pg){
+  const dark=lum(rgb(getComputedStyle(pg).getPropertyValue("--paper").trim().replace(/^#(..)(..)(..)$/,(m,a,b,c)=>`rgb(${parseInt(a,16)},${parseInt(b,16)},${parseInt(c,16)})`)))<.2;
+  if(dark){pg.querySelectorAll(".half,.pCont,.pSteps,.pNews,.pQuote").forEach(h=>{const c=rgb(getComputedStyle(h).backgroundColor);if(c.length>=3&&lum(c)>.6)h.style.background="var(--paper)";});}
+  pg.querySelectorAll("[data-ek]").forEach(el=>{if(el.closest(".stk"))return;const bg=bgOf(el,pg);if(!bg){return;}if(overPhoto(el,pg))return;const tl=lum(rgb(getComputedStyle(el).color)),bl=lum(bg);
+    if(bl<.18&&tl<.18)el.style.color="#f5eee0";else if(bl>.6&&tl>.75)el.style.color="#0d0d0d";});
+}
+function applyPageThemes(){strip.querySelectorAll(".page").forEach((pg,i)=>{const t=pageTheme[i];if(t){const [p,a,b]=THEMES[t];pg.style.setProperty("--paper",p);pg.style.setProperty("--acc",a);pg.style.setProperty("--acc2",b);}contrast(pg);});
+  document.getElementById("pgLabel").textContent="· page "+(activePage+1)+(pageTheme[activePage]?" ("+pageTheme[activePage]+")":" (issue color)");
+  document.querySelectorAll("[data-ptheme]").forEach(b=>b.setAttribute("aria-pressed",(pageTheme[activePage]||"")===b.dataset.ptheme));}
+document.getElementById("pageThemes").innerHTML=`<button class="chip" data-ptheme="">Same as issue</button>`+Object.entries(THEMES).map(([k,v])=>`<button class="chip" data-ptheme="${k}"><span class="sw" style="background:linear-gradient(90deg,${v[0]} 50%,${v[1]} 50%)"></span>${k}</button>`).join("");
+document.addEventListener("click",e=>{const b=e.target.closest("[data-ptheme]");if(!b)return;if(b.dataset.ptheme)pageTheme[activePage]=b.dataset.ptheme;else delete pageTheme[activePage];render();});
+const _render3=render; render=function(){_render3();requestAnimationFrame(applyPageThemes);};
+strip.addEventListener("click",()=>requestAnimationFrame(applyPageThemes));
+document.addEventListener("click",e=>{if(e.target.closest("[data-theme]"))render();});
+
+/* ---------- 3D stickers ---------- */
+Object.assign(STK,{
+ h3:{l:"3D heart",h:()=>`<div class="s3-orb" style="border-radius:50% 50% 50% 50%/60% 60% 40% 40%;clip-path:path('M50 92 C20 70 0 52 0 30 C0 12 14 0 28 0 C38 0 46 6 50 14 C54 6 62 0 72 0 C86 0 100 12 100 30 C100 52 80 70 50 92 Z');width:100px;height:92px;transform:scale(1.2)"></div>`},
+ c3:{l:"Chrome WOW",h:()=>`<div class="s3-chrome">wow</div>`},
+ b3:{l:"Bubble YES",h:()=>`<div class="s3-bubble">yes!</div>`},
+ e3:{l:"3D Issue 11",h:()=>`<div class="s3-extrude">11</div>`},
+ o3:{l:"Glass orb",h:()=>`<div class="s3-orb"></div>`},
+ g3:{l:"Gold coin",h:()=>`<div class="s3-coin">$</div>`},
+ s3:{l:"Chrome star",h:()=>`<div class="s3-star"></div>`},
+ d3:{l:"Gem",h:()=>`<div class="s3-gem"></div>`},
+});
+document.getElementById("tray3d").innerHTML=["h3","c3","b3","e3","o3","g3","s3","d3"].map(k=>`<button data-stk="${k}">${STK[k].l}</button>`).join("");
 
 (document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(render);
 window.addEventListener("resize",()=>strip.querySelectorAll("[data-fit]").forEach(fit));

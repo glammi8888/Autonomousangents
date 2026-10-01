@@ -302,6 +302,84 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .eNeon .cols p:first-child::first-letter{color:#ecff3a}
 .eNeon .by{position:absolute;left:24%;top:46%;font-family:var(--narrow);font-weight:700;font-size:.9cqw;text-transform:uppercase;letter-spacing:.1em;color:#0d0d0d;margin:0;z-index:3}
 
+
+/* E14 giant word behind object (WOMENS) */
+.eBig{background:var(--paper)}
+.eBig .gw{position:absolute;left:-1%;right:-1%;top:-2%;bottom:-2%;display:flex;justify-content:space-between;align-items:stretch}
+.eBig .gw span{font-family:"Archivo","Archivo Black",sans-serif;font-stretch:62%;font-weight:900;font-size:24cqw;line-height:.74;color:var(--acc);transform:scaleY(1.32);transform-origin:top;display:block}
+.eBig .ph.a{left:13%;top:20%;width:24%;height:56%;box-shadow:0 1.4cqw 3cqw rgba(0,0,0,.25)}
+.eBig .ttl{position:absolute;left:58%;top:30%;width:26%;text-align:center;font-family:"Archivo",sans-serif;font-stretch:62%;font-weight:900;font-size:2cqw;letter-spacing:.3em;line-height:1.5;text-transform:uppercase;margin:0;color:#0d0d0d}
+.eBig .sm{position:absolute;left:58%;top:47%;width:26%;font-family:var(--narrow);font-weight:500;font-size:.95cqw;line-height:1.45;text-align:center;margin:0;color:#0d0d0d}
+/* E15 staggered quote + credits */
+.eStag .half.L{background:#f6f5f2}
+.eStag .ph.a{left:52%;top:6%;width:44%;height:88%;background-position:center 25%}
+.eStag .ln{position:absolute;font-family:"Archivo",sans-serif;font-stretch:80%;font-weight:500;font-size:2.6cqw;line-height:.95;text-transform:uppercase;color:#0d0d0d;margin:0}
+.eStag .crd{position:absolute;left:5%;bottom:7%;width:40%;font-family:var(--serif);font-size:1.6cqw;line-height:1.05;color:#0d0d0d;margin:0}
+.eStag .crd small{font-family:var(--narrow);font-weight:600;font-size:.6cqw;text-transform:uppercase;display:block;margin-top:.6cqw}
+/* E16 kiss print */
+.eKiss .ph.a{left:0;top:0;width:50%;height:100%}
+.eKiss .half.R{background:#eef2f3}
+.eKiss .blush{position:absolute;left:58%;top:22%;width:34%;height:46%;border-radius:50%;background:radial-gradient(closest-side,color-mix(in srgb,var(--acc2) 55%,transparent),transparent);filter:blur(1.4cqw)}
+.eKiss .lips{position:absolute;left:66%;top:46%;width:18%;height:9%;background:var(--acc2);opacity:.75;border-radius:50% 50% 45% 45%/70% 70% 40% 40%;filter:blur(.25cqw)}
+.eKiss .w{position:absolute;bottom:6%;font-family:var(--display);font-size:2cqw;letter-spacing:-.03em;text-transform:uppercase;color:#fff;margin:0}
+.eKiss .cr{position:absolute;font-family:var(--narrow);font-weight:600;font-size:.85cqw;color:#0d0d0d;margin:0}
+/* E17 liquid word over text */
+.eLiquid .half{background:#f2ece0}
+.eLiquid .txt{position:absolute;left:6%;width:38%;top:12%;font-family:var(--narrow);font-weight:700;font-size:1.7cqw;line-height:1.2;text-align:center;color:var(--acc2);margin:0}
+.eLiquid .liq{position:absolute;left:12%;top:4%;font-family:var(--display);font-style:italic;font-size:16cqw;line-height:.9;letter-spacing:-.06em;color:var(--acc);mix-blend-mode:multiply;transform:rotate(-8deg) skewX(-12deg) scaleY(1.2);filter:url(#wob);margin:0}
+.eLiquid .prod{position:absolute;left:62%;top:42%;font-family:var(--display);font-size:3.6cqw;letter-spacing:-.05em;margin:0;color:#0d0d0d}
+.eLiquid .cols{left:54%;right:5%;top:56%;bottom:8%;column-count:2;font-size:.9cqw}
+/* E18 knockout letters over text */
+.eKnock{background:#f4f3f0}
+.eKnock .bg{position:absolute;left:8%;right:4%;top:6%;bottom:6%;column-count:4;column-gap:2cqw;font-family:var(--narrow);font-weight:500;font-size:.9cqw;line-height:1.3;color:#0d0d0d;overflow:hidden;text-align:justify}
+.eKnock .lt{position:absolute;font-family:"Archivo",var(--display);font-stretch:100%;font-weight:900;font-size:17cqw;line-height:.8;color:var(--acc2);mix-blend-mode:multiply;margin:0;text-transform:uppercase}
+/* ===== Stickers ===== */
+.page.sel{outline:3px solid var(--pink);outline-offset:4px}
+.stk{position:absolute;z-index:20;transform:translate(-50%,-50%) rotate(var(--r,0deg));cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;line-height:1}
+.stk.on{outline:2px dashed #fff;outline-offset:3px}
+.tray{display:flex;flex-wrap:wrap;gap:8px}
+.tray button{min-height:44px;padding:6px 10px;border:1px solid #4a3f42;border-radius:12px;display:flex;align-items:center;gap:6px;font-weight:700;font-size:12px;text-transform:uppercase}
+.tray .del{border-color:var(--red);color:#ff8a8a}
+.s-star{width:28cqw;height:28cqw;display:grid;place-items:center;text-align:center;font-family:var(--display);font-size:5cqw;color:#0d0d0d;filter:drop-shadow(1cqw 1.2cqw 0 #0d0d0d)}
+.s-star svg{position:absolute;inset:0;width:100%;height:100%}
+.s-star span{position:relative}
+.s-stamp{border:1.1cqw solid var(--acc2);color:var(--acc2);padding:1.4cqw 2.8cqw;font-family:var(--display);font-size:7cqw;letter-spacing:-.04em;text-transform:uppercase;line-height:.85;text-align:center;background:rgba(255,255,255,.35);mix-blend-mode:multiply}
+.s-tape{width:26cqw;height:7cqw;background:color-mix(in srgb,var(--acc) 60%,transparent)}
+.s-heart{font-size:16cqw;color:var(--acc2)}
+.s-spark{font-size:16cqw;color:#f2cf2e;text-shadow:0 0 2cqw rgba(255,255,255,.7)}
+.s-circle{width:24cqw;height:24cqw;border-radius:50%;background:var(--acc2);color:#fff;display:grid;place-items:center;text-align:center;font-family:var(--display);font-size:4.4cqw;letter-spacing:-.04em;text-transform:uppercase;line-height:.9}
+.s-hand{font-family:"Caveat",cursive;font-weight:600;font-size:9cqw;color:var(--acc2);border:.8cqw solid var(--acc);border-radius:50%;padding:3cqw 4cqw}
+.s-arrow{font-family:"Caveat",cursive;font-weight:600;font-size:14cqw;color:var(--acc)}
+.s-barcode{width:22cqw;height:12cqw;background:#fff repeating-linear-gradient(90deg,#000 0 1px,transparent 1px 2px,#000 2px 4px,transparent 4px 5px,#000 5px 6px,transparent 6px 8px);border:1.6cqw solid #fff;outline:1px solid #ddd}
+.s-polaroid{width:30cqw;height:36cqw;background:#fff;padding:2cqw 2cqw 7cqw;box-shadow:0 1cqw 3cqw rgba(0,0,0,.3)}
+.s-polaroid i{display:block;width:100%;height:100%;background-size:cover;background-position:center 30%}
+
+
+/* E19 vertical stacked words */
+.eVert .half{background:var(--paper)}
+.eVert .vw{position:absolute;top:6%;bottom:22%;writing-mode:vertical-rl;transform:rotate(180deg);font-family:"Archivo",var(--display);font-stretch:100%;font-weight:900;font-size:7.6cqw;line-height:.82;text-transform:uppercase;color:#0d0d0d;margin:0;text-align:right}
+.eVert .by{position:absolute;left:4%;top:56%;font-family:var(--display);font-size:1.6cqw;line-height:1;text-transform:uppercase;margin:0}
+.eVert .cols{bottom:7%;top:60%;column-count:1;font-size:.82cqw}
+/* E20 translucent word over face */
+.eBad .ph.a{left:0;top:0;width:100%;height:100%;background-position:center 30%}
+.eBad .w{position:absolute;left:4%;right:4%;top:30%;font-family:var(--display);font-size:24cqw;line-height:.85;text-align:center;letter-spacing:-.04em;text-transform:uppercase;color:var(--acc2);opacity:.62;mix-blend-mode:multiply;margin:0}
+.eBad .cut{position:absolute;left:38%;top:55%;width:26%;height:30%;background-size:300%;background-position:50% 72%;clip-path:polygon(8% 12%,92% 0,100% 70%,78% 100%,10% 92%,0 40%);box-shadow:0 0 0 .3cqw rgba(255,255,255,.4)}
+.eBad .top{position:absolute;left:0;right:0;top:3%;text-align:center;font-family:var(--display);font-size:2.6cqw;color:var(--acc2);margin:0;text-transform:uppercase}
+/* E21 tag labels on photo */
+.eTags{background:#fff}
+.eTags .ph.a{left:22%;top:0;width:56%;height:100%;background-position:center 30%}
+.eTags .tg{position:absolute;background:#141414;color:#fff;font-family:var(--narrow);font-weight:600;font-size:1.25cqw;padding:.6cqw 1cqw;border-radius:.4cqw;margin:0}
+.eTags .tg::before{content:"";position:absolute;left:50%;top:-.7cqw;border:.4cqw solid transparent;border-bottom-color:#141414;transform:translateX(-50%)}
+.eTags .tap{position:absolute;left:0;right:0;bottom:4%;text-align:center;font-family:var(--display);font-size:1.8cqw;letter-spacing:.06em;text-transform:uppercase;margin:0}
+/* E22 portrait across both pages (vertical flip) */
+.eTall .ph.a{left:0;top:0;width:100%;height:100%;background-size:cover;background-position:center 35%}
+.eTall .side{position:absolute;right:2%;bottom:8%;width:9%;writing-mode:vertical-rl;font-family:var(--narrow);font-weight:600;font-size:.9cqw;color:#fff;margin:0}
+.eTall .mk{position:absolute;left:2%;bottom:4%;font-family:var(--narrow);font-weight:700;font-size:.9cqw;letter-spacing:.2em;color:#fff;margin:0;writing-mode:vertical-rl;transform:rotate(180deg)}
+/* E23 neon overprint type */
+.eOver2 .ph.a{left:0;top:0;width:100%;height:100%;background-position:center 30%}
+.eOver2 .ov{position:absolute;left:3%;right:3%;top:6%;font-family:"Archivo",var(--display);font-stretch:100%;font-weight:900;font-size:13cqw;line-height:.86;letter-spacing:-.04em;text-transform:uppercase;color:var(--acc);mix-blend-mode:screen;margin:0;opacity:.95}
+.eOver2 .sub{position:absolute;left:3%;right:3%;bottom:5%;font-family:var(--display);font-size:2.4cqw;line-height:1.05;color:#f2cf2e;margin:0}
+
 /* edit panel */
 .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;border-top:1px solid #3a3134;padding-top:18px}
 .f{display:flex;flex-direction:column;gap:6px;min-width:0}
@@ -335,6 +413,7 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
     <div class="f"><label>Issue color</label><div class="chips" id="themes"></div></div>
     <div class="f"><label>Cover template</label><div class="chips" id="covers"></div></div>
     <div class="f"><label>Cover photo</label><div class="thumbs" id="thumbs"></div></div>
+    <div class="f" style="grid-column:1/-1"><label>Stickers · tap a page, then a sticker, then drag it</label><div class="tray" id="tray"></div></div>
   </section>
   <p class="note"><b>How it works in the app:</b> each page is a fixed template with slots (name, headline, quote, photos). Text automatically shrinks to fit its box, photos crop around the face, and the date follows the real season. Pages are drawn at real magazine proportions (3:4), so the same layouts can be printed later. Try a long name or a long quote to see the auto-fit.</p>
 </main>
@@ -380,6 +459,16 @@ const ED=[
  {tag:"Feature · star cut-outs",num:"P.24–25",cls:()=>"spread eStars",html:s=>`${bg("u",8)}<div class="half L" style="background:var(--acc)"></div><span class="win" style="--w:15cqw;left:9%;top:24%;background-image:url(${IMG(1)})"></span><span class="win" style="--w:22cqw;left:24%;top:42%;background-image:url(${IMG(4)})"></span>${bg("b",8).replace('class="ph b"','class="ph" style="left:50%;top:0;width:50%;height:100%;background-position:center 30%"').replace('style="background','data-x="1" style2="background')}<div class="ph" style="left:50%;top:0;width:50%;height:100%;background-image:url(${IMG(8)});background-position:center 30%"></div><span class="st" style="--w:13cqw;left:6%;top:26%;transform:rotate(-8deg)"></span><span class="st" style="--w:19cqw;left:20%;top:46%;transform:rotate(10deg)"></span><span class="st" style="--w:14cqw;left:58%;top:30%;transform:rotate(-6deg)"></span><span class="st" style="--w:22cqw;left:72%;top:52%;transform:rotate(14deg)"></span><p class="t1">trust the<br>process</p><p class="t2">and the<br>${esc(s.name)}</p><p class="t3">she<br>is<br>always<br>${esc(s.name)}</p>`},
  {tag:"Feature · cool type mix",num:"P.26–27",cls:()=>"spread eCool",html:s=>`<div class="half L"></div><div class="half R"></div>${bg("a",2)}<p class="kick">Dreamed & Done</p><p class="w1">dream<br>big</p><p class="w2">assemble</p><p class="r1">a life so<br>dreamy,</p><p class="v">caution: may cause main-character energy.</p><p class="r2">you'll<br>question<br>playing<br>small.</p>${rh(s,"26","27")}`},
  {tag:"Feature · neon headline",num:"P.28–29",cls:()=>"spread eNeon",html:s=>`<div class="half L"></div>${bg("a",6)}<h2 class="hl">${esc(s.name)}'s new era of becoming</h2><p class="by">Words by ${esc(s.name)}</p><p class="bub">Long seen as a dreamer, she is now the one doing it. What's next?</p><div class="cols">${body(s)}</div>${rh(s,"28","29")}`},
+ {tag:"Feature · giant word",num:"P.30–31",cls:()=>"spread eBig",html:s=>`<div class="gw">${[..."BECOMING"].map(c=>`<span>${c}</span>`).join("")}</div>${bg("a",7)}<p class="ttl">${esc(s.name)}<br>${season()}</p><p class="sm">${esc(s.quote)}</p>${rh(s,"30","31")}`},
+ {tag:"Feature · staggered quote",num:"P.32–33",cls:()=>"spread eStag",html:s=>`<div class="half L"></div>${bg("a",3)}<p class="ln" style="left:4%;top:7%">It<br>is<br>only<br>when</p><p class="ln" style="left:30%;top:22%;text-align:right">I<br>write<br>it<br>down</p><p class="ln" style="left:16%;top:46%">that it becomes real</p><p class="crd"><small>Words</small>${esc(s.name)} <small>Season</small>${season()} <small>Proof</small>${esc(s.proof)}</p>${rh(s,"32","33")}`},
+ {tag:"Feature · kiss print",num:"P.34–35",cls:()=>"spread eKiss",html:s=>`${bg("a",6)}<div class="half R"></div><div class="blush"></div><div class="lips"></div><p class="w" style="left:3%">Serendipitous</p><p class="w" style="left:40%">${esc(s.name)}</p><p class="cr" style="left:56%;top:4%">Words · ${esc(s.name)}</p><p class="cr" style="left:80%;top:4%">Issue 01</p><p class="cr" style="left:56%;bottom:6%">${esc(s.quote)}</p>${rh(s,"34","35")}`},
+ {tag:"Feature · liquid word",num:"P.36–37",cls:()=>"spread eLiquid",html:s=>`<svg width="0" height="0" style="position:absolute"><filter id="wob"><feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="3"/><feDisplacementMap in="SourceGraphic" scale="18"/></filter></svg><div class="half L"></div><div class="half R"></div><p class="txt">Not every dream becomes a life. How she got here is the whole story. ${esc(s.quote)} The way of making it is the point.</p><p class="liq">Becoming</p><p class="prod">her life</p><div class="cols">${body(s)}</div>${rh(s,"36","37")}`},
+ {tag:"Feature · knockout letters",num:"P.38–39",cls:()=>"spread eKnock",html:s=>{const n=(s.name||"YOU").toUpperCase();const L=[...n];const pos=L.map((c,i)=>{const col=i%4,row=Math.floor(i/4);return `<p class="lt" style="left:${8+col*22}%;top:${6+row*30}%">${esc(c)}</p>`}).join("");return `<div class="bg">${"She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. "}${body(s)}${"She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time. She wrote the life down before it arrived. Then she read it every morning until it felt like memory instead of wish. This is how a future gets built: one page, one image, one small win at a time."}</div>${pos}${rh(s,"38","39")}`}},
+ {tag:"Feature · vertical words",num:"P.40–41",cls:()=>"spread eVert",html:s=>`<div class="half L"></div><div class="half R"></div><p class="vw" style="left:3%">Not</p><p class="vw" style="left:13%">the</p><p class="vw" style="left:26%">wish</p><p class="vw" style="left:54%">but</p><p class="vw" style="left:66%">the</p><p class="vw" style="left:79%">life</p><p class="by">By<br>${esc(s.name)}</p><div class="cols" style="left:14%;right:52%">${body(s)}</div><div class="cols" style="left:54%;right:5%;column-count:2">${body(s)}</div>${rh(s,"40","41")}`},
+ {tag:"Feature · word over face",num:"P.42–43",cls:()=>"spread eBad",html:s=>`${bg("a",4)}<p class="top">${esc(s.name)} girl</p><p class="w">Main</p><div class="cut" style="background-image:url(${IMG(6)})"></div>${rh(s,"42","43")}`},
+ {tag:"Feature · tag labels",num:"P.44–45",cls:()=>"spread eTags",html:s=>`${bg("a",7)}<p class="tg" style="left:34%;top:18%">dreams</p><p class="tg" style="left:50%;top:14%">career</p><p class="tg" style="left:30%;top:30%">wealth</p><p class="tg" style="left:56%;top:28%">love</p><p class="tg" style="left:40%;top:42%">travel</p><p class="tg" style="left:58%;top:44%">style</p><p class="tg" style="left:34%;top:56%">body</p><p class="tg" style="left:50%;top:60%">home</p><p class="tg" style="left:42%;top:72%">peace</p><p class="tg" style="left:58%;top:76%">freedom</p><p class="tap">${esc(s.name)} · tap once</p>${rh(s,"44","45")}`},
+ {tag:"Feature · full-bleed portrait",num:"P.46–47",cls:()=>"spread eTall",html:s=>`${bg("a",4)}<p class="side">${esc(s.quote)}</p><p class="mk">${esc(s.name)}</p>`},
+ {tag:"Feature · neon overprint",num:"P.48–49",cls:()=>"spread eOver2",html:s=>`${bg("a",9)}<p class="ov">Happy ${esc(s.name)} era</p><p class="sub">${esc(s.quote)}</p>`},
 ];
 const PAGES=[
  {tag:"Cover",num:"",cls:s=>"c"+s.cover,html:s=>COVERS[s.cover].html(s)},
@@ -428,6 +517,35 @@ document.getElementById("thumbs").innerHTML=[0,1,2,3,4,5,6,7,8,9].map(n=>`<butto
 document.addEventListener("click",e=>{const c=e.target.closest("[data-cover]"),p=e.target.closest("[data-photo]");
   if(c){state.cover=c.dataset.cover;document.querySelectorAll("[data-cover]").forEach(b=>b.setAttribute("aria-pressed",b===c));render();strip.scrollTo({left:0,behavior:"smooth"});}
   if(p){state.photo=+p.dataset.photo;document.querySelectorAll("[data-photo]").forEach(b=>b.setAttribute("aria-pressed",b===p));render();strip.scrollTo({left:0,behavior:"smooth"});}});
+
+/* ---------- stickers ---------- */
+const STAR=`<svg viewBox="0 0 120 120"><polygon fill="currentColor" points="110.0,60.0 102.6,65.6 108.3,72.9 99.7,76.5 103.3,85.0 94.1,86.2 95.4,95.4 86.2,94.1 85.0,103.3 76.5,99.7 72.9,108.3 65.6,102.6 60.0,110.0 54.4,102.6 47.1,108.3 43.5,99.7 35.0,103.3 33.8,94.1 24.6,95.4 25.9,86.2 16.7,85.0 20.3,76.5 11.7,72.9 17.4,65.6 10.0,60.0 17.4,54.4 11.7,47.1 20.3,43.5 16.7,35.0 25.9,33.8 24.6,24.6 33.8,25.9 35.0,16.7 43.5,20.3 47.1,11.7 54.4,17.4 60.0,10.0 65.6,17.4 72.9,11.7 76.5,20.3 85.0,16.7 86.2,25.9 95.4,24.6 94.1,33.8 103.3,35.0 99.7,43.5 108.3,47.1 102.6,54.4"/></svg>`;
+const STK={
+ future:{l:"Future you",h:()=>`<div class="s-star" style="color:var(--acc)">${STAR}<span>Future<br>you</span></div>`},
+ happened:{l:"It happened",h:()=>`<div class="s-stamp">It<br>happened</div>`},
+ issue:{l:"Issue 01",h:()=>`<div class="s-circle">Issue<br>01</div>`},
+ mine:{l:"It's mine",h:()=>`<div class="s-hand">it's already mine ♡</div>`},
+ tape:{l:"Tape",h:()=>`<div class="s-tape"></div>`},
+ heart:{l:"Heart",h:()=>`<div class="s-heart">♥</div>`},
+ spark:{l:"Sparkle",h:()=>`<div class="s-spark">✦</div>`},
+ arrow:{l:"Arrow",h:()=>`<div class="s-arrow">⤵</div>`},
+ barcode:{l:"Barcode",h:()=>`<div class="s-barcode"></div>`},
+ polaroid:{l:"Polaroid",h:()=>`<div class="s-polaroid"><i style="background-image:url(${IMG(state.photo)})"></i></div>`},
+};
+const stickers={}; let activePage=0, selSticker=null;
+document.getElementById("tray").innerHTML=Object.entries(STK).map(([k,v])=>`<button data-stk="${k}">${v.l}</button>`).join("")+`<button class="del" data-stkdel>Remove selected</button>`;
+function paintStickers(){strip.querySelectorAll(".page").forEach((pg,i)=>{pg.classList.toggle("sel",i===activePage);pg.querySelectorAll(".stk").forEach(n=>n.remove());(stickers[i]||[]).forEach((st,j)=>{const d=document.createElement("div");d.className="stk"+(selSticker&&selSticker[0]===i&&selSticker[1]===j?" on":"");d.style.left=st.x+"%";d.style.top=st.y+"%";d.style.setProperty("--r",st.r+"deg");d.dataset.pi=i;d.dataset.si=j;d.innerHTML=STK[st.k].h();pg.appendChild(d);});});}
+const _render=render; render=function(){_render();paintStickers();};
+strip.addEventListener("click",e=>{const pg=e.target.closest(".page");if(!pg||e.target.closest(".stk"))return;activePage=[...strip.querySelectorAll(".page")].indexOf(pg);selSticker=null;paintStickers();});
+document.addEventListener("click",e=>{const b=e.target.closest("[data-stk]");if(b){(stickers[activePage]=stickers[activePage]||[]).push({k:b.dataset.stk,x:30+Math.random()*40,y:25+Math.random()*50,r:Math.round(Math.random()*24-12)});selSticker=[activePage,stickers[activePage].length-1];paintStickers();const pg=strip.querySelectorAll(".page")[activePage];if(pg)pg.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"});}
+ if(e.target.closest("[data-stkdel]")&&selSticker){stickers[selSticker[0]].splice(selSticker[1],1);selSticker=null;paintStickers();}});
+let drag=null;
+strip.addEventListener("pointerdown",e=>{const n=e.target.closest(".stk");if(!n)return;e.preventDefault();const pi=+n.dataset.pi,si=+n.dataset.si;selSticker=[pi,si];activePage=pi;strip.querySelectorAll(".stk").forEach(x=>x.classList.toggle("on",x===n));drag={n,pi,si,pg:n.parentElement};n.setPointerCapture(e.pointerId);});
+strip.addEventListener("pointermove",e=>{if(!drag)return;const r=drag.pg.getBoundingClientRect();const st=stickers[drag.pi][drag.si];st.x=Math.max(0,Math.min(100,(e.clientX-r.left)/r.width*100));st.y=Math.max(0,Math.min(100,(e.clientY-r.top)/r.height*100));drag.n.style.left=st.x+"%";drag.n.style.top=st.y+"%";});
+["pointerup","pointercancel"].forEach(t=>strip.addEventListener(t,()=>{drag=null;}));
+// starter stickers so the feature is visible
+stickers[0]=[{k:"future",x:78,y:62,r:-12}];
+
 (document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(render);
 window.addEventListener("resize",()=>strip.querySelectorAll("[data-fit]").forEach(fit));
 render();

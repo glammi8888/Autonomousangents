@@ -68,3 +68,10 @@ Not decided here: pricing (💛 Revenue + Megan).
 - 02 · Screens · Night and 03 · Screens · Light: Splash, Cover reveal, Paywall, Home, Explore, Immersive session, Journal, Past Proof
 - Images are placeholders named "IMAGE · pX": the image upload host (mcp.figma.com) is blocked by this environment's network policy.
 - Oct 1: added onboarding 02–07 (Hook, Dream, Ideal life, Life areas, Visuals, Sessions) on the Night page (row 2). Then hit the Figma Starter plan's MCP tool-call limit. Still to build: 08 Past proof Q, 09 Name, 10 Printing, 12 Notifications, 14 Save your issue, Issue tab, Reader, My World, Collection, You, Settings, Delete account, Offline, (+) sheet, Mic sheet; plus Light copies of the new screens. Leftover to delete by hand: red "Wording check…" note on 07 · Sessions.
+
+## Figma v1 — rebuilt on Megan's paid account (Oct 1, 2026)
+- **File: https://www.figma.com/design/vmhEozmeuxjFV8OhtKLU0r** (glammiagency@gmail.com · "Megan Scott's team" · Pro). This is the main file.
+- 01 · Foundations: theme variables with **Night + Light modes**, 9 text styles, vector logo (follows theme), components: Button / Liquid glass (Primary · Secondary · On photo), Cover capsule, Hold to log your win, Band label, Cover splash · Future you, Tab bar.
+- 02 · Onboarding: 01–14 (Night row + Light row). 03 · App: 15–29 (Night row + Light row). Light rows = same screens with the frame's theme mode set to Light.
+- Images: named placeholders "IMAGE · pX · …" (upload host mcp.figma.com blocked by this environment). Originals in brand/imagery/ (mj-00…mj-09 = p0…p9).
+- Old partial file on the free account (meganscottmanolova@gmail.com, vKzbnR5ffDv0Zuf0A3Sp2e) is superseded.

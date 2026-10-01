@@ -380,6 +380,42 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .eOver2 .ov{position:absolute;left:3%;right:3%;top:6%;font-family:"Archivo",var(--display);font-stretch:100%;font-weight:900;font-size:13cqw;line-height:.86;letter-spacing:-.04em;text-transform:uppercase;color:var(--acc);mix-blend-mode:screen;margin:0;opacity:.95}
 .eOver2 .sub{position:absolute;left:3%;right:3%;bottom:5%;font-family:var(--display);font-size:2.4cqw;line-height:1.05;color:#f2cf2e;margin:0}
 
+
+/* COVER E · Vintage frame */
+.cE{background:#f3ede2}
+.cE .logo{--lc:#0d0d0d;left:5%;right:30%;top:3%;height:15%}
+.cE .rule{position:absolute;left:5%;right:5%;top:19.5%;height:.5cqw;background:#0d0d0d}
+.cE .meta{right:5%;top:5%;font-family:var(--display);font-size:8cqw;letter-spacing:-.05em;margin:0}
+.cE .meta small{font-family:var(--narrow);font-weight:700;font-size:2.6cqw;letter-spacing:0;vertical-align:top}
+.cE .sub{left:5%;right:5%;top:20.8%;font-family:var(--narrow);font-style:italic;font-weight:600;font-size:2.4cqw;margin:0}
+.cE .ph{left:7%;right:7%;top:26%;bottom:5%}
+.cE .rule{top:19%!important}
+/* COVER F · Badland */
+.cF{background:#141414}
+.cF .ph{inset:0}
+.cF .blob{left:4%;right:4%;top:1%;height:30%;filter:url(#rough)}
+.cF .blob .logo{--lc:#f5eee0;position:absolute;inset:0}
+.cF .side{left:2%;top:4%;bottom:18%;writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--narrow);font-weight:700;font-size:2cqw;text-transform:uppercase;color:#f5eee0;margin:0;line-height:1.2}
+.cF .bar{left:2.5%;bottom:3%;width:6cqw;height:14cqw;background:#fff repeating-linear-gradient(0deg,#000 0 1px,transparent 1px 2px,#000 2px 4px,transparent 4px 5px)}
+.cF .tag{left:0;right:0;bottom:4%;text-align:center;font-family:var(--serif);font-size:3.4cqw;color:#f5eee0;margin:0}
+/* COVER G · Cascade */
+.cG .ph{inset:0}
+.cG .who{left:3%;right:3%;top:1.5%;height:16cqw;font-size:18cqw;color:#fff}
+.cG .cas{left:4%;right:4%;top:20%;bottom:4%;font-family:var(--narrow);font-weight:700;font-size:2.3cqw;line-height:1.55;color:#fff;margin:0;text-shadow:0 0 .8cqw rgba(0,0,0,.55);text-transform:capitalize}
+.cG .cas span{display:block}
+/* E24 rotated quote */
+.eRot{background:var(--acc)}
+.eRot .q{position:absolute;left:50%;top:50%;width:62cqw;transform:translate(-50%,-50%) rotate(-90deg);font-family:"Archivo",var(--display);font-stretch:62%;font-weight:900;font-size:7.4cqw;line-height:.9;text-transform:uppercase;color:#0d0d0d;margin:0}
+.eRot .st{position:absolute;font-size:9cqw;color:#0d0d0d;margin:0}
+/* E25 name repeat + profile */
+.eRep .half.L{background:var(--acc2);overflow:hidden}
+.eRep .half.R{background:#f6f3ee}
+.eRep .rep{position:absolute;left:-2%;top:3%;width:54%;display:flex;flex-direction:column;gap:0}
+.eRep .rep span{font-family:"Archivo",var(--display);font-stretch:62%;font-weight:900;font-size:9.4cqw;line-height:.86;text-transform:uppercase;color:#f5eee0;white-space:nowrap}
+.eRep .ph.a{left:70%;top:0;width:30%;height:100%;background-position:center 25%}
+.eRep .card{position:absolute;left:52.5%;top:8%;width:17%;font-family:var(--narrow);font-size:1.15cqw;line-height:1.55;color:var(--acc2);margin:0}
+.eRep .card b{color:#0d0d0d}
+
 /* edit panel */
 .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;border-top:1px solid #3a3134;padding-top:18px}
 .f{display:flex;flex-direction:column;gap:6px;min-width:0}
@@ -435,6 +471,9 @@ const COVERS={
    <p class="n abs hl">${esc(s.head)} · ${season()}</p><div class="abs star">${star}<span class="d"><span><small>Meet</small>Future<br>you</span></span></div>`},
  C:{label:"Bold type",html:s=>`<div class="logo"></div><p class="d abs no">01</p>${ph("",s.photo)}<h2 class="d abs who fit" data-fit>${esc(s.name)}</h2>
    <p class="n abs hl">${esc(s.head)} · ${season()} issue</p>`},
+ E:{label:"Vintage",html:s=>`<div class="logo"></div><p class="n abs sub">the magazine of the life she's writing</p><p class="abs meta">${new Date().getFullYear()} <small>No.</small>01</p><div class="rule"></div>${ph("",s.photo)}`},
+ F:{label:"Badland",html:s=>`<svg width="0" height="0" style="position:absolute"><filter id="rough"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="3" seed="7"/><feDisplacementMap in="SourceGraphic" scale="9"/><feMorphology operator="dilate" radius="1.5"/></filter></svg>${ph("",s.photo)}<div class="abs blob"><div class="logo"></div></div><p class="abs side">${esc(s.name)} ★ ${esc(s.head)} ★ ${season()} ★ issue 01</p><div class="abs bar"></div><p class="abs tag">The ${esc(s.name)} issue</p>`},
+ G:{label:"Cascade",html:s=>{const L=[s.head,"Season "+season(),"Proof: "+s.proof,"Words by "+s.name,"Wealth","Love","Career","Identity","Freedom","See it","Write it","Become it"];return `${ph("",s.photo)}<h2 class="d abs who fit" data-fit>${esc(s.name)}</h2><p class="abs cas">${L.map((t,i)=>`<span style="padding-left:${Math.round(i*5)}%">${esc(t)}</span>`).join("")}</p>`}},
  D:{label:"Pink",html:s=>`<div class="logo"></div>${ph("",s.photo)}<h2 class="d abs who"><em>the</em>${esc(s.name)}<em>issue</em></h2><p class="n abs date">${season()}</p>`}
 };
 
@@ -469,6 +508,8 @@ const ED=[
  {tag:"Feature · tag labels",num:"P.44–45",cls:()=>"spread eTags",html:s=>`${bg("a",7)}<p class="tg" style="left:34%;top:18%">dreams</p><p class="tg" style="left:50%;top:14%">career</p><p class="tg" style="left:30%;top:30%">wealth</p><p class="tg" style="left:56%;top:28%">love</p><p class="tg" style="left:40%;top:42%">travel</p><p class="tg" style="left:58%;top:44%">style</p><p class="tg" style="left:34%;top:56%">body</p><p class="tg" style="left:50%;top:60%">home</p><p class="tg" style="left:42%;top:72%">peace</p><p class="tg" style="left:58%;top:76%">freedom</p><p class="tap">${esc(s.name)} · tap once</p>${rh(s,"44","45")}`},
  {tag:"Feature · full-bleed portrait",num:"P.46–47",cls:()=>"spread eTall",html:s=>`${bg("a",4)}<p class="side">${esc(s.quote)}</p><p class="mk">${esc(s.name)}</p>`},
  {tag:"Feature · neon overprint",num:"P.48–49",cls:()=>"spread eOver2",html:s=>`${bg("a",9)}<p class="ov">Happy ${esc(s.name)} era</p><p class="sub">${esc(s.quote)}</p>`},
+ {tag:"Feature · rotated quote",num:"P.50",cls:()=>"eRot",html:s=>`<p class="q">“${esc(s.quote)}” <br>— ${esc(s.name)}</p><p class="st" style="left:10%;top:44%">★</p><p class="st" style="left:12%;top:82%">★</p>`},
+ {tag:"Feature · name repeat",num:"P.52–53",cls:()=>"spread eRep",html:s=>`<div class="half L"><div class="rep">${Array.from({length:5},()=>`<span>${esc((s.name||"").toUpperCase())} ${esc((s.name||"").toUpperCase())}</span>`).join("")}</div></div><div class="half R"></div>${bg("a",8)}<p class="card"><b>Name:</b> ${esc(s.name)}<br><b>Issue:</b> 01<br><b>Season:</b> ${season()}<br><b>Becoming:</b> ${esc(s.head)}<br><b>Proof:</b> ${esc(s.proof)}<br><b>Motto:</b> See it. Write it. Become it.</p>${rh(s,"52","53")}`},
 ];
 const PAGES=[
  {tag:"Cover",num:"",cls:s=>"c"+s.cover,html:s=>COVERS[s.cover].html(s)},

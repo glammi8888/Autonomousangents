@@ -335,7 +335,8 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .eKnock .lt{position:absolute;font-family:"Archivo",var(--display);font-stretch:100%;font-weight:900;font-size:17cqw;line-height:.8;color:var(--acc2);mix-blend-mode:multiply;margin:0;text-transform:uppercase}
 /* ===== Stickers ===== */
 .page.sel{outline:3px solid var(--pink);outline-offset:4px}
-.stk{position:absolute;z-index:20;transform:translate(-50%,-50%) rotate(var(--r,0deg));cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;line-height:1}
+.page.gesture{touch-action:none}
+.stk{position:absolute;z-index:20;transform:translate(-50%,-50%) rotate(var(--r,0deg)) scale(var(--s,1));cursor:grab;touch-action:none;user-select:none;-webkit-user-select:none;line-height:1}
 .stk.on{outline:2px dashed #fff;outline-offset:3px}
 .tray{display:flex;flex-wrap:wrap;gap:8px}
 .tray button{min-height:44px;padding:6px 10px;border:1px solid #4a3f42;border-radius:12px;display:flex;align-items:center;gap:6px;font-weight:700;font-size:12px;text-transform:uppercase}
@@ -530,7 +531,7 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
     <div class="f"><label>Cover photo</label><div class="thumbs" id="thumbs"></div></div>
     <div class="f" style="grid-column:1/-1"><label>This page's color · tap a page first <span id="pgLabel" style="color:var(--pink)"></span></label><div class="chips" id="pageThemes"></div></div>
     <div class="f" style="grid-column:1/-1"><label>Graphic pattern on this page · tap a page first</label><div class="pats" id="pats"></div></div>
-    <div class="f" style="grid-column:1/-1"><label>Stickers · tap a page, then a sticker, then drag it</label><div class="tray" id="tray"></div></div>
+    <div class="f" style="grid-column:1/-1"><label>Stickers · tap a page, then a sticker · drag to move · pinch with 2 fingers to resize &amp; rotate</label><div class="tray" id="tray"></div></div>
     <div class="f" style="grid-column:1/-1"><label>Emoji stickers · tap one, or type any emoji</label><div class="emojis" id="emojis"><button data-emoji="💖" aria-label="Add 💖">💖</button><button data-emoji="✨" aria-label="Add ✨">✨</button><button data-emoji="💸" aria-label="Add 💸">💸</button><button data-emoji="👑" aria-label="Add 👑">👑</button><button data-emoji="💋" aria-label="Add 💋">💋</button><button data-emoji="🦋" aria-label="Add 🦋">🦋</button><button data-emoji="🌙" aria-label="Add 🌙">🌙</button><button data-emoji="⭐" aria-label="Add ⭐">⭐</button><button data-emoji="🍒" aria-label="Add 🍒">🍒</button><button data-emoji="🔥" aria-label="Add 🔥">🔥</button><button data-emoji="💎" aria-label="Add 💎">💎</button><button data-emoji="🌸" aria-label="Add 🌸">🌸</button><button data-emoji="🥂" aria-label="Add 🥂">🥂</button><button data-emoji="🛍️" aria-label="Add 🛍️">🛍️</button><button data-emoji="💅" aria-label="Add 💅">💅</button><button data-emoji="🎀" aria-label="Add 🎀">🎀</button><button data-emoji="🌍" aria-label="Add 🌍">🌍</button><button data-emoji="✈️" aria-label="Add ✈️">✈️</button><button data-emoji="🏝️" aria-label="Add 🏝️">🏝️</button><button data-emoji="📖" aria-label="Add 📖">📖</button><button data-emoji="💌" aria-label="Add 💌">💌</button><button data-emoji="🪩" aria-label="Add 🪩">🪩</button><button data-emoji="🧿" aria-label="Add 🧿">🧿</button><button data-emoji="☁️" aria-label="Add ☁️">☁️</button><input id="emojiIn" placeholder="Type 🙂" maxlength="8" aria-label="Custom emoji"><button data-emoji-custom aria-label="Add typed emoji" style="width:auto;padding:0 12px;font-size:12px;font-weight:700">ADD</button></div></div>
   </section>
   <p class="note"><b>How it works in the app:</b> each page is a fixed template with slots (name, headline, quote, photos). Text automatically shrinks to fit its box, photos crop around the face, and the date follows the real season. Pages are drawn at real magazine proportions (3:4), so the same layouts can be printed later. Try a long name or a long quote to see the auto-fit.</p>
@@ -665,16 +666,30 @@ const STK={
  polaroid:{l:"Polaroid",h:()=>`<div class="s-polaroid"><i style="background-image:url(${IMG(state.photo)})"></i></div>`},
 };
 const stickers={}; let activePage=0, selSticker=null;
-document.getElementById("tray").innerHTML=Object.entries(STK).map(([k,v])=>`<button data-stk="${k}">${v.l}</button>`).join("")+`<button class="del" data-stkdel>Remove selected</button>`;
-function paintStickers(){strip.querySelectorAll(".page").forEach((pg,i)=>{pg.classList.toggle("sel",i===activePage);pg.querySelectorAll(".stk").forEach(n=>n.remove());(stickers[i]||[]).forEach((st,j)=>{const d=document.createElement("div");d.className="stk"+(selSticker&&selSticker[0]===i&&selSticker[1]===j?" on":"");d.style.left=st.x+"%";d.style.top=st.y+"%";d.style.setProperty("--r",st.r+"deg");d.dataset.pi=i;d.dataset.si=j;d.innerHTML=STK[st.k].h(st);pg.appendChild(d);});});}
+document.getElementById("tray").innerHTML=Object.entries(STK).map(([k,v])=>`<button data-stk="${k}">${v.l}</button>`).join("")+`<button data-size="1.2">＋ Bigger</button><button data-size="0.83">－ Smaller</button><button data-size="rot">↻ Rotate</button><button class="del" data-stkdel>Remove selected</button>`;
+function paintStickers(){strip.querySelectorAll(".page").forEach((pg,i)=>{pg.classList.toggle("sel",i===activePage);pg.querySelectorAll(".stk").forEach(n=>n.remove());(stickers[i]||[]).forEach((st,j)=>{const d=document.createElement("div");d.className="stk"+(selSticker&&selSticker[0]===i&&selSticker[1]===j?" on":"");d.style.left=st.x+"%";d.style.top=st.y+"%";d.style.setProperty("--r",st.r+"deg");d.style.setProperty("--s",st.s||1);d.dataset.pi=i;d.dataset.si=j;d.innerHTML=STK[st.k].h(st);pg.appendChild(d);});});}
 const _render=render; render=function(){_render();paintStickers();};
 strip.addEventListener("click",e=>{const pg=e.target.closest(".page");if(!pg||e.target.closest(".stk"))return;activePage=[...strip.querySelectorAll(".page")].indexOf(pg);selSticker=null;paintStickers();});
 document.addEventListener("click",e=>{const b=e.target.closest("[data-stk]");if(b){(stickers[activePage]=stickers[activePage]||[]).push({k:b.dataset.stk,x:30+Math.random()*40,y:25+Math.random()*50,r:Math.round(Math.random()*24-12)});selSticker=[activePage,stickers[activePage].length-1];paintStickers();const pg=strip.querySelectorAll(".page")[activePage];if(pg)pg.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"});}
  if(e.target.closest("[data-stkdel]")&&selSticker){stickers[selSticker[0]].splice(selSticker[1],1);selSticker=null;paintStickers();}});
-let drag=null;
-strip.addEventListener("pointerdown",e=>{const n=e.target.closest(".stk");if(!n)return;e.preventDefault();const pi=+n.dataset.pi,si=+n.dataset.si;selSticker=[pi,si];activePage=pi;strip.querySelectorAll(".stk").forEach(x=>x.classList.toggle("on",x===n));drag={n,pi,si,pg:n.parentElement};n.setPointerCapture(e.pointerId);});
-strip.addEventListener("pointermove",e=>{if(!drag)return;const r=drag.pg.getBoundingClientRect();const st=stickers[drag.pi][drag.si];st.x=Math.max(0,Math.min(100,(e.clientX-r.left)/r.width*100));st.y=Math.max(0,Math.min(100,(e.clientY-r.top)/r.height*100));drag.n.style.left=st.x+"%";drag.n.style.top=st.y+"%";});
-["pointerup","pointercancel"].forEach(t=>strip.addEventListener(t,()=>{drag=null;}));
+let g=null;
+function stEl(){return g&&strip.querySelector(`.stk[data-pi="${g.pi}"][data-si="${g.si}"]`);}
+function gInfo(){const P=[...g.pts.values()];const dx=P[1].x-P[0].x,dy=P[1].y-P[0].y;return {d:Math.hypot(dx,dy),a:Math.atan2(dy,dx)*180/Math.PI};}
+strip.addEventListener("pointerdown",e=>{const n=e.target.closest(".stk");const pg=e.target.closest(".page");
+  if(n&&!g){e.preventDefault();const pi=+n.dataset.pi,si=+n.dataset.si;selSticker=[pi,si];activePage=pi;strip.querySelectorAll(".stk").forEach(x=>x.classList.toggle("on",x===n));g={pi,si,pg:n.parentElement,pts:new Map()};g.pg.classList.add("gesture");}
+  if(!g)return; if(!n&&pg!==g.pg)return; e.preventDefault();
+  g.pts.set(e.pointerId,{x:e.clientX,y:e.clientY});try{e.target.setPointerCapture(e.pointerId);}catch(_){}
+  const st=stickers[g.pi][g.si];if(g.pts.size===2){const i=gInfo();g.s0=st.s||1;g.r0=st.r||0;g.d0=i.d;g.a0=i.a;}
+  else if(g.pts.size===1){const r=g.pg.getBoundingClientRect();g.ox=(e.clientX-r.left)/r.width*100-st.x;g.oy=(e.clientY-r.top)/r.height*100-st.y;}},true);
+strip.addEventListener("pointermove",e=>{if(!g||!g.pts.has(e.pointerId))return;e.preventDefault();g.pts.set(e.pointerId,{x:e.clientX,y:e.clientY});const st=stickers[g.pi][g.si];const el=stEl();if(!el)return;
+  if(g.pts.size>=2){const i=gInfo();st.s=Math.max(.3,Math.min(5,g.s0*i.d/g.d0));st.r=Math.round(g.r0+(i.a-g.a0));el.style.setProperty("--s",st.s);el.style.setProperty("--r",st.r+"deg");}
+  else{const r=g.pg.getBoundingClientRect();st.x=Math.max(0,Math.min(100,(e.clientX-r.left)/r.width*100-g.ox));st.y=Math.max(0,Math.min(100,(e.clientY-r.top)/r.height*100-g.oy));el.style.left=st.x+"%";el.style.top=st.y+"%";}},{passive:false});
+function endPtr(e){if(!g)return;g.pts.delete(e.pointerId);if(g.pts.size===1){const [p]=[...g.pts.values()];const st=stickers[g.pi][g.si];const r=g.pg.getBoundingClientRect();g.ox=(p.x-r.left)/r.width*100-st.x;g.oy=(p.y-r.top)/r.height*100-st.y;}
+  if(!g.pts.size){g.pg.classList.remove("gesture");g=null;}}
+["pointerup","pointercancel"].forEach(t=>strip.addEventListener(t,endPtr));
+strip.addEventListener("wheel",e=>{const n=e.target.closest(".stk");if(!n)return;e.preventDefault();pushHist&&pushHist();const st=stickers[+n.dataset.pi][+n.dataset.si];st.s=Math.max(.3,Math.min(5,(st.s||1)*(e.deltaY<0?1.08:.93)));n.style.setProperty("--s",st.s);},{passive:false});
+function resizeSel(f){if(!selSticker)return;const st=stickers[selSticker[0]][selSticker[1]];if(f==="rot"){st.r=(st.r||0)+15;}else st.s=Math.max(.3,Math.min(5,(st.s||1)*f));paintStickers();}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-size]");if(!b)return;if(typeof pushHist==="function")pushHist();resizeSel(b.dataset.size==="rot"?"rot":+b.dataset.size);});
 // starter stickers so the feature is visible
 stickers[0]=[{k:"future",x:78,y:62,r:-12}];
 

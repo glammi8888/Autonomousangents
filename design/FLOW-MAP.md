@@ -81,7 +81,7 @@ Not decided here: pricing (💛 Revenue + Megan).
 - Proposal: a web version of the Issue editor (same account, same Supabase data, syncs both ways). Lovable builds web apps natively, so this reuses the same code; the iOS app stays the main product.
 - Login on web: Sign in with Apple + email (works on web).
 - ⚠️ Payments: subscription bought on web vs in the app must follow Apple's multiplatform rules (3.1.3) — verify current rules before building. Payments = Megan approves the spec.
-- **Decided by Megan (Oct 1, 2026): desktop editor ships in V1 (Jan 11).**
+- ~~Decided by Megan (Oct 1, 2026): desktop editor ships in V1 (Jan 11).~~ → **Megan, Oct 1 (later): desktop editor DROPPED from V1.** The magazine is made by AI on her approved layouts, with small edits on the phone. Spec: design/magazine-ai-spec.md (waiting for approval).
 - ⚠️ Scope risk: V1 now = iOS app + immersive audio/video sessions + magazine editor (layouts, colors, stickers, patterns, text editing) + desktop web editor. Roadmap's build window is Nov 2 – Dec 11; flag to the Manager for re-planning.
 - Apple check (Oct 1, 2026, Megan: "as long as it fits Apple rules"):
   - 3.1.3(b) Multiplatform: a subscription bought on the website may unlock the iOS app, IF the same subscription is also sold as in-app purchase in the app. → Sell in both places (RevenueCat supports web + Apple), same account.

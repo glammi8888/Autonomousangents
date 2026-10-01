@@ -45,6 +45,12 @@ Megan's rule: ISSUE11 must qualify for the Apple App Store. The Planner checks n
 - https://developer.apple.com/app-store/review/guidelines/
 - https://9to5mac.com/2026/06/09/apple-tightens-app-review-guidelines-against-apps-that-do-not-add-value-to-the-app-store/
 
-## Desktop / web version (added Oct 1, 2026)
+## Desktop / web version (added Oct 1, 2026) — DROPPED from V1 by Megan, Oct 1. Keep for later reference.
 - [ ] 3.1.3(b): anything sold on the website (subscription) is ALSO available as in-app purchase in the iOS app; web purchases may then unlock the app.
 - [ ] 4.2: the iOS app is not just the web editor in a wrapper (native navigation, push, offline, haptics, photo picker, share sheet).
+
+## AI-made magazine (added Oct 1, 2026, spec: design/magazine-ai-spec.md)
+- Consent screen before journal text is sent to the AI service; can be turned off in Settings.
+- Privacy labels and AI data disclosure updated; the provider must not train on or keep user data (verify its terms).
+- Account deletion also deletes generated issues.
+- Re-check current App Store guidelines on AI and user data at build start and before submission.

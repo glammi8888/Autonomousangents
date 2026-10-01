@@ -473,6 +473,16 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .eKing .h small{display:block;font-size:.42em;letter-spacing:0}
 .eKing .sf{position:absolute;left:8%;right:56%;top:70%;font-family:var(--narrow);font-weight:500;font-size:1.15cqw;line-height:1.4;text-align:center;margin:0}
 
+
+/* editable text */
+.page [contenteditable]{outline:none;cursor:text;-webkit-user-modify:read-write-plaintext-only}
+.page [contenteditable]:focus{outline:1.5px dashed var(--pink);outline-offset:2px;background:rgba(246,90,173,.08)}
+.edithint{font-weight:700;font-size:12px;text-transform:uppercase;color:var(--pink)}
+.s-emoji{font-size:16cqw;line-height:1;filter:drop-shadow(0 .6cqw 1cqw rgba(0,0,0,.25))}
+.emojis{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.emojis button{width:44px;height:44px;font-size:24px;border:1px solid #4a3f42;border-radius:12px}
+.emojis input{width:120px;background:transparent;border:1px solid #4a3f42;padding:10px;font-size:20px;color:var(--cream)}
+
 /* edit panel */
 .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;border-top:1px solid #3a3134;padding-top:18px}
 .f{display:flex;flex-direction:column;gap:6px;min-width:0}
@@ -493,7 +503,7 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 <main class="wrap">
   <header>
     <h1>Magazine lab</h1>
-    <p>Templates with slots: a clean editorial set, then a zine set from Megan's inspo boards. Type below and swipe →</p>
+    <p><span class="edithint">Tap any text on any page to rewrite it.</span> Templates with slots: a clean editorial set, then a zine set from Megan's inspo boards. Type below and swipe →</p>
   </header>
 
   <div class="strip" id="strip"></div>
@@ -507,6 +517,7 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
     <div class="f"><label>Cover template</label><div class="chips" id="covers"></div></div>
     <div class="f"><label>Cover photo</label><div class="thumbs" id="thumbs"></div></div>
     <div class="f" style="grid-column:1/-1"><label>Stickers · tap a page, then a sticker, then drag it</label><div class="tray" id="tray"></div></div>
+    <div class="f" style="grid-column:1/-1"><label>Emoji stickers · tap one, or type any emoji</label><div class="emojis" id="emojis"><button data-emoji="💖" aria-label="Add 💖">💖</button><button data-emoji="✨" aria-label="Add ✨">✨</button><button data-emoji="💸" aria-label="Add 💸">💸</button><button data-emoji="👑" aria-label="Add 👑">👑</button><button data-emoji="💋" aria-label="Add 💋">💋</button><button data-emoji="🦋" aria-label="Add 🦋">🦋</button><button data-emoji="🌙" aria-label="Add 🌙">🌙</button><button data-emoji="⭐" aria-label="Add ⭐">⭐</button><button data-emoji="🍒" aria-label="Add 🍒">🍒</button><button data-emoji="🔥" aria-label="Add 🔥">🔥</button><button data-emoji="💎" aria-label="Add 💎">💎</button><button data-emoji="🌸" aria-label="Add 🌸">🌸</button><button data-emoji="🥂" aria-label="Add 🥂">🥂</button><button data-emoji="🛍️" aria-label="Add 🛍️">🛍️</button><button data-emoji="💅" aria-label="Add 💅">💅</button><button data-emoji="🎀" aria-label="Add 🎀">🎀</button><button data-emoji="🌍" aria-label="Add 🌍">🌍</button><button data-emoji="✈️" aria-label="Add ✈️">✈️</button><button data-emoji="🏝️" aria-label="Add 🏝️">🏝️</button><button data-emoji="📖" aria-label="Add 📖">📖</button><button data-emoji="💌" aria-label="Add 💌">💌</button><button data-emoji="🪩" aria-label="Add 🪩">🪩</button><button data-emoji="🧿" aria-label="Add 🧿">🧿</button><button data-emoji="☁️" aria-label="Add ☁️">☁️</button><input id="emojiIn" placeholder="Type 🙂" maxlength="8" aria-label="Custom emoji"><button data-emoji-custom aria-label="Add typed emoji" style="width:auto;padding:0 12px;font-size:12px;font-weight:700">ADD</button></div></div>
   </section>
   <p class="note"><b>How it works in the app:</b> each page is a fixed template with slots (name, headline, quote, photos). Text automatically shrinks to fit its box, photos crop around the face, and the date follows the real season. Pages are drawn at real magazine proportions (3:4), so the same layouts can be printed later. Try a long name or a long quote to see the auto-fit.</p>
 </main>
@@ -641,7 +652,7 @@ const STK={
 };
 const stickers={}; let activePage=0, selSticker=null;
 document.getElementById("tray").innerHTML=Object.entries(STK).map(([k,v])=>`<button data-stk="${k}">${v.l}</button>`).join("")+`<button class="del" data-stkdel>Remove selected</button>`;
-function paintStickers(){strip.querySelectorAll(".page").forEach((pg,i)=>{pg.classList.toggle("sel",i===activePage);pg.querySelectorAll(".stk").forEach(n=>n.remove());(stickers[i]||[]).forEach((st,j)=>{const d=document.createElement("div");d.className="stk"+(selSticker&&selSticker[0]===i&&selSticker[1]===j?" on":"");d.style.left=st.x+"%";d.style.top=st.y+"%";d.style.setProperty("--r",st.r+"deg");d.dataset.pi=i;d.dataset.si=j;d.innerHTML=STK[st.k].h();pg.appendChild(d);});});}
+function paintStickers(){strip.querySelectorAll(".page").forEach((pg,i)=>{pg.classList.toggle("sel",i===activePage);pg.querySelectorAll(".stk").forEach(n=>n.remove());(stickers[i]||[]).forEach((st,j)=>{const d=document.createElement("div");d.className="stk"+(selSticker&&selSticker[0]===i&&selSticker[1]===j?" on":"");d.style.left=st.x+"%";d.style.top=st.y+"%";d.style.setProperty("--r",st.r+"deg");d.dataset.pi=i;d.dataset.si=j;d.innerHTML=STK[st.k].h(st);pg.appendChild(d);});});}
 const _render=render; render=function(){_render();paintStickers();};
 strip.addEventListener("click",e=>{const pg=e.target.closest(".page");if(!pg||e.target.closest(".stk"))return;activePage=[...strip.querySelectorAll(".page")].indexOf(pg);selSticker=null;paintStickers();});
 document.addEventListener("click",e=>{const b=e.target.closest("[data-stk]");if(b){(stickers[activePage]=stickers[activePage]||[]).push({k:b.dataset.stk,x:30+Math.random()*40,y:25+Math.random()*50,r:Math.round(Math.random()*24-12)});selSticker=[activePage,stickers[activePage].length-1];paintStickers();const pg=strip.querySelectorAll(".page")[activePage];if(pg)pg.scrollIntoView({behavior:"smooth",inline:"center",block:"nearest"});}
@@ -652,6 +663,19 @@ strip.addEventListener("pointermove",e=>{if(!drag)return;const r=drag.pg.getBoun
 ["pointerup","pointercancel"].forEach(t=>strip.addEventListener(t,()=>{drag=null;}));
 // starter stickers so the feature is visible
 stickers[0]=[{k:"future",x:78,y:62,r:-12}];
+
+/* ---------- edit any text ---------- */
+const edits={};
+function textNodesOf(pg){return [...pg.querySelectorAll("h2,h3,p,span,b,small,li,div,em")].filter(el=>!el.closest(".stk")&&!el.classList.contains("logo")&&el.children.length===0&&el.textContent.trim().length>0);}
+function makeEditable(){strip.querySelectorAll(".page").forEach((pg,pi)=>{textNodesOf(pg).forEach((el,i)=>{const k=pi+":"+i;el.dataset.ek=k;el.setAttribute("contenteditable","true");el.setAttribute("spellcheck","false");if(edits[k]!=null)el.textContent=edits[k];});});}
+strip.addEventListener("input",e=>{const el=e.target.closest("[data-ek]");if(el)edits[el.dataset.ek]=el.textContent;});
+strip.addEventListener("focusout",e=>{const el=e.target.closest("[data-fit]");if(el)fit(el);});
+strip.addEventListener("keydown",e=>{if(e.key==="Enter"&&e.target.closest("[data-ek]")&&!e.shiftKey){e.preventDefault();e.target.blur();}});
+const _render2=render; render=function(){_render2();makeEditable();requestAnimationFrame(()=>strip.querySelectorAll("[data-fit]").forEach(fit));};
+/* ---------- emoji stickers ---------- */
+STK.emoji={l:"Emoji",h:st=>`<div class="s-emoji">${esc(st.e)}</div>`};
+function addEmoji(ch){if(!ch)return;(stickers[activePage]=stickers[activePage]||[]).push({k:"emoji",e:ch,x:30+Math.random()*40,y:25+Math.random()*50,r:Math.round(Math.random()*30-15)});selSticker=[activePage,stickers[activePage].length-1];paintStickers();}
+document.addEventListener("click",e=>{const b=e.target.closest("[data-emoji]");if(b)addEmoji(b.dataset.emoji);if(e.target.closest("[data-emoji-custom]")){const v=document.getElementById("emojiIn").value.trim();addEmoji(v);document.getElementById("emojiIn").value="";}});
 
 (document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(render);
 window.addEventListener("resize",()=>strip.querySelectorAll("[data-fit]").forEach(fit));

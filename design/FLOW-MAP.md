@@ -55,3 +55,9 @@ Not decided here: pricing (💛 Revenue + Megan).
 - Past Proof day 1: seeded by a new onboarding question "Name one thing you already made happen" (from the Notion concept).
 - Cover date: the real current season, set automatically (no "Spring 2025").
 - Paywall: visible close (X) + Restore + Terms/Privacy. Free vs hard-gated after closing = 💛 Revenue + Megan.
+
+## Printed issues (Megan, Oct 1, 2026)
+- Megan wants printed magazines and has found a print partner (name to come). V1 vs right after launch: not decided yet.
+- How: issue rendered as print-size pages → print-ready PDF (300 dpi, bleed) on a server → partner API prints + ships.
+- Payment: physical goods go outside Apple in-app purchase, e.g. Stripe with Apple Pay. ⚠️ Payments + shipping addresses = sensitive areas: Megan approves the spec before building (CLAUDE.md).
+- Image rights: app images need licenses that allow printing.

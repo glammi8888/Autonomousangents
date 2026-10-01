@@ -414,10 +414,10 @@ function render(){
   requestAnimationFrame(()=>strip.querySelectorAll("[data-fit]").forEach(fit));
 }
 
-const THEMES={Pink:["#fcd2dd","#f65aad","#d40806"],Red:["#f5e3d8","#d40806","#0d0d0d"],Green:["#e3eedf","#4ba551","#d40806"],Cobalt:["#e3e7f8","#2f4bd8","#f65aad"],Butter:["#fbf1c4","#f2cf2e","#d40806"],Lilac:["#ece2f6","#a982ea","#0d0d0d"],Cream:["#f5eee0","#0d0d0d","#d40806"]};
+const THEMES={Pink:["#fcd2dd","#f65aad","#d40806"],Red:["#f5e3d8","#d40806","#0d0d0d"],Green:["#e3eedf","#4ba551","#d40806"],Cobalt:["#e3e7f8","#2f4bd8","#f65aad"],Butter:["#fbf1c4","#f2cf2e","#d40806"],Lilac:["#ece2f6","#a982ea","#0d0d0d"],"Cream & Black":["#f5eee0","#0d0d0d","#d40806"]};
 let theme="Pink";
 function applyTheme(){const [p,a,b]=THEMES[theme];const r=document.documentElement.style;r.setProperty("--paper",p);r.setProperty("--acc",a);r.setProperty("--acc2",b);}
-document.getElementById("themes").innerHTML=Object.entries(THEMES).map(([k,v])=>`<button class="chip" data-theme="${k}" aria-pressed="${k===theme}"><span class="sw" style="background:${v[1]}"></span>${k}</button>`).join("");
+document.getElementById("themes").innerHTML=Object.entries(THEMES).map(([k,v])=>`<button class="chip" data-theme="${k}" aria-pressed="${k===theme}"><span class="sw" style="background:linear-gradient(90deg,${v[0]} 50%,${v[1]} 50%)"></span>${k}</button>`).join("");
 document.addEventListener("click",e=>{const t=e.target.closest("[data-theme]");if(!t)return;theme=t.dataset.theme;document.querySelectorAll("[data-theme]").forEach(b=>b.setAttribute("aria-pressed",b===t));applyTheme();});
 applyTheme();
 // controls

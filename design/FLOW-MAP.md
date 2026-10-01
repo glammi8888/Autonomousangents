@@ -61,3 +61,9 @@ Not decided here: pricing (💛 Revenue + Megan).
 - How: issue rendered as print-size pages → print-ready PDF (300 dpi, bleed) on a server → partner API prints + ships.
 - Payment: physical goods go outside Apple in-app purchase, e.g. Stripe with Apple Pay. ⚠️ Payments + shipping addresses = sensitive areas: Megan approves the spec before building (CLAUDE.md).
 - Image rights: app images need licenses that allow printing.
+
+## Figma (Oct 1, 2026)
+- File: https://www.figma.com/design/vKzbnR5ffDv0Zuf0A3Sp2e (Megan's team, Starter plan: max 3 pages, 1 variable mode)
+- 01 · Foundations: colors (variables), 9 text styles, vector logo component, components (liquid-glass button, cover capsule, hold to log your win, band label, Future You splash, tab bar)
+- 02 · Screens · Night and 03 · Screens · Light: Splash, Cover reveal, Paywall, Home, Explore, Immersive session, Journal, Past Proof
+- Images are placeholders named "IMAGE · pX": the image upload host (mcp.figma.com) is blocked by this environment's network policy.

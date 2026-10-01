@@ -51,5 +51,6 @@ Still Megan's decision (not approved yet): audio scope for Jan 11 (Q1), tab layo
 
 ## ✅ Megan, Oct 1: scope + launch plan
 - ALL features ship by Jan 11 (journal, own photos, magazine, immersive audio, immersive video).
-- Two-wave beta: **Beta 1 on Nov 11** = onboarding, sign-up, journal, photo uploads, magazine + cover reveal · **Beta 2 ~Dec 7** = + immersive audio/video + paywall · **Official App Store launch Jan 11, 2027**.
-- Design priority: finish Beta 1 screens by ~Oct 14 so the build can start Oct 15.
+- **ONE beta on Nov 11 with ALL features** (Megan's final call, Oct 1). Official App Store launch Jan 11, 2027.
+- Design priority: finish ALL screens by ~Oct 14 so the build can start Oct 15.
+- Safety valve: if audio/video aren't solid by Nov 4, show them as "coming soon" in the beta and ship them in a TestFlight update.

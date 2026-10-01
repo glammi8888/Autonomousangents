@@ -132,7 +132,7 @@ textarea::placeholder,input::placeholder{color:#9b9193}
 .card .go{margin-left:auto;width:40px;height:40px;border-radius:50%;background:var(--ink);color:var(--cream);display:grid;place-items:center;flex:none}
 .card .go svg{width:18px;height:18px}
 .rows{display:flex;flex-direction:column;background:#fff;border-radius:18px;overflow:hidden}
-.rows button,.rows .row{display:flex;align-items:center;gap:14px;min-height:54px;padding:0 16px;text-align:left;border-bottom:1px solid var(--line);font-size:17px;font-weight:600}
+.rows button,.rows .row{display:flex;align-items:center;gap:14px;min-height:54px;padding:10px 16px;text-align:left;border-bottom:1px solid var(--line);font-size:17px;font-weight:600}
 .rows > :last-child{border-bottom:0}
 .rows .val{margin-left:auto;color:var(--ink-2);font-weight:500;font-size:15px}
 .rows svg.chev{width:16px;height:16px;color:#aaa;flex:none}
@@ -406,21 +406,21 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="61" data-v="noir"></canvas></span><span><span class="t">Become her</span><span class="s">Self concept · 12 min · audio + visuals</span></span><span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
     <div class="label">From the archive</div>
     <button class="card" data-go="archive"><span class="thumb"><canvas class="art" data-seed="41" data-v="red"></canvas></span><span><span class="t">Is this part of your life now?</span><span class="s">8 months ago · Past Proof</span></span></button>
-    <div class="label">Continue your world</div>
+    <div class="label">Your world</div>
     <div class="grid2">
       <button class="tile" data-go="world" style="aspect-ratio:1"><canvas class="art" data-seed="7" data-v="zebra"></canvas><span class="cap">Style</span></button>
       <button class="tile" data-go="world" style="aspect-ratio:1"><canvas class="art" data-seed="8" data-v="cream"></canvas><span class="cap">Travel</span></button>
     </div>
   </section>
 
-  <section class="screen tabbed" id="explore" data-tab="explore" data-title="Explore" data-note="Wireframe 10. Library by goal: immersive sessions + journal prompts in each collection.">
+  <section class="screen tabbed" id="explore" data-tab="explore" data-title="Explore" data-note="Explore = experiences (Megan agreed). Immersive sessions sorted by goal. Images live inside each collection, to ♡ into her world.">
     <div class="top"><h1 class="big" style="margin:0">Explore</h1><button class="iconbtn" aria-label="Search" data-toast="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button></div>
     <div class="chips" id="expChips" style="margin-bottom:18px"></div>
     <div style="display:flex;flex-direction:column;gap:12px">
-      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="31" data-v="zebra"></canvas></span><span><span class="t">Confidence</span><span class="s">8 sessions · 24 prompts</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="32" data-v="cream"></canvas></span><span><span class="t">Travel</span><span class="s">6 sessions · 18 prompts</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="33" data-v="pinksun"></canvas></span><span><span class="t">Style &amp; Beauty</span><span class="s">7 sessions · 20 prompts</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
-      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="34" data-v="red"></canvas></span><span><span class="t">Wealth</span><span class="s">5 sessions · 16 prompts</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="collection"><span class="thumb"><canvas class="art" data-seed="31" data-v="zebra"></canvas></span><span><span class="t">Confidence</span><span class="s">8 sessions · 40 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="collection"><span class="thumb"><canvas class="art" data-seed="32" data-v="cream"></canvas></span><span><span class="t">Travel</span><span class="s">6 sessions · 32 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="collection"><span class="thumb"><canvas class="art" data-seed="33" data-v="pinksun"></canvas></span><span><span class="t">Style &amp; Beauty</span><span class="s">7 sessions · 48 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
+      <button class="card" data-go="collection"><span class="thumb"><canvas class="art" data-seed="34" data-v="red"></canvas></span><span><span class="t">Wealth</span><span class="s">5 sessions · 30 images</span></span><span class="go"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></button>
     </div>
   </section>
 
@@ -442,12 +442,19 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <button class="cta" data-go="issue" data-toast="Saved to your issue">Save to my issue</button>
   </section>
 
-  <section class="screen tabbed" id="issue" data-tab="issue" data-title="My Issue" data-note="Now its own tab (agreed). Cover styles replace the wireframe's 'templates'. Date follows the real season automatically.">
+  <section class="screen tabbed" id="issue" data-tab="issue" data-title="My Issue" data-note="Now its own tab (agreed). 'Your world' strip added so her vision board is one tap away. Cover styles replace the wireframe's 'templates'. Date follows the real season automatically.">
     <div class="top"><h1 class="big" style="margin:0">Issue 01</h1><button class="iconbtn" data-toast="Share the cover" aria-label="Share"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12M7 8l5-5 5 5M5 13v7h14v-7"/></svg></button></div>
     <div id="issueCover" style="width:74%;margin:0 auto 18px"></div>
     <button class="cta" data-go="reader" style="flex:none">Enter issue →</button>
     <div class="label">Cover style</div>
     <div class="hscroll" id="styles"></div>
+    <div style="display:flex;justify-content:space-between;align-items:center"><div class="label">Your world</div><button class="skip" data-go="world" style="font-size:12px">See all →</button></div>
+    <div class="hscroll">
+      <button class="tile" data-go="world" style="flex:0 0 96px;border:0;aspect-ratio:3/4"><canvas class="art" data-seed="90" data-v="zebra"></canvas></button>
+      <button class="tile" data-go="world" style="flex:0 0 96px;border:0;aspect-ratio:3/4"><canvas class="art" data-seed="91" data-v="pinksun"></canvas></button>
+      <button class="tile" data-go="world" style="flex:0 0 96px;border:0;aspect-ratio:3/4"><canvas class="art" data-seed="92" data-v="cream"></canvas></button>
+      <button class="tile" data-go="world" style="flex:0 0 96px;border:0;aspect-ratio:3/4"><canvas class="art" data-seed="93" data-v="red"></canvas></button>
+    </div>
   </section>
 
   <section class="screen" id="reader" data-title="Issue reader" data-note="Swipe the pages. Every page is built from her own answers and journal saves.">
@@ -455,9 +462,34 @@ textarea::placeholder,input::placeholder{color:#9b9193}
     <div class="pages" id="pages"></div>
   </section>
 
-  <section class="screen" id="world" data-title="My World" data-note="Wireframe 11 'Visual World'. + uses the iOS photo picker, so no Photos permission prompt is needed.">
+  <section class="screen" id="collection" data-title="Collection · new" data-note="NEW. Sessions first, then images to ♡ into her world, then journal prompts. One place to browse; no separate image tab.">
+    <div class="plate" style="height:210px;flex:none;position:relative"><canvas class="art" data-seed="31" data-v="zebra"></canvas><button class="iconbtn" data-back aria-label="Back" style="position:absolute;top:10px;left:10px;background:var(--cream)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button></div>
+    <div style="height:16px;flex:none"></div>
+    <h1 class="big">Confidence</h1>
+    <div class="label" style="margin-top:4px">Sessions</div>
+    <div style="display:flex;flex-direction:column;gap:10px">
+      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="61" data-v="noir"></canvas></span><span><span class="t">Become her</span><span class="s">Visualization · 12 min</span></span><span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
+      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="62" data-v="pinksun"></canvas></span><span><span class="t">I am the main character</span><span class="s">Affirmations · 6 min</span></span><span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
+      <button class="card" data-go="player"><span class="thumb"><canvas class="art" data-seed="63" data-v="red"></canvas></span><span><span class="t">Walk in like you own it</span><span class="s">Subliminal · 20 min</span></span><span class="go"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></span></button>
+    </div>
+    <div class="label">Images: tap ♡ to save to your world</div>
+    <div class="hscroll">
+      <div class="tile" style="flex:0 0 130px;border:0;aspect-ratio:3/4"><canvas class="art" data-seed="101" data-v="zebra"></canvas><button class="heart" data-heart data-toast="Saved to your world" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button></div>
+      <div class="tile" style="flex:0 0 130px;border:0;aspect-ratio:3/4"><canvas class="art" data-seed="102" data-v="blush"></canvas><button class="heart" data-heart data-toast="Saved to your world" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button></div>
+      <div class="tile" style="flex:0 0 130px;border:0;aspect-ratio:3/4"><canvas class="art" data-seed="103" data-v="cream"></canvas><button class="heart" data-heart data-toast="Saved to your world" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button></div>
+      <div class="tile" style="flex:0 0 130px;border:0;aspect-ratio:3/4"><canvas class="art" data-seed="104" data-v="noir"></canvas><button class="heart" data-heart data-toast="Saved to your world" aria-label="Save"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button></div>
+    </div>
+    <div class="label">Journal prompts</div>
+    <div class="rows">
+      <button data-go="journal">What would the most confident you do today?</button>
+      <button data-go="journal">Describe a room you walk into like you own it.</button>
+    </div>
+  </section>
+
+  <section class="screen" id="world" data-title="My World" data-note="Her vision board (Megan agreed). Day 1: filled from her onboarding picks. Then: ♡ from Explore, sessions and her issue, or + her own photos (iOS photo picker, no permission prompt). Saved images feed her issue.">
     <div class="top"><button class="iconbtn" data-back aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 5l-7 7 7 7"/></svg></button><button class="iconbtn" style="border:1.5px solid var(--ink)" data-toast="Opens the iOS photo picker" aria-label="Add image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 5v14M5 12h14"/></svg></button></div>
     <h1 class="big">Your world</h1>
+    <div class="chips" style="margin-bottom:16px"><button class="chip on" data-exp>All</button><button class="chip" data-exp>Saved</button><button class="chip" data-exp>My photos</button></div>
     <div class="grid2" id="worldGrid"></div>
   </section>
 
@@ -702,7 +734,7 @@ const AREAS=[["Wealth","red"],["Career","zebra"],["Love","pinksun"],["Body","cre
 $("#areaGrid").innerHTML=AREAS.map((a,i)=>`<button class="tile" data-area="${a[0]}"><canvas class="art" data-seed="${70+i}" data-v="${a[1]}"></canvas><span class="tick">${tick}</span><span class="cap">${a[0]}</span></button>`).join("");
 const VIS=[["Soft glam","pinksun"],["Coastal","cream"],["City nights","noir"],["Minimal","zebra"],["Bold color","red"],["Dreamy","blush"]];
 $("#visGrid").innerHTML=VIS.map((a,i)=>`<button class="tile" data-vis="${i}"><canvas class="art" data-seed="${80+i}" data-v="${a[1]}"></canvas><span class="tick">${tick}</span><span class="cap">${a[0]}</span></button>`).join("");
-$("#worldGrid").innerHTML=[..."abcdef"].map((_,i)=>`<div class="tile" style="border:0"><canvas class="art" data-seed="${90+i}" data-v="${["zebra","pinksun","cream","red","noir","blush"][i]}"></canvas><button class="heart${i%3==0?" on":""}" data-heart aria-label="Favorite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button></div>`).join("");
+$("#worldGrid").innerHTML=[..."abcdef"].map((_,i)=>`<div class="tile" style="border:0"><canvas class="art" data-seed="${90+i}" data-v="${["zebra","pinksun","cream","red","noir","blush"][i]}"></canvas><span class="cap">${["Your pick","Saved","My photo","Your pick","Saved","Your pick"][i]}</span><button class="heart${i%3==0?" on":""}" data-heart aria-label="Favorite"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></svg></button></div>`).join("");
 $("#expChips").innerHTML=["All","Self concept","Career","Body","Style","Travel"].map((c,i)=>`<button class="chip${i?"":" on"}" data-exp>${c}</button>`).join("");
 function renderStyles(){$("#styles").innerHTML=STYLES.map((s,i)=>`<button class="tmpl${i==state.style?" on":""}" data-style="${i}"><span class="sw" style="background:${s[1]}"><canvas class="art" data-seed="${3+i}" data-v="${s[2]}"></canvas></span>${s[0]}</button>`).join("");}
 function renderPages(){
@@ -792,7 +824,7 @@ $("#idealText").addEventListener("input",e=>state.ideal=e.target.value.trim());
 $("#proofText").addEventListener("input",e=>state.proof=e.target.value.trim());
 
 /* ---------- index ---------- */
-const groups=[["Onboarding",["splash","hook","dream","ideal","areas","visuals","audio","proof1","name","printing","reveal","notif","paywall","signin"]],["App",["home","explore","player","newSheet","journal","micSheet","issue","reader","world","archive","you","settings","delete","offline"]]];
+const groups=[["Onboarding",["splash","hook","dream","ideal","areas","visuals","audio","proof1","name","printing","reveal","notif","paywall","signin"]],["App",["home","explore","collection","player","newSheet","journal","micSheet","issue","reader","world","archive","you","settings","delete","offline"]]];
 $("#idx").innerHTML=groups.map(g=>`<h2>${g[0]}</h2>`+g[1].map(id=>{const t=document.getElementById(id).dataset.title;const m=t.match(/^(.*?)( · (new|later))?$/);return `<button data-to="${id}"><span>${m[1]}</span>${m[3]?`<span class="tag">${m[3].toUpperCase()}</span>`:""}</button>`}).join("")).join("");
 $("#idx").addEventListener("click",e=>{const b=e.target.closest("[data-to]");if(!b)return;e.stopPropagation();const id=b.dataset.to;if(id.endsWith("Sheet")){go(id=="newSheet"?"home":"journal");openSheet(id);}else go(id);side(false);});
 function side(open){$("#side").classList.toggle("open",open);let s=$(".scrim");if(open&&!s){s=document.createElement("div");s.className="scrim";s.onclick=()=>side(false);document.body.appendChild(s);}if(!open&&s)s.remove();}

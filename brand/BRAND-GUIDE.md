@@ -9,3 +9,10 @@ Source of truth: Megan's Canva identity kit: https://canva.link/pk44pxqmgmmqnol 
 - **Type:** Archivo Black (primary) · Archivo Narrow (secondary) · Studio Shodwe (display; check app/web license).
 - **Photography:** bold, aspirational, cinematic, surreal, fashion-forward editorial.
 - **App mockup:** tabs Home · Collect · Journal · Issue; home "THE FUTURE ISSUE".
+
+## App UI rules from the identity kit (pages in brand/identity-kit/, Oct 1, 2026)
+- Cream page, thin black hairlines between sections, sharp corners (no rounded cards).
+- Headlines: Archivo Black, uppercase, tight. Micro-labels and nav: a monospace face (looks like Space Mono; name to confirm with Megan). Quotes: an elegant serif (to confirm).
+- Home: logo + "A MAGAZINE BY YOU" header, full-bleed photo hero ("THE FUTURE ISSUE") with a word list, round outline arrow, "START CREATING" tiles: 01 Writing · 02 Image · 03 Audio · 04 Edit, with colored label blocks.
+- Inner pages read like magazine pages: "← ISSUE 11 · 01 / 11", "01 / WRITING", big headline, word list, full-bleed photo with serif quote, "NEXT 02 / IMAGE" block.
+- Tabs in the kit mockup: Home · Collect · Journal · Issue · profile circle (text only). The agreed app tabs are Home · Explore · (+) · Issue · You.

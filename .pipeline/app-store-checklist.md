@@ -44,3 +44,7 @@ Megan's rule: ISSUE11 must qualify for the Apple App Store. The Planner checks n
 - https://developer.apple.com/news/upcoming-requirements/
 - https://developer.apple.com/app-store/review/guidelines/
 - https://9to5mac.com/2026/06/09/apple-tightens-app-review-guidelines-against-apps-that-do-not-add-value-to-the-app-store/
+
+## Desktop / web version (added Oct 1, 2026)
+- [ ] 3.1.3(b): anything sold on the website (subscription) is ALSO available as in-app purchase in the iOS app; web purchases may then unlock the app.
+- [ ] 4.2: the iOS app is not just the web editor in a wrapper (native navigation, push, offline, haptics, photo picker, share sheet).

@@ -83,3 +83,7 @@ Not decided here: pricing (💛 Revenue + Megan).
 - ⚠️ Payments: subscription bought on web vs in the app must follow Apple's multiplatform rules (3.1.3) — verify current rules before building. Payments = Megan approves the spec.
 - **Decided by Megan (Oct 1, 2026): desktop editor ships in V1 (Jan 11).**
 - ⚠️ Scope risk: V1 now = iOS app + immersive audio/video sessions + magazine editor (layouts, colors, stickers, patterns, text editing) + desktop web editor. Roadmap's build window is Nov 2 – Dec 11; flag to the Manager for re-planning.
+- Apple check (Oct 1, 2026, Megan: "as long as it fits Apple rules"):
+  - 3.1.3(b) Multiplatform: a subscription bought on the website may unlock the iOS app, IF the same subscription is also sold as in-app purchase in the app. → Sell in both places (RevenueCat supports web + Apple), same account.
+  - 4.2 Minimum functionality: a plain web wrapper gets rejected. → The iOS app must be clearly native: push, haptics, offline reading, photo picker, mic dictation, share sheet, widget later. The shared editor is one screen inside a native app, not the whole app.
+  - Re-verify the guidelines at build start (Nov) and before submission (Jan).

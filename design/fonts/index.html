@@ -1,0 +1,123 @@
+<title>ISSUE11 Font Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:wght@500;600;700&family=Anton&family=Bodoni+Moda:ital,opsz,wght@0,6..96,500..900;1,6..96,500..900&family=Big+Shoulders+Display:wght@800;900&family=DM+Mono:wght@500&family=Bricolage+Grotesque:opsz,wght@12..96,700..800&family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@500;600&display=swap">
+<style>
+/* Layout: one specimen per font pairing; each shows the same cover, headline, label and button so only the type changes. Single brand look (cream). */
+:root{
+  --pink:#f65aad; --red:#d40806; --cream:#f5eee0; --blush:#fcd2dd; --ink:#0d0d0d; --paper:#fffaf0;
+  --ui:"Archivo Narrow","Arial Narrow",system-ui,sans-serif;
+  color-scheme:light;
+}
+body{background:var(--cream);color:var(--ink);font-family:var(--ui);margin:0}
+*{box-sizing:border-box}
+.wrap{max-width:620px;margin:0 auto;padding-block:28px 64px;padding-inline:16px}
+header h1{font-family:"Archivo Black",Impact,sans-serif;font-weight:400;font-size:clamp(44px,13vw,72px);line-height:.86;margin:0;text-transform:uppercase;letter-spacing:-.02em}
+header p{font-weight:600;font-size:14px;letter-spacing:.03em;text-transform:uppercase;margin:12px 0 24px;line-height:1.45;max-width:46ch}
+.opt{border-top:1px solid var(--ink);padding-block:16px 28px;display:flex;flex-direction:column;gap:12px}
+.meta{display:flex;justify-content:space-between;gap:10px;font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.meta .n{color:var(--red)}
+.why{margin:0;font-size:16px;line-height:1.45;max-width:54ch}
+.rec{align-self:flex-start;background:var(--pink);font-weight:700;font-size:11px;letter-spacing:.06em;padding:4px 8px;text-transform:uppercase}
+.row{display:grid;grid-template-columns:150px 1fr;gap:14px;align-items:stretch}
+@media (max-width:420px){.row{grid-template-columns:120px 1fr}}
+.cover{position:relative;aspect-ratio:3/4;background:#1a1416 center/cover;color:#f5eee0;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:10px}
+.cover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 45%,rgba(0,0,0,.6))}
+.cover > *{position:relative;z-index:1}
+.cover .who{font-size:34px;line-height:.9;text-transform:uppercase}
+.cover .hl{font-size:11px;line-height:1.2;margin-top:4px}
+.cover .mast{position:absolute;top:8px;left:10px;right:10px;z-index:1;font-family:"Anton",Impact,sans-serif;font-size:13px;letter-spacing:.1em}
+.page{background:var(--paper);padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.page .lb{font-family:var(--lab);font-size:11px;letter-spacing:.04em;text-transform:uppercase;font-weight:600;color:var(--red)}
+.page h2{margin:0;font-size:38px;line-height:.9;text-transform:uppercase;overflow-wrap:anywhere}
+.page p{margin:0;font-family:var(--lab);font-size:12px;line-height:1.45;text-transform:uppercase;font-weight:600}
+.btn{margin-top:auto;align-self:stretch;background:var(--pink);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--ink);padding:12px 14px;font-size:15px;text-transform:uppercase;display:flex;justify-content:space-between}
+.quote{font-size:22px;line-height:1.05}
+
+/* the pairings */
+.f1{--h:"Archivo Black";--hw:400;--lab:"Archivo Narrow"}
+.f2{--h:"Anton";--hw:400;--lab:"Archivo Narrow"}
+.f3{--h:"Bodoni Moda";--hw:800;--lab:"Inter Tight"}
+.f4{--h:"Big Shoulders Display";--hw:900;--lab:"DM Mono"}
+.f5{--h:"Bricolage Grotesque";--hw:800;--lab:"Inter Tight"}
+.f6{--h:"Anton";--hw:400;--lab:"Archivo Narrow"}
+.opt .who,.opt h2,.opt .btn{font-family:var(--h),Impact,serif;font-weight:var(--hw)}
+.f3 .who,.f3 h2{text-transform:none;letter-spacing:-.02em}
+.f3 h2{font-size:40px;font-style:italic}
+.f6 em{font-family:"Instrument Serif",Georgia,serif;font-style:italic;text-transform:none;font-weight:400;letter-spacing:0}
+.f2 h2,.f6 h2{font-size:46px;letter-spacing:.005em}
+.f4 h2{font-size:48px}
+.f5 h2{letter-spacing:-.03em}
+
+.pick{border-top:1px solid var(--ink);padding-top:16px}
+.pick h2{font-family:"Archivo Black",Impact,sans-serif;font-weight:400;font-size:30px;margin:0 0 10px;text-transform:uppercase;line-height:.9}
+.pick p{margin:0 0 10px;font-size:16px;line-height:1.45;max-width:56ch}
+</style>
+
+<main class="wrap">
+  <header>
+    <h1>Font lab</h1>
+    <p>Same cover, same page, same button. Only the type changes. All free Google fonts, fine to use in an app.</p>
+  </header>
+
+  <section class="opt f1">
+    <div class="meta"><span class="n">A · Now</span><span>Archivo Black + Archivo Narrow</span></div>
+    <p class="why">What the app uses today. Wide and heavy: strong, but can feel corporate, and it fights the tall wavy logo.</p>
+    <div class="row">
+      <div class="cover" style="background-image:url(img/p4.jpg)"><span class="mast">ISSUE11</span><span class="who">Megan</span><span class="hl">How Megan built a life of ease</span></div>
+      <div class="page"><span class="lb">01 / Writing</span><h2>Notes to self</h2><p>Clarity today.<br>A brighter tomorrow.</p><span class="btn">Keep my issue <span>→</span></span></div>
+    </div>
+  </section>
+
+  <section class="opt f2">
+    <div class="meta"><span class="n">B</span><span>Anton + Archivo Narrow</span></div>
+    <p class="why">Tall and condensed, <b>like the letters in your logo</b>. Feels like a fashion poster. Keeps your Archivo Narrow labels.</p>
+    <div class="row">
+      <div class="cover" style="background-image:url(img/p4.jpg)"><span class="mast">ISSUE11</span><span class="who">Megan</span><span class="hl">How Megan built a life of ease</span></div>
+      <div class="page"><span class="lb">01 / Writing</span><h2>Notes to self</h2><p>Clarity today.<br>A brighter tomorrow.</p><span class="btn">Keep my issue <span>→</span></span></div>
+    </div>
+  </section>
+
+  <section class="opt f3">
+    <div class="meta"><span class="n">C</span><span>Bodoni Moda + Inter Tight</span></div>
+    <p class="why">The classic <b>Vogue / Harper's Bazaar</b> serif. Instantly "fashion magazine", elegant and luxe. Less loud than the others.</p>
+    <div class="row">
+      <div class="cover" style="background-image:url(img/p4.jpg)"><span class="mast">ISSUE11</span><span class="who">Megan</span><span class="hl">How Megan built a life of ease</span></div>
+      <div class="page"><span class="lb">01 / Writing</span><h2>Notes to self</h2><p>Clarity today.<br>A brighter tomorrow.</p><span class="btn">Keep my issue <span>→</span></span></div>
+    </div>
+  </section>
+
+  <section class="opt f4">
+    <div class="meta"><span class="n">D</span><span>Big Shoulders + DM Mono</span></div>
+    <p class="why">Street-poster energy with typewriter labels. Raw, young, a bit Mozoo. Less luxury.</p>
+    <div class="row">
+      <div class="cover" style="background-image:url(img/p4.jpg)"><span class="mast">ISSUE11</span><span class="who">Megan</span><span class="hl">How Megan built a life of ease</span></div>
+      <div class="page"><span class="lb">01 / Writing</span><h2>Notes to self</h2><p>Clarity today.<br>A brighter tomorrow.</p><span class="btn">Keep my issue <span>→</span></span></div>
+    </div>
+  </section>
+
+  <section class="opt f5">
+    <div class="meta"><span class="n">E</span><span>Bricolage Grotesque + Inter Tight</span></div>
+    <p class="why">Modern and a little quirky, with soft character. Feels like a cool new app more than a magazine.</p>
+    <div class="row">
+      <div class="cover" style="background-image:url(img/p4.jpg)"><span class="mast">ISSUE11</span><span class="who">Megan</span><span class="hl">How Megan built a life of ease</span></div>
+      <div class="page"><span class="lb">01 / Writing</span><h2>Notes to self</h2><p>Clarity today.<br>A brighter tomorrow.</p><span class="btn">Keep my issue <span>→</span></span></div>
+    </div>
+  </section>
+
+  <section class="opt f6">
+    <div class="meta"><span class="n">F · Mix</span><span>Anton + Instrument Serif italic</span></div>
+    <span class="rec">My pick</span>
+    <p class="why">Tall condensed headlines that match the logo, with one <b>elegant italic word</b> mixed in, like real fashion covers do. Bold and luxe at once.</p>
+    <div class="row">
+      <div class="cover" style="background-image:url(img/p4.jpg)"><span class="mast">ISSUE11</span><span class="who">Megan</span><span class="hl">How Megan built a life of ease</span></div>
+      <div class="page"><span class="lb">01 / Writing</span><h2>Notes <em>to</em> self</h2><p>Clarity today.<br>A brighter tomorrow.</p><span class="btn">Keep my issue <span>→</span></span></div>
+    </div>
+  </section>
+
+  <section class="pick">
+    <h2>My recommendation: F</h2>
+    <p>Anton echoes your tall wavy logo, so the whole app feels like one brand. The italic serif word adds the luxury-magazine touch. Labels stay in Archivo Narrow caps, as you asked.</p>
+    <p>Changing the headline font updates the approved Brand Guide v1, so it's your call as Creative Director. Pick a letter, or mix ("B with C's serif").</p>
+  </section>
+</main>

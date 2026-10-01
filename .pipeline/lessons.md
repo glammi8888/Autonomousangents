@@ -13,3 +13,4 @@ _(none yet)_ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-09-30 · Design Room · Checking the wireframes against the Notion concept found the biggest gap (no cover reveal before the paywall). Always cross-check wireframes with the concept page before designing.
 - 2026-09-30 · Design Room · Megan's answers can conflict ("no audio in v1" vs "ships when the app is out"). Log my reading in design/FLOW-MAP.md and confirm it in one line instead of guessing silently.
 - 2026-10-01 · Design Room · Megan (word for word): "I thought you were designing based off that" (the Canva identity kit). Rule: before any visual design, get the full identity kit pages (not the text summary) and design from them.
+- 2026-10-01 · Design Room · Megan: "for the 3D stickers they don't look good" — removed. Her taste: flat, graphic, printed (patterns, stickers, emoji) over glossy 3D renders.

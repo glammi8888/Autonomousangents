@@ -484,18 +484,16 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .emojis input{width:120px;background:transparent;border:1px solid #4a3f42;padding:10px;font-size:20px;color:var(--cream)}
 
 
-/* ===== 3D stickers ===== */
-.s3-heart{width:22cqw;height:20cqw;position:relative;filter:drop-shadow(0 1.6cqw 1.6cqw rgba(0,0,0,.35))}
-.s3-heart::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 28%,#fff 0 6%,#ffb3dc 12%,var(--acc) 42%,#8e0f4f 100%);clip-path:path("M50 92 C20 70 0 52 0 30 C0 12 14 0 28 0 C38 0 46 6 50 14 C54 6 62 0 72 0 C86 0 100 12 100 30 C100 52 80 70 50 92 Z");transform:scale(calc(22/100*1cqw/1px))}
-.s3-chrome{font-family:var(--display);font-size:13cqw;line-height:1;letter-spacing:-.04em;text-transform:uppercase;background:linear-gradient(180deg,#fff 0%,#c9d2dc 30%,#5d6670 48%,#e9eef3 52%,#9aa4ae 75%,#fff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(.3cqw .3cqw 0 #3a4048) drop-shadow(.6cqw .9cqw 1cqw rgba(0,0,0,.4))}
-.s3-bubble{font-family:var(--display);font-size:13cqw;line-height:1;letter-spacing:-.02em;color:var(--acc);-webkit-text-stroke:.5cqw #fff;paint-order:stroke fill;text-shadow:0 .4cqw 0 #fff,.6cqw .9cqw 0 color-mix(in srgb,var(--acc) 55%,#000),1cqw 1.6cqw 1.6cqw rgba(0,0,0,.35);transform:rotate(-6deg)}
-.s3-extrude{font-family:var(--display);font-size:12cqw;line-height:1;letter-spacing:-.05em;text-transform:uppercase;color:#f5eee0;text-shadow:.25cqw .25cqw 0 var(--acc),.5cqw .5cqw 0 var(--acc),.75cqw .75cqw 0 var(--acc),1cqw 1cqw 0 var(--acc2),1.25cqw 1.25cqw 0 var(--acc2),1.5cqw 1.5cqw 0 var(--acc2),2.2cqw 2.6cqw 2cqw rgba(0,0,0,.35)}
-.s3-orb{width:20cqw;height:20cqw;border-radius:50%;background:radial-gradient(circle at 32% 28%,rgba(255,255,255,.95) 0 7%,rgba(255,255,255,.25) 14%,transparent 30%),radial-gradient(circle at 70% 78%,color-mix(in srgb,var(--acc) 70%,#fff),transparent 55%),radial-gradient(circle at 50% 50%,color-mix(in srgb,var(--acc) 40%,transparent),color-mix(in srgb,var(--acc) 85%,#000));box-shadow:inset 0 0 3cqw rgba(255,255,255,.4),0 2cqw 3cqw rgba(0,0,0,.35)}
-.s3-coin{width:19cqw;height:19cqw;border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-size:7cqw;color:#7a5200;background:radial-gradient(circle at 35% 30%,#fff6c4,#f2c94c 35%,#b8860b 75%,#7a5200);box-shadow:inset 0 0 0 1.2cqw #e3b33a,inset 0 0 0 1.6cqw #8a6200,0 1.4cqw 2cqw rgba(0,0,0,.4);animation:coin 3s ease-in-out infinite;text-shadow:0 .2cqw 0 #fff3b0}
-@keyframes coin{0%,100%{transform:rotateY(0)}50%{transform:rotateY(180deg)}}
-.s3-star{width:22cqw;height:22cqw;background:conic-gradient(from 0deg,#fff,#c7ccd3,#6f7781,#fff,#aab2bb,#fff,#7b838c,#e8ecf0,#fff);clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);filter:drop-shadow(0 1cqw 1cqw rgba(0,0,0,.4))}
-.s3-gem{width:18cqw;height:18cqw;background:linear-gradient(135deg,#fff 0 10%,color-mix(in srgb,var(--acc) 60%,#fff) 30%,var(--acc) 55%,color-mix(in srgb,var(--acc) 50%,#000) 100%);clip-path:polygon(25% 0,75% 0,100% 30%,50% 100%,0 30%);filter:drop-shadow(0 1cqw 1.2cqw rgba(0,0,0,.35))}
-@media (prefers-reduced-motion:reduce){.s3-coin{animation:none}}
+
+/* ===== Graphic patterns (per page, behind content) ===== */
+.pat{position:absolute;inset:0;z-index:0;pointer-events:none}
+.pat{z-index:auto}
+:where(.page > *){position:relative}
+.pat-waves{background:var(--pc);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='40'%3E%3Cpath d='M0 20 Q15 2 30 20 T60 20 T90 20 T120 20 V40 H0Z' fill='black'/%3E%3C/svg%3E") 0 0/24cqw 8cqw;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='40'%3E%3Cpath d='M0 20 Q15 2 30 20 T60 20 T90 20 T120 20 V40 H0Z' fill='black'/%3E%3C/svg%3E") 0 0/24cqw 8cqw;opacity:.9}
+.pat-hearts{background:var(--pc);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50'%3E%3Cpath d='M25 44 C10 33 2 25 2 15 C2 8 8 3 14 3 C19 3 23 6 25 10 C27 6 31 3 36 3 C42 3 48 8 48 15 C48 25 40 33 25 44Z' fill='black'/%3E%3C/svg%3E") 0 0/9cqw 9cqw;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='50'%3E%3Cpath d='M25 44 C10 33 2 25 2 15 C2 8 8 3 14 3 C19 3 23 6 25 10 C27 6 31 3 36 3 C42 3 48 8 48 15 C48 25 40 33 25 44Z' fill='black'/%3E%3C/svg%3E") 0 0/9cqw 9cqw}
+.pat canvas{width:100%;height:100%;display:block}
+.pats{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pats .sep{width:1px;height:28px;background:#4a3f42;margin:0 4px}
 
 /* edit panel */
 .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;border-top:1px solid #3a3134;padding-top:18px}
@@ -531,8 +529,8 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
     <div class="f"><label>Cover template</label><div class="chips" id="covers"></div></div>
     <div class="f"><label>Cover photo</label><div class="thumbs" id="thumbs"></div></div>
     <div class="f" style="grid-column:1/-1"><label>This page's color · tap a page first <span id="pgLabel" style="color:var(--pink)"></span></label><div class="chips" id="pageThemes"></div></div>
+    <div class="f" style="grid-column:1/-1"><label>Graphic pattern on this page · tap a page first</label><div class="pats" id="pats"></div></div>
     <div class="f" style="grid-column:1/-1"><label>Stickers · tap a page, then a sticker, then drag it</label><div class="tray" id="tray"></div></div>
-    <div class="f" style="grid-column:1/-1"><label>3D stickers</label><div class="tray" id="tray3d"></div></div>
     <div class="f" style="grid-column:1/-1"><label>Emoji stickers · tap one, or type any emoji</label><div class="emojis" id="emojis"><button data-emoji="💖" aria-label="Add 💖">💖</button><button data-emoji="✨" aria-label="Add ✨">✨</button><button data-emoji="💸" aria-label="Add 💸">💸</button><button data-emoji="👑" aria-label="Add 👑">👑</button><button data-emoji="💋" aria-label="Add 💋">💋</button><button data-emoji="🦋" aria-label="Add 🦋">🦋</button><button data-emoji="🌙" aria-label="Add 🌙">🌙</button><button data-emoji="⭐" aria-label="Add ⭐">⭐</button><button data-emoji="🍒" aria-label="Add 🍒">🍒</button><button data-emoji="🔥" aria-label="Add 🔥">🔥</button><button data-emoji="💎" aria-label="Add 💎">💎</button><button data-emoji="🌸" aria-label="Add 🌸">🌸</button><button data-emoji="🥂" aria-label="Add 🥂">🥂</button><button data-emoji="🛍️" aria-label="Add 🛍️">🛍️</button><button data-emoji="💅" aria-label="Add 💅">💅</button><button data-emoji="🎀" aria-label="Add 🎀">🎀</button><button data-emoji="🌍" aria-label="Add 🌍">🌍</button><button data-emoji="✈️" aria-label="Add ✈️">✈️</button><button data-emoji="🏝️" aria-label="Add 🏝️">🏝️</button><button data-emoji="📖" aria-label="Add 📖">📖</button><button data-emoji="💌" aria-label="Add 💌">💌</button><button data-emoji="🪩" aria-label="Add 🪩">🪩</button><button data-emoji="🧿" aria-label="Add 🧿">🧿</button><button data-emoji="☁️" aria-label="Add ☁️">☁️</button><input id="emojiIn" placeholder="Type 🙂" maxlength="8" aria-label="Custom emoji"><button data-emoji-custom aria-label="Add typed emoji" style="width:auto;padding:0 12px;font-size:12px;font-weight:700">ADD</button></div></div>
   </section>
   <p class="note"><b>How it works in the app:</b> each page is a fixed template with slots (name, headline, quote, photos). Text automatically shrinks to fit its box, photos crop around the face, and the date follows the real season. Pages are drawn at real magazine proportions (3:4), so the same layouts can be printed later. Try a long name or a long quote to see the auto-fit.</p>
@@ -714,18 +712,21 @@ const _render3=render; render=function(){_render3();requestAnimationFrame(applyP
 strip.addEventListener("click",()=>requestAnimationFrame(applyPageThemes));
 document.addEventListener("click",e=>{if(e.target.closest("[data-theme]"))render();});
 
-/* ---------- 3D stickers ---------- */
-Object.assign(STK,{
- h3:{l:"3D heart",h:()=>`<div class="s3-orb" style="border-radius:50% 50% 50% 50%/60% 60% 40% 40%;clip-path:path('M50 92 C20 70 0 52 0 30 C0 12 14 0 28 0 C38 0 46 6 50 14 C54 6 62 0 72 0 C86 0 100 12 100 30 C100 52 80 70 50 92 Z');width:100px;height:92px;transform:scale(1.2)"></div>`},
- c3:{l:"Chrome WOW",h:()=>`<div class="s3-chrome">wow</div>`},
- b3:{l:"Bubble YES",h:()=>`<div class="s3-bubble">yes!</div>`},
- e3:{l:"3D Issue 11",h:()=>`<div class="s3-extrude">11</div>`},
- o3:{l:"Glass orb",h:()=>`<div class="s3-orb"></div>`},
- g3:{l:"Gold coin",h:()=>`<div class="s3-coin">$</div>`},
- s3:{l:"Chrome star",h:()=>`<div class="s3-star"></div>`},
- d3:{l:"Gem",h:()=>`<div class="s3-gem"></div>`},
-});
-document.getElementById("tray3d").innerHTML=["h3","c3","b3","e3","o3","g3","s3","d3"].map(k=>`<button data-stk="${k}">${STK[k].l}</button>`).join("");
+
+/* ---------- graphic patterns ---------- */
+const PATS={none:"None",waves:"Waves",zebra:"Zebra",cheetah:"Cheetah",hearts:"Wall of hearts"};
+const PCOL={Black:"#0d0d0d",Accent:"var(--acc)",Red:"#d40806",Cream:"#f5eee0"};
+const pagePat={};
+function rnd(seed){return()=>{seed=(seed*16807)%2147483647;return seed/2147483647;};}
+function drawZebra(c,col){const w=c.width=c.clientWidth*2,h=c.height=c.clientHeight*2,x=c.getContext("2d");x.fillStyle=col;const r=rnd(7);const n=14;for(let i=0;i<n;i++){const y0=(i+.3)*h/n,a=h/n*(.25+r()*.25),f=(2+r()*3)*Math.PI*2/w,ph=r()*6,t=h/n*(.3+r()*.25);x.beginPath();for(let X=0;X<=w;X+=8){const Y=y0+a*Math.sin(f*X+ph);X?x.lineTo(X,Y):x.moveTo(X,Y);}for(let X=w;X>=0;X-=8){x.lineTo(X,y0+a*Math.sin(f*X+ph)+t*(.4+.6*Math.abs(Math.sin(f*1.7*X+ph))));}x.fill();}}
+function drawCheetah(c,col){const w=c.width=c.clientWidth*2,h=c.height=c.clientHeight*2,x=c.getContext("2d");const r=rnd(11);const s=w/14;for(let i=0;i<w*h/(s*s)*1.1;i++){const cx=r()*w,cy=r()*h,rr=s*(.18+r()*.22);x.fillStyle="rgba(201,140,52,.55)";x.beginPath();x.ellipse(cx,cy,rr*1.1,rr,r()*3,0,7);x.fill();x.strokeStyle=col;x.lineWidth=rr*.45;x.lineCap="round";const k=2+Math.floor(r()*3);for(let j=0;j<k;j++){const a0=r()*6.28;x.beginPath();x.arc(cx,cy,rr*1.15,a0,a0+.9+r()*.8);x.stroke();}}}
+let patColor="Black";
+function paintPats(){strip.querySelectorAll(".page").forEach((pg,i)=>{pg.querySelectorAll(":scope > .pat").forEach(n=>n.remove());const pp=pagePat[i];if(!pp||pp.k==="none")return;const d=document.createElement("div");d.className="pat pat-"+pp.k;d.style.setProperty("--pc",PCOL[pp.c]);if(pp.k==="zebra"||pp.k==="cheetah"){d.innerHTML="<canvas></canvas>";}const halves=pg.querySelectorAll(":scope > .half");const after=halves.length?halves[halves.length-1].nextSibling:pg.firstChild;pg.insertBefore(d,after);pg.querySelectorAll("[data-ek]").forEach(el=>{if(el.closest('.stk,.ph,.cover'))return;if(overPhoto(el,pg))return;el.style.background='var(--paper)';el.style.boxDecorationBreak='clone';el.style.webkitBoxDecorationBreak='clone';el.style.padding='0 .15em';});if(pp.k==="zebra"||pp.k==="cheetah"){const c=d.querySelector("canvas");const col=pp.c==="Accent"?getComputedStyle(pg).getPropertyValue("--acc").trim():PCOL[pp.c];(pp.k==="zebra"?drawZebra:drawCheetah)(c,col);}});}
+document.getElementById("pats").innerHTML=Object.entries(PATS).map(([k,l])=>`<button class="chip" data-pat="${k}">${l}</button>`).join("")+`<span class="sep"></span>`+Object.keys(PCOL).map(k=>`<button class="chip" data-patc="${k}" aria-pressed="${k===patColor}">${k}</button>`).join("");
+document.addEventListener("click",e=>{const b=e.target.closest("[data-pat]"),c=e.target.closest("[data-patc]");
+ if(c){patColor=c.dataset.patc;document.querySelectorAll("[data-patc]").forEach(x=>x.setAttribute("aria-pressed",x===c));if(pagePat[activePage])pagePat[activePage].c=patColor;paintPats();}
+ if(b){pagePat[activePage]={k:b.dataset.pat,c:patColor};paintPats();}});
+const _render4=render; render=function(){_render4();requestAnimationFrame(paintPats);};
 
 (document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(render);
 window.addEventListener("resize",()=>strip.querySelectorAll("[data-fit]").forEach(fit));

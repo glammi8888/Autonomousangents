@@ -271,6 +271,37 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .eCircle .cols{left:54%;right:5%;top:25%;bottom:8%;column-count:3;font-size:.95cqw}
 .eCircle .tk{position:absolute;left:7%;top:8%;font-family:var(--narrow);font-weight:700;font-size:1.1cqw;text-transform:uppercase;color:var(--acc2);margin:0;line-height:1.2}
 
+
+/* E10 beauty full-bleed */
+.eBeauty .ph.a{left:0;top:0;width:50%;height:100%;background-position:center 25%}
+.eBeauty .ph.b{left:50%;top:0;width:50%;height:100%;background-size:180%;background-position:55% 30%}
+.eBeauty .cap{position:absolute;left:4%;bottom:12%;width:12%;font-family:var(--serif);font-style:italic;font-size:1.05cqw;line-height:1.2;color:#fff;margin:0}
+/* E11 star cut-outs */
+.eStars .win{position:absolute;width:var(--w);aspect-ratio:1;background-size:cover;background-position:center 40%;clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)}
+.eStars .ph.a{left:0;top:0;width:100%;height:100%;background-size:50% auto;background-repeat:no-repeat;background-position:right center}
+.eStars .ph.u{left:0;top:0;width:50%;height:100%;background-position:center 40%}
+.eStars .st{position:absolute;width:var(--w);aspect-ratio:1;background:var(--acc);clip-path:polygon(50% 0,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)}
+.eStars .t1{position:absolute;right:52%;top:4%;font-family:var(--display);font-size:3.6cqw;line-height:.9;letter-spacing:-.05em;color:#0d0d0d;text-align:right;margin:0;opacity:.75}
+.eStars .t2{position:absolute;left:3%;bottom:4%;font-family:var(--display);font-size:3.6cqw;line-height:.9;letter-spacing:-.05em;color:#0d0d0d;margin:0;opacity:.75}
+.eStars .t3{position:absolute;left:52%;bottom:4%;font-family:var(--display);font-size:2cqw;line-height:.9;letter-spacing:-.05em;color:#fff;margin:0}
+/* E12 cool kids type mix */
+.eCool .half{background:#f3f1ec}
+.eCool .ph.a{left:28%;top:12%;width:41%;height:74%}
+.eCool .w1{position:absolute;left:4%;top:9%;font-family:"Archivo",var(--display);font-stretch:85%;font-weight:900;font-size:12cqw;line-height:.78;letter-spacing:-.06em;color:#0d0d0d;margin:0;z-index:2;text-transform:lowercase}
+.eCool .w2{position:absolute;left:14%;bottom:12%;font-family:var(--serif);font-size:3.6cqw;color:#0d0d0d;margin:0}
+.eCool .r1,.eCool .r2{position:absolute;right:4%;width:26%;font-family:var(--serif);font-size:3.6cqw;line-height:.95;text-align:right;color:#0d0d0d;margin:0}
+.eCool .r1{top:6%}.eCool .r2{bottom:6%}
+.eCool .v{position:absolute;left:71%;top:30%;writing-mode:vertical-rl;transform:rotate(180deg);font-family:var(--narrow);font-weight:600;font-size:1cqw;margin:0}
+.eCool .kick{position:absolute;left:3%;top:3%;font-family:var(--narrow);font-weight:600;font-size:1cqw;margin:0}
+/* E13 outlined neon headline */
+.eNeon .half.L{background:var(--acc)}
+.eNeon .ph.a{left:50%;top:0;width:50%;height:100%}
+.eNeon .hl{position:absolute;left:3%;top:6%;width:60%;font-family:"Archivo",var(--display);font-stretch:100%;font-weight:900;font-size:8.6cqw;line-height:.84;letter-spacing:-.04em;text-transform:uppercase;color:#c9c3c7;-webkit-text-stroke:.35cqw #ecff3a;paint-order:stroke fill;margin:0;z-index:2}
+.eNeon .bub{position:absolute;left:62%;top:34%;width:24%;padding:2.2cqw 2.4cqw;background:#ecff3a;border-radius:50%/45%;font-family:var(--narrow);font-weight:700;font-size:1.05cqw;line-height:1.25;text-align:center;color:#0d0d0d;margin:0;z-index:2}
+.eNeon .cols{left:76%;right:3%;top:58%;bottom:7%;background:rgba(13,13,13,.82);padding:1.2cqw;column-count:1;color:#f5eee0;font-size:.95cqw}
+.eNeon .cols p:first-child::first-letter{color:#ecff3a}
+.eNeon .by{position:absolute;left:24%;top:46%;font-family:var(--narrow);font-weight:700;font-size:.9cqw;text-transform:uppercase;letter-spacing:.1em;color:#0d0d0d;margin:0;z-index:3}
+
 /* edit panel */
 .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;border-top:1px solid #3a3134;padding-top:18px}
 .f{display:flex;flex-direction:column;gap:6px;min-width:0}
@@ -345,6 +376,10 @@ const ED=[
  {tag:"Feature · script name",num:"P.16–17",cls:()=>"spread eScript",html:s=>`<p class="nm">${esc(s.name)} <span class="n" style="font-size:.9cqw">${season()}</span></p>${bg("a",9)}${bg("b",4)}<p class="scr">${esc(s.name)}</p><div class="cols"><p>${esc(s.head)}. ${esc(s.quote)} She brought a new energy to everything she touched this season, and it shows.</p></div>${rh(s,"16","17")}`},
  {tag:"Feature · split word",num:"P.18–19",cls:()=>"spread eWord inv",html:s=>`${bg("a",7)}${bg("b",3)}<h2 class="cond w1">Future</h2><h2 class="cond w2">Self</h2><p class="sf">If the future is something you build, ${esc(s.name)} is already on site. Between ${season()} and the next issue, she wrote down the life she wants and started living it page by page.</p><div class="cols"><p>“${esc(s.quote)}”</p><p>${esc(s.proof)}</p></div><p class="cr">Photos: her world<br>Words: ${esc(s.name)}</p>${rh(s,"18","19")}`},
  {tag:"Feature · circle article",num:"P.20–21",cls:()=>"spread eCircle",html:s=>`<div class="half L"></div><div class="half R"></div>${bg("a",8)}<p class="tk">How to become<br>${esc(s.name)}<br>in ten easy steps</p><div class="circ"></div><p class="lead">${esc(s.head)}. The rules she wrote for herself, in her own words.</p><div class="cols">${body(s)}${body(s)}</div>${rh(s,"20","21")}`},
+ {tag:"Feature · beauty full-bleed",num:"P.22–23",cls:()=>"spread eBeauty",html:s=>`${bg("a",4)}${bg("b",4)}<p class="cap">${esc(s.name)} wears her future like a finish. Photographed for ISSUE11, ${season()}.</p>${rh(s,"22","23")}`},
+ {tag:"Feature · star cut-outs",num:"P.24–25",cls:()=>"spread eStars",html:s=>`${bg("u",8)}<div class="half L" style="background:var(--acc)"></div><span class="win" style="--w:15cqw;left:9%;top:24%;background-image:url(${IMG(1)})"></span><span class="win" style="--w:22cqw;left:24%;top:42%;background-image:url(${IMG(4)})"></span>${bg("b",8).replace('class="ph b"','class="ph" style="left:50%;top:0;width:50%;height:100%;background-position:center 30%"').replace('style="background','data-x="1" style2="background')}<div class="ph" style="left:50%;top:0;width:50%;height:100%;background-image:url(${IMG(8)});background-position:center 30%"></div><span class="st" style="--w:13cqw;left:6%;top:26%;transform:rotate(-8deg)"></span><span class="st" style="--w:19cqw;left:20%;top:46%;transform:rotate(10deg)"></span><span class="st" style="--w:14cqw;left:58%;top:30%;transform:rotate(-6deg)"></span><span class="st" style="--w:22cqw;left:72%;top:52%;transform:rotate(14deg)"></span><p class="t1">trust the<br>process</p><p class="t2">and the<br>${esc(s.name)}</p><p class="t3">she<br>is<br>always<br>${esc(s.name)}</p>`},
+ {tag:"Feature · cool type mix",num:"P.26–27",cls:()=>"spread eCool",html:s=>`<div class="half L"></div><div class="half R"></div>${bg("a",2)}<p class="kick">Dreamed & Done</p><p class="w1">dream<br>big</p><p class="w2">assemble</p><p class="r1">a life so<br>dreamy,</p><p class="v">caution: may cause main-character energy.</p><p class="r2">you'll<br>question<br>playing<br>small.</p>${rh(s,"26","27")}`},
+ {tag:"Feature · neon headline",num:"P.28–29",cls:()=>"spread eNeon",html:s=>`<div class="half L"></div>${bg("a",6)}<h2 class="hl">${esc(s.name)}'s new era of becoming</h2><p class="by">Words by ${esc(s.name)}</p><p class="bub">Long seen as a dreamer, she is now the one doing it. What's next?</p><div class="cols">${body(s)}</div>${rh(s,"28","29")}`},
 ];
 const PAGES=[
  {tag:"Cover",num:"",cls:s=>"c"+s.cover,html:s=>COVERS[s.cover].html(s)},

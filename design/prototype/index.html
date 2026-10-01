@@ -464,6 +464,17 @@ h1.big,h2.mid,.hero .hh h1,.post .pt b,.block b,.card .t,.cover .who,.nextp .np 
 .hold{border-radius:999px;border:1px solid rgba(13,13,13,.16);background:linear-gradient(180deg,rgba(255,255,255,.6),rgba(255,255,255,.28));box-shadow:inset 0 1px 0 rgba(255,255,255,.9),0 8px 22px rgba(80,20,50,.12);font-family:var(--display);font-weight:400;font-size:16px;letter-spacing:-.03em}
 .app.night .hold{background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.05));border-color:rgba(255,255,255,.25)}
 .hold::before{border-radius:999px}
+
+/* cover splash (Megan): magazine starburst "FUTURE YOU" on the Home hero */
+.splash{position:absolute;left:14px;top:14px;z-index:3;width:132px;height:132px;display:grid;place-items:center;transform:rotate(-12deg);animation:wob 5s ease-in-out infinite alternate;filter:drop-shadow(4px 6px 0 rgba(13,13,13,.9))}
+.splash svg{position:absolute;inset:0;width:100%;height:100%;animation:spin 30s linear infinite}
+.splash polygon{fill:#f65aad}
+.splash span{position:relative;font-family:var(--display);font-weight:400;font-size:24px;line-height:.82;letter-spacing:-.06em;text-transform:uppercase;color:#0d0d0d;text-align:center}
+.splash small{display:block;font-family:var(--mono);font-weight:700;font-size:10px;letter-spacing:0;margin-bottom:3px;color:#d40806}
+.splash:active{transform:rotate(4deg) scale(1.08)}
+@keyframes wob{from{transform:rotate(-14deg) scale(1)}to{transform:rotate(-6deg) scale(1.05)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.splash,.splash svg{animation:none}}
 </style>
 
 <div class="stage">
@@ -622,10 +633,11 @@ h1.big,h2.mid,.hero .hh h1,.post .pt b,.block b,.card .t,.cover .who,.nextp .np 
   </section>
 
   <!-- ============ APP ============ -->
-  <section class="screen tabbed" id="home" data-tab="home" data-title="Home" data-note="Rebuilt on the identity kit's home mockup: her issue as the hero, 'Start creating' tiles (01 Writing · 02 Image · 03 Audio · 04 Edit), then today's session, the archive and her world.">
+  <section class="screen tabbed" id="home" data-tab="home" data-title="Home" data-note="Pink 'FUTURE YOU' cover splash (Megan) on the hero: tap it to write today's page as your future self. Rebuilt on the identity kit's home mockup: her issue as the hero, 'Start creating' tiles (01 Writing · 02 Image · 03 Audio · 04 Edit), then today's session, the archive and her world.">
     <div class="khead"><span style="width:58px;height:44px;display:block"><span class="logo" role="img" aria-label="ISSUE11"></span></span><span class="tag">A magazine<br>by you</span><button class="iconbtn" data-go="settings" aria-label="Settings"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>
     <div class="hero">
       <canvas class="art" data-img="0"></canvas>
+      <button class="splash" data-go="journal" data-toast="Write today's page as Future You" aria-label="Future you: write as your future self"><svg viewBox="0 0 120 120" aria-hidden="true"><polygon points="110.0,60.0 102.6,65.6 108.3,72.9 99.7,76.5 103.3,85.0 94.1,86.2 95.4,95.4 86.2,94.1 85.0,103.3 76.5,99.7 72.9,108.3 65.6,102.6 60.0,110.0 54.4,102.6 47.1,108.3 43.5,99.7 35.0,103.3 33.8,94.1 24.6,95.4 25.9,86.2 16.7,85.0 20.3,76.5 11.7,72.9 17.4,65.6 10.0,60.0 17.4,54.4 11.7,47.1 20.3,43.5 16.7,35.0 25.9,33.8 24.6,24.6 33.8,25.9 35.0,16.7 43.5,20.3 47.1,11.7 54.4,17.4 60.0,10.0 65.6,17.4 72.9,11.7 76.5,20.3 85.0,16.7 86.2,25.9 95.4,24.6 94.1,33.8 103.3,35.0 99.7,43.5 108.3,47.1 102.6,54.4"/></svg><span><small>Meet</small>Future<br>you</span></button>
       <div class="words" id="heroWords">Dreams<br>Goals<br>Identity<br>Style<br>Wealth<br>Freedom</div>
       <div class="hh"><h1 class="x3d">The future issue</h1><p id="greet">Good morning, Megan.</p><p>Your issue is ready.</p></div>
       <button class="arrow" data-go="issue" aria-label="Open your issue"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>

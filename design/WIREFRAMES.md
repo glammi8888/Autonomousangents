@@ -48,3 +48,8 @@ Approved to design (see design/FLOW-MAP.md for details):
 10. Skip logic on 02–04 defined (skip lands on the next question; defaults used for personalization)
 11. Fix placeholder copy: cover date = current season, onboarding 3 label, etc.
 Still Megan's decision (not approved yet): audio scope for Jan 11 (Q1), tab layout (Q3), pricing (💛 Revenue + Megan).
+
+## ✅ Megan, Oct 1: scope + launch plan
+- ALL features ship by Jan 11 (journal, own photos, magazine, immersive audio, immersive video).
+- Two-wave beta: **Beta 1 on Nov 11** = onboarding, sign-up, journal, photo uploads, magazine + cover reveal · **Beta 2 ~Dec 7** = + immersive audio/video + paywall · **Official App Store launch Jan 11, 2027**.
+- Design priority: finish Beta 1 screens by ~Oct 14 so the build can start Oct 15.

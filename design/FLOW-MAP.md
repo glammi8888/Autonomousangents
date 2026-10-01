@@ -75,3 +75,10 @@ Not decided here: pricing (💛 Revenue + Megan).
 - 02 · Onboarding: 01–14 (Night row + Light row). 03 · App: 15–29 (Night row + Light row). Light rows = same screens with the frame's theme mode set to Light.
 - Images: named placeholders "IMAGE · pX · …" (upload host mcp.figma.com blocked by this environment). Originals in brand/imagery/ (mj-00…mj-09 = p0…p9).
 - Old partial file on the free account (meganscottmanolova@gmail.com, vKzbnR5ffDv0Zuf0A3Sp2e) is superseded.
+
+## Desktop magazine editor (Megan, Oct 1, 2026 — idea, scope not decided)
+- Megan: let people build their magazine on desktop too ("it's not easy on the phone").
+- Proposal: a web version of the Issue editor (same account, same Supabase data, syncs both ways). Lovable builds web apps natively, so this reuses the same code; the iOS app stays the main product.
+- Login on web: Sign in with Apple + email (works on web).
+- ⚠️ Payments: subscription bought on web vs in the app must follow Apple's multiplatform rules (3.1.3) — verify current rules before building. Payments = Megan approves the spec.
+- Open: ship in V1 (Jan 11) or right after.

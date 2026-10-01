@@ -17,4 +17,4 @@ Source of truth: Megan's Canva identity kit: https://canva.link/pk44pxqmgmmqnol 
 - Inner pages read like magazine pages: "← ISSUE 11 · 01 / 11", "01 / WRITING", big headline, word list, full-bleed photo with serif quote, "NEXT 02 / IMAGE" block.
 - Tabs in the kit mockup: Home · Collect · Journal · Issue · profile circle (text only). The agreed app tabs are Home · Explore · (+) · Issue · You.
 - **Megan, Oct 1, 2026:** headlines stay Archivo Black but set TIGHT (letter-spacing about -0.06em, line-height about 0.82; "A2 is better"). Small labels: Archivo Narrow, all caps.
-- **Megan, Oct 1, 2026:** loves "Hold to log your win" (hold-to-confirm, fills green). Button set in the prototype (proposed, Megan to confirm): print press for main actions, wave fill for secondary, liquid glass on photos.
+- **Megan, Oct 1, 2026 — buttons chosen:** 13 Liquid glass capsule in Archivo Black (pink glass = main action, clear glass = secondary), 11 cover capsule (round thumbnail + title + pink circle) for sessions and her issue, 07 Hold to log your win for wins. See design/buttons/.

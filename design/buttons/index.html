@@ -1,0 +1,183 @@
+<title>ISSUE11 Button Lab</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:wght@500;600;700&display=swap">
+<style>
+/* Layout: a single column of numbered specimens, each a tappable button on its real background. Single brand look (cream). */
+:root{
+  --pink:#f65aad; --red:#d40806; --cream:#f5eee0; --blush:#fcd2dd; --green:#4ba551; --ink:#0d0d0d; --paper:#fffaf0;
+  --display:"Archivo Black","Arial Black",Impact,sans-serif;
+  --narrow:"Archivo Narrow","Arial Narrow",system-ui,sans-serif;
+  color-scheme:light;
+}
+body{background:var(--cream);color:var(--ink);font-family:var(--narrow);margin:0}
+*{box-sizing:border-box}
+button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+button:focus-visible{outline:2px solid var(--red);outline-offset:4px}
+.wrap{max-width:560px;margin:0 auto;padding-block:28px 64px;padding-inline:16px;display:flex;flex-direction:column;gap:0}
+header h1{font-family:var(--display);font-weight:400;font-size:clamp(44px,13vw,72px);line-height:.86;letter-spacing:-.02em;margin:0;text-transform:uppercase}
+header p{font-weight:600;font-size:14px;letter-spacing:.03em;text-transform:uppercase;margin:12px 0 24px;max-width:44ch;line-height:1.45}
+.spec{border-top:1px solid var(--ink);padding-block:16px 26px;display:flex;flex-direction:column;gap:14px}
+.meta{display:flex;justify-content:space-between;gap:12px;font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+.meta .n{color:var(--red)}
+.spec h2{font-family:var(--display);font-weight:400;font-size:30px;line-height:.9;margin:0;text-transform:uppercase}
+.spec p{margin:0;font-size:16px;line-height:1.45;max-width:52ch}
+.spec p b{font-weight:700}
+.use{font-weight:700;font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:#5b5350}
+.demo{padding:28px 20px;display:flex;flex-direction:column;align-items:center;gap:14px;background:var(--paper)}
+.demo.photo{position:relative;min-height:300px;justify-content:flex-end;background:#1a1416 url(img/p0.jpg) center/cover}
+.demo.dark{background:var(--ink)}
+.rec{display:inline-block;background:var(--pink);font-weight:700;font-size:11px;letter-spacing:.06em;padding:4px 8px;text-transform:uppercase;align-self:flex-start}
+
+/* 1 Print press: hard offset shadow, pushes into the page */
+.b-press{font-family:var(--display);font-size:17px;letter-spacing:.02em;text-transform:uppercase;background:var(--pink);border:2px solid var(--ink);padding:18px 28px;width:100%;max-width:340px;box-shadow:6px 6px 0 var(--ink);transition:transform .08s,box-shadow .08s;display:flex;justify-content:space-between;align-items:center}
+.b-press:active,.b-press.down{transform:translate(6px,6px);box-shadow:0 0 0 var(--ink)}
+
+/* 2 3D extruded: layered pink/red depth like the logo */
+.b-3d{font-family:var(--display);font-size:17px;text-transform:uppercase;background:var(--ink);color:var(--cream);padding:18px 28px;width:100%;max-width:340px;
+  box-shadow:1px 1px 0 var(--pink),2px 2px 0 var(--pink),3px 3px 0 var(--pink),4px 4px 0 var(--pink),5px 5px 0 var(--red),6px 6px 0 var(--red),7px 7px 0 var(--red),8px 8px 0 var(--red),14px 18px 24px rgba(0,0,0,.25);
+  transform:perspective(600px) rotateX(8deg);transition:transform .12s,box-shadow .12s}
+.b-3d:active,.b-3d.down{transform:perspective(600px) rotateX(0) translate(6px,6px);box-shadow:1px 1px 0 var(--pink),2px 2px 0 var(--red),4px 6px 10px rgba(0,0,0,.2)}
+
+/* 3 Wave fill: the logo's wavy stripe sweeps through on press */
+.b-wave{position:relative;overflow:hidden;font-family:var(--display);font-size:17px;text-transform:uppercase;border:2px solid var(--ink);padding:18px 28px;width:100%;max-width:340px;background:var(--cream);isolation:isolate}
+.b-wave::before{content:"";position:absolute;inset:-2px;z-index:-1;background:var(--pink);
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 40' preserveAspectRatio='none'%3E%3Cpath d='M0 0h120v40H0z M0 0c10 8 20 8 30 0s20-8 30 0 20 8 30 0 20-8 30 0V40H0z'/%3E%3C/svg%3E") 0 0/100% 100%;
+  transform:translateY(105%);transition:transform .45s cubic-bezier(.3,.7,.2,1)}
+.b-wave:hover::before,.b-wave:active::before,.b-wave.down::before{transform:translateY(0)}
+
+/* 4 Liquid glass: frosted pill for buttons that sit on photos (iOS 26 look) */
+.b-glass{font-family:var(--narrow);font-weight:700;font-size:16px;letter-spacing:.06em;text-transform:uppercase;color:#fff;padding:16px 28px;border-radius:40px;width:100%;max-width:340px;
+  background:linear-gradient(180deg,rgba(255,255,255,.34),rgba(255,255,255,.12));-webkit-backdrop-filter:blur(18px) saturate(1.6);backdrop-filter:blur(18px) saturate(1.6);
+  border:1px solid rgba(255,255,255,.55);box-shadow:inset 0 1px 0 rgba(255,255,255,.7),inset 0 -8px 16px rgba(255,255,255,.08),0 10px 30px rgba(0,0,0,.25);transition:transform .15s}
+.b-glass:active,.b-glass.down{transform:scale(.96)}
+
+/* 5 Marquee: words run through the button */
+.b-marq{position:relative;overflow:hidden;background:var(--red);color:#fff;width:100%;max-width:340px;height:60px;border:2px solid var(--ink)}
+.b-marq span{position:absolute;top:50%;left:0;white-space:nowrap;transform:translateY(-50%);font-family:var(--display);font-size:18px;text-transform:uppercase;animation:marq 7s linear infinite}
+.b-marq:active span,.b-marq.down span{animation-duration:2s}
+@keyframes marq{to{transform:translate(-50%,-50%)}}
+
+/* 6 Split arrow: label + round arrow that spins forward (from the kit) */
+.b-split{display:flex;align-items:center;justify-content:space-between;width:100%;max-width:340px;border-top:2px solid var(--ink);border-bottom:2px solid var(--ink);padding:10px 0 10px 4px;font-family:var(--display);font-size:20px;text-transform:uppercase}
+.b-split i{width:56px;height:56px;border-radius:50%;background:var(--pink);display:grid;place-items:center;transition:transform .35s cubic-bezier(.3,1.5,.5,1)}
+.b-split i svg{width:22px;height:22px}
+.b-split:hover i,.b-split:active i,.b-split.down i{transform:rotate(-45deg) scale(1.08)}
+
+/* 7 Hold to confirm: fills while you hold (for big moments) */
+.b-hold{position:relative;overflow:hidden;width:100%;max-width:340px;padding:18px 28px;border:2px solid var(--ink);background:var(--cream);font-family:var(--display);font-size:17px;text-transform:uppercase;user-select:none;-webkit-user-select:none;touch-action:none}
+.b-hold::before{content:"";position:absolute;inset:0;background:var(--green);transform-origin:left;transform:scaleX(var(--p,0));z-index:0}
+.b-hold span{position:relative}
+.b-hold.done{background:var(--green);color:#fff}
+
+/* 8 Sticker: tilted magazine price-sticker for small actions */
+.b-stick{width:118px;height:118px;border-radius:50%;background:var(--red);color:#fff;font-family:var(--display);font-size:15px;line-height:.95;text-transform:uppercase;display:grid;place-items:center;text-align:center;transform:rotate(-12deg);
+  box-shadow:0 0 0 4px var(--cream),0 0 0 6px var(--red);transition:transform .25s cubic-bezier(.3,1.6,.5,1)}
+.b-stick:hover,.b-stick:active,.b-stick.down{transform:rotate(4deg) scale(1.08)}
+
+.pick{border-top:1px solid var(--ink);padding-top:16px;display:flex;flex-direction:column;gap:10px}
+.pick h2{font-family:var(--display);font-weight:400;font-size:30px;margin:0;text-transform:uppercase;line-height:.9}
+.pick ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:8px;font-size:16px;line-height:1.45}
+@media (prefers-reduced-motion:reduce){.b-marq span{animation:none;left:16px}*{transition:none!important}}
+</style>
+
+<main class="wrap">
+  <header>
+    <h1>Button lab</h1>
+    <p>Eight button ideas for ISSUE11. Tap and hold each one. Pick the ones you love; the app keeps two or three, not all eight.</p>
+  </header>
+
+  <section class="spec">
+    <div class="meta"><span class="n">No. 01</span><span>Print press</span></div>
+    <span class="rec">My pick: main buttons</span>
+    <h2>Pushes into the page</h2>
+    <p>A <b>hard black shadow</b>, like ink offset on a printed page. On tap it sinks flat, which feels physical with a haptic tap.</p>
+    <div class="demo"><button class="b-press">Keep my issue <span>→</span></button></div>
+    <span class="use">Use for: Continue, Keep my issue, Start free trial</span>
+  </section>
+
+  <section class="spec">
+    <div class="meta"><span class="n">No. 02</span><span>3D extruded</span></div>
+    <h2>Same depth as the logo</h2>
+    <p>Pink and red layers underneath, tilted slightly back. Matches the 3D splash logo. Very bold: best for one hero moment.</p>
+    <div class="demo"><button class="b-3d">Enter</button></div>
+    <span class="use">Use for: Splash "Enter", Print my issue</span>
+  </section>
+
+  <section class="spec">
+    <div class="meta"><span class="n">No. 03</span><span>Wave fill</span></div>
+    <span class="rec">My pick: brand signature</span>
+    <h2>The logo's wave sweeps in</h2>
+    <p>Outline button. On tap, a <b>pink wave rises</b> through it, borrowed from the wavy wordmark. Nobody else has this.</p>
+    <div class="demo"><button class="b-wave">Save to my issue</button></div>
+    <span class="use">Use for: Save, Add to my world, secondary actions</span>
+  </section>
+
+  <section class="spec">
+    <div class="meta"><span class="n">No. 04</span><span>Liquid glass</span></div>
+    <span class="rec">My pick: on photos</span>
+    <h2>Frosted glass on photos</h2>
+    <p>Apple's iOS 26 "Liquid Glass" look. Blurs the photo behind it, so it stays readable on any image. Apple likes apps that use its newest design language.</p>
+    <div class="demo photo"><button class="b-glass">Play session</button><button class="b-glass" style="max-width:160px;padding:12px 18px;font-size:13px">Skip</button></div>
+    <span class="use">Use for: Player controls, Skip on onboarding photos, hero buttons</span>
+  </section>
+
+  <section class="spec">
+    <div class="meta"><span class="n">No. 05</span><span>Marquee</span></div>
+    <h2>Words run through it</h2>
+    <p>Text scrolls inside the button like a fashion-week banner. Speeds up when you press. Great energy, but only once per screen.</p>
+    <div class="demo"><button class="b-marq" aria-label="Enter your issue"><span>Enter your issue ✦ Enter your issue ✦ Enter your issue ✦ Enter your issue ✦ Enter your issue ✦ Enter your issue ✦&nbsp;</span></button></div>
+    <span class="use">Use for: "Enter issue", launch moments</span>
+  </section>
+
+  <section class="spec">
+    <div class="meta"><span class="n">No. 06</span><span>Split arrow</span></div>
+    <h2>Label + round arrow</h2>
+    <p>Straight from your identity kit's mockups. The pink circle turns forward on tap. Calm and editorial.</p>
+    <div class="demo"><button class="b-split">Next: In frame <i><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></i></button></div>
+    <span class="use">Use for: "Next page" links, list rows, Explore</span>
+  </section>
+
+  <section class="spec">
+    <div class="meta"><span class="n">No. 07</span><span>Hold to confirm</span></div>
+    <h2>Hold it to make it real</h2>
+    <p>Fills green while you <b>hold</b>, then confirms. Turns a tap into a small ritual, fitting for manifesting. Also prevents accidental taps.</p>
+    <div class="demo"><button class="b-hold" id="hold"><span id="holdTxt">Hold to log your win</span></button></div>
+    <span class="use">Use for: "Yes, it happened", Print my issue</span>
+  </section>
+
+  <section class="spec">
+    <div class="meta"><span class="n">No. 08</span><span>Sticker</span></div>
+    <h2>Magazine price sticker</h2>
+    <p>A round, tilted sticker like on a magazine cover. Wiggles on tap. Playful, for small extras.</p>
+    <div class="demo"><button class="b-stick">New<br>issue</button></div>
+    <span class="use">Use for: "New" badges, Share the cover, offers</span>
+  </section>
+
+  <section class="pick">
+    <h2>My recommendation</h2>
+    <ol>
+      <li><b>Print press (01)</b> for every main action. One consistent, confident button.</li>
+      <li><b>Wave fill (03)</b> for secondary actions. It's the brand's signature.</li>
+      <li><b>Liquid glass (04)</b> only on top of photos and in the Player.</li>
+      <li>Plus one ritual: <b>Hold to confirm (07)</b> for "Yes, it happened".</li>
+    </ol>
+  </section>
+</main>
+
+<script>
+// keyboard / pointer "down" state for demos that use :active
+document.querySelectorAll(".demo button").forEach(b=>{
+  const on=()=>b.classList.add("down"), off=()=>b.classList.remove("down");
+  b.addEventListener("pointerdown",on);["pointerup","pointerleave","pointercancel"].forEach(t=>b.addEventListener(t,off));
+});
+// hold to confirm
+(function(){
+  const b=document.getElementById("hold"),t=document.getElementById("holdTxt");let raf,start;
+  function step(ts){if(!start)start=ts;const p=Math.min((ts-start)/1200,1);b.style.setProperty("--p",p);
+    if(p<1)raf=requestAnimationFrame(step);else{b.classList.add("done");t.textContent="Logged ✓ It goes in your next issue";setTimeout(reset,2200);}}
+  function reset(){cancelAnimationFrame(raf);start=null;b.style.setProperty("--p",0);b.classList.remove("done");t.textContent="Hold to log your win";}
+  b.addEventListener("pointerdown",e=>{if(b.classList.contains("done"))return;start=null;raf=requestAnimationFrame(step);});
+  ["pointerup","pointerleave","pointercancel"].forEach(ev=>b.addEventListener(ev,()=>{if(!b.classList.contains("done")){cancelAnimationFrame(raf);start=null;b.style.setProperty("--p",0);}}));
+})();
+</script>

@@ -1,7 +1,7 @@
 <title>ISSUE11 Magazine Lab</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wdth,wght@62..125,800..900&family=Archivo+Narrow:wght@500;600;700&family=Instrument+Serif:ital@0;1&family=Caveat:wght@600&family=Mrs+Saint+Delafield&family=Permanent+Marker&family=Courier+Prime:wght@700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wdth,wght@62..125,800..900&family=Archivo+Narrow:wght@500;600;700&family=Instrument+Serif:ital@0;1&family=Playfair+Display:ital,wght@1,500&family=Caveat:wght@600&family=Mrs+Saint+Delafield&family=Permanent+Marker&family=Courier+Prime:wght@700&display=swap">
 <style>
 /* Layout: a horizontal "issue" of 3:4 magazine pages (swipe), with an edit panel below. Single brand look: black desk, cream paper pages. */
 :root{
@@ -416,6 +416,63 @@ header p{margin:0;font-weight:600;font-size:13px;text-transform:uppercase;max-wi
 .eRep .card{position:absolute;left:52.5%;top:8%;width:17%;font-family:var(--narrow);font-size:1.15cqw;line-height:1.55;color:var(--acc2);margin:0}
 .eRep .card b{color:#0d0d0d}
 
+
+/* E26 duotone gradient */
+.eDuo .half.L{background:var(--acc)}
+.eDuo .half.R{background:linear-gradient(180deg,var(--acc) 0,#f2f1ee 22%)}
+.eDuo .t{position:absolute;overflow:hidden;background:var(--acc)}
+.eDuo .t i{position:absolute;inset:0;background-size:cover;background-position:center 30%;filter:grayscale(1) contrast(1.1);mix-blend-mode:multiply}
+.eDuo .g{position:absolute;filter:grayscale(1) contrast(1.05)}
+/* E27 giant number manifesto */
+.eNum .half.L{background:#ecebe8}.eNum .half.R{background:var(--acc)}
+.eNum .num{position:absolute;left:4%;top:4%;width:42%;text-align:center;font-family:"Archivo",var(--display);font-stretch:100%;font-weight:700;font-size:44cqw;line-height:.86;letter-spacing:-.06em;color:#1b1b1b;margin:0}
+.eNum .h{position:absolute;left:53%;top:6%;width:20%;font-family:"Archivo",sans-serif;font-stretch:80%;font-weight:700;font-size:3.4cqw;line-height:.95;letter-spacing:-.03em;color:#1b1b1b;margin:0}
+.eNum .p{position:absolute;left:75%;right:4%;top:6%;font-family:var(--narrow);font-weight:500;font-size:1.1cqw;line-height:1.35;margin:0;color:#1b1b1b}
+.eNum .ft{position:absolute;right:4%;bottom:3%;font-family:var(--narrow);font-size:1cqw;margin:0}
+/* E28 souvenir word */
+.eSouv .half{background:#f4f3ef}
+.eSouv .word{position:absolute;left:3%;right:3%;top:30%;display:flex;justify-content:space-between;font-family:var(--display);font-size:22cqw;line-height:.8;letter-spacing:-.04em;text-transform:lowercase;color:#141414;margin:0}
+.eSouv .item{position:absolute;display:flex;flex-direction:column;gap:.5cqw}
+.eSouv .item .o{box-shadow:0 .5cqw 1.2cqw rgba(0,0,0,.2)}
+.eSouv .item small{font-family:var(--narrow);font-weight:600;font-size:.9cqw;text-transform:uppercase;display:flex;justify-content:space-between;gap:2cqw}
+.eSouv .tk{background:#cfe7f3;padding:.8cqw 1.2cqw;font-family:var(--display);font-size:1.6cqw;line-height:1}
+.eSouv .tg{border:.35cqw solid var(--acc);border-radius:1cqw;padding:.6cqw 1.6cqw;font-family:var(--display);font-size:1.4cqw;color:var(--acc);background:#fff}
+.eSouv .gr{background:#bff0c8;border:.3cqw dashed #2a8a3a;padding:1cqw 1.6cqw;font-family:var(--display);font-size:2.4cqw}
+.eSouv .note{position:absolute;right:5%;bottom:8%;width:26%;font-family:var(--narrow);font-weight:500;font-size:1.25cqw;line-height:1.3;margin:0}
+/* E29 quote frame */
+.eFrame .half.L{background:var(--acc2)}
+.eFrame .half.R{background:#f2f1ee}
+.eFrame .ph.a{left:58%;top:16%;width:30%;height:62%;border:2.4cqw solid var(--acc)}
+.eFrame .fw{position:absolute;font-family:"Archivo",sans-serif;font-stretch:80%;font-weight:500;font-size:4cqw;line-height:1;text-transform:uppercase;color:var(--acc);margin:0;white-space:nowrap}
+.eFrame .vt{writing-mode:vertical-rl;transform:rotate(180deg)}
+/* E30 italic serif over photo */
+.ePop .ph.a{left:0;top:0;width:100%;height:100%;background-position:center 35%}
+.ePop .t{position:absolute;left:3%;right:3%;top:2%;font-family:"Playfair Display",var(--serif);font-style:italic;font-weight:500;font-size:22cqw;line-height:.82;letter-spacing:-.05em;color:#f6f0a8;margin:0;transform:skewX(-6deg)}
+.ePop .t span{display:block}
+
+
+/* E31 gradient pages */
+.eGrad .half.L{background:linear-gradient(90deg,#f5f3ef 10%,var(--acc) 100%)}
+.eGrad .half.R{background:linear-gradient(90deg,var(--acc) 0,#f5f3ef 90%)}
+.eGrad .col{position:absolute;font-family:var(--narrow);font-weight:600;font-size:1.05cqw;line-height:1.3;color:var(--acc2);margin:0}
+.eGrad .ttl{position:absolute;left:60%;top:46%;font-family:var(--serif);font-size:2cqw;letter-spacing:.2em;text-transform:uppercase;color:#0d0d0d;margin:0}
+/* E32 tall name + photo */
+.eRei .half{background:#fbfaf7}
+.eRei .nm{position:absolute;left:4%;top:3.5%;width:22%;font-family:"Archivo",sans-serif;font-stretch:62%;font-weight:900;font-size:var(--fs,9cqw);line-height:.74;letter-spacing:-.04em;text-transform:uppercase;color:#0d0d0d;margin:0;white-space:nowrap;transform:scaleY(7.2);transform-origin:top}
+.eRei .ph.a{left:27%;top:4%;width:69%;height:86%}
+.eRei .ft{position:absolute;right:4%;bottom:3.5%;font-family:var(--serif);font-size:1.1cqw;margin:0}
+/* E33 black name spread */
+.eNina{background:#0d0d0d}
+.eNina .ph.a{left:6%;top:8%;width:40%;height:84%;filter:grayscale(1) contrast(1.15);background-position:center 30%}
+.eNina .nm{position:absolute;left:54%;right:4%;top:4%;font-family:"Archivo",sans-serif;font-stretch:75%;font-weight:900;font-size:13cqw;line-height:.82;letter-spacing:-.04em;text-transform:uppercase;color:#fff;margin:0}
+.eNina .sm{position:absolute;left:54%;right:20%;bottom:8%;font-family:var(--narrow);font-weight:500;font-size:1.1cqw;line-height:1.45;color:#cfc5b6;margin:0}
+/* E34 headline + photo (King of the jungle) */
+.eKing .half.L{background:#f6f5f2}
+.eKing .ph.a{left:50%;top:0;width:50%;height:100%}
+.eKing .h{position:absolute;left:6%;right:54%;top:24%;font-family:"Archivo",sans-serif;font-stretch:62%;font-weight:900;font-size:10cqw;line-height:.82;letter-spacing:-.03em;text-transform:uppercase;color:var(--acc2);margin:0;text-align:center}
+.eKing .h small{display:block;font-size:.42em;letter-spacing:0}
+.eKing .sf{position:absolute;left:8%;right:56%;top:70%;font-family:var(--narrow);font-weight:500;font-size:1.15cqw;line-height:1.4;text-align:center;margin:0}
+
 /* edit panel */
 .panel{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;border-top:1px solid #3a3134;padding-top:18px}
 .f{display:flex;flex-direction:column;gap:6px;min-width:0}
@@ -510,6 +567,15 @@ const ED=[
  {tag:"Feature · neon overprint",num:"P.48–49",cls:()=>"spread eOver2",html:s=>`${bg("a",9)}<p class="ov">Happy ${esc(s.name)} era</p><p class="sub">${esc(s.quote)}</p>`},
  {tag:"Feature · rotated quote",num:"P.50",cls:()=>"eRot",html:s=>`<p class="q">“${esc(s.quote)}” <br>— ${esc(s.name)}</p><p class="st" style="left:10%;top:44%">★</p><p class="st" style="left:12%;top:82%">★</p>`},
  {tag:"Feature · name repeat",num:"P.52–53",cls:()=>"spread eRep",html:s=>`<div class="half L"><div class="rep">${Array.from({length:5},()=>`<span>${esc((s.name||"").toUpperCase())} ${esc((s.name||"").toUpperCase())}</span>`).join("")}</div></div><div class="half R"></div>${bg("a",8)}<p class="card"><b>Name:</b> ${esc(s.name)}<br><b>Issue:</b> 01<br><b>Season:</b> ${season()}<br><b>Becoming:</b> ${esc(s.head)}<br><b>Proof:</b> ${esc(s.proof)}<br><b>Motto:</b> See it. Write it. Become it.</p>${rh(s,"52","53")}`},
+ {tag:"Feature · duotone gradient",num:"P.54–55",cls:()=>"spread eDuo",html:s=>`<div class="half L"></div><div class="half R"></div><div class="t" style="left:6%;top:6%;width:38%;height:42%"><i style="background-image:url(${IMG(7)})"></i></div><div class="t" style="left:6%;top:51%;width:38%;height:44%"><i style="background-image:url(${IMG(0)})"></i></div><div class="ph g" style="left:55%;top:24%;width:40%;height:56%;background-image:url(${IMG(3)})"></div>${rh(s,"54","55")}`},
+ {tag:"Feature · giant number",num:"P.56–57",cls:()=>"spread eNum",html:s=>`<div class="half L"></div><div class="half R"></div><p class="num">3</p><p class="h">she is real, bold, and becoming.</p><p class="p">${esc(s.name)} is real enough to write it down. (hi.) Brave enough to read it back every morning. Bold enough to believe it before it happens. ${esc(s.quote)} In short: she goes big or she goes to the next issue.</p><p class="ft">everyone's gotta have a code · 57</p>`},
+ {tag:"Feature · souvenir word",num:"P.58–59",cls:()=>"spread eSouv",html:s=>{const w=(s.name||"you").toLowerCase();const it=[["Wealth","12",`<div class="o" style="width:11cqw;height:8cqw;background:url(${IMG(2)}) center/cover"></div>`,8,8],["Love","03",`<div class="o tk">♡ 380</div>`,30,22],["Travel","18",`<div class="o tg">TICKET</div>`,54,7],["Style","06",`<div class="o" style="width:8cqw;height:11cqw;background:url(${IMG(5)}) center/cover"></div>`,72,6],["Career","41",`<div class="o gr">56</div>`,80,46],["Home","22",`<div class="o" style="width:9cqw;height:9cqw;background:url(${IMG(0)}) center/cover"></div>`,10,64],["Proof","16",`<div class="o" style="width:8cqw;height:10cqw;background:url(${IMG(1)}) center/cover"></div>`,57,64]];return `<div class="half L"></div><div class="half R"></div><p class="word">${[...w].map(c=>`<span>${esc(c)}</span>`).join("")}</p>${it.map(([l,n,o,x,y])=>`<div class="item" style="left:${x}%;top:${y}%">${o}<small><span>${l}</span><span>${n}</span></small></div>`).join("")}<p class="note">${esc(s.name)} (noun): someone who wrote the life down first. ${esc(s.quote)}</p>`}},
+ {tag:"Feature · quote frame",num:"P.60–61",cls:()=>"spread eFrame",html:s=>`<div class="half L"></div><div class="half R"></div><div class="ph" style="left:3%;top:4%;width:22%;height:44%;background-image:url(${IMG(5)});mix-blend-mode:multiply;filter:grayscale(1) contrast(1.2)"></div><div class="ph" style="left:26%;top:4%;width:22%;height:44%;background-image:url(${IMG(2)});mix-blend-mode:multiply;filter:grayscale(1) contrast(1.2)"></div><div class="ph" style="left:3%;top:52%;width:22%;height:44%;background-image:url(${IMG(9)});mix-blend-mode:multiply;filter:grayscale(1) contrast(1.2)"></div><div class="ph" style="left:26%;top:52%;width:22%;height:44%;background-image:url(${IMG(1)});mix-blend-mode:multiply;filter:grayscale(1) contrast(1.2)"></div>${bg("a",8)}<p class="fw" style="left:56%;top:6%">“I think it's important</p><p class="fw vt" style="left:53%;top:22%">to write</p><p class="fw vt" style="left:90%;top:20%">it all down</p><p class="fw" style="left:56%;top:83%">every single week.”</p><p class="fw" style="left:4%;bottom:6%;color:#fff;font-size:2cqw">— ${esc(s.name)}, ${season()}</p>`},
+ {tag:"Feature · italic over photo",num:"P.62–63",cls:()=>"spread ePop",html:s=>`${bg("a",9)}<p class="t"><span>Future</span><span style="padding-left:28%">${esc(s.name)}</span></p>`},
+ {tag:"Feature · gradient pages",num:"P.64–65",cls:()=>"spread eGrad",html:s=>`<div class="half L"></div><div class="half R"></div><p class="col" style="left:4%;top:5%;width:22%">© ${new Date().getFullYear()} ${esc(s.name)}. All dreams reserved. First edition. Written, seen and becoming.</p><p class="col" style="left:4%;bottom:6%;width:18%">Edited by<br>${esc(s.name)}<br>with<br>her future self<br>Designed by<br>ISSUE11<br>Printed in<br>${season()}</p><p class="ttl">Becoming</p>`},
+ {tag:"Feature · tall name + photo",num:"P.66–67",cls:()=>"spread eRei",html:s=>`<div class="half L"></div><div class="half R"></div><p class="nm" style="--fs:${Math.min(10,29/Math.max(2,(s.name||"").length))}cqw">${esc(s.name)}</p>${bg("a",0)}<p class="ft">The ${esc(s.name)} issue · 67</p>`},
+ {tag:"Feature · black name",num:"P.68–69",cls:()=>"spread eNina inv",html:s=>`${bg("a",7)}<p class="nm">${esc(s.name)}</p><p class="sm">${esc(s.head)}. ${esc(s.quote)}</p>${rh(s,"68","69")}`},
+ {tag:"Feature · headline + photo",num:"P.70–71",cls:()=>"spread eKing",html:s=>`<div class="half L"></div>${bg("a",4)}<p class="h">Queen<small>of her own life</small></p><p class="sf">${esc(s.name)} focuses on the life she is building, through dreams written down and wins logged. Text by ${esc(s.name)}.</p>${rh(s,"70","71")}`},
 ];
 const PAGES=[
  {tag:"Cover",num:"",cls:s=>"c"+s.cover,html:s=>COVERS[s.cover].html(s)},

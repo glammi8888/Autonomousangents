@@ -88,3 +88,8 @@ Not decided here: pricing (💛 Revenue + Megan).
   - 4.2 Minimum functionality: a plain web wrapper gets rejected. → The iOS app must be clearly native: push, haptics, offline reading, photo picker, mic dictation, share sheet, widget later. The shared editor is one screen inside a native app, not the whole app.
   - Re-verify the guidelines at build start (Nov) and before submission (Jan).
 - Oct 1: placeholder images added to Figma through the code channel (small, soft 300px versions): p0–p6 are in, on pages 02 and 03 (Night + Light). p7–p9 and the cover-capsule thumbnails are not done yet. Paused because Megan is redesigning the visual language in Claude Design, Megan, Oct 1: "our flow is perfect" — the flow, screens and order stay as they are; only the visual language changes, applied across all screens and the Figma file.
+
+## Middle tab = "11", an AI agent (Megan, Oct 2, 2026)
+- Claude Design V4 Home: the middle tab is the "11" logo (label "LUCKY STAR") and replaces "+ new entry". Megan: "the 11 is an ai agent actually ! Instead of the + sign".
+- ⚠️ New feature, not in the spec yet. It touches user data (journal + goals go to an AI service), so it needs its own spec plus Megan's approval before building. Same consent screen and data rules as design/magazine-ai-spec.md.
+- Open: what the agent does in V1, and where "new entry" lives now (proposal: you tell 11 and it logs the entry/win for you).

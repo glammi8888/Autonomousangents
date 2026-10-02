@@ -20,7 +20,7 @@ Role: Lucky Star is a **manifestation + magazine publisher agent**. It replaces 
 ## The commands by screen
 | Where she taps 11 | Header | Commands |
 |---|---|---|
-| **Home** | "Where are we going next?" | Create for me · Help me figure this out · Give me my next move · Surprise me |
+| **Home** | "Where are we going next?" | Final copy (Megan, Oct 2): **CREATE FOR ME** — Build something from my goals · **HELP ME FIGURE THIS OUT** — Talk through a goal, decision or block · **GIVE ME MY NEXT MOVE** — Give me one action I can take today · **SURPRISE ME** — Create something based on what you know about me |
 | **Magazine page** | "This page" | Edit this page · Make this more "me" · Turn this into actions · Create another page like this |
 | **Curate** | "Your imagery" | Curate imagery for this goal · Help define my aesthetic · Build this page for me |
 | **Script** | "Your script" | Rewrite this · Make it more specific · Turn it into audio · What should I actually DO? |

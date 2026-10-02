@@ -35,3 +35,14 @@ The outcome isn't "I made a beautiful magazine." It's:
 3. **The issue fills with evidence over time.** Proof (wins, "ADD PROOF") goes into her magazine, so later issues show the future becoming the present.
 4. **Measure the transformation, not the output.** Product success = actions done and proofs added per user, not issues made or minutes in the app.
 5. **Trust:** no promised results ("you will get rich"). We help her imagine and act; we never guarantee outcomes, in the app or in marketing.
+
+## The one test (Megan, Oct 2, 2026, her words)
+> "DESIRE → IMAGINE → EMBODY → ACT → BECOME. That's not just messaging. It can become the logic behind the entire product."
+
+> "Lucky Star has a very clear job: figure out where the user is in that loop and help her move to the next step."
+
+> **"Does this help her move from wanting the future to becoming it? If not, you probably don't need it."**
+
+> "The magazine stays the hero. Lucky Star just makes it intelligent."
+
+Every feature and every Lucky Star command must pass this test before it is specced or built.

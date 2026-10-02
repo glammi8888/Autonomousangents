@@ -44,6 +44,7 @@ button:focus-visible,input:focus-visible{outline:2px solid var(--pink);outline-o
 .kicker{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;display:flex;gap:8px;align-items:center}
 .kicker span{color:var(--pink)}
 .q{font-family:var(--display);font-size:15px;letter-spacing:-.01em;margin:2px 0 6px;color:var(--grey)}
+.intro{font-family:var(--narrow);font-size:15px;line-height:1.35;margin:-2px 0 8px;max-width:30ch}
 .cmds{display:flex;flex-direction:column}
 .cmd{display:grid;grid-template-columns:22px 1fr;column-gap:8px;text-align:left;border:0;border-top:1px solid var(--rule);background:transparent;padding:10px 0;cursor:pointer;color:var(--ink)}
 .cmd:last-child{border-bottom:1px solid var(--rule)}
@@ -124,7 +125,8 @@ const C={
 let cur='home';
 const phone=document.getElementById('phone'),body=document.getElementById('body'),screen=document.getElementById('screen');
 function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
-function menu(){const c=C[cur];body.innerHTML=`<p class="q">${esc(c.q)}</p><div class="cmds">${c.cmds.map(([b,s])=>`<button class="cmd" data-n="${esc(b)}"><span class="st">✦</span><b>${esc(b)}</b><small>${esc(s)}</small></button>`).join('')}</div>`}
+let first=true;
+function menu(){const c=C[cur];body.innerHTML=`<p class="q">${esc(c.q)}</p>${first?'<p class="intro">I help turn the future you want into something you can see, hear and do.</p>':''}<div class="cmds">${c.cmds.map(([b,s])=>`<button class="cmd" data-n="${esc(b)}"><span class="st">✦</span><b>${esc(b)}</b><small>${esc(s)}</small></button>`).join('')}</div>`}
 function result(name){const c=C[cur];const r=c.res[name]||{l:name+' · preview',t:'Lucky Star made this for you.',li:['Built from what is on this screen','Your layouts, your words'],k:'Keep it'};
  body.innerHTML=`<div class="result"><div class="rcard"><span class="lbl">${esc(r.l)}</span><p>${esc(r.t)}</p><ul>${r.li.map(x=>`<li>${esc(x)}</li>`).join('')}</ul></div><div class="rbtns"><button class="again" id="back">Try again</button><button class="keep" id="keep">${esc(r.k)}</button></div></div>`;
  document.getElementById('back').onclick=menu;
@@ -134,7 +136,7 @@ body.onclick=e=>{const b=e.target.closest('.cmd');if(b)result(b.dataset.n)};
 function setCtx(c){cur=c;screen.innerHTML=C[c].screen;menu();document.querySelectorAll('#ctx button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.c===c))}
 document.getElementById('ctx').onclick=e=>{const b=e.target.closest('button');if(b){setCtx(b.dataset.c);phone.classList.remove('open');setTimeout(()=>phone.classList.add('open'),250)}};
 document.getElementById('eleven').onclick=()=>{menu();phone.classList.toggle('open')};
-document.getElementById('scrim').onclick=()=>phone.classList.remove('open');
+document.getElementById('scrim').onclick=()=>{phone.classList.remove('open');first=false};
 document.getElementById('form').onsubmit=e=>{e.preventDefault();const v=document.getElementById('ask').value.trim();if(v){result(v);document.getElementById('ask').value=''}};
 setCtx('home');setTimeout(()=>phone.classList.add('open'),600);
 </script>

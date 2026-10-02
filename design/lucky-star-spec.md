@@ -24,6 +24,7 @@ Role: Lucky Star is a **manifestation + magazine publisher agent**. It replaces 
 | **Magazine page** | "This page" | Edit this page · Make this more "me" · Turn this into actions · Create another page like this |
 | **Curate** | "Your imagery" | Curate imagery for this goal · Help define my aesthetic · Build this page for me |
 | **Script** | "Your script" | Rewrite this · Make it more specific · Turn it into audio · What should I actually DO? |
+| **First-ever open (any screen)** | Adds one onboarding line under the header (Megan, Oct 2): "I help turn the future you want into something you can see, hear and do." Shown once, then only the header. | |
 | Other screens (Explore, Issue, You, Session) | To define | Default to the Home set until defined |
 
 What each Home command creates:

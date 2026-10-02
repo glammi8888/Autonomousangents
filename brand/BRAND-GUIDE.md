@@ -1,6 +1,14 @@
 # ISSUE11 Brand Guide v1 (approved by Megan, Sep 30, 2026)
 Source of truth: Megan's Canva identity kit: https://canva.link/pk44pxqmgmmqnol (also in Notion: ISSUE11 / Brand).
 
+## 🎨 Megan's taste rules: read before ANY visual work (app, social, Canva, pins)
+Promoted Oct 2, 2026 from repeated corrections in .pipeline/lessons.md.
+1. Design from the **full Canva identity kit pages**, never from a text summary.
+2. **Flat, graphic, printed** (zine patterns, stickers, emoji). No glossy 3D renders. Patterns semi-transparent, print-like.
+3. Headlines Archivo Black set **tight** (about -0.06em, line-height about 0.82). Labels Archivo Narrow, all caps.
+4. **Agents never design marketing visuals from scratch.** Megan makes or approves master templates; agents only fill them (copy, photos, crop). 3-variation test before any batch.
+5. Lock the flow or structure first, then do the look as a separate pass.
+
 - **About:** A manifestation journal for the life you're becoming. Dreams, intentions and future-self vision become something you can see, write, revisit and act on: a personal magazine created around your future life.
 - **Tagline:** See it. Write it. Become it.
 - **Values:** Becoming (your future self is built, not found) · Intention (dream boldly, move deliberately) · Self-expression (your vision, your story, your ISSUE).

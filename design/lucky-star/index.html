@@ -1,0 +1,162 @@
+<title>Lucky Star Sheet</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:wght@500;700&family=DM+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one phone, V4 Home dimmed behind, Lucky Star sheet slides up from the 11 tab. Single cream look, like Claude Design V4. */
+:root{
+  --paper:#f6f1e7; --ink:#0d0d0d; --pink:#ec4fa3; --blush:#f7c9df; --grey:#8a847b; --glass:rgba(255,255,255,.62);
+  --display:"Archivo Black","Arial Black",Impact,sans-serif;
+  --narrow:"Archivo Narrow","Arial Narrow",sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+html,body{background:#e9e3d8;color:var(--ink)}
+body{font-family:var(--narrow);padding-inline:16px;padding-block:24px}
+.wrap{max-width:980px;margin:0 auto;display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start;justify-content:center}
+.notes{flex:1 1 280px;min-width:0;max-width:380px;display:flex;flex-direction:column;gap:14px}
+.notes h1{font-family:var(--display);font-size:34px;line-height:.95;letter-spacing:-.03em;margin:0;text-wrap:balance}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--grey)}
+.notes p{margin:0;font-size:16px;line-height:1.45}
+.notes ol{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;font-size:15px;line-height:1.4}
+.btnrow{display:flex;flex-wrap:wrap;gap:8px}
+.ghost{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;border:1.5px solid var(--ink);background:transparent;color:var(--ink);border-radius:99px;padding:8px 12px;cursor:pointer}
+.ghost:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--pink);outline-offset:2px}
+
+/* phone */
+.phone{position:relative;width:min(375px,100%);aspect-ratio:375/780;max-width:100%;border-radius:44px;background:var(--paper);overflow:hidden;box-shadow:0 0 0 10px #111,0 30px 60px rgba(0,0,0,.25)}
+.home{position:absolute;inset:0;padding:22px 16px 0;display:flex;flex-direction:column;gap:12px}
+.mast{font-family:var(--display);font-size:64px;line-height:.8;letter-spacing:-.04em;text-align:center;transform:scaleY(1.35);transform-origin:top;margin-bottom:20px}
+.rule{display:flex;justify-content:space-between;border-block:1px solid var(--ink);padding:5px 0;font-family:var(--mono);font-size:10px}
+.hero{flex:0 0 auto;height:230px;border-radius:4px;background:linear-gradient(160deg,#f3a6c8,#b3245f 60%,#3a0a1d);position:relative;color:#fff}
+.hero b{position:absolute;left:14px;bottom:18px;font-family:var(--display);font-size:38px;line-height:.9;letter-spacing:-.03em}
+.tile-row{display:flex;gap:8px}.tile-row div{flex:1;height:110px;background:var(--ink);border-radius:4px}
+.tabbar{position:absolute;left:12px;right:12px;bottom:14px;height:62px;border-radius:99px;background:var(--glass);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 6px 24px rgba(0,0,0,.12);display:flex;align-items:center;justify-content:space-around;font-family:var(--mono);font-size:10px;letter-spacing:.06em;z-index:3}
+.eleven{position:relative;top:-14px;width:62px;height:62px;border-radius:18px;background:var(--paper);border:0;box-shadow:0 6px 18px rgba(0,0,0,.18);font-family:var(--display);font-size:34px;color:var(--pink);letter-spacing:-.08em;cursor:pointer;display:grid;place-items:center;transform:rotate(-6deg);transition:transform .25s}
+.eleven .lbl{position:absolute;bottom:-12px;left:50%;transform:translateX(-50%) rotate(6deg);background:var(--ink);color:#fff;font-family:var(--mono);font-size:8px;letter-spacing:.08em;border-radius:99px;padding:3px 7px;white-space:nowrap}
+.open .eleven{transform:rotate(0) scale(.92)}
+
+/* scrim + sheet */
+.scrim{position:absolute;inset:0;background:rgba(13,13,13,.45);opacity:0;pointer-events:none;transition:opacity .3s;z-index:4}
+.open .scrim{opacity:1;pointer-events:auto}
+.sheet{position:absolute;left:0;right:0;bottom:0;height:78%;background:var(--paper);border-radius:28px 28px 0 0;z-index:5;transform:translateY(102%);transition:transform .38s cubic-bezier(.2,.8,.2,1);display:flex;flex-direction:column;padding:10px 18px 18px;gap:14px}
+.open .sheet{transform:none}
+.grab{width:40px;height:5px;border-radius:9px;background:#d3ccbf;margin:0 auto}
+.sh-head{display:flex;align-items:center;gap:10px}
+.star{width:40px;height:40px;border-radius:12px;background:var(--ink);color:var(--pink);font-family:var(--display);font-size:22px;display:grid;place-items:center;letter-spacing:-.08em;flex:none}
+.sh-head h2{margin:0;font-family:var(--display);font-size:22px;letter-spacing:-.02em;line-height:1}
+.sh-head small{display:block;font-family:var(--mono);font-size:10px;color:var(--grey);letter-spacing:.04em;margin-top:3px}
+.x{margin-left:auto;width:32px;height:32px;border-radius:99px;border:0;background:#e8e1d4;font-size:16px;cursor:pointer}
+.greet{font-family:var(--display);font-size:30px;line-height:.95;letter-spacing:-.03em;margin:4px 0 0;text-wrap:balance}
+.greet em{font-style:normal;color:var(--pink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--ink);background:transparent;border-radius:99px;padding:9px 13px;font-family:var(--narrow);font-weight:700;font-size:13px;text-transform:uppercase;letter-spacing:.04em;cursor:pointer;color:var(--ink)}
+.chip:hover{background:var(--ink);color:var(--paper)}
+.thread{flex:1;min-height:0;overflow:auto;display:flex;flex-direction:column;gap:10px}
+.me{align-self:flex-end;max-width:80%;background:var(--ink);color:var(--paper);border-radius:18px 18px 4px 18px;padding:10px 13px;font-size:15px;line-height:1.35}
+.card{background:#fff;border-radius:16px;padding:14px;box-shadow:0 2px 10px rgba(0,0,0,.06);display:flex;flex-direction:column;gap:10px;border-top:4px solid var(--pink)}
+.card .k{font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--grey)}
+.card .v{font-family:var(--display);font-size:20px;line-height:1.05;letter-spacing:-.02em}
+.card .row{display:flex;gap:8px}
+.save{flex:1;border:0;border-radius:99px;padding:11px;background:var(--pink);color:#fff;font-family:var(--display);font-size:14px;letter-spacing:.02em;cursor:pointer}
+.edit{border:1.5px solid var(--ink);background:transparent;border-radius:99px;padding:11px 16px;font-family:var(--display);font-size:14px;cursor:pointer;color:var(--ink)}
+.done{align-self:flex-start;background:var(--blush);border-radius:18px 18px 18px 4px;padding:10px 13px;font-size:15px;display:flex;gap:10px;align-items:center}
+.done button{border:0;background:none;font-family:var(--mono);font-size:11px;text-decoration:underline;cursor:pointer;color:var(--ink)}
+.bar{display:flex;gap:8px;align-items:center;background:#fff;border-radius:99px;padding:6px 6px 6px 16px;box-shadow:0 2px 10px rgba(0,0,0,.08)}
+.bar input{flex:1;min-width:0;border:0;outline:0;font-family:var(--narrow);font-size:16px;background:transparent;color:var(--ink)}
+.mic,.send{width:40px;height:40px;border-radius:99px;border:0;cursor:pointer;display:grid;place-items:center;flex:none}
+.mic{background:#efe8dc}.send{background:var(--ink);color:#fff;font-size:16px}
+.ai{font-family:var(--mono);font-size:9.5px;color:var(--grey);text-align:center;letter-spacing:.03em}
+@media (prefers-reduced-motion:reduce){.sheet,.scrim,.eleven{transition:none}}
+</style>
+
+<div class="wrap">
+  <div class="phone" id="phone">
+    <div class="home" aria-hidden="true">
+      <div class="mast">ISSUE11</div>
+      <div class="rule"><span>VOL. 01</span><span>FRI · OCT 02</span></div>
+      <div class="hero"><b>THE<br>FUTURE<br>ISSUE</b></div>
+      <div class="tile-row"><div></div><div style="background:var(--blush)"></div></div>
+    </div>
+    <nav class="tabbar">
+      <span>HOME</span><span>EXPLORE</span>
+      <button class="eleven" id="eleven" aria-label="Open Lucky Star">11<span class="lbl">LUCKY STAR</span></button>
+      <span>ISSUE</span><span>YOU</span>
+    </nav>
+    <div class="scrim" id="scrim"></div>
+    <section class="sheet" aria-label="Lucky Star">
+      <div class="grab"></div>
+      <div class="sh-head">
+        <div class="star">11</div>
+        <div><h2>Lucky Star</h2><small>Your helper inside ISSUE11</small></div>
+        <button class="x" id="close" aria-label="Close">✕</button>
+      </div>
+      <p class="greet" id="greet">What are we making happen, <em>Megan</em>?</p>
+      <div class="chips" id="chips">
+        <button class="chip" data-say="Log a win: I signed my first client">Log a win</button>
+        <button class="chip" data-say="Today's entry: woke up calm, wrote my 3 goals, said no to a call that drains me">Today's entry</button>
+        <button class="chip" data-say="I need a 10-min session for confidence">A session</button>
+        <button class="chip" data-say="Make my issue">Make my issue</button>
+      </div>
+      <div class="thread" id="thread"></div>
+      <form class="bar" id="form">
+        <input id="ask" placeholder="Tell Lucky Star…" autocomplete="off">
+        <button type="button" class="mic" aria-label="Talk">🎙</button>
+        <button class="send" aria-label="Send">↑</button>
+      </form>
+      <div class="ai">Lucky Star is AI and can make mistakes. Nothing is saved until you tap Save.</div>
+    </section>
+  </div>
+
+  <div class="notes">
+    <span class="eyebrow">Design Room · mockup · Oct 2</span>
+    <h1>What happens when she taps the 11</h1>
+    <p>A sheet slides up over Home. She types, talks or taps a shortcut. Lucky Star shows what it will do, and she taps Save.</p>
+    <ol>
+      <li>Tap <b>11</b> in the tab bar.</li>
+      <li>Pick a shortcut, or type something like "log a win: …".</li>
+      <li>Lucky Star shows a preview card: Edit or Save.</li>
+      <li>Saved, with an Undo.</li>
+    </ol>
+    <div class="btnrow">
+      <button class="ghost" id="demoWin">Play: log a win</button>
+      <button class="ghost" id="demoSession">Play: a session</button>
+      <button class="ghost" id="reset">Reset</button>
+    </div>
+    <p class="eyebrow">Look follows Claude Design V4. Placeholder art, not final.</p>
+  </div>
+</div>
+
+<script>
+const phone=document.getElementById('phone'),thread=document.getElementById('thread'),chips=document.getElementById('chips'),greet=document.getElementById('greet'),ask=document.getElementById('ask');
+const open=v=>phone.classList.toggle('open',v);
+document.getElementById('eleven').onclick=()=>open(!phone.classList.contains('open'));
+document.getElementById('scrim').onclick=()=>open(false);
+document.getElementById('close').onclick=()=>open(false);
+function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function plan(t){
+  const l=t.toLowerCase();
+  if(l.includes('win'))return{k:'New win · goes to Past Proof',v:t.replace(/^.*?win:?\s*/i,'')||t,btn:'Save win',ok:'Win saved to your journal ✦'};
+  if(l.includes('entry'))return{k:'Journal · today, in your words',v:t.replace(/^.*?entry:?\s*/i,''),btn:'Save entry',ok:'Entry saved ✦'};
+  if(l.includes('session'))return{k:'Session · 10 min · confidence',v:'Become Her',btn:'Play now',ok:'Starting "Become Her"…'};
+  if(l.includes('issue'))return{k:'Your issue · 11 pages · your layouts',v:'The Future Issue',btn:'Make it',ok:'Making your issue…'};
+  return{k:'I can help with',v:'Log a win · Today\'s entry · A session · Make my issue',btn:null};
+}
+function say(t){
+  if(!t.trim())return;
+  greet.hidden=true;chips.hidden=true;
+  thread.insertAdjacentHTML('beforeend',`<div class="me">${esc(t)}</div>`);
+  const p=plan(t);
+  const c=document.createElement('div');c.className='card';
+  c.innerHTML=`<span class="k">${p.k}</span><span class="v">${esc(p.v)}</span>`+(p.btn?`<div class="row"><button class="edit">Edit</button><button class="save">${p.btn}</button></div>`:'');
+  setTimeout(()=>{thread.appendChild(c);thread.scrollTop=1e5;
+    const s=c.querySelector('.save');if(s)s.onclick=()=>{c.remove();thread.insertAdjacentHTML('beforeend',`<div class="done">${p.ok}<button>Undo</button></div>`);thread.scrollTop=1e5;};
+    const e=c.querySelector('.edit');if(e)e.onclick=()=>{ask.value=t;ask.focus();};
+  },450);
+}
+chips.onclick=e=>{const b=e.target.closest('.chip');if(b)say(b.dataset.say)};
+document.getElementById('form').onsubmit=e=>{e.preventDefault();say(ask.value);ask.value=''};
+function reset(){thread.innerHTML='';greet.hidden=false;chips.hidden=false}
+document.getElementById('reset').onclick=()=>{reset();open(false)};
+document.getElementById('demoWin').onclick=()=>{reset();open(true);setTimeout(()=>say('Log a win: I signed my first client'),500)};
+document.getElementById('demoSession').onclick=()=>{reset();open(true);setTimeout(()=>say('I need a 10-min session for confidence'),500)};
+setTimeout(()=>open(true),600);
+</script>

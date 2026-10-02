@@ -94,3 +94,4 @@ Not decided here: pricing (💛 Revenue + Megan).
 - ⚠️ New feature, not in the spec yet. It touches user data (journal + goals go to an AI service), so it needs its own spec plus Megan's approval before building. Same consent screen and data rules as design/magazine-ai-spec.md.
 - Open: what the agent does in V1, and where "new entry" lives now (proposal: you tell 11 and it logs the entry/win for you).
 - ✅ Megan, Oct 2: the agent is named **Lucky Star**; V1 = do-it-for-me helper, not an open chat. Spec: design/lucky-star-spec.md (waiting for approval).
+- Mockup of the tap: https://claude.ai/artifact/BDsLLQBCxT11UdgXDqr1s3 (source: design/lucky-star/index.html)

@@ -2,6 +2,7 @@
 Source of truth: Megan's Canva identity kit: https://canva.link/pk44pxqmgmmqnol (also in Notion: ISSUE11 / Brand).
 
 ## 🧭 Positioning (Megan, Oct 2, 2026): read before ANY copy, campaign, listing or pitch
+**One-line positioning (Megan, word for word):** "ISSUE11 is a manifestation app rooted in behavioral change with the creation of your own Magazine"
 > **"The AI is infrastructure. The transformation is the product."**
 - ISSUE11 helps someone turn the life they want to manifest into a life they actually move toward. Loop: **DESIRE → IMAGINE → EMBODY → ACT → BECOME**.
 - Manifestation is the emotional framework; **behavioral change is the differentiator**; the personal magazine is the **container**.

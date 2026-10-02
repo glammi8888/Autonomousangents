@@ -18,3 +18,6 @@ Both BRAND and PR independently picked the "selfish mom" angle as their favorite
 
 ## Guardrails
 Nothing fake or misleading · no real people's faces/names without permission · no mocking therapy, religion or mental health · no "it works" promises · keep the shock in ads and stunts, never in the app or App Store listing (protects Apple featuring) · user data only with opt-in consent.
+
+## Round 4 (OPS)
+Manifestation on Trial (live mock trial, public jury) · Unfollow Her (unfollow who you envy) · The Jealousy Issue · Boyfriend Reads Her Journal (consensual reactions) · 11:11 World Record attempt · Skywriter "WRITE IT" on 11/11 · Psychic shop takeover ("Stop asking. Start writing.") · Earn the Cover (free glam shoot if you say your dream on camera) · "No prince. No sugar daddy. Just a pen." · Your Mom's Lost Dreams (covers for moms)

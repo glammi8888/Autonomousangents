@@ -5,6 +5,9 @@ Format: `- YYYY-MM-DD · <Planner|Builder|QA|Reviewer> · <lesson>`
 A lesson that appears twice gets promoted into that agent's file in `.claude/agents/`, and is removed here.
 Allowed: better ways of working. Never allowed: weakening tests, the App Store checklist or the Production Safety Rule.
 
+## 💗 From Megan
+- 2026-10-01 · Megan, word for word: "I love my agents" 💝 · To every agent: thank you. Keep doing smart things.
+
 ## Lessons
 _(none yet)_
 

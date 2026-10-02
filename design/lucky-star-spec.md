@@ -1,57 +1,66 @@
-# Spec: Lucky Star, the "11" AI helper (draft, for Megan's approval)
-Design Room · Oct 2, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL**. This touches **user data** (journal, goals and wins go to an AI service), so per CLAUDE.md nothing gets built before Megan approves this spec.
+# Spec: Lucky Star ★, the contextual "11" editor (draft v2, for Megan's approval)
+Design Room · Oct 2, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL**. This touches **user data** (journal, goals, pages and images go to an AI service), so per CLAUDE.md nothing gets built before Megan approves this spec.
 
-## Megan's decisions (Oct 2, 2026)
-- The middle tab is the "11" logo and replaces "+ new entry". Megan: "the 11 is an ai agent actually ! Instead of the + sign".
-- Its name is **Lucky Star**.
-- For V1 it's a **do-it-for-me helper, not an open chat**. Megan: "Yes i agree".
+## Megan's direction (Oct 2, 2026, her words)
+> "When you tap the little 11, I would NOT immediately open a full-screen chatbot. Instead, Lucky Star pops up as a small bottom sheet over whatever you're currently doing. It knows the context of the screen."
+>
+> "Tap 11 → contextual Lucky Star sheet → choose an action OR talk → Lucky Star actually modifies/creates something in ISSUE11. That last part is critical. The chat isn't the feature. The actions it can take are the feature."
+>
+> "I wouldn't make it look like ChatGPT. Keep the bottom sheet extremely editorial—big typography, maybe 3–4 giant commands, the crooked 11 sticker sitting on its edge. It should feel like you're opening a secret editorial tool inside your magazine."
 
-## What Lucky Star does in V1 (a fixed list)
-She taps 11, then types or talks (native iOS dictation). Lucky Star turns her request into **one action from this list**:
+Role: Lucky Star is a **manifestation + magazine publisher agent**. It replaces "+ new entry".
 
-| She says | Lucky Star does |
-|---|---|
-| "Log a win: I signed my first client" | Saves a win (and it can show up in Past Proof) |
-| "Write today's entry: …" / voice note | Turns it into a journal entry in her words, lightly tidied |
-| "Save this quote: …" | Saves a quote for her issue |
-| "I need a 10-min session for confidence" | Suggests 1–3 sessions from the library and starts the one she picks |
-| "Make my issue" / "Remake page 3" | Runs the AI magazine (design/magazine-ai-spec.md) |
-| "Add this to my world" | Opens the photo picker and adds the photo to My World |
-| "What did I write about money last month?" | Finds and shows her own entries (search, no new advice) |
+## The interaction
+1. She taps the crooked 11 sticker (tab bar). It's available on every screen.
+2. A **small bottom sheet** opens over the current screen (no full-screen chat, and the screen stays visible behind it).
+3. The sheet shows **3–4 giant commands** for *this* screen, plus "Ask Lucky Star anything…" underneath.
+4. She picks a command or talks/types.
+5. Lucky Star **creates or changes something real** (a page, a script, a ritual, a to-do), shows it, and she keeps it or undoes it.
 
-Anything else gets a friendly reply plus the list of what it can do. It never pretends.
+## The commands by screen
+| Where she taps 11 | Header | Commands |
+|---|---|---|
+| **Home** | "Where are we going next?" | Create for me · Help me figure this out · Give me my next move · Surprise me |
+| **Magazine page** | "This page" | Edit this page · Make this more "me" · Turn this into actions · Create another page like this |
+| **Curate** | "Your imagery" | Curate imagery for this goal · Help define my aesthetic · Build this page for me |
+| **Script** | "Your script" | Rewrite this · Make it more specific · Turn it into audio · What should I actually DO? |
+| Other screens (Explore, Issue, You, Session) | To define | Default to the Home set until defined |
+
+What each Home command creates:
+- **Create for me:** turns her goals into a page, a script, an audio or a ritual (she picks which one).
+- **Help me figure this out:** a short guided talk about what she wants and what's blocking her. It must **end in something saved** (a script, a goal, a next move), not an endless chat.
+- **Give me my next move:** turns a manifestation into one small thing she can do today (saved as a to-do or ritual).
+- **Surprise me:** Lucky Star picks one of the above, based on her goals.
 
 ## How it works (safe by design)
-1. **Understand:** the AI only returns an action name from the list above plus its details (the text, the date, the session topic). It can't do anything outside the list.
-2. **Preview:** the app shows what will happen ("Save this win?") with Edit and Save buttons. Nothing is saved without her tap.
-3. **Do:** the app does the action itself (the AI never touches the database), then shows an Undo.
-4. **Her words stay hers:** entries and quotes keep her meaning. The AI may fix typos and punctuation; it doesn't add feelings or facts.
+- **Context:** the app sends Lucky Star the screen type plus what's on it (this page's text, this script, this goal). Nothing else.
+- **Actions, not chat:** every answer ends in one action from a fixed list (create page, edit page text, swap layout, create script, rewrite script, create audio, create ritual/to-do, add images, save win). The app does the action; the AI never touches the database directly.
+- **Preview + Undo:** changes show before they're kept (Keep / Try again), with Undo after.
+- **Magazine pages:** only Megan's approved layouts (design/magazine-ai-spec.md). "Make this more me" changes text, photos and colors within the layout, never the design.
+- **Her words stay hers:** rewrites keep her meaning and don't invent facts about her life.
 
-## Look (from Claude Design V4)
-- The 11 tab opens a sheet with "Lucky Star" at the top, a text field, a mic button and 3–4 suggestion chips (Log a win · Today's entry · A session · Make my issue).
-- Uses the V4 visual language (glass capsules, Archivo, pink accents).
+## ⚠️ Open questions before this can be approved
+1. **"Help me figure this out"** is the closest thing to coaching. Rules: it doesn't act as a therapist, has a crisis-word stop with help resources, gives no health/medical/money advice, and is short (a few turns, then it saves something).
+2. **"Turn it into audio"** needs a text-to-voice service: extra cost per audio, the voice license must allow commercial use, and no cloned real voices. Megan picks the voice.
+3. **"Curate imagery for this goal"**: picking from the app's image library (Megan's Midjourney images) is simple. *Generating* new images is a bigger feature (cost, rights, likeness rules). Recommend: library only in V1.
+4. **Cost:** some commands cost more (pages, audio). Revenue + Megan to set fair-use limits per plan. Check current prices before deciding.
+
+## Look
+- Extremely editorial: cream sheet, huge Archivo Black commands (3–4 max), small mono labels, the crooked 11 sticker sitting on the sheet's top edge. One input line at the bottom. No chat bubbles on open.
+- When Lucky Star answers, the result appears as a **magazine-style card** (a page preview, a script, a ritual), not a chat bubble.
 
 ## Not in V1
-- Open chat or "talk to Lucky Star about my life".
-- Coaching, therapy, health, medical, legal or financial advice.
-- Reminders or Lucky Star messaging her first (push stays as designed).
-- Making images or video.
-
-## Safety and trust
-- **Crisis words** (self-harm, abuse, emergency): Lucky Star stops, shows a calm message plus crisis resources for her country, and does not give advice. Wording to be reviewed before launch.
-- **No health claims** in any reply ("subliminals" wording rule still applies).
-- **Clear label:** "Lucky Star is AI and can make mistakes."
+Open-ended companion chat · therapy or coaching claims · health/medical/legal/money advice · Lucky Star messaging her first · image generation (if Megan agrees with open question 3).
 
 ## Data and privacy (needs Megan's approval)
-- **Consent:** one consent screen shared with the AI magazine ("Lucky Star and your magazine use AI. What you write is sent to an AI service."). She can turn AI off in Settings; the rest of the app still works, and the old "+ new entry" sheet comes back as the fallback.
-- **AI provider:** it must not train on or keep user data. Verify its current terms before building.
-- **Minimum data:** send only the request plus the context needed (for search, only the matching entries). No email or payment data.
-- **App Store:** privacy labels and the AI data disclosure updated. Account deletion deletes everything. Re-check current guidelines at build start and before submission.
-
-## Cost
-One small AI call per request. Revenue + Megan to set fair-use limits per plan. Check current API prices before deciding.
+- One consent screen shared with the AI magazine; AI can be turned off in Settings. Without AI, the 11 falls back to a simple "Create" sheet (new entry, log a win, add image).
+- The AI provider must not train on or keep user data. Verify its current terms before building.
+- Send only the current screen's context. No email or payment data.
+- Privacy labels, AI data disclosure and the "Lucky Star is AI and can make mistakes" label. Account deletion deletes everything. Re-check the App Store guidelines at build start and before submission.
 
 ## For Megan to approve (yes/no)
-1. The action list and "preview before saving" above.
-2. The safety rules (crisis message, no advice, AI label).
-3. Sending her text to an AI service, with the shared consent screen and data rules above.
+1. The contextual sheet and the command table above.
+2. The rules for "Help me figure this out" (open question 1).
+3. Audio: yes in V1, with a licensed voice she picks? (open question 2)
+4. Imagery: library only in V1? (open question 3)
+5. Sending context to an AI service, with the consent screen and data rules above.

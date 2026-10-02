@@ -21,3 +21,4 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 ## Suggestions
 Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-01 · Launch Prep Room · 💡 Suggestion · A one-page "Launch calendar" (Oct 1 → Jan 11: grant, socials, holding page, recordings, beta, nomination, App Review) in the repo · why: dates now live in 6 files and two of them disagree (Hey Helen Oct vs Nov) · cost: 15 min, one agent run.
+- 2026-10-02 · Design Room · Megan (word for word): "The chat isn't the feature. The actions it can take are the feature." Rule: AI features in ISSUE11 are contextual, action-first and editorial (never a ChatGPT-style chat). Every AI answer must create or change something real.

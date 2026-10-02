@@ -1,6 +1,15 @@
 # ISSUE11 Brand Guide v1 (approved by Megan, Sep 30, 2026)
 Source of truth: Megan's Canva identity kit: https://canva.link/pk44pxqmgmmqnol (also in Notion: ISSUE11 / Brand).
 
+## 🧭 Positioning (Megan, Oct 2, 2026): read before ANY copy, campaign, listing or pitch
+> **"The AI is infrastructure. The transformation is the product."**
+- ISSUE11 helps someone turn the life they want to manifest into a life they actually move toward. Loop: **DESIRE → IMAGINE → EMBODY → ACT → BECOME**.
+- Manifestation is the emotional framework; **behavioral change is the differentiator**; the personal magazine is the **container**.
+- The promise is "I became the person I was imagining", never "I made a beautiful magazine" and never guaranteed results.
+- Proof is the hero: "You wrote: A home by the sea → ADD PROOF". Marketing shows real evidence, with permission.
+- Lucky Star (the AI) serves the purpose, it is not the purpose. Don't lead marketing with "AI".
+- Full detail and feature mapping: design/NORTH-STAR.md.
+
 ## 🎨 Megan's taste rules: read before ANY visual work (app, social, Canva, pins)
 Promoted Oct 2, 2026 from repeated corrections in .pipeline/lessons.md.
 1. Design from the **full Canva identity kit pages**, never from a text summary.

@@ -7,7 +7,7 @@ Source of truth: Megan's Canva identity kit: https://canva.link/pk44pxqmgmmqnol 
 - Manifestation is the emotional framework; **behavioral change is the differentiator**; the personal magazine is the **container**.
 - The promise is "I became the person I was imagining", never "I made a beautiful magazine" and never guaranteed results.
 - Proof is the hero: "You wrote: A home by the sea → ADD PROOF". Marketing shows real evidence, with permission.
-- Lucky Star (the AI) serves the purpose, it is not the purpose. Don't lead marketing with "AI".
+- **Lucky Star** is the in-app manifesting agent. It serves the purpose, it is not the purpose. Don't lead marketing with "AI".
 - Full detail and feature mapping: design/NORTH-STAR.md.
 
 ## 🎨 Megan's taste rules: read before ANY visual work (app, social, Canva, pins)

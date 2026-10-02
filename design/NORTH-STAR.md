@@ -2,6 +2,8 @@
 Every feature, screen and AI action is checked against this page. Megan's words are quoted; the mapping below is Design Room's.
 
 ## Purpose
+**One line (Megan, Oct 2, 2026):** "ISSUE11 is a manifestation app rooted in behavioral change with the creation of your own Magazine."
+
 > "ISSUE11 is fundamentally about helping someone turn the life they want to manifest into a life they actually move toward."
 
 > "Manifestation is the emotional/psychological framework, but behavioral change is what differentiates ISSUE11."
@@ -44,6 +46,8 @@ The outcome isn't "I made a beautiful magazine." It's:
 > "The magazine stays the hero. Lucky Star just makes it intelligent."
 
 **Lucky Star's job:** figure out where she is in the loop, and help her move to the next step.
+
+Every feature and every Lucky Star command must pass this test before it is specced or built (the pipeline Planner checks it).
 
 ## Clarity first (Megan, Oct 2, 2026)
 > "Clarity should beat cleverness at the beginning, while the editorial personality can sit on top."

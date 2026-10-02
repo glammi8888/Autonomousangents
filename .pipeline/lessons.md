@@ -11,6 +11,8 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 ## Lessons
 _(none yet)_
 
+- 2026-10-02 · Manager · Megan (word for word): "everytime an agent designed in canva for me it was a bit of a disaster". Rule: agents never design marketing visuals from scratch in Canva. Megan makes or approves master templates; agents only fill them (copy, photos, crop), then a 3-variation test before any batch.
+
 ## Suggestions
 _(none yet)_ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-09-30 · Design Room · Checking the wireframes against the Notion concept found the biggest gap (no cover reveal before the paywall). Always cross-check wireframes with the concept page before designing.

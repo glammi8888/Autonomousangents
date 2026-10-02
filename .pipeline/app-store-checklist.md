@@ -1,17 +1,19 @@
 # 🍎 App Store readiness checklist (ISSUE11)
 
 Megan's rule: ISSUE11 must qualify for the Apple App Store. The Planner checks new features against this list, and the Reviewer treats a likely rejection as a blocker.
-**Last checked:** Sep 29, 2026. Apple changes these rules often, so re-verify against the official App Review Guidelines at build start (Nov) and before submission (Jan).
+**Last checked:** Oct 2, 2026 (sources: developer.apple.com/news, /news/upcoming-requirements). Apple changes these rules often, so re-verify against the official App Review Guidelines at build start (Nov) and before submission (Jan).
 
 ## Build & tooling
-- [ ] Built with **Xcode 26 / iOS 26 SDK or later** (required for uploads since Apr 28, 2026). Check that the Despia or Capacitor output meets this.
+- [ ] Built with **Xcode 26 / iOS 26 SDK or later** (required for uploads since Apr 28, 2026). Check that the Despia or Capacitor output meets this. Current release is iOS 27: build and test with the latest Xcode 27.x.
+- [ ] Deployment target iOS 13 or later (required since Sep 9, 2026; any modern build meets this).
 
 ## Not "just a website" (4.2 minimum functionality + June 2026 "adds value" rule)
 - [ ] Feels like a real app, not a wrapped website: native navigation, push notifications, offline basics, haptics/share sheet where natural.
 - [ ] Clear reason to exist in a crowded category (journaling): the magazine-cover experience is the differentiator. Say it in the review notes.
 
 ## Make Apple happy (featuring)
-- [ ] Design follows the current Apple Human Interface Guidelines and the latest iOS design language (iOS 26). Checked during app design in October.
+- [ ] Design follows the current Apple Human Interface Guidelines and the latest iOS design language (iOS 26/27). Checked during app design in October.
+- [ ] **iPhone Duo (foldable, on sale Oct 23, 2026, runs iOS 27.1):** layouts adapt to its new screen sizes, poses and orientations (no fixed phone-width layouts). Test in the Xcode 27.1 simulator. Apple is promoting apps "purpose-built" for it: a spread-style magazine view on the open fold is a featuring opportunity. (Apple news, Sep 16 + 18, 2026)
 - [ ] Use recent iOS features where they fit naturally (widgets later, notifications, App Intents/Shortcuts). Apple features apps that adopt what's new.
 - [ ] Re-checked monthly by the Manager's Friday retro (first Friday).
 
@@ -34,7 +36,7 @@ Megan's rule: ISSUE11 must qualify for the Apple App Store. The Planner checks n
 - [ ] "Restore purchases" button. Links to Terms (EULA) and Privacy on the paywall.
 
 ## Completeness & honesty (2.1, 2.3)
-- [ ] No placeholders, "coming soon", lorem ipsum, broken links or crashes.
+- [ ] No placeholders, "coming soon", lorem ipsum, broken links or crashes. Note: the beta safety valve (audio/video shown as "coming soon" in TestFlight) is beta only; the Jan App Store build must ship them complete or hide them.
 - [ ] Screenshots and description show the real app. No fake reviews or ratings.
 - [ ] Wellness wording only: no medical or therapy claims.
 - [ ] If users can share content publicly: report, block and moderation (1.2).

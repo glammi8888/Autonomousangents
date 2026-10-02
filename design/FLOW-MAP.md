@@ -96,3 +96,8 @@ Not decided here: pricing (💛 Revenue + Megan).
 - Open: what the agent does in V1, and where "new entry" lives now (proposal: you tell 11 and it logs the entry/win for you).
 - ✅ Megan, Oct 2: the agent is named **Lucky Star**; V1 = do-it-for-me helper, not an open chat. Spec: design/lucky-star-spec.md (waiting for approval). **Updated Oct 2 (later): Megan defined the interaction: tap 11 → contextual editorial bottom sheet with 3–4 giant commands per screen → action creates/changes something real. Spec v2.**
 - Mockup of the tap: https://claude.ai/artifact/BDsLLQBCxT11UdgXDqr1s3 (source: design/lucky-star/index.html)
+
+## Onboarding v2 proposal: teach the loop (Oct 2, 2026, waiting for Megan's OK)
+Megan: teach DESIRE → IMAGINE → EMBODY → ACT → BECOME in onboarding (design/NORTH-STAR.md, "Clarity first").
+01 Splash → 02 Hook → **02b How it works (the loop)** → 03 Dream + 04 Ideal life [DESIRE] → 05 Life areas → 06 Visuals [IMAGINE] → 07 Sessions [EMBODY] → **07b One small step this week [ACT, new: becomes her first action]** → 08 Past proof [BECOME] → 09 Name → **09b Meet Lucky Star + AI consent** → 10 Printing → 11 Reveal → 12 Notifications → Paywall.
+Each question screen shows a small stage label (DESIRE…BECOME) so the model is learned by doing.

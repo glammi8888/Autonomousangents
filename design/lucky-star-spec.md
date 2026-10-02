@@ -34,6 +34,20 @@ What each Home command creates:
 - **Give me my next move:** turns a manifestation into one small thing she can do today (saved as a to-do or ritual).
 - **Surprise me:** Lucky Star picks one of the above, based on her goals.
 
+## Where she is in the loop (how Lucky Star picks the next step)
+Lucky Star's job (Megan): "figure out where the user is in that loop and help her move to the next step." Simple signals from her own data, per goal:
+
+| If her goal has… | She's at | Lucky Star leads with |
+|---|---|---|
+| No clear wording yet | **Desire** | Help me figure this out |
+| A goal, but no images/page/script | **Imagine** | Create for me (page or script) |
+| A page/script, but no session or ritual this week | **Embody** | Create for me (audio or ritual) |
+| Embodiment, but no open action | **Act** | Give me my next move |
+| Actions done | **Become** | "Did it happen? Add proof" |
+
+- On Home, the command for her current stage is shown first, with a small stage label (e.g. "YOU'RE AT: ACT").
+- Every new feature request for Lucky Star must pass Megan's test: "Does this help her move from wanting the future to becoming it?"
+
 ## How it works (safe by design)
 - **Context:** the app sends Lucky Star the screen type plus what's on it (this page's text, this script, this goal). Nothing else.
 - **Actions, not chat:** every answer ends in one action from a fixed list (create page, edit page text, swap layout, create script, rewrite script, create audio, create ritual/to-do, add images, save win). The app does the action; the AI never touches the database directly.

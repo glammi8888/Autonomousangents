@@ -1,5 +1,8 @@
 {
   "permissions": {
+    "allow": [
+      "mcp__Notion"
+    ],
     "deny": [
       "Bash(git push origin main:*)",
       "Bash(git push origin master:*)",

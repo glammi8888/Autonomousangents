@@ -9,6 +9,7 @@ Design Room · Oct 2, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL**. This tou
 > "I wouldn't make it look like ChatGPT. Keep the bottom sheet extremely editorial—big typography, maybe 3–4 giant commands, the crooked 11 sticker sitting on its edge. It should feel like you're opening a secret editorial tool inside your magazine."
 
 Role: Lucky Star is a **manifestation + magazine publisher agent**. It replaces "+ new entry".
+Purpose (design/NORTH-STAR.md): Lucky Star serves the loop DESIRE → IMAGINE → EMBODY → ACT → BECOME. "Lucky Star should serve ISSUE11's purpose—not become the purpose." Every command should move her one stage forward, and Act results can become Proof.
 
 ## The interaction
 1. She taps the crooked 11 sticker (tab bar). It's available on every screen.

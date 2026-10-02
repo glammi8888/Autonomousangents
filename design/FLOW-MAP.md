@@ -1,6 +1,7 @@
 # ISSUE11 flow map + gaps (Design Room, step 1, Sep 30, 2026)
 🩵 PRODUCT + 🎨 BRAND. Source: design/wireframes-v0.webp + WIREFRAMES.md, checked against Notion "App Concept + Onboarding Flow", Roadmap Goal 3, .pipeline/app-store-checklist.md.
 Status: step 2 done. Prototype v1: https://claude.ai/artifact/LrFfSmECZknsurnx2LKKVf (source: design/prototype/index.html)
+North Star (read first): design/NORTH-STAR.md. DESIRE → IMAGINE → EMBODY → ACT → BECOME. "The AI is infrastructure. The transformation is the product."
 
 ## Flow map
 ```

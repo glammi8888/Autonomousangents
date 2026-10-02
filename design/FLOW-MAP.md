@@ -93,3 +93,4 @@ Not decided here: pricing (💛 Revenue + Megan).
 - Claude Design V4 Home: the middle tab is the "11" logo (label "LUCKY STAR") and replaces "+ new entry". Megan: "the 11 is an ai agent actually ! Instead of the + sign".
 - ⚠️ New feature, not in the spec yet. It touches user data (journal + goals go to an AI service), so it needs its own spec plus Megan's approval before building. Same consent screen and data rules as design/magazine-ai-spec.md.
 - Open: what the agent does in V1, and where "new entry" lives now (proposal: you tell 11 and it logs the entry/win for you).
+- ✅ Megan, Oct 2: the agent is named **Lucky Star**; V1 = do-it-for-me helper, not an open chat. Spec: design/lucky-star-spec.md (waiting for approval).

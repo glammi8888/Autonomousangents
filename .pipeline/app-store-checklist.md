@@ -56,3 +56,4 @@ Megan's rule: ISSUE11 must qualify for the Apple App Store. The Planner checks n
 - Privacy labels and AI data disclosure updated; the provider must not train on or keep user data (verify its terms).
 - Account deletion also deletes generated issues.
 - Re-check current App Store guidelines on AI and user data at build start and before submission.
+- Lucky Star (AI helper, spec: design/lucky-star-spec.md): "AI can make mistakes" label, crisis-word message with resources, no health/medical/financial advice, app still works with AI turned off.

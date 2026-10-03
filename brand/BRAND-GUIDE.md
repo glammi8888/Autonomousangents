@@ -37,3 +37,9 @@ Promoted Oct 2, 2026 from repeated corrections in .pipeline/lessons.md.
 - **Megan, Oct 1, 2026:** headlines stay Archivo Black but set TIGHT (letter-spacing about -0.06em, line-height about 0.82; "A2 is better"). Small labels: Archivo Narrow, all caps.
 - **Megan, Oct 1, 2026 — buttons chosen:** 13 Liquid glass capsule in Archivo Black (pink glass = main action, clear glass = secondary), 11 cover capsule (round thumbnail + title + pink circle) for sessions and her issue, 07 Hold to log your win for wins. See design/buttons/.
 - **Megan, Oct 1, 2026:** loves the original cheetah print (loose tan spots + black arcs) and that it's not 100% opaque. Keep patterns semi-transparent/print-like.
+
+## Small mono labels (Megan, Oct 3, 2026)
+Megan: "I love the small font. It balances everything."
+- IBM Plex Mono, 11px, uppercase, tracking +0.03em (from Claude Design V4 Home).
+- Use it for kickers, dates, page counts, card labels, buttons and tab labels.
+- It's the quiet counterweight to the huge Archivo Black: big shouting headline, small precise label. Keep both on every screen.

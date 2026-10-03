@@ -1,7 +1,7 @@
 # ISSUE11 flow map + gaps (Design Room, step 1, Sep 30, 2026)
 🩵 PRODUCT + 🎨 BRAND. Source: design/wireframes-v0.webp + WIREFRAMES.md, checked against Notion "App Concept + Onboarding Flow", Roadmap Goal 3, .pipeline/app-store-checklist.md.
 Status: step 2 done. Prototype v1: https://claude.ai/artifact/LrFfSmECZknsurnx2LKKVf (source: design/prototype/index.html)
-North Star (read first): design/NORTH-STAR.md. DESIRE → IMAGINE → BECOME → PROVE. "The AI is infrastructure. The transformation is the product."
+**LOCKED product architecture (read first): design/PRODUCT-ARCHITECTURE.md.** North Star: design/NORTH-STAR.md. DESIRE → IMAGINE → EMBODY → BECOME. "The AI is infrastructure. The transformation is the product."
 
 ## Flow map
 ```
@@ -98,6 +98,6 @@ Not decided here: pricing (💛 Revenue + Megan).
 - Mockup of the tap: https://claude.ai/artifact/BDsLLQBCxT11UdgXDqr1s3 (source: design/lucky-star/index.html)
 
 ## Onboarding v2: teach the loop (Megan approved Oct 3, 2026; 4 stages)
-Megan: teach DESIRE → IMAGINE → BECOME → PROVE in onboarding (design/NORTH-STAR.md, "Clarity first").
-01 Splash → 02 Hook → **02b How it works (the loop)** → 03 Dream + 04 Ideal life [DESIRE] → 05 Life areas → 06 Visuals [IMAGINE] → 07 Sessions + **07b One small step this week (new: becomes her first action)** [BECOME] → 08 Past proof [PROVE] → 09 Name → **09b Meet Lucky Star + AI consent** → 10 Printing → 11 Reveal → 12 Notifications → Paywall.
-Each question screen shows a small stage label (DESIRE…BECOME) so the model is learned by doing.
+Megan: teach DESIRE → IMAGINE → EMBODY → BECOME in onboarding (design/NORTH-STAR.md, "Clarity first").
+01 Splash → 02 Hook → **02b How it works (the loop)** → 03 Dream + 04 Ideal life [DESIRE] → 05 Life areas → 06 Visuals [IMAGINE] → 07 Sessions [EMBODY] → **07b First Next Move (one small step this week)** [EMBODY] → 08 Past proof [BECOME] → 09 Name → **09b Meet Lucky Star + AI consent** → 10 Printing → 11 Reveal → 12 Notifications → Paywall.
+~~Each question screen shows a small stage label~~ → dropped (Oct 3, locked architecture: the loop is not navigation). The "How it works" screen stays.

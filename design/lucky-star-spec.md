@@ -1,3 +1,5 @@
+> **Locked architecture (Megan, Oct 3): design/PRODUCT-ARCHITECTURE.md wins wherever this spec differs.** Lucky Star is not a 5th section; it is the intelligence layered across Your World · Audio · Scribe · Publish. AI stays invisible until useful.
+
 # Spec: Lucky Star ★, the contextual "11" editor (draft v2, for Megan's approval)
 Design Room · Oct 2, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL**. This touches **user data** (journal, goals, pages and images go to an AI service), so per CLAUDE.md nothing gets built before Megan approves this spec.
 
@@ -9,7 +11,7 @@ Design Room · Oct 2, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL**. This tou
 > "I wouldn't make it look like ChatGPT. Keep the bottom sheet extremely editorial—big typography, maybe 3–4 giant commands, the crooked 11 sticker sitting on its edge. It should feel like you're opening a secret editorial tool inside your magazine."
 
 Role: Lucky Star is a **manifestation + magazine publisher agent**. It replaces "+ new entry".
-Purpose (design/NORTH-STAR.md): Lucky Star serves the loop DESIRE → IMAGINE → BECOME → PROVE. "Lucky Star should serve ISSUE11's purpose—not become the purpose." Every command should move her one stage forward, and what she does can become Proof.
+Purpose (design/NORTH-STAR.md): Lucky Star serves the loop DESIRE → IMAGINE → EMBODY → BECOME. "Lucky Star should serve ISSUE11's purpose—not become the purpose." Every command should move her one stage forward, and what she does can become Proof.
 
 ## The interaction
 1. She taps the crooked 11 sticker (tab bar). It's available on every screen.
@@ -21,30 +23,32 @@ Purpose (design/NORTH-STAR.md): Lucky Star serves the loop DESIRE → IMAGINE �
 ## The commands by screen
 | Where she taps 11 | Header | Commands |
 |---|---|---|
-| **Home** | "Where are we going next?" | Final copy (Megan, Oct 2): **CREATE FOR ME** — Build something from my goals · **HELP ME FIGURE THIS OUT** — Talk through a goal, decision or block · **GIVE ME MY NEXT MOVE** — Give me one action I can take today · **SURPRISE ME** — Create something based on what you know about me. 4th slot switches to **ADD PROOF** when she is at PROVE. |
+| **Home** | "Where are we going next?" | Final copy (Megan, Oct 2): **CREATE FOR ME** — Build something from my goals · **HELP ME FIGURE THIS OUT** — Talk through a goal, decision or block · **GIVE ME MY NEXT MOVE** — Give me one action I can take today · **SURPRISE ME** — Create something based on what you know about me. 4th slot switches to **ADD PROOF** when she is at BECOME (internal stage). |
 | **Magazine page** | "This page" | Edit this page · Make this more "me" · Turn this into actions · Create another page like this |
-| **Curate** | "Your imagery" | Curate imagery for this goal · Help define my aesthetic · Build this page for me |
-| **Script** | "Your script" | Rewrite this · Make it more specific · Turn it into audio · What should I actually DO? |
+| **Your World** | "Your world" | Curate imagery for this goal · Help define my aesthetic · Build this page for me |
+| **Scribe** | "Your words" | Rewrite this · Make it more specific · Turn it into audio · What should I actually DO? |
 | **First-ever open (any screen)** | Adds one onboarding line under the header (Megan, Oct 2): "I help turn the future you want into something you can see, hear and do." Shown once, then only the header. | |
-| Other screens (Explore, Issue, You, Session) | To define | Default to the Home set until defined |
+| **Audio** | "Your session" | Personalize this session · Make one for my desire · (more to define with Megan) |
+| **Publish** (magazine page) | see "Magazine page" row | Create and modify the magazine by prompting |
+| Other screens (Explore, You) | To define | Default to the Home set until defined |
 
 What each Home command creates:
 - **Create for me:** turns her goals into a page, a script, an audio or a ritual (she picks which one).
 - **Help me figure this out:** a short guided talk about what she wants and what's blocking her. It must **end in something saved** (a script, a goal, a next move), not an endless chat.
-- **Give me my next move:** turns a manifestation into one small thing she can do today (saved as a to-do or ritual).
+- **Give me my next move:** **one** simple Next Move **per week**, based on who she wants to become (e.g. "Share one piece of work you've been afraid to show"). No task lists, no project plans.
 - **Surprise me:** Lucky Star picks one of the above, based on her goals.
 
 ## Where she is in the loop (how Lucky Star picks the next step)
 Lucky Star's job (Megan): "figure out where the user is in that loop and help her move to the next step." Simple signals from her own data, per goal:
 
-| If her goal has… | She's at | Lucky Star leads with |
+| If she has… | Stage (internal only) | Lucky Star leads with |
 |---|---|---|
-| No clear wording yet | **Desire** | Help me figure this out |
-| A goal, but no images/page/script | **Imagine** | Create for me (page or script) |
-| A page/script, but no session, ritual or open action this week | **Become** | Give me my next move · Create for me (audio or ritual) |
-| Actions done or sessions practiced | **Prove** | ADD PROOF: "Something came true? Log it" |
+| No clear desire yet | Desire | Help me figure this out |
+| A desire, but little World/Scribe/Issue | Imagine | Create for me |
+| An Issue, and no Next Move this week | Embody | Give me my next move (**one per week**, lightweight) |
+| A Next Move tried, or time has passed | Become | "Did something show up? Add Proof" |
 
-- On Home, the command for her current stage is shown first, with a small stage label (e.g. "YOU'RE AT: BECOME").
+- The stage is **never shown in the UI** (Megan: the framework "does not need to become the navigation"). It only decides which command comes first.
 - Every new feature request for Lucky Star must pass Megan's test: "Does this help her move from wanting the future to becoming it?"
 
 ## How it works (safe by design)

@@ -8,6 +8,7 @@
 This is a hard product rule. It overrides earlier Design Room proposals wherever they differ. Megan's text below is verbatim.
 
 **Magazine = product. Lucky Star = intelligence. 11 sticker = access to the intelligence.**
+**Lucky Star how-it-works (proposal, Oct 3):** design/LUCKY-STAR-ARCHITECTURE.md · **Voice (locked):** design/LUCKY-STAR-VOICE.md
 **Keep the magazine as the hero. Keep the AI invisible until it is useful.**
 
 ---

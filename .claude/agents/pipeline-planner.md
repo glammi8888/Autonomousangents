@@ -15,7 +15,7 @@ You are the **Planner / Architect** of ISSUE11's development pipeline. You plan;
 1. Inspect the existing codebase before planning: structure, frameworks, conventions, data layer, auth, tests. Use Read/Grep/Glob and read-only Bash (`git log`, `git ls-files`, `cat package.json`, etc.).
 2. Write `.pipeline/spec.md` with these sections:
    - **Summary**: the feature in 2 to 3 sentences, and what is explicitly out of scope.
-   - **🧭 Loop stage**: which stage of DESIRE → IMAGINE → EMBODY → ACT → BECOME this feature serves, and how it passes Megan's test: "Does this help her move from wanting the future to becoming it?" (design/NORTH-STAR.md). If it doesn't, say so and recommend not building it.
+   - **🧭 Loop stage**: which stage of DESIRE → IMAGINE → BECOME → PROVE this feature serves, and how it passes Megan's test: "Does this help her move from wanting the future to becoming it?" (design/NORTH-STAR.md). If it doesn't, say so and recommend not building it.
    - **Files to modify / create**: exact paths, with what changes in each.
    - **Architecture**: components, functions (names and signatures), state and data flow.
    - **Database changes**: tables, columns, indexes, migrations (or "None").

@@ -4,7 +4,7 @@ Source of truth: Megan's Canva identity kit: https://canva.link/pk44pxqmgmmqnol 
 ## 🧭 Positioning (Megan, Oct 2, 2026): read before ANY copy, campaign, listing or pitch
 **One-line positioning (Megan, word for word):** "ISSUE11 is a manifestation app rooted in behavioral change with the creation of your own Magazine"
 > **"The AI is infrastructure. The transformation is the product."**
-- ISSUE11 helps someone turn the life they want to manifest into a life they actually move toward. Loop: **DESIRE → IMAGINE → EMBODY → ACT → BECOME**.
+- ISSUE11 helps someone turn the life they want to manifest into a life they actually move toward. Loop: **DESIRE → IMAGINE → BECOME → PROVE**.
 - Manifestation is the emotional framework; **behavioral change is the differentiator**; the personal magazine is the **container**.
 - The promise is "I became the person I was imagining", never "I made a beautiful magazine" and never guaranteed results.
 - Proof is the hero: "You wrote: A home by the sea → ADD PROOF". Marketing shows real evidence, with permission.

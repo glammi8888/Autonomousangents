@@ -9,7 +9,7 @@ Design Room · Oct 2, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL**. This tou
 > "I wouldn't make it look like ChatGPT. Keep the bottom sheet extremely editorial—big typography, maybe 3–4 giant commands, the crooked 11 sticker sitting on its edge. It should feel like you're opening a secret editorial tool inside your magazine."
 
 Role: Lucky Star is a **manifestation + magazine publisher agent**. It replaces "+ new entry".
-Purpose (design/NORTH-STAR.md): Lucky Star serves the loop DESIRE → IMAGINE → EMBODY → ACT → BECOME. "Lucky Star should serve ISSUE11's purpose—not become the purpose." Every command should move her one stage forward, and Act results can become Proof.
+Purpose (design/NORTH-STAR.md): Lucky Star serves the loop DESIRE → IMAGINE → BECOME → PROVE. "Lucky Star should serve ISSUE11's purpose—not become the purpose." Every command should move her one stage forward, and what she does can become Proof.
 
 ## The interaction
 1. She taps the crooked 11 sticker (tab bar). It's available on every screen.
@@ -21,7 +21,7 @@ Purpose (design/NORTH-STAR.md): Lucky Star serves the loop DESIRE → IMAGINE �
 ## The commands by screen
 | Where she taps 11 | Header | Commands |
 |---|---|---|
-| **Home** | "Where are we going next?" | Final copy (Megan, Oct 2): **CREATE FOR ME** — Build something from my goals · **HELP ME FIGURE THIS OUT** — Talk through a goal, decision or block · **GIVE ME MY NEXT MOVE** — Give me one action I can take today · **SURPRISE ME** — Create something based on what you know about me |
+| **Home** | "Where are we going next?" | Final copy (Megan, Oct 2): **CREATE FOR ME** — Build something from my goals · **HELP ME FIGURE THIS OUT** — Talk through a goal, decision or block · **GIVE ME MY NEXT MOVE** — Give me one action I can take today · **SURPRISE ME** — Create something based on what you know about me. 4th slot switches to **ADD PROOF** when she is at PROVE. |
 | **Magazine page** | "This page" | Edit this page · Make this more "me" · Turn this into actions · Create another page like this |
 | **Curate** | "Your imagery" | Curate imagery for this goal · Help define my aesthetic · Build this page for me |
 | **Script** | "Your script" | Rewrite this · Make it more specific · Turn it into audio · What should I actually DO? |
@@ -41,11 +41,10 @@ Lucky Star's job (Megan): "figure out where the user is in that loop and help he
 |---|---|---|
 | No clear wording yet | **Desire** | Help me figure this out |
 | A goal, but no images/page/script | **Imagine** | Create for me (page or script) |
-| A page/script, but no session or ritual this week | **Embody** | Create for me (audio or ritual) |
-| Embodiment, but no open action | **Act** | Give me my next move |
-| Actions done | **Become** | "Did it happen? Add proof" |
+| A page/script, but no session, ritual or open action this week | **Become** | Give me my next move · Create for me (audio or ritual) |
+| Actions done or sessions practiced | **Prove** | ADD PROOF: "Something came true? Log it" |
 
-- On Home, the command for her current stage is shown first, with a small stage label (e.g. "YOU'RE AT: ACT").
+- On Home, the command for her current stage is shown first, with a small stage label (e.g. "YOU'RE AT: BECOME").
 - Every new feature request for Lucky Star must pass Megan's test: "Does this help her move from wanting the future to becoming it?"
 
 ## How it works (safe by design)

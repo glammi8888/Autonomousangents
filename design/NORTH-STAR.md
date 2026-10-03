@@ -13,16 +13,19 @@ Every feature, screen and AI action is checked against this page. Megan's words 
 The outcome isn't "I made a beautiful magazine." It's:
 > **"I became the person I was imagining."**
 
-## The loop
-**DESIRE → IMAGINE → EMBODY → ACT → BECOME**
+## The loop (4 stages, Megan, Oct 3, 2026)
+**DESIRE IT. IMAGINE IT. BECOME IT. PROVE IT.**
 
-| Stage | What it means | Where it lives in ISSUE11 |
+> "Don't just visualize her. **Become her.**" (Already in the product: "RESUME: BECOME HER".)
+
+| Stage | Question | Where it lives in ISSUE11 |
 |---|---|---|
-| **Desire** | Say what she wants | Onboarding (dream outcome, ideal life, life areas), goals in You |
-| **Imagine** | Make it vivid | The magazine (cover, features), Curate / My World, Script |
-| **Embody** | Feel it as already true | Immersive audio/video sessions, affirmations, rituals, streak |
-| **Act** | Connect it to real life | "Give me my next move", "Turn this into actions", to-dos/rituals |
-| **Become** | Notice it becoming real | Past Proof, wins, "You wrote: A home by the sea → ADD PROOF", proof pages in the issue |
+| **DESIRE** | What do I actually want? | Onboarding (dream outcome, ideal life, life areas), goals in You, "Help me figure this out" |
+| **IMAGINE** | Make it vivid | The magazine (cover, features), Curate / My World, Script, "Create for me" |
+| **BECOME** | Think, feel **and act** like her | Immersive audio/video sessions, affirmations, rituals, streak, actions/to-dos, "Give me my next move" |
+| **PROVE** | Notice and capture evidence your life is changing | Past Proof, wins, "You wrote: A home by the sea → ADD PROOF", proof pages in the issue |
+
+Megan: "Technically [embody and act] are different… But from a user's perspective, that's a fairly subtle distinction. And your North Star is behavioral change, not teaching manifestation theory." The earlier 5-stage loop (DESIRE → IMAGINE → EMBODY → ACT → BECOME) is superseded.
 
 ## Lucky Star's role
 > "Lucky Star should serve ISSUE11's purpose—not become the purpose."
@@ -33,7 +36,7 @@ The outcome isn't "I made a beautiful magazine." It's:
 
 ## Rules that follow from this (Design Room)
 1. **Every feature names its stage.** If it doesn't move her along the loop, it waits.
-2. **Close the loop.** Every Imagine feature should lead to an Act, and every Act should be able to become Proof.
+2. **Close the loop.** Every Imagine feature should lead to something she does (Become), and everything she does should be able to become Proof.
 3. **The issue fills with evidence over time.** Proof (wins, "ADD PROOF") goes into her magazine, so later issues show the future becoming the present.
 4. **Measure the transformation, not the output.** Product success = actions done and proofs added per user, not issues made or minutes in the app.
 5. **Trust:** no promised results ("you will get rich"). We help her imagine and act; we never guarantee outcomes, in the app or in marketing.
@@ -62,8 +65,8 @@ In the first 60 seconds she must understand:
 
 ### Onboarding copy (Megan's draft)
 > **YOU'RE NOT JUST MAKING A VISION BOARD.** You're creating an Issue around the person you're becoming.
-> **DESIRE** Tell us what you want. · **IMAGINE** Turn it into images, words and audio. · **EMBODY** Practice thinking and feeling from that future. · **ACT** Take small actions toward it. · **BECOME** Add proof as your future becomes your life.
+> **DESIRE** Tell us what you want. · **IMAGINE** Turn it into images, words and audio. · **BECOME** Think, feel and act like her. · **PROVE** Add proof as your future becomes your life. *(Updated to 4 stages, Oct 3.)*
 
 > **MEET LUCKY STAR ★** Your AI manifestation guide. Lucky Star learns what you're working toward and helps you create your Issue, build your practice and decide what to do next. **You stay in control. Nothing is added or changed unless you approve it.**
 
-Command mapping (Megan): Help me figure this out = DESIRE · Create for me = IMAGINE · Give me my next move = ACT ("excellent") · Surprise me = delightful but secondary.
+Command mapping: Help me figure this out = DESIRE · Create for me = IMAGINE · Give me my next move = BECOME ("excellent", Megan) · 4th slot = ADD PROOF (PROVE) when she has done actions, otherwise Surprise me (secondary).

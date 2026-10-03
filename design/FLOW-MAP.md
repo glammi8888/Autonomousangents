@@ -106,3 +106,4 @@ Megan: teach DESIRE → IMAGINE → EMBODY → BECOME in onboarding (design/NORT
 Megan: "I don't know why but adding AI feature inside the app is overwhelming to me." → "Maybe we add the agentic features in V2 then."
 - V2: Lucky Star Guide (Home), Assist (in features), chat + voice, aura screen, weekly Next Move. Specs and mockups kept: design/lucky-star-spec.md, design/lucky-star-design-brief.md, design/claude-design/lucky-star-aura-html/.
 - V1: Your World · Audio · Scribe · Publish. Open: does Publish still use AI to build the magazine on Megan's layouts in V1 (design/magazine-ai-spec.md), and what does the 11 sticker do in V1?
+- Megan, Oct 3 (later): "We need to redesign V1 though, I still want luckystar present though." → Lucky Star stays *present* in V1 in a light form (proposal below, waiting for Megan's OK); full agentic features stay in V2.

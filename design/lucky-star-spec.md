@@ -1,5 +1,8 @@
 > **Locked architecture (Megan, Oct 3): design/PRODUCT-ARCHITECTURE.md wins wherever this spec differs. Lucky Star has TWO MODES: ASSIST inside a feature (context-only help, no generic menu) and GUIDE on Home (one next thing based on her stage; conversational with text + voice; can launch Audio). The Home command menu below is superseded.** Lucky Star is not a 5th section; it is the intelligence layered across Your World · Audio · Scribe · Publish. AI stays invisible until useful.
 
+> **🗓 Scope update (Megan, Oct 3, 2026, later): "I do think we need to add LuckyStar to the MVP because it's really part of the experience and aesthetic."** Lucky Star (two modes: GUIDE on Home, ASSIST inside features; chat with text + voice input) is back in **V1**. This replaces the earlier "agentic features in V2" note.
+
+
 > **🗓 Scope decision (Megan, Oct 3, 2026): "Maybe we add the agentic features in V2 then."** Lucky Star (Guide, Assist, chat, voice, aura screen) moves to **V2**. Everything designed for it stays saved for V2. V1 = Your World · Audio · Scribe · Publish.
 
 

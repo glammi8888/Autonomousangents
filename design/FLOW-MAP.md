@@ -107,3 +107,8 @@ Megan: "I don't know why but adding AI feature inside the app is overwhelming to
 - V2: Lucky Star Guide (Home), Assist (in features), chat + voice, aura screen, weekly Next Move. Specs and mockups kept: design/lucky-star-spec.md, design/lucky-star-design-brief.md, design/claude-design/lucky-star-aura-html/.
 - V1: Your World · Audio · Scribe · Publish. Open: does Publish still use AI to build the magazine on Megan's layouts in V1 (design/magazine-ai-spec.md), and what does the 11 sticker do in V1?
 - Megan, Oct 3 (later): "We need to redesign V1 though, I still want luckystar present though." → Lucky Star stays *present* in V1 in a light form (proposal below, waiting for Megan's OK); full agentic features stay in V2.
+
+## Lucky Star back in V1 (Megan, Oct 3, 2026, later)
+Megan: "I do think we need to add LuckyStar to the MVP because it's really part of the experience and aesthetic. And I'm sure it won't be incredibly hard to develop either."
+- V1 scope: GUIDE on Home (one next thing) + ASSIST in Your World, Audio, Scribe, Publish; chat with text + voice input (native iOS dictation); actions with preview + undo; weekly Next Move; consent screen.
+- Design Room estimate: +2–3 weeks on the build (AI calls, memory of her data, safe actions, safety rules, privacy/App Store). Keep V1 lean: voice *in* only (no AI voice replies), no image generation. ⚠️ Flag to the Manager for re-planning. User data → Megan approves the spec before building.

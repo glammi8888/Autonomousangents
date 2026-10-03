@@ -1,5 +1,8 @@
 # ISSUE11 Product Architecture (LOCKED by Megan, Oct 3, 2026)
 
+> **🗓 Scope update (Megan, Oct 3, 2026, later): "I do think we need to add LuckyStar to the MVP because it's really part of the experience and aesthetic."** Lucky Star (two modes: GUIDE on Home, ASSIST inside features; chat with text + voice input) is back in **V1**. This replaces the earlier "agentic features in V2" note.
+
+
 > **🗓 Scope decision (Megan, Oct 3, 2026): "Maybe we add the agentic features in V2 then."** Lucky Star (Guide, Assist, chat, voice, aura screen) moves to **V2**. Everything designed for it stays saved for V2. V1 = Your World · Audio · Scribe · Publish.
 
 This is a hard product rule. It overrides earlier Design Room proposals wherever they differ. Megan's text below is verbatim.

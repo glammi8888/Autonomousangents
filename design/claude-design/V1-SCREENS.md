@@ -38,3 +38,6 @@ Still open: Explore tab.
 
 ## Batch 2 (Oct 3, 2026, Megan: "Add it all please")
 Added to the prototype: Hold to log your win (Home) · Lucky Star weekly move card (Home carousel) · Explore + Collection (session library) · After-session "How do you feel now?" → Scribe (player ⏭ ends the session in the prototype) · Issue reader (swipe pages) · Page editor (layout, page color with auto text color, emoji + 11 stickers you can drag, patterns waves/zebra/cheetah/hearts, edit text, undo) · Night mode (You → Night mode; preview) · Past proof archive (You → Proofs) · Offline state · Scribe empty state.
+
+## Lucky Star in V1 (Oct 3, 2026, later)
+Prototype: the 11 opens the aura. GUIDE on Home (rotates: embody session · weekly move · proof). ASSIST when tapped from Scribe, Write, Your World, In frame, Audio, Explore, Issue, Reader, Page (one contextual offer each). Chat bar + mic (demo voice line) reply with magazine-style cards; every action ends in Done + Undo.

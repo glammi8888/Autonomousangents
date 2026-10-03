@@ -37,3 +37,10 @@ Owner: 💚 GROWTH, same method as 🩷 AEO for Med Spas.
 - FAQ answers written as clear, quotable sentences (AI engines lift these). Add FAQ schema markup in Framer.
 - One plain sentence near the top that says exactly what ISSUE11 is and who it's for.
 - Get mentioned where AI reads: launch press, Reddit, app directories, founder interviews.
+
+## Inspiration: Explee landing page (Megan liked it, Oct 3, 2026)
+Patterns only, never copy their words or design:
+- One concrete, time-bound promise up top ("Get 1 to 3 hot leads in 24 hours free") → ours e.g. "See your first Issue cover in 3 minutes".
+- One action immediately below (a single input box) → ours: email only, or "What do you want to manifest?"
+- "Build it yourself vs us" comparison → vision board + journal + affirmation apps vs one ISSUE11.
+- Testimonials with one real number each: only from real beta testers, with permission.

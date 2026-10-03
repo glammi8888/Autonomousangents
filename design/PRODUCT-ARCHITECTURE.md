@@ -185,3 +185,62 @@ This is a hard product rule. It overrides earlier Design Room proposals wherever
 - **The 4 functions keep their names:** Your World · Audio · Scribe · Publish. (Home's V4 Create tiles "Listen · Script · Curate · Publish" should become "Audio · Scribe · Your World · Publish"; Megan to confirm in Claude Design.)
 - **Next Move = one per week, lightweight.** The earlier proposal for an actions/to-do area is cancelled.
 - **Lucky Star contexts:** World (curate) · Audio (personalize) · Scribe (think and write) · Publish (create and modify the magazine by prompting).
+
+---
+
+## LUCKY STAR: TWO MODES (LOCKED by Megan, Oct 3, 2026, verbatim)
+
+> **Lucky Star is ISSUE11's AI guide. It understands where you are between DESIRE and BECOME and guides you toward what you need next.**
+>
+> **When you're inside a feature, Lucky Star helps you use that feature.**
+>
+> That's it. I wouldn't add any more responsibilities for V1.
+
+> ### Inside a feature = ASSIST
+>
+> Lucky Star understands where you are and helps with that specific thing.
+>
+> **Your World** → helps curate your visual world
+> **Audio** → helps personalize the experience
+> **Scribe** → helps you explore/write your desires
+> **Publish** → helps generate and edit the magazine
+>
+> No generic menu. No "Create for me." The context determines what Lucky Star can do.
+
+> ### On Home = GUIDE
+>
+> Home is different.
+>
+> Lucky Star looks at everything it knows about you—your onboarding answers, World, Scribe, sessions, previous actions/proof—and assesses where you currently are in:
+>
+> **DESIRE → IMAGINE → EMBODY → BECOME**
+>
+> Then it guides you toward **one next thing**.
+>
+> Examples:
+>
+> "You've gotten really clear about the career you want. You've built the world around it, too. **You're ready to EMBODY it.** Let's create tonight's 5-minute visualization. **START →**"
+>
+> "You've been imagining this version of yourself for a while. **This week, let's practice being her.** Your move: Share one piece of work before you feel completely ready. **KEEP MY MOVE →**"
+>
+> "Something you wrote three months ago sounds a lot like what's happening now. **That's proof.** Want to capture it? **ADD PROOF →**"
+>
+> That is legitimately agentic because Lucky Star isn't waiting for the user to figure out which feature she needs. **It understands her state and routes her to the appropriate experience.**
+
+> ### Chat vs audio
+>
+> **Both—but don't make the user choose upfront.**
+>
+> Lucky Star's Home interface is primarily **conversational**, with text + voice input. Then Lucky Star can launch Audio when **Audio is the appropriate intervention**.
+>
+> "I know what I want but I can't picture myself actually having it." → IMAGINE/EMBODY problem → "Let's work on that. **5 MIN · FUTURE SELF VISUALIZATION** [ START SESSION ]"
+>
+> "I genuinely don't know what I want anymore." → DESIRE → Lucky Star stays conversational and asks a few thoughtful questions—then potentially saves what emerges to Scribe **with permission**.
+>
+> So **chat is the interface; Audio is one of the tools Lucky Star can prescribe/use.**
+
+### Design Room notes on the two modes
+- Replaces the Home command menu (Create for me · Help me figure this out · Give me my next move · Surprise me). Home now shows **one Guide card** from Lucky Star + the conversational input.
+- Inside features, the 11 opens **context-only** help (no generic menu).
+- Guide copy may name the stage ("You're ready to EMBODY it"); the stage is still not app navigation.
+- Rules that still apply: one Next Move per week, preview before anything is saved, save to Scribe only with permission, crisis-word stop, no health/money advice, AI consent screen.

@@ -197,6 +197,7 @@ The magazine remains the emotional and creative centerpiece.
 ---
 
 ## For marketing agents (Manager's notes, not Megan's words)
+- **Scope (Megan, Oct 3):** Lucky Star's agentic features are **V2**, after launch. V1/beta marketing must not promise Lucky Star features; show the magazine, Your World, Audio, Scribe and Proof.
 - Lead with the magazine and the transformation, never with "AI". Lucky Star appears as a helper inside the story.
 - Never promise results. Proof stories only from real users, with their written permission.
 - Never position ISSUE11 as productivity, goals, tasks or a chatbot.

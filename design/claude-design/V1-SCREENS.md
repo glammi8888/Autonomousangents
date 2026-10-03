@@ -15,3 +15,9 @@ Home → Audio player (V4 Immersive) → Eyes closed (V4) · Scribe = Notes to s
 
 ## Gaps for V1 (not designed yet)
 Onboarding Q01, Q03–06, Q08–09 · Meet Lucky Star + AI consent · paywall · Scribe writing screen · Publish (edit issue by prompting) + issue reader · Add-proof flow · Explore · You/settings/delete account · notification permission.
+
+## Vibes batch (Oct 3, 2026), added to the prototype
+- 12 Streak calendar ← tap "12 day streak" on Home; "Write one line" → Scribe.
+- 14 Vision board "Collect · Your vision" (alternative Your World; Design Room suggests it replaces In frame).
+- 07 App icon picker ← avatar/You (iOS supports alternate app icons).
+- 11 Launch variants: red full-bleed, noir, white over photo (Megan to pick one).

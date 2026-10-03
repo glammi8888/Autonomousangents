@@ -27,6 +27,12 @@ S={
  'scribe':strip_nav(art('v4-notes-to-self/V4Notes.dc.html')),
  'issue':strip_nav(art('v4-my-issue-progress-first/V4Issue.dc.html')),
  'aura':art('lucky-star-aura-html/LSQ6AuraChat.dc.html'),
+ 'streak':art('12-streak-calendar-with-logo-tiles/Idea12Streak.dc.html'),
+ 'board':art('14-vision-board/Idea14Collect.dc.html'),
+ 'icons':art('07-app-icon-picker/IdeaAppIcons.dc.html'),
+ 'launchRed':art('11-cream-on-red-full-bleed/Eleven03RedBleed.dc.html'),
+ 'launchNoir':art('11-small-cream-on-black/Eleven04Noir.dc.html'),
+ 'launchPhoto':art('11-white-over-photo/Eleven05Photo.dc.html'),
 }
 # Adaptations (functionality + locked architecture names)
 S['launch']=re.sub(r'<div style="position: absolute; left: 70px; right: 70px; bottom: 80px;.*?</div></div></div>','',S['launch'],flags=re.S)
@@ -69,8 +75,8 @@ a{color:inherit}
 </div>
 <script>
 const F=document.getElementById('frame'),T=document.getElementById('toast');
-const ORDER=[['launch','Launch'],['welcome','Welcome'],['becoming','Q02'],['vision','Q07'],['building','Building'],['signin','Sign in'],['home','Home'],['player','Audio'],['eyes','Eyes closed'],['scribe','Scribe'],['world','Your world'],['issue','Issue'],['aura','Lucky Star']];
-const TABS=['home','scribe','issue'];let cur='launch',hist=[];
+const ORDER=[['launch','Launch'],['welcome','Welcome'],['becoming','Q02'],['vision','Q07'],['building','Building'],['signin','Sign in'],['home','Home'],['player','Audio'],['eyes','Eyes closed'],['scribe','Scribe'],['world','Your world'],['issue','Issue'],['aura','Lucky Star'],['streak','Streak'],['board','Vision board'],['icons','App icon'],['launchRed','Launch red'],['launchNoir','Launch noir'],['launchPhoto','Launch photo']];
+const TABS=['home','scribe','issue','board'];let cur='launch',hist=[];
 function go(n,back){if(n===cur)return;if(!back)hist.push(cur);document.querySelectorAll('.scr').forEach(s=>s.classList.toggle('on',s.dataset.name===n));cur=n;F.classList.toggle('tabs',TABS.includes(n));
  const d=document.querySelector('#s-'+n+'>div');if(d)d.scrollTop=0;
  document.querySelectorAll('#tabbar a').forEach((a,i)=>{const dot=a.querySelector('span+span');if(dot)dot.style.background=((i===0&&n==='home')||(i===2&&n==='issue'))?'#F65AAD':'transparent'});
@@ -137,12 +143,21 @@ wire('issue','a','FINISH MY ISSUE',()=>toast('Next empty page · not designed ye
 const ax=$s('aura').querySelector('a[aria-label="Close"]');if(ax)ax.addEventListener('click',e=>{e.preventDefault();back()});
 wire('aura','a','START',()=>go('player'));
 ['a[aria-label="Send"]','a[aria-label="Hold to talk"]'].forEach(q=>{const b=$s('aura').querySelector(q);if(b)b.addEventListener('click',e=>{e.preventDefault();toast('Talking to Lucky Star · V2')})});
+// Vibes screens
+['launchRed','launchNoir','launchPhoto'].forEach(n=>$s(n).onclick=()=>go('welcome'));
+const hs=byText('home','div','12 DAY STREAK');if(hs){hs.style.cursor='pointer';hs.addEventListener('click',()=>go('streak'))}
+[...$s('streak').querySelectorAll('a')].forEach(a=>a.addEventListener('click',e=>{e.preventDefault();if(/WRITE ONE LINE/.test(a.textContent)||a.getAttribute('aria-label')==='Write today')go('scribe');else if(a.getAttribute('aria-label')==='Back')back()}));
+const wb=byText('streak','*','WRITE ONE LINE');if(wb&&wb.tagName!=='A'){wb.style.cursor='pointer';wb.addEventListener('click',()=>go('scribe'))}
+[...$s('board').querySelectorAll('a[aria-label="Back"]')].forEach(a=>a.addEventListener('click',()=>back()));
+const icons=[...$s('icons').querySelectorAll('a')].filter(a=>a.querySelector('div[style*="100px"]'));
+icons.forEach(a=>a.addEventListener('click',()=>{icons.forEach(b=>{const t=b.querySelector('div');t.style.outline='none'});const t=a.querySelector('div');t.style.outline='3px solid #F65AAD';t.style.outlineOffset='4px'}));
+wire('icons','a','SET ICON',()=>toast('App icon changed ✦'));
 // Tab bar
 const tl=[...document.querySelectorAll('#tabbar a')];
 tl[0]&&tl[0].addEventListener('click',()=>go('home'));
 tl[1]&&tl[1].addEventListener('click',()=>toast('Explore · not designed yet'));
 tl[2]&&tl[2].addEventListener('click',()=>go('issue'));
-tl[3]&&tl[3].addEventListener('click',()=>toast('You · not designed yet'));
+tl[3]&&tl[3].addEventListener('click',()=>go('icons'));
 document.getElementById('eleven').addEventListener('click',()=>go('aura'));
 document.querySelectorAll('.scr').forEach(s=>s.classList.toggle('on',s.dataset.name==='launch'));drawCrumbs();setTimeout(()=>cur==='launch'&&go('welcome'),1600);
 </script>

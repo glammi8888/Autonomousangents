@@ -28,3 +28,10 @@ Onboarding Q01, Q03–06, Q08–09 · Meet Lucky Star + AI consent · paywall ·
   - Streak calendar → You screen (your ritual history)
   - App icon picker → Settings, inside You
   - Vision board → Your World (stronger than In frame)
+
+## Full V1 flow (Oct 3, 2026): new design + original onboarding and app logic (Megan: "yes exactly")
+Onboarding: Launch → Welcome → How it works → Q01 name → Q02 who are you becoming (life areas) → Q03 what you want most → Q04 pick what feels like her (Your World) → Q05 how you want to practice (Audio) → Q06 how you want to feel → Q07 one year from now → Q08 past proof → Q09 one small step → Meet Lucky Star + AI consent → Lucky Star builds your first Issue → Cover reveal → Notifications → Paywall → Save your issue (sign in) → Home.
+App: Home · Audio (player, eyes closed) · Scribe (notes, write) · Your World (vision board → in frame) · Issue (pages → page with "change this page" prompt) · Add proof → "It's real" · You (stats, app icon, ritual, notifications, Lucky Star & AI, membership, privacy, sign out, delete account) · 11 → Lucky Star.
+Design Room-made screens (V4 style, Megan to refine in Claude Design): how, q01, q03–q06, q08, q09, meet, reveal, notif, paywall, write, proof, proofdone, page, you, delete. Source: v1-prototype/gaps.py.
+⚠️ Paywall shows "PRICE TBD": prices, trial and final wording are a Revenue + Megan decision. Payments + user data screens need Megan's spec approval before building.
+Still open: Explore tab.

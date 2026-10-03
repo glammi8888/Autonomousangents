@@ -52,7 +52,8 @@ page='''<title>ISSUE11 V1 Prototype</title>
 html,body{background:var(--ground);color:var(--ink)}
 body{margin:0;padding-inline:16px;padding-block:24px;display:flex;flex-direction:column;align-items:center;gap:14px;font-family:'Archivo Narrow',sans-serif}
 a{color:inherit}
-.frame{position:relative;width:390px;max-width:100%;height:min(844px,calc(100vh - 48px));border-radius:36px;overflow:hidden;box-shadow:0 0 0 8px #111,0 30px 60px rgba(0,0,0,.25);background:#fff}
+.fit{position:relative;width:390px;height:844px;flex-shrink:0}
+.frame{position:absolute;left:0;top:0;width:390px;height:844px;transform-origin:0 0;border-radius:36px;overflow:hidden;box-shadow:0 0 0 8px #111,0 30px 60px rgba(0,0,0,.25);background:#fff}
 .frame img{max-width:none}
 .scr{position:absolute;inset:0;display:none}
 .scr.on{display:block;animation:fade .25s ease}
@@ -68,15 +69,18 @@ a{color:inherit}
 .crumbs button{font:inherit;text-transform:inherit;border:1px solid #0d0d0d;background:transparent;border-radius:14px;padding:5px 10px;cursor:pointer;color:#0d0d0d}
 .crumbs button.cur{background:#0d0d0d;color:#fff}
 .sel{outline:3px solid #0d0d0d!important;outline-offset:3px}
+@media (max-width:500px){html,body{background:#0d0d0d}body{padding:0;gap:10px}.crumbs{color:#aaa}.crumbs button{border-color:#555;color:#ddd}.frame{border-radius:0;box-shadow:none}}
 @media (prefers-reduced-motion:reduce){.scr.on{animation:none}.toast{transition:none}}
 </style>
-<div class="frame" id="frame">
+<div class="fit" id="fit"><div class="frame" id="frame">
 '''+secs+'\n'+nav+'''
 <div class="toast" id="toast"></div>
-</div>
+</div></div>
 <div class="crumbs" id="crumbs"></div>
 <script>
-const F=document.getElementById('frame'),T=document.getElementById('toast');
+const F=document.getElementById('frame'),T=document.getElementById('toast'),FIT=document.getElementById('fit');
+function fit(){const phone=innerWidth<=500;const pad=phone?0:32;const sc=Math.min((innerWidth-pad)/390,(innerHeight-(phone?0:48))/844,phone?10:1);F.style.transform='scale('+sc+')';FIT.style.width=(390*sc)+'px';FIT.style.height=(844*sc)+'px'}
+addEventListener('resize',fit);fit();
 const ORDER=[['launch','Launch'],['welcome','Welcome'],['how','How it works'],['q01','Q01'],['becoming','Q02'],['q03','Q03'],['q04','Q04'],['q05','Q05'],['q06','Q06'],['vision','Q07'],['q08','Q08'],['q09','Q09'],['meet','Meet Lucky Star'],['building','Building'],['reveal','Reveal'],['notif','Notifications'],['paywall','Paywall'],['signin','Save issue'],['home','Home'],['player','Audio'],['eyes','Eyes closed'],['scribe','Scribe'],['write','Write'],['board','Your world'],['world','In frame'],['issue','Issue'],['page','Page'],['proof','Add proof'],['proofdone','Proof!'],['streak','Streak'],['you','You'],['icons','App icon'],['delete','Delete account'],['aura','Lucky Star'],['launchRed','Launch red'],['launchNoir','Launch noir'],['launchPhoto','Launch photo']];
 const TABS=['home','scribe','issue','board','you'];let cur='launch',hist=[];
 function go(n,back){if(n===cur)return;if(!back)hist.push(cur);document.querySelectorAll('.scr').forEach(s=>s.classList.toggle('on',s.dataset.name===n));cur=n;F.classList.toggle('tabs',TABS.includes(n));

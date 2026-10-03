@@ -35,3 +35,6 @@ App: Home · Audio (player, eyes closed) · Scribe (notes, write) · Your World 
 Design Room-made screens (V4 style, Megan to refine in Claude Design): how, q01, q03–q06, q08, q09, meet, reveal, notif, paywall, write, proof, proofdone, page, you, delete. Source: v1-prototype/gaps.py.
 ⚠️ Paywall shows "PRICE TBD": prices, trial and final wording are a Revenue + Megan decision. Payments + user data screens need Megan's spec approval before building.
 Still open: Explore tab.
+
+## Batch 2 (Oct 3, 2026, Megan: "Add it all please")
+Added to the prototype: Hold to log your win (Home) · Lucky Star weekly move card (Home carousel) · Explore + Collection (session library) · After-session "How do you feel now?" → Scribe (player ⏭ ends the session in the prototype) · Issue reader (swipe pages) · Page editor (layout, page color with auto text color, emoji + 11 stickers you can drag, patterns waves/zebra/cheetah/hearts, edit text, undo) · Night mode (You → Night mode; preview) · Past proof archive (You → Proofs) · Offline state · Scribe empty state.

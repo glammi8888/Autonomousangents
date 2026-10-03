@@ -101,3 +101,8 @@ Not decided here: pricing (💛 Revenue + Megan).
 Megan: teach DESIRE → IMAGINE → EMBODY → BECOME in onboarding (design/NORTH-STAR.md, "Clarity first").
 01 Splash → 02 Hook → **02b How it works (the loop)** → 03 Dream + 04 Ideal life [DESIRE] → 05 Life areas → 06 Visuals [IMAGINE] → 07 Sessions [EMBODY] → **07b First Next Move (one small step this week)** [EMBODY] → 08 Past proof [BECOME] → 09 Name → **09b Meet Lucky Star + AI consent** → 10 Printing → 11 Reveal → 12 Notifications → Paywall.
 ~~Each question screen shows a small stage label~~ → dropped (Oct 3, locked architecture: the loop is not navigation). The "How it works" screen stays.
+
+## Lucky Star → V2 (Megan, Oct 3, 2026)
+Megan: "I don't know why but adding AI feature inside the app is overwhelming to me." → "Maybe we add the agentic features in V2 then."
+- V2: Lucky Star Guide (Home), Assist (in features), chat + voice, aura screen, weekly Next Move. Specs and mockups kept: design/lucky-star-spec.md, design/lucky-star-design-brief.md, design/claude-design/lucky-star-aura-html/.
+- V1: Your World · Audio · Scribe · Publish. Open: does Publish still use AI to build the magazine on Megan's layouts in V1 (design/magazine-ai-spec.md), and what does the 11 sticker do in V1?

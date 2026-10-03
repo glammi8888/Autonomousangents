@@ -1,5 +1,8 @@
 > **Locked architecture (Megan, Oct 3): design/PRODUCT-ARCHITECTURE.md wins wherever this spec differs. Lucky Star has TWO MODES: ASSIST inside a feature (context-only help, no generic menu) and GUIDE on Home (one next thing based on her stage; conversational with text + voice; can launch Audio). The Home command menu below is superseded.** Lucky Star is not a 5th section; it is the intelligence layered across Your World · Audio · Scribe · Publish. AI stays invisible until useful.
 
+> **🗓 Scope decision (Megan, Oct 3, 2026): "Maybe we add the agentic features in V2 then."** Lucky Star (Guide, Assist, chat, voice, aura screen) moves to **V2**. Everything designed for it stays saved for V2. V1 = Your World · Audio · Scribe · Publish.
+
+
 # Spec: Lucky Star ★, the contextual "11" editor (draft v2, for Megan's approval)
 Design Room · Oct 2, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL**. This touches **user data** (journal, goals, pages and images go to an AI service), so per CLAUDE.md nothing gets built before Megan approves this spec.
 

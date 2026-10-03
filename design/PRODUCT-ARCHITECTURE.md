@@ -1,4 +1,7 @@
 # ISSUE11 Product Architecture (LOCKED by Megan, Oct 3, 2026)
+
+> **🗓 Scope decision (Megan, Oct 3, 2026): "Maybe we add the agentic features in V2 then."** Lucky Star (Guide, Assist, chat, voice, aura screen) moves to **V2**. Everything designed for it stays saved for V2. V1 = Your World · Audio · Scribe · Publish.
+
 This is a hard product rule. It overrides earlier Design Room proposals wherever they differ. Megan's text below is verbatim.
 
 **Magazine = product. Lucky Star = intelligence. 11 sticker = access to the intelligence.**

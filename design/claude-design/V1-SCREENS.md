@@ -21,3 +21,10 @@ Onboarding Q01, Q03–06, Q08–09 · Meet Lucky Star + AI consent · paywall ·
 - 14 Vision board "Collect · Your vision" (alternative Your World; Design Room suggests it replaces In frame).
 - 07 App icon picker ← avatar/You (iOS supports alternate app icons).
 - 11 Launch variants: red full-bleed, noir, white over photo (Megan to pick one).
+- Megan: "they don't all need to be added but they can be added on screens that haven't been established yet." Vibes = a mood library for the gap screens:
+  - Red full-bleed 11 → "Proof added" celebration moment
+  - Noir small 11 → Meet Lucky Star + AI consent background
+  - White 11 over photo → paywall hero
+  - Streak calendar → You screen (your ritual history)
+  - App icon picker → Settings, inside You
+  - Vision board → Your World (stronger than In frame)

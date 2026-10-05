@@ -44,7 +44,7 @@ Copy-paste blocks in the skill's format:
 ```
 [TRACKING DATA-FIELD: US · App Name (30/30)]       ISSUE11: Manifestation Journal
 [TRACKING DATA-FIELD: US · Subtitle (28/30)]       Manifest with a Vision Board
-[TRACKING DATA-FIELD: US · Keywords (94/100)]      scripting,magazine,photo,diary,intention,reflection,lucky,dream,life,audio,aesthetic,moodboard
+[TRACKING DATA-FIELD: US · Keywords (88/100)]      scripting,magazine,photo,diary,intention,reflection,lucky,girl,audio,aesthetic,moodboard
 [TRACKING DATA-FIELD: es-MX · App Name (26/30)]    ISSUE11: Law of Attraction
 [TRACKING DATA-FIELD: es-MX · Subtitle (28/30)]    Manifesting Your Future Self
 [TRACKING DATA-FIELD: es-MX · Keywords (89/100)]   loa,concept,visualization,assumption,affirmations,guided,ritual,inspiration,2027,new,year
@@ -74,3 +74,26 @@ Keyword-field rules checked: no spaces, no repeats within a field, no repeats be
 1. Okay to drop `goals` from the keywords (it pulls in goal-tracker searchers)?
 2. Do you want an English (UK/Australia) listing at launch, or US + Mexico only for now?
 3. Is Keyword Monitor still free on your account, so I can measure the ~12 unmeasured words before late December?
+
+## 🔴 Live scan, Oct 5 (App Store now reachable)
+**Method:** iTunes Search API, US store, top 10 per term, `userRatingCount` = competition. **Limits:** the API's order is close to, but not the same as, iPhone App Store search. It shows competition only; **demand (popularity) still needs Keyword Monitor.**
+
+| Term | #1 result (ratings) | Top-5 median | Read |
+|---|---|---|---|
+| manifestation journal | My Manifestation Journal (366) | 728 | ✅ still the easy #1 target (title) |
+| manifest / manifestation | Stella (5,218) | 3,729 | hard, long-term |
+| vision board | Vision Board & Goal Tracker (3,758) | 3,055 | hard; CPP + subtitle |
+| vision board 2027 | Vision Board 2027 (2,728) | **17** | 🟢 one strong app, rest tiny → top 3 realistic in Jan |
+| manifestation audio | Becoming (36) | 1,613 | 🟢 #1 is weak; Audio ships |
+| affirmations audio | Presence (358) | 0 | 🟢 open |
+| manifestation scripting | Kazara (10) | 93 | 🟢 open (US `scripting` + title) |
+| future self manifestation | Faye (0) | 0 | 🟢 open (MX subtitle) |
+| lucky girl manifestation | Lucky Girl (6) | 14 | 🟢 open (new `lucky,girl`) |
+| self concept | HerSelfConcept (3) | 134 | 🟢 open (MX `concept` + "Self") |
+| law of assumption | Assume (0) | 214 | 🟢 open, but popularity 5 |
+| manifestation magazine | Stella; no app owns the phrase | 563 | 🟢 ownable, demand unknown |
+| personal magazine / my magazine | ZINIO, Pocketmags (newsstands) | 1,450+ | ❌ wrong intent (people want to read magazines) |
+| dream journal / dream life | sleep-dream apps / life-sim games | — | ❌ wrong intent → `dream,life` removed |
+| future self journal | Reflectly (81,692) | 5,067 | ❌ generic journal giants |
+
+**Next for accuracy:** popularity numbers for the 🟢 terms (Keyword Monitor). Demand × weak competition = the final v10 list.

@@ -231,3 +231,11 @@ Ranking = relevance (metadata) × behavior (downloads, conversion, ratings, rete
 5. **In-App Events on "the 11th":** a monthly event on the 11th (11:11 / angel numbers ties to the name), plus the New Year Issue in January. Event cards show on the product page and in browse. In search they show only for existing users (Apple), so they help retention more than first downloads.
 6. **Launch-week velocity:** waitlist downloads concentrated around Jan 11 + featuring nomination (drafted, Nov 12–30).
 7. **Later:** English (UK/AU/CA) localizations for more keyword space (indexing unverified), then other languages.
+
+## 🎯 "5 big + 20 small" check (framework Megan heard on YouTube, Oct 5)
+**5 big (Apple popularity > 20), all already in the strongest fields (title/subtitles):**
+manifest 44 (US subtitle) · vision board 40 (US subtitle) · scrapbook 37 (MX subtitle) · digital scrapbook 28 (MX subtitle) · manifestation 24 (US title)
+
+**20 small (winnable long-tails covered by v14):**
+manifestation journal · manifest journal · journal prompts · manifestation prompts · scripting journal · manifestation scripting · photo journal · gratitude journal · angel numbers · subliminal · manifestation subliminal · manifestation visualization · manifestation affirmations · manifestation audio · law of attraction · law of attraction journal · self love · mindset · mood board · vision board 2027 (seasonal)
+Combos across the US and Mexico listings (e.g. gratitude + Journal) rely on the cross-listing belief (unverified).

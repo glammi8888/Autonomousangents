@@ -97,3 +97,32 @@ Keyword-field rules checked: no spaces, no repeats within a field, no repeats be
 | future self journal | Reflectly (81,692) | 5,067 | ❌ generic journal giants |
 
 **Next for accuracy:** popularity numbers for the 🟢 terms (Keyword Monitor). Demand × weak competition = the final v10 list.
+
+## 📊 Demand data, Oct 5 (ASOMobile 7-day trial, US store, from Megan's screenshots)
+"Traffic" = ASOMobile's estimate. "Search Ads" = Apple's popularity score (5 is the lowest value). Where it shows "5 | 40", the right-hand number matches our September value. What the "5" means still needs ASOMobile's ⓘ tooltip (it might be the latest reading at the floor). "–" = not enough data to track.
+
+| Term | Traffic | Search Ads | Verdict |
+|---|---|---|---|
+| diary | 902 | 52 | ✅ keep (US) |
+| affirmations | 808 | 50 | ✅ **move to US** (combos with the title: manifestation affirmations) |
+| manifest | 535 | 44 | ✅ subtitle, confirmed |
+| vision board | 459 | 5 \| 40 | ✅ subtitle, confirmed |
+| aesthetic | 392 | 5 \| 37 | ✅ keep |
+| magazine | 286 | 5 \| 31 | ✅ keep (the searcher intent here is mixed with newsstand apps) |
+| moodboard | 215 | 5 \| 27 | ✅ keep |
+| manifestation journal | 122 | 5 \| 20 | ✅ title, confirmed |
+| photo journal | 75 | 5 \| 15 | ✅ keep `photo` |
+| law of assumption | 3 | 5 | ⚪ cheap, keep in Mexico only |
+| guided visualization, visualization, self concept, self reflection | 0 | 5 / – | ❌ cut `visualization, guided, concept, reflection` |
+| vision board 2027, new year vision board, manifestation audio, affirmations audio, manifestation scripting, manifestation magazine, future self manifestation, lucky girl manifestation, intention journal | – | – | ❌ no measurable demand **now**. The weak competitors were real, but almost nobody searches these. Exception to check: **vision board 2027** is seasonal (check last year's "vision board 2026" for Dec–Jan). |
+
+**Lesson:** weak competitors only matter where there's demand. Most of the Oct 5 "opportunities" have no demand. The real wins are the big single words combined with our title and subtitle.
+
+### v10 DRAFT (counts by script, title/subtitle unchanged)
+```
+[TRACKING DATA-FIELD: US · Keywords (79/100)]    diary,affirmations,aesthetic,magazine,moodboard,photo,audio,scripting,intention
+[TRACKING DATA-FIELD: es-MX · Keywords (40/100)] loa,assumption,inspiration,2027,new,year
+```
+- Removed: `lucky, girl, reflection, life, visualization, guided, ritual, concept` (0 or no data).
+- `scripting`, `intention`, `audio`, `inspiration`, `2027,new,year` are still unmeasured → measure in batch 3 before locking.
+- 81 characters are free across the two fields. Fill them **only with measured words** from batch 3.

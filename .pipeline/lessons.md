@@ -17,6 +17,8 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 - 2026-10-01 · Design Room · Megan: "we nailed the functionality but the design needs refinement". The flow is locked; she refines the look in Claude Design. Next time, lock the flow first, then do the visual design as a separate pass, so Figma polish isn't spent on screens before their look is final.
 - 2026-10-01 · Launch Prep Room · Trademark databases (USPTO, WIPO, EUIPO, Justia, Trademarkia) are all blocked by this environment's network. Don't retry them: do the web/App Store knockout and give Megan the 5-minute self-check steps.
 - 2026-10-01 · Launch Prep Room · The local branch had drifted from origin (stale history). Always `git fetch` and work from origin/<branch> before writing, so the next pull doesn't create a messy merge.
+- 2026-10-04 · 💚 GROWTH (ASO Scout) · Marketplace plugins installed in the Claude desktop app don't reach cloud Code sessions. Megan uploaded the zip; the skill now lives in `.claude/skills/aso-specialist/` (MIT). Next time: check `.claude/skills/` first, and ask for the plugin zip right away instead of retrying the plugin list.
+- 2026-10-04 · 💚 GROWTH (ASO Scout) · Re-checking metadata against Apple's own docs (developer.apple.com is reachable; the App Store and iTunes API are not) caught 2 real issues: "goals" contradicts the locked architecture, and the Mexico keywords repeated US words. Always run a duplicate-word script across both listings, not just within each one.
 
 ## Suggestions
 Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`

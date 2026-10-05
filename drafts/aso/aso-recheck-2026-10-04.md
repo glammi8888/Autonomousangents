@@ -99,7 +99,7 @@ Keyword-field rules checked: no spaces, no repeats within a field, no repeats be
 **Next for accuracy:** popularity numbers for the 🟢 terms (Keyword Monitor). Demand × weak competition = the final v10 list.
 
 ## 📊 Demand data, Oct 5 (ASOMobile 7-day trial, US store, from Megan's screenshots)
-"Traffic" = ASOMobile's estimate. "Search Ads" = Apple's popularity score (5 is the lowest value). Where it shows "5 | 40", the right-hand number matches our September value. What the "5" means still needs ASOMobile's ⓘ tooltip (it might be the latest reading at the floor). "–" = not enough data to track.
+"Traffic" = ASOMobile's estimate. **ASOMobile's tooltip (Oct 5):** "The current App Store score for this keyword is 5. After the latest update, many keywords were set to 5, making the score less informative. We show the previous popularity score." So in "5 | 40", 40 is the last real popularity score. **A bare "5" (or traffic 0) means "unknown", not "no demand"**, which affects visualization, guided visualization, self reflection and law of assumption. Treat those as unmeasured, not as dead. "Search Ads" = Apple's popularity score (5 is the lowest value). Where it shows "5 | 40", the right-hand number matches our September value. What the "5" means still needs ASOMobile's ⓘ tooltip (it might be the latest reading at the floor). "–" = not enough data to track.
 
 | Term | Traffic | Search Ads | Verdict |
 |---|---|---|---|

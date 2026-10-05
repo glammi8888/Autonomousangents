@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "issue11",
+    "name": "ISSUE11",
     "slug": "issue11",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,8 @@
     "scheme": "issue11",
     "userInterfaceStyle": "automatic",
     "ios": {
-      "icon": "./assets/expo.icon"
+      "icon": "./assets/expo.icon",
+      "bundleIdentifier": "com.issue11.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -37,6 +38,11 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7b8b1253-289e-45b3-82c1-7a4ec932c744"
+      }
     }
   }
 }

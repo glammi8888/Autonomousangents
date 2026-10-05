@@ -19,6 +19,7 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 - 2026-10-01 · Launch Prep Room · The local branch had drifted from origin (stale history). Always `git fetch` and work from origin/<branch> before writing, so the next pull doesn't create a messy merge.
 - 2026-10-04 · 💚 GROWTH (ASO Scout) · Marketplace plugins installed in the Claude desktop app don't reach cloud Code sessions. Megan uploaded the zip; the skill now lives in `.claude/skills/aso-specialist/` (MIT). Next time: check `.claude/skills/` first, and ask for the plugin zip right away instead of retrying the plugin list.
 - 2026-10-04 · 💚 GROWTH (ASO Scout) · Re-checking metadata against Apple's own docs (developer.apple.com is reachable; the App Store and iTunes API are not) caught 2 real issues: "goals" contradicts the locked architecture, and the Mexico keywords repeated US words. Always run a duplicate-word script across both listings, not just within each one.
+- 2026-10-05 · 💚 GROWTH (Opportunity Scout) · SplitMetrics, AppGoblin, ScreensDesign and apps.apple.com are all egress-blocked; search-result snippets were the only source of ratings and revenue ranges. Next time: skip direct fetches of those domains and spend the budget on targeted searches like "<app> AppGoblin revenue".
 
 ## Suggestions
 Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`

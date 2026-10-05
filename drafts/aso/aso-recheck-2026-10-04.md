@@ -120,9 +120,10 @@ Keyword-field rules checked: no spaces, no repeats within a field, no repeats be
 
 ### v10 DRAFT (counts by script, title/subtitle unchanged)
 ```
-[TRACKING DATA-FIELD: US · Keywords (79/100)]    diary,affirmations,aesthetic,magazine,moodboard,photo,audio,scripting,intention
+[TRACKING DATA-FIELD: US · Keywords (93/100)]    diary,affirmations,aesthetic,magazine,moodboard,photo,audio,scripting,intention,visualization
 [TRACKING DATA-FIELD: es-MX · Keywords (40/100)] loa,assumption,inspiration,2027,new,year
 ```
-- Removed: `lucky, girl, reflection, life, visualization, guided, ritual, concept` (0 or no data).
+- Removed: `lucky, girl, reflection, life, guided, ritual, concept` (0 or no data).
+- **`visualization` back in (US), per Megan:** Apple scores it 5, the lowest value Apple reports. That means low search volume, not zero. The live check shows the right searchers (guided visualization and manifestation apps; the #1 app has only 894 ratings), it describes the Audio feature, and it combines with the title ("manifestation visualization"). For 14 characters it's worth keeping. Re-check in Round 2.
 - `scripting`, `intention`, `audio`, `inspiration`, `2027,new,year` are still unmeasured → measure in batch 3 before locking.
-- 81 characters are free across the two fields. Fill them **only with measured words** from batch 3.
+- 67 characters are free across the two fields. Fill them **only with measured words** from batch 3.

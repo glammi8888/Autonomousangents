@@ -16,4 +16,4 @@ Drafts only. Nothing posted, published, submitted, bought or emailed. Megan appr
 ## Megan decides (3 questions)
 1. **Founder story on Instagram:** share the postpartum part in post 2, or keep it to "after my daughter was born"? *(Recommend: keep it short and in your words; it's yours to share.)*
 2. ✅ **Megan, Oct 2: YES.** **Waitlist = beta testers?** Do waitlist sign-ups get a TestFlight invite on 11.11? *(Recommend: yes, the first ~100 who confirm. It makes the waitlist worth joining. It changes post 6 and the FAQ.)*
-3. ✅ **Megan, Oct 2: YES and YES.** **Beta sessions:** OK with 8 sessions in 2 types (guided visualization + affirmations) and no subliminals/breathwork/meditation in the beta? *(Recommend: yes. Smallest set that fills all 4 collections, lowest claims risk.)*
+3. ✅ **Megan, Oct 2: YES and YES.** **Beta sessions:** OK with 8 sessions in 2 types (guided visualization + affirmations) and no subliminals/breathwork/meditation in the beta? *(Updated by Megan, Oct 5: + Subliminal and Angel numbers sessions → 10 sessions; see content-recording-list.md.)* *(Recommend: yes. Smallest set that fills all 4 collections, lowest claims risk.)*

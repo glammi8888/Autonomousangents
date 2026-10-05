@@ -174,3 +174,23 @@ Keyword-field rules checked: no spaces, no repeats within a field, no repeats be
 - `visualization` moved to Mexico to make room. It combines with "Manifesting" there.
 - 41 characters free: reserved for `gratitude` / `prompts` if Megan confirms those features.
 - Idea for later (needs Megan): the Mexico subtitle's "Future Self" has ~3/day. A subtitle with **scrapbook** would carry more weight than the keyword field. Test in Round 2.
+
+## ✅ Megan's answers (Oct 5) → v13
+- Scribe **has writing prompts**: yes. Gratitude writing: yes, "an easy feature" (**must actually ship in the Jan 11 build** before the word goes live).
+- Audio/video will include **angel numbers** and **subliminals**. This changes the earlier brief ("no subliminals in V1"). PRODUCT/Design docs should be updated to match.
+
+| Term | Popularity (Round 1, Sep) | Top apps live, Oct 5 (ratings) | Verdict |
+|---|---|---|---|
+| angel numbers | 16 | Angel Numbers Numerology 1,478 · Angel Number Signs 838 · rest 0–2 | 🟢 weak competition |
+| subliminal(s) | 20 | VibeSesh 1,613 · Sound & Soulful 1,748 · Subliminal Manifestation 444 · Hopium 29 | 🟢 medium-weak |
+| journal prompts | 23 (ASOMobile, 162/day) | solo. 6 · Ink 11 | 🟢 |
+| gratitude journal | 39 (436/day) | Gratitude 45K | ⚪ hard to top, but a real feature now |
+
+### v13 DRAFT (counts by script; no repeats within or across listings, or with name/subtitle/category)
+```
+[TRACKING DATA-FIELD: US · Keywords (100/100)]   diary,affirmations,aesthetic,magazine,moodboard,mood,photo,audio,scripting,scrapbook,digital,prompts
+[TRACKING DATA-FIELD: es-MX · Keywords (91/100)] loa,inspiration,love,mindset,visualization,gratitude,subliminal,angel,numbers,2027,new,year
+```
+- `prompts` in US combines with "Journal" in the US title (same listing).
+- `assumption` dropped (≈3 searches/day) to make room.
+- **Trust rules:** only list these if the content is in the Jan 11 build (Apple 2.3.7: keywords must be accurate). Subliminal/angel-number copy must not promise results or health effects (1.4.1). Present them as experiences, not guarantees.

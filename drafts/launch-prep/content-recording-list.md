@@ -13,14 +13,14 @@ Oct 1, 2026 · DRAFT. Based on design/prototype (v1), design/FLOW-MAP.md and des
 | Cover reveal "Printing your issue…" | No: built as an in-app animation. |
 | Paywall, Past Proof, Issue, You | No. |
 
-The prototype lists 26 sessions (8+6+7+5). That's the Jan 11 picture, not the beta. **Beta minimum = 8 sessions + 4 video loops.** Launch target stays 10–20 (Megan, Oct 1): add 2–12 more in November.
+The prototype lists 26 sessions (8+6+7+5). That's the Jan 11 picture, not the beta. **Beta minimum = 10 sessions + 4 video loops** (8 + Subliminal + Angel numbers, Megan Oct 5). Launch target stays 10–20 (Megan, Oct 1): add 2–12 more in November.
 
 ## Scope note (Product recommendation, Megan decides)
 - Beta uses **2 session types only: Guided visualization (10–12 min) and Affirmations (5–6 min).** They need only Megan's voice + music, and they match the prototype ("Visualization · 12 min", "Affirmations · 6 min").
 - Leave out for the beta: **Subliminals** (wording/health-claim risk, see WIREFRAMES.md), **Meditation** and **Breathwork** (more script risk, add later). The onboarding 07 question then shows only the types that exist, so nothing is "coming soon" (App Store 2.1 at launch).
-- **Scope update (Megan, Oct 5):** for the **Jan 11 App Store launch**, Audio also includes **Subliminal** and **Angel numbers** sessions (audio/video), and Scribe includes **writing prompts** and **gratitude writing**. The beta minimum above (8 sessions) is unchanged; add these in the November batch. They are listed as App Store keywords, so they **must ship complete in the Jan 11 build** (Apple 2.3.7) or the keywords get swapped before submission. Copy rule: experiences, never promised results or health effects (1.4.1); BRAND + Megan approve scripts.
+- **Scope update (Megan, Oct 5):** for the **Jan 11 App Store launch**, Audio also includes **Subliminal** and **Angel numbers** sessions (audio/video), and Scribe includes **writing prompts** and **gratitude writing**. **Megan, Oct 5: in the Nov 11 beta too** (A9, A10 below; prompts + gratitude in Scribe). The onboarding 07 question shows: Guided visualizations · Affirmations · Subliminals · Angel numbers. They are listed as App Store keywords, so they **must ship complete in the Jan 11 build** (Apple 2.3.7) or the keywords get swapped before submission. Copy rule: experiences, never promised results or health effects (1.4.1); BRAND + Megan approve scripts.
 
-## The list (8 sessions + 4 loops)
+## The list (10 sessions + 4 loops)
 
 ### Audio sessions
 | # | Name | Collection | Type | Length (finished) |
@@ -33,15 +33,17 @@ The prototype lists 26 sessions (8+6+7+5). That's the Jan 11 picture, not the be
 | A6 | I like what I see | Style & Beauty | Affirmations | 5 min |
 | A7 | A day in her rich life | Wealth | Guided visualization | 12 min |
 | A8 | Money moves with me | Wealth | Affirmations | 5 min |
-Total finished audio ≈ 65 min. Names are working titles; ❤️ BRAND polishes.
+| A9 | Under the music: I am her | Confidence | Subliminal | 10 min |
+| A10 | 11:11 | Wealth / Home | Angel numbers | 6 min |
+Total finished audio ≈ 81 min. Names are working titles; ❤️ BRAND polishes.
 
 ### Video loops (shared per collection)
 | # | Name | Used in | Length |
 |---|---|---|---|
-| V1 | Confidence loop | A1, A2 | 20–30 s seamless loop |
+| V1 | Confidence loop | A1, A2, A9 | 20–30 s seamless loop |
 | V2 | Travel loop | A3, A4 | 20–30 s seamless loop |
 | V3 | Style & Beauty loop | A5, A6 | 20–30 s seamless loop |
-| V4 | Wealth loop | A7, A8 | 20–30 s seamless loop |
+| V4 | Wealth loop | A7, A8, A10 | 20–30 s seamless loop |
 Direction: slow, cinematic, editorial (brand photography rules). Ideas: V1 light moving over a mirror and silk; V2 window/ocean light, curtains in wind; V3 fabric, lipstick, jewelry close-ups; V4 a calm, sunlit room, pages of a magazine turning. No readable brand logos. Faces optional; if anyone but Megan appears, get a signed release.
 Bonus: the same footage feeds the Instagram reels (instagram-launch.md).
 
@@ -71,11 +73,23 @@ Theme per session: A1 self-concept/presence · A3 a trip she keeps picturing · 
 2. 12–15 affirmations, first person, present tense, each said twice with a 3–4 s pause.
 3. Close (30 s): "Pick the one that felt truest. Save it to your issue."
 Themes: A2 self-trust · A4 travel/belonging · A6 self-image and style (no body-change claims) · A8 money and work (no income promises; e.g. "I make decisions about money with clarity", not "money comes to me easily").
+**Subliminal (10 min), A9**
+1. Spoken intro (30 s), honest about what it is: "Music with affirmations layered softly underneath. You may hear them faintly."
+2. 15–20 affirmations recorded at normal volume, mixed **quietly but audibly** under the music bed (no hidden or inaudible messages: trust + App Review).
+3. Close (30 s) + journal prompt. Never claim it "reprograms" the mind or works without effort.
+
+**Angel numbers (6 min), A10 "11:11"**
+1. Intro (1 min): what people mean by angel numbers (11:11, 111, 222), framed as a moment to pause and notice, not a prediction.
+2. Reflection (3 min): "When you see 11:11, what were you just thinking about?"
+3. 6–8 affirmations (1.5 min), close + journal prompt. No fortune-telling, no promises ("this means money is coming"). Ties into the ISSUE11 name.
+
+**Scribe additions (not recordings):** PRODUCT drafts ~30 writing prompts (desire, future self, scripting, proof) + a simple gratitude entry ("3 things I'm grateful for today"); BRAND + Megan approve. Developer builds both into Scribe.
+
 ❤️ BRAND + Megan approve all scripts before recording. ~~Keep "subliminal" out of all titles and copy.~~ Superseded Oct 5: "Subliminal" may be a session type name; no claims in titles or copy.
 
 ## Recording plan (2 sessions)
 **Session 1 · Voice · ~Oct 8–10 (one half day, ~3 h)**
-- Warm up, record A1–A8 (≈65 min finished, plan ~2.5 h with retakes). Record each script in sections so mistakes are easy to redo.
+- Warm up, record A1–A10 (≈81 min finished, plan ~3 h with retakes). Record each script in sections so mistakes are easy to redo.
 - Same mic, same room, same position for all (so they sound alike).
 - Then: edit + mix + loudness by Oct 14 → send A1 + A2 to the developer first.
 

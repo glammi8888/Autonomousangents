@@ -127,3 +127,26 @@ Keyword-field rules checked: no spaces, no repeats within a field, no repeats be
 - **`visualization` back in (US), per Megan:** Apple scores it 5, the lowest value Apple reports. That means low search volume, not zero. The live check shows the right searchers (guided visualization and manifestation apps; the #1 app has only 894 ratings), it describes the Audio feature, and it combines with the title ("manifestation visualization"). For 14 characters it's worth keeping. Re-check in Round 2.
 - `scripting`, `intention`, `audio`, `inspiration`, `2027,new,year` are still unmeasured → measure in batch 3 before locking.
 - 67 characters are free across the two fields. Fill them **only with measured words** from batch 3.
+
+## 📥 Batch from Megan's ASOMobile export (Keyword Monitor, Stella selected, US, Oct 4) + live intent check
+| Term | Traffic/day | Search Ads | Who ranks (live) | Verdict |
+|---|---|---|---|---|
+| motivation | 2,779 | 62 | quote apps (Motivation 1.07M ratings) | ❌ wrong intent (quotes not in V1), giants |
+| glow up | 654 | 47 | looksmaxxing/beauty apps | ❌ appearance intent |
+| journaling | 318 | 33 | Journal (327K), Day One (118K) | ⚪ right intent, giants. Not now |
+| self love | 162 | 23 | affirmation/self-care apps (#1 2,025) | ✅ add `love` (combos with "Self" in the Mexico subtitle, same listing) |
+| that girl | 162 | 23 | routine/habit planners | ❌ habit-tracker intent (architecture) |
+| mindset | 152 | 22 | motivation/affirmation apps | ✅ add (medium competition) |
+| audio | 108 | 53 | — | ✅ keep |
+| inspiration | 102 | 18 | — | ✅ keep |
+| scripting | 101 | 18 | — | ✅ keep (now measured) |
+| affirmation | 92 | 28 | — | ⚪ skip, `affirmations` covers it |
+| intention | – | 5 | — | ❌ drop (no data) |
+| stella, stela, vix… | — | — | competitor brands | ❌ never (Apple keyword rules) |
+
+### v11 DRAFT (counts by script; no repeats within or across listings; no name/subtitle/category words)
+```
+[TRACKING DATA-FIELD: US · Keywords (83/100)]    diary,affirmations,aesthetic,magazine,moodboard,photo,audio,scripting,visualization
+[TRACKING DATA-FIELD: es-MX · Keywords (53/100)] loa,assumption,inspiration,love,mindset,2027,new,year
+```
+64 characters free. Fill them only with measured words (still to measure: scrapbook, collage, dream board, daily affirmations, positive affirmations, journal app, vision board app, abundance, manifest money, becoming, zine). Swap `2027,new,year` after January (needs an app update).

@@ -221,3 +221,13 @@ Script-checked: all within limits; no spaces; no repeats within a field, across 
 - `scrapbook,digital` left the US keywords (now in the subtitle). `self` was added to the Mexico keywords so "self love" still works. `journaling` (318/day) was added to the US keywords.
 - Still to do: swap `2027,new,year` in a February update. All features named here must be in the Jan 11 build (2.3.7).
 - Screenshot caption idea for scrapbook: "Your vision board, made into a scrapbook magazine". Real UI only.
+
+## 📈 ASO growth plan (Oct 5): App Store levers only
+Ranking = relevance (metadata) × behavior (downloads, conversion, ratings, retention). Metadata is done (v14). Growth now comes from:
+1. **Keyword iteration every app update (every 2–4 weeks).** Keywords and subtitles only change with a new version (Apple). Each release: keep ranks 1–3, add weight to 4–20 that are climbing, swap anything stuck past 20 or with ~0 traffic. Track ranks weekly.
+2. **Custom product pages per keyword cluster** (Apple: up to 70, each can be assigned keywords and appear in search; verified Oct 4): Scrapbook · Vision board · Audio (subliminal, angel numbers, visualization) · Affirmations · Journal prompts. Each gets screenshots that match the search, which lifts conversion.
+3. **Conversion tests:** Apple's product page optimization on icon + first 3 screenshots (cover reveal first). Higher tap-through → more downloads → higher rank.
+4. **Ratings:** the built-in prompt right after the first cover reveal. Reply to every review in the first months.
+5. **In-App Events on "the 11th":** a monthly event on the 11th (11:11 / angel numbers ties to the name), plus the New Year Issue in January. Event cards show on the product page and in browse. In search they show only for existing users (Apple), so they help retention more than first downloads.
+6. **Launch-week velocity:** waitlist downloads concentrated around Jan 11 + featuring nomination (drafted, Nov 12–30).
+7. **Later:** English (UK/AU/CA) localizations for more keyword space (indexing unverified), then other languages.

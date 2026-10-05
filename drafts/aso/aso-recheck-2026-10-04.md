@@ -239,3 +239,14 @@ manifest 44 (US subtitle) · vision board 40 (US subtitle) · scrapbook 37 (MX s
 **20 small (winnable long-tails covered by v14):**
 manifestation journal · manifest journal · journal prompts · manifestation prompts · scripting journal · manifestation scripting · photo journal · gratitude journal · angel numbers · subliminal · manifestation subliminal · manifestation visualization · manifestation affirmations · manifestation audio · law of attraction · law of attraction journal · self love · mindset · mood board · vision board 2027 (seasonal)
 Combos across the US and Mexico listings (e.g. gratitude + Journal) rely on the cross-listing belief (unverified).
+
+## 🔮 Projection: organic App Store **search** downloads, ~3 months after launch (model, not a promise)
+**Inputs:** ASOMobile daily traffic (US, Oct 4–5) for 16 terms. Angel numbers (~85/day) and subliminal (~120/day) are estimated from their September popularity scores. **Assumption (industry rule of thumb, not measured):** share of a term's daily searchers who install, by rank: #1 30% · #2 15% · #3 10% · #4–5 6% · #6–10 3% · #11–20 1% · 21+ 0.2%.
+
+| Scenario | Ranks assumed (examples) | Downloads/day | Downloads/month |
+|---|---|---|---|
+| Conservative | manifestation journal #3, digital scrapbook #5, scrapbook #8, journal prompts #5, vision board #40, manifest #50 | ~57 | ~1,700 |
+| Realistic | manifestation journal #1, digital scrapbook #2, scrapbook #3, journal prompts #2, angel numbers #3, vision board #15, manifest #25 | ~176 | ~5,300 |
+| Optimistic | manifestation journal, scrapbook, digital scrapbook, journal prompts, angel numbers all #1; manifestation #3, vision board #5, manifest #8 | ~432 | ~13,000 |
+
+Not included: TikTok/Instagram/Pinterest, featuring, word of mouth, the January seasonal spike, other countries. Biggest driver in every scenario: **scrapbook + digital scrapbook + manifestation journal + journal prompts.** Re-run with real Search Analytics data from App Store Connect after launch.

@@ -194,3 +194,14 @@ Keyword-field rules checked: no spaces, no repeats within a field, no repeats be
 - `prompts` in US combines with "Journal" in the US title (same listing).
 - `assumption` dropped (≈3 searches/day) to make room.
 - **Trust rules:** only list these if the content is in the Jan 11 build (Apple 2.3.7: keywords must be accurate). Subliminal/angel-number copy must not promise results or health effects (1.4.1). Present them as experiences, not guarantees.
+
+## 🏁 Conclusions: where ISSUE11 can rank (Oct 5, from ASOMobile demand + live competition)
+No guarantees. Ranking = text relevance (title > subtitle > keywords) × user behavior (downloads, ratings, conversion). Estimates assume a decent launch week.
+
+| Tier | Keywords | Why |
+|---|---|---|
+| **A · top 3 realistic in launch month** | manifestation journal (title, 122/day) · scrapbook (392) · digital scrapbook (230) · journal prompts (162) · angel numbers · manifestation scripting · manifestation visualization | demand exists, the current top apps have 6 to 1,500 ratings |
+| **B · top 10 within 1–3 months, with ratings** | vision board (459) · manifestation (174) · law of attraction · mood board (311) · subliminal · self love (162) · mindset (152) · manifesting (111) | real demand, top apps have 300 to 5K ratings |
+| **C · long game (6–12 months)** | manifest (535, Stella 5.2K) · affirmations (808, I am 734K) · diary (902, Day One/Journal) · gratitude journal (436, 45K) · aesthetic · magazine | giants; we're present for combos, and ranking comes later |
+
+**Recommendation (needs Megan's OK):** put **scrapbook** in a subtitle, the strongest Tier A term. The Mexico subtitle "Manifesting Your Future Self" carries "future self" at ~3/day. Option: `Manifesting Digital Scrapbook` (29/30). That frees 18 US keyword characters, but it breaks the "self love" combo (re-add `self` or drop `love`). Decide before submission.

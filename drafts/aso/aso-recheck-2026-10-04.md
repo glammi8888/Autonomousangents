@@ -205,3 +205,19 @@ No guarantees. Ranking = text relevance (title > subtitle > keywords) × user be
 | **C · long game (6–12 months)** | manifest (535, Stella 5.2K) · affirmations (808, I am 734K) · diary (902, Day One/Journal) · gratitude journal (436, 45K) · aesthetic · magazine | giants; we're present for combos, and ranking comes later |
 
 **Recommendation (needs Megan's OK):** put **scrapbook** in a subtitle, the strongest Tier A term. The Mexico subtitle "Manifesting Your Future Self" carries "future self" at ~3/day. Option: `Manifesting Digital Scrapbook` (29/30). That frees 18 US keyword characters, but it breaks the "self love" combo (re-add `self` or drop `love`). Decide before submission.
+
+## ✅ v14: CURRENT DRAFT (Megan approved the scrapbook subtitle swap, Oct 5)
+```
+[TRACKING DATA-FIELD: US · App Name (30/30)]        ISSUE11: Manifestation Journal
+[TRACKING DATA-FIELD: US · Subtitle (28/30)]        Manifest with a Vision Board
+[TRACKING DATA-FIELD: US · Keywords (93/100)]       diary,affirmations,aesthetic,magazine,moodboard,mood,photo,audio,scripting,prompts,journaling
+[TRACKING DATA-FIELD: es-MX · App Name (26/30)]     ISSUE11: Law of Attraction
+[TRACKING DATA-FIELD: es-MX · Subtitle (29/30)]     Manifesting Digital Scrapbook
+[TRACKING DATA-FIELD: es-MX · Keywords (96/100)]    loa,inspiration,self,love,mindset,visualization,gratitude,subliminal,angel,numbers,2027,new,year
+[TRACKING DATA-FIELD: Category]                     Primary: Health & Fitness · Secondary: Lifestyle
+```
+Script-checked: all within limits; no spaces; no repeats within a field, across the two fields, or with any name/subtitle/category word; no competitor names.
+- Mexico subtitle: "Your Future Self" (~3 searches/day) → **Digital Scrapbook** (392 + 230/day, top apps 9–70 ratings).
+- `scrapbook,digital` left the US keywords (now in the subtitle). `self` was added to the Mexico keywords so "self love" still works. `journaling` (318/day) was added to the US keywords.
+- Still to do: swap `2027,new,year` in a February update. All features named here must be in the Jan 11 build (2.3.7).
+- Screenshot caption idea for scrapbook: "Your vision board, made into a scrapbook magazine". Real UI only.

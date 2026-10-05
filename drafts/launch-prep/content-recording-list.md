@@ -18,6 +18,7 @@ The prototype lists 26 sessions (8+6+7+5). That's the Jan 11 picture, not the be
 ## Scope note (Product recommendation, Megan decides)
 - Beta uses **2 session types only: Guided visualization (10–12 min) and Affirmations (5–6 min).** They need only Megan's voice + music, and they match the prototype ("Visualization · 12 min", "Affirmations · 6 min").
 - Leave out for the beta: **Subliminals** (wording/health-claim risk, see WIREFRAMES.md), **Meditation** and **Breathwork** (more script risk, add later). The onboarding 07 question then shows only the types that exist, so nothing is "coming soon" (App Store 2.1 at launch).
+- **Scope update (Megan, Oct 5):** for the **Jan 11 App Store launch**, Audio also includes **Subliminal** and **Angel numbers** sessions (audio/video), and Scribe includes **writing prompts** and **gratitude writing**. The beta minimum above (8 sessions) is unchanged; add these in the November batch. They are listed as App Store keywords, so they **must ship complete in the Jan 11 build** (Apple 2.3.7) or the keywords get swapped before submission. Copy rule: experiences, never promised results or health effects (1.4.1); BRAND + Megan approve scripts.
 
 ## The list (8 sessions + 4 loops)
 
@@ -70,7 +71,7 @@ Theme per session: A1 self-concept/presence · A3 a trip she keeps picturing · 
 2. 12–15 affirmations, first person, present tense, each said twice with a 3–4 s pause.
 3. Close (30 s): "Pick the one that felt truest. Save it to your issue."
 Themes: A2 self-trust · A4 travel/belonging · A6 self-image and style (no body-change claims) · A8 money and work (no income promises; e.g. "I make decisions about money with clarity", not "money comes to me easily").
-❤️ BRAND + Megan approve all scripts before recording. Keep "subliminal" out of all titles and copy.
+❤️ BRAND + Megan approve all scripts before recording. ~~Keep "subliminal" out of all titles and copy.~~ Superseded Oct 5: "Subliminal" may be a session type name; no claims in titles or copy.
 
 ## Recording plan (2 sessions)
 **Session 1 · Voice · ~Oct 8–10 (one half day, ~3 h)**

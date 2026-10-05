@@ -198,6 +198,7 @@ The magazine remains the emotional and creative centerpiece.
 
 ## For marketing agents (Manager's notes, not Megan's words)
 - **Scope (Megan, Oct 3, final):** Lucky Star is **back in V1** (light: Guide on Home, Assist inside features; proposals she keeps or edits). Marketing can mention it as a helper inside the magazine story, never lead with "AI". Agentic extras stay V2.
+- **Scope (Megan, Oct 5):** Audio adds Subliminal + Angel numbers sessions; Scribe adds writing prompts + gratitude writing (Jan 11 launch). Still inside the 4 functions, no new sections. Present as experiences, never promised results.
 - Lead with the magazine and the transformation, never with "AI". Lucky Star appears as a helper inside the story.
 - Never promise results. Proof stories only from real users, with their written permission.
 - Never position ISSUE11 as productivity, goals, tasks or a chatbot.

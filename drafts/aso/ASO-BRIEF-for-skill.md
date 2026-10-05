@@ -15,7 +15,7 @@
 ## 2. What ships (keywords may only promise real features)
 4 core functions:
 1. **Your World:** collect your own photos and images, a vision board of your future.
-2. **Audio:** immersive audio/video manifestation sessions: guided visualization + affirmations (8 sessions + 4 video loops in the beta, recorded by the founder). No subliminals, breathwork or meditation in V1.
+2. **Audio:** immersive audio/video manifestation sessions: guided visualization + affirmations (8 sessions + 4 video loops in the beta, recorded by the founder). No breathwork or meditation in V1. *(Updated Oct 5: Subliminal + Angel numbers sessions and Scribe prompts + gratitude are in for Jan 11.)*
 3. **Scribe:** write your desires, manifestation scripts, reflections.
 4. **Publish:** AI turns World + Scribe into your personal magazine ("your Issue", with your own cover). Editable by prompting.
 

@@ -250,3 +250,13 @@ Combos across the US and Mexico listings (e.g. gratitude + Journal) rely on the 
 | Optimistic | manifestation journal, scrapbook, digital scrapbook, journal prompts, angel numbers all #1; manifestation #3, vision board #5, manifest #8 | ~432 | ~13,000 |
 
 Not included: TikTok/Instagram/Pinterest, featuring, word of mouth, the January seasonal spike, other countries. Biggest driver in every scenario: **scrapbook + digital scrapbook + manifestation journal + journal prompts.** Re-run with real Search Analytics data from App Store Connect after launch.
+
+## 💳 Conversion estimate (Oct 5): downloads → paying subscribers
+**Benchmarks** (RevenueCat State of Subscription Apps 2026, read via search summaries; revenuecat.com is blocked here): download → paid within 35 days: median app 2.0%, **Health & Fitness 2.9%**. Trial → paid: average 25.6%, Health & Fitness 35%. Trial start ≈ 5–7% of installs (top apps 12–15%+).
+
+| Scenario | Search downloads/month | Download → paid | New paying subs/month | Bookings/month at $99.99/yr after Apple's 15%* |
+|---|---|---|---|---|
+| Conservative | ~1,700 | 1.5% (new app, below median) | ~26 | ~$2,200 |
+| Realistic | ~5,300 | 2.9% (category median) | ~154 | ~$13,100 |
+| Optimistic | ~13,000 | 5% (strong onboarding + cover reveal before paywall) | ~650 | ~$55,200 |
+*Assumes everyone picks the annual plan at $99.99 (pricing not decided) and the App Store Small Business Program rate (15%). Monthly plans lower these numbers. Search downloads only.

@@ -150,3 +150,27 @@ Keyword-field rules checked: no spaces, no repeats within a field, no repeats be
 [TRACKING DATA-FIELD: es-MX · Keywords (53/100)] loa,assumption,inspiration,love,mindset,2027,new,year
 ```
 64 characters free. Fill them only with measured words (still to measure: scrapbook, collage, dream board, daily affirmations, positive affirmations, journal app, vision board app, abundance, manifest money, becoming, zine). Swap `2027,new,year` after January (needs an app update).
+
+## 🌟 Final batch (ASOMobile export 2, Oct 4) + live intent check: the real opportunity
+| Term | Traffic/day | Search Ads | Top apps live (ratings) | Verdict |
+|---|---|---|---|---|
+| **scrapbook** | **392** | 37 | Planly 70 · klora 39 · Nooka 9 | 🟢 **demand + weak competition.** Fits Your World + Publish |
+| **digital scrapbook** | **230** | 28 | Planly 70 · Tomobook 49 · Nooka 9 | 🟢 same |
+| mood board | 311 | 32 | Moodboard 1,748 · Morpholio 3,755 | ✅ add `mood` (combos with "Board" in the US subtitle) |
+| collage | 3,493 | 63 | PicCollage 1.8M · LiveCollage 178K | ❌ photo-editor giants |
+| daily / positive affirmations | 373 / 288 | 36 / 31 | I am 734K · Mantra 34K | ❌ I am owns it (`affirmations` alone stays) |
+| gratitude journal | 436 | 39 | Gratitude 45K | ❓ only if Scribe really offers gratitude writing |
+| journal prompts | 162 | 23 | solo. 6 · Ink 11 · Prompted 6.9K | ❓ only if Scribe really has prompts |
+| dream board 75 · confidence 62 · journal app 22 · zine 13 | low | | | ⚪ not worth the space |
+| abundance, manifest money, manifestation app, affirmation app, affirmations for women, future self, new me | 0–3 | 5 | | ⚪ unknown (Apple floor) / no demand |
+| vision board app/2026, inspiration board, personal magazine, becoming, dear future self, aesthetic vision board | – | – | | ⚪ no data |
+
+### v12 DRAFT (counts by script; no repeats within or across listings)
+```
+[TRACKING DATA-FIELD: US · Keywords (92/100)]    diary,affirmations,aesthetic,magazine,moodboard,mood,photo,audio,scripting,scrapbook,digital
+[TRACKING DATA-FIELD: es-MX · Keywords (67/100)] loa,assumption,inspiration,love,mindset,visualization,2027,new,year
+```
+- `scrapbook` + `digital` sit in the US field so "digital scrapbook" combines within one listing (no reliance on the cross-listing belief).
+- `visualization` moved to Mexico to make room. It combines with "Manifesting" there.
+- 41 characters free: reserved for `gratitude` / `prompts` if Megan confirms those features.
+- Idea for later (needs Megan): the Mexico subtitle's "Future Self" has ~3/day. A subtitle with **scrapbook** would carry more weight than the keyword field. Test in Round 2.

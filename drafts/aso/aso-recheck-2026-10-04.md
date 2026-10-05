@@ -260,3 +260,4 @@ Not included: TikTok/Instagram/Pinterest, featuring, word of mouth, the January 
 | Realistic | ~5,300 | 2.9% (category median) | ~154 | ~$13,100 |
 | Optimistic | ~13,000 | 5% (strong onboarding + cover reveal before paywall) | ~650 | ~$55,200 |
 *Assumes everyone picks the annual plan at $99.99 (pricing not decided) and the App Store Small Business Program rate (15%). Monthly plans lower these numbers. Search downloads only.
+**Year 1 (if the month-3 pace held for 12 months; real months 1–2 will be lower):** Conservative ~312 subs ≈ $26.5K · Realistic ~1,848 subs ≈ $157K · Optimistic ~7,800 subs ≈ $663K (net after Apple's 15%, all on the $99.99 yearly plan, search downloads only). Year 2 adds renewals from these subscribers.

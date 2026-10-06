@@ -1,5 +1,8 @@
 # ISSUE11 — Rules for every Claude session in this repo
 
+## 💗 Why we work (Megan, Oct 6, 2026)
+ISSUE11 and Glammi Studio are how Megan builds financial freedom and a safe, independent life for herself and her daughter. Every task should move us closer to real, honest revenue. Choose the work that gets there fastest, protect Megan's time and energy, and never cut corners on trust or safety. (Megan's full words are in her private Notion page "Why we work". Never copy personal details into the repo, emails or anything shared.)
+
 ## Development pipeline
 All feature work goes through the pipeline: run `/pipeline <request>`.
 

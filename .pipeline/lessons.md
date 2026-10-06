@@ -23,6 +23,7 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 - 2026-10-05 · Manager · Expo's create-expo-app template already ships Claude Code setup (issue11/.claude/settings.json enables expo@claude-plugins-official + AGENTS.md). Cloud rooms can't reach Megan's phone (ngrok tunnel times out): verify with `expo start --web` + a Playwright iPhone screenshot, and use EAS builds (needs EXPO_TOKEN env var) for real device tests.
 - 2026-10-06 · Planner · Scope changed 4 times during one planning run (onboarding out, Your World mechanics only, Scribe prompts out then back in). Re-read request.md after every update and patch the spec in place; Manager: ask "what's final?" before starting the Planner.
 - 2026-10-06 · Planner · Wording still being drafted (prompts, copy) goes in data (a DB table or one strings file), so it changes without code or an app release.
+- 2026-10-06 · Manager · Megan (word for word): "i have a EIN already remember". Rule: before listing setup steps, check the Roadmap for what she already has; never re-list a done item.
 
 ## Suggestions
 Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`

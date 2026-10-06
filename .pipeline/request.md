@@ -9,7 +9,7 @@ Plan the first build slice of the ISSUE11 iPhone app (Expo, in `issue11/`), so t
 
 1. **App foundation:** replace the Expo starter with ISSUE11's navigation (the 4 functions: Your World · Audio · Scribe · Publish, plus the 11 sticker entry point for Lucky Star as a placeholder only) and one shared design system (colors, fonts, spacing) so the visual look can be refined later in one place.
 2. **Sign-up / sign-in only** (account creation and login, needed to save content). **Onboarding is NOT in this slice: Megan, Oct 6: "but onboarding isn't finalized yet though".** Leave a single placeholder entry point where onboarding will plug in later.
-3. **Your World:** collect your own photos and images (photo picker, permissions, saving).
+3. **Your World: mechanics only.** Add her own photos (photo picker, permissions, saving, a simple grid). **Megan, Oct 6: "the 'your world' images aren't finalized either"**, so no curated/suggested image library, categories or final layout: use plain placeholders that the final images and look can replace without code changes.
 4. **Scribe:** write desires, reflections and manifestations; writing prompts and gratitude prompts.
 
 ## Context and limits

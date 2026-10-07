@@ -44,13 +44,13 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | 32 | Aesthetic 3 | **PICK YOUR ICON.** (Megan's 07-app-icon-picker) | I am #29 | app icon |
 | 33 | Primed notifications | Live preview of her notification ("Your Issue: *the woman who shares her work*") · how many · from/to → **ALLOW** → iOS prompt | I am #14 · HeyCatch #15 | reminders |
 | 34 | Meet Lucky Star + AI consent | Existing screen. The one place we say "AI", plainly. | our 09b | consent |
-| 35 | Bridge (her words back) | **YOU SAID YOU START STRONG, THEN STOP.** "This time you'll have one move a week and proof that you're changing." → PRINT MY ISSUE. Line changes with the pain she picked. | Megan: pain → outcome | — |
-| 36 | Printing loader (never empty) | **PRINTING YOUR FIRST ISSUE…** checklist + mini-questions ("Want to hear your vision read aloud?" · "Morning or night?") + a real beta review | Headway loader · HeyCatch #16 | Audio prefs |
-| 37 | THE REVEAL | **MEGAN, YOUR FIRST ISSUE IS READY.** Her cover (her style, name, date, headline from her sentence). Swipe: contents (Vision · First move · Proof). Share. | HeyCatch #18 | — |
-| 38 | Your future | **YOUR ISSUE STARTS NOW.** TODAY your first Issue → THIS WEEK your first move → IN 30 DAYS your first proof → A YEAR FROM NOW your 12th Issue: "Flip back to the first one and think: holy shit, I actually did it." (Megan's payoff; promises only what the app does) | Headway "visualize your future" · Megan | — |
-| 39 | Save your Issue | Sign in with Apple / email | HeyCatch #20 | account |
-| 40 | Paywall | **KEEP YOUR ISSUE ALIVE.** + "BUILT FOR: *her answer from the desired-outcome screen*". Buy button first, then benefits from Megan's desired outcomes (dreams as a magazine you open daily · audio that rehearses the steps · one small move a week, no pressure · proof of your progress), real reviews, FAQ (cancel anytime, renewal price), price again. Real intro discount vs our real standard price. | Headway paywall · I am benefits list | — |
-| 41 | If closed | Downsell (App Store promotional offer) | Headway · Sep 24 | — |
+| 35 | Bridge (her words back) | **YOU SAID YOU START STRONG, THEN STOP.** "This time you'll have one move a week and proof that you're changing." → START MY ISSUE. Line changes with the pain she picked. | Megan: pain → outcome | — |
+| 36 | Started (never-empty loader) | **WE'VE STARTED YOUR FIRST ISSUE…** ✓ Your cover · ✓ Your cover story · ◐ Your first session · ○ The rest builds as you go. Mini-questions ("Want to hear your vision read aloud?" · "Morning or night?") + a real beta review | Headway loader · HeyCatch · Megan: honest, it has started, not finished | Audio prefs |
+| 37 | Your future | **YOUR ISSUE STARTS NOW.** TODAY your first Issue → THIS WEEK your first move → IN 30 DAYS your first proof → A YEAR FROM NOW your 12th Issue: "Flip back to the first one and think: holy shit, I actually did it." (Megan's payoff; promises only what the app does) | Headway "visualize your future" · Megan | — |
+| 38 | Sneak peek? | **MEGAN, YOUR ISSUE HAS STARTED.** "Want a sneak peek?" → SHOW ME → paywall | Megan (Oct 7): "instead of saying that it is ready we can say that we started working on the issue, want a sneak peek? Yes -> paywall" | — |
+| 39 | Paywall (with the sneak peek) | Her real cover at the top, the rest of her Issue blurred. **KEEP BUILDING YOUR ISSUE.** BUILT FOR: *her desired-outcome answer*. Benefits: dreams as a magazine you open every day · audio that rehearses the steps · one small move a week, no pressure · proof of your progress. START MY ISSUE, then real reviews, FAQ (cancel anytime, renewal price), price again. Real intro discount vs our real standard price. | Headway paywall · I am benefits · Megan | — |
+| 40 | If closed | Downsell (App Store promotional offer) | Headway · Sep 24 | — |
+| 41 | Save your Issue | Sign in with Apple / email, after purchase so nothing she made is lost | HeyCatch #20 | account |
 | **PART 2 · DESIRE** |||||
 | **PART 3 · THE PAIN, THEN THE ANSWER** |||||
 | **PART 4 · BUILD HER ISSUE** |||||

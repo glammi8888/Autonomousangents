@@ -127,3 +127,9 @@ figcaption strong{font-family:var(--body);font-weight:700;font-size:16px}
 .br{border-top:1px solid rgba(13,13,13,.08);font-size:3.6cqw;line-height:1.15}
 .br span{padding:2cqw 2.4cqw;color:#777;text-decoration:line-through;text-decoration-color:rgba(13,13,13,.3)}
 .br b{padding:2cqw 2.4cqw;background:var(--blush)}
+
+.vars{display:flex;flex-direction:column;gap:2.4cqw;margin-top:2cqw}
+.var{display:flex;flex-direction:column;gap:1cqw;border:1px dashed rgba(13,13,13,.25);border-radius:4cqw;padding:3cqw}
+.var span{font-family:var(--mono);font-size:3cqw;letter-spacing:.04em;color:var(--pink)}
+.var b{font-family:var(--display);font-weight:400;font-size:6cqw;letter-spacing:-.05em;line-height:.95}
+.var em{font-style:normal;font-size:3.8cqw;line-height:1.2;color:#555}

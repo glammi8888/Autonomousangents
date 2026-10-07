@@ -30,29 +30,33 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | 18 | What else sounds like you | **WHAT ELSE SOUNDS LIKE YOU?** I don't know what I'm supposed to do · Generic affirmations don't feel like me · I can't tell if I'm progressing · Honestly? All of it | Pains 2, 7, 8 | Lucky Star (known context) |
 | 19 | Mirror (breather) | **YOU KNOW THE LIFE YOU WANT.** "The hard part is the in-between. That's what ISSUE11 is for." | Pain 10 (core) · I am calm statement | — |
 | 20 | Desired outcome | **A YEAR FROM NOW, WHAT WOULD MAKE YOU SAY "I ACTUALLY DID IT"?** I stuck with it · I finally feel clear · I took real steps · I can see how far I've come · I'm proud of who I am | Megan's desired outcomes (Oct 7) | paywall "Built for" |
-| 21 | The answer (how it works) | **YOU CAN'T CONTROL THE OUTCOME. YOU CAN CONTROL THE PROCESS.** Your Issue makes it visible · Audio rehearses the steps, not just the dream · One move a week makes it real · Proof shows it's working. Button: **BUILD MY ISSUE** | Megan (Oct 7): process over outcome; "becoming her" retired · our 02b | — |
-| 22 | Aesthetic 1 | **PICK WHAT FEELS LIKE FUTURE YOU.** Image grid (3+) | I am themes · our Q04 | Your World |
-| 23 | Aesthetic 2 | **PICK YOUR COVER.** Cream on Red · Noir · Over a photo (Megan's Claude Design covers) | I am theme pick · HeyCatch #13 | cover style |
-| 24 | The one effortful input | **DESCRIBE YOUR DREAM LIFE IN ONE SENTENCE.** "This becomes your cover story." Mic (iOS dictation) + tap-to-use examples. | I am #36 · HeyCatch #10 | cover story, Scribe |
-| 25 | Past proof | **NAME ONE THING YOU ALREADY MADE HAPPEN.** "Your first proof. It opens your Issue." Skip allowed. | our Q08 | Proof page |
-| 26 | Practice | **HOW DO YOU WANT TO PRACTICE?** Listen · Watch · Both + 5 / 10 / 15 min | I am #27 · our Q05 | Audio |
-| 27 | First move | **ONE SMALL STEP THIS WEEK?** "Something small the future you would do." → "This becomes your first move." | our Q09 | Next Move |
-| 28 | Day 1 | Big "1", week row with today ticked: **YOUR ISSUE STARTS TODAY.** | I am #21 | streak |
-| 29 | Aesthetic 3 | **PICK YOUR ICON.** (Megan's 07-app-icon-picker) | I am #29 | app icon |
-| 30 | Primed notifications | Live preview of her notification ("Your Issue: *the woman who shares her work*") · how many · from/to → **ALLOW** → iOS prompt | I am #14 · HeyCatch #15 | reminders |
-| 31 | Meet Lucky Star + AI consent | Existing screen. The one place we say "AI", plainly. | our 09b | consent |
-| 32 | Printing loader (never empty) | **PRINTING YOUR FIRST ISSUE…** checklist + mini-questions ("Want to hear your vision read aloud?" · "Morning or night?") + a real beta review | Headway loader · HeyCatch #16 | Audio prefs |
-| 33 | THE REVEAL | **MEGAN, YOUR FIRST ISSUE IS READY.** Her cover (her style, name, date, headline from her sentence). Swipe: contents (Vision · First move · Proof). Share. | HeyCatch #18 | — |
-| 34 | Your future | **YOUR ISSUE STARTS NOW.** TODAY your first Issue → THIS WEEK your first move → IN 30 DAYS your first proof → A YEAR FROM NOW your 12th Issue: "Flip back to the first one and think: holy shit, I actually did it." (Megan's payoff; promises only what the app does) | Headway "visualize your future" · Megan | — |
-| 35 | Save your Issue | Sign in with Apple / email | HeyCatch #20 | account |
-| 36 | Paywall | **KEEP YOUR ISSUE ALIVE.** + "BUILT FOR: *her answer from the desired-outcome screen*". Buy button first, then benefits from Megan's desired outcomes (dreams as a magazine you open daily · audio that rehearses the steps · one small move a week, no pressure · proof of your progress), real reviews, FAQ (cancel anytime, renewal price), price again. Real intro discount vs our real standard price. | Headway paywall · I am benefits list | — |
-| 37 | If closed | Downsell (App Store promotional offer) | Headway · Sep 24 | — |
+| 21 | Goals should feel | **HOW DO YOU WANT YOUR GOALS TO FEEL?** Exciting, not stressful · Simple, not overwhelming · Realistic, not delulu · Motivating, not pressuring · Calm, not anxious | Desired outcome 9 · Megan (Oct 7): "overwhelm and realistic" | tone of Audio + Lucky Star |
+| 22 | Before / after | **HERE'S WHAT CHANGES.** NOW → WITH ISSUE11, built only from the pain cards she said yes to: Starting over every week → A practice you actually stick to · A vision board you forget → A magazine you open every day · Feeling delulu → Real steps, no fake affirmations · Waiting for life to start → One move this week · Watching content → Doing · Not knowing how → Knowing exactly what's next | Headway before/after · Megan's outcomes | — |
+| 23 | The answer (how it works) | **YOU CAN'T CONTROL THE OUTCOME. YOU CAN CONTROL THE PROCESS.** Your Issue makes it visible · Audio rehearses the steps, not just the dream · One move a week makes it real · Proof shows it's working. Button: **BUILD MY ISSUE** | Megan (Oct 7): process over outcome; "becoming her" retired · our 02b | — |
+| 24 | Picture this (breather) | **IMAGINE OPENING YOUR PHONE TO A MAGAZINE ABOUT THE LIFE YOU'RE BUILDING.** "Every day. Let's make yours." → LET'S GO | Desired outcome 4 | — |
+| 25 | Aesthetic 1 | **PICK WHAT FEELS LIKE FUTURE YOU.** Image grid (3+) | I am themes · our Q04 | Your World |
+| 26 | Aesthetic 2 | **PICK YOUR COVER.** Cream on Red · Noir · Over a photo (Megan's Claude Design covers) | I am theme pick · HeyCatch #13 | cover style |
+| 27 | The one effortful input | **DESCRIBE YOUR DREAM LIFE IN ONE SENTENCE.** "This becomes your cover story." Mic (iOS dictation) + tap-to-use examples. | I am #36 · HeyCatch #10 | cover story, Scribe |
+| 28 | Past proof | **NAME ONE THING YOU ALREADY MADE HAPPEN.** "Your first proof. It opens your Issue." Skip allowed. | our Q08 | Proof page |
+| 29 | Practice | **HOW DO YOU WANT TO PRACTICE?** Listen · Watch · Both + 5 / 10 / 15 min | I am #27 · our Q05 | Audio |
+| 30 | First move | **ONE SMALL STEP THIS WEEK?** "Something small the future you would do." → "This becomes your first move." | our Q09 | Next Move |
+| 31 | Day 1 | Big "1", week row with today ticked: **YOUR ISSUE STARTS TODAY.** | I am #21 | streak |
+| 32 | Aesthetic 3 | **PICK YOUR ICON.** (Megan's 07-app-icon-picker) | I am #29 | app icon |
+| 33 | Primed notifications | Live preview of her notification ("Your Issue: *the woman who shares her work*") · how many · from/to → **ALLOW** → iOS prompt | I am #14 · HeyCatch #15 | reminders |
+| 34 | Meet Lucky Star + AI consent | Existing screen. The one place we say "AI", plainly. | our 09b | consent |
+| 35 | Bridge (her words back) | **YOU SAID YOU START STRONG, THEN STOP.** "This time you'll have one move a week and proof that you're changing." → PRINT MY ISSUE. Line changes with the pain she picked. | Megan: pain → outcome | — |
+| 36 | Printing loader (never empty) | **PRINTING YOUR FIRST ISSUE…** checklist + mini-questions ("Want to hear your vision read aloud?" · "Morning or night?") + a real beta review | Headway loader · HeyCatch #16 | Audio prefs |
+| 37 | THE REVEAL | **MEGAN, YOUR FIRST ISSUE IS READY.** Her cover (her style, name, date, headline from her sentence). Swipe: contents (Vision · First move · Proof). Share. | HeyCatch #18 | — |
+| 38 | Your future | **YOUR ISSUE STARTS NOW.** TODAY your first Issue → THIS WEEK your first move → IN 30 DAYS your first proof → A YEAR FROM NOW your 12th Issue: "Flip back to the first one and think: holy shit, I actually did it." (Megan's payoff; promises only what the app does) | Headway "visualize your future" · Megan | — |
+| 39 | Save your Issue | Sign in with Apple / email | HeyCatch #20 | account |
+| 40 | Paywall | **KEEP YOUR ISSUE ALIVE.** + "BUILT FOR: *her answer from the desired-outcome screen*". Buy button first, then benefits from Megan's desired outcomes (dreams as a magazine you open daily · audio that rehearses the steps · one small move a week, no pressure · proof of your progress), real reviews, FAQ (cancel anytime, renewal price), price again. Real intro discount vs our real standard price. | Headway paywall · I am benefits list | — |
+| 41 | If closed | Downsell (App Store promotional offer) | Headway · Sep 24 | — |
 | **PART 2 · DESIRE** |||||
 | **PART 3 · THE PAIN, THEN THE ANSWER** |||||
 | **PART 4 · BUILD HER ISSUE** |||||
 | **PART 5 · REVEAL → PAY** |||||
 
-**36 screens + downsell.** Long on purpose (Headway ~50, HeyCatch 20+): every screen pays her back.
+**40 screens + downsell.** Balance: ~8 pain screens, ~7 desired-outcome screens. Long on purpose (Headway ~50, HeyCatch 20+): every screen pays her back.
 
 ## Trust rules (always win)
 - No fake numbers, logos, countdowns or testimonials. Social proof only from real data once we have it (beta reviews first).

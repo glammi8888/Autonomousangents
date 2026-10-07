@@ -1,6 +1,6 @@
 import html
 E=html.escape
-N=36
+N=40
 def top(i):
     return f'<div class="bar"><i style="width:{i/N*100:.0f}%"></i></div><div class="tl"><span>ISSUE11</span><span>{"SKIP" if i>3 else ""}</span></div>'
 def h(t): return f'<div class="h">{t}</div>'
@@ -42,8 +42,11 @@ add(P3,'Pain card 6','<div class="card">"I know exactly who I want to be. I just
 add(P3,"What gets in the way",h("WHAT ELSE SOUNDS LIKE YOU?")+opts(["I don't know what I'm supposed to do","Generic affirmations don't feel like me","I can't tell if I'm progressing","Honestly? All of it"],(3,))+btn(),"Pains 2, 7, 8. Lucky Star will know this (real context).","Megan's pain points")
 add(P3,"Mirror",stmt("YOU KNOW THE LIFE YOU WANT.","The hard part is the in-between. That's what ISSUE11 is for.")+btn(),"The core pain (10), as a calm breather.","Megan's pain points · I am rhythm")
 add(P3,"A year from now",h("A YEAR FROM NOW, WHAT WOULD MAKE YOU SAY “I ACTUALLY DID IT”?")+opts(["I stuck with it","I finally feel clear","I took real steps","I can see how far I've come","I'm proud of who I am"],(2,))+btn(),"The desired outcome, in her words. Comes back on the paywall.","Megan's desired outcomes")
+add(P3,"Goals should feel",h("HOW DO YOU WANT YOUR GOALS TO FEEL?")+opts(["Exciting, not stressful","Simple, not overwhelming","Realistic, not delulu","Motivating, not pressuring","Calm, not anxious"],(1,2))+btn(),"Desired outcome 9 + Megan: overwhelm, realistic.","Megan's desired outcomes")
+add(P3,"Before / after",h("HERE’S WHAT CHANGES.")+'<div class="ba"><div class="bh"><span>NOW</span><span>WITH ISSUE11</span></div><div class="br"><span>Starting over every week</span><b>A practice you actually stick to</b></div><div class="br"><span>A vision board you forget</span><b>A magazine you open every day</b></div><div class="br"><span>Feeling delulu</span><b>Real steps, no fake affirmations</b></div><div class="br"><span>Waiting for life to start</span><b>One move this week</b></div><div class="br"><span>Watching content</span><b>Doing</b></div><div class="br"><span>Not knowing how</span><b>Knowing exactly what’s next</b></div></div>'+btn(),"Built from the pain cards she said yes to.","Headway before/after · Megan's outcomes")
 add(P3,"How it works",h("YOU CAN'T CONTROL THE OUTCOME. YOU CAN CONTROL THE PROCESS.")+'<div class="steps"><div><b>YOUR ISSUE</b>makes it visible</div><div><b>AUDIO</b>rehearses the steps, not just the dream</div><div><b>ONE MOVE A WEEK</b>makes it real</div><div><b>PROOF</b>shows it’s working</div></div>'+btn("BUILD MY ISSUE"),"Process over outcome (Megan, Oct 7). Stronger CTA.","our 02b")
 tiles=''.join(f'<i class="t t{k}{" on" if k in (0,2,4) else ""}"></i>' for k in range(9))
+add(P4,"Picture this",stmt("IMAGINE OPENING YOUR PHONE TO A MAGAZINE ABOUT THE LIFE YOU’RE BUILDING.","Every day. Let’s make yours.")+btn("LET’S GO"),"Outcome breather before she builds.","Megan's desired outcome 4")
 add(P4,"What feels like her",h("PICK WHAT FEELS LIKE FUTURE YOU.")+f'<div class="tiles">{tiles}</div>'+btn(),"Picks fill Your World (Megan's images).","I am themes · our Q04")
 add(P4,"Pick your cover",h("PICK YOUR COVER.")+'<div class="covers">'+cover(line="",style="red",small=True)+cover(line="",style="noir",small=True)+cover(line="",style="photo",small=True)+'</div>'+btn(),"Megan's 3 cover styles from Claude Design.","I am theme pick · HeyCatch")
 add(P4,"Dream sentence",h("DESCRIBE YOUR DREAM LIFE IN ONE SENTENCE.")+field("I run my own studio by the sea…",mic=True)+sub("This becomes your cover story.")+btn(),"The one effortful input. Mic = iOS dictation.","I am · HeyCatch")
@@ -56,6 +59,7 @@ icons=''.join(f'<i class="ic ic{k}{" on" if k==0 else ""}">11</i>' for k in rang
 add(P4,"Pick your icon",h("PICK YOUR ICON.")+sub("It sits on your Home Screen.")+f'<div class="icons">{icons}</div>'+btn(),"Megan's icon picker (07).","I am")
 add(P4,"Notifications",h("YOUR ISSUE, THROUGHOUT THE DAY.")+'<div class="notif"><span class="ni">11</span><div><b>ISSUE11</b><br>I’m the woman who shares her work.</div></div><div class="rows"><div>How many <span>3×</span></div><div>From <span>8:00</span></div><div>To <span>21:00</span></div></div>'+btn("ALLOW"),"Live preview, then the iOS prompt.","I am · HeyCatch")
 add(P4,"Meet Lucky Star",'<div class="ls"><span>11</span></div>'+h("MEET LUCKY STAR ★")+sub("Your AI guide. It helps you build your Issue and decide what’s next. Nothing changes unless you keep it.")+btn("SOUNDS GOOD"),"The one place we say “AI”, plainly. Consent.","our 09b")
+add(P5,"Bridge",stmt("YOU SAID YOU START STRONG, THEN STOP.","This time you’ll have one move a week and proof that you’re changing.")+btn("PRINT MY ISSUE"),"Her own answers, played back. Most personal moment.","Megan's pain → outcome")
 add(P5,"Printing",h("PRINTING YOUR FIRST ISSUE…")+'<div class="check"><div class="ok">Writing your headlines</div><div class="ok">Designing your cover</div><div class="run">Composing your soundtrack</div><div>Binding your issue</div></div><div class="mini">Want to hear your vision read aloud?<span>YES</span><span>LATER</span></div><div class="rev">“Real beta review goes here.”</div>',"Never an empty loader.","Headway · HeyCatch")
 add(P5,"The Reveal",'<div class="mono c">MEGAN, YOUR FIRST ISSUE IS READY.</div>'+cover()+btn("OPEN MY ISSUE","Share"),"Her cover, her style, her words.","HeyCatch")
 add(P5,"Your future",h("YOUR ISSUE STARTS NOW.")+'<div class="tline"><div><b>TODAY</b>Your first Issue</div><div><b>THIS WEEK</b>Your first move: book a viewing by the sea</div><div><b>IN 30 DAYS</b>Your first proof</div><div><b>A YEAR FROM NOW</b>Your 12th Issue. Flip back to the first one and think: <em>holy shit, I actually did it.</em></div></div>'+btn(),"Her timeline, ending in Megan's emotional payoff. Promises only what the app does.","Headway “your future”")
@@ -80,7 +84,7 @@ out=f'''<title>ISSUE11 Onboarding v3</title>
 <style>{css}</style>
 <main>
 <header class="top"><div class="eyebrow">ISSUE11 · DESIGN ROOM · DRAFT FOR MEGAN</div><h1>Onboarding v3</h1>
-<p>36 screens. Every answer builds her magazine, so the Reveal shows <em>her</em> Issue. Megan’s pain points, Headway’s structure, I am’s calm rhythm. <em>You can’t control the outcome. You can control the process.</em></p>
+<p>40 screens. Every answer builds her magazine, so the Reveal shows <em>her</em> Issue. Megan’s pain points, Headway’s structure, I am’s calm rhythm. <em>You can’t control the outcome. You can control the process.</em></p>
 <div class="flow"><span>Hello</span><span>Desire</span><span>The pain, then the answer</span><span>Build her Issue</span><span>Reveal, then pay</span></div></header>
 {"".join(secs)}
 <footer class="note">Draft · not built into the app yet · prices, trial and discounts are decided by Megan + Revenue · social proof only from real data.</footer>

@@ -119,3 +119,11 @@ figcaption strong{font-family:var(--body);font-weight:700;font-size:16px}
 .price{font-family:var(--mono);font-size:3.6cqw;text-align:center;background:var(--cream);border-radius:4cqw;padding:3cqw}
 .scr .cover:not(.sm){width:78%;margin:0 auto}
 @media (prefers-reduced-motion:no-preference){.phone{transition:transform .2s}.cell:hover .phone{transform:translateY(-3px)}}
+
+.ba{display:flex;flex-direction:column;border-radius:4cqw;overflow:hidden;border:1px solid rgba(13,13,13,.12)}
+.bh,.br{display:grid;grid-template-columns:1fr 1fr}
+.bh span{font-family:var(--mono);font-size:3cqw;letter-spacing:.04em;padding:2cqw 2.4cqw;background:var(--cream)}
+.bh span+span{background:var(--pink)}
+.br{border-top:1px solid rgba(13,13,13,.08);font-size:3.6cqw;line-height:1.15}
+.br span{padding:2cqw 2.4cqw;color:#777;text-decoration:line-through;text-decoration-color:rgba(13,13,13,.3)}
+.br b{padding:2cqw 2.4cqw;background:var(--blush)}

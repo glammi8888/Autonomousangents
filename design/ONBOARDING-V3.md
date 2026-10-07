@@ -4,6 +4,7 @@ Built from: Headway structure (research/web2app-strategy.md) · HeyCatch researc
 
 **The idea in one line:** every answer builds her magazine, so by the Reveal she's looking at *her* Issue, not a demo.
 **Rhythm (I am + Headway):** easy → personal → pain → mirror → build → reveal → pay. Every answer gets a reply or a breather screen. No screen without a payoff.
+**See it:** storyboard of all 32 screens: https://claude.ai/artifact/2GVFgdAkAuns1UuHYXuqyG (source: design/claude-design/onboarding-v3/).
 **Look:** our V4 tokens (white/cream, ink, pink, Archivo Black + IBM Plex Mono 11px). We borrow I am's calm, not its beige.
 
 | # | Screen | Copy (draft) | Borrowed from | Feeds |

@@ -51,7 +51,7 @@ Finally, build ONE test screen called "Design System" that shows every color swa
 ---
 
 ## Upload to Replit after pasting (from the repo)
-- Wavy ISSUE11 logo and "11" sticker: `brand/` identity kit files (PNG)
+- Wavy ISSUE11 logo and "11" sticker: `brand/logo/` (PNG) · identity kit pages: `brand/identity-kit/`
 - Button references: `design/buttons/` (open index.html for the chosen 13 · 11 · 07 styles)
 - Font reference page: `design/fonts/`
 - Approved home look: `design/claude-design/v4-home-html/` (screenshot it and upload the image)

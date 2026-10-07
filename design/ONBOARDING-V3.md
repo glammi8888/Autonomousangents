@@ -13,7 +13,7 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | 1 | Welcome + first question | **TURN YOUR DREAMS INTO REALITY.** "Step one: your own magazine. About 5 minutes." (time it in the prototype; must be true) (Megan, Oct 7) Below: *Where are you with manifesting?* Just curious · Tried it, nothing changed yet · Sometimes · It's part of my life | Megan's positioning (Oct 7) · Headway (question on screen 1) | tone of replies |
 | 2 | Name | **WHAT SHOULD WE CALL OUR COVER STAR?** "It goes on the cover of your Issue." | I am #2 · our Q01 | cover |
 | 3 | Reward | Her name appears on a blank ISSUE11 cover with a little sticker: "Hi Megan. Your cover's waiting." | Headway reward screen | — |
-| 4 | Age (easy) | **HOW OLD ARE YOU?** "So your Issue speaks your language." 18–24 · 25–34 · 35–44 · 45+ | I am #3 · Headway | tone |
+| 4 | Age (easy) | **HOW OLD ARE YOU?** "So your Issue speaks your language." 18–24 · 25–34 · 35–44 · 45+ **Kept (Megan, Oct 7): "age is good for data and identifying our audience".** Declare it in the App Store privacy label. | I am #3 · Headway | tone |
 | 5 | Topic | **WHAT'S YOUR FIRST ISSUE ABOUT?** Love · Money & freedom · My own thing · A home I love · Glow-up · Peace · Travel · *Help me choose* | HeyCatch #3 · our Q03 | cover headline, World |
 | 6 | Payoff (curiosity gap) | **THIS IS WHAT A REAL ISSUE LOOKS LIKE.** A sample cover + spread for her topic, sample headlines and a process-focused session title ("5 MIN · REHEARSE TOMORROW MORNING"). No feature list. | Headway curiosity gap | — |
 | 7 | Feel | **WHAT DO YOU WANT TO FEEL MORE OF?** Like I'm moving forward · Unstuck · In control · Confident · Calm · Proud of myself · Excited about my life · Like myself again | Megan (Oct 7): "feel like I'm moving forward" "feeling unstuck?" | affirmations, Audio |
@@ -67,4 +67,4 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 
 ## For Megan (yes/no)
 1. Approve this flow so I build it into the V1 prototype?
-2. Keep the age question (screen 4)? It's easy and sets tone, but it's one more screen.
+2. ~~Age question~~ → kept (Megan, Oct 7).

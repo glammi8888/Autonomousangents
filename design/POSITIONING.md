@@ -3,7 +3,7 @@ Megan: "I want to clarify our customer's pain points and desired outcome and how
 Used by: design/ONBOARDING-V3.md (pain cards, mirror, paywall), Lucky Star Audio skill (process-focused scripts), marketing.
 **🗓 Update (Megan, Oct 7, later), word for word:** "I don't like \"becoming her\" .. it's been overused.... \"Visualizing outcomes don't work, focusing on what you can control: the process, does.\" something like that". → Don't use "becoming her" in product copy. Working line: **"You can't control the outcome. You can control the process."** (Megan to confirm.)
 **🗓 Megan, Oct 7 (later):** "I think the magazine needs to emphasize that it's the first step into taking action towards realizing their dreams" → In copy, the magazine is always **step one**, never the finish line.
-**🗓 Megan, Oct 7 (later):** "the magazine + actions within the app = the solution to their desired outcome" → Core value equation. Copy: **YOUR ISSUE + YOUR ACTIONS = YOUR WAY THERE** (shown on How it works and the paywall).
+**🗓 Megan, Oct 7 (later):** "the magazine + actions within the app = the solution to their desired outcome" Then, word for word: "solution to their pain points * leading to their desired outcmoe". → Core value equation: **magazine + in-app actions = the solution to her pain points, leading to her desired outcome.** Copy: **YOUR ISSUE + YOUR ACTIONS = YOUR WAY THERE** (shown on How it works and the paywall).
 ⚠️ Open: the loop below ("DESIRE → IMAGINE → EMBODY + ACT → BECOME → PUBLISH") differs from the locked loop in design/PRODUCT-ARCHITECTURE.md ("DESIRE → IMAGINE → EMBODY → BECOME"). Waiting for Megan's call; the locked loop stays until she decides.
 
 ---

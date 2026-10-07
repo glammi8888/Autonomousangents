@@ -30,7 +30,7 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | 16 | Mirror (breather) | **YOU KNOW THE LIFE YOU WANT.** "The hard part is the in-between. That's what ISSUE11 is for." | Pain 10 (core) · I am calm statement | — |
 | 17 | The answer (how it works) | **YOU CAN'T CONTROL THE OUTCOME. YOU CAN CONTROL THE PROCESS.** Your Issue makes it visible · Audio rehearses the steps, not just the dream · One move a week makes it real · Proof shows it's working. Button: **BUILD MY ISSUE** | Megan (Oct 7): process over outcome; "becoming her" retired · our 02b | — |
 | **PART 4 · BUILD HER ISSUE** |||||
-| 18 | Aesthetic 1 | **PICK WHAT FEELS LIKE HER.** Image grid (3+) | I am themes · our Q04 | Your World |
+| 18 | Aesthetic 1 | **PICK WHAT FEELS LIKE FUTURE YOU.** Image grid (3+) | I am themes · our Q04 | Your World |
 | 19 | Aesthetic 2 | **PICK YOUR COVER.** Cream on Red · Noir · Over a photo (Megan's Claude Design covers) | I am theme pick · HeyCatch #13 | cover style |
 | 20 | The one effortful input | **DESCRIBE YOUR DREAM LIFE IN ONE SENTENCE.** "This becomes your cover story." Mic (iOS dictation) + tap-to-use examples. | I am #36 · HeyCatch #10 | cover story, Scribe |
 | 21 | Past proof | **NAME ONE THING YOU ALREADY MADE HAPPEN.** "Your first proof. It opens your Issue." Skip allowed. | our Q08 | Proof page |

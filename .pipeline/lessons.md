@@ -24,6 +24,7 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 - 2026-10-06 · Planner · Scope changed 4 times during one planning run (onboarding out, Your World mechanics only, Scribe prompts out then back in). Re-read request.md after every update and patch the spec in place; Manager: ask "what's final?" before starting the Planner.
 - 2026-10-06 · Planner · Wording still being drafted (prompts, copy) goes in data (a DB table or one strings file), so it changes without code or an app release.
 - 2026-10-06 · Manager · Megan (word for word): "i have a EIN already remember". Rule: before listing setup steps, check the Roadmap for what she already has; never re-list a done item.
+- 2026-10-07 · Manager · Megan (word for word): "in the future, instead of leading me towards a difficult path (like using claude + expo...) if there is any easier path it should be recommended to me... I discovered by myself that I could use replit. So in the future, ALWAYS suggest the easiest path or the path of least resistance". I compared Lovable/Despia/Base44 but never checked Replit (its mobile builder uses Expo under the hood and has guided App Store publishing). Rule promoted to CLAUDE.md #11.
 
 ## Suggestions
 Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`

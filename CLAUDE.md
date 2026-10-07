@@ -36,7 +36,7 @@ Same rules as Notion → Company Structure. In short:
 8. Close the loop: save artifacts where the next agent looks, and log them.
 9. Protect trust: nothing fake or misleading. The Production Safety Rule always wins.
 10. Keep it light: fewer words, fewer runs, fewer agents.
-11. **Easiest path first** (Megan, Oct 7, word for word: "ALWAYS suggest the easiest path or the path of least resistance"). Before recommending a tool or method, check for a simpler option for a non-developer founder (no-code/AI builders like Replit, done-for-you services) and recommend it unless it breaks a safety rule or the App Store checklist; say why if not.
+11. **Easiest path first, then cheapest** (Megan, Oct 7, word for word: "ALWAYS suggest the easiest path or the path of least resistance" and "Always send me the easiest (and cheapest) path... But easiest first and then cheapest"). Before recommending a tool or method, check for a simpler option for a non-developer founder (no-code/AI builders like Replit, done-for-you services) and recommend it unless it breaks a safety rule or the App Store checklist; say why if not.
 
 ## 📈 Self-improvement (set by Megan)
 - Before working, read `.pipeline/lessons.md`. After working, add max 2 dated lessons there (what worked, what to do differently).

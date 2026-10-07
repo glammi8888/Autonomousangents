@@ -25,7 +25,7 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | 13 | Pain card 2 (yes/no) | "My vision board inspired me for a week. Now I don't even see it." → yes: "A board you forget isn't a vision. An Issue you open every day is." | Pain 6 (POSITIONING.md) · Headway | — |
 | 14 | Pain card 3 (yes/no) | "I say 'I'm a millionaire' and feel a little delulu." → yes: "Fair. No 'I'm a millionaire' here. Just your next real step." | Pain 5 (POSITIONING.md) · Headway | — |
 | 15 | Pain card 4 (yes/no) | "I watch manifestation TikToks for an hour… and nothing in my life changes." → yes: "Watching isn't doing. ISSUE11 gives you one small step a week." | Pain 9 (POSITIONING.md) · Headway | — |
-| 16 | Pain card 5 (yes/no) | "I keep waiting for my life to start." → yes: "It doesn't start later. It starts with what you do this week." | Pain 4 (POSITIONING.md) · Headway | — |
+| 16 | Pain card 5 (yes/no) | "I keep waiting for my life to start while I watch others living theirs fully." (Megan) → yes: "It doesn't start later. It starts with what you do this week." | Pain 4 (POSITIONING.md) · Headway | — |
 | 17 | Pain card 6 (yes/no) | "I know exactly who I want to be. I just don't know how to get there." → yes: "Then you're in the right place." | Pain 10 (core) (POSITIONING.md) · Headway | — |
 | 18 | What else sounds like you | **WHAT ELSE SOUNDS LIKE YOU?** I don't know what I'm supposed to do · Generic affirmations don't feel like me · I can't tell if I'm progressing · Honestly? All of it | Pains 2, 7, 8 | Lucky Star (known context) |
 | 19 | Mirror (breather) | **YOU KNOW THE LIFE YOU WANT.** "The hard part is the in-between. That's what ISSUE11 is for." | Pain 10 (core) · I am calm statement | — |

@@ -18,7 +18,7 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | 5 | Topic | **WHAT'S YOUR FIRST ISSUE ABOUT?** Love · Money & freedom · My own thing · A home I love · Glow-up · Peace · Travel · *Help me choose* | HeyCatch #3 · our Q03 | cover headline, World |
 | 6 | Payoff (curiosity gap) | **THIS IS WHAT A REAL ISSUE LOOKS LIKE.** A sample cover + spread for her topic, sample headlines and a process-focused session title ("5 MIN · REHEARSE TOMORROW MORNING"). No feature list. | Headway curiosity gap | — |
 | 7 | Feel | **WHAT DO YOU WANT TO FEEL MORE OF?** Like I'm moving forward · Unstuck · In control · Confident · Calm · Proud of myself · Excited about my life · Like myself again | Megan (Oct 7): "feel like I'm moving forward" "feeling unstuck?" | affirmations, Audio |
-| 8 | Implied authority | **WHOSE LIFE INSPIRES YOUR ISSUE?** Zara Larsson · Hailey Bieber · Zendaya · Bella Hadid · Alix Earle · Sabrina Carpenter · Simone Biles · Selena Gomez (Megan's list, Oct 7). Names only, no photos, nothing saying they're involved. | Headway · Sep 24 decision | tone |
+| 8 | Implied authority | **WHOSE LIFE INSPIRES YOUR ISSUE?** Zara Larsson · Hailey Bieber · Zendaya · Bella Hadid · Alix Earle · Sabrina Carpenter · Simone Biles · Selena Gomez (Megan's list, Oct 7). On screen: "Pick any." Internal rule (not shown): names only, no photos, nothing saying they're involved. | Headway · Sep 24 decision | tone |
 | 9 | Label | **ARE YOU A DREAMER OR A DOER?** | Headway labeling · Sep 24 | reply |
 | 10 | Reply (changes with answer) | Dreamer: "Dreamers see it first. Your Issue makes it real." · Doer: "Doers move. Your Issue makes sure it's toward the right life." | Headway feedback | — |
 | **PART 3 · THE PAIN, THEN THE ANSWER** |||||

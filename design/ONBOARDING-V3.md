@@ -1,0 +1,61 @@
+# Onboarding v3 (DRAFT for Megan's approval)
+Design Room · Oct 7, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL.** Approved v2 stays in the prototype until then.
+Built from: Headway structure (research/web2app-strategy.md) · HeyCatch research + Megan's Sep 24 "full strength, as long as every claim is true" (Notion: ISSUE11: App Concept + Onboarding Flow) · I am's look and rhythm (research/i-am-onboarding-teardown.md) · the locked loop DESIRE → IMAGINE → EMBODY → BECOME (design/PRODUCT-ARCHITECTURE.md, never shown as labels).
+
+**The idea in one line:** every answer builds her magazine, so by the Reveal she's looking at *her* Issue, not a demo.
+**Rhythm (I am + Headway):** easy → personal → pain → mirror → build → reveal → pay. Every answer gets a reply or a breather screen. No screen without a payoff.
+**Look:** our V4 tokens (white/cream, ink, pink, Archivo Black + IBM Plex Mono 11px). We borrow I am's calm, not its beige.
+
+| # | Screen | Copy (draft) | Borrowed from | Feeds |
+|---|---|---|---|---|
+| **PART 1 · HELLO** |||||
+| 1 | Welcome + first question | **YOUR FUTURE IS THE COVER STORY.** "Your first Issue takes about 3 minutes." Below: *Where are you with manifesting?* Just curious · Tried it, nothing changed yet · Sometimes · It's part of my life | Headway (question on screen 1) · HeyCatch | tone of replies |
+| 2 | Name | **WHAT SHOULD WE CALL OUR COVER STAR?** "It goes on the cover of your Issue." | I am #2 · our Q01 | cover |
+| 3 | Reward | Her name appears on a blank ISSUE11 cover with a little sticker: "Hi Megan. Your cover's waiting." | Headway reward screen | — |
+| 4 | Age (easy) | **HOW OLD ARE YOU?** "So your Issue speaks your language." 18–24 · 25–34 · 35–44 · 45+ | I am #3 · Headway | tone |
+| **PART 2 · DESIRE** |||||
+| 5 | Topic | **WHAT'S YOUR FIRST ISSUE ABOUT?** Love · Money & freedom · My own thing · A home I love · Glow-up · Peace · Travel · *Help me choose* | HeyCatch #3 · our Q03 | cover headline, World |
+| 6 | Payoff (curiosity gap) | **THIS IS WHAT A REAL ISSUE LOOKS LIKE.** A sample cover + spread for her topic, sample headlines and a session title ("5 MIN · FUTURE SELF VISUALIZATION"). No feature list. | Headway curiosity gap | — |
+| 7 | Feel | **HOW DO YOU WANT TO FEEL EVERY DAY?** Unbothered · Rich · Chosen · Free · Powerful · Soft · Seen · Calm · Magnetic | our Q06 | affirmations, Audio |
+| 8 | Implied authority | **WHOSE LIFE INSPIRES YOUR ISSUE?** Names only, no photos, nothing saying they're involved. | Headway · Sep 24 decision | tone |
+| 9 | Label | **ARE YOU A DREAMER OR A DOER?** | Headway labeling · Sep 24 | reply |
+| 10 | Reply (changes with answer) | Dreamer: "Dreamers see it first. Your Issue makes it real." · Doer: "Doers move. Your Issue makes sure it's toward the right life." | Headway feedback | — |
+| **PART 3 · THE PAIN, THEN THE ANSWER** |||||
+| 11 | Clear vision? | **DO YOU HAVE A CLEAR PICTURE OF THE LIFE YOU WANT?** Yes · Working on it · One day at a time · Not really | I am #22 | reply tone |
+| 12 | Pain card 1 (yes/no) | "I can picture the life I want, but day to day, nothing changes." → yes: "You're not alone. That gap is exactly what ISSUE11 is for." | Headway pain + support | — |
+| 13 | Pain card 2 | "I make vision boards or write goals… then forget them." → yes: "A board you forget isn't a vision. An Issue you open every day is." | HeyCatch #6 | — |
+| 14 | Pain card 3 | "I believe it for other people more than for me." → yes: "That's the part we'll practice. Gently." | Sep 24 rephrased pain | — |
+| 15 | What gets in the way | **WHAT USUALLY GETS IN THE WAY?** I forget · I doubt it'll happen · I don't know the next step · Life gets busy | HeyCatch #5 | Lucky Star (known context) |
+| 16 | Mirror (breather) | **YOU'RE NOT MISSING A VISION. YOU'RE MISSING A PRACTICE.** | I am calm statement | — |
+| 17 | The answer (how it works) | **SEE IT. PRACTICE IT. BECOME IT.** Your Issue makes it visible · Audio makes it familiar · One small move a week makes it real · Proof shows it's happening. | our 02b | — |
+| **PART 4 · BUILD HER ISSUE** |||||
+| 18 | Aesthetic 1 | **PICK WHAT FEELS LIKE HER.** Image grid (3+) | I am themes · our Q04 | Your World |
+| 19 | Aesthetic 2 | **PICK YOUR COVER.** Cream on Red · Noir · Over a photo (Megan's Claude Design covers) | I am theme pick · HeyCatch #13 | cover style |
+| 20 | The one effortful input | **DESCRIBE YOUR DREAM LIFE IN ONE SENTENCE.** "This becomes your cover story." Mic (iOS dictation) + tap-to-use examples. | I am #36 · HeyCatch #10 | cover story, Scribe |
+| 21 | Past proof | **NAME ONE THING YOU ALREADY MADE HAPPEN.** "Your first proof. It opens your Issue." Skip allowed. | our Q08 | Proof page |
+| 22 | Practice | **HOW DO YOU WANT TO PRACTICE?** Listen · Watch · Both + 5 / 10 / 15 min | I am #27 · our Q05 | Audio |
+| 23 | First move | **ONE SMALL STEP THIS WEEK?** "Something small the future you would do." → "This becomes your first move." | our Q09 | Next Move |
+| 24 | Day 1 | Big "1", week row with today ticked: **YOUR ISSUE STARTS TODAY.** | I am #21 | streak |
+| 25 | Aesthetic 3 | **PICK YOUR ICON.** (Megan's 07-app-icon-picker) | I am #29 | app icon |
+| 26 | Primed notifications | Live preview of her notification ("Your Issue: *the woman who shares her work*") · how many · from/to → **ALLOW** → iOS prompt | I am #14 · HeyCatch #15 | reminders |
+| 27 | Meet Lucky Star + AI consent | Existing screen. The one place we say "AI", plainly. | our 09b | consent |
+| **PART 5 · REVEAL → PAY** |||||
+| 28 | Printing loader (never empty) | **PRINTING YOUR FIRST ISSUE…** checklist + mini-questions ("Want to hear your vision read aloud?" · "Morning or night?") + a real beta review | Headway loader · HeyCatch #16 | Audio prefs |
+| 29 | THE REVEAL | **MEGAN, YOUR FIRST ISSUE IS READY.** Her cover (her style, name, date, headline from her sentence). Swipe: contents (Vision · First move · Proof). Share. | HeyCatch #18 | — |
+| 30 | Your future | Her timeline: **TODAY** your Issue → **THIS WEEK** your first move → **SOON** your first proof. No promised outcomes. | Headway "visualize your future" | — |
+| 31 | Save your Issue | Sign in with Apple / email | HeyCatch #20 | account |
+| 32 | Paywall | **KEEP YOUR ISSUE ALIVE.** Buy button first, then benefits in her words, real reviews, FAQ (cancel anytime, renewal price), price again. Real intro discount vs our real standard price. | Headway paywall · I am benefits list | — |
+| 33 | If closed | Downsell (App Store promotional offer) | Headway · Sep 24 | — |
+
+**32 screens + downsell.** Long on purpose (Headway ~50, HeyCatch 20+): every screen pays her back.
+
+## Trust rules (always win)
+- No fake numbers, logos, countdowns or testimonials. Social proof only from real data once we have it (beta reviews first).
+- No outcome promises; pain copy stays warm, never shaming (design/LUCKY-STAR-VOICE.md).
+- Not copied from I am: religion/beliefs (sensitive data), zodiac, job/relationship, mental-health questions, uncited "studies show" / "rewire your brain", the bundle.
+- Prices, trial vs intro offer, discounts and downsell = **payments**: need Megan's explicit approval (CLAUDE.md) + Revenue. Not decided here.
+- Re-check App Store rules on paywalls and permission priming before build.
+
+## For Megan (yes/no)
+1. Approve this flow so I build it into the V1 prototype?
+2. Keep the age question (screen 4)? It's easy and sets tone, but it's one more screen.

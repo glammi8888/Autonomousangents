@@ -1,6 +1,7 @@
 # ISSUE11 Positioning: pain points, desired outcomes, USP (Megan, Oct 7, 2026, verbatim)
 Megan: "I want to clarify our customer's pain points and desired outcome and how ISSUE11 is different."
 Used by: design/ONBOARDING-V3.md (pain cards, mirror, paywall), Lucky Star Audio skill (process-focused scripts), marketing.
+**🗓 Update (Megan, Oct 7, later), word for word:** "I don't like \"becoming her\" .. it's been overused.... \"Visualizing outcomes don't work, focusing on what you can control: the process, does.\" something like that". → Don't use "becoming her" in product copy. Working line: **"You can't control the outcome. You can control the process."** (Megan to confirm.)
 ⚠️ Open: the loop below ("DESIRE → IMAGINE → EMBODY + ACT → BECOME → PUBLISH") differs from the locked loop in design/PRODUCT-ARCHITECTURE.md ("DESIRE → IMAGINE → EMBODY → BECOME"). Waiting for Megan's call; the locked loop stays until she decides.
 
 ---

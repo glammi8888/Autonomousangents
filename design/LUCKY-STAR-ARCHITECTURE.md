@@ -158,7 +158,7 @@ If signals are thin, the card asks one question instead of guessing.
 
 ### 4G. Feature skills (V1: 2–3 actions each, no more)
 - **World:** suggest images from the ISSUE11 library for a desire · find her aesthetic pattern (as a question) · organize her board.
-- **Audio:** recommend a session for where she is · write a personal affirmation / visualization script from her own words (read in the app, or played over existing audio).
+- **Audio:** recommend a session for where she is · write a personal affirmation / visualization script from her own words (read in the app, or played over existing audio). **Scripts are process-focused** (design/POSITIONING.md, Megan Oct 7): rehearse the days and behaviors of becoming her, never only the outcome ("Don't just visualize the outcome. Rehearse becoming her.").
 - **Scribe:** ask one useful question · continue her thought · turn a thought into a manifestation statement · prep text for the magazine.
 - **Publish:** fill a page from World + Scribe (Megan's layouts) · rewrite copy · small edits by prompt ("make the title bolder", "swap the photo").
 

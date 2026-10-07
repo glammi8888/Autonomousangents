@@ -25,6 +25,7 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 - 2026-10-06 · Planner · Wording still being drafted (prompts, copy) goes in data (a DB table or one strings file), so it changes without code or an app release.
 - 2026-10-06 · Manager · Megan (word for word): "i have a EIN already remember". Rule: before listing setup steps, check the Roadmap for what she already has; never re-list a done item.
 - 2026-10-07 · Manager · Megan (word for word): "in the future, instead of leading me towards a difficult path (like using claude + expo...) if there is any easier path it should be recommended to me... I discovered by myself that I could use replit. So in the future, ALWAYS suggest the easiest path or the path of least resistance". I compared Lovable/Despia/Base44 but never checked Replit (its mobile builder uses Expo under the hood and has guided App Store publishing). Rule promoted to CLAUDE.md #11.
+- 2026-10-07 · Manager · I gave onboarding a deadline of ~Oct 19; Megan nearly finished it in 1 day (Oct 7) working with the Design agent. Rule: with AI tools Megan's design work is much faster than my estimates; plan in days, not weeks, and keep slack for her energy, not for the work itself.
 
 ## Suggestions
 Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`

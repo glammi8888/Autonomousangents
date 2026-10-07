@@ -112,3 +112,10 @@ Megan: "I don't know why but adding AI feature inside the app is overwhelming to
 Megan: "I do think we need to add LuckyStar to the MVP because it's really part of the experience and aesthetic. And I'm sure it won't be incredibly hard to develop either."
 - V1 scope: GUIDE on Home (one next thing) + ASSIST in Your World, Audio, Scribe, Publish; chat with text + voice input (native iOS dictation); actions with preview + undo; weekly Next Move; consent screen.
 - Design Room estimate: +2–3 weeks on the build (AI calls, memory of her data, safe actions, safety rules, privacy/App Store). Keep V1 lean: voice *in* only (no AI voice replies), no image generation. ⚠️ Flag to the Manager for re-planning. User data → Megan approves the spec before building.
+
+## Onboarding v3 direction: pain point → solution (Megan, Oct 7, 2026)
+Megan: "I do like the 'I am' flow" (whole onboarding + its aesthetic questions) and the web2app one she found first was "painful in hitting pain points and giving a solution... I think its better."
+- Direction: I am's aesthetic and flow + web2app's pain → solution structure, adapted to ISSUE11's value (her answers build her magazine; DESIRE → IMAGINE → EMBODY → BECOME underneath).
+- Draft shape (not built, waiting for Megan's I am screenshots): Hook → **pain** (1–3 honest questions: "You picture the life, but nothing changes?") → **mirror** ("You're not lacking vision. You're missing a practice.") → **solution** = the loop in her words → dream / feel / aesthetic picks (incl. proposed "Pick your cover") → past proof → first move → Meet Lucky Star → Building → Reveal (her Issue) → Paywall.
+- Trust guardrails (CLAUDE.md rule 9 + App Store): no shaming, no fake stats or fake "people like you" numbers, no guaranteed outcomes, no fake countdowns. Pain stays light; the brand is aspirational.
+- Status: approved onboarding v2 stays live in the prototype until Megan approves v3.

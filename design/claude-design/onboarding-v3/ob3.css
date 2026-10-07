@@ -136,3 +136,5 @@ figcaption strong{font-family:var(--body);font-weight:700;font-size:16px}
 
 .peekc{display:grid;grid-template-columns:40% 1fr;gap:3cqw;align-items:stretch}
 .blur{display:flex;flex-direction:column;gap:2cqw;justify-content:center;filter:blur(1.2px);opacity:.6}
+
+.eq{font-family:var(--mono);font-size:3.4cqw;letter-spacing:.04em;text-align:center;background:var(--pink);border-radius:5cqw;padding:2.6cqw 2cqw}

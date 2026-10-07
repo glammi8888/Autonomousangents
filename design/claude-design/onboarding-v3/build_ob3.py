@@ -21,7 +21,7 @@ def cover(name="MEGAN",line="HOW MEGAN BUILT A LIFE BY THE SEA",style="red",smal
 S=[]
 def add(part,title,body,cap,src): S.append((part,title,body,cap,src))
 P1,P2,P3,P4,P5="Hello","Desire","The pain, then the answer","Build her Issue","Reveal, then pay"
-add(P1,"Welcome",h("TURN YOUR DREAMS INTO YOUR OWN MAGAZINE.")+sub("And become the woman who makes them real. About 3 minutes.")+'<div class="q">Where are you with manifesting?</div>'+opts(["Just curious","Tried it, nothing changed yet","Sometimes","It's part of my life"]),"The USP in one line, then an easy question. (Megan, Oct 7)","Headway · HeyCatch")
+add(P1,"Welcome",h("TURN YOUR DREAMS INTO REALITY.")+sub("Starting with your own magazine. About 3 minutes.")+'<div class="q">Where are you with manifesting?</div>'+opts(["Just curious","Tried it, nothing changed yet","Sometimes","It's part of my life"]),"The USP in one line, then an easy question. (Megan, Oct 7)","Headway · HeyCatch")
 add(P1,"Name",h("WHAT SHOULD WE CALL OUR COVER STAR?")+field("Megan")+sub("It goes on the cover of your Issue.")+btn(),"Her name is used from here on.","I am · our Q01")
 add(P1,"Reward",'<div class="cwrap">'+cover(line="",style="blank")+'<span class="stk">HI MEGAN.</span></div>'+stmt("","Your cover's waiting.")+btn(),"A small reward after the first answer.","Headway reward screen")
 add(P1,"Age",h("HOW OLD ARE YOU?")+sub("So your Issue speaks your language.")+opts(["18–24","25–34","35–44","45+"],(1,)),"Easy, one tap. Optional (question for Megan).","I am · Headway")

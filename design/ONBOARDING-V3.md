@@ -10,7 +10,7 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | # | Screen | Copy (draft) | Borrowed from | Feeds |
 |---|---|---|---|---|
 | **PART 1 · HELLO** |||||
-| 1 | Welcome + first question | **TURN YOUR DREAMS INTO YOUR OWN MAGAZINE.** "And become the woman who makes them real. About 3 minutes." Below: *Where are you with manifesting?* Just curious · Tried it, nothing changed yet · Sometimes · It's part of my life | Megan's positioning (Oct 7) · Headway (question on screen 1) | tone of replies |
+| 1 | Welcome + first question | **TURN YOUR DREAMS INTO REALITY.** "Starting with your own magazine. About 3 minutes." (Megan, Oct 7) Below: *Where are you with manifesting?* Just curious · Tried it, nothing changed yet · Sometimes · It's part of my life | Megan's positioning (Oct 7) · Headway (question on screen 1) | tone of replies |
 | 2 | Name | **WHAT SHOULD WE CALL OUR COVER STAR?** "It goes on the cover of your Issue." | I am #2 · our Q01 | cover |
 | 3 | Reward | Her name appears on a blank ISSUE11 cover with a little sticker: "Hi Megan. Your cover's waiting." | Headway reward screen | — |
 | 4 | Age (easy) | **HOW OLD ARE YOU?** "So your Issue speaks your language." 18–24 · 25–34 · 35–44 · 45+ | I am #3 · Headway | tone |

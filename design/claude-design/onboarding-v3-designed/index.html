@@ -76,7 +76,8 @@ body{margin:0;background:#141414;color:var(--ink);font-family:var(--body);displa
 .cover .lines div{font-family:var(--display);letter-spacing:-.04em;line-height:.95;text-transform:uppercase}
 .cover .bot{position:absolute;left:4%;right:4%;bottom:3%;display:flex;justify-content:space-between;align-items:flex-end}
 .cover .vol{font-family:var(--mono)}
-.cover .nm{font-family:var(--display);letter-spacing:-.06em;line-height:.86;margin-top:3px;text-transform:uppercase;word-break:break-word}
+.cover .bot>div{flex:1;min-width:0;padding-right:6px}
+.cover .nm{font-family:var(--display);letter-spacing:-.06em;line-height:.9;margin-top:3px;text-transform:uppercase;white-space:nowrap;overflow:hidden}
 .cover .stk{display:block;border-radius:50%;background:var(--pink);transform:rotate(-10deg);overflow:hidden;position:relative;flex:none}
 .cover .stk img{position:absolute;left:50%;top:50%;height:70%;transform:translate(-50%,-50%)}
 .cover.red{background:var(--red)} .cover.noir{background:var(--ink)}
@@ -166,7 +167,7 @@ const SCREENS=[
 <div style="position:absolute;left:16px;right:16px;bottom:28px;display:flex;flex-direction:column;gap:12px"><div class="h" style="font-size:50px">Turn your dreams into reality.</div><div style="font-size:17px;line-height:1.35">Step one: your own magazine. About 5 minutes.</div><div class="kick" style="margin-top:4px">Where are you with manifesting?</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">${["Just curious","Tried it, nothing changed yet","Sometimes","It's part of my life"].map(o=>`<button class="btn glass" style="height:auto;min-height:52px;padding:8px 10px;text-transform:none;font-size:11px;line-height:1.25" data-act="next">${o}</button>`).join('')}</div><div style="text-align:center"><button class="link" data-act="toast:Sign in (later in the flow)">I already have an account</button></div></div>`},
 {p:1,id:'name',q:1,r:()=>`<div style="position:absolute;left:50%;top:80px;margin-left:-96px;transform:rotate(-3deg)" id="livecover">${cover(192,{lines:false})}</div>
 <div style="position:absolute;left:16px;right:16px;top:380px;display:flex;flex-direction:column;gap:14px"><div class="kick">${'Question '+String(qn).padStart(2,'0')}</div><div class="h" style="font-size:38px">What should we call our cover star?</div><label for="nm" style="position:absolute;left:-9999px">Your first name</label><input id="nm" class="line" value="${esc(S.name)}" autocomplete="given-name"><div class="kick" style="color:#666">It goes on the cover of your Issue.</div></div>${NEXT()}`,
- on:el=>{const i=el.querySelector('#nm');i.addEventListener('input',()=>{S.name=i.value;el.querySelector('#livecover').innerHTML=cover(192,{lines:false});});}},
+ on:el=>{const i=el.querySelector('#nm');i.addEventListener('input',()=>{S.name=i.value;el.querySelector('#livecover').innerHTML=cover(192,{lines:false});fitNames(el);});}},
 {p:1,id:'reward',r:()=>`<div style="position:absolute;left:50%;top:110px;margin-left:-120px"><div style="transform:rotate(-3deg)">${cover(240,{lines:false})}</div><span style="position:absolute;right:-34px;bottom:70px;transform:rotate(-8deg);background:var(--pink);color:var(--ink);font-family:var(--display);font-size:24px;letter-spacing:-.04em;padding:10px 14px;border:3px solid #fff;box-shadow:0 8px 20px rgba(0,0,0,.2)">HI ${nm().toUpperCase()}.</span></div><div style="position:absolute;left:16px;right:16px;top:560px;text-align:center"><div class="h" style="font-size:40px">Your cover's waiting.</div></div>${NEXT()}`},
 {p:1,id:'age',q:1,r:()=>Q('How old are you?','So your Issue speaks your language.',single(['18–24','25–34','35–44','45+'],1))},
 // PART 2 · DESIRE
@@ -240,7 +241,8 @@ function go(i,same){if(i<0||i>=SCREENS.length)return;if(!same&&i!==cur)hist.push
  el.querySelectorAll('[data-toggle]').forEach(b=>b.onclick=()=>{b.classList.toggle('on');if(SCREENS[cur].id==='feel'){const t=b.textContent;const k=S.feel.indexOf(t);k>=0?S.feel.splice(k,1):S.feel.push(t);}});
  el.querySelectorAll('[data-radio]').forEach(b=>b.onclick=()=>el.querySelectorAll(`[data-radio="${b.dataset.radio}"]`).forEach(x=>x.classList.toggle('on',x===b)));
  el.querySelectorAll('[data-plan]').forEach(b=>b.onclick=()=>{S.plan=+b.dataset.plan;const st=el.querySelector('.pwscroll').scrollTop;go(cur,true);frame.querySelector('.pwscroll').scrollTop=st;});
- s.on&&s.on(el);try{history.replaceState(null,'','#s'+(i+1));}catch(e){}}
+ s.on&&s.on(el);fitNames(el);try{history.replaceState(null,'','#s'+(i+1));}catch(e){}}
+function fitNames(root){(root||frame).querySelectorAll('.cover .nm').forEach(n=>{let fs=parseFloat(n.style.fontSize)||40;n.style.fontSize=fs+'px';let g=0;while(n.scrollWidth>n.clientWidth+1&&fs>6&&g++<200){fs-=0.5;n.style.fontSize=fs+'px';}});}
 function toast(t){const d=document.createElement('div');d.className='toast';d.textContent=t;frame.firstElementChild.appendChild(d);setTimeout(()=>d.remove(),1500);}
 frame.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;const a=b.dataset.act;
  if(a==='next')go(cur+1);else if(a==='back'){if(hist.length){const p=hist.pop();go(p,true);}}
@@ -249,6 +251,6 @@ frame.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)
  else if(a.startsWith('toast:'))toast(a.slice(6));});
 document.addEventListener('keydown',e=>{if(e.target.matches('input,textarea'))return;if(e.key==='ArrowRight')go(cur+1);if(e.key==='ArrowLeft'&&hist.length)go(hist.pop(),true);});
 function fit(){const st=document.getElementById('stage');const k=Math.min(innerWidth/390,innerHeight/844);st.style.transform=`scale(${k})`;}
-addEventListener('resize',fit);fit();
+addEventListener('resize',fit);fit();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>fitNames());
 const m=/^#s(\d+)$/.exec(location.hash||'');go(m?Math.min(SCREENS.length,+m[1])-1:0,true);
 </script>

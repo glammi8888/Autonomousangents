@@ -12,7 +12,7 @@ Flow and copy: design/ONBOARDING-V3.md (🔒 locked). Look: Megan's V5 Claude De
 | V5 Onboarding 07 one-year vision | 27 Dream sentence, 28 First proof, 30 First move (grey field, "Say it instead") |
 | V5 Building your Issue | 34 Meet Lucky Star, 36 We've started your first Issue |
 | V5 Cover reveal | Cover lines + 11 sticker style |
-| V5 Paywall | 37 Paywall + 37b lower offer (her cover on pink, plan cards) |
+| V5 Paywall | 37 Paywall, one screen, no scroll (her cover on pink, plan cards) + 37b lower offer as a pop-up card |
 | 41 Morning check-in | 7 Feel (blush + big pink 11), chips style |
 | 42 The list of 11 | 23 How it works (numbered list) |
 | 07 App icon picker | 32 Pick your icon |

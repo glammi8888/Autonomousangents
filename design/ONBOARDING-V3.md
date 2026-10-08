@@ -45,17 +45,16 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | 33 | Primed notifications | Live preview of her notification ("Your Issue: *the woman who shares her work*") · how many · from/to → **ALLOW** → iOS prompt | I am #14 · HeyCatch #15 | reminders |
 | 34 | Meet Lucky Star + AI consent | Existing screen. The one place we say "AI", plainly. | our 09b | consent |
 | 35 | Bridge (her words back) | **YOU SAID YOU START STRONG, THEN STOP.** "This time you'll have one move a week and proof that you're changing." → START MY ISSUE. Line changes with the pain she picked. | Megan: pain → outcome | — |
-| 36 | Started + your future (one screen) | **WE'VE STARTED YOUR FIRST ISSUE.** A timeline that fills in live while it builds: TODAY ✓ your cover and cover story · ◐ your first session → THIS WEEK your first move → IN 30 DAYS your first proof → A YEAR FROM NOW your 4th Issue: "Flip back to the first one and think: holy shit, I actually did it." Mini-question: "Want to hear your vision read aloud?" | Megan (Oct 8): merged loader + future | Audio prefs |
-| 37 | Sneak peek? | **STEP ONE: STARTED.** "Megan, your Issue has started. Want a sneak peek?" → SHOW ME → paywall | Megan (Oct 7): "instead of saying that it is ready we can say that we started working on the issue, want a sneak peek? Yes -> paywall" | — |
-| 38 | Paywall (with the sneak peek) | Her real cover at the top, the rest of her Issue blurred. **YOUR ISSUE IS STEP ONE. KEEP GOING.** + pink line **YOUR ISSUE + YOUR ACTIONS = YOUR WAY THERE** BUILT FOR: *her desired-outcome answer*. Benefits: dreams as a magazine you open every day · audio that rehearses the steps · one small move a week, no pressure · proof of your progress. START MY ISSUE, then real reviews (the beta review moved here from the loader), FAQ (cancel anytime, renewal price), price again. Real intro discount vs our real standard price. | Headway paywall · I am benefits · Megan | — |
-| 39 | If closed | Downsell (App Store promotional offer) | Headway · Sep 24 | — |
-| 40 | Save your Issue | Sign in with Apple / email, after purchase so nothing she made is lost | HeyCatch #20 | account |
+| 36 | Started + your future (one screen) | **WE'VE STARTED YOUR FIRST ISSUE.** A timeline that fills in live while it builds: TODAY ✓ your cover and cover story · ◐ your first session → THIS WEEK your first move → IN 30 DAYS your first proof → A YEAR FROM NOW your 4th Issue: "Flip back to the first one and think: holy shit, I actually did it." Mini-question: "Want to hear your vision read aloud?" Button: **SEE MY SNEAK PEEK →** → paywall with her cover (Megan: "instead of saying that it is ready… want a sneak peek? Yes -> paywall") | Megan (Oct 8): merged loader + future | Audio prefs |
+| 37 | Paywall (with the sneak peek) | Her real cover at the top, the rest of her Issue blurred. **YOUR ISSUE IS STEP ONE. KEEP GOING.** + pink line **YOUR ISSUE + YOUR ACTIONS = YOUR WAY THERE** BUILT FOR: *her desired-outcome answer*. Benefits: dreams as a magazine you open every day · audio that rehearses the steps · one small move a week, no pressure · proof of your progress. START MY ISSUE, then real reviews (the beta review moved here from the loader), FAQ (cancel anytime, renewal price), price again. Real intro discount vs our real standard price. | Headway paywall · I am benefits · Megan | — |
+| 38 | If closed | Downsell (App Store promotional offer) | Headway · Sep 24 | — |
+| 39 | Save your Issue | Sign in with Apple / email, after purchase so nothing she made is lost | HeyCatch #20 | account |
 | **PART 2 · DESIRE** |||||
 | **PART 3 · THE PAIN, THEN THE ANSWER** |||||
 | **PART 4 · BUILD HER ISSUE** |||||
 | **PART 5 · REVEAL → PAY** |||||
 
-**39 screens + downsell.** Balance: ~8 pain screens, ~7 desired-outcome screens. Long on purpose (Headway ~50, HeyCatch 20+): every screen pays her back.
+**38 screens + downsell.** Balance: ~8 pain screens, ~7 desired-outcome screens. Long on purpose (Headway ~50, HeyCatch 20+): every screen pays her back.
 
 ## Trust rules (always win)
 - No fake numbers, logos, countdowns or testimonials. Social proof only from real data once we have it (beta reviews first).

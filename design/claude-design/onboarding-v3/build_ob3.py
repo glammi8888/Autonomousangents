@@ -1,6 +1,6 @@
 import html
 E=html.escape
-N=39
+N=38
 def top(i):
     return f'<div class="bar"><i style="width:{i/N*100:.0f}%"></i></div><div class="tl"><span>ISSUE11</span><span>{"SKIP" if i>3 else ""}</span></div>'
 def h(t): return f'<div class="h">{t}</div>'
@@ -60,8 +60,7 @@ add(P4,"Pick your icon",h("PICK YOUR ICON.")+sub("It sits on your Home Screen.")
 add(P4,"Notifications",h("YOUR ISSUE, THROUGHOUT THE DAY.")+'<div class="notif"><span class="ni">11</span><div><b>ISSUE11</b><br>I’m the woman who shares her work.</div></div><div class="rows"><div>How many <span>3×</span></div><div>From <span>8:00</span></div><div>To <span>21:00</span></div></div>'+btn("ALLOW"),"Live preview, then the iOS prompt.","I am · HeyCatch")
 add(P4,"Meet Lucky Star",'<div class="ls"><span>11</span></div>'+h("MEET LUCKY STAR ★")+sub("Your AI guide. It helps you build your Issue and decide what’s next. Nothing changes unless you keep it.")+btn("SOUNDS GOOD"),"The one place we say “AI”, plainly. Consent.","our 09b")
 add(P5,"Bridge",stmt("YOU SAID YOU START STRONG, THEN STOP.","This time you’ll have one move a week and proof that you’re changing.")+btn("START MY ISSUE"),"Her own answers, played back. Most personal moment.","Megan's pain → outcome")
-add(P5,"Started + your future",h("WE’VE STARTED YOUR FIRST ISSUE.")+'<div class="tline"><div><b>TODAY ✓</b>Your cover and cover story · ◐ your first session</div><div><b>THIS WEEK</b>Your first move: book a viewing by the sea</div><div><b>IN 30 DAYS</b>Your first proof</div><div><b>A YEAR FROM NOW</b>Your 4th Issue. Flip back to the first one and think: <em>holy shit, I actually did it.</em></div></div><div class="mini">Want to hear your vision read aloud?<span>YES</span><span>LATER</span></div>'+btn(),"Loader + future timeline in one. Steps fill in live while it builds. Review moves to the paywall.","Megan: merge 36 + 37")
-add(P5,"Sneak peek?",stmt("STEP ONE: STARTED.","Megan, your Issue has started. Want a sneak peek?")+btn("SHOW ME"),"Megan: say it’s started, not ready. Yes → paywall with her cover.","Megan (Oct 7)")
+add(P5,"Started + your future",h("WE’VE STARTED YOUR FIRST ISSUE.")+'<div class="tline"><div><b>TODAY ✓</b>Your cover and cover story · ◐ your first session</div><div><b>THIS WEEK</b>Your first move: book a viewing by the sea</div><div><b>IN 30 DAYS</b>Your first proof</div><div><b>A YEAR FROM NOW</b>Your 4th Issue. Flip back to the first one and think: <em>holy shit, I actually did it.</em></div></div><div class="mini">Want to hear your vision read aloud?<span>YES</span><span>LATER</span></div>'+btn("SEE MY SNEAK PEEK →"),"Loader + future + sneak-peek button in one. Tap → paywall with her cover. Steps fill in live while it builds. Review moves to the paywall.","Megan: merge 36 + 37")
 add(P5,"Paywall",'<div class="peekc">'+cover(small=True)+'<div class="blur"><div class="ln"></div><div class="ln s"></div><div class="ln"></div></div></div>'+h("YOUR ISSUE IS STEP ONE. KEEP GOING.")+'<div class="eq">YOUR ISSUE + YOUR ACTIONS = YOUR WAY THERE</div>'+'<div class="mono">BUILT FOR: TAKING REAL STEPS</div><div class="ben"><div>Your dreams as a magazine you open every day</div><div>Audio that rehearses the steps, made from your words</div><div>One small move a week, no pressure</div><div>Proof of your progress</div></div>'+btn("START MY ISSUE")+'<div class="price">PRICE TBD · intro offer TBD</div><div class="mono c">Cancel anytime · Restore · Terms · Privacy</div>',"The sneak peek lives here: her real cover, the rest unlocks. Prices = Megan + Revenue.","Headway · I am · Megan")
 add(P5,"Save your Issue",h("SAVE YOUR ISSUE.")+cover(line="",small=True,style="red")+'<div class="foot"><div class="btn">  SIGN IN WITH APPLE</div><div class="ghost">Use email instead</div></div>',"After purchase, so nothing she made is lost.","HeyCatch")
 
@@ -83,7 +82,7 @@ out=f'''<title>ISSUE11 Onboarding v3</title>
 <style>{css}</style>
 <main>
 <header class="top"><div class="eyebrow">ISSUE11 · DESIGN ROOM · DRAFT FOR MEGAN</div><h1>Onboarding v3</h1>
-<p>39 screens. Every answer builds her magazine, so the Reveal shows <em>her</em> Issue. Megan’s pain points, Headway’s structure, I am’s calm rhythm. <em>You can’t control the outcome. You are in control of the process.</em></p>
+<p>38 screens. Every answer builds her magazine, so the Reveal shows <em>her</em> Issue. Megan’s pain points, Headway’s structure, I am’s calm rhythm. <em>You can’t control the outcome. You are in control of the process.</em></p>
 <div class="flow"><span>Hello</span><span>Desire</span><span>The pain, then the answer</span><span>Build her Issue</span><span>Reveal, then pay</span></div></header>
 {"".join(secs)}
 <footer class="note">Draft · not built into the app yet · prices, trial and discounts are decided by Megan + Revenue · social proof only from real data.</footer>

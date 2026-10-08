@@ -17,6 +17,11 @@ Flow and copy: design/ONBOARDING-V3.md (🔒 locked). Look: Megan's V5 Claude De
 | 42 The list of 11 | 23 How it works (numbered list) |
 | 07 App icon picker | 32 Pick your icon |
 | 30 Sign in with masthead | 38 Save your Issue |
+| Statement 1 · pink, giant white 11 | 10 Reply (dreamer / doer / both) |
+| Statement 2 · black, pattern of pink 11s | 19 Mirror ("You know the life you want") |
+| Statement 3 · blush, 11 stickers scattered | 24 "Your magazine is your first step" |
+| Statement 4 · cream, huge pink 11 behind the words | 35 Bridge ("You said…") |
+| Statement 5 · green, rows of white 11s | 31 Day 1 ("Your Issue starts today" + week row) |
 | 48 Cover editor, V5 Add proof, V5 Past Proof | Not onboarding screens: saved for the app (Issue editor, Proof). Styles reused. |
 
 ## Small additions for Megan to OK (layout labels, not locked copy)

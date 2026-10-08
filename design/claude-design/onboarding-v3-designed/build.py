@@ -8,6 +8,14 @@ A = {}
 for k, f in files.items():
     mime = 'image/png' if f.endswith('.png') else 'image/jpeg'
     A[k] = 'data:%s;base64,%s' % (mime, base64.b64encode(open(os.path.join(here, 'assets', f), 'rb').read()).decode())
-t = open(os.path.join(here, 'template.html')).read().replace('/*ASSETS*/{}', json.dumps(A))
+def font(f):
+    return 'data:font/woff2;base64,' + base64.b64encode(open(os.path.join(here, 'assets', f), 'rb').read()).decode()
+# Fonts are embedded (SIL Open Font License) so titles always render in Archivo Black, even if Google Fonts can't load.
+FONTS = ("@font-face{font-family:'Archivo Black';font-weight:400;font-display:block;src:url(%s) format('woff2')}"
+         "@font-face{font-family:'Archivo Narrow';font-weight:400 700;font-display:block;src:url(%s) format('woff2')}"
+         "@font-face{font-family:'IBM Plex Mono';font-weight:400;font-display:block;src:url(%s) format('woff2')}"
+         "@font-face{font-family:'IBM Plex Mono';font-weight:500;font-display:block;src:url(%s) format('woff2')}") % (
+         font('font-archivo-black.woff2'), font('font-archivo-narrow.woff2'), font('font-plex-mono-400.woff2'), font('font-plex-mono-500.woff2'))
+t = open(os.path.join(here, 'template.html')).read().replace('/*ASSETS*/{}', json.dumps(A)).replace('/*FONTS*/', FONTS)
 open(os.path.join(here, 'index.html'), 'w').write(t)
 print('index.html', len(t)//1024, 'KB')

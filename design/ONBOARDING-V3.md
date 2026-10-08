@@ -1,5 +1,5 @@
 # Onboarding v3 (FLOW APPROVED by Megan, Oct 8)
-Design Room · Oct 7, 2026 · Status: **FLOW + PAYWALL LOGIC APPROVED by Megan (Oct 8): "I'm happy. Paywall logic is done".** Next: visual design in Claude Design, then the tappable prototype. Still open (payments, need Megan + Revenue): prices, intro offer vs trial, discount and downsell amounts.
+Design Room · Oct 7, 2026 · Status: **ONBOARDING FLOW APPROVED by Megan (Oct 8): "I'm happy." (she corrected: "not paywall lol I meant onboarding").** The paywall screen itself is still open. Next: visual design in Claude Design, then the tappable prototype. Still open: the paywall screen (payments, need Megan + Revenue): prices, intro offer vs trial, discount and downsell amounts.
 Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcomes, USP; Oct 7) · Headway structure (research/web2app-strategy.md) · HeyCatch research + Megan's Sep 24 "full strength, as long as every claim is true" (Notion: ISSUE11: App Concept + Onboarding Flow) · I am's look and rhythm (research/i-am-onboarding-teardown.md) · the locked loop DESIRE → IMAGINE → EMBODY → BECOME (design/PRODUCT-ARCHITECTURE.md, never shown as labels).
 
 **The idea in one line:** every answer builds her magazine, so by the Reveal she's looking at *her* Issue, not a demo.

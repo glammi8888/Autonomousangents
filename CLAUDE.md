@@ -23,6 +23,7 @@ USER REQUEST → PLANNER → BUILDER → QA → REVIEWER → HUMAN APPROVAL → 
 
 ## 🧭 Product architecture (locked by Megan, Oct 3, 2026)
 Read `design/PRODUCT-ARCHITECTURE.md` before any product or design work. In short: 4 functions (Your World · Audio · Scribe · Publish). Lucky Star is the AI layer across them via the 11 sticker, not a 5th section. DESIRE → IMAGINE → EMBODY → BECOME is the philosophy underneath, not navigation. Never turn ISSUE11 into a productivity, task-management, goal-setting or chatbot app. **Keep the magazine as the hero. Keep the AI invisible until it is useful.**
+**Onboarding is locked (Megan, Oct 8):** `design/ONBOARDING-V3.md` is the final onboarding logic. Don't change screens, order or copy without Megan's explicit OK. Positioning: `design/POSITIONING.md`.
 
 ## 💝 Do smart things (set by Megan)
 Same rules as Notion → Company Structure. In short:

@@ -21,3 +21,6 @@ Started Oct 8, 2026 (Design Room). Feeds the ISSUE11 paywall (screen 36 in desig
 - Two plans: **Yearly with a free trial (pre-selected, shown as a monthly equivalent)** + **Monthly, no trial**. Family plan later, if at all.
 - Test vs Igor's tiny-intro-price model after launch.
 - Before deciding: check current App Store rules for free trials / introductory offers and Family Sharing, and current competitor prices.
+
+## Family plan? (Megan asked, Oct 8)
+Design Room recommendation: **not in V1.** Each member gets her own Issue, Lucky Star (AI) and personalized audio, so cost grows per member (unlike Calm's shared audio). Revisit in V1.1 once cost per user is known. On-brand alternative to test then: a **"Bestie / Duo" plan** (2 friends). To verify before deciding: Apple Family Sharing rules for subscriptions (I believe it can't be switched off once enabled).

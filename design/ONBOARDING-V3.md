@@ -54,7 +54,7 @@ Built from: **design/POSITIONING.md** (Megan's 10 pain points, 10 desired outcom
 | **PART 4 · BUILD HER ISSUE** |||||
 | **PART 5 · REVEAL → PAY** |||||
 
-**38 screens + downsell.** Balance: ~8 pain screens, ~7 desired-outcome screens. Long on purpose (Headway ~50, HeyCatch 20+): every screen pays her back.
+**38 screens + downsell.** **Length is intentional (Megan, Oct 8, word for word): "The length is intentional because of the sunk cost fallacy when they hit the paywall".** Don't shorten it to save time; only cut screens that don't pay her back. The paywall must still be easy to close (App Store). Megan: "the design needs to be worked on" → visual pass in Claude Design next. Balance: ~8 pain screens, ~7 desired-outcome screens. Long on purpose (Headway ~50, HeyCatch 20+): every screen pays her back.
 
 ## Trust rules (always win)
 - No fake numbers, logos, countdowns or testimonials. Social proof only from real data once we have it (beta reviews first).

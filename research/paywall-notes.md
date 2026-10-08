@@ -24,3 +24,11 @@ Started Oct 8, 2026 (Design Room). Feeds the ISSUE11 paywall (screen 36 in desig
 
 ## Family plan? (Megan asked, Oct 8)
 Design Room recommendation: **not in V1.** Each member gets her own Issue, Lucky Star (AI) and personalized audio, so cost grows per member (unlike Calm's shared audio). Revisit in V1.1 once cost per user is known. On-brand alternative to test then: a **"Bestie / Duo" plan** (2 friends). To verify before deciding: Apple Family Sharing rules for subscriptions (I believe it can't be switched off once enabled).
+
+## Weekly plan? (Megan, Oct 8: "We can offer weekly too" → agreed: test after launch)
+Not in V1 (brand = calm, quarterly rhythm; weekly plans draw billing complaints/refunds; value shows over weeks). **Post-launch test:** a weekly plan or a "$0.99 first week, then normal price" intro vs the yearly free trial, only if yearly + trial converts poorly.
+
+## V1 paywall plans (Design Room recommendation, Megan agreed in principle Oct 8; prices TBD with Revenue)
+- Yearly + free trial (pre-selected; shown per month and per year)
+- Monthly, no trial (shown per year as the anchor)
+- Later: Duo/Family (V1.1), weekly / $0.99 intro (test)

@@ -3,7 +3,7 @@ import base64, json, os
 here = os.path.dirname(os.path.abspath(__file__))
 files = {'pcover':'photo-cover.jpg','pwelcome':'photo-welcome.jpg','p3':'photo-3.jpg','p4':'photo-4.jpg','p5':'photo-5.jpg','p6':'photo-6.jpg','p7':'photo-7.jpg','psignin':'photo-signin.jpg',
          'mwhite':'masthead-white.png','mblack':'masthead-black.png','mcream':'masthead-cream.png',
-         'e11pink':'eleven-pink.png','e11black':'eleven-black.png','e11cream':'eleven-cream.png','e11white':'eleven-white.png'}
+         'e11pink':'eleven-pink.png','e11black':'eleven-black.png','e11cream':'eleven-cream.png','e11white':'eleven-white.png', **{'icon%d'%i:'icon-%d.jpg'%i for i in range(1,11)}}
 A = {}
 for k, f in files.items():
     mime = 'image/png' if f.endswith('.png') else 'image/jpeg'

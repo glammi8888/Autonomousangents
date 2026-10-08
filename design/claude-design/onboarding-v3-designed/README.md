@@ -15,7 +15,7 @@ Flow and copy: design/ONBOARDING-V3.md (🔒 locked). Look: Megan's V5 Claude De
 | V5 Paywall | 37 Paywall, one screen, no scroll (her cover on pink, plan cards) + 37b lower offer as a pop-up card |
 | 41 Morning check-in | 7 Feel (blush + big pink 11), chips style |
 | 42 The list of 11 | 23 How it works (numbered list) |
-| 07 App icon picker | 32 Pick your icon |
+| 07 App icon picker + Brand Overview icons (Oct 8) | 32 Pick your icon: the 10 icons from the Brand Overview slide (assets/icon-1…10.jpg, cropped from assets/brand-overview-source.jpg; low-res, swap for the original icon files before launch) |
 | 30 Sign in with masthead | 38 Save your Issue |
 | Statement 1 · pink, giant white 11 | 10 Reply (dreamer / doer / both) |
 | Statement 2 · black, pattern of pink 11s | 19 Mirror ("You know the life you want") |

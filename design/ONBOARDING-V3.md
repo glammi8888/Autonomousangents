@@ -6,7 +6,7 @@ This is the final onboarding logic: screen order, questions, answer options, rep
 
 **Still open (not locked):**
 - **Paywall prices and offers** (screen 37 and 37b): price, free-trial length, discount and downsell amounts. Payments → Megan's explicit approval + Revenue (CLAUDE.md). Agreed direction (Oct 8): Yearly with a free trial (pre-selected) + Monthly without trial; weekly / $0.99 intro = test after launch; Duo/Family = V1.1. See research/paywall-notes.md.
-- **Visual design**: Megan: "the design needs to be worked on" → Claude Design pass next, then the tappable prototype.
+- **Visual design**: Megan: "the design needs to be worked on" → Claude Design pass next (brief: design/claude-design/ONBOARDING-V3-DESIGN-BRIEF.md), then the tappable prototype.
 - **Timing**: screen 1 says "About 5 minutes". Time it in the prototype; it must be true.
 
 **Sources:** design/POSITIONING.md (Megan's 10 pain points, 10 desired outcomes, USP, value equation) · Headway structure (research/web2app-strategy.md, research/web2app-headway-transcript.md) · HeyCatch research + Megan's Sep 24 "full strength, as long as every claim is true" (Notion: ISSUE11: App Concept + Onboarding Flow) · I am's rhythm and aesthetic picks (research/i-am-onboarding-teardown.md) · the loop DESIRE → IMAGINE → EMBODY → BECOME underneath (design/PRODUCT-ARCHITECTURE.md), never shown as labels.

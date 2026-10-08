@@ -10,6 +10,7 @@ This is the final onboarding logic: screen order, questions, answer options, rep
 - **Timing**: screen 1 says "About 5 minutes". Time it in the prototype; it must be true.
 
 **Sources:** design/POSITIONING.md (Megan's 10 pain points, 10 desired outcomes, USP, value equation) · Headway structure (research/web2app-strategy.md, research/web2app-headway-transcript.md) · HeyCatch research + Megan's Sep 24 "full strength, as long as every claim is true" (Notion: ISSUE11: App Concept + Onboarding Flow) · I am's rhythm and aesthetic picks (research/i-am-onboarding-teardown.md) · the loop DESIRE → IMAGINE → EMBODY → BECOME underneath (design/PRODUCT-ARCHITECTURE.md), never shown as labels.
+**Designed, tappable (Megan's V5 look, Oct 8):** https://claude.ai/artifact/UCJ6DUgP4akbMqDBvAmP5J (source: design/claude-design/onboarding-v3-designed/, see its README).
 **Storyboard:** https://claude.ai/artifact/2GVFgdAkAuns1UuHYXuqyG (source: design/claude-design/onboarding-v3/, rebuild with `python3 build_ob3.py`).
 
 ## The logic in one line

@@ -88,7 +88,6 @@ body{margin:0;background:#141414;color:var(--ink);font-family:var(--body);displa
 .pcard2 q{display:block;font-family:var(--display);letter-spacing:-.06em;line-height:.88;text-transform:uppercase;quotes:"“" "”"}
 .yn{flex:1;height:64px;border-radius:32px;border:2px solid #0d0d0d;background:#fff;color:#0d0d0d;font-family:var(--display);font-size:22px;letter-spacing:-.03em;cursor:pointer}
 .pr{text-align:center}
-.barpill .bar{background:rgba(255,255,255,.92);border-radius:24px;padding:0 10px;left:8px;right:8px}
 .pcard{padding:24px 20px 26px;transform:rotate(-2deg);box-shadow:0 18px 36px rgba(0,0,0,.14)}
 .pcard q{display:block;font-family:var(--display);letter-spacing:-.045em;font-size:28px;line-height:.98;text-transform:uppercase;quotes:"“" "”"}
 .reply{font-size:19px;line-height:1.4;font-weight:600}
@@ -189,7 +188,7 @@ const SCREENS=[
 {p:2,id:'reply',cls:'onstmt',r:()=>{const v=[["You already see it.","Dreamers are great at the vision. ISSUE11 adds the steps."],["You're already moving.","Doers are great at action. ISSUE11 points it toward the life you actually want."],["The best of both.","You see it and you move. Your Issue keeps them together."]][S.label];return stmt(1,v[0],v[1],'NEXT')}},
 // PART 3 · THE PAIN, THEN THE WAY OUT
 {p:3,id:'clear',q:1,r:()=>Q('Do you have a clear picture of the life you want?','',single(['Yes','Working on it','One day at a time','Not really'],1))},
-...PAIN.map((c,i)=>({p:3,id:'pain'+(i+1),cls:['','dark','','barpill','barpill',''][i],r:()=>painScreen(i,c),
+...PAIN.map((c,i)=>({p:3,id:'pain'+(i+1),cls:['','','','','dark',''][i],r:()=>painScreen(i,c),
  on:el=>{const d=PD[i];el.querySelector('[data-act=painyes]').onclick=e=>{e.stopPropagation();if(!S.yes.includes(i))S.yes.push(i);el.querySelector('#pq').innerHTML=`<div class="reply pr" style="${d.rep}">${esc(c[1])}</div><button class="btn" data-act="next" style="${d.yes}">NEXT ${ARROW}</button>`;};el.querySelector('[data-act=painno]').onclick=e=>{e.stopPropagation();S.yes=S.yes.filter(x=>x!==i);go(cur+1);};}})),
 {p:3,id:'else',q:1,r:()=>Q("What's stopping you?",'',single(["I have big dreams but no idea where to start","I start strong but never stick with it.","I'm trying, but nothing seems to change.","Honestly? All three."],3))},
 {p:3,id:'mirror',cls:'dark',r:()=>stmt(2,'You know the life you want.',"The hard part is the in-between. That's what ISSUE11 is for.",'NEXT')},
@@ -222,14 +221,14 @@ const SCREENS=[
 {p:5,id:'end',cls:'dark',noBar:true,r:()=>`<div style="position:absolute;left:16px;right:16px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;gap:18px;text-align:center;align-items:center"><div style="transform:rotate(-2deg)">${cover(220)}</div><div class="kick">End of onboarding · Home comes next</div>${btn('START AGAIN','restart','w" style="flex:none;width:100%')}</div>`}
 ];
 const stk=(x,y,sz,r,bg,src,z=2)=>`<span style="position:absolute;left:${x}px;top:${y}px;z-index:${z}"><span style="position:relative;display:block;width:${sz}px;height:${sz}px;border-radius:${Math.round(sz*.27)}px;overflow:hidden;background:${bg};border:3px solid #fff;box-shadow:0 6px 14px rgba(0,0,0,.25);transform:rotate(${r}deg)"><img src="${src}" alt="" style="position:absolute;left:50%;top:50%;height:76%;transform:translate(-50%,-50%)"></span></span>`;
-// Be honest 1–6: Megan's designs BH1–BH5 (Oct 9). Screen 6 reuses BH1, mirrored.
+// Be honest 1–6: Megan's calm designs 1–5 (Oct 9). Screen 6 reuses calm 1, mirrored, with a pink card.
 const PD=[
- {bg:'#F65AAD',art:()=>`<img src="${A.e11white}" alt="" style="position:absolute;left:170px;top:-44px;height:900px;transform:rotate(-5deg)">`+stk(306,128,74,10,'#F5EEE0',A.e11pink,4),top:196,rot:-3,card:'#F5EEE0;color:#0d0d0d'},
- {bg:'#0d0d0d',art:()=>{let o='';for(let r=0;r<9;r++)for(let k=0;k<7;k++)o+=`<img src="${A.e11pink}" alt="" style="position:absolute;left:${(r%2?25:-6)+k*62}px;top:${66+r*84}px;height:62px;transform:rotate(${(r+k)%2?-8:8}deg);opacity:.22">`;return o+stk(4,136,70,-12,'#F5EEE0',A.e11black,4);},top:206,rot:2,card:'#F65AAD;color:#0d0d0d',no:'background:transparent;color:#fff;border-color:#fff',yes:'background:#fff;color:#0d0d0d;border-color:#fff',ink:'#fff'},
- {bg:'#FCD2DD',art:()=>stk(-14,156,84,-14,'#0d0d0d',A.e11cream)+stk(298,128,88,12,'#F5EEE0',A.e11pink,5)+stk(270,486,72,-8,'#4BA551',A.e11white)+stk(14,506,64,8,'#fff',A.e11pink,5),top:216,rot:-2,card:'#F65AAD;color:#0d0d0d'},
- {bg:'#fff',art:()=>`<img src="${A.swirl}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover">`,top:296,rot:-3,card:'#F65AAD;color:#0d0d0d',label:1,rep:'background:#fff;padding:14px 16px;border:2px solid #0d0d0d'},
- {bg:'#F9C6D8',art:()=>`<img src="${A.pissue}" alt="" style="position:absolute;left:-120px;top:-34px;height:640px"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(246,190,205,0) 40%,#F9C6D8 74%)"></div>`,top:396,rot:0,card:'#0d0d0d;color:#fff',fs:28,label:1},
- {bg:'#F65AAD',art:()=>`<img src="${A.e11white}" alt="" style="position:absolute;left:-150px;top:-44px;height:900px;transform:rotate(5deg)">`+stk(4,128,74,-10,'#0d0d0d',A.e11cream,4),top:196,rot:3,card:'#F5EEE0;color:#0d0d0d'}
+ {bg:'#F5EEE0',art:()=>`<img src="${A.e11black}" alt="" style="position:absolute;left:120px;top:-54px;height:860px;transform:rotate(-4deg);opacity:.06">`,top:206,rot:-2,card:'#0d0d0d;color:#F5EEE0'},
+ {bg:'#fff',art:()=>stk(298,150,64,8,'#F5EEE0',A.e11black,4),top:206,rot:0,card:'#FCD2DD;color:#0d0d0d'},
+ {bg:'#F2F2F2',art:()=>`<div style="position:absolute;right:-110px;top:116px;width:300px;height:300px;border-radius:50%;overflow:hidden;opacity:.9"><img src="${A.swirl}" alt="" style="width:100%;height:100%;object-fit:cover"></div>`,top:226,rot:-2,card:'#4BA551;color:#F5EEE0'},
+ {bg:'#FCD2DD',art:()=>`<img src="${A.e11white}" alt="" style="position:absolute;left:130px;top:-34px;height:820px;transform:rotate(6deg);opacity:.55">`,top:206,rot:-2,card:'#F5EEE0;color:#0d0d0d'},
+ {bg:'#0d0d0d',art:()=>`<img src="${A.e11white}" alt="" style="position:absolute;left:110px;top:-64px;height:860px;transform:rotate(-4deg);opacity:.05">`,top:206,rot:2,card:'#F5EEE0;color:#0d0d0d',no:'background:transparent;color:#fff;border-color:#fff',yes:'background:#fff;color:#0d0d0d;border-color:#fff',ink:'#fff'},
+ {bg:'#F5EEE0',art:()=>`<img src="${A.e11black}" alt="" style="position:absolute;left:-160px;top:-54px;height:860px;transform:rotate(4deg);opacity:.06">`,top:206,rot:2,card:'#F65AAD;color:#0d0d0d'}
 ].map(d=>({no:'',yes:'background:#0d0d0d;color:#fff',ink:'#0d0d0d',rep:'',fs:30,...d}));
 function painScreen(i,c){const d=PD[i];const lab=t=>d.label?`<span style="background:#0d0d0d;color:#fff;padding:6px 10px">${t}</span>`:t;
  return `<div style="position:absolute;inset:0;background:${d.bg};overflow:hidden">${d.art()}</div>

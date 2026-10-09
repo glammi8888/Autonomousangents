@@ -87,7 +87,9 @@ body{margin:0;background:#141414;color:var(--ink);font-family:var(--body);displa
 .pcard2{padding:28px 24px;box-sizing:border-box;box-shadow:0 20px 40px rgba(0,0,0,.18)}
 .pcard2 q{display:block;font-family:var(--display);letter-spacing:-.06em;line-height:.88;text-transform:uppercase;quotes:"“" "”"}
 .yn{flex:1;height:64px;border-radius:32px;border:2px solid #0d0d0d;background:#fff;color:#0d0d0d;font-family:var(--display);font-size:22px;letter-spacing:-.03em;cursor:pointer}
-.pr{text-align:center}
+.reply2{font-family:var(--display);text-transform:uppercase;font-size:36px;line-height:.9;letter-spacing:-.055em;margin-bottom:6px;animation:rise .45s cubic-bezier(.2,.9,.3,1.15) both}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.reply2{animation:none}}
 .pcard{padding:24px 20px 26px;transform:rotate(-2deg);box-shadow:0 18px 36px rgba(0,0,0,.14)}
 .pcard q{display:block;font-family:var(--display);letter-spacing:-.045em;font-size:28px;line-height:.98;text-transform:uppercase;quotes:"“" "”"}
 .reply{font-size:19px;line-height:1.4;font-weight:600}
@@ -189,7 +191,7 @@ const SCREENS=[
 // PART 3 · THE PAIN, THEN THE WAY OUT
 {p:3,id:'clear',q:1,r:()=>Q('Do you have a clear picture of the life you want?','',single(['Yes','Working on it','One day at a time','Not really'],1))},
 ...PAIN.map((c,i)=>({p:3,id:'pain'+(i+1),cls:['','','','','dark',''][i],r:()=>painScreen(i,c),
- on:el=>{const d=PD[i];el.querySelector('[data-act=painyes]').onclick=e=>{e.stopPropagation();if(!S.yes.includes(i))S.yes.push(i);el.querySelector('#pq').innerHTML=`<div class="reply pr" style="${d.rep}">${esc(c[1])}</div><button class="btn" data-act="next" style="${d.yes}">NEXT ${ARROW}</button>`;};el.querySelector('[data-act=painno]').onclick=e=>{e.stopPropagation();S.yes=S.yes.filter(x=>x!==i);go(cur+1);};}})),
+ on:el=>{const d=PD[i];el.querySelector('[data-act=painyes]').onclick=e=>{e.stopPropagation();if(!S.yes.includes(i))S.yes.push(i);el.querySelector('#pq').innerHTML=`<div class="reply2" style="${d.rep}">${esc(c[1])}</div><button class="btn" data-act="next" style="${d.yes}">NEXT ${ARROW}</button>`;};el.querySelector('[data-act=painno]').onclick=e=>{e.stopPropagation();S.yes=S.yes.filter(x=>x!==i);go(cur+1);};}})),
 {p:3,id:'else',q:1,r:()=>Q("What's stopping you?",'',single(["I have big dreams but no idea where to start","I start strong but never stick with it.","I'm trying, but nothing seems to change.","Honestly? All three."],3))},
 {p:3,id:'mirror',cls:'dark',r:()=>stmt(2,'You know the life you want.',"The hard part is the in-between. That's what ISSUE11 is for.",'NEXT')},
 {p:3,id:'outcome',q:1,r:()=>Q('A year from now, what would make you say “I actually did it”?','',single(OUTCOMES,S.outcome,'outcome'),34)},

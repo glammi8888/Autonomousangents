@@ -17,5 +17,7 @@ FONTS = ("@font-face{font-family:'Archivo Black';font-weight:400;font-display:bl
          "@font-face{font-family:'IBM Plex Mono';font-weight:500;font-display:block;src:url(%s) format('woff2')}") % (
          font('font-archivo-black.woff2'), font('font-archivo-narrow.woff2'), font('font-plex-mono-400.woff2'), font('font-plex-mono-500.woff2'))
 t = open(os.path.join(here, 'template.html')).read().replace('/*ASSETS*/{}', json.dumps(A)).replace('/*FONTS*/', FONTS)
+# Standalone page (works in Replit or any browser, not only the artifact)
+t='<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'+t+'\n</html>\n'
 open(os.path.join(here, 'index.html'), 'w').write(t)
 print('index.html', len(t)//1024, 'KB')

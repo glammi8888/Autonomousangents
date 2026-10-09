@@ -39,3 +39,9 @@ Flow and copy: design/ONBOARDING-V3.md (🔒 locked). Look: Megan's V5 Claude De
 ## To verify before launch
 - Meet Lucky Star says the AI service "doesn't train on them or keep them": confirm the provider's current terms.
 - "About 5 minutes" on screen 1: time it.
+
+## Saved state (Oct 9, 2026)
+- Live prototype: https://claude.ai/artifact/UCJ6DUgP4akbMqDBvAmP5J (version 16).
+- `index.html` is one standalone file (images + fonts inside): open it in any browser, or upload it to Replit (HTML/CSS/JS template, replace its index.html, Run). Rebuild with `python3 -I build.py` after editing `template.html`.
+- Since lock: Be honest 1–6 use Megan's calm designs; on YES her quote fades and shrinks, the reply appears smaller and centred. Selection outlines no longer cropped. Cover picker labels visible.
+- Waiting on Megan: 8 world images for screen 25 (design/AESTHETICS.md), real prices, full-res icons.

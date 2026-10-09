@@ -1,5 +1,6 @@
 # ISSUE11 app: everything after the paywall (Design Room, Oct 9, 2026)
 Megan: "So it should be everything after the paywall". Onboarding (screens 1–38) is done and saved.
+Visual map: https://claude.ai/artifact/Tfe9RNTCYNHeaQagTtdyQf (screenshots of the existing screens per area).
 Rules: design/PRODUCT-ARCHITECTURE.md (locked). 4 functions: Your World · Audio · Scribe · Publish. Lucky Star = the 11 sticker (GUIDE on Home, ASSIST inside features). Keep the magazine as the hero, the AI invisible until useful. Look = the onboarding v3 designed prototype (Archivo Black, mono kickers, statement screens, 11 stickers, calm "Be honest" cards).
 
 ## Map

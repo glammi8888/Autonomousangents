@@ -3,7 +3,23 @@ Megan: "So it should be everything after the paywall". Onboarding (screens 1–3
 Visual map: https://claude.ai/artifact/Tfe9RNTCYNHeaQagTtdyQf (screenshots of the existing screens per area).
 Rules: design/PRODUCT-ARCHITECTURE.md (locked). 4 functions: Your World · Audio · Scribe · Publish. Lucky Star = the 11 sticker (GUIDE on Home, ASSIST inside features). Keep the magazine as the hero, the AI invisible until useful. Look = the onboarding v3 designed prototype (Archivo Black, mono kickers, statement screens, 11 stickers, calm "Be honest" cards).
 
-## Map
+## Combined structure (Oct 9, Megan: "ok let's do that")
+Replit's functionality (Megan's Replit build, screenshots shared Oct 9) merged with the locked rules. This replaces the Map's navigation.
+
+**Bottom bar:** Home · Audio · Your World · Scribe · Issue. **The 11 floats on every screen** (Lucky Star). **Profile = small icon top right** (You).
+
+| Tab | What it does | Taken from Replit | Changed vs Replit |
+|---|---|---|---|
+| **Home** | Her daily edition: cover, this week's move, one session, one inspiration, one note from Lucky Star | Daily-edition layout; "I made room for it" logs the move in one tap | No DESIRE→BECOME stage tracker; move is weekly, not daily |
+| **Audio** | Session library by goal, player, eyes-closed mode | Library sorted by goal | Named Audio (was Explore); retire "Become her" |
+| **Your World** | Preset worlds + her own photos, saved in one place | Save an image to "keep this feeling" | Own tab (was inside Explore); add-your-own-photo |
+| **Scribe** | One prompt a day, typed or spoken; only lines she marks go into her Issue | Prompt + refresh + "Save to my story"; "only the lines you choose" | Name still open: Scribe or Journal |
+| **Issue** | Her magazine. V1: she builds it in 4 steps (name, cover image, mood = her 8 worlds, her words if she chooses); read; change a page | 4-step Studio builder | "Create" + sign → Issue; mood = her worlds, not 3 colours |
+| **You** (top right) | This week's intention, past proof, settings, membership, delete account | Intention + past proof on one page | No stage bar, no "Chapter 03", no zero counters; Lucky Star is the floating 11, not a link |
+
+**Open for Megan:** (1) Scribe or Journal on the tab. (2) Issue V1 built by her in 4 steps (recommended: easier, cheaper, no AI cost per magazine), Lucky Star editing after. This changes the locked Publish wording ("AI turns World + Scribe into the magazine"), so it needs her explicit OK.
+
+## Map (first version, areas)
 | # | Area | Screens | Already designed (reuse) | Status |
 |---|---|---|---|---|
 | 1 | **First open** | Home, first-run state: her cover with her name, "Your Issue has started", her first move this week, her worlds | V4 Home | Gap: the first-run state |

@@ -7,18 +7,18 @@ Rules: design/PRODUCT-ARCHITECTURE.md (locked). 4 functions: Your World · Audio
 **Our design stays.** Megan, word for word: "I want to keep our design though!!!!! Just the functionality of replit... Please we really worked hard on that design". Every screen keeps the ISSUE11 look (onboarding v3 designed + Megan's Claude Design screens). From Replit we take **only what the buttons and screens do**, never its colours, fonts, icons or layout.
 Replit's functionality (Megan's Replit build, screenshots shared Oct 9) merged with the locked rules. This replaces the Map's navigation.
 
-**Bottom bar:** Home · Audio · Your World · Scribe · Issue. **The 11 floats on every screen** (Lucky Star). **Profile = small icon top right** (You).
+**Bottom bar (decided by Megan, Oct 9):** Home · Explore · Issue · Journal · You, plus **the 11 floating on every screen** (Lucky Star). Megan: "Let's keep our aesthetic but keeping replit's split because it's much clearer in my opinion".
+The 4 functions are all there behind friendlier tab names: Audio + Your World live in **Explore**, Scribe is **Journal**, Publish is **Issue**.
 
-| Tab | What it does | Taken from Replit | Changed vs Replit |
+| Tab | What it does | Function taken from Replit | Changed vs Replit |
 |---|---|---|---|
-| **Home** | Her daily edition: cover, this week's move, one session, one inspiration, one note from Lucky Star | Daily-edition layout; "I made room for it" logs the move in one tap | No DESIRE→BECOME stage tracker; move is weekly, not daily |
-| **Audio** | Session library by goal, player, eyes-closed mode | Library sorted by goal | Named Audio (was Explore); retire "Become her" |
-| **Your World** | Preset worlds + her own photos, saved in one place | Save an image to "keep this feeling" | Own tab (was inside Explore); add-your-own-photo |
-| **Scribe** | One prompt a day, typed or spoken; only lines she marks go into her Issue | Prompt + refresh + "Save to my story"; "only the lines you choose" | Name still open: Scribe or Journal |
-| **Issue** | Her magazine. V1: she builds it in 4 steps (name, cover image, mood = her 8 worlds, her words if she chooses); read; change a page | 4-step Studio builder | "Create" + sign → Issue; mood = her worlds, not 3 colours |
-| **You** (top right) | This week's intention, past proof, settings, membership, delete account | Intention + past proof on one page | No stage bar, no "Chapter 03", no zero counters; Lucky Star is the floating 11, not a link |
+| **Home** | Her daily edition: cover, this week's move, one session, one inspiration, one note from Lucky Star | Daily-edition sections; "I made room for it" logs the move in one tap | No DESIRE→BECOME stage tracker; move is weekly, not daily |
+| **Explore** | Audio sessions by goal + your preset worlds; saving an image adds it to her World (shown at the top with her own photos) | Library by goal; save to keep a feeling | Her own photos added; retire "Become her" |
+| **Issue** | Her magazine: build it (V1: 4 steps: name, cover, mood = her 8 worlds, her words if she chooses), read it, change a page | 4-step Studio builder | "Create" + sign renamed Issue; mood = her worlds, not 3 colours |
+| **Journal** | One prompt a day, typed or spoken; only lines she marks go into her Issue | Prompt + refresh + "Save to my story"; "only the lines you choose" | — |
+| **You** | This week's intention, past proof, settings, membership, delete account | Intention + past proof on one page | No stage bar, no "Chapter 03", no zero counters; Lucky Star is the floating 11, not a link |
 
-**Open for Megan:** (1) Scribe or Journal on the tab. (2) Issue V1 built by her in 4 steps (recommended: easier, cheaper, no AI cost per magazine), Lucky Star editing after. This changes the locked Publish wording ("AI turns World + Scribe into the magazine"), so it needs her explicit OK.
+**Open for Megan:** Issue V1 built by her in 4 steps (recommended: easier, cheaper, no AI cost per magazine), Lucky Star editing after. This changes the locked Publish wording ("AI turns World + Scribe into the magazine"), so it needs her explicit OK.
 
 ## Map (first version, areas)
 | # | Area | Screens | Already designed (reuse) | Status |

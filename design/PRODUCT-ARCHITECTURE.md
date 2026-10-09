@@ -259,3 +259,7 @@ Megan: "they should have the option between presets and their own images" · "an
 - **Needs Megan's approval of the spec before building:** storing her photos is user data (where they're kept, who sees them, how she deletes them).
 - **Trust:** her own saved images are fine in her private Issue. Sharing/publishing pages with images she doesn't own is a copyright risk; decide before Publish ships.
 - **Idea (Megan):** cross-sell a photo editing app for people who want to change their images. Not decided.
+
+## APP NAVIGATION (decided by Megan, Oct 9, 2026)
+Megan: "Let's keep our aesthetic but keeping replit's split because it's much clearer in my opinion".
+Bottom bar: **Home · Explore · Issue · Journal · You** + the **11 sticker floating on every screen** (Lucky Star). The 4 functions keep their meaning: Audio + Your World inside Explore, Scribe = Journal (tab name), Publish = Issue. Look = ISSUE11's own design; only the split comes from Megan's Replit build. Details: design/APP-AFTER-PAYWALL.md.

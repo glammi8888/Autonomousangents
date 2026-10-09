@@ -4,6 +4,7 @@ Visual map: https://claude.ai/artifact/Tfe9RNTCYNHeaQagTtdyQf (screenshots of th
 Rules: design/PRODUCT-ARCHITECTURE.md (locked). 4 functions: Your World · Audio · Scribe · Publish. Lucky Star = the 11 sticker (GUIDE on Home, ASSIST inside features). Keep the magazine as the hero, the AI invisible until useful. Look = the onboarding v3 designed prototype (Archivo Black, mono kickers, statement screens, 11 stickers, calm "Be honest" cards).
 
 ## Combined structure (Oct 9, Megan: "ok let's do that")
+**Our design stays.** Megan, word for word: "I want to keep our design though!!!!! Just the functionality of replit... Please we really worked hard on that design". Every screen keeps the ISSUE11 look (onboarding v3 designed + Megan's Claude Design screens). From Replit we take **only what the buttons and screens do**, never its colours, fonts, icons or layout.
 Replit's functionality (Megan's Replit build, screenshots shared Oct 9) merged with the locked rules. This replaces the Map's navigation.
 
 **Bottom bar:** Home · Audio · Your World · Scribe · Issue. **The 11 floats on every screen** (Lucky Star). **Profile = small icon top right** (You).

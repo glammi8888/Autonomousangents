@@ -45,3 +45,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 
 - 2026-10-09 (Design Room): When Megan says a design is "ugly" or "too busy", show 2–3 options side by side as a screenshot before changing the prototype. She picked parts from two options (smaller centred reply + the fading quote) that one guess would have missed.
 - 2026-10-09 (Design Room): Megan, word for word: "I actually like this transition! The opacity of the negative statement gets reduced". On Be honest screens, YES fades and shrinks her quote; the reply stays smaller and centred.
+- 2026-10-09 (Design Room): Megan, word for word: "I want to keep our design though!!!!! Just the functionality of replit... Please we really worked hard on that design". Rule: when comparing with another build (Replit or any tool), borrow functionality only. Never show or propose its look as ours; describe borrowed features in words, in our design.

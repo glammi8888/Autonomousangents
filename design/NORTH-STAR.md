@@ -1,5 +1,6 @@
 # ISSUE11 North Star (Megan, Oct 2, 2026)
 **⚠️ Locked architecture: design/PRODUCT-ARCHITECTURE.md (Megan, Oct 3) wins wherever this page differs.**
+**Positioning (Megan, Oct 7):** design/POSITIONING.md: pain points, desired outcomes, USP. One line: "ISSUE11 is a manifestation app that turns your dreams into a personal magazine — and helps you become the person who makes them real." Philosophy (working, Oct 7): "You can't control the outcome. You are in control of the process." ("becoming her" retired by Megan as overused)
 Every feature, screen and AI action is checked against this page. Megan's words are quoted; the mapping below is Design Room's.
 
 ## Purpose

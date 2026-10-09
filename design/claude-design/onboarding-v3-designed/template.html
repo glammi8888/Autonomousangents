@@ -1,0 +1,297 @@
+<title>ISSUE11 Onboarding</title>
+<style>/*FONTS*/</style>
+<style>
+/* Layout: one 390×844 phone screen, scaled to fit, Megan's V5 Claude Design system. Single look (the app's own colors). */
+:root{
+  --ink:#0d0d0d; --white:#FFFFFF; --pink:#F65AAD; --blush:#FCD2DD; --cream:#F5EEE0; --red:#D40806; --green:#4BA551; --grey:#F7F7F7; --muted:#555555;
+  --display:'Archivo Black','Arial Black',Impact,sans-serif; --body:'Archivo Narrow','Arial Narrow',Arial,sans-serif; --mono:'IBM Plex Mono',ui-monospace,Menlo,monospace;
+  color-scheme: dark;
+}
+html,body{height:100%}
+body{margin:0;background:#141414;color:var(--ink);font-family:var(--body);display:flex;align-items:center;justify-content:center;overflow:hidden}
+#stage{width:390px;height:844px;flex:none;transform-origin:center center;position:relative}
+.frame{position:absolute;inset:0;overflow:hidden;border-radius:28px;background:var(--white)}
+@media (max-width:500px){.frame{border-radius:0}}
+.frame img{max-width:none}
+.scr{position:absolute;inset:0;overflow:hidden;background:var(--white);color:var(--ink);display:flex;flex-direction:column}
+.scr.dark{background:var(--ink);color:var(--white)}
+.scr.pink{background:var(--pink)}
+.scr.blushbg{background:var(--blush)}
+.fade{animation:fade .28s ease}
+@keyframes fade{from{opacity:0;transform:translateX(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.fade{animation:none}}
+/* top bar */
+.bar{position:absolute;left:16px;right:16px;top:22px;display:flex;align-items:center;gap:10px;z-index:5}
+.back{display:flex;width:40px;height:40px;align-items:center;justify-content:center;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+.segs{flex:1;display:flex;gap:4px}
+.segs span{flex:1;height:3px;border-radius:2px;background:rgba(13,13,13,.15);overflow:hidden;position:relative}
+.dark .segs span,.onphoto .segs span{background:rgba(255,255,255,.25)}
+.segs span i{position:absolute;inset:0 auto 0 0;background:var(--ink)}
+.dark .segs span i,.onphoto .segs span i{background:var(--white)}
+.cnt{font-family:var(--mono);font-size:11px}
+/* type */
+.kick{font-family:var(--mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase}
+.h{font-family:var(--display);letter-spacing:-.065em;line-height:.86;text-transform:uppercase;text-wrap:balance}
+.sub{font-size:16px;line-height:1.4;color:var(--muted)}
+.dark .sub,.onphoto .sub{color:#CFCFCF}
+.body{position:absolute;left:10px;right:10px;top:78px;bottom:110px;padding:6px 6px 8px;box-sizing:border-box;display:flex;flex-direction:column;gap:14px;overflow-y:auto;scrollbar-width:none}
+.body::-webkit-scrollbar{display:none}
+.foot{position:absolute;left:16px;right:16px;bottom:30px;display:flex;flex-direction:column;gap:10px;z-index:4}
+.row2{display:flex;gap:8px}
+/* buttons */
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;height:58px;border-radius:29px;background:var(--ink);color:var(--white);border:0;font-family:var(--mono);font-size:12px;letter-spacing:.02em;cursor:pointer;flex:1 1 auto;text-transform:uppercase;box-sizing:border-box}
+.btn.w{background:var(--white);color:var(--ink)}
+.btn.g{background:#F2F2F2;color:var(--ink)}
+.btn.glass{color:var(--white);background:linear-gradient(160deg,rgba(255,255,255,.24),rgba(255,255,255,.06));border:1px solid rgba(255,255,255,.5);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%)}
+.btn:disabled{opacity:.35;cursor:default}
+.btn:focus-visible,.pill:focus-visible,.chip:focus-visible,.blk:focus-visible,.tile:focus-visible{outline:3px solid var(--pink);outline-offset:3px}
+.link{background:none;border:0;color:inherit;font-family:var(--mono);font-size:11px;cursor:pointer;text-transform:uppercase;padding:6px}
+/* options */
+.opts{display:flex;flex-direction:column;gap:10px}
+.pill{display:flex;justify-content:space-between;align-items:center;min-height:56px;padding:12px 20px;border-radius:29px;border:1.5px solid var(--ink);background:transparent;color:inherit;font-family:var(--display);font-size:19px;letter-spacing:-.03em;text-transform:uppercase;text-align:left;cursor:pointer;line-height:1}
+.dark .pill{border-color:rgba(255,255,255,.8)}
+.pill.on{background:var(--ink);color:var(--white)}
+.dark .pill.on{background:var(--white);color:var(--ink)}
+.pill.on::after{content:"";width:10px;height:10px;border-radius:50%;background:var(--pink);flex:none;margin-left:10px}
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{padding:12px 18px;border-radius:24px;border:1.5px solid var(--ink);background:transparent;color:inherit;font-family:var(--display);font-size:18px;letter-spacing:-.03em;text-transform:uppercase;cursor:pointer;line-height:1}
+.chip.on{background:var(--ink);color:var(--white)}
+.blocks{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.blk{position:relative;display:flex;flex-direction:column;justify-content:space-between;height:96px;padding:12px;border:0;text-align:left;cursor:pointer;color:var(--ink)}
+.blk b{font-family:var(--display);font-weight:400;letter-spacing:-.05em;font-size:23px;text-transform:uppercase;line-height:.9}
+.blk span{font-family:var(--mono);font-size:10px}
+.blk.on{outline:3px solid var(--ink);outline-offset:3px}
+.field{background:var(--grey);min-height:150px;padding:18px;font-size:19px;line-height:1.45;border:0;width:100%;box-sizing:border-box;font-family:var(--body);color:var(--ink);resize:none}
+.field:focus{outline:2px solid var(--ink)}
+.line{height:64px;border:0;border-bottom:2px solid var(--ink);font-family:var(--display);font-size:36px;letter-spacing:-.04em;text-transform:uppercase;background:transparent;outline:none;color:var(--ink);width:100%}
+.glasslabel{display:inline-flex;align-items:center;height:30px;padding:0 12px;border-radius:15px;color:#fff;font-family:var(--mono);font-size:10px;text-transform:uppercase;background:linear-gradient(160deg,rgba(255,255,255,.24),rgba(255,255,255,.06));border:1px solid rgba(255,255,255,.5);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.tag{display:inline-flex;align-items:center;height:26px;padding:0 10px;border-radius:13px;font-family:var(--mono);font-size:10px;text-transform:uppercase}
+/* cover */
+.cover{position:relative;overflow:hidden;color:#fff;box-shadow:0 20px 40px rgba(0,0,0,.22)}
+.cover>img.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.1),rgba(0,0,0,0) 30%,rgba(0,0,0,.55))}
+.cover .cin{position:absolute;inset:0;padding:3.5% 4% 3.5%;display:flex;flex-direction:column;box-sizing:border-box}
+.cover .mast{display:block;width:54%;flex:none}
+.cover .lines{max-width:78%;margin-top:4%;display:flex;flex-direction:column;gap:.45em;min-height:0;overflow:hidden}
+.cover .lines div{font-family:var(--display);letter-spacing:-.04em;line-height:.95;text-transform:uppercase}
+.cover .bot{margin-top:auto;padding-top:3%;display:flex;justify-content:space-between;align-items:flex-end;flex:none}
+.cover .vol{font-family:var(--mono)}
+.cover .bot>div{flex:1;min-width:0;padding-right:6px}
+.cover .nm{font-family:var(--display);letter-spacing:-.06em;line-height:.9;margin-top:3px;text-transform:uppercase;white-space:nowrap;overflow:hidden}
+.cover .stk{display:block;border-radius:50%;background:var(--pink);transform:rotate(-10deg);overflow:hidden;position:relative;flex:none}
+.cover .stk img{position:absolute;left:50%;top:50%;height:70%;transform:translate(-50%,-50%)}
+.cover.red{background:var(--red)} .cover.noir{background:var(--ink)}
+.sticker11{display:block;border-radius:22%;overflow:hidden;background:var(--cream);border:3px solid #fff;box-shadow:0 8px 20px rgba(0,0,0,.22);position:relative}
+.sticker11 img{position:absolute;left:50%;top:50%;height:76%;transform:translate(-50%,-50%)}
+/* pain card */
+.pcard2{padding:28px 24px;box-sizing:border-box;box-shadow:0 20px 40px rgba(0,0,0,.18)}
+.pcard2 q{display:block;font-family:var(--display);letter-spacing:-.06em;line-height:.88;text-transform:uppercase;quotes:"“" "”"}
+.yn{flex:1;height:64px;border-radius:32px;border:2px solid #0d0d0d;background:#fff;color:#0d0d0d;font-family:var(--display);font-size:22px;letter-spacing:-.03em;cursor:pointer}
+.stepback{transition:transform .5s ease,opacity .5s ease;transform:translateY(-60px) scale(.82);opacity:.45}
+@media (prefers-reduced-motion:reduce){.stepback{transition:none}}
+.artout>*{transition:opacity .4s ease;opacity:0!important}
+.rwrap{position:absolute;left:32px;right:32px;bottom:124px;display:flex;align-items:center;justify-content:center;z-index:4}
+.reply2{font-family:var(--display);text-transform:uppercase;font-size:24px;line-height:.95;letter-spacing:-.045em;text-align:center;max-width:300px;animation:rise .45s cubic-bezier(.2,.9,.3,1.15) both}
+@keyframes rise{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.reply2{animation:none}}
+.pcard{padding:24px 20px 26px;transform:rotate(-2deg);box-shadow:0 18px 36px rgba(0,0,0,.14)}
+.pcard q{display:block;font-family:var(--display);letter-spacing:-.045em;font-size:28px;line-height:.98;text-transform:uppercase;quotes:"“" "”"}
+.reply{font-size:19px;line-height:1.4;font-weight:600}
+/* lists */
+.lst{display:flex;flex-direction:column}
+.lst .it{display:flex;gap:12px;align-items:flex-start;padding:11px 0;border-bottom:1px solid rgba(13,13,13,.15)}
+.lst .n{font-family:var(--display);font-size:22px;letter-spacing:-.04em;width:34px;flex:none}
+.lst .t{font-size:17px;font-weight:700;text-transform:uppercase;line-height:1.1}
+.lst .d{font-size:15px;color:var(--muted);margin-top:2px}
+.eq{font-family:var(--mono);font-size:11px;letter-spacing:.03em;text-align:center;background:var(--pink);color:var(--ink);border-radius:20px;padding:11px 12px}
+.ba{display:flex;flex-direction:column;gap:8px}
+.ba .r{display:grid;grid-template-columns:1fr 18px 1.1fr;align-items:stretch;gap:6px}
+.ba .was{font-size:14px;color:#8a8a8a;text-decoration:line-through;padding:10px 0;line-height:1.2}
+.ba .arr{align-self:center;font-family:var(--mono);font-size:12px}
+.ba .now{padding:10px 12px;font-family:var(--display);font-size:14px;letter-spacing:-.03em;text-transform:uppercase;line-height:1}
+.steps .s{display:flex;gap:12px;align-items:flex-start;padding:9px 0}
+.steps .ic{width:24px;height:24px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;box-sizing:border-box}
+.steps .ok{background:#fff;color:var(--ink)}
+.steps .spin{border:2px solid var(--pink);border-top-color:transparent;animation:spin 1s linear infinite}
+.steps .todo{border:1.5px solid rgba(255,255,255,.4)}
+@keyframes spin{to{transform:rotate(360deg)}}
+.steps .when{font-family:var(--mono);font-size:10px;color:#CFCFCF}
+.steps .what{font-size:16px;font-weight:600;text-transform:uppercase;line-height:1.15}
+.plan{position:relative;padding:15px 16px;display:flex;justify-content:space-between;align-items:center;border:1px solid rgba(13,13,13,.15);background:#fff;cursor:pointer;text-align:left;font-family:var(--body);color:var(--ink);width:100%}
+.plan.on{border:2px solid var(--ink)}
+.plan .pn{font-family:var(--display);letter-spacing:-.04em;font-size:22px;text-transform:uppercase}
+.plan .pd{font-size:14px;color:var(--muted);margin-top:2px}
+.plan .pp{font-family:var(--mono);font-size:12px}
+.badge{position:absolute;right:14px;top:-12px;background:var(--pink);padding:3px 8px;border-radius:8px;font-family:var(--mono);font-size:10px}
+.dot{width:8px;height:8px;border-radius:50%;flex:none}
+.notif{display:flex;gap:12px;align-items:center;padding:14px;border-radius:22px;color:#fff;background:linear-gradient(160deg,rgba(255,255,255,.3),rgba(255,255,255,.1));border:1px solid rgba(255,255,255,.5);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px)}
+.setrow{display:flex;justify-content:space-between;align-items:center;padding:14px 0;border-bottom:1px solid rgba(13,13,13,.15);font-size:17px}
+.setrow .v{font-family:var(--mono);font-size:12px;display:flex;align-items:center;gap:12px}
+.mini{width:30px;height:30px;border-radius:50%;background:var(--ink);color:#fff;border:0;font-size:16px;cursor:pointer}
+.tile{position:relative;border:0;padding:0;cursor:pointer;overflow:hidden;background:#ddd}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tile .ck{position:absolute;right:8px;top:8px;width:26px;height:26px;border-radius:50%;background:#fff;color:var(--ink);display:none;align-items:center;justify-content:center;font-weight:700;font-size:13px}
+.tile.on{outline:3px solid var(--ink);outline-offset:3px}
+.tile.on .ck{display:flex}
+.icn{display:flex;flex-direction:column;align-items:center;gap:10px;background:none;border:0;cursor:pointer;font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--ink)}
+.icn .ib{position:relative;width:92px;height:92px;border-radius:22px;overflow:hidden;box-shadow:0 6px 16px rgba(0,0,0,.12)}
+.icn.on .ib{outline:3px solid var(--pink);outline-offset:4px}
+.week{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.week .d{display:flex;flex-direction:column;align-items:center;gap:6px;font-family:var(--mono);font-size:10px}
+.week .d i{display:block;width:100%;aspect-ratio:1;background:#F2F2F2;position:relative;overflow:hidden}
+.week .d.on i{background:var(--pink)}
+.week .d.on i::after{content:"✓";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:#fff;font-style:normal;font-weight:700}
+.toast{position:absolute;left:50%;bottom:110px;transform:translateX(-50%);background:var(--ink);color:#fff;font-family:var(--mono);font-size:11px;padding:10px 14px;border-radius:16px;z-index:9;white-space:nowrap}
+.wk5 .d i{background:rgba(255,255,255,.25)}.wk5 .d.on i{background:#fff}.wk5 .d.on i::after{color:#4BA551}
+.grow .cover .lines>div{animation:pop .5s cubic-bezier(.2,.9,.3,1.3) both}.grow .cover .lines>div:nth-child(1){animation-delay:.35s}.grow .cover .lines>div:nth-child(2){animation-delay:.85s}.grow .cover .lines>div:nth-child(3){animation-delay:1.35s}
+@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.92)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.grow .cover .lines>div{animation:none}}
+.note{font-family:var(--mono);font-size:9px;color:#888;text-transform:uppercase;letter-spacing:.03em}
+</style>
+<div id="stage"><div class="frame" id="frame"></div></div>
+<script>
+const A=/*ASSETS*/{};
+const S={name:'Megan',topics:['My own thing','A home I love','Travel'],yes:[],label:2,outcome:2,coverStyle:0,icon:0,move:'Book a viewing for a place by the sea.',dream:'',proof:'',plan:0,feel:['Like I\'m moving forward','Unstuck'],picked:[0,2,4]};
+const TOPICS=[['Love','#F65AAD','#0d0d0d','Calm, chosen, kept'],['Money & freedom','#4BA551','#fff','Rich is a feeling'],['My own thing','#0d0d0d','#fff','Her own studio, her own rules'],['A home I love','#F5EEE0','#0d0d0d','A home by the ocean'],['Glow-up','#D40806','#fff','A body I trust'],['Peace','#FCD2DD','#0d0d0d','Rest without guilt'],['Travel','#F2F2F2','#0d0d0d','Paris every spring'],['Help me choose','#fff','#0d0d0d','The future issue']];
+const T=n=>TOPICS.find(t=>t[0]===n)||TOPICS[7];
+const PAIN=[
+ ["I get obsessed with changing my life, then go back to my old habits.","Most people do. That's why your Issue meets you every day.",'#F65AAD','#0d0d0d',"Going back to old habits","A practice you actually stick to","YOU SAID YOU START STRONG, THEN STOP."],
+ ["My vision board inspired me for a week. Now I don't even see it. I forgot about it.","A board you forget isn't a vision. An Issue you open every day is.",'#0d0d0d','#fff',"A vision board you forget","A magazine you open every day","YOU SAID YOUR VISION BOARD GOT FORGOTTEN."],
+ ["I say ‘I'm a millionaire’ and feel a little delulu.","Fair. No ‘I'm a millionaire’ here. Just your next real step.",'#FCD2DD','#0d0d0d',"Feeling delulu","Real steps, no fake affirmations","YOU SAID SOME MANIFESTING FEELS DELULU."],
+ ["I watch manifestation content but nothing in my life changes.","Watching isn't doing. ISSUE11 gives you one small step a week.",'#4BA551','#fff',"Watching content","Doing","YOU SAID YOU WATCH, BUT NOTHING CHANGES."],
+ ["I keep waiting for my life to start while I watch others living theirs fully.","It doesn't start later. It starts with what you do this week.",'#D40806','#fff',"Waiting for life to start","One move this week","YOU SAID YOU'RE WAITING FOR YOUR LIFE TO START."],
+ ["I know exactly who I want to be. I just don't know how to get there.","Then you're in the right place.",'#F5EEE0','#0d0d0d',"Not knowing how","Knowing exactly what's next","YOU SAID YOU DON'T KNOW HOW TO GET THERE."]];
+const OUTCOMES=["I stuck with it","I finally feel clear","I took real steps","I can see how far I've come","I'm proud of who I am"];
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const ARROW='<svg width="22" height="14" viewBox="0 0 22 14" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M0 7h20M14 1l6 6-6 6"/></svg>';
+const nm=()=>esc((S.name||'You').trim()||'You');
+function cover(w,opt={}){const h=Math.round(w*4/3),st=opt.style??S.coverStyle,f=w/320;
+ const bg=st===0?`<img class="ph" src="${A.pcover}" alt=""><div class="shade"></div>`:'';
+ const cls=st===1?' red':st===2?' noir':'';
+ const lines=opt.lines===false?'':`<div class="lines" style="font-size:${Math.round(15*f)}px">${S.topics.slice(0,3).map(t=>`<div><span class="tag" style="background:${T(t)[1]};color:${T(t)[2]};height:${Math.round(24*f)}px;font-size:${Math.max(7,Math.round(10*f))}px;padding:0 ${Math.round(8*f)}px;${T(t)[1]=='#fff'||T(t)[1]=='#F2F2F2'?'':''}">${esc(t)}</span><div style="margin-top:${Math.round(4*f)}px">${esc(T(t)[3])}</div></div>`).join('')}</div>`;
+ return `<div class="cover${cls}" style="width:${w}px;height:${h}px;${opt.tilt?`transform:rotate(${opt.tilt}deg);`:''}">${bg}<div class="cin"><img class="mast" src="${st===1?A.mcream:A.mwhite}" alt="ISSUE11">${lines}<div class="bot"><div><div class="vol" style="font-size:${Math.max(6,Math.round(10*f))}px">VOL. 01 · THE FUTURE ISSUE</div><div class="nm" style="font-size:${Math.round(62*f)}px">${opt.blank?'':nm()}</div></div><span class="stk" style="width:${Math.round(68*f)}px;height:${Math.round(68*f)}px"><img src="${A.e11black}" alt=""></span></div></div></div>`;}
+const sticker=(sz,rot=8)=>`<span style="display:block;transform:rotate(${rot}deg)"><span class="sticker11" style="width:${sz}px;height:${sz}px"><img src="${A.e11pink}" alt=""></span></span>`;
+const btn=(label,act,cls='')=>`<button class="btn ${cls}" data-act="${act}">${label}</button>`;
+const NEXT=(label='NEXT',cls='')=>`<div class="foot">${btn(label+' '+ARROW,'next',cls)}</div>`;
+let qn=0;
+// ---------- screens (locked copy: design/ONBOARDING-V3.md) ----------
+const SCREENS=[
+// PART 1 · HELLO
+{p:1,id:'welcome',cls:'dark onphoto',noBar:true,r:()=>`<img src="${A.pwelcome}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,0) 30%,rgba(0,0,0,.8))"></div><div style="position:absolute;left:16px;right:16px;top:30px"><img src="${A.mwhite}" alt="ISSUE11" style="width:100%"></div>
+<div style="position:absolute;left:16px;right:16px;bottom:28px;display:flex;flex-direction:column;gap:12px"><div class="h" style="font-size:50px">Turn your dreams into reality.</div><div style="font-size:17px;line-height:1.35">Step one: your own magazine. About 5 minutes.</div><div class="kick" style="margin-top:4px">Where are you with manifesting?</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">${["Just curious","Tried it, nothing changed yet","Sometimes","It's part of my life"].map(o=>`<button class="btn glass" style="height:auto;min-height:52px;padding:8px 10px;text-transform:none;font-size:11px;line-height:1.25" data-act="next">${o}</button>`).join('')}</div><div style="text-align:center"><button class="link" data-act="toast:Sign in (later in the flow)">I already have an account</button></div></div>`},
+{p:1,id:'name',q:1,r:()=>`<div style="position:absolute;left:50%;top:80px;margin-left:-96px;transform:rotate(-3deg)" id="livecover">${cover(192,{lines:false})}</div>
+<div style="position:absolute;left:16px;right:16px;top:380px;display:flex;flex-direction:column;gap:14px"><div class="kick">${'Question '+String(qn).padStart(2,'0')}</div><div class="h" style="font-size:38px">What should we call our cover star?</div><label for="nm" style="position:absolute;left:-9999px">Your first name</label><input id="nm" class="line" value="${esc(S.name)}" autocomplete="given-name"><div class="kick" style="color:#666">It goes on the cover of your Issue.</div></div>${NEXT()}`,
+ on:el=>{const i=el.querySelector('#nm');i.addEventListener('input',()=>{S.name=i.value;el.querySelector('#livecover').innerHTML=cover(192,{lines:false});fitNames(el);});}},
+{p:1,id:'reward',r:()=>`<div style="position:absolute;left:50%;top:110px;margin-left:-120px"><div style="transform:rotate(-3deg)">${cover(240,{lines:false})}</div><span style="position:absolute;right:-34px;bottom:70px;transform:rotate(-8deg);background:var(--pink);color:var(--ink);font-family:var(--display);font-size:24px;letter-spacing:-.04em;padding:10px 14px;border:3px solid #fff;box-shadow:0 8px 20px rgba(0,0,0,.2)">HI ${nm().toUpperCase()}.</span></div><div style="position:absolute;left:16px;right:16px;top:560px;text-align:center"><div class="h" style="font-size:40px">Your cover's waiting.</div></div>${NEXT()}`},
+{p:1,id:'age',q:1,r:()=>Q('How old are you?','So your Issue speaks your language.',single(['18–24','25–34','35–44','45+'],1))},
+// PART 2 · DESIRE
+{p:2,id:'topic',q:1,r:()=>`<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:38px">What's your first Issue about?</div><div class="sub" style="margin-top:-4px">Pick any.</div><div class="blocks">${TOPICS.map(t=>`<button class="blk${S.topics.includes(t[0])?' on':''}" data-topic="${esc(t[0])}" style="background:${t[1]};color:${t[2]};${t[0]==='Help me choose'?'border:2px dashed #BDBDBD;':''}"><span>${S.topics.includes(t[0])?'SELECTED ✓':'TAP TO ADD'}</span><b>${esc(t[0])}</b></button>`).join('')}</div></div>${NEXT()}`,
+ on:el=>el.querySelectorAll('.blk').forEach(b=>b.onclick=()=>{const t=b.dataset.topic,i=S.topics.indexOf(t);i>=0?S.topics.splice(i,1):S.topics.push(t);b.classList.toggle('on');b.querySelector('span').textContent=i>=0?'TAP TO ADD':'SELECTED ✓';})},
+{p:2,id:'sneak',r:()=>{const saved=S.topics;if(!saved.length)S.topics=['Help me choose'];const c=cover(214);S.topics=saved;return `<div class="body" style="gap:14px;align-items:stretch"><div class="kick">Your Issue</div><div class="h" style="font-size:40px">Your Issue is already taking shape.</div><div class="grow" style="display:flex;justify-content:center;margin-top:6px"><div style="transform:rotate(-3deg)">${c}</div></div><div class="kick" style="text-align:center;line-height:1.7">Inside · p.4 Your vision · p.8 Your first move · p.12 Your proof</div></div>${NEXT()}`}},
+{p:2,id:'feel',q:1,cls:'blushbg',r:()=>`<img src="${A.e11pink}" alt="" style="position:absolute;right:-50px;top:40px;height:330px;opacity:.9"><div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:44px;max-width:300px">What do you want to feel more of?</div><div class="sub">Pick any.</div>${multi(["Like I'm moving forward","Unstuck","In control","Confident","Calm","Proud of myself","Excited about my life","Like myself again"],'feel')}</div>${NEXT()}`},
+{p:2,id:'inspo',q:1,r:()=>`<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:40px">Whose life inspires your Issue?</div><div class="sub">Pick any.</div>${multi(["Zara Larsson","Hailey Bieber","Zendaya","Bella Hadid","Alix Earle","Sabrina Carpenter","Simone Biles","Selena Gomez"],'inspo',['Zendaya'])}</div>${NEXT()}`},
+{p:2,id:'label',q:1,r:()=>Q('Are you a dreamer or a doer?','',single(['A dreamer','A doer','A bit of both'],S.label,'label'))},
+{p:2,id:'reply',cls:'onstmt',r:()=>{const v=[["You already see it.","Dreamers are great at the vision. ISSUE11 adds the steps."],["You're already moving.","Doers are great at action. ISSUE11 points it toward the life you actually want."],["The best of both.","You see it and you move. Your Issue keeps them together."]][S.label];return stmt(1,v[0],v[1],'NEXT')}},
+// PART 3 · THE PAIN, THEN THE WAY OUT
+{p:3,id:'clear',q:1,r:()=>Q('Do you have a clear picture of the life you want?','',single(['Yes','Working on it','One day at a time','Not really'],1))},
+...PAIN.map((c,i)=>({p:3,id:'pain'+(i+1),cls:['','','','','dark',''][i],r:()=>painScreen(i,c),
+ on:el=>{const d=PD[i];el.querySelector('[data-act=painyes]').onclick=e=>{e.stopPropagation();if(!S.yes.includes(i))S.yes.push(i);painReply(el,d,c);};el.querySelector('[data-act=painno]').onclick=e=>{e.stopPropagation();S.yes=S.yes.filter(x=>x!==i);go(cur+1);};}})),
+{p:3,id:'else',q:1,r:()=>Q("What's stopping you?",'',single(["I have big dreams but no idea where to start","I start strong but never stick with it.","I'm trying, but nothing seems to change.","Honestly? All three."],3))},
+{p:3,id:'mirror',cls:'dark',r:()=>stmt(2,'You know the life you want.',"The hard part is the in-between. That's what ISSUE11 is for.",'NEXT')},
+{p:3,id:'outcome',q:1,r:()=>Q('A year from now, what would make you say “I actually did it”?','',single(OUTCOMES,S.outcome,'outcome'),34)},
+{p:3,id:'goalsfeel',q:1,r:()=>`<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:38px">How do you want your goals to feel?</div><div class="opts">${["Exciting, not stressful","Simple, not overwhelming","Achievable, not out of reach","Motivating, not pressuring","Calm, not anxious"].map((o,k)=>`<button class="pill${k==1||k==2?' on':''}" data-toggle style="font-size:17px">${o}</button>`).join('')}</div></div>${NEXT()}`},
+{p:3,id:'beforeafter',r:()=>{const rows=(S.yes.length?S.yes.slice().sort():[0,1,2,3,4,5]).map(i=>PAIN[i]);return `<div class="body"><div class="kick">Your way out</div><div class="h" style="font-size:42px">Here's what changes.</div><div class="sub">Your Issue + your actions in the app solve this:</div><div class="ba"><div class="r" style="grid-template-columns:1fr 18px 1.1fr"><span class="kick" style="color:#888">What hurts now</span><span></span><span class="kick">Where it leads</span></div>${rows.map(c=>`<div class="r"><span class="was">${esc(c[4])}</span><span class="arr">→</span><span class="now" style="background:${c[2]};color:${c[3]}">${esc(c[5])}</span></div>`).join('')}</div></div>${NEXT()}`}},
+{p:3,id:'how',r:()=>`<div class="body" style="gap:12px"><div class="h" style="font-size:33px">You can't control the outcome. You are in control of the process.</div><div class="lst">${[["Your Issue","See exactly what you're working toward"],["Audio","Rehearse the steps, not just the dream"],["One move a week","Act on it in real life"],["Proof","See that it's working"]].map((s,k)=>`<div class="it"><span class="n">0${k+1}</span><div><div class="t">${s[0]}</div><div class="d">${s[1]}</div></div></div>`).join('')}</div><div class="eq">YOUR ISSUE + YOUR ACTIONS = YOUR WAY THERE</div></div>${NEXT('BUILD MY ISSUE')}`},
+// PART 4 · BUILD HER ISSUE
+{p:4,id:'firststep',cls:'onstmt',r:()=>stmt(3,'Your magazine is your first step.',"You can't move toward a life you can't see. Let's make it clear, then make it happen.",'BUILD MY ISSUE')},
+{p:4,id:'future',q:1,r:()=>`<div class="body"><div class="kick">${qk()} · pick 3+</div><div class="h" style="font-size:38px">Pick what feels like future you.</div><div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">${[A.p3,A.p4,A.p5,A.pwelcome,A.p7,A.psignin].map((src,k)=>`<button class="tile${S.picked.includes(k)?' on':''}" data-pick="${k}" style="height:150px"><img src="${src}" alt=""><span class="ck">✓</span></button>`).join('')}</div></div>${NEXT()}`,
+ on:el=>el.querySelectorAll('.tile').forEach(t=>t.onclick=()=>{const k=+t.dataset.pick,i=S.picked.indexOf(k);i>=0?S.picked.splice(i,1):S.picked.push(k);t.classList.toggle('on');})},
+{p:4,id:'cover',q:1,r:()=>`<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:42px">Pick your cover.</div><div style="display:flex;gap:10px;justify-content:space-between;margin-top:16px">${[0,1,2].map(k=>`<button data-cover="${k}" style="border:0;padding:0;background:none;color:var(--ink);cursor:pointer;display:flex;flex-direction:column;gap:10px;align-items:center;${S.coverStyle===k?'outline:3px solid var(--ink);outline-offset:4px;':''}">${cover(108,{style:k,lines:false})}<span class="kick">${['Over a photo','Cream on red','Noir'][k]}</span></button>`).join('')}</div></div>${NEXT()}`,
+ on:el=>el.querySelectorAll('[data-cover]').forEach(b=>b.onclick=()=>{S.coverStyle=+b.dataset.cover;go(cur,true);})},
+{p:4,id:'dream',q:1,r:()=>`<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:40px">Describe your dream life in one sentence.</div><label for="dr" style="position:absolute;left:-9999px">Your dream life</label><textarea id="dr" class="field" placeholder="I run my own studio by the sea…">${esc(S.dream)}</textarea><div class="kick" style="color:#666">This becomes your cover story.</div><div style="display:flex;gap:8px;flex-wrap:wrap">${S.topics.slice(0,3).map(t=>`<span class="tag" style="height:30px;padding:0 12px;border-radius:15px;background:${T(t)[1]};color:${T(t)[2]};${T(t)[1]=='#fff'?'border:1px solid #ccc':''}">${esc(t)}</span>`).join('')}</div></div><div style="position:absolute;right:18px;bottom:120px">${sticker(66)}</div><div class="foot"><div class="row2">${btn('🎤 SAY IT INSTEAD','toast:iOS dictation opens here','g')}${btn('NEXT '+ARROW,'next')}</div></div>`,
+ on:el=>{const t=el.querySelector('#dr');t.oninput=()=>S.dream=t.value;}},
+{p:4,id:'proof',q:1,r:()=>`<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:40px">Name one thing you already made happen.</div><label for="pf" style="position:absolute;left:-9999px">Your first proof</label><textarea id="pf" class="field" style="min-height:120px" placeholder="I moved cities on my own.">${esc(S.proof)}</textarea><div class="kick" style="color:#666">Your first proof. It opens your Issue.</div></div><div class="foot"><div class="row2">${btn('SKIP','next','g')}${btn('NEXT '+ARROW,'next')}</div></div>`,on:el=>{const t=el.querySelector('#pf');t.oninput=()=>S.proof=t.value;}},
+{p:4,id:'practice',q:1,r:()=>`<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:40px">How do you want to practice?</div>${single(['Listen','Watch','Both'],2,null,true)}<div class="kick" style="margin-top:6px">How long?</div><div class="chips">${['5 min','10 min','15 min'].map((o,k)=>`<button class="chip${k==0?' on':''}" data-radio="len">${o}</button>`).join('')}</div></div>${NEXT()}`},
+{p:4,id:'move',q:1,r:()=>`<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:44px">One small step this week?</div><label for="mv" style="position:absolute;left:-9999px">Your first move</label><textarea id="mv" class="field" style="min-height:120px" placeholder="Something small the future you would do.">${esc(S.move)}</textarea><div class="kick" style="color:#666">This becomes your first move.</div></div>${NEXT()}`,on:el=>{const t=el.querySelector('#mv');t.oninput=()=>S.move=t.value;}},
+{p:4,id:'day1',cls:'dark',r:()=>stmt(5,'Your Issue starts today.','','NEXT',`<div class="week wk5">${['TODAY','D2','D3','D4','D5','D6','D7'].map((d,k)=>`<div class="d${k==0?' on':''}"><i></i>${d}</div>`).join('')}</div>`)},
+{p:4,id:'icon',q:1,r:()=>`<div class="body" style="gap:10px"><div class="kick">${qk()}</div><div class="h" style="font-size:48px">Pick your icon.</div><div class="sub">It sits on your Home Screen.</div><div style="display:grid;grid-template-columns:repeat(5,60px);justify-content:space-between;gap:18px 0;margin:18px 6px 0">${[1,2,3,4,5,6,7,8,9,10].map(k=>`<button style="padding:0" class="icn${S.icon===k-1?' on':''}" data-icon="${k-1}" aria-label="Icon ${k}"><span class="ib" style="width:60px;height:60px;border-radius:15px"><img src="${A['icon'+k]}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></span></button>`).join('')}</div><div style="display:flex;justify-content:center;margin-top:26px"><span class="ib" style="position:relative;display:block;width:120px;height:120px;border-radius:28px;overflow:hidden;box-shadow:0 10px 24px rgba(0,0,0,.18)" id="iconbig"><img src="${A['icon'+(S.icon+1)]}" alt="Selected icon" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></span></div><div class="kick" style="text-align:center;color:#666">ISSUE11 on your Home Screen</div></div>${NEXT('SET ICON')}`,
+ on:el=>el.querySelectorAll('[data-icon]').forEach(b=>b.onclick=()=>{S.icon=+b.dataset.icon;el.querySelectorAll('.icn').forEach(x=>x.classList.toggle('on',x===b));el.querySelector('#iconbig img').src=A['icon'+(S.icon+1)];})},
+{p:4,id:'notif',r:()=>`<div style="position:absolute;left:0;right:0;top:0;height:380px;overflow:hidden"><img src="${A.p3}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div style="position:absolute;inset:0;background:rgba(0,0,0,.25)"></div><div style="position:absolute;left:0;right:0;top:86px;text-align:center;color:#fff;font-family:var(--display);font-size:64px;letter-spacing:-.04em">8:02</div><div style="position:absolute;left:16px;right:16px;top:220px" class="notif"><span class="sticker11" style="width:38px;height:38px;border-width:2px;border-radius:9px;flex:none"><img src="${A.e11pink}" alt=""></span><div style="flex:1;font-size:15px;line-height:1.3"><div style="display:flex;justify-content:space-between"><b>ISSUE11</b><span style="opacity:.8;font-size:13px">now</span></div>“I'm the woman who shares her work.”</div></div></div><div style="position:absolute;left:16px;right:16px;top:400px;display:flex;flex-direction:column;gap:6px"><div class="h" style="font-size:38px">Your Issue, throughout the day.</div><div class="setrow">How many<span class="v"><button class="mini" data-act="noop">−</button>3×<button class="mini" data-act="noop">+</button></span></div><div class="setrow">From<span class="v">8:00</span></div><div class="setrow">To<span class="v">21:00</span></div></div><div class="foot">${btn('ALLOW','next')}</div>`},
+{p:4,id:'lucky',cls:'dark',r:()=>`<img src="${A.e11cream}" alt="" style="position:absolute;left:50%;top:70px;height:240px;transform:translateX(-50%) rotate(-6deg)"><div style="position:absolute;left:20px;right:20px;top:345px;display:flex;flex-direction:column;gap:14px"><div class="h" style="font-size:52px">Meet Lucky Star ★</div><div style="font-size:17px;line-height:1.4">Your AI manifestation guide. Lucky Star learns what you're working toward and helps you create your Issue, build your practice and decide what to do next.</div><div style="font-size:17px;line-height:1.4;font-weight:700">You stay in control. Nothing is added or changed unless you approve it.</div><div style="font-size:13px;line-height:1.4;color:#CFCFCF">Your answers are sent to an AI service to build your Issue. It doesn't train on them or keep them. You can turn AI off in Settings. <u>Read our privacy policy</u></div></div>${NEXT('SOUNDS GOOD','w')}`},
+// PART 5 · STARTED → SNEAK PEEK → PAY
+{p:5,id:'bridge',cls:'onstmt',r:()=>{const i=S.yes.length?Math.min(...S.yes):0;return stmt(4,PAIN[i][6],"This time you'll have one move a week and proof that you're changing.",'START MY ISSUE')}},
+{p:5,id:'started',cls:'dark',r:()=>`<img src="${A.e11cream}" alt="" style="position:absolute;right:26px;top:70px;height:150px;transform:rotate(8deg)"><div style="position:absolute;left:20px;right:20px;top:90px;bottom:110px;display:flex;flex-direction:column;gap:8px"><div class="kick">Vol. 01 · Lucky Star is building</div><div class="h" style="font-size:44px;max-width:250px">We've started your first Issue.</div><div class="steps" style="margin-top:8px"><div class="s"><span class="ic ok">✓</span><div><div class="when">TODAY</div><div class="what">Your cover and cover story</div></div></div><div class="s"><span class="ic spin" id="sp"></span><div><div class="when">TODAY</div><div class="what">Your first session</div></div></div><div class="s"><span class="ic todo"></span><div><div class="when">THIS WEEK</div><div class="what">Your first move: ${esc(S.move||'one small step')}</div></div></div><div class="s"><span class="ic todo"></span><div><div class="when">IN 30 DAYS</div><div class="what">Your first proof</div></div></div><div class="s"><span class="ic todo"></span><div><div class="when">A YEAR FROM NOW</div><div class="what">Your 4th Issue</div><div style="font-size:15px;color:#CFCFCF;margin-top:3px">Flip back to the first one and think: <i>holy shit, I actually did it.</i></div></div></div></div><div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:6px;padding:10px 12px;border:1px solid rgba(255,255,255,.3);border-radius:18px"><span style="flex:1;font-size:14px;min-width:150px">Want to hear your vision read aloud?</span><button class="link" style="border:1px solid #fff;border-radius:14px;padding:5px 10px" data-act="toast:Saved">YES</button><button class="link" data-act="toast:Later">LATER</button></div></div>${NEXT('SEE MY SNEAK PEEK','w')}`,
+ on:el=>setTimeout(()=>{const s=el.querySelector('#sp');if(s){s.className='ic ok';s.textContent='✓';}},1400)},
+{p:5,id:'paywall',noBar:true,r:()=>paywall()},
+{p:5,id:'save',noBar:true,r:()=>`<div style="position:absolute;left:0;right:0;top:352px;bottom:200px;overflow:hidden"><img src="${A.psignin}" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 40%,rgba(0,0,0,.6))"></div><div class="h" style="position:absolute;left:16px;right:16px;bottom:18px;font-size:46px;color:#fff">Save your Issue.</div></div><div style="padding:40px 16px 0"><img src="${A.mblack}" alt="ISSUE11" style="width:100%"></div><div style="margin:14px 16px 0;padding:8px 0;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px"><span>A MAGAZINE BY YOU</span><span>SAVE YOUR ISSUE</span></div><div style="position:absolute;left:16px;right:16px;bottom:34px;display:flex;flex-direction:column;gap:10px">${btn(' Continue with Apple','end','glass" style="font-family:var(--body);font-size:17px;font-weight:700;text-transform:none;background:rgba(13,13,13,.55)')}${btn('Continue with email','end','glass" style="font-family:var(--body);font-size:17px;font-weight:700;text-transform:none;color:#0d0d0d;background:rgba(255,255,255,.7)')}<div style="text-align:center;font-family:var(--mono);font-size:9px;color:#555;margin-top:6px">BY CONTINUING YOU AGREE TO THE TERMS</div></div>`},
+{p:5,id:'end',cls:'dark',noBar:true,r:()=>`<div style="position:absolute;left:16px;right:16px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;gap:18px;text-align:center;align-items:center"><div style="transform:rotate(-2deg)">${cover(220)}</div><div class="kick">End of onboarding · Home comes next</div>${btn('START AGAIN','restart','w" style="flex:none;width:100%')}</div>`}
+];
+const stk=(x,y,sz,r,bg,src,z=2)=>`<span style="position:absolute;left:${x}px;top:${y}px;z-index:${z}"><span style="position:relative;display:block;width:${sz}px;height:${sz}px;border-radius:${Math.round(sz*.27)}px;overflow:hidden;background:${bg};border:3px solid #fff;box-shadow:0 6px 14px rgba(0,0,0,.25);transform:rotate(${r}deg)"><img src="${src}" alt="" style="position:absolute;left:50%;top:50%;height:76%;transform:translate(-50%,-50%)"></span></span>`;
+// Be honest 1–6: Megan's calm designs 1–5 (Oct 9). Screen 6 reuses calm 1, mirrored, with a pink card.
+const PD=[
+ {bg:'#F5EEE0',art:()=>`<img src="${A.e11black}" alt="" style="position:absolute;left:120px;top:-54px;height:860px;transform:rotate(-4deg);opacity:.06">`,top:206,rot:-2,card:'#0d0d0d;color:#F5EEE0'},
+ {bg:'#fff',art:()=>stk(298,150,64,8,'#F5EEE0',A.e11black,4),top:206,rot:0,card:'#FCD2DD;color:#0d0d0d',fadeArt:1},
+ {bg:'#F2F2F2',art:()=>`<div style="position:absolute;right:-110px;top:116px;width:300px;height:300px;border-radius:50%;overflow:hidden;opacity:.9"><img src="${A.swirl}" alt="" style="width:100%;height:100%;object-fit:cover"></div>`,top:226,rot:-2,card:'#4BA551;color:#F5EEE0',fadeArt:1},
+ {bg:'#FCD2DD',art:()=>`<img src="${A.e11white}" alt="" style="position:absolute;left:130px;top:-34px;height:820px;transform:rotate(6deg);opacity:.55">`,top:206,rot:-2,card:'#F5EEE0;color:#0d0d0d'},
+ {bg:'#0d0d0d',art:()=>`<img src="${A.e11white}" alt="" style="position:absolute;left:110px;top:-64px;height:860px;transform:rotate(-4deg);opacity:.05">`,top:206,rot:2,card:'#F5EEE0;color:#0d0d0d',no:'background:transparent;color:#fff;border-color:#fff',yes:'background:#fff;color:#0d0d0d;border-color:#fff',ink:'#fff'},
+ {bg:'#F5EEE0',art:()=>`<img src="${A.e11black}" alt="" style="position:absolute;left:-160px;top:-54px;height:860px;transform:rotate(4deg);opacity:.06">`,top:206,rot:2,card:'#F65AAD;color:#0d0d0d'}
+].map(d=>({no:'',yes:'background:#0d0d0d;color:#fff',ink:'#0d0d0d',rep:'',fs:30,...d}));
+// Reply after YES (Megan, Oct 9): her quote steps back (fades + shrinks), the reply appears in Archivo Black, smaller, centred between the card and NEXT.
+function painReply(el,d,c){const pq=el.querySelector('#pq'),fr=el.getBoundingClientRect(),sc=fr.width/390||1,w=el.querySelector('.pcard2').parentElement,wr=w.getBoundingClientRect(),h=wr.height/sc,cb=Math.round((wr.top-fr.top)/sc+h/2+h*.41-60);w.classList.add('stepback');if(d.fadeArt)el.querySelector('.pbg').classList.add('artout');
+ pq.innerHTML=`<button class="btn" data-act="next" style="${d.yes}">NEXT ${ARROW}</button>`;
+ el.insertAdjacentHTML('beforeend',`<div class="rwrap" style="top:${cb+16}px;color:${d.ink}"><div class="reply2">${esc(c[1])}</div></div>`);}
+function painScreen(i,c){const d=PD[i];const lab=t=>d.label?`<span style="background:#0d0d0d;color:#fff;padding:6px 10px">${t}</span>`:t;
+ return `<div class="pbg" style="position:absolute;inset:0;background:${d.bg};overflow:hidden">${d.art()}</div>
+<div class="kick" style="position:absolute;left:${d.label?14:20}px;top:${d.label?76:84}px;z-index:4;color:${d.ink}">${lab(`Be honest · ${i+1} of 6`)}</div>
+<div style="position:absolute;left:${d.rot?25:20}px;top:${d.top}px;z-index:3"><div class="pcard2" style="width:${d.rot?340:350}px;background:${d.card};transform:rotate(${d.rot}deg)"><q style="font-size:${d.fs}px">${esc(c[0])}</q></div></div>
+<div id="pq" style="position:absolute;left:20px;right:20px;bottom:40px;display:flex;flex-direction:column;gap:16px;z-index:4;color:${d.ink}"><div class="kick" style="text-align:center">${lab('Does this sound like you?')}</div><div class="row2" style="gap:10px"><button class="yn" style="${d.no}" data-act="painno">NO</button><button class="yn" style="${d.yes}" data-act="painyes">YES</button></div></div>`;}
+function stmt(st,h,sub,label,extra=''){
+ const bgs={1:['#F65AAD','#0d0d0d',`<img src="${A.e11white}" alt="" style="position:absolute;left:150px;top:-40px;height:980px;transform:rotate(-4deg)">`,''],
+ 2:['#0d0d0d','#fff',(()=>{let o='';for(let r=0;r<6;r++)for(let c=0;c<8;c++){const x=(r%2?22:-10)+c*64,y=110+r*92;o+=`<img src="${A.e11pink}" alt="" style="position:absolute;left:${x}px;top:${y}px;height:70px;transform:rotate(${(r+c)%2?-8:8}deg);opacity:.28">`;}return o;})(),'background:#F65AAD;color:#0d0d0d'],
+ 3:['#FCD2DD','#0d0d0d',[[30,150,90,-12,'#F5EEE0',A.e11pink],[250,120,110,10,'#0d0d0d',A.e11cream],[140,250,70,4,'#4BA551',A.e11white],[290,330,80,-8,'#F65AAD',A.e11black],[20,340,64,8,'#FFFFFF',A.e11pink]].map(([x,y,sz,r,bg,src])=>`<span style="position:absolute;left:${x}px;top:${y}px"><span style="position:relative;display:block;width:${sz}px;height:${sz}px;border-radius:${Math.round(sz*.28)}px;overflow:hidden;background:${bg};border:3px solid #fff;box-shadow:0 6px 14px rgba(0,0,0,.25);transform:rotate(${r}deg)"><img src="${src}" alt="" style="position:absolute;left:50%;top:50%;height:76%;transform:translate(-50%,-50%)"></span></span>`).join(''),''],
+ 4:['#F5EEE0','#0d0d0d',`<img src="${A.e11pink}" alt="" style="position:absolute;left:40px;top:40px;height:760px;transform:rotate(-3deg);opacity:.9">`,''],
+ 5:['#4BA551','#fff',[100,250,400,550].map((y,k)=>`<div style="position:absolute;left:${k%2?-90:-40}px;top:${y}px;display:flex;gap:18px;opacity:.22">${Array(9).fill(`<img src="${A.e11white}" alt="" style="height:130px">`).join('')}</div>`).join(''),'background:#fff;color:#0d0d0d']}[st];
+ return `<div style="position:absolute;inset:0;background:${bgs[0]};overflow:hidden">${bgs[2]}</div><div style="position:absolute;left:16px;right:16px;bottom:150px;color:${bgs[1]};display:flex;flex-direction:column;gap:14px;z-index:3"><div class="h" style="font-size:56px;letter-spacing:-.06em;line-height:.88">${h}</div>${sub?`<div style="font-size:18px;line-height:1.35;max-width:320px">${sub}</div>`:''}${extra}</div><div class="foot" style="z-index:3"><button class="btn" data-act="next" style="${bgs[3]||'background:#0d0d0d;color:#fff'}">${label} ${ARROW}</button></div>`;}
+function qk(){return 'Question '+String(qn).padStart(2,'0');}
+function Q(h,sub,inner,size=40){return `<div class="body"><div class="kick">${qk()}</div><div class="h" style="font-size:${size}px">${h}</div>${sub?`<div class="sub">${sub}</div>`:''}${inner}</div>`;}
+function single(opts,sel,key,stay){return `<div class="opts">${opts.map((o,k)=>`<button class="pill${k===sel?' on':''}" data-single="${k}"${key?` data-key="${key}"`:''}${stay?' data-stay':''}>${esc(o)}</button>`).join('')}</div>`;}
+function multi(opts,key,pre=[],stack){return `<div class="${stack?'opts':'chips'}">${opts.map(o=>`<button class="${stack?'pill':'chip'}${(key==='feel'?S.feel:pre).includes(o)?' on':''}" data-toggle>${esc(o)}</button>`).join('')}</div>`;}
+function paywall(){const yr=S.plan===0;return `<div style="position:relative;height:280px;background:var(--pink);overflow:hidden;flex:none">
+<div style="position:absolute;left:34px;top:66px;width:140px;height:186px;background:#fff;transform:rotate(-9deg);filter:blur(3px);opacity:.75"></div><div style="position:absolute;right:34px;top:70px;width:140px;height:186px;background:#fff;transform:rotate(8deg);filter:blur(3px);opacity:.75"></div>
+<div style="position:absolute;left:50%;top:48px;margin-left:-80px;transform:rotate(-3deg)">${cover(160)}</div>
+<button aria-label="Close" data-act="close" style="position:absolute;right:14px;top:16px;width:38px;height:38px;border:0;background:rgba(255,255,255,.7);border-radius:50%;font-size:17px;cursor:pointer;color:var(--ink)">✕</button>
+<span class="kick" style="position:absolute;left:16px;top:22px">Your sneak peek</span></div>
+<div style="position:absolute;left:16px;right:16px;top:294px;bottom:20px;display:flex;flex-direction:column;gap:10px">
+<div class="h" style="font-size:33px">Your Issue is step one. Keep going.</div>
+<div class="eq" style="padding:9px 10px">YOUR ISSUE + YOUR ACTIONS = YOUR WAY THERE</div>
+<div class="kick">Built for: ${esc(OUTCOMES[S.outcome]).toLowerCase()}</div>
+<div style="display:flex;flex-direction:column;gap:5px">${[['#4BA551','Your dreams as a magazine you open every day'],['#F65AAD','Audio that rehearses the steps, made from your words'],['#D40806','One small move a week, no pressure'],['#0d0d0d','Proof of your progress']].map(b=>`<div style="display:flex;gap:10px;align-items:center;font-size:15px;line-height:1.2"><span class="dot" style="background:${b[0]}"></span>${b[1]}</div>`).join('')}</div>
+<div style="display:flex;flex-direction:column;gap:10px;margin-top:4px"><button class="plan${yr?' on':''}" data-plan="0" style="padding:11px 14px"><span class="badge">FREE TRIAL</span><div><div class="pn" style="font-size:20px">Yearly</div><div class="pd" style="font-size:13px">Free trial, then [PRICE]/yr · [PRICE]/mo</div></div><div class="pp">[PRICE]/YR</div></button><button class="plan${!yr?' on':''}" data-plan="1" style="padding:11px 14px"><div><div class="pn" style="font-size:20px">Monthly</div><div class="pd" style="font-size:13px">No trial · [PRICE]/yr if paid monthly</div></div><div class="pp">[PRICE]/MO</div></button></div>
+<div style="margin-top:auto;display:flex;flex-direction:column;gap:7px">${btn('START MY ISSUE','buy')}<div style="text-align:center;font-family:var(--mono);font-size:10px;color:#666">${yr?'FREE TRIAL · ':''}CANCEL ANYTIME · RESTORE · TERMS · PRIVACY</div></div></div>`;}
+function offer(){const d=document.createElement('div');d.style.cssText='position:absolute;inset:0;background:rgba(13,13,13,.55);z-index:20;display:flex;align-items:flex-end;padding:0 12px 20px;box-sizing:border-box';
+d.innerHTML=`<div class="fade" style="width:100%;background:var(--ink);color:#fff;padding:24px 20px 18px;display:flex;flex-direction:column;gap:12px;position:relative"><div style="position:absolute;right:16px;top:-28px">${sticker(56,10)}</div><div class="kick">Wait</div><div class="h" style="font-size:40px">A better offer, just for you.</div><div style="font-size:16px;line-height:1.4;color:#CFCFCF">[OFFER TBD] for your first year. Keep building your Issue.</div>${btn('CLAIM MY OFFER','buy','w" style="flex:none')}<button class="link" style="color:#CFCFCF" data-act="end">No thanks</button></div>`;
+frame.firstElementChild.appendChild(d);}
+// ---------- engine ----------
+const frame=document.getElementById('frame');let cur=0;const hist=[];
+const qIndex=[];{let n=0;SCREENS.forEach((s,i)=>{if(s.q)n++;qIndex[i]=n;});}
+function bar(s,i){if(s.noBar)return '';const parts=[1,2,3,4,5];const inPart=SCREENS.map((x,k)=>[x,k]).filter(([x])=>x.p===s.p);const pos=inPart.findIndex(([,k])=>k===i)+1;const frac=pos/inPart.length;
+ return `<div class="bar"><button class="back" aria-label="Back" data-act="back"><svg width="22" height="14" viewBox="0 0 22 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22 7H2M8 1L2 7l6 6"/></svg></button><div class="segs">${parts.map(p=>`<span><i style="width:${p<s.p?100:p===s.p?Math.round(frac*100):0}%"></i></span>`).join('')}</div><span class="cnt">0${s.p}/05</span></div>`;}
+function go(i,same){if(i<0||i>=SCREENS.length)return;if(!same&&i!==cur)hist.push(cur);cur=i;const s=SCREENS[i];qn=qIndex[i];
+ frame.innerHTML=`<div class="scr fade ${s.cls||''}" id="scr">${s.r()}${bar(s,i)}</div>`;const el=frame.firstElementChild;
+ el.querySelectorAll('[data-single]').forEach(b=>b.onclick=()=>{el.querySelectorAll('[data-single]').forEach(x=>x.classList.toggle('on',x===b));if(b.dataset.key)S[b.dataset.key]=+b.dataset.single;if(!b.hasAttribute('data-stay'))setTimeout(()=>go(cur+1),260);});
+ el.querySelectorAll('[data-toggle]').forEach(b=>b.onclick=()=>{b.classList.toggle('on');if(SCREENS[cur].id==='feel'){const t=b.textContent;const k=S.feel.indexOf(t);k>=0?S.feel.splice(k,1):S.feel.push(t);}});
+ el.querySelectorAll('[data-radio]').forEach(b=>b.onclick=()=>el.querySelectorAll(`[data-radio="${b.dataset.radio}"]`).forEach(x=>x.classList.toggle('on',x===b)));
+ el.querySelectorAll('[data-plan]').forEach(b=>b.onclick=()=>{S.plan=+b.dataset.plan;go(cur,true);});
+ s.on&&s.on(el);fitNames(el);try{history.replaceState(null,'','#s'+(i+1));}catch(e){}}
+function fitNames(root){(root||frame).querySelectorAll('.cover .nm').forEach(n=>{let fs=parseFloat(n.style.fontSize)||40;n.style.fontSize=fs+'px';let g=0;while(n.scrollWidth>n.clientWidth+1&&fs>6&&g++<200){fs-=0.5;n.style.fontSize=fs+'px';}});}
+function toast(t){const d=document.createElement('div');d.className='toast';d.textContent=t;frame.firstElementChild.appendChild(d);setTimeout(()=>d.remove(),1500);}
+frame.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;const a=b.dataset.act;
+ if(a==='next')go(cur+1);else if(a==='back'){if(hist.length){const p=hist.pop();go(p,true);}}
+ else if(a==='close')offer();else if(a==='buy')go(SCREENS.findIndex(s=>s.id==='save'));
+ else if(a==='end')go(SCREENS.findIndex(s=>s.id==='end'));else if(a==='restart'){hist.length=0;S.yes=[];go(0,true);}
+ else if(a.startsWith('toast:'))toast(a.slice(6));});
+document.addEventListener('keydown',e=>{if(e.target.matches('input,textarea'))return;if(e.key==='ArrowRight')go(cur+1);if(e.key==='ArrowLeft'&&hist.length)go(hist.pop(),true);});
+function fit(){const st=document.getElementById('stage');const k=Math.min(innerWidth/390,innerHeight/844);st.style.transform=`scale(${k})`;}
+addEventListener('resize',fit);fit();if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>fitNames());
+const m=/^#s(\d+)$/.exec(location.hash||'');go(m?Math.min(SCREENS.length,+m[1])-1:0,true);
+</script>

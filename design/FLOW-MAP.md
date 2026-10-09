@@ -122,3 +122,6 @@ Megan: "I do like the 'I am' flow" (whole onboarding + its aesthetic questions) 
 - Strategy merged (Oct 7): research/web2app-strategy.md (Headway transcript + HeyCatch; Megan: "i think heycatch and headway have similar strategies").
 - **Draft v3 written (Oct 7): design/ONBOARDING-V3.md** (32 screens; I am teardown in research/i-am-onboarding-teardown.md).
 - Status: approved onboarding v2 stays live in the prototype until Megan approves v3.
+
+- **Oct 8, 2026: onboarding v3 flow approved by Megan** ("I'm happy… I meant onboarding"); the paywall itself is still open. 38 screens, design/ONBOARDING-V3.md, storyboard https://claude.ai/artifact/2GVFgdAkAuns1UuHYXuqyG. Next: Claude Design visual pass. Prices/trial/discounts still open (payments).
+- **🔒 Oct 8, 2026: onboarding v3 LOCKED by Megan** → design/ONBOARDING-V3.md is the final onboarding logic (38 screens + downsell). Onboarding v2 above is superseded. Paywall prices/offers still open.

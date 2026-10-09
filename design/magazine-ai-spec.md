@@ -1,5 +1,5 @@
-# Spec: AI-made magazine on Megan's layouts (draft, for Megan's approval)
-Design Room · Oct 1, 2026 · Status: **WAITING FOR MEGAN'S APPROVAL**. This touches **user data** (journal text goes to an AI service), so per CLAUDE.md nothing gets built before Megan approves this spec.
+# Spec: AI-made magazine on Megan's layouts (APPROVED)
+Design Room · Oct 1, 2026 · Status: **APPROVED by Megan, Oct 9, 2026** (her word: "approved"), after deciding "I do think we should have AI build her magazine though". The built result still needs her approval before merging. This touches **user data** (journal text goes to an AI service), so per CLAUDE.md nothing gets built before Megan approves this spec.
 
 ## Megan's decision (Oct 1, 2026)
 - The magazine is made by AI, and she only does small edits.

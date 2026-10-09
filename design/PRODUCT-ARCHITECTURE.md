@@ -251,3 +251,15 @@ This is a hard product rule. It overrides earlier Design Room proposals wherever
 - Inside features, the 11 opens **context-only** help (no generic menu).
 - Guide copy may name the stage ("You're ready to EMBODY it"); the stage is still not app navigation.
 - Rules that still apply: one Next Move per week, preview before anything is saved, save to Scribe only with permission, crisis-word stop, no health/money advice, AI consent screen.
+
+## YOUR WORLD: IMAGES (decided by Megan, Oct 9, 2026)
+Megan: "they should have the option between presets and their own images" · "and yes AI later".
+- **V1:** two sources in Your World. (1) **Presets:** Megan's editorial worlds made with her Midjourney presets (see design/AESTHETICS.md). (2) **Her own images:** chosen with the iPhone system photo picker (no full-library access). The magazine layout gives any photo the ISSUE11 editorial look (crop, type, grain, cover lines), no AI needed.
+- **Later (premium):** AI generation in Megan's look. Midjourney has no official API, so this needs a model with an official API, styled from her presets. Validate demand first with a manual beta test.
+- **Needs Megan's approval of the spec before building:** storing her photos is user data (where they're kept, who sees them, how she deletes them).
+- **Trust:** her own saved images are fine in her private Issue. Sharing/publishing pages with images she doesn't own is a copyright risk; decide before Publish ships.
+- **Idea (Megan):** cross-sell a photo editing app for people who want to change their images. Not decided.
+
+## APP NAVIGATION (decided by Megan, Oct 9, 2026)
+Megan: "Let's keep our aesthetic but keeping replit's split because it's much clearer in my opinion".
+Bottom bar: **Home · Explore · Issue · Journal · You** + the **11 sticker floating on every screen** (Lucky Star). The 4 functions keep their meaning: Audio + Your World inside Explore, Scribe = Journal (tab name), Publish = Issue. Look = ISSUE11's own design; only the split comes from Megan's Replit build. Details: design/APP-AFTER-PAYWALL.md.

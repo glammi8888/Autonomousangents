@@ -14,11 +14,11 @@ The 4 functions are all there behind friendlier tab names: Audio + Your World li
 |---|---|---|---|
 | **Home** | Her daily edition: cover, this week's move, one session, one inspiration, one note from Lucky Star | Daily-edition sections; "I made room for it" logs the move in one tap | No DESIRE→BECOME stage tracker; move is weekly, not daily |
 | **Explore** | Audio sessions by goal + your preset worlds; saving an image adds it to her World (shown at the top with her own photos) | Library by goal; save to keep a feeling | Her own photos added; retire "Become her" |
-| **Issue** | Her magazine: build it (V1: 4 steps: name, cover, mood = her 8 worlds, her words if she chooses), read it, change a page | 4-step Studio builder | "Create" + sign renamed Issue; mood = her worlds, not 3 colours |
+| **Issue** | Her magazine, **built by AI** from her onboarding answers, World and the Journal lines she marks, using only Megan's approved layouts (design/magazine-ai-spec.md). She reads it, then adjusts: swap the cover, change the mood (her worlds), include or leave out her words, or ask Lucky Star to change a page | Simple adjust controls (cover, mood, "your words, if you choose") | AI builds the first draft, the controls only adjust it; "Create" + sign renamed Issue |
 | **Journal** | One prompt a day, typed or spoken; only lines she marks go into her Issue | Prompt + refresh + "Save to my story"; "only the lines you choose" | — |
 | **You** | This week's intention, past proof, settings, membership, delete account | Intention + past proof on one page | No stage bar, no "Chapter 03", no zero counters; Lucky Star is the floating 11, not a link |
 
-**Open for Megan:** Issue V1 built by her in 4 steps (recommended: easier, cheaper, no AI cost per magazine), Lucky Star editing after. This changes the locked Publish wording ("AI turns World + Scribe into the magazine"), so it needs her explicit OK.
+**Decided (Megan, Oct 9):** "I do think we should have AI build her magazine though". Matches the locked plan and the Oct 1 spec (AI fills Megan's layouts, never designs). **Still needs Megan's approval of design/magazine-ai-spec.md before building** (her journal text goes to an AI service = user data). Cost note: AI cost per Issue is real but small at 4 Issues a year; Revenue to check it against the price.
 
 ## Map (first version, areas)
 | # | Area | Screens | Already designed (reuse) | Status |

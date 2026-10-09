@@ -47,3 +47,16 @@ How each world turns into real life. Megan: "the aesthetics are a bit tough to t
 | **Minimalism** | I own less and feel more. · My mind is clear and my space is calm. · Everything in my life is there on purpose. |
 
 Use: her world picks tell Lucky Star what life she's craving, before she says it in words. Aspirations can seed cover lines and first moves.
+
+## Library: more worlds for Your World (Oct 9, Megan: "That's better... !")
+Onboarding shows 8 broad worlds. The library inside the app can hold all of these; each onboarding world can open into sub-aesthetics later.
+
+- **Soft & calm:** Matcha Latte · Clean Girl · Coastal Grandmother · Balletcore · Garden Party · Cottagecore
+- **Glam & seen:** Everything Glitter · Old Hollywood · Disco Era · Mob Wife · Coquette
+- **Rich & polished:** Quiet Luxury · Old Money · Parisian Chic · Italian Riviera · Après-ski Chalet
+- **Bold & future:** Chrome Future · Y2K · Tokyo Neon · Space Age · Celestial
+- **Wild & free:** Animal Safari · Tropical Oasis · Space Cowboy · Coastal Cowgirl · Desert Modern · Boho Nomad
+- **Creative & different:** Surrealist Editorial · Indie Sleaze · Dark Academia · Gothic Romance · 70s Retro · Art Deco
+- **Clear & minimal:** Minimalism · Scandi Home · Monochrome
+
+Gap check on the current 8: no "Rich & polished" world yet; "Wild & free" has three (Animal Safari, Tropical Oasis, Space Cowboy).

@@ -12,7 +12,8 @@ Follow `CLAUDE.md` and its **Production Safety Rule** at all times. Use the sub-
 ## 0. Set up
 1. If `.pipeline/request.md` already exists for a different, unfinished request, stop and report it. Don't overwrite work in progress.
 2. `git status` must be clean. Create and switch to `feature/<short-slug>` from `main` (or from the current default branch if there is no `main`).
-3. Write `.pipeline/request.md`: the request verbatim, the date, "Requested by: Megan", and the branch name.
+3. Before writing the request, confirm with Megan in ONE short message which parts are final (flow, look, content) and plan only those (lesson Oct 6: scope changed 4 times mid-planning).
+4. Write `.pipeline/request.md`: the request verbatim, the date, "Requested by: Megan", and the branch name.
 
 ## 1. Plan
 Run `pipeline-planner`. Then read `spec.md`:

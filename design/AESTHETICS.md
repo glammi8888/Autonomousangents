@@ -13,7 +13,7 @@ Life areas (screen 5) decide **what** her Issue is about. The aesthetic decides 
 | 7 | **Everything Glitter** | Sequins, disco balls, glitter on skin, sparkle everywhere, party energy. |
 
 ## Image prompts (one hero image per aesthetic)
-Paste the **style anchor** first, then the aesthetic line. Same anchor every time, so all 6 tiles feel like one magazine.
+Paste the **style anchor** first, then the aesthetic line. Same anchor every time, so all 7 tiles feel like one magazine.
 
 **Style anchor:** Editorial fashion photograph for a bold women's magazine. One woman, confident, styled head to toe. Shot on medium format, crisp detail, rich colour, a touch of pink somewhere in the frame. Portrait 4:5, subject centred so it still works cropped square. No text, no logos, no watermarks.
 

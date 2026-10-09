@@ -60,3 +60,6 @@ Onboarding shows 8 broad worlds. The library inside the app can hold all of thes
 - **Clear & minimal:** Minimalism · Scandi Home · Monochrome
 
 Gap check on the current 8: no "Rich & polished" world yet; "Wild & free" has three (Animal Safari, Tropical Oasis, Space Cowboy).
+
+## Megan's Midjourney "work" set (Oct 9)
+Office settings + chrome, patent leather, foil and silver couture, flash, magazines and laptops on desks. This is the ambition/career world: it can *be* Chrome Future (working name idea: "Corporate Couture"). For the onboarding tile pick a frame with one woman, centred, filling the frame (e.g. silver turtleneck at the white table; braids in the quilted chrome jacket).

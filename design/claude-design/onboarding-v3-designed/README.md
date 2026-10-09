@@ -8,6 +8,7 @@ Flow and copy: design/ONBOARDING-V3.md (🔒 locked). Look: Megan's V5 Claude De
 | V5 Onboarding 01 welcome | 1 Welcome (photo, white masthead, glass answer buttons) |
 | V5 Onboarding 02 your name (live cover) | 2 Name (cover updates live), the cover used everywhere |
 | V5 Onboarding 03 life areas (colour blocks) | 5 Topic blocks; colour language for pain cards and before/after |
+| Be honest 1–5 (Oct 9): pink giant 11 · black pink-11 pattern · blush stickers · full-screen swirl · printed Issue | 12–16 pain cards in that order; 17 reuses Be honest 1, mirrored (only 5 designs for 6 screens). Stickers nudged up so they never cover the quote. Assets: swirl.png, photo-printed-issue.jpg |
 | V5 Onboarding 04 visual taste | 25 Pick what feels like future you |
 | V5 Onboarding 07 one-year vision | 27 Dream sentence, 28 First proof, 30 First move (grey field, "Say it instead") |
 | V5 Building your Issue | 34 Meet Lucky Star, 36 We've started your first Issue |

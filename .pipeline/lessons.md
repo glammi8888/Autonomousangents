@@ -42,3 +42,6 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-07 · Design Room · Megan (word for word): "I don't like "becoming her" .. it's been overused." Rule: don't use "becoming her" in ISSUE11 copy; lead with process over outcome. Also: "Use the word "delulu" instead of "delusional"" (her audience's language).
 - 2026-10-07 · Design Room · Megan caught that the onboarding said "your Issue is ready" when it's only started. Rule (trust): onboarding copy only claims what the app has actually made at that moment ("started", "sneak peek"), never "ready/finished".
 - 2026-10-07 · Design Room · Megan (word for word): "I don't want to push for 12 magazines per year... I think 4 per year is good, maximum." Rule: default Issue rhythm is quarterly (4/year); never imply or nudge monthly Issues. She can choose 1, 2, 4 or 12, or make more anytime.
+
+- 2026-10-09 (Design Room): When Megan says a design is "ugly" or "too busy", show 2–3 options side by side as a screenshot before changing the prototype. She picked parts from two options (smaller centred reply + the fading quote) that one guess would have missed.
+- 2026-10-09 (Design Room): Megan, word for word: "I actually like this transition! The opacity of the negative statement gets reduced". On Be honest screens, YES fades and shrinks her quote; the reply stays smaller and centred.

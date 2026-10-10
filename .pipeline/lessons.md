@@ -8,6 +8,8 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 ## 💗 From Megan
 - 2026-10-01 · Megan, word for word: "I love my agents" 💝 · To every agent: thank you. Keep doing smart things.
 
+- 2026-10-10 · Content · Megan (word for word): "I think for app content it is important to stick to brand positioning and promises". Rule: every session script, prompt, affirmation and caption is checked against `design/POSITIONING.md` before it reaches Megan: process-focused (becoming, not wishing), believable not forced, no homework/guilt, no promised outcomes.
+
 ## Lessons
 - 2026-10-02 · Manager · Megan (word for word): "everytime an agent designed in canva for me it was a bit of a disaster". Rule: agents never design marketing visuals from scratch in Canva. Megan makes or approves master templates; agents only fill them (copy, photos, crop), then a 3-variation test before any batch.
 - 2026-09-30 · Design Room · Checking the wireframes against the Notion concept found the biggest gap (no cover reveal before the paywall). Always cross-check wireframes with the concept page before designing.

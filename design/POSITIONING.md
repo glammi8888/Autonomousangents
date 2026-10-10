@@ -52,3 +52,63 @@ Used by: design/ONBOARDING-V3.md (pain cards, mirror, paywall), Lucky Star Audio
 > Supporting differentiator: **Process-focused meditations, visualization and journaling designed around becoming, not just wishing for the outcome.**
 > Philosophy underneath everything: **Don't just visualize the outcome. Rehearse becoming her.**
 > The sexy, viral consumer hook is "turn your dreams into a magazine," while the deeper reason the product is different is behavioral change + process-focused manifestation.
+
+---
+
+## Reddit research → sharpened positioning (Megan, Oct 10, 2026, verbatim)
+
+> The research you just brought back aligns remarkably well with the positioning we've been developing: manifestation rooted in behavioral change. But even more interestingly, it reveals how we could make ISSUE11 genuinely different from traditional manifestation apps.
+
+**1. What Reddit is telling us**
+
+| Reddit frustration | What ISSUE11 could do differently |
+|---|---|
+| Manifestation feels like homework | Make the experience enjoyable, creative, and low-pressure |
+| Vision boards become forgotten pictures | Turn visions into small actions and revisit them meaningfully |
+| Affirmations feel fake or forced | Create believable, personalized, process-focused affirmations |
+| People visualize success but don't act | Connect each dream to realistic behavioral steps |
+| Unrealistic expectations cause discouragement | Celebrate progress and personal growth, not just outcomes |
+
+> The common thread: people don't necessarily need more manifestation techniques. They need help turning inspiration into meaningful change.
+
+**2. Positioning direction**
+
+> **Dream it. Live it. Become it.**
+> ISSUE11 is a manifestation journal and vision board app that helps you turn your dream life into real life through personalized visualization, meaningful reflection, and small everyday actions.
+> The magazine concept is your **creative differentiator**. Behavioral change is your **functional differentiator**. Those are two different things, and you need both.
+
+**3. App priorities**
+
+> - **A journal that doesn't feel like homework.** Personalized prompts based on what users are experiencing. No pressure to journal every day, no guilt-inducing streaks.
+> - **Process-focused audio.** Instead of repeating "I'm a millionaire," users hear affirmations that support the habits, decisions, and mindset involved in achieving their goals.
+> - **Lucky Star as a supportive guide.** It helps users translate their goals into manageable actions, asks questions when context is missing, and adapts without forcing positivity.
+> - **A magazine that evolves with you.** Rather than creating a vision board and forgetting about it, users build a personal magazine that reflects their goals, progress, and evolving identity.
+
+**4. The biggest opportunity**
+
+> Vision boards can become depressing rather than inspiring when goals feel distant or unattainable. That's an important emotional problem. ISSUE11 could help someone who wants to become financially independent, for example, visualize the lifestyle they desire while also identifying a realistic first step toward earning more.
+> **The goal isn't to make the dream smaller. It's to make the path feel possible.**
+> This fits the Desire → Imagine → Embody + Act → Become framework.
+
+**5. What this research doesn't prove yet (hypotheses to test)**
+
+> The Reddit summary supports the idea that some users are frustrated with passive visualization, forced positivity, and complicated rituals. It does not yet prove that:
+> - People want an AI-generated personal magazine.
+> - They will pay for a manifestation journal subscription.
+> - They prefer process-focused audio over outcome-focused affirmations.
+> - They will consistently use an app that connects visualization with action.
+>
+> Be careful with the claim that vision boards reduce motivation. Research on positive fantasies suggests that imagining success without considering obstacles can sometimes undermine effort, but that doesn't mean vision boards universally reduce motivation.
+
+**Takeaway**
+
+> I wouldn't reposition ISSUE11. I'd sharpen what you're already building.
+> **Traditional manifestation apps help you imagine the life you want. ISSUE11 should help you become the person who can build it.**
+
+**Open question to investigate next**
+
+> Do people want a manifestation app that gives them a beautiful dream-life experience, or one that actually helps them follow through? Ideally ISSUE11 delivers both. But understanding which one drives the initial purchase will make a huge difference to your onboarding, paywall, and marketing.
+
+*Manager notes (not Megan's words):*
+- *Marketing guardrail: don't claim "vision boards don't work" or cite research as proof. Say "most vision boards get forgotten", which is honest.*
+- *Product guardrail (architecture lock): "small actions" stay gentle and inside Scribe / Lucky Star. No task lists, streaks or goal trackers, so ISSUE11 never becomes a productivity app.*

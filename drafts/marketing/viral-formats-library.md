@@ -120,6 +120,6 @@ Every viral video fits one bucket: 1. Challenges (payoff: who wins/loses) · 2. 
 | Type | ISSUE11 use | Funnel job | Examples in this file |
 |---|---|---|---|
 | 3 · Skits and Bits | Delulu-honestly comedy, two characters | Awareness | R3 Two Characters, F3 Great Question |
-| 4 · Wait for It | The magazine reveal: the transformation is the *Issue being made*, never a life result | Awareness | R6 The Reveal, R1 Blind Ranking (ends on the cover) |
+| 4 · Wait for It | Now: the magazine reveal (the transformation is the *Issue being made*). Later, Megan (Oct 13): "Wait for it could also be a case study too": a real user's Issue 1 → their latest Issue and Proof page, with written permission, her own words, never framed as a typical result | Awareness (reveal) · Consideration (case study) | R6 The Reveal, R1 Blind Ranking (ends on the cover) |
 | 5 · Storytelling | Now: Megan's own true story (the coffee-table magazine). Later: real users' stories as case studies/UGC, with written permission, never framed as typical results | Consideration | F1 "Before ISSUE11 was an app..." |
 Education (type 2) stays in the carousels (C1, C2, F2), which carry most of the Consideration job.

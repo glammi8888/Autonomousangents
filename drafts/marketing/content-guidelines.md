@@ -5,7 +5,9 @@ Oct 13, 2026 · 📣 Content Room (🎨 BRAND + 💚 GROWTH) · Marketing focus 
 1. `design/POSITIONING.md` (source of truth: process over outcome, no promised outcomes, no "becoming her", no "vision boards don't work")
 2. `research/glammi-writing-guide.md` (Megan, Oct 13: "doc says glammi studio but it applies to ISSUE11 as well")
 3. `design/PRODUCT-ARCHITECTURE.md` (magazine is the hero, AI invisible until useful, 4 functions)
-4. `brand/BRAND-GUIDE.md` · `design/LUCKY-STAR-VOICE.md` · `drafts/launch-prep/outrageous-campaigns.md`
+4. `marketing/PSYCHOLOGY-FRAMEWORK.md` (Megan, Oct 13: the thinking layer, i.e. why people want change, why they stall, how to persuade ethically. Read its "Read first" box for the locked rules it doesn't override.)
+   **Megan, Oct 13, word for word: "Keep the writing style glammi/issue11 ok?"** The framework decides *what* to say; the Glammi/ISSUE11 writing rules in this file decide *how* it's written.
+5. `brand/BRAND-GUIDE.md` · `design/LUCKY-STAR-VOICE.md` · `drafts/launch-prep/outrageous-campaigns.md`
 
 Where two sources disagree it is marked **⚠️ Megan decides** and nothing is changed until she does.
 

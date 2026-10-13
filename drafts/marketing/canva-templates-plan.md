@@ -8,16 +8,16 @@ Oct 13, 2026 · 📣 Content Room (🎨 BRAND + 💚 GROWTH) · Plan only. No de
 3. **3-variation test first:** agents fill one master 3 ways, Megan picks or fixes, and only then a batch.
 
 ## Recommendation: build 2 masters now, the rest after the app design is final
-The visual rules wait for the final app design (Megan, Oct 13), and a master built before that will probably be redone. Only the first Instagram posts (from Oct 14) need masters now, so start with **#1 Cover post** and **#3 Big-word card**. They come straight from the approved identity kit and change least when the app look is final.
+The visual rules wait for the final app design (Megan, Oct 13), and a master built before that will probably be redone. Megan's priority is **reels and carousels** (Oct 13), so the 2 masters to make now are **#2 Carousel** (with the big-word slide from #3 built in as a slide style) and **#5 Reel text cards + #4 Reel cover** (one Canva file). Both come straight from the approved identity kit, so they change least when the app look is final.
 
 ## The 8 masters
 | # | Master | Size | Pillar | Fillable parts (agents change only these) | When |
 |---|---|---|---|---|---|
-| 1 | **Cover post**: full-bleed photo, wavy wordmark, one cover line | 1080×1350 (4:5) | The Issue | PHOTO · COVER_LINE · SMALL_LABEL | **Now** |
-| 2 | **Contents-page carousel**: "01 / SEE IT" numbered pages, last slide = payoff | 1080×1350 × 5 slides | The Issue / The In-between | NUMBER · HEADLINE · BODY (1-2 lines) · PHOTO | After app design |
-| 3 | **Big-word card**: one huge Archivo Black word + small mono label, cream / blush / black versions | 1080×1350 | Delulu, honestly / The In-between | WORD · LINE · LABEL · BACKGROUND (3 set options) | **Now** |
-| 4 | **Reel cover** (grid-safe crop 3:4 marked) | 1080×1920 | All | COVER_LINE · PHOTO | After app design |
-| 5 | **Reel text cards**: hook card + caption card, safe zones built in (nothing in top 220 px / bottom 420 px) | 1080×1920 | All | HOOK (3-7 words) | After app design |
+| 1 | **Cover post**: full-bleed photo, wavy wordmark, one cover line | 1080×1350 (4:5) | The Issue | PHOTO · COVER_LINE · SMALL_LABEL | Later (can be slide 1 of the carousel) |
+| 2 | **Contents-page carousel**: "01 / SEE IT" numbered pages, last slide = payoff | 1080×1350 × 5 slides | The Issue / The In-between | NUMBER · HEADLINE · BODY (1-2 lines) · PHOTO | **Now** |
+| 3 | **Big-word card**: one huge Archivo Black word + small mono label, cream / blush / black versions | 1080×1350 | Delulu, honestly / The In-between | WORD · LINE · LABEL · BACKGROUND (3 set options) | **Now, as a slide style inside #2** |
+| 4 | **Reel cover** (grid-safe crop 3:4 marked) | 1080×1920 | All | COVER_LINE · PHOTO | **Now (same file as #5)** |
+| 5 | **Reel text cards**: hook card + caption card, safe zones built in (nothing in top 220 px / bottom 420 px) | 1080×1920 | All | HOOK (3-7 words) | **Now** |
 | 6 | **Story**: early access / poll frame | 1080×1920 | Editor's desk | HEADLINE · LINK_TEXT | After app design |
 | 7 | **Pinterest pin**: magazine page with a searchable title | 1000×1500 (2:3) | The Issue / The In-between | PHOTO · TITLE · LABEL | Late Oct (Pinterest agent starts then) |
 | 8 | **"Issue of the Month" cover** | 1080×1350 + 1080×1920 | The Issue | NAME · COVER_LINE · PHOTO | Only if Megan unparks the idea (Notion 💡 Ideas Backlog) |

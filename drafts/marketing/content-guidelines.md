@@ -94,7 +94,12 @@ Glammi example 4 is the model: real, specific, including the broken bits. Founde
 **The magazine reveal (signature format)**
 Blank cream page → "Printing your first issue…" → the cover appears → slow page turn → one payoff line. Always label example covers as examples ("YOUR NAME HERE"). Only show screens that match the real app, labelled "Early design" until launch.
 
-**⚠️ Megan decides:** face on camera, faceless (hands, magazine, screen recordings) or both, and which channels first. Recommendation: **TikTok + Instagram Reels first, both formats**. Faceless reveals for volume, Megan on camera for pillar 4 when she has the energy.
+**Format priority (Megan, Oct 13, word for word): "I want to prioritize reels and carousels..."**
+Reels and carousels come first. Single image posts, Stories and pins come only when a reel or carousel already exists to repurpose. Every reel can also go to TikTok as-is (no extra work).
+- **Reels:** hook in the first 1-2 seconds, the magazine reveal as the signature format, 7-30 seconds.
+- **Carousels:** 4-7 slides. Slide 1 is the hook (a cover or one big word), the middle slides deliver one idea each, the last slide is the payoff line. They are made to be saved and shared.
+
+**⚠️ Megan decides:** face on camera, faceless (hands, magazine, screen recordings) or both. Recommendation: both. Faceless reveals for volume, Megan on camera for pillar 4 when she has the energy.
 
 ## 5. Guardrails (always on)
 - **No promised outcomes.** No "you will", no income, body, relationship or health results. Proof is shown as someone's own experience, never a guarantee.

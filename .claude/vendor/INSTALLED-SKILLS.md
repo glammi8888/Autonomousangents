@@ -12,3 +12,8 @@ All are open source (MIT / Apache-2.0); license files are kept next to each skil
 | ASO Specialist (Lacey) | 1.1.3 · MIT | already installed as `aso-specialist` | Same content, not reinstalled. |
 
 Rules still win over any skill: no sending, publishing, buying or deploying without Megan; no invented numbers or reviews.
+
+## Added 2026-10-13 (📣 Content Room, uploaded by Megan as a zip)
+| Pack | License | Installed as | Changes made |
+|---|---|---|---|
+| jaredrhod-marketing (Jared Rhodenizer, @jaredrhod) | CC BY-SA 4.0 (LICENSE kept; attribution required, changes must be marked and shared alike) | `jaredrhod-marketing` | Text files only, `allowed-tools: Read`, no scripts. Nothing removed. Added a marked "ISSUE11 overrides" block in SKILL.md: gain over fear (the pack says "generally fear works better" and teaches agitate/warning sections), no results guarantee, real permitted proof only, real urgency only, Glammi writing rules, draft only. |

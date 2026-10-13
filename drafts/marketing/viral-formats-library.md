@@ -9,7 +9,6 @@ Oct 13, 2026 · 📣 Content Room · Source: viral formats Megan brought from an
 | Source idea | Changed to | Rule |
 |---|---|---|
 | "$30k/month contract", "$80k/month", "multi-six-figure business, bought my dream car" | Non-money milestones, or money goals framed as a wish, never as a result | No income or outcome claims (POSITIONING.md, FTC). First-person results only if true for the creator |
-| "3D AI Orb" | The 11 sticker (Lucky Star), or no AI at all | Megan: no glossy 3D; AI stays backstage until useful |
 | "Daily action steps", "habit completion", "milestone tracking", "action tracking mechanism", "daily publication" | One small move a week · Proof · a new Issue every few months | Architecture lock: not a productivity/tracking app; no daily pressure; default 4 Issues a year |
 | "Vision boards are dead / keeping you stuck" | "Why most vision boards get forgotten" | Never claim vision boards don't work |
 | "This random layout is chaotic" | "This list is a mess" | "chaotic" is a banned word (Glammi guide) |

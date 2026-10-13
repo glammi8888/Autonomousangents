@@ -113,3 +113,13 @@ FormatFinder's starter ideas invent personal stories ("I tested it for six month
 - "What's the biggest mistake women make when scripting their dream life? Great question." → Scripting the outcome and never the ordinary Tuesday.
 - "Why does my vision board stop working after a week? Great question." → It became wallpaper. Give it one small move.
 Rules: "delulu", never "delusional"; never mock other methods ("toxic manifestation" is out); no "transformed my life" claims.
+
+## The 5 format types (FormatFinder course, lesson notes) + Megan's picks (Oct 13)
+Every viral video fits one bucket: 1. Challenges (payoff: who wins/loses) · 2. Education (payoff: closing a knowledge gap) · 3. Skits and Bits (payoff: emotion or punchline) · 4. Wait for It (payoff: seeing the transformation or end result) · 5. Storytelling (payoff: did the character succeed or fail). Course advice: pick one, run it many ways until people recognize it, then double down.
+**Megan's picks:** 3, 4 and 5. Megan, word for word: "But 5 when we have clients as "case studies" or UGC I guess".
+| Type | ISSUE11 use | Funnel job | Examples in this file |
+|---|---|---|---|
+| 3 · Skits and Bits | Delulu-honestly comedy, two characters | Awareness | R3 Two Characters, F3 Great Question |
+| 4 · Wait for It | The magazine reveal: the transformation is the *Issue being made*, never a life result | Awareness | R6 The Reveal, R1 Blind Ranking (ends on the cover) |
+| 5 · Storytelling | Now: Megan's own true story (the coffee-table magazine). Later: real users' stories as case studies/UGC, with written permission, never framed as typical results | Consideration | F1 "Before ISSUE11 was an app..." |
+Education (type 2) stays in the carousels (C1, C2, F2), which carry most of the Consideration job.

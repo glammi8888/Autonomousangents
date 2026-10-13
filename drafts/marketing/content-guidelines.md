@@ -68,6 +68,8 @@ The Glammi guide is written for LinkedIn and newsletters (long prose, no lists).
 
 **⚠️ Megan decides: the Glammi "not" list says "no pink aesthetic, no overly feminine or soft tone".** ISSUE11's approved palette is blush and pink. Our reading: for ISSUE11 this rule is about **tone** (no girlboss slogans, no soft-girl clichés, no sugary captions), not the colors. The visuals follow the Brand Guide. Confirm or correct.
 
+**Megan on camera (Oct 13):** "I'm more goofy than looking serious". Her videos are playful and funny; even education is delivered as a skit or POV with one real takeaway. Serious, polished talking-head lectures aren't her.
+
 ## 3. Content pillars (4)
 Every post belongs to one pillar. Rough mix in brackets.
 

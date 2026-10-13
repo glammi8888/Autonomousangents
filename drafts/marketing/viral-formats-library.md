@@ -91,3 +91,6 @@ Blank cream page → "Printing your first issue..." → the cover appears → sl
 
 ## Launch idea from the source (for later)
 **"Show your cover":** once the app is live, invite early users to post their cover (only with their OK) with one line: "What's your cover line?" This is how R1 and R6 turn into user content. Pairs with the parked "Issue of the Month" idea (Notion 💡 Ideas Backlog).
+
+## Finding new formats (Megan, Oct 13)
+Megan is getting **FormatFinder** (monthly plan, about $57 first month then $97/month per its own site; 7-day money-back guarantee). Process: Megan pulls formats from 2-3 niches she loves → sends them to the Content Room → each one is adapted to ISSUE11's rules and added here. Review on day 6: keep it only if it saves Megan time; otherwise ask for the refund.

@@ -1,5 +1,6 @@
 # 💡 Parked content ideas
 Ideas Megan wants saved. Status "parked" = nobody works on it without Megan's OK.
+**Main home: Notion → Agent Command Center → 💡 Ideas Backlog** (https://app.notion.com/p/6107c27a4a9d4555aacc85d001d7b9aa, created Oct 13 with Megan's OK). This file is the repo copy.
 
 ## 1. "Issue of the Month" (Megan, Oct 13, 2026) · parked
 **Megan, word for word:** "for content we should have "Issue of the month" where we feature really cool features and influencers... Obviously the higher the caliber of the person, the better"

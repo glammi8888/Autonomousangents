@@ -21,6 +21,8 @@ Where two sources disagree it is marked **⚠️ Megan decides** and nothing is 
 - **The magazine is step one, never the finish line.** YOUR ISSUE + YOUR ACTIONS = YOUR WAY THERE.
 - **Tagline (⚠️ Megan decides):** Brand Guide v1 says *See it. Write it. Become it.* Positioning (Oct 10) says *Dream it. Live it. Become it.* Recommendation: **See it. Write it. Become it.** It is approved, already in the Instagram and holding page drafts, and describes what the app actually does. Until Megan picks, use one tagline per piece, never both.
 
+**Audience (Megan, Oct 13): women aged 20-40** who love manifestation, vision boards, Pinterest, journaling and dream life content.
+
 ## 2. Voice
 **Three words (from the Glammi guide): Witty · Sharp · Human.**
 For ISSUE11 that means: a brilliant friend with great taste who believes in your dream and is honest about the in-between. Editorial like a magazine, dry like a friend's text, warm without gushing.

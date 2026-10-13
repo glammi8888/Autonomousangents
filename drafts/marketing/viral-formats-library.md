@@ -24,7 +24,7 @@ Every script below: Glammi/ISSUE11 writing rules, one funnel job, burned-in capt
 **Why it works:** blind-ranking is an interactive trend; viewers argue in the comments about the order.
 **Shot list (20-30 s):**
 1. Hook text: **"Blind ranking my next 5 life chapters"** · cards face down.
-2. Flip one at a time, place 1-5: *Living by the sea · Launching my own studio · Running a half marathon · A year abroad · Writing a book.*
+2. Flip one at a time, place 1-5: *Living by the sea · My first $30k month · Launching my own studio · A year abroad · Buying my dream car.* (Money dreams are fine as **wishes** on the cards; Megan, Oct 13.)
 3. Laugh at a bad placement ("a half marathon at number one?!").
 4. 🗣 "Okay, this list is a mess. Let's put it somewhere I'll actually look at it."
 5. Cut to an ISSUE11 cover (early design) with the 5 chapters as cover lines.

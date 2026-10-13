@@ -96,6 +96,20 @@ Blank cream page → "Printing your first issue…" → the cover appears → sl
 
 **Format priority (Megan, Oct 13, word for word): "I want to prioritize reels and carousels..."**
 Reels and carousels come first. Single image posts, Stories and pins come only when a reel or carousel already exists to repurpose. Every reel can also go to TikTok as-is (no extra work).
+
+**Weekly rhythm (Megan, Oct 13, word for word): "4 reels per week and 3 carousels"** = 7 posts a week.
+Suggested week (draft, Megan moves days freely):
+| Day | Format | Pillar |
+|---|---|---|
+| Mon | Reel | The Issue (magazine reveal) |
+| Tue | Carousel | The In-between |
+| Wed | Reel | Delulu, honestly |
+| Thu | Carousel | The Issue |
+| Fri | Reel | The Editor's Desk |
+| Sat | Carousel | Delulu, honestly or The In-between |
+| Sun | Reel | The In-between |
+Mix per week: The Issue 2 · The In-between 2 · Delulu 2 · Editor's Desk 1 (matches the pillar split above).
+**Protect Megan's energy:** batch it. One recording session a week for the reels, 3 of the 4 faceless (reveals, hands, screen recordings), so only 1 needs Megan on camera. Agents draft all 7 captions and carousel texts in one weekly batch for Megan to approve.
 - **Reels:** hook in the first 1-2 seconds, the magazine reveal as the signature format, 7-30 seconds.
 - **Carousels:** 4-7 slides. Slide 1 is the hook (a cover or one big word), the middle slides deliver one idea each, the last slide is the payoff line. They are made to be saved and shared.
 

@@ -1,6 +1,8 @@
 # ISSUE11 Funnel Map (DRAFT for Megan)
 Oct 13, 2026 · 📣 Content Room · Built with the `jaredrhod-marketing` skill (fundamentals + lead magnets) and its ISSUE11 overrides. Draft only: nothing is set up, sent or posted.
 
+> **🗓 Update (Megan, Oct 13, word for word): "also ISSUE11 is low ticket so i don't think we truly need a lead magnet for that, do we?"** Agreed. Decision draft: **no separate lead magnet.** Before launch the waitlist itself is the opt-in, with a real reason to join: a beta spot on Nov 11 + (if Megan approves the price) a founding-member offer. After launch, content sends people straight to the App Store; the onboarding is the funnel. A small bonus (e.g. "Lucky Star Lite" prompts or the method quiz) only if the waitlist page converts under 25%. The "Cover Story Kit" sections below are superseded.
+
 Jared's sequence: **Content → Lead magnet → Tripwire → Core offer → Profit maximizer**, planned backwards from the last step.
 **The feeling we sell** (his "so what?" test): not "a magazine app". So what? You see your dream life clearly. So what? You know what to do this week. So what? **You feel like your life is finally moving, and you can see it.** That feeling leads every headline.
 

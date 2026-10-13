@@ -94,3 +94,22 @@ Blank cream page → "Printing your first issue..." → the cover appears → sl
 
 ## Finding new formats (Megan, Oct 13)
 Megan is getting **FormatFinder** (monthly plan, about $57 first month then $97/month per its own site; 7-day money-back guarantee). Process: Megan pulls formats from 2-3 niches she loves → sends them to the Content Room → each one is adapted to ISSUE11's rules and added here. Review on day 6: keep it only if it saves Megan time; otherwise ask for the refund.
+
+## FormatFinder batch 1 (Oct 13): top 3 formats, adapted
+FormatFinder's starter ideas invent personal stories ("I tested it for six months", "my best friend made fifty boards") and results ("completely transformed my life"). We keep the formats and rewrite the ideas so they're true for Megan or need no personal claim. 🗣 = only if true.
+
+### F1 · What I Learned Doing X · Educational · Consideration
+- 🗣 "Before ISSUE11 was an app, it was a magazine I made about my future life. Here's what it taught me." (Megan's real story)
+- 🗣 "I'm building a manifestation app with zero coding experience. Here's what I've learned so far." (Editor's Desk)
+- 🗣 "I stopped saying affirmations I didn't believe. Here's what I say instead."
+
+### F2 · The Knowledge Gap · Storytelling · Awareness
+- "Your vision board shows the destination. Nobody told you what to do on Tuesday."
+- "You keep starting over, and it's not a motivation problem. Your routine was built for your best day."
+- "Most people rehearse the outcome. Try rehearsing the process instead."
+
+### F3 · The 'Great Question' · Storytelling · Awareness / Consideration
+- "Is it delulu to put a $30k month on my vision board? Great question." → Not if you also write what you'll do this week.
+- "What's the biggest mistake women make when scripting their dream life? Great question." → Scripting the outcome and never the ordinary Tuesday.
+- "Why does my vision board stop working after a week? Great question." → It became wallpaper. Give it one small move.
+Rules: "delulu", never "delusional"; never mock other methods ("toxic manifestation" is out); no "transformed my life" claims.

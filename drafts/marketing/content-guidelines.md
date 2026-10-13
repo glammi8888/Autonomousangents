@@ -101,15 +101,16 @@ Reels and carousels come first. Single image posts, Stories and pins come only w
 
 **Weekly rhythm (Megan, Oct 13, word for word): "4 reels per week and 3 carousels"** = 7 posts a week.
 Suggested week (draft, Megan moves days freely):
-| Day | Format | Pillar |
-|---|---|---|
-| Mon | Reel | The Issue (magazine reveal) |
-| Tue | Carousel | The In-between |
-| Wed | Reel | Delulu, honestly |
-| Thu | Carousel | The Issue |
-| Fri | Reel | The Editor's Desk |
-| Sat | Carousel | Delulu, honestly or The In-between |
-| Sun | Reel | The In-between |
+| Day | Format | Pillar | Funnel job |
+|---|---|---|---|
+| Mon | Reel | The Issue (magazine reveal) | 1 · Awareness |
+| Tue | Carousel | The In-between | 2 · Consideration |
+| Wed | Reel | Delulu, honestly | 1 · Awareness |
+| Thu | Carousel | The Issue | 2 · Consideration |
+| Fri | Reel | The Editor's Desk | 2 · Consideration |
+| Sat | Carousel | Delulu, honestly or The In-between | 3 · Convert (Dream Life Gap Test → waitlist/beta, later App Store) |
+| Sun | Reel | The In-between | 1 · Awareness |
+**Funnel jobs (Megan, Oct 13, word for word): "1. Awareness campaigns 2. Consideration 3. Convert/Sales".** Every post has exactly one job: Awareness (reach new people, relatable and shareable) · Consideration (feel understood, learn something useful, follow and save) · Convert (one clear next step). Per week: 3 Awareness · 3 Consideration · 1 Convert. Every post also passes the framework's 3 questions (understood · useful · relevant).
 Mix per week: The Issue 2 · The In-between 2 · Delulu 2 · Editor's Desk 1 (matches the pillar split above).
 **Protect Megan's energy:** batch it. One recording session a week for the reels, 3 of the 4 faceless (reveals, hands, screen recordings), so only 1 needs Megan on camera. Agents draft all 7 captions and carousel texts in one weekly batch for Megan to approve.
 - **Reels:** hook in the first 1-2 seconds, the magazine reveal as the signature format, 7-30 seconds.

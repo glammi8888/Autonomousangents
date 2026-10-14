@@ -28,12 +28,13 @@ HOME (3 blocks only)
 3. "This week's move" card with the button "I made room for it" -> Add Proof, like posting a story (write one line, optional photo -> "Share to my Issue") -> celebration screen "It's real".
 Pick Move screen: her last move, 3 suggestions from a list, and "Write my own".
 
-EXPLORE
-- Top switch like TikTok: Sessions · My World.
-- Sessions: full-screen vertical previews, swipe up for the next (like TikTok), "For you" first (matched to her onboarding topic). Only 7, no endless feed.
-- Tap a session -> Session page like a Spotify album page (big image, title, length, "Picked for you", Watch/Listen switch, big pink play, "What you'll rehearse", "Up next") -> full-screen Player like Spotify Now Playing (video, live words like lyrics, scrubber, back/forward 15 s, save; swipe down = keeps playing in a glass mini player above the tabs; audio keeps playing with the phone locked, with lock-screen controls). Old line for reference: full-screen Player: Watch (image fills the screen) or Listen (dark screen). Play/pause and progress.
-- When it ends: "How do you feel now?" -> button "Write it in my Journal".
-- My World: Pinterest-style masonry grid. Her own photos and saved preset images show first. A "+ Add" button opens the iPhone photo picker (only the photos she picks, never her whole library). Tap the heart (or double-tap) on a preset to save it.
+EXPLORE (like Instagram Explore + Pinterest)
+- Search bar on top: "Search sessions and images".
+- One row of chips: For you · Sessions · My World · then topics (Money, Love, ...).
+- One Pinterest-style grid that mixes images and sessions. Sessions show a round pink play button on the top-left of the image, plus their name and length at the bottom. Images show a heart (tap or double-tap to save).
+- "My World" chip: her own photos, hearted images and saved sessions. First tile: "+ Add your photo" (iPhone photo picker, only the photos she picks). A pink tile: "4 more saves = 1 new page".
+- Tap a session -> Session page like a Spotify album page (big image, title, length, "Picked for you", Watch/Listen switch, big pink play, "What you'll rehearse", "Up next") -> full-screen Player like Spotify Now Playing (video, live words like lyrics, scrubber, back/forward 15 s, save; swipe down = keeps playing in a glass mini player above the tabs; audio keeps playing with the phone locked). Listen = dark eyes-closed screen.
+- When a session ends: "How do you feel now?" with 4 chips (Ready, Calm, Brave, Not yet) -> "Write it in my Journal".
 
 ISSUE
 - Her magazine read like Instagram Stories: tap right/left to turn pages, thin page bars at the top, hold to pause, swipe down to close. Shows "14 of 40 pages · 26 to print". Every Issue has exactly 40 pages to print; it starts with 8 and fills up as she adds proof, photos and journal lines. At 40: "Ready to print".

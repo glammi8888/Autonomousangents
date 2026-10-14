@@ -45,7 +45,7 @@ We borrow **gestures and patterns people already know**, never those apps' look 
 
 **What we don't borrow:** likes, followers, counts, public posts, comments, endless feeds, streaks, notification badges that guilt. No public sharing also means no moderation system (Apple 1.2).
 
-**Lucky Star in V1 (chips + a box, answers as cards):**
+**Lucky Star in V1: ✅ DECIDED by Megan, Oct 14 ("this is the answer for Lucky Star (#1)"), her design in design/claude-design/lucky-star-v1/.** Full-screen aura sheet, one big card + 1–2 buttons, "Talk to Lucky Star…" bar with mic, AI label, Undo on every action. Per screen:
 Home → the "one next thing" card (no move yet → pick a move · move done, no proof → add proof · otherwise → today's session) · Explore → "Pick a session for me" · Journal → "Ask me a question" (one gentle question about what she wrote, never words put in her mouth) · Issue → "Try another version of this page" · World → "Find images for my topic".
 Safety stays: "AI can make mistakes" label, crisis words stop the AI and show help, no health/money advice, nothing saved without KEEP.
 
@@ -89,8 +89,8 @@ A magazine rhythm. Every hook reuses a V1 feature, so none of them adds build ti
 Sign in with Apple (onboarding 38) · restore purchases · manage subscription · delete account in the app · privacy policy + terms links · AI consent (onboarding 34) + Lucky Star & AI off switch · "AI can make mistakes" · crisis-word help · every permission asked only when needed · no "coming soon" or placeholders in the January build (anything unfinished is hidden, not teased).
 
 ## 3 decisions only Megan can make
-1. **Lucky Star in V1: a ChatGPT/Claude-style box with suggestion chips, where every answer is one action card (KEEP / TRY AGAIN), no long chat thread?** Recommended: yes. Familiar, keeps your Oct 2 rule ("The actions it can take are the feature"), and much safer to build than open chat. Long conversations on Home move to V1.1.
-2. **Sessions at launch: 7 (one per onboarding topic), audio + a slow-moving image, each in a 5 and 10 min cut (15 min = the 10 min + 5 min of quiet music)?** Recommended: yes. Easiest for you to make; "Watch" still works.
-3. **Your own photos (and photo proof) in January, not Dec 11?** Recommended: yes. Presets carry launch; it removes a user-data approval from the critical path. (Changes your Oct 9 decision.)
+1. ✅ **Lucky Star: decided** (Megan's 5 screens, Oct 14).
+2. **Sessions: does Lucky Star pick one of Megan's sessions (V1), or make a new one per person ("I made tonight's session")?** Recommended: pick in V1, made-for-her in V1.1 as premium. Megan (Oct 14): "Don't worry about onboarding, it's already designed" (session matching uses onboarding answers as they are).
+3. **Can she add pictures from her own phone to My World on Dec 11, or from January?** Recommended: January (privacy approval + build time; presets are enough for launch). Megan asked for a simpler explanation (Oct 14).
 
 ⚠️ Still needs Megan's approval before building, whatever she decides: design/magazine-ai-spec.md (journal text → AI), payments/RevenueCat, sign in, delete account (CLAUDE.md rule 4).

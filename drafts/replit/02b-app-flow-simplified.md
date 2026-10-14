@@ -1,6 +1,6 @@
 # Replit prompt 02b: ISSUE11 app flow, SIMPLIFIED (after onboarding)
 Made by 🎨🩵 Design Room, Oct 14, 2026, from design/V1-SIMPLIFIED.md. Replaces prompt 02 **once Megan approves the 3 decisions** in that file. Until then, don't paste it.
-Mockup to upload as screenshots: https://claude.ai/artifact/QAbmsD9o7zGGY5qKHAQuFX
+Mockup to upload as screenshots: https://claude.ai/artifact/QAbmsD9o7zGGY5qKHAQuFX (+ Megan's 5 Lucky Star screens in design/claude-design/lucky-star-v1/)
 How to use: paste AFTER prompt 01 (design system). Then upload screenshots of the V1 Prototype so Replit copies the look.
 
 ---
@@ -51,13 +51,16 @@ YOU (like an Instagram profile)
 - Gear icon top right opens Settings: notifications (on/off + time), app icon, membership (manage subscription, restore purchases), "Lucky Star & AI" on/off switch, privacy policy, terms, sign out, delete account (with a confirm screen).
 
 THE 11 (Lucky Star)
-Tapping it opens a sheet that looks like the ChatGPT/Claude composer: a text box with a mic at the bottom and 2-3 suggestion chips above it. Each answer is ONE card with KEEP / TRY AGAIN (no long chat thread). Chips for the screen she is on:
-- Explore: "Pick a session for me"  - Journal: "Ask me a question"
-- Issue: "Try another version of this page"  - World: "Find images for my topic"
-- Home: shows the same "next thing" as the Home card.
-Anything it makes shows as a preview with KEEP / TRY AGAIN. Nothing is saved without KEEP.
+Tapping it opens a full-screen sheet (copy the look from my Lucky Star screenshots): a soft pink glow behind the 11 sticker, ONE big card in the middle with 1-2 pill buttons, a close X top right, and at the bottom a "Talk to Lucky Star..." bar with a send arrow and a big pink hold-to-talk mic. Under it: "Lucky Star is AI and can make mistakes".
+What the card offers depends on the screen:
+- Home: one next thing (start tonight's session / keep my move / add proof)
+- My World: "It's missing a feeling" + 3 images -> ADD ALL 3 / SWAP ONE
+- Sessions: the session picked for her and why
+- Journal: one gentle question
+- Issue: another version of this page
+Every action ends in something real, then a black toast at the top: "Added to ... · UNDO". Nothing changes without her tap.
 If "Lucky Star & AI" is off, the sheet says "Lucky Star is off. You can turn it on in You." and the rest of the app still works.
-No chat history screen. Use placeholder results for now.
+Use placeholder results for now.
 
 STATES
 Every tab needs an empty state. Also: a loading state ("Lucky Star is building"), an offline message ("You're offline. Your Issue is saved.") and a friendly error.

@@ -127,3 +127,14 @@ Education (type 2) also stays in the carousels (C1, C2, F2), which carry most of
 
 ## Idea (open, Megan Oct 14): harmless "rage bait" details
 Megan: "I think we can also add some rage bait elements to the videos too for more engagement (stupid idea but like if it were a cooking video: cooking a wok dish with a ladle for example…)". A silly, harmless visual "wrong" detail that makes people comment (e.g. reading the Issue upside down, "I AM A MILLIONAIRE" mug with instant noodles, 47 unused journals behind you). Line: the detail is the bait, never the message: no wrong facts, no fake claims, no mocking people or methods, nothing unsafe. **Open:** may the bait touch the ISSUE11 magazine itself, or only the surroundings? Megan: "I'm not sure!"
+
+## Megan's natural format (Oct 14): GRWM talking head
+Megan: "Not "me" and boring ideas" (about the earlier format list) → "I like talking head videos while doing makeup". So the core reel format = **Get Ready With Me (GRWM) + talking head**: easy solo (one setup), personal, fits women 20-40. The topic changes by pillar; the format stays the same (= a recognisable series).
+| GRWM while I... | Pillar | Job |
+|---|---|---|
+| ...tell you why you keep starting over (and what I do instead) | The In-between | Consideration |
+| ...read you the most delulu affirmations I've ever said | Delulu, Honestly | Awareness |
+| ...tell you how I'm building an app with zero coding | The Editor's Desk | Consideration |
+| ...get ready for my one small move this week (live one page of my Issue) | The Issue | Awareness |
+| ...answer "is it delulu to put a $30k month on my vision board?" | The In-between | Consideration |
+Status: Megan's preference; topics are Content Room drafts for her to pick from.

@@ -31,7 +31,7 @@ Pick Move screen: her last move, 3 suggestions from a list, and "Write my own".
 EXPLORE
 - Top switch like TikTok: Sessions · My World.
 - Sessions: full-screen vertical previews, swipe up for the next (like TikTok), "For you" first (matched to her onboarding topic). Only 7, no endless feed.
-- Tap a session -> full-screen Player: Watch (image fills the screen) or Listen (dark screen). Play/pause and progress.
+- Tap a session -> Session page like a Spotify album page (big image, title, length, "Picked for you", Watch/Listen switch, big pink play, "What you'll rehearse", "Up next") -> full-screen Player like Spotify Now Playing (video, live words like lyrics, scrubber, back/forward 15 s, save; swipe down = keeps playing in a glass mini player above the tabs; audio keeps playing with the phone locked, with lock-screen controls). Old line for reference: full-screen Player: Watch (image fills the screen) or Listen (dark screen). Play/pause and progress.
 - When it ends: "How do you feel now?" -> button "Write it in my Journal".
 - My World: Pinterest-style masonry grid. Her own photos and saved preset images show first. A "+ Add" button opens the iPhone photo picker (only the photos she picks, never her whole library). Tap the heart (or double-tap) on a preset to save it.
 

@@ -84,6 +84,10 @@ Day one she has 8 pages ("started", never "ready"). The rest fills over the quar
 
 **Lucky Star UX ideas (Design Room, Oct 14, waiting for Megan's pick).** Megan: "I am open for UI/UX changes as long as we keep the 11 sticker and the pink fade". 1) Half sheet inside features (full screen stays for Home) · 2) The pink fade breathes as the loading state + one mono line "Reading your Journal…" · 3) "Made from" pink tags showing which of her things it used · 4) Pink dot on the floating 11 (max once a day, no numbers) + hold the 11 to talk.
 
+**Lucky Star buttons: B+ "Dreamy" (Megan, Oct 14: "I actually like "dreamy""):** all liquid glass; the main action is pink-tinted glass.
+**Explore player, Spotify-style (Megan, Oct 14: "there is a meditation/listening/immersive visual experience... Think Spotify, when they're listening to a meditation that is inside "Explore"")**, built from Megan's V4 Immersive + Eyes-closed screens: A session page (image, title, length, "Picked for you", Watch/Listen, pink play, what you'll rehearse, up next) · B Now playing (video + live words like lyrics, scrubber, ±15 s, save, Watch/Listen glass, swipe down → mini player) · C Listen = eyes-closed screen, plays with the phone locked + lock-screen controls · D "How do you feel now?" glass chips → Journal.
+**Around the app (Design Room suggestions, Oct 14):** cover reveal on first open ("Your Issue has started · 8 of 40") · glass mini player above the tabs · teaching empty states ("4 more saves = 1 new page") · iPhone widgets (V1.1) · dreamy glass buttons app-wide · gentle haptics · paper page-turn in the Issue.
+
 ## SIMPLIFY (keep the feature, build the easy version)
 | Item | Was | V1 | Why |
 |---|---|---|---|

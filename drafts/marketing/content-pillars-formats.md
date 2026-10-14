@@ -7,7 +7,19 @@ Oct 14, 2026 · Brainstorm by 🎨 BRAND + 💚 GROWTH + 🎬 Viral Content Form
 
 **Built on:** content-guidelines.md · marketing/PSYCHOLOGY-FRAMEWORK.md · viral-formats-library.md · the Viral Short-Form Formats skill · Megan's buckets (Skits and Bits, Wait for It, Storytelling). Goofy education still undecided.
 
-## What the answers change
+
+## 🗓 v3 direction (Megan, Oct 14): the reels start from Megan, not from formats
+Megan, word for word: "Not "me" and boring ideas" · "I like talking head videos while doing makeup" · "It's feminine" · "I love entertaining/funny videos" · "I have autoderision" · "Dry and chaotic".
+**Main reel format = funny GRWM**: Megan doing her makeup, talking to camera, dry delivery about chaotic true stories, laughing at herself first (habits and situations, never her body or worth). One setup, one take, filmed in one weekly batch.
+| Day | Reel | Pillar |
+|---|---|---|
+| Mon | GRWM + my one small move this week (ends on the Issue) | The Issue |
+| Wed | GRWM + a delulu confession (self-roast) | Delulu, Honestly |
+| Fri | GRWM + founder chaos (building an app with zero coding) | The Editor's Desk |
+| Sun | GRWM + a dry hot take on why we keep starting over | The In-between |
+Skits, the reveal and the other formats below become **occasional extras**, not the plan. Carousels stay as in v2 (last slide CTA, Saturday = Dream Life Gap Test).
+
+## What the answers change (v2)
 - **50/50 funny and aesthetic.** Our reading of "Cluely": bold, confident, a bit cheeky, and very shareable, while the visuals stay polished and editorial. ISSUE11's line: cheeky about *habits* (starting over, 400 pins), never about people, beliefs or other apps, and never fake stunts.
 - **The Gap is not a pillar.** It's the once-a-week convert post, plus the last slide of every carousel.
 - **Carousels = MOFU + BOFU hybrid.** Slides 1 to N-1 teach (consideration); the last slide is always a CTA (convert).

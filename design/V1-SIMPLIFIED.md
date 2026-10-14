@@ -7,7 +7,7 @@ Megan is building in Replit and asked for a "simplify" pass on **functionality, 
 
 ## ✅ Final V1 design (Oct 14, design check) · mockup: https://claude.ai/artifact/QAbmsD9o7zGGY5qKHAQuFX
 14 screens + Lucky Star A–G + first-open sticker peel. Megan's existing designs cover the rest: system states (design/claude-design/system-states), onboarding/notifications/Meet Lucky Star/paywall/sign in (ONBOARDING-V3, locked).
-01 Home (story rings, cover "x of 40", your move) · 02 Today story · 03 Explore (one feed + chips) · 04 Player (session page, Now playing, Listen, How do you feel) · 05 Issue reader · 06 Add proof · 07 It's real · 08 Journal · 09 You + settings list · 10 Lucky Star (Megan's look, dreamy glass buttons) · 11 Ready to print · 12 Place an order · 13 Edit a page · 14 Delete account.
+01 Home (story rings, cover "x of 40", your move) · 02 Today story · 03 Explore ("For you" = one mixed feed; "Sessions" chip = organized like Spotify: "Picked for you tonight" + shelves by type + 5/10 min chips. Megan, Oct 14: "the feed should be a mix of both (the "for you" and the sessions should be organized (#2)") · 04 Player (session page, Now playing, Listen, How do you feel) · 05 Issue reader · 06 Add proof · 07 It's real · 08 Journal · 09 You + settings list · 10 Lucky Star (Megan's look, dreamy glass buttons) · 11 Ready to print · 12 Place an order · 13 Edit a page · 14 Delete account.
 Only open design question: Lucky Star ideas 1–4 (half sheet in features, breathing fade as loading, "Made from" tags, pink dot + hold the 11 to talk).
 The detailed sections below are the history of how we got here; where they differ, this block wins.
 

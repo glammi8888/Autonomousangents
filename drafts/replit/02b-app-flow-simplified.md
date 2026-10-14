@@ -25,7 +25,7 @@ HOME (3 blocks only)
    - no move this week -> "Pick this week's move" -> Pick Move screen
    - move done but no proof -> "Add proof" -> Add Proof screen
    - otherwise -> "Today's session" -> Player
-3. "This week's move" card with the button "I made room for it" -> Add Proof, like posting a story (write one line -> "Share to my Issue") -> celebration screen "It's real".
+3. "This week's move" card with the button "I made room for it" -> Add Proof, like posting a story (write one line, optional photo -> "Share to my Issue") -> celebration screen "It's real".
 Pick Move screen: her last move, 3 suggestions from a list, and "Write my own".
 
 EXPLORE
@@ -33,7 +33,7 @@ EXPLORE
 - Sessions: full-screen vertical previews, swipe up for the next (like TikTok), "For you" first (matched to her onboarding topic). Only 7, no endless feed.
 - Tap a session -> full-screen Player: Watch (image fills the screen) or Listen (dark screen). Play/pause and progress.
 - When it ends: "How do you feel now?" -> button "Write it in my Journal".
-- My World: Pinterest-style masonry grid of preset images. Tap the heart (or double-tap the image) to save it; saved ones show first.
+- My World: Pinterest-style masonry grid. Her own photos and saved preset images show first. A "+ Add" button opens the iPhone photo picker (only the photos she picks, never her whole library). Tap the heart (or double-tap) on a preset to save it.
 
 ISSUE
 - Her magazine read like Instagram Stories: tap right/left to turn pages, thin page bars at the top, hold to pause, swipe down to close. Shows "Issue 01 · next one in [month]".
@@ -55,7 +55,7 @@ Tapping it opens a full-screen sheet (copy the look from my Lucky Star screensho
 What the card offers depends on the screen:
 - Home: one next thing (start tonight's session / keep my move / add proof)
 - My World: "It's missing a feeling" + 3 images -> ADD ALL 3 / SWAP ONE
-- Sessions: the session picked for her and why
+- Sessions: one of the pre-made sessions picked for her and why ("Picked for you"). It never makes new sessions.
 - Journal: one gentle question
 - Issue: another version of this page
 Every action ends in something real, then a black toast at the top: "Added to ... · UNDO". Nothing changes without her tap.

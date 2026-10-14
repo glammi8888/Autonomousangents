@@ -15,13 +15,13 @@ And: does onboarding promise it? (Audio, one move a week, proof, Lucky Star "hel
 | | 2. Add proof | After "I made room for it": one short line of text → save. |
 | | 3. "It's real" | Celebration (red full-bleed 11). Proof goes into her Issue's Proof page. |
 | | 4. Pick this week's move | Shown when the week has no move: her last move + 3 written suggestions for her topic + "write my own". |
-| **Explore** | 5. Explore | One list of sessions ("For you" first, matched to her onboarding topic + feeling) + her World grid below. |
+| **Explore** | 5. Explore | Top switch **Sessions · My World**. Sessions: Megan's pre-made sessions, "For you" first. My World: her own photos (iPhone picker) + saved presets. |
 | | 6. Player | One full-screen player. **Watch** = her visuals; **Listen** = dark screen (this *is* "eyes closed"). Ends on "How do you feel now?" → Journal. |
 | **Issue** | 7. Issue reader | Swipe her pages. "Issue 01 · next one in [month]". Share a page as an image (iOS share sheet). |
 | | 8. Adjust | 4 controls: cover style · mood (her worlds) · her words in/out · **"Update my Issue"** (pulls in new Journal lines and proof). |
 | **Journal** | 9. Journal | Today's prompt (refresh for another) · write (iOS keyboard mic for voice) · "Put this in my Issue" toggle, OFF by default · past entries. |
 | **You** | 10. You | Past proof · notifications (on/off + time) · app icon · membership (manage, **restore purchases**) · **Lucky Star & AI on/off** · privacy policy + terms · sign out · **delete account**. |
-| | 11. Delete account | Confirm screen; deletes everything, generated Issues included (Apple 5.1.1(v)). |
+| | 11. Delete account | Confirm screen; deletes everything, generated Issues and her uploaded photos included (Apple 5.1.1(v)). |
 | **The 11** | 12. Lucky Star sheet | Small sheet with **one action for the screen she's on** (see below). Preview → KEEP / TRY AGAIN. |
 | | 13. AI off state | When AI is off, the 11 says so kindly and the app still works (template Issue, written suggestions). |
 | **All** | 14. Paywall (re-shown) | Same locked paywall if her membership ends. Restore + Terms + Privacy under the button. |
@@ -63,7 +63,7 @@ A magazine rhythm. Every hook reuses a V1 feature, so none of them adds build ti
 | Home | 5 blocks (cover, move, session, inspiration image, Lucky Star note) | 3 blocks | The Lucky Star card already routes to the session; the cover is already the image. Less to build, calmer screen. |
 | Lucky Star Home GUIDE | AI reads everything and picks one next thing | 3 simple rules pick it; AI only words it (written lines if AI is off) | Same promise, works offline and with AI off, no prompt tuning before launch. |
 | Weekly move | Lucky Star invents one each week | Week 1 = her onboarding answer. After that: 3 written suggestions per topic + "write my own" (AI suggestion if AI on) | Content team writes ~21 lines once; no AI needed to keep the loop alive. |
-| Proof | Note or photo | Short text | No photo storage needed. Photo proof in V1.1 with own photos. |
+| Proof | Note or photo | Short text, optional photo | Same photo picker as My World, so photo proof costs almost nothing extra. |
 | Sessions | Grouped by goal; separate eyes-closed mode | One list; Listen mode = eyes closed | One player, one screen fewer. |
 | Journal | Prompts + gratitude types; custom voice recording | One prompt list (gratitude prompts mixed in); iOS dictation for voice | No audio recording, storage or transcription to build. |
 | Issue editing | Free prompting ("change this page") + page editor (layouts, colours, stickers, patterns, drag) | 4 adjust controls + "Try another version" | Free prompting and a drag editor are the two hardest things in the whole app. Megan's layouts stay the hero. |
@@ -76,7 +76,6 @@ A magazine rhythm. Every hook reuses a V1 feature, so none of them adds build ti
 | Item | When | Reason to wait |
 |---|---|---|
 | Lucky Star long conversations (chat thread) | V1.1 | Hardest to make safe and on-voice; the box + action cards keep the onboarding promise. **Megan decides (Q1).** |
-| Her own photos in Your World + photo proof | V1.1 (January) | Photo storage = user data spec + privacy label + deletion. Presets carry day one. **Megan decides (Q3).** |
 | Page editor (layouts, colours, stickers, patterns) | V1.1+ | Biggest build item; adjust controls cover day one. |
 | Issue 2, 3, 4 + rhythm setting (1/2/4/12 a year) | V1.1 (before March) | First users reach Issue 2 around March. V1 shows "next one in [month]" only. |
 | PDF download / print | V2 | Printing not confirmed; share-as-image covers sharing. |
@@ -88,9 +87,9 @@ A magazine rhythm. Every hook reuses a V1 feature, so none of them adds build ti
 ## Kept for Apple (never cut)
 Sign in with Apple (onboarding 38) · restore purchases · manage subscription · delete account in the app · privacy policy + terms links · AI consent (onboarding 34) + Lucky Star & AI off switch · "AI can make mistakes" · crisis-word help · every permission asked only when needed · no "coming soon" or placeholders in the January build (anything unfinished is hidden, not teased).
 
-## 3 decisions only Megan can make
+## Megan's 3 decisions (all made Oct 14)
 1. ✅ **Lucky Star: decided** (Megan's 5 screens, Oct 14).
-2. **Sessions: does Lucky Star pick one of Megan's sessions (V1), or make a new one per person ("I made tonight's session")?** Recommended: pick in V1, made-for-her in V1.1 as premium. Megan (Oct 14): "Don't worry about onboarding, it's already designed" (session matching uses onboarding answers as they are).
-3. **Can she add pictures from her own phone to My World on Dec 11, or from January?** Recommended: January (privacy approval + build time; presets are enough for launch). Megan asked for a simpler explanation (Oct 14).
+2. ✅ **Sessions: decided.** Megan, Oct 14, word for word: "Pick one of the sessions (they are pre-designed for quality control)". Lucky Star picks one of Megan's pre-made sessions and says why; copy says "picked for you", never "made". AI-made sessions are not planned.
+3. ✅ **Her own photos: in V1.** Megan, Oct 14, word for word: "yes she definitely can upload her own images... She can also pick from our pre-set images as well". My World = presets + her own photos (iPhone photo picker, no full-library access). ⚠️ Storing her photos is user data → Megan approves a short photo-storage spec before it is built (CLAUDE.md rule 4): where they are kept, who can see them, how she deletes them.
 
 ⚠️ Still needs Megan's approval before building, whatever she decides: design/magazine-ai-spec.md (journal text → AI), payments/RevenueCat, sign in, delete account (CLAUDE.md rule 4).

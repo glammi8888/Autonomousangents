@@ -75,3 +75,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-14 · Design Room · Megan picked the sticker peel (B) for the first-open cover reveal.
 - 2026-10-14 · Design Room · Megan: "I want to make sure all the design is ready to go first". Ran a design check: brought the mockup gallery in line with every later decision (Explore feed, player, glass buttons), drew the 2 missing screens (edit a page, delete account), and mapped the rest to her existing designs. Do this sweep before any handover.
 - 2026-10-14 · Design Room · Megan: "the feed should be a mix of both (the "for you" and the sessions should be organized (#2)". For you = mixed feed; Sessions chip = Spotify shelves.
+- 2026-10-14 · Design Room · Megan set the print price: "price is 29.99 for the issue... Shipping is free however takes 14 days faster shipping is more". Wrote "about 14 days" (honest until the partner confirms); faster-shipping price still open.

@@ -45,7 +45,7 @@ We borrow **gestures and patterns people already know**, never those apps' look 
 
 **What we don't borrow:** likes, followers, counts, public posts, comments, endless feeds, streaks, notification badges that guilt. No public sharing also means no moderation system (Apple 1.2).
 
-**Lucky Star in V1: ✅ DECIDED by Megan, Oct 14 ("this is the answer for Lucky Star (#1)"), her design in design/claude-design/lucky-star-v1/.** Full-screen aura sheet, one big card + 1–2 buttons, "Talk to Lucky Star…" bar with mic, AI label, Undo on every action. Per screen:
+**Lucky Star in V1: ✅ DECIDED by Megan, Oct 14 ("this is the answer for Lucky Star (#1)"), her design in design/claude-design/lucky-star-v1/.** Full-screen aura sheet, one big card + 1–2 buttons, "Talk to Lucky Star…" bar with mic, AI label, Undo on every action. Megan (Oct 14): "You can use your UI/UX skill for Lucky star too.. I just like the pink gradient and how the screen looks" → Design Room designed screens A–G in the mockup (guide, hold to talk, one-card answer, curate, picked session, saved + undo, AI off). Rules: one card never a thread · "Why this?" names her own words · nothing without her tap, Undo 5 s · top label shows the screen · safety words stop it · works with AI off. Per screen:
 Home → the "one next thing" card (no move yet → pick a move · move done, no proof → add proof · otherwise → today's session) · Explore → "Pick a session for me" · Journal → "Ask me a question" (one gentle question about what she wrote, never words put in her mouth) · Issue → "Try another version of this page" · World → "Find images for my topic".
 Safety stays: "AI can make mistakes" label, crisis words stop the AI and show help, no health/money advice, nothing saved without KEEP.
 

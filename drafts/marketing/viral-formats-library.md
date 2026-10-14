@@ -138,3 +138,4 @@ Megan: "Not "me" and boring ideas" (about the earlier format list) → "I like t
 | ...get ready for my one small move this week (live one page of my Issue) | The Issue | Awareness |
 | ...answer "is it delulu to put a $30k month on my vision board?" | The In-between | Consideration |
 Status: Megan's preference; topics are Content Room drafts for her to pick from.
+Megan, Oct 14: "It's feminine" (why GRWM fits) · "I love entertaining/funny videos". → Direction: **funny GRWM** (entertaining storytime/hot takes at the mirror), with skits as the occasional extra. Humor style still to calibrate with Megan (which funny creators she loves).

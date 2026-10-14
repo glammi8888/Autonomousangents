@@ -70,6 +70,8 @@ The Glammi guide is written for LinkedIn and newsletters (long prose, no lists).
 
 **Megan on camera (Oct 13):** "I'm more goofy than looking serious". **Open (Oct 14):** whether education is also delivered goofy ("Oh I don't know about goofy education yet"). Not decided.
 
+**No selling in reels (Megan, Oct 14, word for word): "Yes but I hate selling and mentioning issue11".** Reels are pure entertainment and value: no pitch and no "download ISSUE11". The brand shows up on its own: the account name, the bio link, the magazine sitting in the background, the founder story told as a story. Asks live only in carousel last slides and the weekly convert post (how soft those are: open question for Megan).
+
 ## 3. Content pillars (4)
 Every post belongs to one pillar. Rough mix in brackets.
 

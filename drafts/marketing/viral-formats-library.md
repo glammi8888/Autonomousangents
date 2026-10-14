@@ -174,3 +174,6 @@ Rules: true stories only, roast habits not women, no selling (the magazine can s
 | 17 | **"One hour to make a vision board from my junk drawer"**: timer on screen, chaos, final reveal | Challenge (Classic) | The Issue | 🟡 |
 
 **AI character for ISSUE11 (Oct 14):** Megan considered a realistic AI person, then clarified: "No I'm open for character but I don't like the idea" (she didn't like the "Future You" AI version). Open to a recurring character; options in progress. Glammi's robot character "Tekna" is parked in the Notion 💡 Ideas Backlog.
+
+## Reference from Megan (Oct 14): "Then where is your lamborghini?"
+Link: https://youtube.com/shorts/2NGK2X-qZH0 (YouTube Short by "Desi Diva🍷"; title only, the video itself couldn't be watched from here). Megan: "Side note I love this as content ideas for ISSUE11". Likely format: a big claim meets a deadpan "then where is your ___?" punchline (Skits / Challenging a Claim). Possible ISSUE11 version (Megan to confirm what she loved): Megan claims "I manifested my dream life" → off-camera voice: "Then where is your Lamborghini?" → deadpan: "...it's in my Issue. Page 4."

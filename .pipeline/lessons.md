@@ -29,6 +29,8 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 - 2026-10-07 · Manager · Megan (word for word): "in the future, instead of leading me towards a difficult path (like using claude + expo...) if there is any easier path it should be recommended to me... I discovered by myself that I could use replit. So in the future, ALWAYS suggest the easiest path or the path of least resistance". I compared Lovable/Despia/Base44 but never checked Replit (its mobile builder uses Expo under the hood and has guided App Store publishing). Rule promoted to CLAUDE.md #11.
 - 2026-10-07 · Manager · I gave onboarding a deadline of ~Oct 19; Megan nearly finished it in 1 day (Oct 7) working with the Design agent. Rule: with AI tools Megan's design work is much faster than my estimates; plan in days, not weeks, and keep slack for her energy, not for the work itself.
 
+- 2026-10-14 (Manager): When Megan struggles to build, simplify scope before writing more prompts. Her own idea (a UX "simplify" pass on V1) unblocked her; Manager should offer a "what can wait until after launch?" pass first next time.
+
 ## Suggestions
 Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-01 · Launch Prep Room · 💡 Suggestion · A one-page "Launch calendar" (Oct 1 → Jan 11: grant, socials, holding page, recordings, beta, nomination, App Review) in the repo · why: dates now live in 6 files and two of them disagree (Hey Helen Oct vs Nov) · cost: 15 min, one agent run.

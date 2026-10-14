@@ -1,5 +1,6 @@
 # Replit prompt 02b: ISSUE11 app flow, SIMPLIFIED (after onboarding)
 Made by 🎨🩵 Design Room, Oct 14, 2026, from design/V1-SIMPLIFIED.md. Replaces prompt 02 **once Megan approves the 3 decisions** in that file. Until then, don't paste it.
+Mockup to upload as screenshots: https://claude.ai/artifact/QAbmsD9o7zGGY5qKHAQuFX
 How to use: paste AFTER prompt 01 (design system). Then upload screenshots of the V1 Prototype so Replit copies the look.
 
 ---
@@ -18,6 +19,7 @@ Bottom tabs: Home · Explore · Issue · Journal · You. Issue sits in the centr
 A floating round "11" sticker button on every screen (bottom right, above the tabs).
 
 HOME (3 blocks only)
+0. A row of round story bubbles at the top (like Instagram): Today (one line on one of her images), Your move, Flashback (her own Journal words from 30+ days ago), New page. A pink ring means it is new; tap to open full-screen story cards (tap to go forward, like Instagram Stories). New "Today" line every day from the strings file.
 1. Her Issue cover (photo, her name, "ISSUE 01"). Tap -> Issue tab.
 2. "Next thing" card with one button. Pick it with these rules:
    - no move this week -> "Pick this week's move" -> Pick Move screen

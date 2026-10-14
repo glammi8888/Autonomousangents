@@ -11,7 +11,7 @@ And: does onboarding promise it? (Audio, one move a week, proof, Lucky Star "hel
 ## V1 = only these screens (14 + system states)
 | Tab | Screen | V1 version (simplest that still keeps the promise) |
 |---|---|---|
-| **Home** | 1. Home | 3 blocks only: her cover (tap → Issue) · **one next thing** card from Lucky Star · this week's move. |
+| **Home** | 1. Home | 3 blocks only: **"Today" story rings** (today's line, her move, a flashback, her new page) · her cover (tap → Issue) · this week's move. Lucky Star's "one next thing" is the first ring. |
 | | 2. Add proof | After "I made room for it": one short line of text → save. |
 | | 3. "It's real" | Celebration (red full-bleed 11). Proof goes into her Issue's Proof page. |
 | | 4. Pick this week's move | Shown when the week has no move: her last move + 3 written suggestions for her topic + "write my own". |
@@ -48,6 +48,14 @@ We borrow **gestures and patterns people already know**, never those apps' look 
 **Lucky Star in V1 (chips + a box, answers as cards):**
 Home → the "one next thing" card (no move yet → pick a move · move done, no proof → add proof · otherwise → today's session) · Explore → "Pick a session for me" · Journal → "Ask me a question" (one gentle question about what she wrote, never words put in her mouth) · Issue → "Try another version of this page" · World → "Find images for my topic".
 Safety stays: "AI can make mistakes" label, crisis words stop the AI and show help, no health/money advice, nothing saved without KEEP.
+
+## Why she comes back (Megan, Oct 14: "make the app addictive in a good way... making users wanting to come back" · "But still keeping the visual identity I created")
+Mockup in Megan's V4 look: https://claude.ai/artifact/QAbmsD9o7zGGY5qKHAQuFX (source: design/claude-design/v1-simplified/index.html).
+A magazine rhythm. Every hook reuses a V1 feature, so none of them adds build time:
+- **Every day, 1 minute: "Today" story ring on Home.** 3 Stories cards: a line in her world on one of her images, her move, and a flashback. The pink ring means "new for you". Lines come from the strings file.
+- **Every week: her Issue grows a page.** Move → proof → a new page (pink "New" on the Issue). Plus a flashback to her own Journal words from 30+ days ago.
+- **Every 3 months: the next Issue reveal.** A countdown on her cover ("Issue 02 in 78 days").
+- **Never:** streaks that break, guilt notifications, endless feeds, likes or counts, fake urgency, red badges. If she misses a week, nothing is lost.
 
 ## SIMPLIFY (keep the feature, build the easy version)
 | Item | Was | V1 | Why |

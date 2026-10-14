@@ -192,3 +192,9 @@ Clip from a 90s movie, re-edited by a fan account (@Desi_Diva_7). **What we see:
 2. HE: "You spend so much time on your little magazine." SHE: "Do you plan your future?" HE: "No, I go with the flow." SHE: "...And how's the flow going?"
 3. HE: "Vision boards don't do anything." SHE: "Do you have one?" HE: "No. I just work hard." SHE (compact snaps shut): "Since 2019? On the same idea?"
 4. HE: "Why write your dreams down? Just do them." SHE: "And did you?" HE: "...I'm about to." SHE: "Mm. Since January."
+**Megan, Oct 14: "make it more polarizing and emotional lol".** Logic-flip v2 (target = double standards and dismissive takes, never women, never men as a whole):
+1. HE: "Isn't it a bit selfish? A mom spending time on her own dreams?" SHE: "Do you have dreams?" HE: "Of course." SHE (gloss): "...So when do yours get selfish?"
+2. HE: "Women should be happy with what they have." SHE: "Are you happy with what you have?" HE: "I want more. I'm ambitious." SHE: "Oh. When I want more, I'm 'never satisfied'."
+3. HE: "At your age you should be realistic." SHE: "How old were you when you started your business?" HE: "Forty-two." SHE: "And I'm...?" HE: "...thirty-four." SHE (compact snaps): "So I'm early."
+4. HE: "Manifesting is just wishful thinking." SHE: "What's your five-year plan?" HE: "I'll see where life takes me." SHE: "So... wishful thinking."
+5. (emotional) HE: "Dreams are for kids." SHE: "When did you stop?" HE (beat): "...When the bills started." SHE (softer, puts the compact down): "I have bills too. I just kept the dream."

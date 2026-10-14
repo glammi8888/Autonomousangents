@@ -20,7 +20,7 @@ A floating round "11" sticker button on every screen (bottom right, above the ta
 
 HOME (3 blocks only)
 0. A row of round story bubbles at the top (like Instagram): Today (one line on one of her images), Your move, Flashback (her own Journal words from 30+ days ago), New page. A pink ring means it is new; tap to open full-screen story cards (tap to go forward, like Instagram Stories). New "Today" line every day from the strings file.
-1. Her Issue cover (photo, her name, "ISSUE 01"). Tap -> Issue tab.
+1. Her Issue cover (photo, her name, "ISSUE 01") with a thin progress bar: "14 of 40 pages · 26 to print". Tap -> Issue tab.
 2. "Next thing" card with one button. Pick it with these rules:
    - no move this week -> "Pick this week's move" -> Pick Move screen
    - move done but no proof -> "Add proof" -> Add Proof screen
@@ -36,7 +36,7 @@ EXPLORE
 - My World: Pinterest-style masonry grid. Her own photos and saved preset images show first. A "+ Add" button opens the iPhone photo picker (only the photos she picks, never her whole library). Tap the heart (or double-tap) on a preset to save it.
 
 ISSUE
-- Her magazine read like Instagram Stories: tap right/left to turn pages, thin page bars at the top, hold to pause, swipe down to close. Shows "Issue 01 · next one in [month]".
+- Her magazine read like Instagram Stories: tap right/left to turn pages, thin page bars at the top, hold to pause, swipe down to close. Shows "14 of 40 pages · 26 to print". Every Issue has exactly 40 pages to print; it starts with 8 and fills up as she adds proof, photos and journal lines. At 40: "Ready to print".
 - One row of edit icons under the page (like Instagram's edit tools): Cover · Mood · Words (on/off) · Update my Issue.
 - Share button: share the current page as an image (iOS share sheet).
 

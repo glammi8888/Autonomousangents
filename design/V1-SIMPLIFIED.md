@@ -17,7 +17,7 @@ And: does onboarding promise it? (Audio, one move a week, proof, Lucky Star "hel
 | | 4. Pick this week's move | Shown when the week has no move: her last move + 3 written suggestions for her topic + "write my own". |
 | **Explore** | 5. Explore | Top switch **Sessions · My World**. Sessions: Megan's pre-made sessions, "For you" first. My World: her own photos (iPhone picker) + saved presets. |
 | | 6. Player | One full-screen player. **Watch** = her visuals; **Listen** = dark screen (this *is* "eyes closed"). Ends on "How do you feel now?" → Journal. |
-| **Issue** | 7. Issue reader | Swipe her pages. "Issue 01 · next one in [month]". Share a page as an image (iOS share sheet). |
+| **Issue** | 7. Issue reader | Swipe her pages. "14 of 40 pages · 26 to print" + "Issue 02 in [month]". Share a page as an image (iOS share sheet). |
 | | 8. Adjust | 4 controls: cover style · mood (her worlds) · her words in/out · **"Update my Issue"** (pulls in new Journal lines and proof). |
 | **Journal** | 9. Journal | Today's prompt (refresh for another) · write (iOS keyboard mic for voice) · "Put this in my Issue" toggle, OFF by default · past entries. |
 | **You** | 10. You | Past proof · notifications (on/off + time) · app icon · membership (manage, **restore purchases**) · **Lucky Star & AI on/off** · privacy policy + terms · sign out · **delete account**. |
@@ -57,6 +57,28 @@ A magazine rhythm. Every hook reuses a V1 feature, so none of them adds build ti
 - **Every 3 months: the next Issue reveal.** A countdown on her cover ("Issue 02 in 78 days").
 - **Never:** streaks that break, guilt notifications, endless feeds, likes or counts, fake urgency, red badges. If she misses a week, nothing is lost.
 
+## Her Issue = 40 pages to print (Megan, Oct 14, word for word: "The magazine must have 40 pages to print")
+Day one she has 8 pages ("started", never "ready"). The rest fills over the quarter from what she already does in the app, in Megan's approved layouts (design/magazine-ai-spec.md). At 40 pages it's ready to print. Her own V4 Home already had this mechanic ("7 of 11 pages · 4 to print").
+| Pages | Section | Comes from | When |
+|---|---|---|---|
+| 1 | Cover | Name, cover style, topic (onboarding) | Day 1 |
+| 2 | Contents | Auto | Day 1 |
+| 3 | Editor's letter | Her dream-life sentence (onboarding 27) | Day 1 |
+| 4–5 | Her vision (spread) | Topic, feelings, celebrities' energy (onboarding) | Day 1 |
+| 6–7 | Her world (spread) | Aesthetic picks (onboarding 25) | Day 1 |
+| 8 | First proof | Onboarding 28 | Day 1 |
+| 9–21 | Moves + proof (13 pages) | One per week: her move + what happened | Weekly |
+| 22–27 | My World (6 pages) | Her own photos + saved presets (a new page every 6 saves) | As she saves |
+| 28–33 | In her words (6 pages) | Journal lines she switched on | As she writes |
+| 34–35 | Her rituals | Sessions she did + her affirmations | Over the quarter |
+| 36–37 | Wrote it / did it | Flashbacks that came true | Over the quarter |
+| 38 | Note to next-Issue her | One question from Lucky Star, her answer | Last month |
+| 39 | Coming next | Teaser for Issue 02 | Auto |
+| 40 | Back cover | Her closing line | Auto |
+**Never short of pages:** if she reaches the end of the quarter with gaps, Lucky Star offers to fill them from her own World and Megan's editorial pages (full-bleed preset images, affirmation pages). She approves each page. Nothing invented about her.
+**On screen:** cover progress "14 of 40 pages · 26 to print". At 40: "Ready to print" (cover reveal moment).
+⚠️ Check with the print partner: is 40 an exact count or a minimum, and does it count the cover? (Saddle-stitched magazines need multiples of 4; 40 works.) Printing = physical goods paid outside Apple (e.g. Stripe) + shipping addresses → Megan approves that spec before building (CLAUDE.md rule 4).
+
 ## SIMPLIFY (keep the feature, build the easy version)
 | Item | Was | V1 | Why |
 |---|---|---|---|
@@ -78,7 +100,7 @@ A magazine rhythm. Every hook reuses a V1 feature, so none of them adds build ti
 | Lucky Star long conversations (chat thread) | V1.1 | Hardest to make safe and on-voice; the box + action cards keep the onboarding promise. **Megan decides (Q1).** |
 | Page editor (layouts, colours, stickers, patterns) | V1.1+ | Biggest build item; adjust controls cover day one. |
 | Issue 2, 3, 4 + rhythm setting (1/2/4/12 a year) | V1.1 (before March) | First users reach Issue 2 around March. V1 shows "next one in [month]" only. |
-| PDF download / print | V2 | Printing not confirmed; share-as-image covers sharing. |
+| Print ordering (40-page Issue) | Megan to confirm: Dec 11 or right after | Needs print partner, Stripe payment and shipping spec. The 40-page count shows from day one either way. |
 | Downloadable sessions (offline audio) | V1.1 | Nice to have. |
 | Spread view for iPhone Duo | V1.1 | Featuring idea, not needed to launch. V1 must still use flexible layouts (no fixed widths). |
 | Streak calendar / ritual history | Not planned | Against our own "no streaks, no guilt" rule. |

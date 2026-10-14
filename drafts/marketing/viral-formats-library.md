@@ -172,3 +172,5 @@ Rules: true stories only, roast habits not women, no selling (the magazine can s
 | 15 | **"Texting my dream life like it's a crush"**: drafting and deleting the perfect text to "the beach house" | Hypothetical Scenario | Delulu, Honestly | 🟢 |
 | 16 | **"I tried the viral manifestation trend so you don't have to"**: honest test of a real trend, self-roast, fair verdict (never mocking people who love it) | Trying Something I Saw Online | The In-between | 🟡 |
 | 17 | **"One hour to make a vision board from my junk drawer"**: timer on screen, chaos, final reveal | Challenge (Classic) | The Issue | 🟡 |
+
+**AI character for ISSUE11 (Oct 14):** Megan considered a realistic AI person, then answered "No" (no AI character for now). Megan stays the face. Glammi's robot character "Tekna" is parked in the Notion 💡 Ideas Backlog.

@@ -38,7 +38,7 @@ We borrow **gestures and patterns people already know**, never those apps' look 
 | Issue reader | Instagram Stories | **Tap right/left to turn pages**, thin page bars at the top, hold to pause. Swipe down to close. |
 | Adjust Issue | Instagram edit tools | One row of icons under the page: Cover · Mood · Words · Update. |
 | Add proof | Posting a story | "+ Add proof" → write one line → **Share to my Issue** → "It's real". |
-| You | Instagram profile | Her cover as the header, **grid of her proof** below, gear icon top right for settings. |
+| You | Instagram profile + Megan's V1 settings list | Her name + Issue on top, a **row of her proof**, then Megan's big settings list (Megan, Oct 14: "I do miss the last screen we used to have though... with all the settings"). |
 | Journal | Story question sticker | Today's prompt as a big card; **swipe it away for another**; write underneath. |
 | Lucky Star sheet | ChatGPT / Claude composer | A text box with a mic at the bottom + **2–3 suggestion chips** above it ("Pick a session for me"). Each answer is **one card** with KEEP / TRY AGAIN, not a long chat thread. |
 | Save anywhere | Instagram | **Double-tap** an image or session to save it. |
@@ -80,7 +80,7 @@ Day one she has 8 pages ("started", never "ready"). The rest fills over the quar
 ⚠️ Check with the print partner: is 40 an exact count or a minimum, and does it count the cover? (Saddle-stitched magazines need multiples of 4; 40 works.) Printing = physical goods paid outside Apple (e.g. Stripe) + shipping addresses → Megan approves that spec before building (CLAUDE.md rule 4).
 
 **Print ordering in the Issue tab (Megan, Oct 14, word for word: "in the "Issue" section we need to add the shopping or "place an order" button once they agree on the magazine layout").** Flow: 40 of 40 → **Ready to print** (grid of all 40 pages; tap a page to swap photo, edit text or pick another of Megan's layouts) → **"I love it · Approve my Issue"** → **Order my print** (copies, address, shipping, Apple Pay → "Place my order"). The order button appears only after she approves. Price and shipping are TBD (Revenue + Megan). Physical goods are paid outside Apple in-app purchase (e.g. Stripe + Apple Pay); verify the current App Store rule at build start. ⚠️ Payments + shipping addresses → Megan approves that spec before building.
-**Who makes the magazine (Design Room opinion, Oct 14):** Lucky Star drafts it on Megan's layouts (approved Oct 9, design/magazine-ai-spec.md); she directs with tap-to-edit per page (photo, text, layout from Megan's set, "Try another version"). No Canva-style free editor on the phone: 40 pages is too much work on a small screen, free layouts break print quality (bleed, low-res photos, text overflow), and a blank canvas feels like homework. Stickers as a light personal layer = V1.1.
+**Who makes the magazine: ✅ Lucky Star (Megan, Oct 14, word for word: "ok Lucky Star makes the magazine then").** Design Room reasoning: Lucky Star drafts it on Megan's layouts (approved Oct 9, design/magazine-ai-spec.md); she directs with tap-to-edit per page (photo, text, layout from Megan's set, "Try another version"). No Canva-style free editor on the phone: 40 pages is too much work on a small screen, free layouts break print quality (bleed, low-res photos, text overflow), and a blank canvas feels like homework. Stickers as a light personal layer = V1.1.
 
 ## SIMPLIFY (keep the feature, build the easy version)
 | Item | Was | V1 | Why |

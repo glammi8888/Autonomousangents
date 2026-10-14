@@ -49,9 +49,10 @@ JOURNAL
 - Toggle on each entry: "Put this in my Issue" (OFF by default).
 - Past entries listed below.
 
-YOU (like an Instagram profile)
-- Her cover as the header, a grid of her proof ("It's real" moments) below.
-- Gear icon top right opens Settings: notifications (on/off + time), app icon, membership (manage subscription, restore purchases), "Lucky Star & AI" on/off switch, privacy policy, terms, sign out, delete account (with a confirm screen).
+YOU
+- Top: her photo, her name, "The Freedom Issue · 14 of 40 pages".
+- A horizontal row of her proof tiles ("It's real" moments), "See all" opens the full grid.
+- Below, a big settings list in huge uppercase type, one row each with an arrow: notifications (on/off + time), app icon, membership (manage subscription, restore purchases), "Lucky Star & AI" on/off switch, privacy policy, terms, sign out, delete account (with a confirm screen).
 
 THE 11 (Lucky Star)
 Tapping it opens a full-screen sheet (copy the look from my Lucky Star screenshots): a soft pink glow behind the 11 sticker, ONE big card in the middle with 1-2 pill buttons, a close X top right, and at the bottom a "Talk to Lucky Star..." bar with a send arrow and a big pink hold-to-talk mic. Under it: "Lucky Star is AI and can make mistakes".

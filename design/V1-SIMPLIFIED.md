@@ -4,6 +4,13 @@ Megan is building in Replit and asked for a "simplify" pass on **functionality, 
 **Sources:** design/APP-AFTER-PAYWALL.md · design/PRODUCT-ARCHITECTURE.md · design/POSITIONING.md · design/LUCKY-STAR-VOICE.md · design/claude-design/V1-SCREENS.md · drafts/replit/02-app-flow-prompt.md · .pipeline/app-store-checklist.md
 **Replit prompt:** drafts/replit/02b-app-flow-simplified.md
 
+
+## ✅ Final V1 design (Oct 14, design check) · mockup: https://claude.ai/artifact/QAbmsD9o7zGGY5qKHAQuFX
+14 screens + Lucky Star A–G + first-open sticker peel. Megan's existing designs cover the rest: system states (design/claude-design/system-states), onboarding/notifications/Meet Lucky Star/paywall/sign in (ONBOARDING-V3, locked).
+01 Home (story rings, cover "x of 40", your move) · 02 Today story · 03 Explore (one feed + chips) · 04 Player (session page, Now playing, Listen, How do you feel) · 05 Issue reader · 06 Add proof · 07 It's real · 08 Journal · 09 You + settings list · 10 Lucky Star (Megan's look, dreamy glass buttons) · 11 Ready to print · 12 Place an order · 13 Edit a page · 14 Delete account.
+Only open design question: Lucky Star ideas 1–4 (half sheet in features, breathing fade as loading, "Made from" tags, pink dot + hold the 11 to talk).
+The detailed sections below are the history of how we got here; where they differ, this block wins.
+
 ## The test for every screen
 Does she need it on day one to feel the core loop? **Build her World → write → get her Issue → one small move a week → proof.**
 And: does onboarding promise it? (Audio, one move a week, proof, Lucky Star "helps you create your Issue, build your practice and decide what to do next", app icon, notifications.) Promised = stays.

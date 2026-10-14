@@ -69,7 +69,7 @@ What the card offers depends on the screen:
 - Sessions: one of the pre-made sessions picked for her and why ("Picked for you"). It never makes new sessions.
 - Journal: one gentle question
 - Issue: another version of this page
-Every action ends in something real, then a black toast at the top: "Added to ... · UNDO". Nothing changes without her tap.
+Buttons inside Lucky Star are liquid glass (frosted, see-through white over the pink glow); the main action is pink-tinted glass. Every action ends in something real, then a black toast at the top: "Added to ... · UNDO". Nothing changes without her tap.
 If "Lucky Star & AI" is off, the sheet says "Lucky Star is off. You can turn it on in You." and the rest of the app still works.
 Use placeholder results for now.
 

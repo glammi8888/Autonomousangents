@@ -27,7 +27,25 @@ And: does onboarding promise it? (Audio, one move a week, proof, Lucky Star "hel
 | **All** | 14. Paywall (re-shown) | Same locked paywall if her membership ends. Restore + Terms + Privacy under the button. |
 | | System states | Empty (each tab) · loading ("Lucky Star is building") · offline ("You're offline, your Issue is saved") · error. |
 
-**Lucky Star in V1 (one tap, no chat):**
+## Familiar on first tap (Megan, Oct 14: "make it intuitive and familiar, think: tiktok, Instagram, Pinterest" · "or even ChatGPT or Claude")
+We borrow **gestures and patterns people already know**, never those apps' look or social mechanics. Our design stays.
+| Screen | Pattern she already knows | How it works in ISSUE11 |
+|---|---|---|
+| Tab bar | Instagram / TikTok | 5 icons at the bottom; **Issue in the centre** like TikTok's "+". |
+| Explore | TikTok top tabs + Pinterest | Top switch **Sessions · My World**. |
+| Sessions | TikTok vertical feed | Full-screen session previews, **swipe up for the next one**, tap to play. A short, finite list (7), not an endless feed. |
+| My World | Pinterest | Masonry grid of images; **tap the pin/heart to save** to her World. Saved ones show first. |
+| Issue reader | Instagram Stories | **Tap right/left to turn pages**, thin page bars at the top, hold to pause. Swipe down to close. |
+| Adjust Issue | Instagram edit tools | One row of icons under the page: Cover · Mood · Words · Update. |
+| Add proof | Posting a story | "+ Add proof" → write one line → **Share to my Issue** → "It's real". |
+| You | Instagram profile | Her cover as the header, **grid of her proof** below, gear icon top right for settings. |
+| Journal | Story question sticker | Today's prompt as a big card; **swipe it away for another**; write underneath. |
+| Lucky Star sheet | ChatGPT / Claude composer | A text box with a mic at the bottom + **2–3 suggestion chips** above it ("Pick a session for me"). Each answer is **one card** with KEEP / TRY AGAIN, not a long chat thread. |
+| Save anywhere | Instagram | **Double-tap** an image or session to save it. |
+
+**What we don't borrow:** likes, followers, counts, public posts, comments, endless feeds, streaks, notification badges that guilt. No public sharing also means no moderation system (Apple 1.2).
+
+**Lucky Star in V1 (chips + a box, answers as cards):**
 Home → the "one next thing" card (no move yet → pick a move · move done, no proof → add proof · otherwise → today's session) · Explore → "Pick a session for me" · Journal → "Ask me a question" (one gentle question about what she wrote, never words put in her mouth) · Issue → "Try another version of this page" · World → "Find images for my topic".
 Safety stays: "AI can make mistakes" label, crisis words stop the AI and show help, no health/money advice, nothing saved without KEEP.
 
@@ -49,7 +67,7 @@ Safety stays: "AI can make mistakes" label, crisis words stop the AI and show he
 ## LATER (V1.1+), with the reason
 | Item | When | Reason to wait |
 |---|---|---|
-| Lucky Star free chat (text + voice) | V1.1 | Hardest to make safe and on-voice; one-tap help keeps the onboarding promise. **Megan decides (Q1).** |
+| Lucky Star long conversations (chat thread) | V1.1 | Hardest to make safe and on-voice; the box + action cards keep the onboarding promise. **Megan decides (Q1).** |
 | Her own photos in Your World + photo proof | V1.1 (January) | Photo storage = user data spec + privacy label + deletion. Presets carry day one. **Megan decides (Q3).** |
 | Page editor (layouts, colours, stickers, patterns) | V1.1+ | Biggest build item; adjust controls cover day one. |
 | Issue 2, 3, 4 + rhythm setting (1/2/4/12 a year) | V1.1 (before March) | First users reach Issue 2 around March. V1 shows "next one in [month]" only. |
@@ -63,7 +81,7 @@ Safety stays: "AI can make mistakes" label, crisis words stop the AI and show he
 Sign in with Apple (onboarding 38) · restore purchases · manage subscription · delete account in the app · privacy policy + terms links · AI consent (onboarding 34) + Lucky Star & AI off switch · "AI can make mistakes" · crisis-word help · every permission asked only when needed · no "coming soon" or placeholders in the January build (anything unfinished is hidden, not teased).
 
 ## 3 decisions only Megan can make
-1. **Lucky Star in V1: one-tap help instead of chat?** Recommended: yes. Chat moves to V1.1. (Changes the Oct 3 "chat with text + voice in V1".)
+1. **Lucky Star in V1: a ChatGPT/Claude-style box with suggestion chips, where every answer is one action card (KEEP / TRY AGAIN), no long chat thread?** Recommended: yes. Familiar, keeps your Oct 2 rule ("The actions it can take are the feature"), and much safer to build than open chat. Long conversations on Home move to V1.1.
 2. **Sessions at launch: 7 (one per onboarding topic), audio + a slow-moving image, each in a 5 and 10 min cut (15 min = the 10 min + 5 min of quiet music)?** Recommended: yes. Easiest for you to make; "Watch" still works.
 3. **Your own photos (and photo proof) in January, not Dec 11?** Recommended: yes. Presets carry launch; it removes a user-data approval from the critical path. (Changes your Oct 9 decision.)
 

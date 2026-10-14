@@ -19,6 +19,8 @@ Megan, word for word: "Not "me" and boring ideas" · "I like talking head videos
 | Sun | GRWM + a dry hot take on why we keep starting over | The In-between |
 Skits, the reveal and the other formats below become **occasional extras**, not the plan. Carousels stay as in v2 (last slide CTA, Saturday = Dream Life Gap Test).
 
+**Megan, Oct 14, word for word: "90's aesthetic mini film moment" · "I think it could be one of the content pillars".** Proposed 5th pillar: **THE MINI FILM** (90s-movie-look scenes about dream life and small moves). Open: add as a 5th pillar, or replace one of the 4?
+
 ## What the answers change (v2)
 - **50/50 funny and aesthetic.** Our reading of "Cluely": bold, confident, a bit cheeky, and very shareable, while the visuals stay polished and editorial. ISSUE11's line: cheeky about *habits* (starting over, 400 pins), never about people, beliefs or other apps, and never fake stunts.
 - **The Gap is not a pillar.** It's the once-a-week convert post, plus the last slide of every carousel.

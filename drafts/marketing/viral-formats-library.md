@@ -146,3 +146,15 @@ Megan, Oct 14: "Dry and chaotic" · "I can be wild too" (inspired by a loud, scr
 Megan, word for word: "Omg I could mock marketing bros haha". Format: Dry Parody / character skit (skill Mode E). Megan plays the hustle "marketing bro" selling ISSUE11 with every cringe tactic (fake urgency, "only 3 spots left", "this one weird trick", sunglasses indoors), then drops the act: "...or just look at the link in my bio, idk." This solves "I hate selling": the sales pitch IS the joke. Rule: parody the trope and tactics, never a real, named person.
 Megan, Oct 14: "And "getting rich quick" scammers". Same parody series: the get-rich-quick guru ("I made $80k while I slept, buy my course") vs. Megan's deadpan reality ("I made one phone call I was scared of. That's my move this week."). Fits the brand perfectly: process over overnight results. Rules: obviously a parody from frame one (so no clip of it can be mistaken for real income claims), archetype only, never a real, named person.
 Megan, Oct 14: "Omg I mean the feminine version is all about trad wife nonsense" → after the risk check: **"Yes I don't want to put women down"**. Decision: self-roast version only ("Me trying to be a tradwife for one morning": the joke is on the impossible aesthetic and on Megan, never on women's choices or beliefs). Parody characters stay feminine-framed inside GRWM where possible.
+
+## 7 more ideas to test (Oct 14, Viral Formats + Brand) · fit: funny, feminine, dry + wild, self-roast, solo-easy, no selling
+| # | Idea | Course format | Pillar | Effort |
+|---|---|---|---|---|
+| 1 | **"Delulu or Doable?"** (series): read a viewer's dream from the comments at the mirror, rule DELULU or DOABLE with a dramatic beat, give one tiny first move. Ask for the next dream | Choose the Winner / Great Question | Delulu, Honestly | 🟢 |
+| 2 | **"POV: my future self calls me"**: split screen, future you (calm, full glam, robe) vs. present you (half a face of makeup, chaos). She asks one small thing of you | Hypothetical Scenario | The Issue | 🟡 |
+| 3 | **"Rating my old vision boards"**: dry critic voice, scores out of 10 ("there's a yacht. I get seasick. 3/10") | Classic Reaction / self-roast | Delulu, Honestly | 🟢 (only real boards) |
+| 4 | **"Dream-life math"**: deadpan calculator: "If I save $20 a week, the Paris apartment is mine in... 412 years" → WILD BEAT → "okay, smaller move" | Dry Parody / Dumb It Down | The In-between | 🟢 |
+| 5 | **"What I wrote on January 1st vs. what actually happened"**: comparison skit, journal page vs. reality | Comparison Skit | Delulu, Honestly | 🟢 |
+| 6 | **"Doing one scary small thing a day until I chicken out"**: on-screen day counter, real moves only, honest ending either way | Doing X Until Y (series) | The Editor's Desk | 🟡 |
+| 7 | **"Naming my Pinterest boards out loud"**: "Dream life 2026 FINAL v3", "her (don't look)", "money??" with deadpan commentary while doing makeup | Self-deprecating skit | Delulu, Honestly | 🟢 |
+Rules: true stories only, roast habits not women, no selling (the magazine can sit in the background).

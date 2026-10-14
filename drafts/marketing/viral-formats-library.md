@@ -158,3 +158,17 @@ Megan, Oct 14: "Omg I mean the feminine version is all about trad wife nonsense"
 | 6 | **"Doing one scary small thing a day until I chicken out"**: on-screen day counter, real moves only, honest ending either way | Doing X Until Y (series) | The Editor's Desk | 🟡 |
 | 7 | **"Naming my Pinterest boards out loud"**: "Dream life 2026 FINAL v3", "her (don't look)", "money??" with deadpan commentary while doing makeup | Self-deprecating skit | Delulu, Honestly | 🟢 |
 Rules: true stories only, roast habits not women, no selling (the magazine can sit in the background).
+
+## 10 more ideas (Oct 14, round 2)
+| # | Idea | Course format | Pillar | Effort |
+|---|---|---|---|---|
+| 8 | **"Telling you my 5-year plan with a straight face"**: escalating plan while doing makeup, perfectly calm: "...a book, a studio in Paris... and a horse." | Self-deprecating / Dry Parody | Delulu, Honestly | 🟢 |
+| 9 | **"Me explaining my dream life to my bank account"**: you play both (bank account = deadpan, unimpressed) | Personifying | The In-between | 🟢 |
+| 10 | **"Ranking my excuses for not starting"**: tier list, S-tier: "it's Wednesday, I'll start Monday" | Self-deprecating / ranking | The In-between | 🟢 |
+| 11 | **"Dramatic reading of my old journal"**: real old entries read like a soap opera, wild beats included | Reaction / Storytime | Delulu, Honestly | 🟢 (real entries, Megan picks what to share) |
+| 12 | **"Would future me do it? Speed round"**: rapid fire with a buzzer: "Order takeout a third time?" → future me: "...yes, actually." | Hypothetical Question | The Issue | 🟢 |
+| 13 | **"What's in my cart vs. what's on my vision board"**: the gap, roasted | Comparison Skit | The In-between | 🟢 |
+| 14 | **"I manifested the smallest things this week"**: hyping tiny wins like they're huge ("a parking spot. RIGHT in front.") → small proof counts | Hype parody | The Issue (Proof) | 🟢 |
+| 15 | **"Texting my dream life like it's a crush"**: drafting and deleting the perfect text to "the beach house" | Hypothetical Scenario | Delulu, Honestly | 🟢 |
+| 16 | **"I tried the viral manifestation trend so you don't have to"**: honest test of a real trend, self-roast, fair verdict (never mocking people who love it) | Trying Something I Saw Online | The In-between | 🟡 |
+| 17 | **"One hour to make a vision board from my junk drawer"**: timer on screen, chaos, final reveal | Challenge (Classic) | The Issue | 🟡 |

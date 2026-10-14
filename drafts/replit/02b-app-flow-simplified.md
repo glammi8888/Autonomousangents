@@ -18,6 +18,12 @@ NAVIGATION
 Bottom tabs: Home · Explore · Issue · Journal · You. Issue sits in the centre (like TikTok's "+").
 A floating round "11" sticker button on every screen (bottom right, above the tabs).
 
+FIRST OPEN (right after the paywall and sign in, once)
+- Full red screen (#D40806) with the big cream 11 sticker in the middle and "Peel to open your Issue ↗".
+- She drags the corner (or taps): the red layer peels away like a sticker and her cover is underneath.
+- Her cover settles, the cover lines appear one by one, the small 11 sticker pops onto the corner, a pink glow blooms.
+- "Your Issue has started. 8 of 40 pages · 32 to go" + pink glass button "Open my Issue" -> Home. Soft haptic on the peel.
+
 HOME (3 blocks only)
 0. A row of round story bubbles at the top (like Instagram): Today (one line on one of her images), Your move, Flashback (her own Journal words from 30+ days ago), New page. A pink ring means it is new; tap to open full-screen story cards (tap to go forward, like Instagram Stories). New "Today" line every day from the strings file.
 1. Her Issue cover (photo, her name, "ISSUE 01") with a thin progress bar: "14 of 40 pages · 26 to print". Tap -> Issue tab.

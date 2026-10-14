@@ -198,3 +198,10 @@ Clip from a 90s movie, re-edited by a fan account (@Desi_Diva_7). **What we see:
 3. HE: "At your age you should be realistic." SHE: "How old were you when you started your business?" HE: "Forty-two." SHE: "And I'm...?" HE: "...thirty-four." SHE (compact snaps): "So I'm early."
 4. HE: "Manifesting is just wishful thinking." SHE: "What's your five-year plan?" HE: "I'll see where life takes me." SHE: "So... wishful thinking."
 5. (emotional) HE: "Dreams are for kids." SHE: "When did you stop?" HE (beat): "...When the bills started." SHE (softer, puts the compact down): "I have bills too. I just kept the dream."
+**Megan, Oct 14: "I think even more polarizing but keep it up".** Logic-flip v3 (most polarizing; same targets: double standards, never women, never religion, never men as a whole):
+6. HE: "Just find a rich husband. Easier than manifesting." SHE: "Did you find a rich wife?" HE: "I'm a man. I make my own money." SHE (gloss): "...Exactly."
+7. HE: "Who's watching the kids while you build your little app?" SHE: "Who's watching yours while you're at work?" HE: "...My wife." SHE: "Mm. Did anyone ask about her app?"
+8. HE: "Men don't like women who earn more than them." SHE: "Do you like money?" HE: "Obviously." SHE: "Then you'll love me."
+9. HE: "Your dream is cute. Like a hobby." SHE: "What's your dream?" HE: "Building an empire." SHE (compact snaps): "Cute. Like a hobby."
+10. HE: "A woman with a vision board is a red flag." SHE: "And a man with no plan?" HE: "That's just being chill." SHE: "Then that's my green light... to leave."
+Test note: post one polarizing script and one emotional one in the same week; compare shares and saves, not just comments (comment wars can be loud but low-value).

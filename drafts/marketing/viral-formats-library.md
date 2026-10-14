@@ -205,3 +205,4 @@ Clip from a 90s movie, re-edited by a fan account (@Desi_Diva_7). **What we see:
 9. HE: "Your dream is cute. Like a hobby." SHE: "What's your dream?" HE: "Building an empire." SHE (compact snaps): "Cute. Like a hobby."
 10. HE: "A woman with a vision board is a red flag." SHE: "And a man with no plan?" HE: "That's just being chill." SHE: "Then that's my green light... to leave."
 Test note: post one polarizing script and one emotional one in the same week; compare shares and saves, not just comments (comment wars can be loud but low-value).
+**Megan's pick (Oct 14): "I like #5"** → the emotional one ("Dreams are for kids" / "I have bills too. I just kept the dream."). First 90s mini film to film.

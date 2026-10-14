@@ -79,6 +79,9 @@ Day one she has 8 pages ("started", never "ready"). The rest fills over the quar
 **On screen:** cover progress "14 of 40 pages · 26 to print". At 40: "Ready to print" (cover reveal moment).
 ⚠️ Check with the print partner: is 40 an exact count or a minimum, and does it count the cover? (Saddle-stitched magazines need multiples of 4; 40 works.) Printing = physical goods paid outside Apple (e.g. Stripe) + shipping addresses → Megan approves that spec before building (CLAUDE.md rule 4).
 
+**Print ordering in the Issue tab (Megan, Oct 14, word for word: "in the "Issue" section we need to add the shopping or "place an order" button once they agree on the magazine layout").** Flow: 40 of 40 → **Ready to print** (grid of all 40 pages; tap a page to swap photo, edit text or pick another of Megan's layouts) → **"I love it · Approve my Issue"** → **Order my print** (copies, address, shipping, Apple Pay → "Place my order"). The order button appears only after she approves. Price and shipping are TBD (Revenue + Megan). Physical goods are paid outside Apple in-app purchase (e.g. Stripe + Apple Pay); verify the current App Store rule at build start. ⚠️ Payments + shipping addresses → Megan approves that spec before building.
+**Who makes the magazine (Design Room opinion, Oct 14):** Lucky Star drafts it on Megan's layouts (approved Oct 9, design/magazine-ai-spec.md); she directs with tap-to-edit per page (photo, text, layout from Megan's set, "Try another version"). No Canva-style free editor on the phone: 40 pages is too much work on a small screen, free layouts break print quality (bleed, low-res photos, text overflow), and a blank canvas feels like homework. Stickers as a light personal layer = V1.1.
+
 ## SIMPLIFY (keep the feature, build the easy version)
 | Item | Was | V1 | Why |
 |---|---|---|---|
@@ -98,7 +101,7 @@ Day one she has 8 pages ("started", never "ready"). The rest fills over the quar
 | Item | When | Reason to wait |
 |---|---|---|
 | Lucky Star long conversations (chat thread) | V1.1 | Hardest to make safe and on-voice; the box + action cards keep the onboarding promise. **Megan decides (Q1).** |
-| Page editor (layouts, colours, stickers, patterns) | V1.1+ | Biggest build item; adjust controls cover day one. |
+| Stickers + patterns on pages | V1.1 | A fun personal layer; tap-to-edit (photo, text, layout) is in V1 for print. |
 | Issue 2, 3, 4 + rhythm setting (1/2/4/12 a year) | V1.1 (before March) | First users reach Issue 2 around March. V1 shows "next one in [month]" only. |
 | Print ordering (40-page Issue) | Megan to confirm: Dec 11 or right after | Needs print partner, Stripe payment and shipping spec. The 40-page count shows from day one either way. |
 | Downloadable sessions (offline audio) | V1.1 | Nice to have. |

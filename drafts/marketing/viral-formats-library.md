@@ -185,3 +185,10 @@ Clip from a 90s movie, re-edited by a fan account (@Desi_Diva_7). **What we see:
 **Why it works:** shot/reverse-shot tension, slow close-ups, warm soft film color with light grain, and the payoff is a calm, glamorous put-down delivered while doing makeup.
 **The match with Megan:** it's already a GRWM (compact + lipstick), 90s glam, dry delivery, and a parody of a bragging guy (Chad / Crypto Kyle). → **ISSUE11 "90s mini film" format:** Megan in 90s glam at a mirror/compact; off-camera (or Megan as the bro) brags about manifesting millions overnight; she reapplies gloss and, deadpan: "Then where's your Lamborghini?" Solo version: film both sides, cut shot/reverse-shot, warm 90s filter + light grain.
 **Rule:** borrow the format and the look, never the movie footage; use the audio only if it's an official trending sound on the platform.
+**Dialogue (captions Megan pulled, Oct 14):** HE: "Don't you think women waste too much money on makeup?" SHE: "Really?" HE: "Yeah. With all that money, you could buy yourself a Lamborghini." SHE: "Do you wear makeup?" HE: "No, of course not. I'm a man." SHE: "Then where's your Lamborghini?"
+**Structure to reuse ("the logic flip"):** condescending question → she asks one calm question back → his proud "no" → her one-line flip that turns his logic on him, while doing makeup, unbothered.
+**ISSUE11 scripts (90s mini film, Megan plays both or uses an off-camera voice):**
+1. HE: "Manifesting is so delulu." SHE: "Do you manifest?" HE: "No, I'm realistic." SHE (gloss): "Then where's your Lamborghini?"
+2. HE: "You spend so much time on your little magazine." SHE: "Do you plan your future?" HE: "No, I go with the flow." SHE: "...And how's the flow going?"
+3. HE: "Vision boards don't do anything." SHE: "Do you have one?" HE: "No. I just work hard." SHE (compact snaps shut): "Since 2019? On the same idea?"
+4. HE: "Why write your dreams down? Just do them." SHE: "And did you?" HE: "...I'm about to." SHE: "Mm. Since January."

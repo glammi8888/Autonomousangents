@@ -54,4 +54,11 @@ Word for word: "1. yes 2. no 3. yes but keep 11 luckystar sticker 4. ABSOLUTELY 
 - #3 Issue reader: **applied**, swipe + "p.15 / 40" + one Edit button + progress pill, **the floating 11 stays**.
 - #4 Hide/move the floating 11: **no, never**. The 11 stays on every screen.
 - #5 Tab bar: **applied** (11pt, current tab bold ink + dot, 44pt targets).
-Not yet decided: #6–#16.
+Word for word (Oct 15, later): "1.2 yes that sounds great BUT how do I do that in action? 1.3 No too complicated 7/ Remove the repeat 8. ok 9. ok 10. ok"
+- #6 "When?" row for the weekly move: **no** ("too complicated").
+- #7 Home repeat: **applied**, story bubbles = Today + New page only; move and flashback live once, as cards.
+- #8 Tab bar: already applied with #5.
+- #9 You rows **"My Issues"** + **"Help & support"**: **applied**.
+- #10 Membership line "Your Issues stay yours to read, even if you cancel.": **applied**.
+- Voice · Music slider in the player: **applied** (each session = a voice-only file + a music-only file of the same length, played together).
+Not yet decided: #11–#16 (the Replit prompt carries them as rules).

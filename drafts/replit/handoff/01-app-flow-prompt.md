@@ -28,7 +28,7 @@ FIRST OPEN (right after the paywall and sign in, once)
 
 HOME (one long scrollable page, like my V4 Home)
 - Top: the big wavy ISSUE11 masthead (about 75% of the screen width, centered) + a thin rule "VOL. 01 · [date]". When she scrolls down, it shrinks into a small sticky header (small masthead + "14 of 40 · Vol. 01"), like Apple Music large titles.
-- Story bubbles (like Instagram): Today, Your move, Flashback, New page. Pink ring = new. Tap = full-screen story cards.
+- Story bubbles (like Instagram): only what's new today: Today + New page. Pink ring = new. Tap = full-screen story cards. (Your move and Flashback live once, as cards below. Nothing appears twice on Home.)
 - Her big Issue cover with a glass "Your issue" pill and a 40-tick progress bar "14 of 40 pages · 26 to print". Tap -> Issue tab.
 - "Your move this week" black card with the pink glass button "I made room for it" -> Add Proof (one line, optional photo -> "Share to my Issue") -> "It's real".
 - Resume capsule: "Resume: [session] · 6 min left" with pink play.
@@ -44,7 +44,7 @@ EXPLORE (like Instagram Explore + Pinterest)
 - "Sessions" chip = organized like Spotify: one big "Picked for you tonight" card on top, then horizontal shelves by type (Visualizations, Affirmations, Meditations, Breath), each with "See all"; extra chips "5 min" and "10 min" filter by length.
 - "For you" chip = one Pinterest-style grid that mixes images and sessions. Sessions show a round pink play button on the top-left of the image, plus their name and length at the bottom. Images show a heart (tap or double-tap to save).
 - "My World" chip (her vision board): one grey line on top, "Your vision board. Everything here can become a page in your Issue." Then her own photos, hearted images and saved sessions. First tile: "+ Add your photo" (iPhone photo picker, only the photos she picks). A pink tile: "4 more saves = 1 new page".
-- Tap a session -> Session page like a Spotify album page (big image, title, length, "Picked for you", big pink play, "What you'll rehearse", "Up next") -> full-screen Player like Spotify Now Playing (video, live words like lyrics, scrubber, back/forward 15 s, save; swipe down = keeps playing in a glass mini player above the tabs; audio keeps playing with the phone locked). Every session has its own video, animation or image (no audio-only mode, no Watch/Listen switch).
+- Tap a session -> Session page like a Spotify album page (big image, title, length, "Picked for you", big pink play, "What you'll rehearse", "Up next") -> full-screen Player like Spotify Now Playing (video, live words like lyrics, scrubber, back/forward 15 s, save; a small "Voice · Music" slider under the words (each session has 2 audio files of the same length, voice-only and music-only, played together; the slider changes the balance, remembered per user); swipe down = keeps playing in a glass mini player above the tabs; audio keeps playing with the phone locked). Every session has its own video, animation or image (no audio-only mode, no Watch/Listen switch).
 - When a session ends: no new screen. The video dims, the last line stays, and a small glass card rises: "Keep a line from this? · What did you see yourself do?" with "Write it" (opens Journal with that prompt) and "Not now". It fades away by itself after a few seconds.
 
 ISSUE
@@ -66,12 +66,12 @@ JOURNAL (her words go straight onto a magazine page)
 YOU
 - Top: her photo, her name, "The Freedom Issue · 14 of 40 pages".
 - A horizontal row of her proof tiles ("It's real" moments), "See all" opens the full grid.
-- Below, a big settings list in huge uppercase type, one row each with an arrow: notifications (on/off + time), app icon & widgets (one screen: pick the app icon; the widget style cards stay HIDDEN until widgets are built after launch, because Apple rejects unfinished features), membership (manage subscription, restore purchases), "Lucky Star & AI" on/off switch, privacy policy, terms, sign out, delete account (with a confirm screen).
+- Below, a big settings list in huge uppercase type, one row each with an arrow: notifications (on/off + time), app icon & widgets (one screen: pick the app icon; the widget style cards stay HIDDEN until widgets are built after launch, because Apple rejects unfinished features), my issues (opens My shelf), membership (manage subscription, restore purchases), "Lucky Star & AI" on/off switch, help & support (short FAQ + contact email, also used as Apple's support URL), privacy policy, terms, sign out, delete account (with a confirm screen).
 
 MORE SCREENS (inside You and around the app)
 - App icon & widgets: my 6 icons in a 3x2 grid (Classic, Eleven, Swirl red, Pink eleven, Swirl noir, Green), button "Save my look". (The 2 widget style cards, Stickers and Dreamy glass, are designed in the mockup but stay hidden until widgets exist.)
 - Notifications: one switch per reminder with its time (Today's story 7:00, Your move Mondays 9:00, New page, Lucky Star max once a day, Quiet hours 22:00-7:00) + a preview of the notification.
-- Membership: black card "ISSUE11 Monthly · $9.99 / month · renews [date]", what's included, rows "Manage or cancel" (opens App Store subscriptions), "Restore purchases", "My print orders".
+- Membership: black card "ISSUE11 Monthly · $9.99 / month · renews [date]", what's included, rows "Manage or cancel" (opens App Store subscriptions), "Restore purchases", "My print orders". One line: "Printed Issues are ordered separately ($29.99). Your Issues stay yours to read, even if you cancel."
 - Lucky Star & AI: on/off switch, plain-words explanation of what it reads, "What Lucky Star remembers", "Clear Lucky Star's memory", "How your data is used". App works with it off.
 - Order status: her cover, steps Order placed -> Printing (3-5 business days) -> Shipped (tracking link) -> On its way, estimates note, "Need help with my order".
 - Safety: if she writes crisis words, Lucky Star stops and shows a full red (#D40806) screen with white text and white cards "You don't have to carry this alone." with "Call or text 988" (US) and "Call 911", plus help outside the US. No AI suggestions on this screen.

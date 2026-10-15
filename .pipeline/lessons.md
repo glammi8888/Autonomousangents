@@ -100,3 +100,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-15 · Design Room · Megan: safety screen number cards white, not cream.
 - 2026-10-15 · Design Room · Megan: "ok i follow you recommendations" → voice rule (she / "I" in quotes / I for Today / you for Lucky Star), "Live one page of it", "Try it on" approved; Content Room cleared to write the full set.
 - 2026-10-15 · Design Room · Megan: "issue 02 starts after she prints". Flagged the digital-only gap (proposed "Finish my Issue digitally").
+- 2026-10-15 · 📣 Content Room · Scaling an approved sample: a count + banned-word script (lines per topic, [inward] ratio, em dashes, "becoming her") caught issues faster than rereading 400 lines. Run it before every copy commit.
+- 2026-10-15 · 📣 Content Room · Writing UI copy for settings, orders and safety surfaced trust facts only others can confirm (crisis numbers, data use, refunds, store prices). Mark them "verify before launch" in place instead of guessing or leaving them out.

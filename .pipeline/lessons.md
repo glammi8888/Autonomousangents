@@ -95,3 +95,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-15 · Design Room · Megan asked for the app icon/widget page + every page not yet designed. Drew 8: App icon & widgets (reused her 07 icons), Notifications, Membership, Lucky Star & AI, Pick move, Order status, Safety, First-day state. Safety + AI copy flagged "to verify".
 - 2026-10-15 · Design Room · Megan: "8. empty state needs to look different". Showed 3 options (A all 40 pages grid · B giant "32 pages to go" · C ghost next page); recommended A. Megan: "this is really freaking good...".
 - 2026-10-15 · Design Room · Megan on the Home masthead: "I do like slightly smaller too". Set to ~75% width, centered; it still collapses into the small sticky header on scroll.
+- 2026-10-15 · Design Room · Megan: safety screen background RED; empty state "8A is best". Kept a softer red-band version (7b) visible as an alternative since red can feel alarming in a crisis; her pick is full red.

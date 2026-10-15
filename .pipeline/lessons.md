@@ -106,3 +106,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-15 · Design Room · Megan: "all of them !!!" (6 irresistible ideas) + "people that are obsessed with themselves are going to love this !!! (aka people like me haha)". Designed 5 screens + sound note; added them and the UX rules to the Replit pack and re-zipped.
 - 2026-10-15 · Design Room · Megan will shape Lucky Star's magazine look from her Pinterest board of page layouts. Wrote design/MAGAZINE-STYLE-GUIDE.md v0 (library, rhythm, type, photos, editor's check, print). No model training needed: quality = layout library + rules.
 - 2026-10-15 · Design Room · Megan: "would love to go back and see my progress too". Designed My shelf (past Issues + Then → now) and added it to the Replit pack.
+- 2026-10-15 · Design Room · Megan: session audio is "slightly musical too" → voice over soft music; proposed a Voice · Music balance; music licenses must allow paid-app use.

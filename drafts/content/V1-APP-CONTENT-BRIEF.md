@@ -13,3 +13,9 @@ Rules: design/POSITIONING.md (process-focused, believable, no homework/guilt, no
 
 ## Hand back
 Save drafts in drafts/content/, show Megan max 3 options at a time, log her corrections word for word in .pipeline/lessons.md.
+
+## Voice rule: who is speaking (Design Room recommendation, Oct 15, waiting for Megan's OK)
+- **Magazine headlines and captions = "she"** (third person, like a real feature): "She sent the pitch."
+- **Her own words in the magazine = "I", always in quotes:** "I want my work to feel like mine." (never rewritten, magazine-ai-spec)
+- **Today stories = "I"** (her daily line, said to herself).
+- **Lucky Star = "you"** (talking to her).

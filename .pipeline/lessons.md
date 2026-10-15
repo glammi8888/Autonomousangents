@@ -112,3 +112,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-15 · Design Room · Megan picked 1B for the monthly recap ("I love 1B"): bold Wrapped style.
 - 2026-10-15 · Design Room · Megan asked for a full UX-laws audit, no changes without approval. Measured contrast instead of guessing: brand pink is 3.0:1 on white (fails AA for small text). Report in design/UX-LAWS-AUDIT.md, 16 ranked recommendations.
 - 2026-10-15 · Design Room · Megan on the UX audit: "1. yes 2. no 3. yes but keep 11 luckystar sticker 4. ABSOLUTELY NOT 5. yes". Rule: the floating 11 is never hidden or moved, on any screen. Applied contrast, Issue reader, tab bar.
+- 2026-10-15 · Design Room · App Store screenshots v1 (6 × 1320×2868) in design/app-store/screenshots/. Posted OPS reminders to the Freyja Inbox (sessions, layouts, support email, prices, approvals, policies, analytics). Suno: paid plan needed for commercial rights (secondary sources; verify Suno terms).

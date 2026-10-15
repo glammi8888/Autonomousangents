@@ -72,7 +72,7 @@ MORE SCREENS (inside You and around the app)
 - Membership: black card "ISSUE11 Monthly · $9.99 / month · renews [date]", what's included, rows "Manage or cancel" (opens App Store subscriptions), "Restore purchases", "My print orders".
 - Lucky Star & AI: on/off switch, plain-words explanation of what it reads, "What Lucky Star remembers", "Clear Lucky Star's memory", "How your data is used". App works with it off.
 - Order status: her cover, steps Order placed -> Printing (3-5 business days) -> Shipped (tracking link) -> On its way, estimates note, "Need help with my order".
-- Safety: if she writes crisis words, Lucky Star stops and shows a full red (#D40806) screen with cream text and cream cards "You don't have to carry this alone." with "Call or text 988" (US) and "Call 911", plus help outside the US. No AI suggestions on this screen.
+- Safety: if she writes crisis words, Lucky Star stops and shows a full red (#D40806) screen with white text and cream cards "You don't have to carry this alone." with "Call or text 988" (US) and "Call 911", plus help outside the US. No AI suggestions on this screen.
 - First-day states: each tab has one. Issue: "8 of 40 · 32 to print" and a grid of all 40 pages (8 filled with her pages, 32 dashed and labeled with what fills them, page 9 outlined in pink) + pink glass button "Fill page 9 · your first move".
 
 THE 11 (Lucky Star)

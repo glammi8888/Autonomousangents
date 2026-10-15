@@ -28,5 +28,6 @@ Source of truth for the print purchase. Megan's spec, word for word below. Mocku
 ## Rules and open items
 - **Apple:** physical goods must NOT be sold with Apple in-app purchase; they use another in-app payment such as Apple Pay / card (e.g. Stripe), inside the app as Megan wants. Verify the current App Review Guidelines (3.1) at build start (CLAUDE.md "verify facts that change").
 - **Megan's approval before building** (CLAUDE.md rule 4): payment provider, card data handling, shipping-address storage and deletion.
-- **Open:** Lulu print cost per issue (for the margin) · whether HI/AK/PR surcharges are absorbed · sales tax setup.
+- **Margin per printed issue (Megan, Oct 15: "lulu's cost per issue, including shipping is 16.75"):** $29.99 − $16.75 = **$13.24** before card fees. With a typical card fee of about 2.9% + $0.30 (≈ $1.17; check the chosen provider's current rate) → **≈ $12.07 per issue (~40%)**. Sales tax is collected and passed on, not income. Paid shipping add-ons roughly break even after fees (Expedited +$16 vs $15.05, Express +$32 vs $30.05, Priority +$10 vs $9.05).
+- **Open:** whether HI/AK/PR surcharges are absorbed · sales tax setup.
 - **Subscription $9.99/month** is new here: the onboarding paywall's yearly price and trial are still open (ONBOARDING-V3 "Still open") → 💛 Revenue + Megan.

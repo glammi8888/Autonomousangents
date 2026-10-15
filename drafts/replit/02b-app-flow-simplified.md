@@ -63,7 +63,7 @@ JOURNAL
 YOU
 - Top: her photo, her name, "The Freedom Issue · 14 of 40 pages".
 - A horizontal row of her proof tiles ("It's real" moments), "See all" opens the full grid.
-- Below, a big settings list in huge uppercase type, one row each with an arrow: notifications (on/off + time), app icon, membership (manage subscription, restore purchases), "Lucky Star & AI" on/off switch, privacy policy, terms, sign out, delete account (with a confirm screen).
+- Below, a big settings list in huge uppercase type, one row each with an arrow: notifications (on/off + time), app icon & widgets (one screen: pick the app icon and the widget style, Stickers or Dreamy glass; widgets themselves come after launch), membership (manage subscription, restore purchases), "Lucky Star & AI" on/off switch, privacy policy, terms, sign out, delete account (with a confirm screen).
 
 THE 11 (Lucky Star)
 Tapping it on Home opens a full-screen sheet; inside other tabs it rises as a half sheet (pink glow on its top edge) so she still sees the screen it helps with. While Lucky Star thinks, the pink glow slowly breathes and one small line says what it is reading ("Reading your Journal..."), no spinners. Under each answer, small pink tags show what it used ("Journal · Oct 12", "Career board"). The floating 11 gets a small pink dot when it has something for her (max once a day, no numbers); holding the 11 anywhere starts voice right away. The sheet (copy the look from my Lucky Star screenshots): a soft pink glow behind the 11 sticker, ONE big card in the middle with 1-2 pill buttons, a close X top right, and at the bottom a "Talk to Lucky Star..." bar with a send arrow and a big pink hold-to-talk mic. Under it: "Lucky Star is AI and can make mistakes".

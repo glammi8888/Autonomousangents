@@ -34,3 +34,14 @@ Source of truth for the print purchase. Megan's spec, word for word below. Mocku
 
 ## After the order (Megan, Oct 15)
 "issue 02 starts after she prints": placing the order closes Issue 01 (moves to her shelf) and starts Issue 02.
+
+## Decisions (Oct 15, Megan, word for word)
+- "Printing at launch baby because that's the entire point" → print ordering ships in V1 on Dec 11 (not V1.1).
+- "Yes 9.99 per month" → subscription price confirmed. Yearly price + trial still open.
+
+## Launch dependencies (Manager, Oct 15)
+1. **Business bank account** (pending, ~Oct 23) → needed for Stripe payouts and Apple payouts.
+2. **Stripe account** (Megan signs up; keys only in Replit Secrets) → Apple Pay / card for prints.
+3. **Lulu Print API account + test order** (Megan orders 1 proof copy before beta, Nov 11).
+4. **Verify** App Review Guideline 3.1 (physical goods outside IAP) and Lulu prices at build start.
+5. Payments = sensitive area: Megan approves the built result before merge (CLAUDE.md rule 4).

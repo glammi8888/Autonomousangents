@@ -24,15 +24,17 @@ FIRST OPEN (right after the paywall and sign in, once)
 - Her cover settles, the cover lines appear one by one, the small 11 sticker pops onto the corner, a pink glow blooms.
 - "Your Issue has started. 8 of 40 pages · 32 to go" + pink glass button "Open my Issue" -> Home. Soft haptic on the peel.
 
-HOME (3 blocks only)
-0. A row of round story bubbles at the top (like Instagram): Today (one line on one of her images), Your move, Flashback (her own Journal words from 30+ days ago), New page. A pink ring means it is new; tap to open full-screen story cards (tap to go forward, like Instagram Stories). New "Today" line every day from the strings file.
-1. Her Issue cover (photo, her name, "ISSUE 01") with a thin progress bar: "14 of 40 pages · 26 to print". Tap -> Issue tab.
-2. "Next thing" card with one button. Pick it with these rules:
-   - no move this week -> "Pick this week's move" -> Pick Move screen
-   - move done but no proof -> "Add proof" -> Add Proof screen
-   - otherwise -> "Today's session" -> Player
-3. "This week's move" card with the button "I made room for it" -> Add Proof, like posting a story (write one line, optional photo -> "Share to my Issue") -> celebration screen "It's real".
-Pick Move screen: her last move, 3 suggestions from a list, and "Write my own".
+HOME (one long scrollable page, like my V4 Home)
+- Top: the big wavy ISSUE11 masthead (full width) + a thin rule "VOL. 01 · [date]". When she scrolls down, it shrinks into a small sticky header (small masthead + "14 of 40 · Vol. 01"), like Apple Music large titles.
+- Story bubbles (like Instagram): Today, Your move, Flashback, New page. Pink ring = new. Tap = full-screen story cards.
+- Her big Issue cover with a glass "Your issue" pill and a 40-tick progress bar "14 of 40 pages · 26 to print". Tap -> Issue tab.
+- "Your move this week" black card with the pink glass button "I made room for it" -> Add Proof (one line, optional photo -> "Share to my Issue") -> "It's real".
+- Resume capsule: "Resume: [session] · 6 min left" with pink play.
+- Lucky Star flashback card (pink): one of her own Journal lines from months ago, "Does it feel truer now?" -> "Add proof" / "Not yet".
+- "From your World" strip of her images + "4 more saves = 1 new page".
+- "Latest pages" strip of her newest Issue pages -> "Open Issue".
+- Ends with "That's today. See you tomorrow." (no endless feed).
+- If the week has no move yet, the move card says "Pick this week's move" (her last move, 3 suggestions, "Write my own").
 
 EXPLORE (like Instagram Explore + Pinterest)
 - Search bar on top: "Search sessions and images".

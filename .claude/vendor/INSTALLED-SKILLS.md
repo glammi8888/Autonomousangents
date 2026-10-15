@@ -17,3 +17,8 @@ Rules still win over any skill: no sending, publishing, buying or deploying with
 | Pack | License | Installed as | Changes made |
 |---|---|---|---|
 | jaredrhod-marketing (Jared Rhodenizer, @jaredrhod) | CC BY-SA 4.0 (LICENSE kept; attribution required, changes must be marked and shared alike) | `jaredrhod-marketing` | Text files only, `allowed-tools: Read`, no scripts. Nothing removed. Added a marked "ISSUE11 overrides" block in SKILL.md: gain over fear (the pack says "generally fear works better" and teaches agitate/warning sections), no results guarantee, real permitted proof only, real urgency only, Glammi writing rules, draft only. |
+
+## Added 2026-10-15 (Megan, on her own computer, not in the repo)
+| Plugin | Source | Where | Status |
+|---|---|---|---|
+| security-watchdog (Entelligentsia) 0.1.0 | Anthropic Directory, community tier | Megan's local Claude Code (terminal) | Installed by Megan. **Files not yet reviewed** (cloud rooms can't see her computer). Runs a SessionStart hook in every local session. Next: her local Claude reads its files (hook script + skill) for network calls, data sent out, hidden instructions; then use `/scan-plugin` on appstore-screenshots and Sonar ASO before installing them. |

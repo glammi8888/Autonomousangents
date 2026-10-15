@@ -31,3 +31,6 @@ Source of truth for the print purchase. Megan's spec, word for word below. Mocku
 - **Margin per printed issue (Megan, Oct 15: "lulu's cost per issue, including shipping is 16.75"):** $29.99 − $16.75 = **$13.24** before card fees. With a typical card fee of about 2.9% + $0.30 (≈ $1.17; check the chosen provider's current rate) → **≈ $12.07 per issue (~40%)**. Sales tax is collected and passed on, not income. Paid shipping add-ons roughly break even after fees (Expedited +$16 vs $15.05, Express +$32 vs $30.05, Priority +$10 vs $9.05).
 - **Open:** whether HI/AK/PR surcharges are absorbed · sales tax setup.
 - **Subscription $9.99/month** is new here: the onboarding paywall's yearly price and trial are still open (ONBOARDING-V3 "Still open") → 💛 Revenue + Megan.
+
+## After the order (Megan, Oct 15)
+"issue 02 starts after she prints": placing the order closes Issue 01 (moves to her shelf) and starts Issue 02.

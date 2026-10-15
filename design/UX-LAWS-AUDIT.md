@@ -46,3 +46,12 @@ Scope reviewed: the approved V1 mockup (https://claude.ai/artifact/QAbmsD9o7zGGY
 
 ## Part 3 · Suggested order
 Approve 1, 2, 3, 5, 8 first (accessibility + real-phone usability, all small except the Journal). Then 4, 6, 7, 9, 10. The rest are rules the Replit prompt can carry.
+
+## Megan's decisions (Oct 15)
+Word for word: "1. yes 2. no 3. yes but keep 11 luckystar sticker 4. ABSOLUTELY NOT 5. yes"
+- #1 Contrast: **applied** (text-pink #C2207E for small text, grey #6B6762, ink labels on pink buttons).
+- #2 Journal typing on the page: **no**, Journal stays as designed.
+- #3 Issue reader: **applied**, swipe + "p.15 / 40" + one Edit button + progress pill, **the floating 11 stays**.
+- #4 Hide/move the floating 11: **no, never**. The 11 stays on every screen.
+- #5 Tab bar: **applied** (11pt, current tab bold ink + dot, 44pt targets).
+Not yet decided: #6–#16.

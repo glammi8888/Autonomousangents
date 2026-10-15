@@ -54,11 +54,11 @@ ISSUE
 - At 40 of 40 pages: "Ready to print" screen with a grid of all 40 pages and the button "I love it · Approve my Issue".
 - Only after she approves: "Order my print" screen (cover preview, copies, shipping address, price "$29.99" per Issue, shipping options three shipping options "Standard · 11–14 business days · Free" (selected), "Expedited · 6–9 business days · + $16", "Express · 5–8 business days · + $32", a Total line "$29.99 + tax", and a small note "Printing takes 3–5 business days before shipping. Estimates, not guaranteed. Hawaii, Alaska and Puerto Rico take longer." Rules: purchase happens inside the app (not a web page), US addresses only; if the address is a PO box or APO/FPO, show only "Standard" and "Priority Mail · 9–12 business days · + $10". Full spec: design/PRINT-PURCHASE.md, Apple Pay button "Place my order"). No real payment yet.
 
-JOURNAL
-- Today's prompt as a big card (like an Instagram question sticker). Swipe it away for another prompt.
-- A text box (the iPhone keyboard mic handles voice).
-- Toggle on each entry: "Put this in my Issue" (OFF by default).
-- Past entries listed below.
+JOURNAL (her words go straight onto a magazine page)
+- Top line: "Journal" and, in pink, "You're writing page 28 of 40".
+- A real magazine page (blush background, one of her images on the right): small label "In her words · p.28", and her words appear LIVE as a big uppercase pull quote while she types. Today's prompt sits small at the bottom of the page. Swipe the page sideways for another prompt.
+- Under the page: a text bar "Keep writing..." (the iPhone keyboard mic handles voice) and a pink glass button "Keep page". Keep page = it goes into her Issue. If she doesn't keep it, the entry stays private in her Journal.
+- Past entries: a list under the page (scroll down).
 
 YOU
 - Top: her photo, her name, "The Freedom Issue · 14 of 40 pages".

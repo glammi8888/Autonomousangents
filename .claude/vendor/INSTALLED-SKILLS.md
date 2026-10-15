@@ -22,3 +22,11 @@ Rules still win over any skill: no sending, publishing, buying or deploying with
 | Plugin | Source | Where | Status |
 |---|---|---|---|
 | security-watchdog (Entelligentsia) 0.1.0 · MIT | Anthropic Directory, community tier (repo Entelligentsia/skillforge) | Megan's local Claude Code (terminal) | **Scanned Oct 15 by the Design Room from Megan's zip: SAFE TO USE.** 9 files, all read. Hook = Node built-ins only (fs/path/os): reads ~/.claude/plugins/installed_plugins.json, saves a list of plugin names to its own data folder, prints one alert line. No network, no keys/.env, no installs, no persistence, no hidden comments; PNG has no appended data. Only fullwidth Unicode is the labeled "ignore previous instructions" example in SKILL.md. Notes: first session after install flags EVERY installed plugin as new (one-time scan of all); its alert says "before responding to any user request" (expected); scan-plugin allows Bash (used for `du`). Next: `/security-watchdog:scan-plugin <id>` on appstore-screenshots and Sonar ASO after the Replit build. |
+
+## Waiting for scan (Megan approved Oct 15; not installed until scanned, Safety Rule 7)
+| Plugin | Why | Sends data online? | Needs |
+|---|---|---|---|
+| appstore-screenshots (Nicolas Torres) | App Store screenshots | Listing says no | Megan's zip; use after the Replit build |
+| Sonar ASO (Edge Analytics) | ASO + Screenshot Studio | Yes: Sonar's hosted server | Megan's zip |
+| appfoyer (AppFoyer) | Privacy policy, terms, support + account-deletion pages | Yes: AppFoyer hosts the pages | Megan's zip; needs the app code |
+| Mobile Release Check (Stefan Petrovici) | App Store readiness check of the code | Listing says no | Megan's zip; needs the app code |

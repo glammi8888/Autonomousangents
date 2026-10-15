@@ -48,8 +48,9 @@ ISSUE
 - One row of edit icons under the page (like Instagram's edit tools): Cover · Mood · Words (on/off) · Update my Issue.
 - Share button: share the current page as an image (iOS share sheet).
 - Tap a page -> edit sheet: swap photo, edit text, pick another layout (only from my layouts), "Try another version".
+- Under her Issue: a "Ready to print · 15 of 40 pages" button, greyed out until 40 pages, then active.
 - At 40 of 40 pages: "Ready to print" screen with a grid of all 40 pages and the button "I love it · Approve my Issue".
-- Only after she approves: "Order my print" screen (cover preview, copies, shipping address, price "$29.99" per Issue, shipping options "Standard · arrives in about 3–4 weeks · Free" (selected) and "Expedited · about 2–3 weeks · + $15.99", a Total line "$29.99 + tax", and a small note "Printed in 3–5 business days, then shipped. Arrival dates are estimates. Hawaii, Alaska and Puerto Rico take longer." Rules: US addresses only; if the address is a PO box or APO/FPO, hide Expedited (standard only), Apple Pay button "Place my order"). No real payment yet.
+- Only after she approves: "Order my print" screen (cover preview, copies, shipping address, price "$29.99" per Issue, shipping options three shipping options "Standard · 11–14 business days · Free" (selected), "Expedited · 6–9 business days · + $16", "Express · 5–8 business days · + $32", a Total line "$29.99 + tax", and a small note "Printing takes 3–5 business days before shipping. Estimates, not guaranteed. Hawaii, Alaska and Puerto Rico take longer." Rules: purchase happens inside the app (not a web page), US addresses only; if the address is a PO box or APO/FPO, show only "Standard" and "Priority Mail · 9–12 business days · + $10". Full spec: design/PRINT-PURCHASE.md, Apple Pay button "Place my order"). No real payment yet.
 
 JOURNAL
 - Today's prompt as a big card (like an Instagram question sticker). Swipe it away for another prompt.

@@ -90,6 +90,25 @@ Buttons inside Lucky Star are liquid glass (frosted, see-through white over the 
 If "Lucky Star & AI" is off, the sheet says "Lucky Star is off. You can turn it on in You." and the rest of the app still works.
 Use placeholder results for now.
 
+IRRESISTIBLE (all approved)
+1. Monthly recap: at the end of each month, a 5-card story "Your [month] in ISSUE11" (moves she kept, her proof, most-saved image, the line she wrote that came true) with "Share my month".
+2. Collectible stickers: at 10, 20, 30 and 40 pages she unlocks a sticker (zebra, red 11, cheetah 11, ...) for her cover or pages. Unlock screen with the pink glow; locked slots show the page number.
+3. Final stretch: from page 35, her cover on Home glows pink with a tag "5 pages to print" (counts down) and "Your next page: ... · Fill it".
+4. Arrival: when the print is delivered, Lucky Star asks "Is it in your hands? Take a photo with your Issue." The photo becomes page 1 of Issue 02.
+5. Sound + touch: soft page-turn sound, sticker-peel sound (reveal + unlocks), light haptic when a page is added, a deep one at 40. Sounds follow the silent switch.
+6. Share in our look: any page or her cover shares to Instagram Stories / TikTok / Messages, framed in blush with the wavy ISSUE11 masthead and "made in ISSUE11".
+
+UX RULES (apply everywhere)
+- Never lose her words: the Journal autosaves while typing, works offline, syncs later.
+- Notifications open the exact screen they talk about.
+- Same gestures everywhere: swipe down closes anything full-screen; swipe from the left edge goes back.
+- Main actions in the bottom half of the screen (thumb reach).
+- Ask permissions only at the moment they're needed (photos when she taps "+ Add your photo", mic when she holds the 11).
+- First week: max 3 tiny one-time tips, never a tour.
+- Pink (#F65AAD) only for big text, buttons and glows; small text is ink. Follow the iPhone text-size setting; no label under 11pt.
+- Every icon button has a VoiceOver name (the 11 = "Lucky Star").
+- Preload the next story/page; soft placeholders instead of spinners.
+
 STATES
 Every tab needs an empty state. Also: a loading state ("Lucky Star is building"), an offline message ("You're offline. Your Issue is saved.") and a friendly error.
 

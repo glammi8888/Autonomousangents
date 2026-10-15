@@ -9,3 +9,5 @@ Megan, word for word: "this is the answer for Lucky Star (#1)". Decides V1-SIMPL
 Pattern: full-screen sheet, pink aura behind the cream 11, ONE big card with 1–2 pill buttons, "Talk to Lucky Star…" bar with send + pink hold-to-talk mic, "Lucky Star is AI and can make mistakes", every action ends in something real with Undo.
 Open (asked Megan Oct 14): Listen = AI-generated per-person session (hardest, costliest) vs Lucky Star picking one of Megan's sessions in V1. If picked, copy must say "picked", not "made" (trust rule).
 Copy note: "being her" / "Become her" touch the retired "becoming her" (Megan, Oct 7). Content Room to check before build.
+
+**Copy update (Oct 15, approved):** "This week, let's practice being her" → "This week, let's live one page of it." · "Become her" → "Try it on." The exports above keep Megan's original text; builders use the new wording.

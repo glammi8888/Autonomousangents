@@ -39,7 +39,7 @@ EXPLORE (like Instagram Explore + Pinterest)
 - One row of chips: For you · Sessions · My World · then topics (Money, Love, ...).
 - "Sessions" chip = organized like Spotify: one big "Picked for you tonight" card on top, then horizontal shelves by type (Visualizations, Affirmations, Meditations, Breath), each with "See all"; extra chips "5 min" and "10 min" filter by length.
 - "For you" chip = one Pinterest-style grid that mixes images and sessions. Sessions show a round pink play button on the top-left of the image, plus their name and length at the bottom. Images show a heart (tap or double-tap to save).
-- "My World" chip: her own photos, hearted images and saved sessions. First tile: "+ Add your photo" (iPhone photo picker, only the photos she picks). A pink tile: "4 more saves = 1 new page".
+- "My World" chip (her vision board): one grey line on top, "Your vision board. Everything here can become a page in your Issue." Then her own photos, hearted images and saved sessions. First tile: "+ Add your photo" (iPhone photo picker, only the photos she picks). A pink tile: "4 more saves = 1 new page".
 - Tap a session -> Session page like a Spotify album page (big image, title, length, "Picked for you", Watch/Listen switch, big pink play, "What you'll rehearse", "Up next") -> full-screen Player like Spotify Now Playing (video, live words like lyrics, scrubber, back/forward 15 s, save; swipe down = keeps playing in a glass mini player above the tabs; audio keeps playing with the phone locked). Listen = dark eyes-closed screen.
 - When a session ends: "How do you feel now?" with 4 chips (Ready, Calm, Brave, Not yet) -> "Write it in my Journal".
 

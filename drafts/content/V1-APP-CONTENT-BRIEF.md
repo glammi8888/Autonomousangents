@@ -8,7 +8,7 @@ Rules: design/POSITIONING.md (process-focused, believable, no homework/guilt, no
 3. **Journal prompts:** 30, gratitude mixed in, one per day, about the person she's practicing being (not outcomes).
 4. **Lucky Star lines:** Home "one next thing" cards (start session / keep my move / add proof), "Reading your Journal…" status lines, AI-off and offline messages.
 5. **Fix in Megan's Lucky Star screens:** "This week, let's practice being her" and session title "Become her" → new wording.
-6. **Small UI copy:** empty states per tab, "4 more saves = 1 new page", cover reveal ("Peel to open your Issue"), "It's real", Ready to print, order screen notes (keep Lulu facts exact: design/PRINT-PURCHASE.md).
+6. **Small UI copy:** My World line (approved by Megan Oct 15: "Your vision board. Everything here can become a page in your Issue."), empty states per tab, "4 more saves = 1 new page", cover reveal ("Peel to open your Issue"), "It's real", Ready to print, order screen notes (keep Lulu facts exact: design/PRINT-PURCHASE.md).
 7. **Session titles + "What you'll rehearse"** lines for Megan's pre-made sessions (once she lists them).
 
 ## Hand back

@@ -49,7 +49,7 @@ ISSUE
 - Share button: share the current page as an image (iOS share sheet).
 - Tap a page -> edit sheet: swap photo, edit text, pick another layout (only from my layouts), "Try another version".
 - At 40 of 40 pages: "Ready to print" screen with a grid of all 40 pages and the button "I love it · Approve my Issue".
-- Only after she approves: "Order my print" screen (cover preview, copies, shipping address, price "$29.99" per Issue, shipping options "Standard · about 14 days · Free" (selected) and "Faster shipping · + $ TBD", a Total line, Apple Pay button "Place my order"). No real payment yet.
+- Only after she approves: "Order my print" screen (cover preview, copies, shipping address, price "$29.99" per Issue, shipping options "Standard · 11–14 business days · Free" (selected) and "Expedited · 6–9 business days · + $15.99", a Total line, Apple Pay button "Place my order"). No real payment yet.
 
 JOURNAL
 - Today's prompt as a big card (like an Instagram question sticker). Swipe it away for another prompt.

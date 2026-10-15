@@ -25,7 +25,7 @@ FIRST OPEN (right after the paywall and sign in, once)
 - "Your Issue has started. 8 of 40 pages · 32 to go" + pink glass button "Open my Issue" -> Home. Soft haptic on the peel.
 
 HOME (one long scrollable page, like my V4 Home)
-- Top: the big wavy ISSUE11 masthead (full width) + a thin rule "VOL. 01 · [date]". When she scrolls down, it shrinks into a small sticky header (small masthead + "14 of 40 · Vol. 01"), like Apple Music large titles.
+- Top: the big wavy ISSUE11 masthead (about 75% of the screen width, centered) + a thin rule "VOL. 01 · [date]". When she scrolls down, it shrinks into a small sticky header (small masthead + "14 of 40 · Vol. 01"), like Apple Music large titles.
 - Story bubbles (like Instagram): Today, Your move, Flashback, New page. Pink ring = new. Tap = full-screen story cards.
 - Her big Issue cover with a glass "Your issue" pill and a 40-tick progress bar "14 of 40 pages · 26 to print". Tap -> Issue tab.
 - "Your move this week" black card with the pink glass button "I made room for it" -> Add Proof (one line, optional photo -> "Share to my Issue") -> "It's real".

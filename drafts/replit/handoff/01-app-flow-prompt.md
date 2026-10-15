@@ -76,7 +76,7 @@ MORE SCREENS (inside You and around the app)
 - Lucky Star & AI: on/off switch, plain-words explanation of what it reads, "What Lucky Star remembers", "Clear Lucky Star's memory", "How your data is used". App works with it off.
 - Order status: her cover, steps Order placed -> Printing (3-5 business days) -> Shipped (tracking link) -> On its way, estimates note, "Need help with my order".
 - Safety: if she writes crisis words, Lucky Star stops and shows a full red (#D40806) screen with white text and white cards "You don't have to carry this alone." with "Call or text 988" (US) and "Call 911", plus help outside the US. No AI suggestions on this screen.
-- My shelf (You → header → "My Issues"): her Issues side by side like magazines on a shelf (Issue 01 with a pink "Printed" tag, Issue 02 "12 of 40" in progress, a dashed "03 · Next"). Tap one to reread it. Under it a white "Then → now" card: her first proof (date + her words) next to her latest proof, and "[n] moves kept · [n] months of you".
+- My shelf (You → header → "My Issues"): BLACK background with a soft pink glow. Her Issues glide sideways like album covers (current one big and centered with a reflection, neighbours smaller and angled). A pink "Printed" sticker on finished Issues; the one in progress shows "12 of 40". Under it: dates, pages, moves kept, and page dots. Tap a cover to reread it. Below: a dark glass "Then → now" card with her first proof (date + her words) next to her latest proof.
 - First-day states: each tab has one. Issue: "8 of 40 · 32 to print" and a grid of all 40 pages (8 filled with her pages, 32 dashed and labeled with what fills them, page 9 outlined in pink) + pink glass button "Fill page 9 · your first move".
 
 THE 11 (Lucky Star)

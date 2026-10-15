@@ -97,3 +97,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-15 · Design Room · Megan on the Home masthead: "I do like slightly smaller too". Set to ~75% width, centered; it still collapses into the small sticky header on scroll.
 - 2026-10-15 · Design Room · Megan: safety screen background RED; empty state "8A is best". Kept a softer red-band version (7b) visible as an alternative since red can feel alarming in a crisis; her pick is full red.
 - 2026-10-15 · Design Room · Megan: safety screen "red but white color font, not cream".
+- 2026-10-15 · Design Room · Megan: safety screen number cards white, not cream.

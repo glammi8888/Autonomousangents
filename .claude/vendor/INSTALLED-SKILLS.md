@@ -26,7 +26,12 @@ Rules still win over any skill: no sending, publishing, buying or deploying with
 ## Waiting for scan (Megan approved Oct 15; not installed until scanned, Safety Rule 7)
 | Plugin | Why | Sends data online? | Needs |
 |---|---|---|---|
-| appstore-screenshots (Nicolas Torres) | App Store screenshots | Listing says no | Megan's zip; use after the Replit build |
-| Sonar ASO (Edge Analytics) | ASO + Screenshot Studio | Yes: Sonar's hosted server | Megan's zip |
 | appfoyer (AppFoyer) | Privacy policy, terms, support + account-deletion pages | Yes: AppFoyer hosts the pages | Megan's zip; needs the app code |
 | Mobile Release Check (Stefan Petrovici) | App Store readiness check of the code | Listing says no | Megan's zip; needs the app code |
+
+## Scanned 2026-10-15 (Design Room, from Megan's zips; every file read)
+| Plugin | Verdict | What it does on her machine | Sends online | Watch-outs |
+|---|---|---|---|---|
+| appstore-screenshots 1.0.0 · MIT (Nicolas Torres, github ntgussoni/app-store-play-store-screenshots-skill) | **SAFE TO USE** | 1 skill + 2 scripts (compose.py = Pillow image maker; launch_simulators.sh = boots iPhone/Android simulators). No hooks, no auto-run, no keys read. | Nothing from its own scripts | Mac + Xcode + Expo apps only. Its setup step tells Claude to install tools (Maestro via `curl … \| bash`, fastlane, ImageMagick, Pillow): ask Megan before installing any of them. Docs mention options compose.py doesn't have (glow, particles, background image), so those will error. Outputs 1290×2796; check Apple's current sizes before uploading. |
+| Sonar ASO 1.1.0 · MIT (Edge Analytics s.r.o., github trysonar/skills) | **SAFE TO USE** (data goes to Sonar) | 11 Markdown skills + a link to Sonar's hosted MCP server. No hooks, scripts or installs; may save `app-marketing-context.md` when asked. Never asks for API keys. | Yes: every sonar_ tool sends its inputs (app ids, keywords, country, saved captions/screenshot URLs) to https://trysonar.app/mcp; free tier is keyed by IP | Free tier: ~30 calls/day. Screenshot Studio, rank tracking and reviews need a paid Sonar plan (ask Megan before signing up). Never send private user data; public listing info and keywords only. |
+Installing from GitHub may pull a newer version than the zip scanned; security-watchdog flags it next session, so run `/security-watchdog:scan-plugin` then.

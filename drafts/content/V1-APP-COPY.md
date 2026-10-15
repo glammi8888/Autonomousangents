@@ -574,7 +574,7 @@ Button: Turn on in You
 - Mini player: Now playing · [session]
 
 ### Issue
-- Progress: [14] of 40 pages · [26] to print · Issue 02 in [January]
+- Progress: [14] of 40 pages · [26] to print (Issue 02 starts when she places her print order, Megan Oct 15; no date countdown)
 - Edit row: Cover · Mood · Words · Update · Share
 - Update button: **Update my Issue** · loading: Updating your Issue… · done: [2] new lines added. Nothing else changed.
 - Edit a page: Photo · Text · Layout · Another · Done · note: Only your layouts. Print-safe, always. (existing)
@@ -596,7 +596,7 @@ Button: Turn on in You
   - US addresses only for now. · Pay button: Apple's own Apple Pay button + "Place my order"
   - Footer: Printed and shipped by our print partner · Terms · Privacy (existing)
 - Order status (her cover on top):
-  1. **Order placed** · We've sent your Issue to print.
+  1. **Order placed** · We've sent your Issue to print. Issue 01 is on your shelf, and Issue 02 has started: 8 fresh pages. · Open Issue 02
   2. **Printing** · 3–5 business days
   3. **Shipped** · Track my package
   4. **On its way** · Estimated arrival: [date range]. Estimates, not guaranteed.
@@ -641,7 +641,7 @@ Button: Turn on in You
 6. New page: Your Issue grew a page. [15] of 40.
 7. Lucky Star: Lucky Star has one thing for you.
 8. Lucky Star: You wrote something in [July]. Want to read it again?
-9. Issue: Issue 02 starts in [January]. Your first one stays yours.
+9. Issue: Issue 01 is on your shelf. Issue 02 has started. (sent after she orders)
 10. Issue (only at 40/40): 40 of 40. Your Issue is ready to print.
 
 **Membership**
@@ -683,4 +683,5 @@ Full red screen, white text, no AI suggestions. Lucky Star stops.
 - Offline: You're offline. Your Issue is saved. (existing)
 - Error: Something went wrong on our side. Your Issue is safe. Try again?
 - Page not found: This page moved. Your Issue is still here. · Back to my Issue
+- ⚠️ Open (Design Room): if she never prints, a "Finish my Issue digitally" option at 40 pages would also start Issue 02. Copy to write once Megan decides.
 - Re-shown paywall: same locked paywall copy (design/ONBOARDING-V3.md, screen 37), unchanged.

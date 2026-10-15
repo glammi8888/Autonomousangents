@@ -66,6 +66,15 @@ YOU
 - A horizontal row of her proof tiles ("It's real" moments), "See all" opens the full grid.
 - Below, a big settings list in huge uppercase type, one row each with an arrow: notifications (on/off + time), app icon & widgets (one screen: pick the app icon and the widget style, Stickers or Dreamy glass; widgets themselves come after launch), membership (manage subscription, restore purchases), "Lucky Star & AI" on/off switch, privacy policy, terms, sign out, delete account (with a confirm screen).
 
+MORE SCREENS (inside You and around the app)
+- App icon & widgets: my 6 icons in a 3x2 grid (Classic, Eleven, Swirl red, Pink eleven, Swirl noir, Green), then 2 widget style cards (Stickers, Dreamy glass), button "Save my look".
+- Notifications: one switch per reminder with its time (Today's story 7:00, Your move Mondays 9:00, New page, Lucky Star max once a day, Quiet hours 22:00-7:00) + a preview of the notification.
+- Membership: black card "ISSUE11 Monthly · $9.99 / month · renews [date]", what's included, rows "Manage or cancel" (opens App Store subscriptions), "Restore purchases", "My print orders".
+- Lucky Star & AI: on/off switch, plain-words explanation of what it reads, "What Lucky Star remembers", "Clear Lucky Star's memory", "How your data is used". App works with it off.
+- Order status: her cover, steps Order placed -> Printing (3-5 business days) -> Shipped (tracking link) -> On its way, estimates note, "Need help with my order".
+- Safety: if she writes crisis words, Lucky Star stops and shows a calm cream screen "You don't have to carry this alone." with "Call or text 988" (US) and "Call 911", plus help outside the US. No AI suggestions on this screen.
+- First-day states: each tab has one (Issue: cover + "8 pages so far... 32 to go").
+
 THE 11 (Lucky Star)
 Tapping it on Home opens a full-screen sheet; inside other tabs it rises as a half sheet (pink glow on its top edge) so she still sees the screen it helps with. While Lucky Star thinks, the pink glow slowly breathes and one small line says what it is reading ("Reading your Journal..."), no spinners. Under each answer, small pink tags show what it used ("Journal · Oct 12", "Career board"). The floating 11 gets a small pink dot when it has something for her (max once a day, no numbers); holding the 11 anywhere starts voice right away. The sheet (copy the look from my Lucky Star screenshots): a soft pink glow behind the 11 sticker, ONE big card in the middle with 1-2 pill buttons, a close X top right, and at the bottom a "Talk to Lucky Star..." bar with a send arrow and a big pink hold-to-talk mic. Under it: "Lucky Star is AI and can make mistakes".
 What the card offers depends on the screen:

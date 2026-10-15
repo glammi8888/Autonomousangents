@@ -92,7 +92,7 @@ If "Lucky Star & AI" is off, the sheet says "Lucky Star is off. You can turn it 
 Use placeholder results for now.
 
 IRRESISTIBLE (all approved)
-1. Monthly recap: at the end of each month, a 5-card story "Your [month] in ISSUE11" (moves she kept, her proof, most-saved image, the line she wrote that came true) with "Share my month".
+1. Monthly recap: at the end of each month, a 5-card story "Your [month] in ISSUE11", bold Wrapped style: full pink (#F65AAD) background, one giant red (#D40806) number (e.g. "4"), the cream 11 sticker tilted, a big headline ("moves you made room for.") and one short line listing them. Cards: moves she kept, her proof, most-saved image, the line she wrote that came true. Buttons: white "Share my month" + "Next".
 2. Collectible stickers: at 10, 20, 30 and 40 pages she unlocks a sticker (zebra, red 11, cheetah 11, ...) for her cover or pages. Unlock screen with the pink glow; locked slots show the page number.
 3. Final stretch: from page 35, her cover on Home glows pink with a tag "5 pages to print" (counts down) and "Your next page: ... · Fill it".
 4. Arrival: when the print is delivered, Lucky Star asks "Is it in your hands? Take a photo with your Issue." The photo becomes page 1 of Issue 02.

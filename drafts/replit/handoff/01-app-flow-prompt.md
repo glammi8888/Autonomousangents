@@ -3,7 +3,8 @@ Paste everything inside the box into Replit, together with the other files in th
 
 ```
 You already built a first version of ISSUE11. I've worked with a UI/UX designer and the flow changed. Please UPDATE the app to match the files I'm uploading, everything AFTER onboarding:
-- 02-screens-mockup.html = the approved design for every screen (open it and copy the layouts, the order of things and the look exactly).
+- screens/ = 50 PNG images, one per approved screen, numbered in build order. THESE ARE THE DESIGNS: copy the layouts, the order of things and the look exactly. Screens 49-50 (widgets) are for AFTER launch: don't build them now.
+- 02-screens-mockup.html = the same screens, live (animations, scrolling). It also shows some design options we did NOT choose: if anything differs, the screens/ images win.
 - 03-app-copy.md = all the words in the app. Put them in ONE strings file.
 - 04-print-purchase.md = the print order rules.
 - 05-design-tokens.md = colors, fonts, sizes. 06-lucky-star/ = my Lucky Star screens (copy their look).

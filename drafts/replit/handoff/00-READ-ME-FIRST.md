@@ -4,10 +4,11 @@ For Megan. Upload this whole folder (or the zip) to Replit, then paste the promp
 | File | What it is |
 |---|---|
 | 01-app-flow-prompt.md | The instructions to paste into Replit (everything after onboarding) |
-| 02-screens-mockup.html | Every approved screen, in your look. Replit can open it; you can too (double-click) |
+| screens/ | **The designs:** 50 approved screens as images (01 Home → 48 Share; 49–50 widgets after launch) |
+| 02-screens-mockup.html | The same screens, live with animations (also shows options we didn't pick; the images win) |
 | 03-app-copy.md | All the words in the app (Content Room, Oct 15) |
 | 04-print-purchase.md | Your print order spec ($29.99, shipping, Lulu rules) |
-| 05-design-tokens.md | Colors, fonts, sizes from your V4 Home |
+| 05-design-tokens.md | Colors, fonts, sizes (incl. the readable pink/grey) |
 | 06-lucky-star/ | Your 5 Lucky Star screens (the look to copy) |
 
 ## Notes before you paste

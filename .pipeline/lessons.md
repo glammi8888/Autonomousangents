@@ -91,3 +91,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-15 · Design Room · Megan: "I think the journal screen is a bit underwhelming... Any way we can make it a bit more wow? Aesthetic?" Showed 3 directions (A editorial notebook · B write straight into her Issue, live page preview · C night journal). Recommended B (+A photo prompt). Waiting for her pick.
 - 2026-10-15 · Design Room · Megan: widgets = user picks the style, like the app icon; styles B (stickers) + C (dreamy glass). Settings row renamed "App icon & widgets".
 - 2026-10-15 · Design Room · Megan picked Journal B: "ok i love option 2" (write straight into her Issue, live page preview).
+- 2026-10-15 · Design Room · Megan asked if the live Journal page fits "AI creates the magazine". Answer: she writes, Lucky Star designs (layout, image, placement, headline); her words never change (magazine-ai-spec). Added "Lucky Star lays out your page · ↻ Another look".

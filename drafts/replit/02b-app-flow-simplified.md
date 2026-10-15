@@ -57,7 +57,8 @@ ISSUE
 JOURNAL (her words go straight onto a magazine page)
 - Top line: "Journal" and, in pink, "You're writing page 28 of 40".
 - A real magazine page (blush background, one of her images on the right): small label "In her words · p.28", and her words appear LIVE as a big uppercase pull quote while she types. Today's prompt sits small at the bottom of the page. Swipe the page sideways for another prompt.
-- Under the page: a text bar "Keep writing..." (the iPhone keyboard mic handles voice) and a pink glass button "Keep page". Keep page = it goes into her Issue. If she doesn't keep it, the entry stays private in her Journal.
+- Under the page, small: "★ Lucky Star lays out your page" and a pink "↻ Another look" (tries another of my layouts and images). Lucky Star chooses the layout and image; her words are never changed.
+- Below that: a text bar "Keep writing..." (the iPhone keyboard mic handles voice) and a pink glass button "Keep page". Keep page = it goes into her Issue. If she doesn't keep it, the entry stays private in her Journal.
 - Past entries: a list under the page (scroll down).
 
 YOU

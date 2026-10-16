@@ -147,3 +147,6 @@ Sign in with Apple (onboarding 38) · restore purchases · manage subscription �
 3. ✅ **Her own photos: in V1.** Megan, Oct 14, word for word: "yes she definitely can upload her own images... She can also pick from our pre-set images as well". My World = presets + her own photos (iPhone photo picker, no full-library access). ⚠️ Storing her photos is user data → Megan approves a short photo-storage spec before it is built (CLAUDE.md rule 4): where they are kept, who can see them, how she deletes them.
 
 ⚠️ Still needs Megan's approval before building, whatever she decides: design/magazine-ai-spec.md (journal text → AI), payments/RevenueCat, sign in, delete account (CLAUDE.md rule 4).
+
+## Later (after launch)
+- Paid special meditation collections for top-demand topics (Megan, Oct 16: "later on though"). Apple IAP applies. Pick topics from real play/save data. V1: all sessions in the subscription.

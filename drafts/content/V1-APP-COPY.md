@@ -295,7 +295,7 @@ Shown on "Pick this week's move" (3 at a time) with her last move and "Write my 
 ### A home I love
 1. Clear one corner and make it yours.
 2. Move one piece of furniture so the room feels more like you.
-3. Save five rooms that feel like you to My World. [inward]
+3. Save five rooms that feel like you. [inward]
 4. Invite one friend over for tea, as you are.
 5. Hang the picture that's been leaning on the wall.
 6. Let go of three things you keep out of guilt.
@@ -312,7 +312,7 @@ Shown on "Pick this week's move" (3 at a time) with her last move and "Write my 
 2. Book the hair appointment you keep moving.
 3. Pick one morning ritual and do it twice.
 4. Take one photo of yourself you actually like.
-5. Save five outfits that feel like your life to My World. [inward]
+5. Save five outfits that feel like your life. [inward]
 6. Go through your closet and keep what feels like you. [inward]
 7. Wear the color you usually save.
 8. Get ready slowly once this week, just for you. [inward]
@@ -338,7 +338,7 @@ Shown on "Pick this week's move" (3 at a time) with her last move and "Write my 
 13. Spend one evening with your own thoughts, not anyone's stories. [inward]
 
 ### Travel
-1. Save three photos of the place to My World.
+1. Save three photos of the place.
 2. Price the trip once, just to know the real number.
 3. Spend one afternoon in your city like a tourist.
 4. Learn how to say thank you in their language.
@@ -465,7 +465,7 @@ Buttons: Start session · Keep my move · Another · Add proof · Not yet · Wri
 ### "Reading your…" status lines (the pink fade breathes, no spinner)
 Each one names only what it really reads.
 1. Reading your Journal…
-2. Looking through your World…
+2. Looking through your saves…
 3. Checking this week's move…
 4. Rereading your cover story…
 5. Finding a session for tonight…
@@ -512,7 +512,7 @@ Button: Turn on in You
 - "Why this?": Made from: [Journal · Oct 12] · [Career board] · [Your move]
 - Journal assist button: Ask me a question
 - Issue assist: Try another version of this page
-- My World assist: It's missing a feeling. (existing) · Add all 3 · Swap one
+- My saves assist: It's missing a feeling. (existing) · Add all 3 · Swap one
 - Sessions assist: Picked for you · Show me another
 
 ---
@@ -531,13 +531,13 @@ Button: Turn on in You
 - Move card: Your move this week · [move] · button **I made room for it** (existing)
 - No move yet: **Pick this week's move**
 - Resume: Resume: [Try it on] · Session · [6] min left
-- From your World · See all · [4] more saves = 1 new page (existing)
+- From your saves · See all · [4] more saves = 1 new page (existing)
 - Latest pages · Open Issue
 - End: **That's today. See you tomorrow.** · new story at 7am (existing)
 - **First-day state:** Your Issue has started. Your first move fills page 9.
 
 ### Today story (3 cards)
-- Card 1: Today · 1 min · [Today line] · Save to my World · ♡ Keep
+- Card 1: Today · 1 min · [Today line] · Save · ♡ Keep
 - Card 2: Your move · [move]
 - Card 3: Flashback or New page
 - Closing card: That's today. (no "next" loop)
@@ -559,11 +559,11 @@ Button: Turn on in You
 
 ### Explore
 - Search: Search sessions and images
-- Chips: For you · Sessions · My World · [topics]
+- Chips: For you · Sessions · My saves · [topics]
 - Sessions: Picked for you tonight · Visualizations · Affirmations · Meditations · Breath · See all · 5 min · 10 min
-- My World line: **Your vision board. Everything here can become a page in your Issue.** (approved Oct 15, never change)
-- My World tiles: + Add your photo · [4] more saves = 1 new page.
-- **Empty My World:** Tap ♡ on anything that feels like your life. Your own photos count most. [inward]
+- My saves line: **Everything you save can become a page in your Issue.** (Megan, Oct 16: chip renamed My saves → My saves)
+- My saves tiles: + Add your photo · [4] more saves = 1 new page.
+- **Empty My saves:** Tap ♡ on anything that feels like your life. Your own photos count most. [inward]
 - **No search results:** Nothing for that yet. Try another word.
 - **First-day state:** Picked for you tonight sits at the top. Start there, or just look around.
 
@@ -579,7 +579,7 @@ Button: Turn on in You
 - Update button: **Update my Issue** · loading: Updating your Issue… · done: [2] new lines added. Nothing else changed.
 - Edit a page: Photo · Text · Layout · Another · Done · note: Only your layouts. Print-safe, always. (existing)
 - Share: Share this page
-- **First-day state:** 8 of 40 · 32 to print · empty pages labeled with what fills them (Your move · Your proof · My World · In your words) · pink button **Fill page 9 · your first move** (existing)
+- **First-day state:** 8 of 40 · 32 to print · empty pages labeled with what fills them (Your move · Your proof · My saves · In your words) · pink button **Fill page 9 · your first move** (existing)
 - Print button before 40: **Ready to print · [15] of 40 pages** (greyed) · helper: Lights up at 40 pages.
 
 ### Ready to print → Order → Order status
@@ -654,7 +654,7 @@ Button: Turn on in You
 **Lucky Star & AI**
 - Switch: Lucky Star & AI
 - What it does: Lucky Star helps you pick a session, a move or a page layout. It only suggests. Nothing changes without your tap.
-- What it reads: Only what you made in ISSUE11: your Journal, your World, your moves, your proof and your cover story.
+- What it reads: Only what you made in ISSUE11: your Journal, your saves, your moves, your proof and your cover story.
 - **What Lucky Star remembers** → list of what it keeps
 - **Clear Lucky Star's memory** → confirm: This clears what Lucky Star remembers. Your Issue, Journal and proof stay. · Clear · Keep
 - **How your data is used** → ⚠️ verify before launch: must match the privacy policy and the AI provider's real terms word for word. No "never used for training" claim unless confirmed.

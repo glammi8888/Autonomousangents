@@ -34,10 +34,24 @@ HOME (one long scrollable page, like my V4 Home)
 - "Your move this week" black card with the pink glass button "I made room for it" -> Add Proof (one line, optional photo -> "Share to my Issue") -> "It's real".
 - Resume capsule: "Resume: [session] · 6 min left" with pink play.
 - Lucky Star flashback card (pink): one of her own Journal lines from months ago, "Does it feel truer now?" -> "Add proof" / "Not yet".
-- "From your saves" strip of her images + "4 more saves = 1 new page".
+- "From your saves" strip of her images + "See all" (no counter).
 - "Latest pages" strip of her newest Issue pages -> "Open Issue".
 - Ends with "That's today. See you tomorrow." (no endless feed).
 - If the week has no move yet, the move card says "Pick this week's move" (her last move, 3 suggestions, "Write my own").
+
+HOW PAGES ARE MADE (important logic)
+- Saves are her VIBE, not pages. Saving (hearting) an image or session never adds a page by itself. There is NO save counter anywhere ("4 more saves = 1 new page" is removed everywhere).
+- Lucky Star is the designer: whenever a page is made, it picks the images from HER saves and HER own photos (matching her vibe) and lays the page out in one of my layouts. She can tap "↻ Another look" to try other images/layouts. Her words are NEVER changed.
+- Pages come from what she DOES and WRITES, from 4 places:
+  1. Her weekly move + proof ("I made room for it" -> Add proof -> "It's real" = 1 page).
+  2. Journal: "Keep page" = 1 page.
+  3. Make a page (she builds it herself, below).
+  4. Her cover and the first 8 starter pages (from onboarding).
+- MAKE A PAGE (screens/51-make-a-page-flow.png): a pink "+ Make a page" button at the top of My saves (next to "+ Add your photo") and on any empty page in the Issue's 40-page grid.
+  Step 1 "Pick 1 to 3 images." from My saves or My photos (numbers show her order) -> "Next".
+  Step 2 "Now, one line." She must write one line ("What does it mean to you? Or a moment you lived."). Required, so every page is about her life. Small note: "Your words stay exactly as you write them." -> "Make my page".
+  Step 3 Lucky Star shows the designed page ("★ Lucky Star designed p.[29]") with "↻ Another look" and "Keep page". Keep page = added to her Issue (+1 of 40). Closing without keeping = nothing is added.
+- The floating 11 stays on every step.
 
 EXPLORE (like Instagram Explore + Pinterest)
 - Search bar on top: "Search sessions and images".
@@ -45,8 +59,8 @@ EXPLORE (like Instagram Explore + Pinterest)
 - "Sessions" chip = organized like Spotify: one big "Picked for you tonight" card on top, then horizontal shelves by type (Visualizations, Affirmations, Meditations, Breath), each with "See all"; extra chips "5 min" and "10 min" filter by length.
 - "See all" on a row opens that type's page (screens/16b): "‹ Sessions" back link, big title (e.g. "Visualizations"), one grey line "[count] sessions · [short description]", chips All · 5 min · 10 min · 15 min, then a 2-column grid of the same tiles (image, round pink play, name, length). Tap a tile = session page. No sort menus, no play counts.
 - "For you" chip = one Pinterest-style grid that mixes images and sessions. Sessions show a round pink play button on the top-left of the image, plus their name and length at the bottom. Images show a heart (tap or double-tap to save).
-- "My saves" chip (her vision board): one grey line on top, "Everything you save can become a page in your Issue." Then her own photos, hearted images and saved sessions. First tile: "+ Add your photo" (iPhone photo picker, only the photos she picks). A pink tile: "4 more saves = 1 new page".
-- Bottom of "My saves" (screens/17b): after her last saves, a clean ending, left-aligned: big "That's everything you've saved.", one grey line "[4] more saves = 1 new page in your Issue.", and one pink glass button "Find more in For you ›" (switches to the For you chip). Nothing else below it: no old content, no disclaimers, no storage notes.
+- "My saves" chip (her vision board): one grey line on top, "Your saves set the vibe of your Issue. Lucky Star designs your pages with them." Then a row with a pink "+ Make a page" button and a dashed "+ Add your photo" button. Then her own photos, hearted images and saved sessions. "+ Add your photo" opens the iPhone photo picker (only the photos she picks). No pink counter tile.
+- Bottom of "My saves" (screens/17b): after her last saves, a clean ending, left-aligned: big "That's everything you've saved.", a pink glass button "+ Make a page" and a glass button "Find more in For you ›" (switches to the For you chip). Nothing else below it: no old content, no disclaimers, no storage notes.
 - Tap a session -> Session page like a Spotify album page (big image, title, length, "Picked for you", big pink play, "What you'll rehearse", "Up next") -> full-screen Player like Spotify Now Playing (video, live words like lyrics, scrubber, back/forward 15 s, save; a small "Voice · Music" slider under the words (each session has 2 audio files of the same length, voice-only and music-only, played together; the slider changes the balance, remembered per user); swipe down = keeps playing in a glass mini player above the tabs; audio keeps playing with the phone locked). Every session has its own video, animation or image (no audio-only mode, no Watch/Listen switch).
 - When a session ends: no new screen. The video dims, the last line stays, and a small glass card rises: "Keep a line from this? · What did you see yourself do?" with "Write it" (opens Journal with that prompt) and "Not now". It fades away by itself after a few seconds.
 

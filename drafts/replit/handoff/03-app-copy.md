@@ -531,7 +531,7 @@ Button: Turn on in You
 - Move card: Your move this week · [move] · button **I made room for it** (existing)
 - No move yet: **Pick this week's move**
 - Resume: Resume: [Try it on] · Session · [6] min left
-- From your saves · See all · [4] more saves = 1 new page (existing)
+- From your saves · See all (no counter, Megan Oct 17)
 - Latest pages · Open Issue
 - End: **That's today. See you tomorrow.** · new story at 7am (existing)
 - **First-day state:** Your Issue has started. Your first move fills page 9.
@@ -561,8 +561,10 @@ Button: Turn on in You
 - Search: Search sessions and images
 - Chips: For you · Sessions · My saves · [topics]
 - Sessions: Picked for you tonight · Visualizations · Affirmations · Meditations · Breath · See all · 5 min · 10 min
-- My saves line: **Everything you save can become a page in your Issue.** (Megan, Oct 16: chip renamed My saves → My saves)
-- My saves tiles: + Add your photo · [4] more saves = 1 new page.
+- My saves line: **Your saves set the vibe of your Issue. Lucky Star designs your pages with them.** (Megan, Oct 16: chip renamed My World → My saves; Oct 17: saves = vibe, no counter)
+- My saves buttons: + Make a page · + Add your photo
+- Make a page: Pick 1 to 3 images. · From your saves and your photos. · My saves · My photos · [3] picked · Next › · Now, one line. · What does it mean to you? Or a moment you lived. · Your words stay exactly as you write them. · Make my page › · ★ Lucky Star designed p.[29] · ↻ Another look · Keep page
+- Bottom of My saves: That's everything you've saved. · + Make a page · Find more in For you ›
 - **Empty My saves:** Tap ♡ on anything that feels like your life. Your own photos count most. [inward]
 - **No search results:** Nothing for that yet. Try another word.
 - **First-day state:** Picked for you tonight sits at the top. Start there, or just look around.

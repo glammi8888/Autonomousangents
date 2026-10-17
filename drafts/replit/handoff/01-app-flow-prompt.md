@@ -19,7 +19,7 @@ It must feel instantly familiar: use the gestures people know from TikTok, Insta
 
 NAVIGATION
 Bottom tabs: Home · Explore · Issue · Journal · You. Issue sits in the centre (like TikTok's "+").
-A floating round "11" sticker button on every screen (bottom right, above the tabs).
+A floating "11" sticker button (Lucky Star) on every screen. It starts bottom right, above the tabs, and she can DRAG it anywhere (like the iPhone AssistiveTouch button): when she lets go it snaps to the nearest left or right edge, never covers the tab bar, and the app remembers where she put it. Tap = opens Lucky Star. Press and hold WITHOUT moving = voice. Press and move = drag. It is never hidden.
 
 FIRST OPEN (right after the paywall and sign in, once)
 - Full red screen (#D40806) with the big cream 11 sticker in the middle and "Peel to open your Issue ↗".

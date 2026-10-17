@@ -52,6 +52,7 @@ HOW PAGES ARE MADE (important logic)
   Step 2 "Now, one line." She must write one line ("What does it mean to you? Or a moment you lived."). Required, so every page is about her life. Small note: "Your words stay exactly as you write them." -> "Make my page".
   Step 3 Lucky Star shows the designed page ("★ Lucky Star designed p.[29]") with "↻ Another look" and "Keep page". Keep page = added to her Issue (+1 of 40). Closing without keeping = nothing is added.
 - The floating 11 stays on every step.
+- NOTE: screens 17, 17b, 01 (Home) and 30 still show the old "4 more saves = 1 new page" tile/line. Ignore that part: this logic and screens/51-make-a-page-flow.png win.
 
 EXPLORE (like Instagram Explore + Pinterest)
 - Search bar on top: "Search sessions and images".

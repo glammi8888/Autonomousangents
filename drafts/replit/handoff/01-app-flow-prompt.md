@@ -61,6 +61,7 @@ MAGAZINE PAGES = TEMPLATES (important logic, not an editor)
 - Edit a page = only 3 things: "↻ Another look" · "Swap a photo" (pick from her saves/photos) · "Edit my words". (Replaces the old Photo / Text / Layout / Mood / Words on-off tools.)
 - Pages render as real printed pages: page proportion (US Letter 8.5x11), white paper edge, page number. Turning the phone sideways shows two-page spreads.
 - Templates must be easy to add later without code changes (new JSON file = new template).
+- See screens/52-magazine-templates-logic.png for the logic and the 6 placeholder templates (placeholders only; final templates come later).
 
 EXPLORE (like Instagram Explore + Pinterest)
 - Search bar on top: "Search sessions and images".

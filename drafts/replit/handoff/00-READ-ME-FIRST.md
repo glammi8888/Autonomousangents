@@ -9,6 +9,7 @@ For Megan. Upload this whole folder (or the zip) to Replit, then paste the promp
 | 03-app-copy.md | All the words in the app (Content Room, Oct 15) |
 | 04-print-purchase.md | Your print order spec ($29.99, shipping, Lulu rules) |
 | 05-design-tokens.md | Colors, fonts, sizes (incl. the readable pink/grey) |
+| 07-launch-scope-prompt.md | **Paste this too:** what to build for launch vs. V1.1 (Oct 19) |
 | 06-lucky-star/ | Your 5 Lucky Star screens (the look to copy) |
 
 ## Notes before you paste

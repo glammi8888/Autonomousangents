@@ -24,6 +24,7 @@ MOVE TO V1.1 (do NOT build now; if already built, hide it behind a switch so it'
 - Voice · Music slider in the player (play one mixed audio file per session for now).
 
 RULES THAT STAY:
+- Magazine pages are TEMPLATES (see 01-app-flow-prompt.md "MAGAZINE PAGES = TEMPLATES"): 6 placeholder templates for now, Lucky Star picks template + images + color, "Another look" = another template, Edit = Another look · Swap a photo · Edit my words. No editing tools.
 - Saves are her vibe, not pages. No save counter anywhere. Pages come from her moves + proof, Journal "Keep page", Make a page, and the starter pages.
 - No streaks, stats, timers or to-do lists. No fake urgency.
 - Sample content only: no real payments, sign-in, AI or API keys until I approve them.

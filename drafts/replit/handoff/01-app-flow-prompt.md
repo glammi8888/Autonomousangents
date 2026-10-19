@@ -54,6 +54,14 @@ HOW PAGES ARE MADE (important logic)
 - The floating 11 stays on every step.
 - NOTE: screens 17, 17b, 01 (Home) and 30 still show the old "4 more saves = 1 new page" tile/line. Ignore that part: this logic and screens/51-make-a-page-flow.png win.
 
+MAGAZINE PAGES = TEMPLATES (important logic, not an editor)
+- Every Issue page is built from a fixed library of PAGE TEMPLATES (indie fashion/beauty magazine look: collage grids, giant cropped type, pink duotone, color blocks, spreads). The final templates come later; for now build 6 simple placeholder templates as data (JSON: image slots + text slot + color), e.g. 1) full photo + small caption, 2) 3x3 photo grid, 3) giant word + 1 photo, 4) pink duotone photo + quote, 5) color block (pink/red/yellow/black) + big quote, 6) cover.
+- Lucky Star only CHOOSES: which template, which of her images go in the slots, and the color treatment. Her words go in the text slot unchanged.
+- "↻ Another look" = same images + words, another template. She never drags, resizes or styles anything. No Canva-style tools.
+- Edit a page = only 3 things: "↻ Another look" · "Swap a photo" (pick from her saves/photos) · "Edit my words". (Replaces the old Photo / Text / Layout / Mood / Words on-off tools.)
+- Pages render as real printed pages: page proportion (US Letter 8.5x11), white paper edge, page number. Turning the phone sideways shows two-page spreads.
+- Templates must be easy to add later without code changes (new JSON file = new template).
+
 EXPLORE (like Instagram Explore + Pinterest)
 - Search bar on top: "Search sessions and images".
 - One row of chips: For you · Sessions · My saves · then topics (Money, Love, ...).
@@ -67,9 +75,9 @@ EXPLORE (like Instagram Explore + Pinterest)
 
 ISSUE
 - Her magazine reads like a real magazine: swipe left/right (or tap the edges) to turn pages, NO timer, no progress bars; top shows "p.15 / 40". Swipe down to close. Shows "14 of 40 pages · 26 to print". Every Issue has exactly 40 pages to print; it starts with 8 and fills up as she adds proof, photos and journal lines. At 40: "Ready to print".
-- Bottom row: a glass pill "25 pages to print ›" (tap = shows how to fill the next page and jumps there; at 40 it becomes "Ready to print"), a pink "Edit" button (opens the edit sheet: Cover · Mood · Words on/off · Photo · Layout · Update my Issue), and a round Share button. The floating 11 stays on this screen too.
+- Bottom row: a glass pill "25 pages to print ›" (tap = shows how to fill the next page and jumps there; at 40 it becomes "Ready to print"), a pink "Edit" button (opens the edit sheet: ↻ Another look · Swap a photo · Edit my words), and a round Share button. The floating 11 stays on this screen too.
 - Share button: share the current page as an image (iOS share sheet).
-- Tap a page -> edit sheet: swap photo, edit text, pick another layout (only from my layouts), "Try another version".
+- Tap Edit -> edit sheet: "↻ Another look" (another template), "Swap a photo", "Edit my words". Nothing else.
 - Issue 02 starts after she orders the print: Issue 01 moves to a shelf of past Issues and Issue 02 begins with 8 fresh pages and a new cover reveal.
 - At 40 of 40 pages: "Ready to print" screen with a grid of all 40 pages and the button "I love it · Approve my Issue".
 - Only after she approves: "Order my print" screen (cover preview, copies, shipping address, price "$29.99" per Issue, three shipping options "Standard · 11–14 business days · Free" (selected), "Expedited · 6–9 business days · + $16", "Express · 5–8 business days · + $32", a Total line "$29.99 + tax", and a small note "Printing takes 3–5 business days before shipping. Estimates, not guaranteed. Hawaii, Alaska and Puerto Rico take longer." Rules: purchase happens inside the app (not a web page), US addresses only; if the address is a PO box or APO/FPO, show only "Standard" and "Priority Mail · 9–12 business days · + $10". see 04-print-purchase.md; Apple Pay button "Place my order"). No real payment yet.

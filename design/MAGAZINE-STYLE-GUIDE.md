@@ -3,6 +3,18 @@ Megan: "I will definitely train it to make it look like an indie art/fashion/bea
 How it works: Lucky Star never designs. It fills Megan's approved layouts (design/magazine-ai-spec.md). The magazine looks as good as this library + these rules. No model training needed.
 **Next input:** Megan's Pinterest board → each pin becomes a reference for one layout type below (save the link + screenshots in design/magazine/inspo/, research rule Oct 7).
 
+
+## 0. Megan's board (Oct 19, 2026) · the look to aim for
+Megan shared 5 screenshots of her Pinterest board: "This is how I want the Magazines to look like" + "I don't want it to be an editing tool like canva" + "no need to design templates yet but i would like the app to reflect that logic and keeping it simple".
+What repeats on her board (use these for every layout):
+- **Indie / experimental print**, not glossy: risograph pink duotone, halftone, overprint, paper and fold texture.
+- **Giant type** cut off at the page edge; mixed fonts (condensed bold sans + serif italic + typewriter mono).
+- **Collage grids** of 9–16 small images; torn/cut-out photos; stickers and stars.
+- **Color blocks:** hot pink, red, acid yellow, black; often one color per spread.
+- **Spreads** (two pages side by side), page numbers, real margins.
+- Fashion/beauty portraits, close-up faces, lots of white space next to dense pages.
+**Logic (decided):** a fixed library of page templates in this look. Lucky Star only picks the template, her images and the color treatment. "↻ Another look" = another template. She never moves things around. Templates are designed later (Megan in Canva or a hired magazine designer); until then the app uses a few placeholder templates.
+
 ## 1. Layout library (target 25–30, Megan keeps/cuts)
 | Type | Count | What it is | Fed by |
 |---|---|---|---|

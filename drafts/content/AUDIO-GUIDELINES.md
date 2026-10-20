@@ -63,3 +63,48 @@ Rules: instrumental only (her voice is the only voice) · steady, no drops or bu
 1. Which music worlds: A Afrobeat · B Deep house · C R'n'B lofi (all 3, matched to session type as in section 2 = recommended).
 2. Tone: is section 3 + the sample lines right, or softer / bolder?
 3. Subliminals: OK with "audible if you listen + list shown in the player" (recommended for trust and App Review)?
+
+---
+
+## 9. ICP music fit ✅ (Megan agreed Oct 20: "ok i agree on all of them")
+Inferred from design/ICP.md taste (Soho House × Pinterest × fashion magazine) · [Assumed] until tested.
+- ⭐ **R'n'B lofi / neo-soul** = safest core: Affirmations, evening, Journal.
+- ⭐ **Soft deep house / Balearic** = most "her" (members'-club sound): Visualizations.
+- ✅ **Slow Afrobeat / Afro-house (mellow)** = accent: Confidence, Travel, Money moves.
+- ⚠️ Spa / singing bowls / "432 Hz frequencies": only as plain texture for subliminal beds (woo-woo + health-claim risk).
+- ❌ Hype/"boss" beats, EDM drops, trailer music.
+- Positioning: "the soundtrack of your future life", not "meditation music". Expensive restraint, instrumental, Megan's voice is the only voice.
+- Test before recording all sessions: 30 s of each world under this week's reels (compare saves/watch time) + optional waitlist question.
+
+## 10. 20 Suno test prompts (Oct 20)
+How to use: Suno → Create → Custom → turn **Instrumental ON** → paste into **Style**. Title = the name. Make 2 versions each, keep favorites. Paid plan only (commercial rights apply only to songs made while subscribed). No artist names (Suno blocks them, and copying a real artist's style is a trust risk).
+
+**R'n'B lofi / neo-soul (Affirmations, evenings, Journal)**
+1. *Candlelight Pages* · rnb lofi, neo-soul, warm rhodes piano, dusty soft drums, round bass, vinyl crackle, slow 75 bpm, intimate, late evening, calm, spacious, no vocals
+2. *Soft Promise* · smooth rnb instrumental, mellow electric piano, brushed snare, warm sub bass, gentle guitar chords, 72 bpm, tender, hopeful, minimal, no vocals
+3. *Silk Sheets Sunday* · neo-soul lofi, jazzy chords, muted trumpet far in the background, soft boom bap drums, 80 bpm, cozy, sunlit morning, relaxed, no vocals
+4. *Note to Self* · chill rnb beat, airy synth pads, soft finger snaps, warm bass, slow 70 bpm, dreamy, reflective, steady groove, no drops, no vocals
+5. *Rose Gold Hour* · lofi soul, warm wurlitzer, tape saturation, gentle kick and rim, 78 bpm, nostalgic, soft glow, unhurried, no vocals
+6. *Her Bedroom Studio* · bedroom rnb instrumental, plucked guitar, soft pads, light percussion, 74 bpm, intimate, honest, calm, simple arrangement, no vocals
+
+**Soft deep house / Balearic (Visualizations)**
+7. *Members' Club, Sunday* · soft deep house, muffled four on the floor kick, warm sub bass, jazzy house chords, shaker, 118 bpm, elegant, lounge, steady, no build ups, no vocals
+8. *Night Drive to Her Life* · deep house instrumental, dreamy pads, smooth bassline, soft hi-hats, 116 bpm, city lights at night, calm focus, hypnotic, no drops, no vocals
+9. *Hotel Lobby, 11pm* · minimal deep house, warm rhodes stabs, soft kick, subtle percussion, 115 bpm, expensive, understated, late night, consistent groove, no vocals
+10. *Balearic Morning* · balearic house, acoustic guitar, soft piano, gentle kick, warm pads, 112 bpm, sunrise by the sea, optimistic, airy, no vocals
+11. *Getting Dressed as Her* · chic deep house, plucky synth, soft groove, warm bass, light claps, 120 bpm, confident, fashion runway at golden hour, subtle, no drops, no vocals
+12. *Penthouse Light* · organic deep house, soft marimba, warm pads, gentle percussion, 117 bpm, spacious, refined, calm, steady energy, no vocals
+
+**Slow Afrobeat / mellow Afro-house (Confidence, Travel, Money moves)**
+13. *Golden Hour Walk* · slow afrobeats instrumental, soft log drum, light shakers, mellow guitar licks, warm pads, 95 bpm, sunset, confident, relaxed groove, no vocals
+14. *Rooftop at Sunset* · mellow afro-house, warm percussion, soft kick, airy chords, 112 bpm, warm, joyful, easy, steady, no build ups, no vocals
+15. *I Back Myself* · afro soul instrumental, smooth bass, soft talking drum far back, clean guitar, 92 bpm, calm confidence, warm, uplifting, no vocals
+16. *The Trip I Keep Picturing* · slow afrobeats, ocean breeze feel, kalimba, soft congas, warm bass, 96 bpm, travel, freedom, light, sunny, no vocals
+17. *Money Moves Quietly* · afro-fusion lofi, warm keys, soft log drum, gentle shakers, 90 bpm, focused, calm, grounded, minimal, no vocals
+
+**Subliminal beds (not musical)**
+18. *Rain on Glass* · ambient soundscape, soft rain on a window, warm low pad, no melody, no beat, calm, steady, seamless, 10 minutes feel
+19. *Quiet Ocean Room* · ambient, distant gentle ocean waves, soft warm drone, no rhythm, no melody, peaceful, consistent texture
+20. *Warm Room Tone* · minimal ambient pad, soft pink noise, very slow evolving warmth, no beat, no melody, neutral, unobtrusive
+
+What to listen for: does the voice still sit clearly on top? Any sudden drops, vocals or loud moments → reject. Pick the 1–2 best per world; one bed can serve several sessions.

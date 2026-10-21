@@ -130,3 +130,8 @@ Megan: "make the copy irresistible but also polarizing", "focused on desired out
 ## Founding offer (✅ Megan, Oct 21, word for word: "50% first year", "1000 only", "limited spots available")
 The first 1,000 people on the waitlist get 50% off their first year ($4.99/month instead of $9.99 for 12 months). Shown in the hero ("Limited spots · The first 1,000 get 50% off their first year."), the closing card and FAQ "How much does it cost?" (+ JSON-LD).
 ⚠️ Before going live: Revenue + the build confirm how to deliver it in the App Store (introductory offer or offer codes, sent to the first 1,000 waitlist emails); the waitlist tool must count sign-ups so "first 1,000" is true; stop showing the offer once 1,000 is reached.
+
+## v11 (Oct 21): restyled to the NEW brand (design/brand-revamp/BRAND-DIRECTION.md)
+Megan: "we changed the fonts". Landing now follows the locked brand: Archivo Condensed 800 titles (uppercase), Inter Tight text and bold sentences, IBM Plex Mono labels; flat and square, hairlines, no shadows, no glass; black buttons (baby-pink on the black closing card); white/black base with baby pink #F7C6D9 touches; text-pink #C2207E for small pink text.
+Real-magazine rule applied: the AI-rendered magazine photo is gone. Hero uses an editorial photo; the print section shows a dashed slot "Photo of the real printed ISSUE11 proof goes here" until her proof is photographed. Previous version: index-v10-oldbrand.html.
+Note: Megan asked earlier today for Liquid Glass buttons on the landing; the locked brand says flat buttons, so flat wins. Ask her if she wants glass back.

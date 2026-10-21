@@ -1,4 +1,4 @@
-> **NEW BRAND (Oct 21, 2026) replaces the type below:** Titles = Archivo Condensed 800 uppercase · Text = Inter Tight · Labels = IBM Plex Mono · wavy ISSUE11 logo kept · white + black + baby pink (#F7C6D9) touches · flat, square corners, hairline rules, no glossy/glass buttons. See design/brand-revamp/BRAND-DIRECTION.md.
+> **NEW BRAND (Oct 21, 2026) replaces the type below:** Titles = Archivo Condensed 800 uppercase · Text = Inter Tight · Labels = IBM Plex Mono · wavy ISSUE11 logo kept · big hero titles MELT like the logo (medium smooth wave, see design/brand-revamp/17-melting-titles.png, option 2) · white + black + baby pink (#F7C6D9) touches · flat, square corners, hairline rules, no glossy/glass buttons. See design/brand-revamp/BRAND-DIRECTION.md.
 
 # Claude Design V4 · Home — design tokens (from Megan's HTML export, Oct 3, 2026)
 Source: design/claude-design/v4-home-html/V4Home.dc.html (reference mockup, not production code). These values replace older prototype tokens where they differ.

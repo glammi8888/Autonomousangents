@@ -113,3 +113,10 @@ Megan's notes that shaped it: show plainly what the product is · a real physica
 **Photo to get before launch:** order one Lulu proof of a sample Issue and photograph it on the baby-pink paper (replaces assets/magazine-photo.webp, which is the AI moodboard image).
 
 **✅ Copy approved (Megan, Oct 21, word for word: "Ok the copy is excellent now").** The v6 copy in design/landing/index.html is approved: hero H1 "See it clearly. Take the next step.", pain lines (unattributed), outcome rows, cover titles, FAQ, closing. Still open: the founder quote is Claude's draft in Megan's name (she confirms or rewrites it before launch); confirm whether Lucky Star "suggests what to do next" before adding that back.
+
+## v7 (Oct 21): stance + "Name your Issue" + polarizing, outcome-led copy
+Megan: "make the copy irresistible but also polarizing", "focused on desired outcome", "copywriting is outcome focused always". Her hero kicker: "The app that helps you achieve your dreams."
+**New sections (after Sound familiar?):** P.04 "Manifestation that makes you move." For you if / Not for you if (polarize against behaviors, never people or apps) + link "Done waiting? Name your Issue ↓" · P.05 "Name your Issue." title input + 3 title ideas + 4 moods → live cover, "This is your cover. The other 39 pages are yours to make." + the same email form. Nothing typed is saved or sent.
+**Copy changes:** lede opens "Seeing it was never the problem. Moving toward it is." · "From scattered dreams to your Issue." · "Your goals. Your pace. Your pages. Nobody else's." · gallery "Which one is yours?" · closing "Stop saving it for someday. Join the waitlist…"
+**A/B options for the hero H1 (Megan to pick):** "Stop wishing. Start moving." · "Waiting isn't a plan. This is." vs the approved "See it clearly. Take the next step."
+**Framer:** cover maker = a Code Component (text input, 3 chips, 4 radio moods → cover preview with two cross-fading image layers); on phones keep the preview sticky above the input.

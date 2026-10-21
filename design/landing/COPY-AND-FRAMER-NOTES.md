@@ -120,3 +120,9 @@ Megan: "make the copy irresistible but also polarizing", "focused on desired out
 **Copy changes:** lede opens "Seeing it was never the problem. Moving toward it is." · "From scattered dreams to your Issue." · "Your goals. Your pace. Your pages. Nobody else's." · gallery "Which one is yours?" · closing "Stop saving it for someday. Join the waitlist…"
 **A/B options for the hero H1 (Megan to pick):** "Stop wishing. Start moving." · "Waiting isn't a plan. This is." vs the approved "See it clearly. Take the next step."
 **Framer:** cover maker = a Code Component (text input, 3 chips, 4 radio moods → cover preview with two cross-fading image layers); on phones keep the preview sticky above the input.
+
+## v8 (Oct 21): design loop (6 rounds, critic 9.5/10, DONE)
+- **Hero:** two columns on desktop (masthead 300px, headline, form + " Coming to the App Store · Dec 11" glass badge | magazine photo with a front-facing iPhone inside its corner); on phones the magazine photo peeks into the first screen.
+- **Liquid Glass buttons** like the app (pink glass, white top highlight). At launch (Dec 11), replace the "Coming to" badge with Apple's official "Download on the App Store" badge + the real store link (Apple's badge rules apply).
+- **Inside the app = screens gallery:** 4 phones side by side on stone plinths (swipe on phones with a "1 / 4 →" counter). One stone band only ("Name your Issue").
+- **Photography is the last upgrade:** shoot the printed proof on a white or stone table, ideally open on a spread; replace app screens with real build screenshots.

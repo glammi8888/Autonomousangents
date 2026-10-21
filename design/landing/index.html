@@ -117,7 +117,7 @@ a{color:inherit}
 .stage .phone{--pw:270px;left:52%;top:64px;transform:rotateY(-26deg) rotateX(8deg) rotateZ(3deg) translateZ(40px);animation:hover 7s ease-in-out infinite}
 .stage .mag{--w:320px;--h:414px;--t:15px;position:absolute;left:22%;top:150px;transform:rotateX(52deg) rotateZ(-20deg)}
 @keyframes hover{50%{translate:0 -10px}}
-@media (max-width:700px){.set{height:470px}.stage .phone{--pw:190px;left:46%;top:44px}.stage .mag{--w:200px;--h:259px;--t:11px;left:4%;top:150px}}
+@media (max-width:700px){.set{height:470px}.stage .phone{--pw:190px;left:44%;top:44px}.stage .mag{--w:180px;--h:233px;--t:10px;left:-2%;top:220px}}
 
 
 /* Cream 11 sticker (pink 11), peels on hover/tap */
@@ -180,10 +180,10 @@ a{color:inherit}
 .feature:nth-child(even) .phone{--base:16deg;--rz:-1deg}
 .feature:hover .phone{transform:rotateX(4deg) rotateY(calc(var(--base,-20deg)*.5 + var(--vy,0deg)))}
 @media (max-width:860px){
-  .feature{grid-template-columns:minmax(0,1fr);padding:32px 28px 0;min-height:600px;top:calc(80px + var(--i,0) * 14px);gap:8px}
+  .feature{grid-template-columns:minmax(0,1fr);padding:32px 28px 0;min-height:auto;top:calc(80px + var(--i,0) * 14px);gap:8px}
   .feature .txt{padding-bottom:0}
-  .feature .vis{min-height:340px}
-  .feature .phone{--pw:230px;left:50%;margin-left:-115px;bottom:-90px}
+  .feature .vis{min-height:300px;margin-top:16px}
+  .feature .phone{--pw:210px;left:50%;margin-left:-105px;top:0;bottom:auto}
 }
 
 /* 4 · How it works: sticky phone swaps screens */
@@ -197,8 +197,8 @@ a{color:inherit}
 .sticky{position:sticky;top:calc(50vh - 320px);height:640px;perspective:1600px}
 .sticky .aura{width:520px;height:520px;left:50%;top:50%;margin:-260px 0 0 -260px;opacity:.6}
 .sticky .phone{--pw:290px;left:50%;top:10px;margin-left:-145px;transform:rotateY(-18deg) rotateX(6deg) rotateZ(2deg)}
-.sticky .screen img{opacity:0;transform:scale(1.04)}
-.sticky .screen img.on{opacity:1;transform:none}
+.sticky .screen img{opacity:0;transition:opacity .25s ease}
+.sticky .screen img.on{opacity:1}
 .sticky .cap{position:absolute;left:0;right:0;bottom:-4px;text-align:center;color:var(--grey)}
 .after{display:flex;justify-content:center;margin-top:40px}
 @media (max-width:860px){
@@ -211,7 +211,7 @@ a{color:inherit}
 }
 
 /* 5 · Print: the paper Issue opens as you scroll */
-.printstage{position:relative;height:640px;perspective:2200px}
+.printstage{position:relative;height:640px;perspective:2200px;margin-top:48px}
 .spread{--o:1;position:absolute;left:50%;top:50%;width:min(920px,100%);aspect-ratio:17/11;transform:translate(-50%,-50%) rotateX(calc(36deg - 22deg*(1 - var(--o)))) rotateZ(calc(-6deg + 4deg*(1 - var(--o))));transform-style:preserve-3d}
 .spread .shadow{position:absolute;inset:6% 4% -6% 4%;background:rgba(13,13,13,.22);filter:blur(24px);transform:translateZ(-20px)}
 .spread .pageR{position:absolute;top:0;right:0;width:50%;height:100%;background:center/cover;box-shadow:inset 18px 0 24px -18px rgba(13,13,13,.45)}
@@ -224,7 +224,7 @@ a{color:inherit}
 .spread .cover .b{transform:rotateY(180deg);background:var(--blush);padding:16px;display:grid;align-content:space-between;box-shadow:inset -18px 0 24px -18px rgba(13,13,13,.3)}
 .spread .cover .b .h{font-size:clamp(16px,3vw,44px)}
 .spread .cover .b p{margin:0;font-size:clamp(11px,1.2vw,14px);color:#3a3a3a}
-@media (max-width:700px){.printstage{height:300px}}
+@media (max-width:700px){.printstage{height:340px;perspective:1400px}.spread .shadow{inset:10% 8% -4% 8%;filter:blur(18px);background:rgba(13,13,13,.14)}}
 @media (prefers-reduced-motion:reduce){.covers{overflow-x:auto}.covers .track{position:relative;top:auto;transform:none;height:100%;align-items:center}}
 
 /* 6 · FAQ */
@@ -247,6 +247,7 @@ footer{padding-block:var(--gap) 120px}
 footer .row{display:flex;flex-wrap:wrap;gap:16px 24px;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:20px}
 footer .wm{width:84px}
 footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color:var(--grey)}
+@media (max-width:700px){footer .row{flex-direction:column;align-items:flex-start;gap:16px}}
 
 /* Floating Lucky Star 11 (always there, like the app) */
 .lucky{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:75;transition:opacity .3s,transform .3s var(--ease)}
@@ -409,7 +410,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color
           <div class="face"><div class="screen">
             <img class="on" src="assets/app-17.webp" alt=""><img src="assets/app-08.webp" alt=""><img src="assets/app-26.webp" alt=""><img src="assets/app-05.webp" alt="">
             <span class="glare"></span></div></div></div></div>
-        <span class="cap mono" id="stickyLabel">My saves</span>
+        
       </div>
     </div>
     <div class="after"><a class="btn" href="#join">Get early access</a></div>
@@ -537,6 +538,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color
   document.getElementById('luckyGo').addEventListener('click',function(){setPop(false);});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!lp.hidden){setPop(false);lb.focus();}});
   var hide=[document.querySelector('.hero .join'),document.querySelector('.closing'),document.querySelector('footer')], seen=new Set();
+  if(window.matchMedia('(max-width: 700px)').matches){hide.push(document.getElementById('how'),document.getElementById('faq'),document.getElementById('printStage').closest('section'));}
   if('IntersectionObserver' in window){var io2=new IntersectionObserver(function(es){es.forEach(function(en){en.isIntersecting?seen.add(en.target):seen.delete(en.target);});lk.classList.toggle('away',seen.size>0);if(seen.size)setPop(false);});
     hide.forEach(function(el){io2.observe(el);});}
   else lk.classList.remove('away');
@@ -544,7 +546,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color
   // Sticky phone: the screen matches the step in view.
   var steps=[].slice.call(document.querySelectorAll('.step')), shots=[].slice.call(document.querySelectorAll('#stickyPhone .screen img'));
   var labels=['My saves','Journal','Your move','Your Issue'], sl=document.getElementById('stickyLabel');
-  function activate(i){steps.forEach(function(s,k){s.classList.toggle('on',k===i);});shots.forEach(function(im,k){im.classList.toggle('on',k===i);});sl.textContent=labels[i];}
+  function activate(i){steps.forEach(function(s,k){s.classList.toggle('on',k===i);});shots.forEach(function(im,k){im.classList.toggle('on',k===i);});}
   activate(0);
   if('IntersectionObserver' in window){
     var so=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting)activate(+en.target.dataset.step);});},{rootMargin:'-45% 0px -45% 0px'});
@@ -588,7 +590,7 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color
     var rc=cv.getBoundingClientRect(), pc=clamp((vh-rc.top)/(vh+rc.height));
     tr.style.setProperty('--x',(-pc*Math.max(0,tr.scrollWidth-cv.clientWidth+80)).toFixed(1)+'px');
     var r3=pStage.getBoundingClientRect();
-    spread.style.setProperty('--o',(1-clamp((vh*0.95-r3.top)/(vh*0.65))).toFixed(3));
+    spread.style.setProperty('--o',(0.4*(1-clamp((vh*0.95-r3.top)/(vh*0.65)))).toFixed(3));
   }
   function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(frame);}}
   window.addEventListener('scroll',onScroll,{passive:true});

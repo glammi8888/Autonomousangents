@@ -147,6 +147,8 @@ Sign in with Apple (onboarding 38) · restore purchases · manage subscription �
 2. ✅ **Sessions: decided.** Megan, Oct 14, word for word: "Pick one of the sessions (they are pre-designed for quality control)". Lucky Star picks one of Megan's pre-made sessions and says why; copy says "picked for you", never "made". AI-made sessions are not planned.
 3. ✅ **Her own photos: in V1.** Megan, Oct 14, word for word: "yes she definitely can upload her own images... She can also pick from our pre-set images as well". My World = presets + her own photos (iPhone photo picker, no full-library access). ⚠️ Storing her photos is user data → Megan approves a short photo-storage spec before it is built (CLAUDE.md rule 4): where they are kept, who can see them, how she deletes them.
 
+**Magazine page + Journal page design: NOT final (Megan, Oct 21, word for word: "Also the app design isn't finalized either for the \"magazine page\"" + "and \"journal\" pages").** Builders keep the current placeholder magazine pages and Journal screens (Issue reader, Journal + its live page, Make a page, Edit a page) as they are: no restyling, no new layouts, no template work until Megan finalizes the page design (style source: design/MAGAZINE-STYLE-GUIDE.md).
+
 ⚠️ Still needs Megan's approval before building, whatever she decides: design/magazine-ai-spec.md (journal text → AI), payments/RevenueCat, sign in, delete account (CLAUDE.md rule 4).
 
 ## Later (after launch)

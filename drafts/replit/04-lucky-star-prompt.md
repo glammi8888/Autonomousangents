@@ -1,7 +1,7 @@
 # Replit prompt 04: Lucky Star to Megan's A–G design (change 2 of 4, Oct 21, 2026)
 Made by 🩵 PRODUCT (Build Room) from drafts/dev/replit-build-audit-2026-10-21.md (Lucky Star row), design/V1-SIMPLIFIED.md (Lucky Star in V1 + UX ideas 1–4, approved Oct 14–15), drafts/replit/handoff/01-app-flow-prompt.md ("THE 11") and design/claude-design/lucky-star-v1/.
 **Status: DRAFT, not sent. Megan reviews first.** Send only after change 1 is verified and Megan says go.
-Scope note: placeholder answers only. No real AI, no API keys, no data sent anywhere (AI data handling needs Megan's spec approval, CLAUDE.md rule 4).
+Scope note: the magazine page and Journal page designs are not final (Megan, Oct 21), so this prompt does not touch page layouts or the Journal screen. Placeholder answers only. No real AI, no API keys, no data sent anywhere (AI data handling needs Megan's spec approval, CLAUDE.md rule 4).
 
 ```
 Lucky Star update only. Keep the 11 sticker, the pink fade/glow and the dreamy glass buttons exactly as they look now. Don't change onboarding, the tabs, colors or any other screen. Use placeholder answers (no real AI, nothing sent online).
@@ -15,8 +15,8 @@ Lucky Star update only. Keep the 11 sticker, the pink fade/glow and the dreamy g
 4. The card depends on the screen she opened it from (the top label shows that screen's name):
    - Home: the one next thing (no move this week -> "Pick my move" · move done but no proof -> "Add proof" · otherwise -> start tonight's session).
    - Explore: "Pick a session for me" -> it picks ONE of the existing demo sessions, shows its image, name and length, says "Picked for you" plus one line why, and a "Play" button that opens Now Playing for that session. It never says "made" and never shows "NO SESSIONS ADDED YET".
-   - Journal: one gentle question about what she wrote (never words put in her mouth).
-   - Issue: "Try another version of this page".
+   - Journal: one gentle question about what she wrote (never words put in her mouth). Only the Lucky Star card changes; don't touch the Journal screen itself, its design isn't final.
+   - Issue: "Try another version of this page" (swap between the existing placeholder layouts only; don't restyle the magazine pages or add new layouts, their design isn't final).
    - My saves: "It's missing a feeling" + 3 images -> ADD ALL 3 / SWAP ONE (keep the current behavior).
    Rename every old label: "In Scribe" -> "Journal", "Listen" -> "Explore", "Curate" / "My World" / "Your World" -> "My saves".
 

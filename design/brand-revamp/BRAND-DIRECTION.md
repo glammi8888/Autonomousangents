@@ -42,3 +42,11 @@ Megan, word for word: "I don't want any picture of a magazine that isn't real". 
 Harry Richards poster-grid site on a phone · MAJI STUDIOS (one giant letter "M", tiny text) · Inner.co (huge wordmark cropped off the screen edge, photos labeled "001001.jpg", small right-aligned text) · Pryatki (full-bleed photo, soft pink backdrop).
 Takeaways: one giant cropped word or letter per screen, very small secondary text, file-name style captions, full-bleed photos, generous white. Also: present app screens as real phones in hands / on a table (real photos), not flat mockups.
 Also (same day): Apple Music concept (tile wall of covers, square + round crops, giant "Music" word cropped at the bottom, grey "+ Add" tile) · quiet still-life editorial (soft grey photos, one medium headline, small two-column text, a → arrow) · Maison Point Blue (tiny logo top center, small caps paragraph, one small photo in lots of white, logo big at the bottom).
+
+## Fonts · LOCKED (Megan, Oct 21: "ok i like that")
+From the Home 4-options board she loves. All free Google Fonts (OFL).
+- **Titles:** Archivo Condensed (Archivo, width 62, weight 800), UPPERCASE, line-height ~0.86. e.g. "THE FREEDOM (ISSUE)".
+- **Text + bold sentences:** Inter Tight (400 text, 800 tight sentences, letter-spacing about -0.04em).
+- **Labels:** IBM Plex Mono 500, UPPERCASE, small (8–10px in mockups).
+- **Logo:** the wavy ISSUE11 image, unchanged.
+Colors: white/off-white base, black, pink accents (calm: baby pink #F7C6D9 small touches; text-pink #C2207E only for small readable pink text). No hot-pink blocks unless Megan asks.

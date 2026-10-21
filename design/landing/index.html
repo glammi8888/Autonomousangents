@@ -6,301 +6,266 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: the app's own V4 language at website scale. White page, pink fade (Lucky Star aura), huge wavy wordmark,
-   Archivo Black headlines set tight + tiny IBM Plex Mono labels, pink pill buttons, cream 11 sticker, real app screens
-   in 3D phones, paper-3D printed Issue. Framer-style: floating glass nav, phone stage with floating chips, bento cards,
-   sticky phone that swaps screens on scroll, big CTA card. Single deliberate light look (the app is white). */
+/* Layout system (v3, one rule set for every section):
+   - one column of 1120px, every section opens with the same centered head (mono label · H2 · sub)
+   - one card style (32px radius, warm off-white, hairline), pink fade only in the hero and the closing card
+   - one type scale: H1 56 · H2 52 · H3 34 · body 19 · label 11 mono
+   - one rhythm: 128px between sections (88px on phones)
+   The app's own look: white page, wavy wordmark, Archivo Black + IBM Plex Mono, pink pill buttons, cream 11 sticker. */
 :root{
-  --ink:#0d0d0d; --page:#ffffff; --cream:#f5eee0; --pink:#f65aad; --blush:#fcd2dd; --red:#d40806;
-  --pinktext:#c2207e; --grey:#6b6762; --line:#e7e2dc; --soft:#f7f4f0; --white:#ffffff;
+  --ink:#0d0d0d; --page:#ffffff; --card:#f8f5f1; --line:#ebe5de; --cream:#f5eee0; --pink:#f65aad; --blush:#fcd2dd;
+  --pinktext:#c2207e; --grey:#6b6762; --body-ink:#2b2b2b; --white:#ffffff;
   --display:"Archivo Black","Arial Black",Impact,sans-serif;
   --body:"Archivo Narrow","Arial Narrow","Roboto Condensed",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   --gl:max(16px, env(safe-area-inset-left, 0px)); --gr:max(16px, env(safe-area-inset-right, 0px));
-  --max:1200px; --ease:cubic-bezier(.2,.8,.2,1);
+  --max:1120px; --gap:128px; --radius:32px; --ease:cubic-bezier(.2,.8,.2,1);
+  --h1:clamp(34px,4.6vw,56px); --h2:clamp(32px,4.2vw,52px); --h3:clamp(26px,2.6vw,34px);
   color-scheme:light;
 }
+@media (max-width:700px){:root{--gap:88px;--radius:26px}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth}
-body{background:var(--page);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.45}
+body{background:var(--page);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.45}
 main,footer{overflow-x:clip}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:80;background:var(--page)}
 img{max-width:100%;display:block}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:6px}
 .wrap{max-width:var(--max);margin:0 auto;padding-left:var(--gl);padding-right:var(--gr)}
-.mono{font-family:var(--mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase;line-height:1.4;font-weight:400}
-.pinktext{color:var(--pinktext)}
-.h{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:-.06em;line-height:.86;margin:0;text-wrap:balance}
+.mono{font-family:var(--mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase;line-height:1.4}
+.label{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--pinktext);margin:0}
+.h{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:-.05em;line-height:.9;margin:0;text-wrap:balance}
 .wm{display:block;width:100%;height:auto;color:var(--ink)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .flag{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.04em;text-transform:uppercase;background:var(--ink);color:var(--pink);padding:3px 7px;border-radius:4px}
+.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
 .chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--white);border-radius:22px;padding:6px 12px}
-.chip .dot{width:7px;height:7px;border-radius:50%;background:var(--pink);box-shadow:0 0 0 4px rgba(246,90,173,.18)}
+.chip .dot{width:7px;height:7px;border-radius:50%;background:var(--pink)}
 
-/* Pink fade (Lucky Star aura) */
-.aura{position:absolute;pointer-events:none;border-radius:50%;filter:blur(40px);background:radial-gradient(closest-side,rgba(246,90,173,.55),rgba(252,210,221,.35) 55%,transparent 72%);animation:breathe 7s ease-in-out infinite}
-@keyframes breathe{50%{transform:scale(1.12);opacity:.75}}
+/* Section: same head, same rhythm everywhere */
+.sec{padding-block:var(--gap) 0}
+.head{display:grid;gap:16px;justify-items:center;text-align:center;max-width:760px;margin:0 auto 56px}
+.head h2{font-size:var(--h2)}
+.head p.sub{margin:0;font-size:20px;color:var(--body-ink);max-width:52ch}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);position:relative;overflow:hidden;min-width:0}
+.aura{position:absolute;pointer-events:none;border-radius:50%;filter:blur(40px);background:radial-gradient(closest-side,rgba(246,90,173,.5),rgba(252,210,221,.3) 55%,transparent 72%);animation:breathe 7s ease-in-out infinite}
+@keyframes breathe{50%{transform:scale(1.1);opacity:.75}}
 
-/* ---------- Buttons (app style: pink pill, mono label in ink, pink glow) ---------- */
-.btn{appearance:none;border:0;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:10px;white-space:nowrap;
+/* Buttons + form (the app's pink pill, mono label in ink) */
+.btn{appearance:none;border:0;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;
   font-family:var(--mono);font-size:13px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);
-  background:linear-gradient(180deg,#ff86c6,var(--pink));border-radius:40px;padding:15px 24px;
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 10px 30px -8px rgba(246,90,173,.75);transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
-.btn:hover{transform:translateY(-2px);box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 16px 36px -8px rgba(246,90,173,.9)}
+  background:linear-gradient(180deg,#ff86c6,var(--pink));border-radius:40px;padding:15px 24px;min-height:48px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 10px 26px -10px rgba(246,90,173,.8);transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
+.btn:hover{transform:translateY(-2px)}
 .btn:active{transform:translateY(1px) scale(.98)}
-.btn .arr{transition:transform .2s var(--ease)}
-.btn:hover .arr{transform:translateX(3px)}
-.btn.sm{padding:10px 16px;font-size:11px}
-
-/* ---------- Waitlist form (like the journal "Keep writing… / KEEP PAGE" field) ---------- */
-.join{position:relative;display:flex;align-items:center;gap:8px;width:100%;max-width:520px;background:var(--white);border:1px solid var(--line);border-radius:44px;padding:6px 6px 6px 22px;
-  box-shadow:0 1px 0 rgba(13,13,13,.04),0 18px 40px -18px rgba(246,90,173,.55)}
+.btn.sm{padding:10px 16px;font-size:11px;min-height:40px}
+.join{display:flex;align-items:center;gap:8px;width:100%;max-width:500px;margin:0 auto;background:var(--white);border:1px solid var(--line);border-radius:44px;padding:6px 6px 6px 22px;box-shadow:0 16px 36px -20px rgba(246,90,173,.6)}
 .join:focus-within{border-color:var(--pink)}
 .join label{flex:1;min-width:0}
 .join input{width:100%;border:0;outline:0;background:transparent;font:600 18px var(--body);color:var(--ink);padding:12px 0}
 .join input::placeholder{color:var(--grey)}
-.fine{margin:0;font-size:14px;color:var(--grey);max-width:520px}
-.note{margin:0;font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--pinktext);min-height:1.4em}
-@media (max-width:440px){
-  .join{flex-direction:column;align-items:stretch;border-radius:28px;padding:8px}
-  .join label{padding:0 14px}
-  .join .btn{width:100%}
-}
+.formblock{display:grid;gap:12px;justify-items:center;width:100%}
+.fine{margin:0;font-size:14px;color:var(--grey);max-width:460px;text-align:center}
+.note{margin:0;font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--pinktext);min-height:1.4em;text-align:center}
+@media (max-width:440px){.join{flex-direction:column;align-items:stretch;border-radius:28px;padding:8px}.join label{padding:0 14px}}
 
-/* ---------- Floating glass nav ---------- */
+/* Nav: floating glass pill */
 .nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:70;padding-left:var(--gl);padding-right:var(--gr);margin-top:12px}
-.nav .bar{max-width:760px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 8px 8px 18px;border-radius:40px;
-  background:linear-gradient(180deg,rgba(255,255,255,.82),rgba(255,255,255,.62));border:1px solid rgba(255,255,255,.9);
-  box-shadow:0 1px 0 rgba(13,13,13,.06),0 12px 30px -14px rgba(13,13,13,.25);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%)}
-.nav .brand{display:flex;align-items:center;gap:14px;text-decoration:none;min-width:0}
-.nav .brand .wm{width:46px;flex:0 0 auto}
+.nav .bar{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 8px 8px 18px;border-radius:40px;
+  background:rgba(255,255,255,.78);border:1px solid var(--line);box-shadow:0 10px 30px -18px rgba(13,13,13,.3);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%)}
+.nav .brand{display:flex;align-items:center;gap:18px;min-width:0}
 .nav .brand > a{display:block}
+.nav .brand .wm{width:46px}
 .nav .links{display:flex;gap:18px}
 .nav .links a{text-decoration:none;color:var(--grey)}
 .nav .links a:hover{color:var(--ink)}
 @media (max-width:720px){.nav .links{display:none}}
 
-/* ---------- Hero ---------- */
-.hero{position:relative;padding-top:72px;overflow:clip}
-.hero .aura.a1{width:760px;height:620px;left:50%;top:auto;bottom:-120px;margin-left:-380px;opacity:.45}
-.hero .aura.a2{width:420px;height:420px;left:-120px;top:60px;opacity:.6}
-.hero-head{position:relative;display:grid;justify-items:center;text-align:center;gap:26px}
-.masthead{width:min(100%,560px);position:relative}
-.masthead .wm{color:var(--ink)}
-.volrule{width:min(100%,560px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-6px}
-.hero h1{font-size:clamp(34px,4.4vw,56px);max-width:16ch}
-.hero h1 span{color:var(--pink)}
-.hero .lede{font-size:clamp(18px,1.7vw,21px);max-width:44ch;margin:0;color:#2b2b2b}
+/* 1 · Hero */
+.hero{position:relative;padding-top:64px;overflow:clip}
+.hero .aura{display:none}
+.hero .head{margin-bottom:0;gap:22px;max-width:620px}
+.masthead{width:min(100%,560px)}
+.volrule{width:min(100%,560px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
+.hero h1{font-size:var(--h1)}
+.hero .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:44ch}
 .hero .lede b{color:var(--ink)}
-.hero .formrow{display:grid;gap:12px;justify-items:center;width:100%}
-.dates{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
-@media (max-width:560px){.volrule .hide-s{display:none}}
+.stage{position:relative;height:640px;margin-top:64px;perspective:1800px}
+.stage .tilt{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateX(var(--sx,10deg));transform-origin:50% 0;transition:transform .35s var(--ease)}
+@media (max-width:700px){.stage{margin-top:48px}.hero .volrule .hide-s{display:none}}
 
-/* Phone stage */
-.stage{position:relative;height:660px;margin-top:72px;perspective:1800px}
-.stage .tilt{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateX(var(--sx,10deg));transform-origin:50% 0;transition:transform .35s cubic-bezier(.2,.8,.2,1)}
-@media (max-width:820px){.stage{height:560px}}
-@media (max-width:480px){.stage{height:470px;margin-top:28px}}
-
-/* 3D phone (thickness = stacked layers) */
+/* 3D phone */
 .phone{--pw:300px;position:absolute;width:var(--pw);aspect-ratio:375/800;transform-style:preserve-3d}
 .phone .body{position:absolute;inset:0;transform-style:preserve-3d}
-.phone .layer{position:absolute;inset:0;border-radius:calc(var(--pw)*.15);background:#1b1b1b}
-.phone .layer:nth-child(1){transform:translateZ(-2px)}.phone .layer:nth-child(2){transform:translateZ(-4px)}
-.phone .layer:nth-child(3){transform:translateZ(-6px)}.phone .layer:nth-child(4){transform:translateZ(-8px);background:#0a0a0a;box-shadow:0 40px 60px -20px rgba(13,13,13,.45)}
-.phone .face{position:absolute;inset:0;border-radius:calc(var(--pw)*.15);background:var(--ink);padding:calc(var(--pw)*.035);box-shadow:inset 0 0 0 1px #333}
+.phone .layer{display:none}
+/* side walls: 16 stacked rounded slices with a brushed-metal gradient, added by script */
+.phone .edge{position:absolute;inset:0;border-radius:calc(var(--pw)*.15);background:linear-gradient(90deg,#3b3b3e,#b9b9bf 7%,#5c5c62 18%,#2a2a2d 50%,#5c5c62 82%,#b9b9bf 93%,#3b3b3e)}
+.phone .edge.last{background:#151517;box-shadow:0 50px 70px -30px rgba(13,13,13,.45),0 18px 30px -18px rgba(13,13,13,.35)}
+.phone .key{position:absolute;width:4px;border-radius:2px;background:linear-gradient(90deg,#8d8d93,#cfcfd4);transform:translateZ(calc(var(--pw)*-.026))}
+.phone .key.k1{left:-3px;top:18%;height:5%}.phone .key.k2{left:-3px;top:26%;height:9%}.phone .key.k3{left:-3px;top:37%;height:9%}.phone .key.k4{right:-3px;top:28%;height:13%}
+.phone .face{position:absolute;inset:0;border-radius:calc(var(--pw)*.15);background:#0b0b0c;padding:calc(var(--pw)*.035);box-shadow:inset 0 0 0 2px #9a9aa0,inset 0 0 0 4px #1a1a1c}
+.phone .island{position:absolute;top:2.4%;left:50%;width:30%;height:3.6%;margin-left:-15%;background:#000;border-radius:20px;z-index:4}
 .phone .screen{position:relative;width:100%;height:100%;border-radius:calc(var(--pw)*.12);overflow:hidden;background:var(--white)}
 .phone .screen img{width:100%;height:100%;object-fit:cover;object-position:top;position:absolute;inset:0;transition:opacity .5s ease,transform .6s var(--ease)}
-.phone .island{position:absolute;top:calc(var(--pw)*.06);left:50%;width:30%;height:calc(var(--pw)*.07);margin-left:-15%;background:var(--ink);border-radius:20px;z-index:2}
-.phone .glare{position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,rgba(255,255,255,.18),transparent 35%);pointer-events:none;z-index:3}
-.p-center{--pw:300px;left:50%;top:0;margin-left:-150px;transform:translateZ(60px)}
-.p-left{--pw:250px;left:50%;top:70px;margin-left:-420px;transform:rotateY(22deg) rotateZ(-6deg)}
-.p-right{--pw:250px;left:50%;top:70px;margin-left:170px;transform:rotateY(-22deg) rotateZ(6deg)}
-@media (max-width:820px){.p-center{--pw:250px;margin-left:-125px}.p-left{--pw:200px;margin-left:-300px}.p-right{--pw:200px;margin-left:100px}}
-@media (max-width:480px){.p-center{--pw:210px;margin-left:-105px}.p-left{--pw:160px;margin-left:-200px;top:60px}.p-right{--pw:160px;margin-left:40px;top:60px}}
+.phone .glare{position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,rgba(255,255,255,.16),transparent 35%);pointer-events:none;z-index:3}
+.set{position:relative;height:620px;border-radius:var(--radius);background:linear-gradient(180deg,#f9cbd6,#f4b7c7);overflow:hidden;perspective:1800px}
+.set .floor{position:absolute;inset:auto 0 0 0;height:40%;background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.18))}
+.stage{height:auto;margin-top:64px}
+.stage .tilt{position:relative;inset:auto}
+.stage .phone{--pw:270px;left:56%;top:70px;transform:rotateY(-26deg) rotateX(8deg) rotateZ(3deg) translateZ(40px);animation:hover 7s ease-in-out infinite}
+.stage .mag{position:absolute;left:12%;top:170px;transform:rotateX(52deg) rotateZ(-20deg)}
+@keyframes hover{50%{translate:0 -10px}}
+@media (max-width:700px){.set{height:470px}.stage .phone{--pw:190px;left:46%;top:44px}.stage .mag{--w:180px;--h:233px;--t:10px;left:-2%;top:150px}}
 
-/* Floating chips around the phones (Framer-style UI callouts, all from the real app) */
-.float{position:absolute;z-index:5;will-change:translate}
-.gchip{display:flex;align-items:center;gap:10px;padding:10px 14px 10px 10px;border-radius:22px;background:linear-gradient(180deg,rgba(255,255,255,.92),rgba(255,255,255,.75));
-  border:1px solid rgba(255,255,255,.95);box-shadow:0 16px 40px -14px rgba(13,13,13,.35);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);white-space:nowrap}
-.gchip .ic{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--blush);font:700 16px var(--body)}
-.gchip .ic.pk{background:var(--pink)}
-.gchip .tt{display:grid;gap:1px}
-.gchip b{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:-.03em;font-size:15px;line-height:1}
-.f1{left:4%;top:120px}.f2{right:3%;top:330px}.f3{left:8%;top:430px}
-@media (max-width:820px){.f1{left:0;top:30px}.f2{right:0;top:250px}.f3{display:none}}
-@media (max-width:480px){.f2{display:none}.f1{top:auto;bottom:34px;left:0}.gchip{padding:7px 10px 7px 7px}.gchip .ic{width:26px;height:26px;font-size:13px}.gchip b{font-size:12px}.gchip .mono{font-size:9px}.f1{top:6px}.f2{top:210px}}
 
-/* The cream 11 sticker (pink 11), peels on hover/tap */
-.sticker{--s:112px;position:absolute;width:var(--s);aspect-ratio:1;border:0;padding:0;background:none;cursor:pointer;z-index:6}
-.sticker .body{position:absolute;inset:0;border-radius:24%;background:var(--cream);box-shadow:0 0 0 3px var(--white),0 0 0 5px rgba(246,90,173,.45),0 18px 30px -10px rgba(246,90,173,.6);
+/* Cream 11 sticker (pink 11), peels on hover/tap */
+.sticker{--s:112px;position:relative;display:block;width:var(--s);aspect-ratio:1;border:0;padding:0;background:none;cursor:pointer}
+.sticker .body{position:absolute;inset:0;border-radius:24%;background:var(--cream);box-shadow:0 0 0 3px var(--white),0 0 0 5px rgba(246,90,173,.4),0 16px 28px -10px rgba(246,90,173,.55);
   clip-path:polygon(0 0,100% 0,100% 78%,78% 100%,0 100%);transition:clip-path .5s var(--ease)}
 .sticker .eleven{position:absolute;inset:16% 26%;background:var(--pink);-webkit-mask:url(assets/eleven-cream.png) center/contain no-repeat;mask:url(assets/eleven-cream.png) center/contain no-repeat}
 .sticker .flap{position:absolute;right:0;bottom:0;width:22%;height:22%;background:linear-gradient(to top left,transparent 50%,#e9e1d2 50%,#fffaf2 90%);filter:drop-shadow(-3px -3px 3px rgba(0,0,0,.15));transition:width .5s var(--ease),height .5s var(--ease)}
 .sticker:hover .body,.sticker.peeled .body{clip-path:polygon(0 0,100% 0,100% 52%,52% 100%,0 100%)}
 .sticker:hover .flap,.sticker.peeled .flap{width:48%;height:48%}
 .sticker .tag{position:absolute;left:50%;bottom:-12px;transform:translateX(-50%) rotate(-4deg);background:var(--ink);color:var(--white);border-radius:6px;padding:3px 7px;font-family:var(--mono);font-size:9px;letter-spacing:.06em;white-space:nowrap}
-.stage .sticker{right:calc(50% - 190px);top:-28px;transform:translateZ(120px) rotate(10deg)}
-@media (max-width:820px){.stage .sticker{--s:84px;right:calc(50% - 150px)}}
-@media (max-width:480px){.stage .sticker{--s:64px;right:calc(50% - 124px);top:36px}}
 
-/* ---------- Ticker ---------- */
-.ticker{background:var(--ink);color:var(--cream);overflow:hidden;position:relative;z-index:2;transform:rotate(-1.2deg);margin:0 -20px}
-.ticker .track{display:flex;width:max-content;animation:tick 38s linear infinite}
-.ticker .row{display:flex;gap:30px;padding:16px 15px;font-family:var(--display);text-transform:uppercase;letter-spacing:-.03em;font-size:24px;white-space:nowrap}
-.ticker .row i{font-style:normal;color:var(--pink)}
-@keyframes tick{to{transform:translateX(-50%)}}
+/* Paper-3D magazine (40 pages thick) */
+.mag{--w:270px;--h:349px;--t:14px;position:absolute;width:var(--w);height:var(--h);transform-style:preserve-3d}
+.mag .fc{position:absolute;inset:0;transform:translateZ(calc(var(--t)/2));background:#fbfaf7 center/cover;overflow:hidden;box-shadow:inset 4px 0 6px -4px rgba(0,0,0,.35)}
+.mag .bk{position:absolute;inset:0;transform:rotateY(180deg) translateZ(calc(var(--t)/2));background:#efe8dc}
+.mag .sp,.mag .er{position:absolute;top:0;left:50%;width:var(--t);height:var(--h);margin-left:calc(var(--t)/-2)}
+.mag .sp{transform:rotateY(-90deg) translateZ(calc(var(--w)/2));background:#e9e2d6}
+.mag .er{transform:rotateY(90deg) translateZ(calc(var(--w)/2));background:repeating-linear-gradient(90deg,#fff 0 1px,#e6dccb 1px 2px)}
+.mag .et,.mag .eb{position:absolute;left:0;top:50%;width:var(--w);height:var(--t);margin-top:calc(var(--t)/-2);background:repeating-linear-gradient(0deg,#fff 0 1px,#e6dccb 1px 2px)}
+.mag .et{transform:rotateX(90deg) translateZ(calc(var(--h)/2))}
+.mag .eb{transform:rotateX(-90deg) translateZ(calc(var(--h)/2));box-shadow:0 30px 40px rgba(120,20,60,.35)}
+.mag .fc.type{padding:7%;display:grid}
+.mag .fc.type .wm{height:100%;width:100%;color:var(--ink)}
+.mag .fc.photo{display:flex;flex-direction:column;justify-content:space-between;padding:6%;color:var(--white)}
+.mag .fc.photo .wm{color:var(--cream)}
+.mag .fc.photo .h{font-size:calc(var(--w)*.075);color:var(--white);text-shadow:0 1px 8px rgba(0,0,0,.25)}
+.mag .fc.photo .mono{font-size:calc(var(--w)*.032)}
 
-/* ---------- Sections ---------- */
-.sec{padding-block:140px;position:relative}
-.sec-head{display:grid;gap:18px;max-width:720px;margin-bottom:64px}
-.sec-head.center{text-align:center;justify-items:center;margin-inline:auto}
-.sec-title{font-size:clamp(34px,4.6vw,60px)}
-.sec-sub{font-size:20px;margin:0;max-width:52ch;color:#2b2b2b}
-.card{border-radius:28px;background:var(--soft);border:1px solid var(--line);position:relative;overflow:hidden;min-width:0}
+.covers{position:relative;height:520px;border-radius:var(--radius);background:linear-gradient(180deg,#f9cbd6,#f4b7c7);overflow:hidden;perspective:1600px}
+.covers .track{position:absolute;left:0;top:50%;display:flex;gap:56px;padding-left:6%;transform:translate3d(var(--x,0px),-50%,0);transform-style:preserve-3d;will-change:transform}
+.covers .slot3d{position:relative;flex:0 0 auto;width:250px;height:323px;transform-style:preserve-3d}
+.covers .mag{--w:250px;--h:323px;--t:12px;transform:rotateY(-24deg) rotateX(6deg);transition:transform .6s var(--ease)}
+.covers .slot3d:nth-child(even) .mag{transform:rotateY(-24deg) rotateX(6deg) translateY(30px)}
+.covers .slot3d:hover .mag{transform:rotateY(-6deg) rotateX(2deg) translateY(-10px)}
+.covers .photo-real{flex:0 0 auto;width:360px;height:360px;border-radius:20px;background:center/cover;align-self:center;box-shadow:0 30px 50px -30px rgba(120,20,60,.5)}
+.covers .cap{position:absolute;left:0;right:0;bottom:16px;text-align:center;color:#6d2747}
+@media (max-width:700px){.covers{height:420px}.covers .slot3d{width:190px;height:246px}.covers .mag{--w:190px;--h:246px;--t:10px}.covers .track{gap:36px}.covers .photo-real{width:260px;height:260px}}
 
-/* Credibility bento */
-.bento{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}
-.founder{grid-column:span 4;padding:40px;background:var(--soft);display:grid;gap:18px;align-content:space-between}
-.founder blockquote{margin:0;font:italic 400 clamp(22px,2.4vw,30px)/1.35 var(--body)}
-.founder .sig{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
-.fact{grid-column:span 2;padding:24px;display:grid;gap:10px;align-content:space-between;min-height:150px}
-.fact .h{font-size:clamp(30px,3vw,42px)}
-.fact.ink{background:var(--white)}
-.facts2{grid-column:span 2;display:grid;gap:16px}
-.slot{grid-column:span 2;border-radius:28px;border:2px dashed rgba(246,90,173,.7);padding:24px;min-height:170px;display:grid;align-content:space-between;gap:12px;background:repeating-linear-gradient(-45deg,transparent 0 12px,rgba(252,210,221,.35) 12px 24px)}
-.slot p{margin:0;font:600 19px/1.3 var(--body);color:var(--grey)}
-@media (max-width:900px){.bento{grid-template-columns:repeat(2,minmax(0,1fr))}.founder{grid-column:span 2}.fact,.facts2{grid-column:span 1}.slot{grid-column:span 2;min-height:120px}}
-@media (max-width:520px){.fact{padding:18px;min-height:120px}.founder{padding:24px}}
+/* 2 · The honest part: one card */
+.honest{display:grid;gap:0;max-width:880px;margin:0 auto}
+.honest .quote{padding:48px clamp(24px,6vw,72px);text-align:center;display:grid;gap:18px;justify-items:center}
+.honest blockquote{margin:0;font:italic 400 clamp(22px,2.4vw,30px)/1.35 var(--body);max-width:32ch}
+.honest .facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line)}
+.honest .facts div{padding:24px 16px;display:grid;gap:6px;justify-items:center;text-align:center}
+.honest .facts div+div{border-left:1px solid var(--line)}
+.honest .facts .h{font-size:var(--h3)}
+.slots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;max-width:880px;margin:16px auto 0}
+@media (max-width:600px){.honest .facts{grid-template-columns:minmax(0,1fr)}.honest .facts div+div{border-left:0;border-top:1px solid var(--line)}}
 
-/* Value: full-width feature cards that stack as you scroll (sticky, nothing hijacked) */
-.vgrid{display:grid;gap:28px}
-.vcard{position:sticky;top:calc(96px + var(--i,0) * 22px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:30px;min-height:600px;padding:48px 48px 0;
-  box-shadow:0 -20px 50px -30px rgba(13,13,13,.35);transform-origin:50% 0}
-.vcard .txt{display:grid;gap:14px;align-content:center;max-width:42ch;padding-bottom:48px}
-.vcard h3{font-size:clamp(28px,3vw,42px)}
-.vcard p{margin:0;font-size:19px;color:#2b2b2b}
-.vcard .vis{position:relative;perspective:1200px;min-height:420px}
-.vcard .phone{left:50%;bottom:-150px;margin-left:calc(var(--pw)/-2);transform:rotateX(var(--vx,12deg)) rotateY(var(--vy,0deg));transition:transform .5s var(--ease)}
-.vcard:hover .phone{--vx:3deg}
-.v-issue{--i:0;background:var(--soft)}
-.v-move{--i:1;background:#fbf8f3}
-.v-sess{--i:2;background:linear-gradient(180deg,var(--white),#fdeef3)}
-.v-sess .aura{width:560px;height:560px;right:-80px;bottom:-220px;opacity:.5}
-.vcard .phone{--pw:300px}
-.v-issue .phone.back{--pw:240px;margin-left:-250px;bottom:-170px;transform:rotateY(18deg) rotateZ(-8deg)}
-@media (max-width:900px){
-  .vcard{grid-template-columns:minmax(0,1fr);padding:30px 26px 0;min-height:640px;top:calc(76px + var(--i,0) * 14px);gap:10px}
-  .vcard .txt{padding-bottom:0}
-  .vcard .vis{min-height:360px}
-  .v-issue .phone.back{display:none}
-  .vcard .phone{--pw:250px;bottom:-110px}
+/* 3 · Inside: three identical cards that stack as you scroll */
+.stack{display:grid;gap:24px}
+.feature{position:sticky;top:calc(100px + var(--i,0) * 20px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;min-height:560px;padding:56px 56px 0;box-shadow:0 -24px 48px -36px rgba(13,13,13,.3)}
+.feature .txt{display:grid;gap:14px;align-content:center;max-width:40ch;padding-bottom:56px}
+.feature h3{font-size:var(--h3)}
+.feature p{margin:0;color:var(--body-ink)}
+.feature .vis{position:relative;perspective:1200px;min-height:400px}
+.feature .phone{--pw:280px;left:50%;bottom:-150px;margin-left:-140px;transform:rotateX(10deg) rotateY(calc(var(--base,-20deg) + var(--vy,0deg))) rotateZ(var(--rz,2deg));transition:transform .5s var(--ease)}
+.feature:nth-child(even) .phone{--base:20deg;--rz:-2deg}
+.feature:hover .phone{transform:rotateX(4deg) rotateY(calc(var(--base,-20deg)*.5 + var(--vy,0deg)))}
+@media (max-width:860px){
+  .feature{grid-template-columns:minmax(0,1fr);padding:32px 28px 0;min-height:600px;top:calc(80px + var(--i,0) * 14px);gap:8px}
+  .feature .txt{padding-bottom:0}
+  .feature .vis{min-height:340px}
+  .feature .phone{--pw:230px;margin-left:-115px;bottom:-120px}
 }
-@media (max-width:480px){.vcard{min-height:600px}.vcard .phone{--pw:230px}}
 
-/* Experience: sticky phone, screen swaps per step */
-.exp{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.exp-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:60px}
+/* 4 · How it works: sticky phone swaps screens */
+.how{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:56px}
 .steps{list-style:none;margin:0;padding:0}
-.step{min-height:70vh;display:grid;align-content:center;gap:14px;padding-block:30px;opacity:.35;transition:opacity .4s ease}
+.step{min-height:64vh;display:grid;align-content:center;gap:12px;opacity:.35;transition:opacity .4s ease}
 .step.on{opacity:1}
-.step .n{font-family:var(--display);font-size:22px;letter-spacing:-.04em;color:var(--pink)}
-.step h3{font-size:clamp(30px,3.4vw,46px)}
-.step p{margin:0;font-size:20px;max-width:36ch;color:#2b2b2b}
+.step h3{font-size:var(--h3)}
+.step p{margin:0;color:var(--body-ink);max-width:36ch}
 .step .mini{display:none}
-.sticky{position:sticky;top:calc(50vh - 330px);height:660px;perspective:1600px}
-.sticky .aura{width:560px;height:560px;left:50%;top:50%;margin:-280px 0 0 -280px}
-.sticky .phone{--pw:310px;left:50%;top:0;margin-left:-155px;transform:rotateY(var(--ry,-10deg)) rotateX(4deg)}
+.sticky{position:sticky;top:calc(50vh - 320px);height:640px;perspective:1600px}
+.sticky .aura{width:520px;height:520px;left:50%;top:50%;margin:-260px 0 0 -260px;opacity:.6}
+.sticky .phone{--pw:290px;left:50%;top:10px;margin-left:-145px;transform:rotateY(-18deg) rotateX(6deg) rotateZ(2deg)}
 .sticky .screen img{opacity:0;transform:scale(1.04)}
 .sticky .screen img.on{opacity:1;transform:none}
-.sticky .label{position:absolute;left:50%;bottom:-6px;transform:translateX(-50%);white-space:nowrap}
-@media (max-width:900px){
-  .exp-grid{grid-template-columns:minmax(0,1fr)}
+.sticky .cap{position:absolute;left:0;right:0;bottom:-4px;text-align:center;color:var(--grey)}
+.after{display:flex;justify-content:center;margin-top:40px}
+@media (max-width:860px){
+  .how{grid-template-columns:minmax(0,1fr);gap:0}
   .sticky{display:none}
-  .step{min-height:0;opacity:1;padding-block:26px;border-top:1px solid var(--line)}
-  .step .mini{display:block;position:relative;height:420px;perspective:1200px;margin-top:10px;overflow:hidden;border-radius:24px;background:linear-gradient(180deg,var(--white),var(--blush))}
-  .step .mini .phone{--pw:230px;left:50%;top:26px;margin-left:-115px;transform:rotateX(8deg)}
+  .step{min-height:0;opacity:1;padding-block:32px;border-top:1px solid var(--line)}
+  .step:first-child{border-top:0;padding-top:0}
+  .step .mini{display:block;position:relative;height:400px;perspective:1200px;margin-top:12px;overflow:hidden;border-radius:var(--radius);background:var(--card);border:1px solid var(--line)}
+  .step .mini .phone{--pw:210px;left:50%;top:28px;margin-left:-105px;transform:rotateY(-18deg) rotateX(8deg)}
 }
 
-/* Print: paper-3D Issue opens on scroll */
-.print{overflow:clip}
-.print-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:40px;align-items:center}
-.print .price{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
-.spread-stage{position:relative;height:520px;perspective:2000px}
-.spread{--o:1;position:absolute;left:50%;top:50%;width:min(600px,96%);aspect-ratio:17/11;transform:translate(-50%,-50%) rotateX(calc(42deg - 26deg*(1 - var(--o)))) rotateZ(calc(-8deg + 5deg*(1 - var(--o))));transform-style:preserve-3d}
-.spread .shadow{position:absolute;inset:6% 4% -6% 4%;background:rgba(13,13,13,.28);filter:blur(24px);transform:translateZ(-20px)}
-.spread .pageR{position:absolute;top:0;width:50%;height:100%;overflow:hidden}
-.spread .pageL{overflow:hidden}
-.spread .pageL{background:var(--blush);padding:16px;display:grid;align-content:space-between;box-shadow:inset -18px 0 24px -18px rgba(13,13,13,.35)}
-.spread .pageR{right:0;background:center/cover;box-shadow:inset 18px 0 24px -18px rgba(13,13,13,.45)}
-.spread .pageL .h{font-size:clamp(17px,2.6vw,32px)}
-.spread .pageL p{margin:0;font-size:clamp(11px,1.2vw,14px);color:#3a3a3a}
-.spread .stack{position:absolute;right:-1px;top:2px;width:50%;height:calc(100% - 4px);transform:translateZ(-3px);background:repeating-linear-gradient(90deg,#efe7d7 0 1px,#fff 1px 2px)}
-.spread .coverflap{position:absolute;top:0;left:50%;width:50%;height:100%;transform-origin:0 50%;transform:translateZ(2px) rotateY(calc(-178deg * (1 - var(--o))));transform-style:preserve-3d}
-.spread .coverflap .f,.spread .coverflap .b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
-.spread .coverflap .f{background:center/cover;display:flex;flex-direction:column;justify-content:space-between;padding:12px;box-shadow:inset 6px 0 10px -6px rgba(0,0,0,.5)}
-.spread .coverflap .f .wm{color:var(--cream)}
-.spread .coverflap .f .lines{display:grid;gap:4px}
-.spread .coverflap .f .lines .h{color:var(--white);font-size:clamp(14px,2vw,24px)}
-.spread .coverflap .b{transform:rotateY(180deg)}
-.spread .sticker{--s:64px;right:-18px;top:-22px;transform:translateZ(6px) rotate(12deg)}
-.equation{margin-top:140px;display:grid;gap:30px;justify-items:center;text-align:center}
-.equation .h{font-size:clamp(30px,4.4vw,60px);max-width:18ch}
-.equation .h span{color:inherit}
-@media (max-width:900px){.print-grid{grid-template-columns:minmax(0,1fr)}.spread-stage{height:340px}}
+/* 5 · Print: the paper Issue opens as you scroll */
+.printstage{position:relative;height:640px;perspective:2200px}
+.spread{--o:1;position:absolute;left:50%;top:50%;width:min(920px,100%);aspect-ratio:17/11;transform:translate(-50%,-50%) rotateX(calc(36deg - 22deg*(1 - var(--o)))) rotateZ(calc(-6deg + 4deg*(1 - var(--o))));transform-style:preserve-3d}
+.spread .shadow{position:absolute;inset:6% 4% -6% 4%;background:rgba(13,13,13,.22);filter:blur(24px);transform:translateZ(-20px)}
+.spread .pageR{position:absolute;top:0;right:0;width:50%;height:100%;background:center/cover;box-shadow:inset 18px 0 24px -18px rgba(13,13,13,.45)}
+.spread .paper{position:absolute;right:-1px;top:2px;width:50%;height:calc(100% - 4px);transform:translateZ(-3px);background:repeating-linear-gradient(90deg,#efe7d7 0 1px,#fff 1px 2px)}
+.spread .cover{position:absolute;top:0;left:50%;width:50%;height:100%;transform-origin:0 50%;transform:translateZ(2px) rotateY(calc(-178deg * (1 - var(--o))));transform-style:preserve-3d}
+.spread .cover .f,.spread .cover .b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.spread .cover .f{background:center/cover;display:flex;flex-direction:column;justify-content:space-between;padding:12px;box-shadow:inset 6px 0 10px -6px rgba(0,0,0,.5)}
+.spread .cover .f .wm{color:var(--cream)}
+.spread .cover .f .h{color:var(--white);font-size:clamp(14px,2vw,24px)}
+.spread .cover .b{transform:rotateY(180deg);background:var(--blush);padding:16px;display:grid;align-content:space-between;box-shadow:inset -18px 0 24px -18px rgba(13,13,13,.3)}
+.spread .cover .b .h{font-size:clamp(16px,3vw,44px)}
+.spread .cover .b p{margin:0;font-size:clamp(11px,1.2vw,14px);color:#3a3a3a}
+@media (max-width:700px){.printstage{height:300px}}
+@media (prefers-reduced-motion:reduce){.covers{overflow-x:auto}.covers .track{position:relative;top:auto;transform:none;height:100%;align-items:center}}
 
-/* FAQ */
-.faq-wrap{max-width:860px;margin:0 auto}
+/* 6 · FAQ */
+.faq{max-width:760px;margin:0 auto}
 .faq details{border-bottom:1px solid var(--line)}
 .faq details:first-child{border-top:1px solid var(--line)}
-.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:24px 0;font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(20px,2.4vw,30px);line-height:1}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:22px 0;font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(18px,2vw,24px);line-height:1}
 .faq summary::-webkit-details-marker{display:none}
-.faq summary .pm{flex:0 0 40px;height:40px;border-radius:50%;background:var(--soft);display:grid;place-items:center;font:400 24px var(--body);transition:transform .3s var(--ease),background .3s}
-.faq details[open] summary .pm{transform:rotate(45deg);background:var(--pink)}
-.faq details p{margin:0 0 26px;font-size:19px;max-width:62ch;color:#2b2b2b}
+.faq summary .pm{flex:0 0 36px;height:36px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:grid;place-items:center;font:400 22px var(--body);transition:transform .3s var(--ease),background .3s}
+.faq details[open] summary .pm{transform:rotate(45deg);background:var(--pink);border-color:var(--pink)}
+.faq details p{margin:0 0 24px;color:var(--body-ink);max-width:62ch}
 
-/* Final CTA: the app's red full-bleed 11 */
-.final{padding-block:24px 24px}
-.final .cardred{min-height:auto;position:relative;overflow:hidden;border-radius:36px;background:linear-gradient(180deg,#fff,var(--blush));color:var(--ink);border:1px solid var(--line);padding:clamp(28px,6vw,80px);min-height:560px;display:grid;align-content:center}
-.final .giant11{position:absolute;right:8%;top:50%;height:60%;transform:translateY(-50%) rotate(6deg);pointer-events:none;will-change:translate;opacity:.9;filter:drop-shadow(0 20px 30px rgba(246,90,173,.35))}
-.final .giant11 img{height:100%;width:auto}
-.final .inner{position:relative;z-index:1;display:grid;gap:22px;max-width:640px}
-.final .h{font-size:clamp(34px,5vw,68px);color:var(--ink)}
-.final .lede{font-size:21px;margin:0;max-width:36ch}
-.final .join{border-color:transparent;box-shadow:0 24px 50px -20px rgba(0,0,0,.5)}
-.final .fine{color:var(--grey)}
-@media (max-width:760px){.final .giant11{display:none}}
+/* 7 · Closing card (same card, pink fade) */
+.closing{padding:clamp(48px,7vw,88px) clamp(20px,5vw,64px);display:grid;justify-items:center;text-align:center;gap:22px;background:linear-gradient(180deg,var(--white),var(--blush))}
+.closing h2{font-size:var(--h2);max-width:16ch}
+.closing .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:40ch}
 
 /* Footer */
-footer{padding-block:60px 120px}
-footer .wm{max-width:220px}
-footer .row{display:flex;flex-wrap:wrap;gap:12px 22px;justify-content:space-between;align-items:center;margin-top:24px;border-top:1px solid var(--ink);padding-top:14px}
-footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+footer{padding-block:var(--gap) 120px}
+footer .row{display:flex;flex-wrap:wrap;gap:16px 24px;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:20px}
+footer .wm{width:84px}
+footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color:var(--grey)}
 
 /* Floating Lucky Star 11 (always there, like the app) */
-.lucky{transition:opacity .3s,transform .3s var(--ease);position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:75}
-.lucky .sticker{position:relative;--s:clamp(52px,14vw,66px);animation:bob 4s ease-in-out infinite}
+.lucky{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:75;transition:opacity .3s,transform .3s var(--ease)}
 .lucky.away{opacity:0;transform:translateY(20px);pointer-events:none}
+.lucky .sticker{--s:clamp(52px,14vw,64px);animation:bob 4s ease-in-out infinite}
 @keyframes bob{50%{transform:translateY(-6px) rotate(-3deg)}}
-.lucky .pop{position:absolute;right:0;bottom:92px;width:min(300px,calc(100vw - 36px));padding:20px;border-radius:26px;display:grid;gap:12px;
-  background:linear-gradient(180deg,rgba(255,255,255,.94),rgba(252,210,221,.9));border:1px solid rgba(255,255,255,.95);box-shadow:0 24px 50px -20px rgba(246,90,173,.8);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.lucky .pop{position:absolute;right:0;bottom:88px;width:min(300px,calc(100vw - 36px));padding:20px;border-radius:24px;display:grid;gap:12px;
+  background:rgba(255,255,255,.94);border:1px solid var(--line);box-shadow:0 24px 50px -24px rgba(246,90,173,.8);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
 .lucky .pop p{margin:0;font:600 18px/1.3 var(--body)}
-.lucky .pop .close{position:absolute;right:10px;top:10px;width:32px;height:32px;border-radius:50%;border:0;background:var(--white);cursor:pointer;font:400 18px var(--body)}
+.lucky .pop .close{position:absolute;right:10px;top:10px;width:32px;height:32px;border-radius:50%;border:0;background:var(--card);cursor:pointer;font:400 18px var(--body)}
 
-/* ---------- Motion (page is complete at rest; motion only adds) ---------- */
-.motion .rv{transform:translateY(34px);opacity:.2;transition:transform 1s var(--ease),opacity 1s ease}
+/* Motion: one load moment + gentle reveals of section heads; page is complete at rest */
+.motion .hero .head > *{animation:fadeup 1s var(--ease) both}
+.motion .hero .head > *:nth-child(2){animation-delay:.08s}.motion .hero .head > *:nth-child(3){animation-delay:.16s}
+.motion .hero .head > *:nth-child(4){animation-delay:.24s}.motion .hero .head > *:nth-child(5){animation-delay:.32s}
+.motion .stage .phone{animation:phoneup 1.3s var(--ease) .3s both}
+.motion .rv{transform:translateY(24px);opacity:.25;transition:transform .9s var(--ease),opacity .9s ease}
 .motion .rv.in{transform:none;opacity:1}
-.motion .masthead .wm{animation:fadeup 1.2s var(--ease) both}
-.motion .hero-head > *:not(.masthead){animation:fadeup 1s var(--ease) both}
-.motion .hero-head > *:nth-child(2){animation-delay:.25s}.motion .hero-head > *:nth-child(3){animation-delay:.35s}
-.motion .hero-head > *:nth-child(4){animation-delay:.45s}.motion .hero-head > *:nth-child(5){animation-delay:.55s}
-.motion .stage .phone{animation:phoneup 1.4s var(--ease) both}
-.motion .stage .p-left,.motion .stage .p-right{animation-delay:.25s}
-@keyframes rise{from{clip-path:inset(100% 0 0 0);transform:translateY(40px) skewY(4deg)}to{clip-path:inset(0 0 0 0);transform:none}}
-@keyframes fadeup{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
-@keyframes phoneup{from{opacity:0;translate:0 120px}to{opacity:1;translate:0 0}}
+@keyframes fadeup{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+@keyframes phoneup{from{opacity:0;translate:0 100px}to{opacity:1;translate:0 0}}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none!important;transition:none!important}
@@ -324,120 +289,117 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
 <main id="top">
 <!-- 1 · HERO -->
 <section class="hero" aria-labelledby="hero-h">
-  <div class="aura a1" aria-hidden="true"></div>
+  <div class="aura" aria-hidden="true"></div>
   <div class="wrap">
-    <div class="hero-head">
-      <div class="masthead" data-depth="-0.05">
-        <svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg>
-      </div>
+    <div class="head">
+      <div class="masthead"><svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg></div>
       <div class="volrule mono"><span>Vol. 01</span><span class="hide-s">The future issue</span><span>Private beta 11.11.2026</span></div>
       <h1 id="hero-h" class="h">Put your dreams on the cover.</h1>
       <p class="lede"><b>ISSUE11 is a process-focused manifestation app for iPhone.</b> It turns your dreams into a personal magazine and helps you take the small steps that make them real.</p>
-      <div class="formrow">
+      <div class="formblock">
         <form class="join" data-join novalidate>
           <label><span class="sr">Email address</span><input id="hero-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
           <button class="btn" type="submit">Get early access</button>
         </form>
         <p class="note" aria-live="polite"></p>
-        <div class="dates mono"><span class="chip"><span class="dot"></span>Private beta · Nov 11, 2026</span><span class="chip">App Store · Dec 11, 2026</span></div>
+        <div class="chips mono"><span class="chip"><span class="dot"></span>Private beta · Nov 11, 2026</span><span class="chip">App Store · Dec 11, 2026</span></div>
       </div>
     </div>
-
     <div class="stage" id="stage" aria-hidden="true">
-      <div class="tilt" id="tilt">
-        <div class="phone p-center"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span>
-          <div class="face"><div class="screen"><img src="assets/app-21.webp" alt=""><span class="island"></span><span class="glare"></span></div></div></div></div>
+      <div class="set">
+        <div class="floor"></div>
+        <div class="tilt" id="tilt" style="position:absolute;inset:0;transform-style:preserve-3d">
+          <div class="mag"><div class="fc type"><svg class="wm" viewBox="3 3 828 634" preserveAspectRatio="none"><use href="#wordmark"/></svg></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div>
+          <div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-21.webp" alt=""><span class="island"></span><span class="glare"></span></div></div></div></div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
+<!-- Example covers: the magazine she makes -->
+<section class="sec" aria-labelledby="covers-h">
+  <div class="wrap">
+    <div class="head rv">
+      <p class="label">Your Issue</p>
+      <h2 id="covers-h" class="h">Every Issue looks like the life you want.</h2>
+      <p class="sub">Your saves set the mood. Lucky Star lays out the cover and the pages. No two Issues look the same.</p>
+    </div>
+    <div class="covers" id="covers" aria-hidden="true">
+      <div class="track" id="coverTrack"><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-12.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><span class="mono">Issue 01 · Vol. 01</span></div><div><span class="h">The future issue</span><br><span class="mono">40 pages of what you want</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-08.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><span class="mono">Issue 01 · Vol. 01</span></div><div><span class="h">The soft life issue</span><br><span class="mono">One small move a week</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="photo-real" style="background-image:url(assets/logo-direction.webp)"></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-05.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><span class="mono">Issue 01 · Vol. 01</span></div><div><span class="h">The money issue</span><br><span class="mono">Page 9 · my first move</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-14.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><span class="mono">Issue 01 · Vol. 01</span></div><div><span class="h">The pink issue</span><br><span class="mono">Proof, page by page</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-03.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><span class="mono">Issue 01 · Vol. 01</span></div><div><span class="h">The crown issue</span><br><span class="mono">Written by her</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-15.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><span class="mono">Issue 01 · Vol. 01</span></div><div><span class="h">The bold issue</span><br><span class="mono">Mornings that feel like mine</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div></div>
+      <span class="cap mono">Example covers</span>
+    </div>
+  </div>
+</section>
 
 <!-- 2 · CREDIBILITY (honest: no reviews or users exist yet) -->
 <section class="sec" aria-labelledby="cred-h">
   <div class="wrap">
-    <div class="sec-head rv">
-      <p class="mono pinktext">The honest part</p>
-      <h2 id="cred-h" class="h sec-title">No fake reviews. Real ones after 11.11.</h2>
-      <p class="sec-sub">ISSUE11 is new. The private beta opens on November 11, 2026, with invites for people on the waitlist. Beta members shape the app before it reaches the App Store on December 11. Their words go here, with their permission.</p>
+    <div class="head rv">
+      <p class="label">The honest part</p>
+      <h2 id="cred-h" class="h">No fake reviews. Real ones after 11.11.</h2>
+      <p class="sub">ISSUE11 is new. The private beta opens on November 11, 2026, with invites for people on the waitlist. Beta members shape the app before it reaches the App Store on December 11.</p>
     </div>
-    <div class="bento">
-      <figure class="card founder" style="margin:0">
-        <span><span class="flag">Draft · Megan to rewrite in her own words</span></span>
+    <figure class="card honest" style="margin-inline:auto">
+      <div class="quote">
+        <span class="flag">Draft · Megan to rewrite in her own words</span>
         <blockquote>“I kept saving other people's lives on my phone while my own goals waited. ISSUE11 turns you back to your own life, one page and one small move at a time.”</blockquote>
-        <figcaption class="sig"><span class="mono">Megan · Founder, ISSUE11</span><span class="mono pinktext">Issue 01 · 2026</span></figcaption>
-      </figure>
-      <div class="facts2">
-        <div class="card fact ink"><span class="mono">Your Issue</span><span class="h">40 pages</span></div>
-        <div class="card fact"><span class="mono">Your pace</span><span class="h">1 move / wk</span></div>
+        <figcaption class="mono">Megan · Founder, ISSUE11</figcaption>
       </div>
-      <div class="slot" hidden><span class="mono pinktext">Beta quote 01 · reserved</span><p>A real beta member's words go here after Nov 11, with permission.</p></div>
-      <div class="slot" hidden><span class="mono pinktext">Beta quote 02 · reserved</span><p>Her first page or first move, in her own words.</p></div>
-      <div class="slot" hidden><span class="mono pinktext">Beta quote 03 · reserved</span><p>Empty on purpose. Hidden on the live page until it is filled.</p></div>
-    </div>
+      <div class="facts">
+        <div><span class="mono">Made for</span><span class="h">iPhone</span></div>
+        <div><span class="mono">Your Issue</span><span class="h">40 pages</span></div>
+        <div><span class="mono">Your pace</span><span class="h">1 move a week</span></div>
+      </div>
+    </figure>
+    <!-- Reserved for real beta quotes (with permission). Stays hidden until filled. -->
+    <div class="slots" hidden><div class="card"></div><div class="card"></div><div class="card"></div></div>
   </div>
 </section>
 
 <!-- 3 · VALUE -->
-<section class="sec" id="inside" aria-labelledby="val-h" style="padding-top:0">
+<section class="sec" id="inside" aria-labelledby="val-h">
   <div class="wrap">
-    <div class="sec-head rv">
-      <p class="mono pinktext">Inside the app</p>
-      <h2 id="val-h" class="h sec-title">A magazine about your life. Written by you.</h2>
+    <div class="head rv">
+      <p class="label">Inside the app</p>
+      <h2 id="val-h" class="h">A magazine about your life. Written by you.</h2>
     </div>
-    <div class="vgrid">
-      <article class="card vcard v-issue">
-        <div class="txt">
-          <span class="mono">Your Issue · 40 pages</span>
-          <h3 class="h">Your dreams, laid out like a magazine</h3>
-          <p>Save images, write a few lines and add proof. They become pages in your own 40-page Issue. Lucky Star lays out each page, and your words stay exactly as you wrote them.</p>
-        </div>
-        <div class="vis" aria-hidden="true">
-          <div class="phone back" data-turn="0.4"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div></div>
-          <div class="phone" data-turn="1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div></div>
-        </div>
+    <div class="stack">
+      <article class="card feature" style="--i:0">
+        <div class="txt"><p class="label">Your Issue</p><h3 class="h">Your dreams, laid out like a magazine</h3>
+          <p>Save images, write a few lines and add proof. They become pages in your own 40-page Issue. Lucky Star lays out each page, and your words stay exactly as you wrote them.</p></div>
+        <div class="vis" aria-hidden="true"><div class="phone" data-turn="1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div></div></div>
       </article>
-      <article class="card vcard v-move">
-        <div class="txt">
-          <span class="mono">Your pace</span>
-          <h3 class="h">One small move a week</h3>
-          <p>Pick one step toward what you want and take it this week. No streaks and no guilt if a week gets away from you.</p>
-        </div>
-        <div class="vis" aria-hidden="true">
-          <div class="phone" data-turn="-1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div></div>
-        </div>
+      <article class="card feature" style="--i:1">
+        <div class="txt"><p class="label">Your pace</p><h3 class="h">One small move a week</h3>
+          <p>Pick one step toward what you want and take it this week. No streaks and no guilt if a week gets away from you.</p></div>
+        <div class="vis" aria-hidden="true"><div class="phone" data-turn="-1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div></div></div>
       </article>
-      <article class="card vcard v-sess">
-        <div class="aura" aria-hidden="true"></div>
-        <div class="txt" style="align-self:center;padding-bottom:40px">
-          <span class="mono">Your practice</span>
-          <h3 class="h">Sessions for the process</h3>
-          <p>Short audio sessions, voice over soft music with visuals. You rehearse the everyday steps toward what you want, like the breath before you walk into the meeting. Then write a line in your journal, straight onto a page of your Issue.</p>
-        </div>
-        <div class="vis" aria-hidden="true">
-          <div class="phone" data-turn="1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div></div>
-        </div>
+      <article class="card feature" style="--i:2">
+        <div class="txt"><p class="label">Your practice</p><h3 class="h">Sessions for the process</h3>
+          <p>Short audio sessions, voice over soft music with visuals. You rehearse the everyday steps toward what you want, like the breath before you walk into the meeting. Then write a line in your journal, straight onto a page of your Issue.</p></div>
+        <div class="vis" aria-hidden="true"><div class="phone" data-turn="1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div></div></div>
       </article>
     </div>
   </div>
 </section>
 
 <!-- 4 · EXPERIENCE: how an Issue gets made -->
-<section class="sec exp" id="how" aria-labelledby="how-h">
+<section class="sec" id="how" aria-labelledby="how-h">
   <div class="wrap">
-    <div class="sec-head rv">
-      <p class="mono pinktext">How it works</p>
-      <h2 id="how-h" class="h sec-title">Four steps. One Issue.</h2>
+    <div class="head rv">
+      <p class="label">How it works</p>
+      <h2 id="how-h" class="h">Four steps. One Issue.</h2>
     </div>
-    <div class="exp-grid">
+    <div class="how">
       <ol class="steps">
-        <li class="step" data-step="0"><span class="n">01</span><h3 class="h">Save</h3><p>Collect images of the life you want in My saves. Everything you save can become a page in your Issue.</p>
+        <li class="step" data-step="0"><p class="label">Step 1</p><h3 class="h">Save</h3><p>Collect images of the life you want in My saves. Everything you save can become a page in your Issue.</p>
           <div class="mini" aria-hidden="true"><div class="phone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-17.webp" alt="" loading="lazy"></div></div></div></div></div></li>
-        <li class="step" data-step="1"><span class="n">02</span><h3 class="h">Write</h3><p>Write a few honest lines in your journal. You watch them land on a real magazine page as you type.</p>
+        <li class="step" data-step="1"><p class="label">Step 2</p><h3 class="h">Write</h3><p>Write a few honest lines in your journal. You watch them land on a real magazine page as you type.</p>
           <div class="mini" aria-hidden="true"><div class="phone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-08.webp" alt="" loading="lazy"></div></div></div></div></div></li>
-        <li class="step" data-step="2"><span class="n">03</span><h3 class="h">Move</h3><p>Take your one small move for the week. When something shifts, add proof to your Issue.</p>
+        <li class="step" data-step="2"><p class="label">Step 3</p><h3 class="h">Move</h3><p>Take your one small move for the week. When something shifts, add proof to your Issue.</p>
           <div class="mini" aria-hidden="true"><div class="phone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div></div></div></li>
-        <li class="step" data-step="3"><span class="n">04</span><h3 class="h">Read</h3><p>Turn the pages of your Issue like a real magazine and watch it fill, page by page, toward 40.</p>
+        <li class="step" data-step="3"><p class="label">Step 4</p><h3 class="h">Read</h3><p>Turn the pages of your Issue like a real magazine and watch it fill, page by page, toward 40.</p>
           <div class="mini" aria-hidden="true"><div class="phone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div></div></div></li>
       </ol>
       <div class="sticky" aria-hidden="true">
@@ -445,55 +407,42 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
         <div class="phone" id="stickyPhone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span>
           <div class="face"><div class="screen">
             <img class="on" src="assets/app-17.webp" alt=""><img src="assets/app-08.webp" alt=""><img src="assets/app-26.webp" alt=""><img src="assets/app-05.webp" alt="">
-            <span class="island"></span><span class="glare"></span></div></div></div></div>
-        <span class="label mono" id="stickyLabel">01 · My saves</span>
+            <span class="glare"></span></div></div></div></div>
+        <span class="cap mono" id="stickyLabel">My saves</span>
       </div>
     </div>
+    <div class="after"><a class="btn" href="#join">Get early access</a></div>
   </div>
 </section>
 
-<!-- Print + statement -->
-<section class="sec print" aria-labelledby="print-h">
+<!-- 5 · PRINT -->
+<section class="sec" aria-labelledby="print-h">
   <div class="wrap">
-    <div class="print-grid">
-      <div class="rv" style="display:grid;gap:16px">
-        <p class="mono pinktext">At 40 pages</p>
-        <h2 id="print-h" class="h sec-title">Hold it in your hands.</h2>
-        <p class="sec-sub">When your Issue reaches 40 pages, you can order it as a real printed magazine. Your digital Issue is always included in the app.</p>
-        <div class="price mono"><span class="chip"><span class="dot"></span>Printed Issue · $29.99</span><span class="chip">Free standard shipping · US</span><span class="chip">40 pages · full color</span></div>
-      </div>
-      <div class="spread-stage" id="spreadStage" aria-hidden="true">
-        <div class="spread" id="spread">
-          <div class="shadow"></div>
-          <div class="stack"></div>
-          <div class="pageR" style="background-image:url(assets/mj-15.webp)"></div>
-          <div class="coverflap">
-            <div class="f" style="background-image:url(assets/mj-12.webp)">
-              <svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg>
-              <div class="lines"><span class="mono" style="color:var(--cream)">Issue 01 · Vol. 01</span><span class="h">The future issue</span></div>
-            </div>
-            <div class="b pageL">
-              <span class="mono">P. 09 · My move</span>
-              <span class="h">Mornings that feel like mine</span>
-              <p>Sample page. Lucky Star lays it out, and the words are hers.</p>
-            </div>
-            <span class="sticker" style="position:absolute"><span class="body"><span class="eleven"></span></span><span class="flap"></span></span>
-          </div>
+    <div class="head rv">
+      <p class="label">At 40 pages</p>
+      <h2 id="print-h" class="h">Hold it in your hands.</h2>
+      <p class="sub">When your Issue reaches 40 pages, you can order it as a real printed magazine. Your digital Issue is always included in the app.</p>
+      <div class="chips mono"><span class="chip"><span class="dot"></span>Printed Issue · $29.99</span><span class="chip">Free standard shipping · US</span><span class="chip">40 pages · full color</span></div>
+    </div>
+    <div class="printstage" id="printStage" aria-hidden="true">
+      <div class="spread" id="spread">
+        <div class="shadow"></div>
+        <div class="paper"></div>
+        <div class="pageR" style="background-image:url(assets/mj-15.webp)"></div>
+        <div class="cover">
+          <div class="f" style="background-image:url(assets/mj-12.webp)"><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><div><span class="mono" style="color:var(--cream)">Issue 01 · Vol. 01</span><br><span class="h">The future issue</span></div></div>
+          <div class="b"><span class="mono">P. 09 · My move</span><span class="h">Mornings that feel like mine</span><p>Sample page. Lucky Star lays it out, and the words are hers.</p></div>
         </div>
       </div>
     </div>
-    <div class="equation">
-      <p class="h rv">Your Issue + your actions = <span>your way there.</span></p>
-      <a class="btn rv" href="#join">Get early access</a>
-    </div>
   </div>
 </section>
 
-<!-- 5 · FAQ -->
-<section class="sec faq" id="faq" aria-labelledby="faq-h" style="padding-top:20px">
+<!-- 6 · FAQ -->
+<section class="sec" id="faq" aria-labelledby="faq-h">
   <div class="wrap">
-    <div class="sec-head center rv"><p class="mono pinktext">Questions</p><h2 id="faq-h" class="h sec-title">Asked and answered.</h2></div>
-    <div class="faq-wrap">
+    <div class="head rv"><p class="label">Questions</p><h2 id="faq-h" class="h">Asked and answered.</h2></div>
+    <div class="faq">
       <details open><summary>What is ISSUE11?<span class="pm" aria-hidden="true">+</span></summary>
         <p>ISSUE11 is a process-focused manifestation app for iPhone. It turns your dreams into a personal magazine and helps you take the small steps that make them real. You save images, listen to short audio sessions, write in your journal and pick one small move a week, and it all becomes pages in your own 40-page Issue.</p></details>
       <details><summary>When can I get it?<span class="pm" aria-hidden="true">+</span></summary>
@@ -510,22 +459,22 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
   </div>
 </section>
 
-<!-- 6 · FINAL CTA -->
-<section class="final" id="join" aria-labelledby="final-h">
+<!-- 7 · FINAL CTA -->
+<section class="sec" id="join" aria-labelledby="final-h">
   <div class="wrap">
-    <div class="cardred">
-      <div class="giant11" data-depth="0.05" aria-hidden="true"><span class="sticker" style="position:relative;--s:min(240px,30vw);display:block"><span class="body"><span class="eleven"></span></span><span class="flap"></span></span></div>
-      <div class="inner">
-        <p class="mono">Issue 01 · Private beta</p>
-        <h2 id="final-h" class="h">Your first issue starts 11.11.</h2>
-        <p class="lede">Join the waitlist for a private beta invite and the first word on the App Store launch.</p>
+    <div class="card closing">
+      <span class="sticker" data-peel aria-hidden="true"><span class="body"><span class="eleven"></span></span><span class="flap"></span></span>
+      <p class="label">Issue 01 · Private beta</p>
+      <h2 id="final-h" class="h">Your Issue + your actions = your way there.</h2>
+      <p class="lede">Your first Issue starts 11.11. Join the waitlist for a private beta invite and the first word on the App Store launch.</p>
+      <div class="formblock">
         <form class="join" data-join novalidate>
           <label><span class="sr">Email address</span><input id="final-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
           <button class="btn" type="submit">Get early access</button>
         </form>
         <p class="note" aria-live="polite"></p>
         <p class="fine">By joining, you agree to receive emails from ISSUE11 about early access and the launch. Unsubscribe anytime. See our <a href="#privacy">Privacy Policy</a>.</p>
-        <div class="dates mono" style="justify-content:flex-start"><span class="chip">Private beta · Nov 11, 2026</span><span class="chip">App Store · Dec 11, 2026</span></div>
+        <div class="chips mono"><span class="chip">Private beta · Nov 11, 2026</span><span class="chip">App Store · Dec 11, 2026</span></div>
       </div>
     </div>
   </div>
@@ -534,10 +483,10 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
 
 <footer>
   <div class="wrap">
-    <svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg>
     <div class="row mono">
-      <span>© 2026 ISSUE11 · See it. Write it. Become it.</span>
+      <svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg>
       <span class="links">
+        <span>© 2026 ISSUE11</span>
         <a href="#privacy" id="privacy">Privacy</a><span class="flag">Page missing</span>
         <a href="#terms" id="terms">Terms</a><span class="flag">Page missing</span>
         <span>Instagram · TikTok</span><span class="flag">Links to confirm</span>
@@ -546,10 +495,10 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
   </div>
 </footer>
 
-<div class="lucky">
+<div class="lucky away">
   <div class="pop" id="luckyPop" hidden>
     <button class="close" type="button" id="luckyClose" aria-label="Close">×</button>
-    <span class="mono pinktext">Lucky Star ✦</span>
+    <p class="label">Lucky Star</p>
     <p>Hi. I'm Lucky Star. When the beta opens on 11.11, I'll help lay out the pages of your Issue.</p>
     <a class="btn sm" href="#join" id="luckyGo">Get early access</a>
   </div>
@@ -578,25 +527,22 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
       note.textContent='Preview only: this form is not connected yet. In Framer it sends to the waitlist tool.';
     });
   });
-
-  // Stickers peel on tap (touch screens have no hover).
   document.querySelectorAll('[data-peel]').forEach(function(s){s.addEventListener('click',function(){s.classList.toggle('peeled');});});
 
-  // Floating Lucky Star: opens a small card with the same single action.
-  var lb=document.getElementById('luckyBtn'), lp=document.getElementById('luckyPop');
+  // Floating Lucky Star: a small card with the same single action; out of the way while the hero form shows.
+  var lk=document.querySelector('.lucky'), lb=document.getElementById('luckyBtn'), lp=document.getElementById('luckyPop');
   function setPop(open){lp.hidden=!open;lb.setAttribute('aria-expanded',open);lb.classList.toggle('peeled',open);}
   lb.addEventListener('click',function(){setPop(lp.hidden);});
   document.getElementById('luckyClose').addEventListener('click',function(){setPop(false);lb.focus();});
   document.getElementById('luckyGo').addEventListener('click',function(){setPop(false);});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!lp.hidden){setPop(false);lb.focus();}});
+  var heroForm=document.querySelector('.hero .join');
+  if('IntersectionObserver' in window){new IntersectionObserver(function(es){lk.classList.toggle('away',es[0].isIntersecting);if(es[0].isIntersecting)setPop(false);}).observe(heroForm);}
+  else lk.classList.remove('away');
 
-  // Floating 11 stays out of the way while the hero form is on screen.
-  var lk=document.querySelector('.lucky'), heroForm=document.querySelector('.hero .join');
-  if('IntersectionObserver' in window&&heroForm){new IntersectionObserver(function(es){lk.classList.toggle('away',es[0].isIntersecting);if(es[0].isIntersecting)setPop(false);}).observe(heroForm);}
-
-  // Sticky phone: swap the screen to match the step in view (works with or without motion).
+  // Sticky phone: the screen matches the step in view.
   var steps=[].slice.call(document.querySelectorAll('.step')), shots=[].slice.call(document.querySelectorAll('#stickyPhone .screen img'));
-  var labels=['01 · My saves','02 · Journal','03 · Your move','04 · Your Issue'], sl=document.getElementById('stickyLabel');
+  var labels=['My saves','Journal','Your move','Your Issue'], sl=document.getElementById('stickyLabel');
   function activate(i){steps.forEach(function(s,k){s.classList.toggle('on',k===i);});shots.forEach(function(im,k){im.classList.toggle('on',k===i);});sl.textContent=labels[i];}
   activate(0);
   if('IntersectionObserver' in window){
@@ -604,41 +550,43 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
     steps.forEach(function(s){so.observe(s);});
   }
 
-  var spread=document.getElementById('spread');
-  var reduce=window.matchMedia('(prefers-reduced-motion: reduce)');
-  if(reduce.matches){spread.style.setProperty('--o','0');return;}
-  document.documentElement.classList.add('motion');
-  var small=window.matchMedia('(max-width: 700px)');
+  // Real 3D phones: stack rounded slices behind each face for metal side walls, plus side keys.
+  document.querySelectorAll('.phone .body').forEach(function(b){
+    var n=16, frag=document.createDocumentFragment();
+    for(var i=n;i>=1;i--){var e=document.createElement('span');e.className='edge'+(i===n?' last':'');e.style.transform='translateZ(calc(var(--pw) * -'+(i*0.0034).toFixed(4)+'))';frag.appendChild(e);}
+    ['k1','k2','k3','k4'].forEach(function(k){var e=document.createElement('span');e.className='key '+k;frag.appendChild(e);});
+    b.insertBefore(frag,b.firstChild);
+  });
 
-  // Scroll reveals.
+  var spread=document.getElementById('spread');
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){spread.style.setProperty('--o','0');return;}
+  document.documentElement.classList.add('motion');
+
+  // Gentle reveals for section heads only.
   var rv=[].slice.call(document.querySelectorAll('.rv'));
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -6% 0px'});
     rv.forEach(function(el){io.observe(el);});
   } else rv.forEach(function(el){el.classList.add('in');});
 
-  // Layered parallax, phone stage straightening, phones turning, Issue opening. Normal scrolling: nothing is hijacked.
-  var layers=[].slice.call(document.querySelectorAll('[data-depth]'));
+  // Scroll-linked: hero phone straightens, feature phones turn a little, the printed Issue opens. Nothing is hijacked.
   var turns=[].slice.call(document.querySelectorAll('[data-turn]'));
-  var tilt=document.getElementById('tilt'), stage=document.getElementById('stage'), sStage=document.getElementById('spreadStage');
-  var sp=document.getElementById('stickyPhone');
+  var tilt=document.getElementById('tilt'), stage=document.getElementById('stage'), pStage=document.getElementById('printStage');
   var ticking=false;
   function clamp(v){return Math.max(0,Math.min(1,v));}
   function frame(){
     ticking=false;
-    var vh=window.innerHeight, amp=small.matches?0.35:1;
-    layers.forEach(function(el){
-      var r=el.getBoundingClientRect(), c=r.top+r.height/2-vh/2;
-      el.style.translate='0 '+(-c*parseFloat(el.dataset.depth)*amp).toFixed(1)+'px';
-    });
-    var rs=stage.getBoundingClientRect(), ps=clamp((vh-rs.top)/(vh*0.9));
-    tilt.style.setProperty('--sx',(10-10*ps).toFixed(2)+'deg');
+    var vh=window.innerHeight;
+    var rs=stage.getBoundingClientRect();
+    tilt.style.setProperty('--sx',(10-10*clamp((vh-rs.top)/(vh*0.9))).toFixed(2)+'deg');
     turns.forEach(function(el){
       var r=el.getBoundingClientRect(), c=(r.top+r.height/2-vh/2)/vh;
-      el.style.setProperty('--vy',Math.max(-14,Math.min(14,c*-16*parseFloat(el.dataset.turn))).toFixed(2)+'deg');
+      el.style.setProperty('--vy',Math.max(-12,Math.min(12,c*-14*parseFloat(el.dataset.turn))).toFixed(2)+'deg');
     });
-    if(sp){var r2=sp.getBoundingClientRect(); sp.style.setProperty('--ry',(-10+((r2.top+r2.height/2)/vh-.5)*20).toFixed(2)+'deg');}
-    var r3=sStage.getBoundingClientRect();
+    var cv=document.getElementById('covers'), tr=document.getElementById('coverTrack');
+    var rc=cv.getBoundingClientRect(), pc=clamp((vh-rc.top)/(vh+rc.height));
+    tr.style.setProperty('--x',(-pc*Math.max(0,tr.scrollWidth-cv.clientWidth+80)).toFixed(1)+'px');
+    var r3=pStage.getBoundingClientRect();
     spread.style.setProperty('--o',(1-clamp((vh*0.95-r3.top)/(vh*0.65))).toFixed(3));
   }
   function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(frame);}}

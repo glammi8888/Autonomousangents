@@ -1,6 +1,6 @@
 # ISSUE11 landing page · copy + Framer rebuild notes (🎨 BRAND, Oct 21, 2026)
 Prototype: https://claude.ai/artifact/3VCnhy64sZCaWaTBQXsnSs (private) · source: `design/landing/index.html` + `assets/`
-Status: **v2 (calmer, Oct 21: Megan found v1 "too loud"), draft for Megan.** v1: design/landing/index-v1-loud.html. Nothing is published or connected. Megan builds and publishes in Framer.
+Status: **v3 (one layout system, real 3D phones, pink set, example-covers gallery, large opening magazine; Oct 21). Earlier: v2 (calmer, Oct 21: Megan found v1 "too loud"), draft for Megan.** v1: design/landing/index-v1-loud.html. Nothing is published or connected. Megan builds and publishes in Framer.
 Sources: brand/BRAND-GUIDE.md · design/claude-design/V4-TOKENS.md · design/POSITIONING.md (Oct 10 one-liner) · design/V1-SIMPLIFIED.md · design/PRINT-PURCHASE.md · design/UX-LAWS-AUDIT.md (contrast) · drafts/launch-prep/holding-page.md · briefs/landing-page-11-11.md · real app screens from drafts/replit/handoff/screens/.
 Direction (Megan, Oct 21): keep the app's UI/UX; follow pillo-app.framer.website's structure and scroll effects (patterns only, never its words, ratings or "14,000+ users" style proof).
 
@@ -87,3 +87,11 @@ Fonts: Archivo Black (headlines, uppercase, letter-spacing −6%, line-height 0.
 9. **Final CTA:** red rounded card (36px), giant cream 11 with Scroll parallax (0.08), form repeated.
 10. **Floating 11:** fixed bottom right; on click opens a small glass card with the same CTA.
 **Motion rules:** no scroll hijacking (sticky + scroll transforms only); turn off loops/parallax under "Reduce motion" (Framer: Site settings → Accessibility); on phones keep parallax at about one third.
+
+## v3 changes (Oct 21, Megan's feedback)
+- One system: every section opens with the same centered head (mono label · H2 · sub); one card style (32px radius, #F8F5F1, hairline); type scale H1 56 / H2 52 / H3 34 / body 19; 128px between sections.
+- New section after the hero: **"Every Issue looks like the life you want."** Sub: "Your saves set the mood. Lucky Star lays out the cover and the pages. No two Issues look the same." Example covers (cover lines are examples): The future issue · The soft life issue · The money issue · The pink issue · The crown issue · The bold issue, plus Megan's logo-direction photo. Framer: horizontal row in a baby-pink rounded frame, Scroll transform translateX.
+- Hero visual: baby-pink set (moodboard) with a paper-3D ISSUE11 magazine lying flat + an angled 3D iPhone. Framer: use 3D mockup images (phone + magazine renders) on the pink frame; Framer can't extrude CSS-style.
+- Closing card: cream 11 sticker on top, H2 "Your Issue + your actions = your way there.", lede "Your first Issue starts 11.11. Join the waitlist…", same form.
+- Credibility: one card (founder quote + 3 facts: iPhone · 40 pages · 1 move a week). Beta quote slots hidden until real.
+- Still needed from Megan: the new reference images she pasted in chat (journaling, pearls, red blazer, interiors) are not in the repo; add them to brand/imagery to use them.

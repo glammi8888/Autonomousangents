@@ -107,17 +107,19 @@ a{color:inherit}
 .hero{padding-top:56px}
 .hero .top{display:grid;gap:40px}
 .heroL{display:grid;justify-items:center;text-align:center;gap:20px}
-@media (min-width:1024px){.hero .top{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:center;gap:56px}.heroL{justify-items:start;text-align:left}.heroL .masthead,.heroL .volrule{width:380px}.heroL .formblock{justify-items:start}}
+@media (min-width:1024px){.hero .top{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start;gap:72px}.heroL{justify-items:start;text-align:left;gap:16px}.heroL .masthead,.heroL .volrule{width:300px}.heroL .formblock{justify-items:start}.heroL .fine{text-align:left}.hero .shot{align-self:start}.hero .shot .iphone{right:6%}.heroL .meta{display:flex;gap:16px;align-items:center;flex-wrap:wrap}}
 .masthead{width:min(100%,560px)}
 .volrule{width:min(100%,560px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
+.volrule span{white-space:nowrap}
+.heroL .volrule .hide-s{display:none}
 .hero .kicker{margin:0;font:italic 400 21px/1.2 var(--body);color:var(--grey)}
-.hero h1{font-size:var(--h1);max-width:16ch}
+.hero h1{font-size:clamp(44px,4.6vw,68px);max-width:16ch}
 .hero .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:46ch}
 .hero .formblock{display:grid;gap:10px;justify-items:center;width:100%}
 .shot{position:relative;margin:0;display:grid;grid-template-columns:minmax(0,1fr)}
 .shot .photo{width:100%;border-radius:var(--radius);aspect-ratio:4/5;object-fit:cover;object-position:30% 60%}
 .shot .iphone{position:absolute;right:-4%;bottom:-24px;--pw:clamp(170px,20vw,300px)}
-@media (max-width:700px){.volrule .hide-s{display:none}.hero{padding-top:28px}.masthead,.volrule{width:72%}.hero h1{font-size:34px}.hero .lede{font-size:17px}.heroL{gap:14px}.shot .iphone{right:2%;bottom:-20px;--pw:150px}}
+@media (max-width:700px){.volrule .hide-s{display:none}.hero{padding-top:24px}.masthead,.volrule{width:58%}.hero .kicker{display:none}.hero h1{font-size:30px}.hero .lede{font-size:16px}.heroL{gap:12px}.shot .iphone{right:2%;bottom:-20px;--pw:150px}.hero .join{border:0;padding:0;background:none;flex-direction:column;align-items:stretch;gap:8px}.hero .join label{padding:0}.hero .join input{height:52px;border:1px solid var(--ink);border-radius:30px;padding:0 20px}.hero .join .btn{width:100%}}
 
 /* 2 · What it is: three plain steps with pictures */
 .flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
@@ -195,19 +197,19 @@ a{color:inherit}
 
 /* 4 · Outcomes: calm alternating rows, one big screen each */
 .rows{display:grid;gap:24px}
-.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-radius:var(--radius);background:var(--white);overflow:hidden;min-height:620px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);background:transparent;min-height:560px;gap:24px}
 .row:nth-child(even) .stagepic{order:2}
-.row .stagepic{position:relative;display:grid;place-items:center;padding:56px 24px 0;background:#ebe6df;overflow:hidden;align-items:start}
+.row .stagepic{position:relative;display:grid;place-items:center;padding:56px 24px 0;background:#fff;border-radius:var(--radius);overflow:hidden;align-items:start}
 .row .stagepic .iphone{--pw:310px;transform:translateY(14%);transition:transform .5s var(--ease)}
 .row:hover .stagepic .iphone{transform:translateY(11%)}
-.row .txt{display:grid;gap:14px;align-content:center;padding:48px clamp(24px,5vw,64px)}
+.row .txt{display:grid;gap:14px;align-content:center;padding:48px 56px;background:transparent}
 .row h3{font-size:var(--h3)}
 .row p{margin:0;color:var(--body-ink);max-width:42ch}
 @media (max-width:860px){.row{grid-template-columns:minmax(0,1fr);min-height:0}.row:nth-child(even) .stagepic{order:0}.row .stagepic{padding:36px 16px 0;height:420px}.row .stagepic .iphone{--pw:230px}.row .txt{padding:28px 24px 32px}}
 .mid{display:flex;justify-content:center;margin-top:40px}
 
 /* 5 · Newsstand: real-looking flat covers you can swipe */
-.stand{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px var(--gr) 24px var(--gl);margin-inline:calc(50% - 50vw);padding-left:max(var(--gl),calc(50vw - 590px + 16px));scrollbar-width:thin}
+.stand{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px var(--gr) 24px;padding-left:max(var(--gl),calc(50vw - 590px + 16px));scroll-padding-inline:max(var(--gl),calc(50vw - 590px + 16px));scrollbar-width:thin}
 .cover{flex:0 0 auto;width:min(360px,72vw);scroll-snap-align:start;display:grid;gap:12px}
 .cover .art{position:relative;aspect-ratio:8.5/11;border-radius:3px;background:center/cover;overflow:hidden;box-shadow:0 1px 0 #ddd,0 24px 36px -22px rgba(13,13,13,.55),inset 6px 0 8px -6px rgba(0,0,0,.4);transition:transform .4s var(--ease)}
 .cover:hover .art{transform:translateY(-6px)}
@@ -217,7 +219,7 @@ a{color:inherit}
 
 /* 6 · Print: the real magazine photo */
 .print{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px;align-items:center}
-.print .photo{aspect-ratio:1;border-radius:var(--radius);background:#f2b7c3 url(assets/magazine-photo.webp) center/cover}
+.print .photo{aspect-ratio:4/5;border-radius:var(--radius);background:#f2b7c3 url(assets/magazine-photo.webp) 40% 50%/cover;filter:saturate(.75)}
 .print .txt{display:grid;gap:18px}
 .print .txt h2{font-size:var(--h2)}
 .print .txt p{margin:0;color:var(--body-ink)}
@@ -295,8 +297,8 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
           <button class="btn" type="submit">Get early access</button>
         </form>
         <p class="note" aria-live="polite"></p>
-        <p class="fine">Free to join. Email only. Unsubscribe anytime.</p>
-        <span class="glass" role="note" aria-label="Coming to the App Store on December 11, 2026"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.5-1-2.5-3.9zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg><span class="txt"><small>Coming to the</small><b>App Store · Dec 11</b></span></span>
+        <div class="meta"><p class="fine">Free to join. Email only. Unsubscribe anytime.</p>
+        <span class="glass" role="note" aria-label="Coming to the App Store on December 11, 2026"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.5-1-2.5-3.9zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg><span class="txt"><small>Coming to the</small><b>App Store · Dec 11</b></span></span></div>
       </div>
       </div>
   <figure class="shot" style="margin-inline:0">
@@ -317,7 +319,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
         <span class="mono n">1 · Save</span><h3 class="h">Gather what you want</h3><p>Save the images, places and moments you want in your life, all in one place.</p></div>
       <div class="step rv"><div class="pic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-08.webp" alt=""></div></div></div>
         <span class="mono n">2 · Write and move</span><h3 class="h">Make it yours</h3><p>Write a few honest lines and pick one small move a week. Lucky Star lays out the pages. Your words stay exactly as you wrote them.</p></div>
-      <div class="step rv"><div class="pic mag" role="img" aria-label="A printed ISSUE11 magazine"></div>
+      <div class="step rv"><div class="pic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-11.webp" alt=""></div></div></div>
         <span class="mono n">3 · Hold</span><h3 class="h">Your 40-page Issue</h3><p>Watch it fill, page by page. At 40 pages, keep it in the app or order it printed.</p></div>
     </div>
   </div>

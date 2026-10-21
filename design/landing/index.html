@@ -115,6 +115,7 @@ a{color:inherit}
 .volrule{width:min(100%,560px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
 .volrule span{white-space:nowrap}
 .heroL .volrule .hide-s{display:none}
+.hero .subh{margin:0;font:italic 400 clamp(22px,2vw,28px)/1.15 var(--body);color:var(--ink)}
 .hero .kicker{margin:0;font:italic 400 21px/1.2 var(--body);color:var(--grey)}
 .hero h1{font-size:clamp(44px,4.2vw,60px);max-width:16ch}
 .hero .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:46ch}
@@ -152,6 +153,13 @@ a{color:inherit}
 a.turn span{color:var(--pinktext)}
 p.turn{max-width:26ch}
 @media (max-width:760px){.familiar{grid-template-columns:minmax(0,1fr)}.familiar blockquote,.familiar blockquote:nth-child(even){padding:22px 0;border-left:0}}
+
+/* Statement band */
+.statement{background:var(--ink);color:var(--white);margin-top:var(--gap);padding-block:clamp(72px,10vw,140px)}
+.statement .s1{margin:0 0 24px;font:italic 400 clamp(24px,2.8vw,40px)/1.15 var(--body);color:#cfc9c1;max-width:30ch}
+.statement .s2{margin:0;font-size:clamp(40px,6vw,88px);max-width:14ch}
+.statement .s2::after{content:".";color:var(--pink)}
+.statement + .sec{padding-top:var(--gap)}
 
 /* For you / not for you: take a stance against a behavior, never against people */
 .fit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
@@ -268,7 +276,7 @@ p.turn{max-width:26ch}
 
 /* 9 · Closing */
 .closing{border-radius:var(--radius);padding:clamp(48px,7vw,96px) clamp(20px,5vw,64px);display:grid;justify-items:center;text-align:center;gap:22px;background:var(--ink);color:var(--white)}
-.closing h2{font-size:var(--h2);max-width:14ch}
+.closing h2{font-size:var(--h2);max-width:18ch}
 .closing .label{color:var(--pink)}
 .closing .lede{margin:0;font-size:20px;color:#e8e4de;max-width:40ch}
 .closing .formblock{display:grid;gap:12px;justify-items:center;width:100%}
@@ -309,8 +317,9 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
       <div class="heroL">
       <div class="masthead"><svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg></div>
       <div class="volrule mono"><span>Vol. 01</span><span class="hide-s">The future issue</span><span>Private beta 11.11.2026</span></div>
-      <p class="kicker">The app that helps you achieve your dreams.</p>
-      <h1 id="hero-h" class="h">See it clearly. Take the next step.</h1>
+      <p class="kicker">The first app ever that creates your magazine based on YOU.</p>
+      <h1 id="hero-h" class="h">Make your dreams come true.</h1>
+      <p class="subh">Manifest your richer, hotter and smarter life.</p>
       <p class="lede">Seeing it was never the problem. Moving toward it is. ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real.</p>
       <div class="formblock">
         <form class="join" data-join novalidate>
@@ -337,7 +346,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
     <div class="head rv"><h2 id="what-h" class="h">From scattered dreams to your Issue.</h2><p class="sub">Three steps. The magazine is step one, not the finish line.</p></div>
     <div class="flow">
       <div class="step rv"><div class="pic"><div class="saves"><img src="assets/mj-12.webp" alt=""><img src="assets/mj-15.webp" alt=""><img src="assets/mj-08.webp" alt=""></div></div>
-        <span class="mono n">1 · Save</span><h3 class="h">Gather what you want</h3><p>Save the images, places and moments you want in your life, all in one place.</p></div>
+        <span class="mono n">1 · Save</span><h3 class="h">Gather what you want</h3><p>Pick from curated editorial images, or upload your own. All the life you want, in one place.</p></div>
       <div class="step rv"><div class="pic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-08.webp" alt=""></div></div></div>
         <span class="mono n">2 · Write and move</span><h3 class="h">Make it yours</h3><p>Write a few honest lines and pick one small move a week. Lucky Star lays out the pages. Your words stay exactly as you wrote them.</p></div>
       <div class="step rv"><div class="pic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-11.webp" alt=""></div></div></div>
@@ -370,11 +379,19 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
   </div>
 </section>
 
+<!-- STATEMENT (Megan's words) -->
+<section class="statement" aria-label="Why ISSUE11">
+  <div class="wrap">
+    <p class="s1">Your social media feed brings you further from yourself and your dreams.</p>
+    <p class="s2 h">ISSUE11 brings you closer to the life you deserve.</p>
+  </div>
+</section>
+
 <!-- STANCE: for you / not for you -->
 <section class="sec" aria-labelledby="fit-h">
   <div class="wrap">
     <div class="folio mono"><span>P. 05</span><span>Is it for you?</span></div>
-    <div class="head rv" style="grid-template-columns:minmax(0,1fr)"><h2 id="fit-h" class="h">Manifestation that makes you move.</h2><p class="sub">ISSUE11 is built for one kind of person. Here's how to tell.</p></div>
+    <div class="head rv" style="grid-template-columns:minmax(0,1fr)"><h2 id="fit-h" class="h">Not a boring meditation app.</h2><p class="sub">One that's committed to making you change. Built for one kind of person. Here's how to tell.</p></div>
     <div class="fit">
       <div class="col yes rv"><p class="label">For you if</p><h3 class="h">You're done waiting.</h3><ul>
         <li>You can see the life you want and you're ready for one small step a week toward it.</li>
@@ -433,7 +450,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
 <section class="sec" id="inside" aria-labelledby="val-h">
   <div class="wrap">
     <div class="folio mono"><span>P. 07</span><span>Inside the app</span></div>
-    <div class="head rv"><h2 id="val-h" class="h">Your attention, back on your life.</h2><p class="sub">Your goals. Your pace. Your pages. Nobody else's.</p></div>
+    <div class="head rv"><h2 id="val-h" class="h">Starring: you.</h2><p class="sub">Immersive meditations, and a magazine curated around the star of your own life: you.</p></div>
     <div class="gallery"><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div><p class="label">Clarity</p><h3 class="h">Know what you actually want.</h3><p>Your dreams are scattered across screenshots, notes and boards. ISSUE11 gathers them into one 40-page magazine about your life. Lucky Star lays out the pages, and your words stay exactly as you wrote them.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div><p class="label">Your pace</p><h3 class="h">A practice you actually keep.</h3><p>Most journals start to feel like homework. Here it's one small move a week. Missed a week? Pick up where you left off. No streaks, no guilt.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div><p class="label">Your practice</p><h3 class="h">Motivated, not pressured.</h3><p>Affirmations can feel fake when your life says otherwise. Short audio sessions help you rehearse the everyday steps instead, like the breath before you walk into the meeting. A voice over soft music, with visuals, so the life you want feels close, not far away.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div><p class="label">Progress</p><h3 class="h">See how far you've come.</h3><p>Small shifts are easy to miss. When something moves, add proof to your Issue and watch it fill, page by page.</p></article></div>
     <p class="gcount mono" id="gcount" aria-hidden="true">1 / 4 →</p>
     <div class="mid"><a class="btn" href="#join">Get early access</a></div>
@@ -487,7 +504,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
   <div class="wrap">
     <div class="closing">
       <p class="label">Issue 01 · Private beta</p>
-      <h2 id="final-h" class="h">Your Issue + your actions = your way there.</h2>
+      <h2 id="final-h" class="h">You're amazing and your life deserves its own Issue.</h2>
       <p class="lede">Stop saving it for someday. Join the waitlist. Beta invites go out from November 11, and you'll hear first when ISSUE11 reaches the App Store on December 11.</p>
       <div class="formblock">
         <form class="join" data-join novalidate>

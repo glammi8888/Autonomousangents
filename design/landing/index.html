@@ -42,7 +42,9 @@ a{color:inherit}
 
 /* Section opener */
 .sec{padding-block:var(--gap) 0}
-.sec.band{background:#f4f1ec;padding-block:var(--gap);margin-top:var(--gap)}
+.sec.band{background:#f4f1ec;padding-block:72px var(--gap);margin-top:var(--gap)}
+.bridge{display:inline-block;margin-bottom:48px;text-decoration:none;color:var(--ink);font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(22px,2.4vw,32px);line-height:1}
+.bridge .arrow{color:var(--pinktext)}
 .sec.band + .sec{padding-top:var(--gap)}
 .folio{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--ink);padding-top:10px;margin-bottom:28px}
 .head{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:20px 48px;align-items:end;margin-bottom:52px}
@@ -108,7 +110,7 @@ a{color:inherit}
 .hero{padding-top:56px}
 .hero .top{display:grid;gap:40px}
 .heroL{display:grid;justify-items:center;text-align:center;gap:20px}
-@media (min-width:1024px){.hero .top{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start;gap:72px}.heroL{justify-items:start;text-align:left;gap:16px}.heroL .masthead,.heroL .volrule{width:300px}.heroL .formblock{justify-items:start}.heroL .fine{text-align:left}.hero .shot{align-self:start}.hero .shot .iphone{--pw:220px;right:28px;bottom:-28px;filter:drop-shadow(0 30px 40px rgba(13,13,13,.25))}.heroL .meta{display:flex;gap:16px;align-items:center;flex-wrap:wrap}}
+@media (min-width:1024px){.hero .top{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start;gap:72px}.heroL{justify-items:start;text-align:left;gap:16px}.heroL .masthead,.heroL .volrule{width:300px}.heroL .formblock{justify-items:start}.heroL .fine{text-align:left}.hero .shot{align-self:start}.hero .shot .iphone{--pw:220px;right:28px;bottom:24px;filter:drop-shadow(0 30px 40px rgba(13,13,13,.25))}.heroL .meta{display:flex;gap:16px;align-items:center;flex-wrap:wrap}}
 .masthead{width:min(100%,560px)}
 .volrule{width:min(100%,560px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
 .volrule span{white-space:nowrap}
@@ -118,9 +120,10 @@ a{color:inherit}
 .hero .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:46ch}
 .hero .formblock{display:grid;gap:10px;justify-items:center;width:100%}
 .shot{position:relative;margin:0;display:grid;grid-template-columns:minmax(0,1fr)}
-.shot .photo{width:100%;border-radius:var(--radius);aspect-ratio:4/5;object-fit:cover;object-position:35% 55%}
+.shot .photo{width:100%;border-radius:var(--radius);aspect-ratio:4/5;object-fit:cover;object-position:55% 70%}
+@media (min-width:1024px){.hero .shot .photo{max-height:calc(100svh - 150px)}}
 .shot .iphone{position:absolute;right:-4%;bottom:-24px;--pw:clamp(170px,20vw,300px)}
-@media (max-width:700px){.volrule .hide-s{display:none}.hero{padding-top:24px}.masthead,.volrule{width:58%}.hero .kicker{display:none}.hero h1{font-size:30px}.hero .lede{font-size:16px}.heroL{gap:12px}.shot .iphone{right:2%;bottom:-20px;--pw:150px}.hero .join{border:0;padding:0;background:none;flex-direction:column;align-items:stretch;gap:8px}.hero .join label{padding:0}.hero .join input{height:52px;border:1px solid var(--ink);border-radius:30px;padding:0 20px}.hero .join .btn{width:100%}.hero .formblock{gap:8px;row-gap:10px}.heroL .meta{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 12px;align-items:center}.hero .shot{margin-top:24px}}
+@media (max-width:700px){.volrule .hide-s{display:none}.hero{padding-top:24px}.masthead,.volrule{width:58%}.hero .kicker{display:none}.hero h1{font-size:30px}.hero .lede{font-size:16px}.heroL{gap:12px}.shot .iphone{right:2%;bottom:-20px;--pw:150px}.hero .join{border:0;padding:0;background:none;flex-direction:column;align-items:stretch;gap:8px}.hero .join label{padding:0}.hero .join input{height:52px;border:1px solid var(--ink);border-radius:30px;padding:0 20px}.hero .join .btn{width:100%}.hero .formblock{gap:8px;row-gap:10px}.heroL .meta{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 12px;align-items:center}.hero .shot{margin-top:16px}.hero .top{gap:16px;padding-bottom:0}.masthead,.volrule{width:50%!important}.heroL .volrule{width:72%!important}}
 
 /* 2 · What it is: three plain steps with pictures */
 .flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
@@ -197,7 +200,7 @@ p.turn{max-width:26ch}
 .maker .yours{font:600 19px/1.3 var(--body);margin:0;text-align:left}
 .maker .yours span{color:var(--ink)}
 .maker .formblock{display:grid;gap:10px;justify-items:start}
-@media (max-width:860px){.maker{grid-template-columns:minmax(0,1fr)}.maker .preview{order:-1;position:sticky;top:84px;z-index:2;background:#f4f1ec;padding-top:16px;padding-bottom:12px}.maker .mycover{width:38vw}#issue-title,.ideas{scroll-margin-top:calc(84px + 38vw*1.3 + 40px)}.maker figcaption{white-space:nowrap;font-size:10px}.maker figcaption .long{display:none}.maker .mycover .title{font-size:22px}}
+@media (max-width:860px){.maker{grid-template-columns:minmax(0,1fr)}.maker .preview{order:-1;position:sticky;top:84px;z-index:2;background:#f4f1ec;padding-top:16px;padding-bottom:12px}.maker .mycover{width:46vw}.maker .mycover .meta{display:none}.maker .mycover .title{bottom:16%;font-size:20px!important}#issue-title,.ideas{scroll-margin-top:calc(84px + 38vw*1.3 + 40px)}.maker figcaption{white-space:nowrap;font-size:10px}.maker figcaption .long{display:none}.maker .mycover .title{font-size:22px}}
 
 /* 4 · Outcomes: one screens gallery (four phones side by side) */
 .gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
@@ -205,6 +208,8 @@ p.turn{max-width:26ch}
 .gitem .plinth{border-radius:var(--radius);padding:40px 0 0;overflow:hidden;height:440px;background:#f4f1ec;display:grid;justify-items:center}
 .gitem .iphone{--pw:230px;transform:translateY(8%);transition:transform .5s var(--ease)}
 .gitem:hover .iphone{transform:translateY(4%)}
+.gcount{display:none;margin:12px 0 0;color:var(--grey);font-size:11px}
+@media (max-width:860px){.gcount{display:block}}
 .gitem .label{margin-top:8px;font-size:11px;letter-spacing:.06em;color:var(--pinktext)}
 .gitem h3{min-height:2.1em}
 .gitem h3{font-size:24px}
@@ -380,13 +385,13 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
         <li>You need pressure to keep going.</li>
         <li>You'd rather someone else wrote your story.</li></ul></div>
     </div>
-    <a href="#try" class="turn" style="display:inline-block;text-decoration:none">Done waiting? <span>Name your Issue ↓</span></a>
   </div>
 </section>
 
 <!-- NAME YOUR ISSUE: try it now (nothing is saved or sent) -->
 <section class="sec band" id="try" aria-labelledby="try-h">
   <div class="wrap">
+    <a href="#try-h" class="bridge">Done waiting? Name your Issue <span class="arrow">↓</span></a>
     <div class="folio mono"><span>P. 06</span><span>Try it</span></div>
     <div class="head rv"><h2 id="try-h" class="h">Name your Issue.</h2><p class="sub">What's the life you're making room for? Give it a title and a mood.</p></div>
     <div class="maker">
@@ -430,6 +435,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
     <div class="folio mono"><span>P. 07</span><span>Inside the app</span></div>
     <div class="head rv"><h2 id="val-h" class="h">Your attention, back on your life.</h2><p class="sub">Your goals. Your pace. Your pages. Nobody else's.</p></div>
     <div class="gallery"><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div><p class="label">Clarity</p><h3 class="h">Know what you actually want.</h3><p>Your dreams are scattered across screenshots, notes and boards. ISSUE11 gathers them into one 40-page magazine about your life. Lucky Star lays out the pages, and your words stay exactly as you wrote them.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div><p class="label">Your pace</p><h3 class="h">A practice you actually keep.</h3><p>Most journals start to feel like homework. Here it's one small move a week. Missed a week? Pick up where you left off. No streaks, no guilt.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div><p class="label">Your practice</p><h3 class="h">Motivated, not pressured.</h3><p>Affirmations can feel fake when your life says otherwise. Short audio sessions help you rehearse the everyday steps instead, like the breath before you walk into the meeting. A voice over soft music, with visuals, so the life you want feels close, not far away.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div><p class="label">Progress</p><h3 class="h">See how far you've come.</h3><p>Small shifts are easy to miss. When something moves, add proof to your Issue and watch it fill, page by page.</p></article></div>
+    <p class="gcount mono" id="gcount" aria-hidden="true">1 / 4 →</p>
     <div class="mid"><a class="btn" href="#join">Get early access</a></div>
   </div>
 </section>
@@ -530,6 +536,10 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
       note.textContent=MSG_OK+' (Preview: this form is not connected yet.)';
     });
   });
+  (function(){var gc=document.getElementById('gcount'), items=document.querySelectorAll('.gitem'), g=document.querySelector('.gallery');
+    if(!gc||!('IntersectionObserver' in window)) return;
+    var o=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting&&en.intersectionRatio>.6){var i=[].indexOf.call(items,en.target)+1;gc.textContent=i+' / '+items.length+(i<items.length?' →':'');}});},{root:g,threshold:[.6]});
+    items.forEach(function(it){o.observe(it);});})();
   if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window)) return;
   document.documentElement.classList.add('motion');
   var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -6% 0px'});

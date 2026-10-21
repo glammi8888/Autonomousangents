@@ -112,7 +112,7 @@ a{color:inherit}
 .dock .steps{position:absolute;right:24px;bottom:20px;display:flex;gap:10px;color:var(--ink)}
 .dock .steps span{color:var(--grey);transition:color .3s}
 .dock .steps span.on{color:var(--ink)}
-@media (max-width:700px){.dock{height:200vh;margin-top:16px}.dock .mag{--w:min(200px,50vw);margin-left:calc(var(--w)*-.95)}.dock .phone{--pw:132px;left:calc(50% + 8px)}.dock .sticker{--s:56px;left:max(4px,calc(50% - min(200px,50vw)*.95 - 14px));top:calc(50% - min(200px,50vw)*.647 - 22px)}.dock .steps{display:none}}
+@media (max-width:700px){.dock .pin{padding-block:22vh 16px;align-items:start}.dock{height:200vh;margin-top:16px}.dock .mag{--w:min(200px,50vw);margin-left:calc(var(--w)*-.95)}.dock .phone{--pw:132px;left:calc(50% + 8px)}.dock .sticker{--s:56px;left:max(4px,calc(50% - min(200px,50vw)*.95 - 14px));top:calc(50% - min(200px,50vw)*.647 - 22px)}.dock .steps{display:none}}
 
 /* 3D phone */
 .phone{--pw:300px;position:absolute;width:var(--pw);aspect-ratio:375/800;transform-style:preserve-3d}
@@ -160,7 +160,7 @@ a{color:inherit}
 .stand .item:hover .mag{transform:rotateY(-2deg) rotateX(1deg) translateY(-8px)}
 .stand .item:hover .mag .er{background:repeating-linear-gradient(90deg,#fff 0 1px,#f2c7d5 1px 2px)}
 .stand .cap{color:var(--grey)}
-.stand .mag .fc.photo .h{font-size:calc(var(--w)*.07);max-width:90%}
+.stand .mag .fc.photo .h{font-size:calc(var(--w)*.062)!important;max-width:88%;overflow-wrap:break-word;display:inline-block}
 .stand .note2{position:absolute;right:max(24px,calc(50vw - 560px));bottom:8px;color:var(--grey)}
 @media (max-width:700px){.stand{height:calc(64vw * 1.294 + 120px)}.stand .item,.stand .slot3d{width:64vw}.stand .slot3d{height:calc(64vw * 1.294)}.stand .mag{--w:64vw;--h:calc(64vw * 1.294);--t:11px}.stand .track{gap:28px;top:24px}}
 
@@ -571,7 +571,7 @@ footer .big .wm{transform:translateY(var(--fy,40px));will-change:transform}
     dfc.style.setProperty('--ph',seg(p,0.3,0.6).toFixed(3));
     dfc.style.setProperty('--cw',seg(p,0.6,0.7).toFixed(3));
     dph.style.setProperty('--px',((1-seg(p,0.62,0.85))*60).toFixed(2)+'vw');
-    var t=seg(p,0.8,0.92); dst.style.setProperty('--so',t.toFixed(3)); dst.style.setProperty('--ss',(1.8-0.8*t).toFixed(3)); dst.classList.toggle('peeled',p>0.95);
+    var t=seg(p,0.8,0.9); dst.style.setProperty('--so',t.toFixed(3)); dst.style.setProperty('--ss',(1.8-0.8*t).toFixed(3)); dst.classList.toggle('peeled',p>0.95);
     var stp=p<0.4?0:p<0.75?1:2; dsteps.forEach(function(sp,i){sp.classList.toggle('on',i===stp);});
     // Newsstand drifts sideways while in view.
     var rs=stand.getBoundingClientRect(), ps=clamp((vh-rs.top)/(vh+rs.height));

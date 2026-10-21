@@ -24,3 +24,9 @@ NIKO / Noir Form Studio posters · REP.CLUB shop app · museum app (hairline lis
 
 ## Decided
 - **Color: pink only** (Megan, Oct 21, to "pink + lilac/orange?": "nope"). Black + white base, hot pink is the one accent. No extra color blocks.
+
+## Focus refs (Megan, Oct 21: "ok let's focus on this then")
+Museum app (white, lowercase grotesk, hairline lists) · "Curated (Works) 16–24" gallery (giant condensed caps, numbered strip 01/02/03, mono labels) · "The Editorial Drop" (tight bold grotesk on close-up photos). Draft: 03-gallery-museum-editorial.png.
+
+## Rule: real magazines only
+Megan, word for word: "I don't want any picture of a magazine that isn't real". Never show a drawn, rendered or fake-3D magazine anywhere (app, landing, App Store, social). Physical magazine = real photos only (her printed proof, or real photographed blank magazines with her page placed on them). Digital pages inside the app are fine because they're shown as screens, not as fake objects. Her Pinterest magazine board (Oct 19 + 21) is the target look for the pages themselves.

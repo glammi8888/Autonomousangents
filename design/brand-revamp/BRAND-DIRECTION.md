@@ -37,3 +37,7 @@ Megan, word for word: "I don't want any picture of a magazine that isn't real". 
 
 ## Favorite so far (Megan, Oct 21)
 "my favorite so far has been the very first options you gave me" + she sent back the Home 4-options board (05-home-4-options.png). This board is the style reference: white, hairlines, condensed caps titles, tight bold grotesk, mono labels, wavy logo big, black 11 square, pink only, real magazine photos.
+
+## More vibes (Megan, Oct 21: "some additional vibes for you")
+Harry Richards poster-grid site on a phone · MAJI STUDIOS (one giant letter "M", tiny text) · Inner.co (huge wordmark cropped off the screen edge, photos labeled "001001.jpg", small right-aligned text) · Pryatki (full-bleed photo, soft pink backdrop).
+Takeaways: one giant cropped word or letter per screen, very small secondary text, file-name style captions, full-bleed photos, generous white. Also: present app screens as real phones in hands / on a table (real photos), not flat mockups.

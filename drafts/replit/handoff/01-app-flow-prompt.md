@@ -27,17 +27,13 @@ FIRST OPEN (right after the paywall and sign in, once)
 - Her cover settles, the cover lines appear one by one, the small 11 sticker pops onto the corner, a pink glow blooms.
 - "Your Issue has started. 8 of 40 pages · 32 to go" + pink glass button "Open my Issue" -> Home. Soft haptic on the peel.
 
-HOME (one long scrollable page, like my V4 Home)
-- Top: the big wavy ISSUE11 masthead (about 75% of the screen width, centered) + a thin rule "VOL. 01 · [date]". When she scrolls down, it shrinks into a small sticky header (small masthead + "14 of 40 · Vol. 01"), like Apple Music large titles.
-- Story bubbles (like Instagram): only what's new today: Today + New page. Pink ring = new. Tap = full-screen story cards. (Your move and Flashback live once, as cards below. Nothing appears twice on Home.)
-- Her big Issue cover with a glass "Your issue" pill and a 40-tick progress bar "14 of 40 pages · 26 to print". Tap -> Issue tab.
-- "Your move this week" black card with the pink glass button "I made room for it" -> Add Proof (one line, optional photo -> "Share to my Issue") -> "It's real".
-- Resume capsule: "Resume: [session] · 6 min left" with pink play.
-- The Editor flashback card (pink): one of her own Journal lines from months ago, "Does it feel truer now?" -> "Add proof" / "Not yet".
-- "From your saves" strip of her images + "See all" (no counter).
-- "Latest pages" strip of her newest Issue pages -> "Open Issue".
-- Ends with "That's today. See you tomorrow." (no endless feed).
-- If the week has no move yet, the move card says "Pick this week's move" (her last move, 3 suggestions, "Write my own").
+HOME (one long scrollable page, calm, LOTS of white space · see design/brand-revamp/13-home-calmer.png)
+- Top bar: the wavy ISSUE11 logo (left), small mono "VOL. 01 · [date]" and the 11 mark (right).
+- Poster: big centered title in Archivo Condensed caps "THE [NAME] (ISSUE) 14–40", then small "open my issue · 26 to print" (baby pink tag), then a numbered strip (01–04) of her Issue shown as real magazine photos. Tap -> Issue tab.
+- 01 · This week's move (hairline rule + mono label + "week 06"): her move in bold Inter Tight, black button "I made room for it" -> Add Proof -> "It's real", outline button "Not yet". If no move yet: "Pick this week's move".
+- 02 · Tonight: one session row (image, name, "resume · 6 min left"), black play square.
+- Ends with "THAT'S TODAY." + "see you tomorrow" (no endless feed).
+- NOT on Home anymore (Megan, Oct 21): story bubbles, flashback card, saves strip, latest pages. Flashbacks can come from the Editor (the 11).
 
 HOW PAGES ARE MADE (important logic)
 - Saves are her VIBE, not pages. Saving (hearting) an image or session never adds a page by itself. There is NO save counter anywhere ("4 more saves = 1 new page" is removed everywhere).

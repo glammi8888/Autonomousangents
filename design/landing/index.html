@@ -154,9 +154,10 @@ a{color:inherit}
 .ideas{margin-top:4px}
 .idea{appearance:none;cursor:pointer;min-height:44px;padding:8px 14px;border-radius:30px;border:1px dashed var(--ink);background:var(--white);font:600 16px var(--body);color:var(--ink)}
 .idea:hover{border-style:solid}
+.idea[aria-pressed=true]{border-style:solid;border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
 .moods input{position:absolute;opacity:0;width:1px;height:1px}
 .moods span{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px 6px 6px;border-radius:30px;border:1px solid var(--line);background:var(--white);font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
-.moods span i{width:32px;height:32px;border-radius:50%;background:center/cover}
+.moods span i{width:32px;height:32px;border-radius:50%;background-position:50% 30%;background-size:160%}
 .moods input:checked + span{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
 .moods input:focus-visible + span{outline:3px solid var(--ink);outline-offset:2px}
 .maker .preview{display:grid;justify-items:center;gap:14px}
@@ -173,7 +174,7 @@ a{color:inherit}
 .maker .yours{font:600 19px/1.3 var(--body);margin:0;text-align:left}
 .maker .yours span{color:var(--ink)}
 .maker .formblock{display:grid;gap:10px;justify-items:start}
-@media (max-width:860px){.maker{grid-template-columns:minmax(0,1fr)}.maker .preview{order:-1;position:sticky;top:72px;z-index:2;background:var(--card);padding-bottom:12px}.maker .mycover{width:44vw}.maker .mycover .title{font-size:22px}}
+@media (max-width:860px){.maker{grid-template-columns:minmax(0,1fr)}.maker .preview{order:-1;position:sticky;top:84px;z-index:2;background:var(--card);padding-top:8px;padding-bottom:12px}.maker .mycover{width:38vw}#issue-title,.ideas{scroll-margin-top:calc(84px + 38vw*1.3 + 40px)}.maker figcaption{white-space:nowrap;font-size:10px}.maker figcaption .long{display:none}.maker .mycover .title{font-size:22px}}
 
 /* 4 · Outcomes: calm alternating rows, one big screen each */
 .rows{display:grid;gap:24px}
@@ -347,7 +348,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
       <div class="controls">
         <div class="field"><label class="mono" for="issue-title">Your Issue's title</label>
           <input id="issue-title" type="text" maxlength="32" placeholder="The new city issue" autocomplete="off">
-          <div class="moods ideas" aria-label="Title ideas"><button type="button" class="idea">The soft life issue</button><button type="button" class="idea">The money issue</button><button type="button" class="idea">The new city issue</button></div>
+          <div class="moods ideas" aria-label="Title ideas"><button type="button" class="idea" aria-pressed="false">The soft life issue</button><button type="button" class="idea" aria-pressed="false">The money issue</button><button type="button" class="idea" aria-pressed="false">The new city issue</button></div>
           <p class="fine">Just for fun: your title stays on this page and isn't saved.</p></div>
         <fieldset><legend class="mono">Pick a mood</legend><div class="moods">
           <label><input type="radio" name="mood" value="mj-14" checked><span><i style="background-image:url(assets/mj-14.webp)"></i>Soft</span></label>
@@ -372,7 +373,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
           <div class="title" id="mytitle">The new city issue</div>
           <div class="lines mono">One small move a week</div>
         </div>
-        <figcaption class="mono" style="color:var(--grey)">Preview · your real cover is designed in the app</figcaption>
+        <figcaption class="mono" style="color:var(--grey)">Preview · <span class="long">your real cover is </span>designed in the app</figcaption>
       </figure>
     </div>
   </div>
@@ -475,8 +476,9 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
   (function(){var t=document.getElementById('issue-title'), out=document.getElementById('mytitle'), cov=document.getElementById('mycover');
     function upd(){var v=(t.value||'').trim()||t.placeholder; out.textContent=v; cov.setAttribute('aria-label','Your cover: '+v);}
     var ft; function flash(){cov.classList.add('flash');clearTimeout(ft);ft=setTimeout(function(){cov.classList.remove('flash');},250);}
-    t.addEventListener('input',function(){upd();flash();});
-    document.querySelectorAll('.idea').forEach(function(b){b.addEventListener('click',function(){t.value=b.textContent;upd();flash();});});
+    var ideas=document.querySelectorAll('.idea'); function press(x){ideas.forEach(function(b){b.setAttribute('aria-pressed',b===x?'true':'false');});}
+    t.addEventListener('input',function(){press(null);upd();flash();});
+    ideas.forEach(function(b){b.addEventListener('click',function(){t.value=b.textContent;press(b);upd();flash();});});
     var layers=cov.querySelectorAll('.bg');
     document.querySelectorAll('input[name=mood]').forEach(function(r){r.addEventListener('change',function(){
       var on=cov.querySelector('.bg.on'), off=on===layers[0]?layers[1]:layers[0];

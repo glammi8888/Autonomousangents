@@ -127,6 +127,47 @@ a{color:inherit}
 .turn span{color:var(--pinktext)}
 @media (max-width:760px){.familiar{grid-template-columns:minmax(0,1fr)}.familiar blockquote,.familiar blockquote:nth-child(even){padding:22px 0;border-left:0}}
 
+/* For you / not for you: take a stance against a behavior, never against people */
+.fit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+.fit .col{border-radius:var(--radius);padding:clamp(28px,4vw,48px);display:grid;gap:18px;align-content:start}
+.fit .yes{background:var(--ink);color:var(--white)}
+.fit .no{background:var(--white);border:1px solid var(--ink)}
+.fit h3{font-size:var(--h3)}
+.fit ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.fit li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;font-size:20px;line-height:1.35}
+.fit li::before{font-family:var(--display);font-size:18px;line-height:1.3}
+.fit .yes li::before{content:"✓";color:var(--pink)}
+.fit .no li::before{content:"✕";color:var(--grey)}
+.fit .no li{color:var(--body-ink)}
+@media (max-width:860px){.fit{grid-template-columns:minmax(0,1fr)}}
+
+/* Name your Issue: her cover, live (nothing is saved or sent) */
+.maker{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(28px,5vw,72px);align-items:center;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:clamp(24px,5vw,64px)}
+.maker .controls{display:grid;gap:22px}
+.maker .field{display:grid;gap:8px}
+.maker .field input{width:100%;height:56px;border:1px solid var(--ink);border-radius:14px;padding:0 16px;font:600 20px var(--body);background:var(--white);color:var(--ink)}
+.maker .field input:focus{outline:none;box-shadow:0 0 0 3px var(--blush)}
+.maker fieldset{border:0;margin:0;padding:0;display:grid;gap:10px}
+.maker legend{padding:0;margin-bottom:10px}
+.moods{display:flex;flex-wrap:wrap;gap:8px}
+.moods label{cursor:pointer}
+.moods input{position:absolute;opacity:0;width:1px;height:1px}
+.moods span{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px 6px 6px;border-radius:30px;border:1px solid var(--line);background:var(--white);font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.moods span i{width:32px;height:32px;border-radius:50%;background:center/cover}
+.moods input:checked + span{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.moods input:focus-visible + span{outline:3px solid var(--ink);outline-offset:2px}
+.maker .preview{display:grid;justify-items:center;gap:14px}
+.maker .mycover{position:relative;width:min(100%,380px);aspect-ratio:8.5/11;border-radius:3px;overflow:hidden;background:#222 center/cover;box-shadow:0 1px 0 #ddd,0 40px 60px -34px rgba(13,13,13,.6),inset 6px 0 8px -6px rgba(0,0,0,.45);transition:background-image .3s}
+.maker .mycover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,0) 35%,rgba(0,0,0,0) 55%,rgba(0,0,0,.5))}
+.maker .mycover .wm{position:absolute;left:5%;right:5%;top:3%;width:90%;color:var(--white);z-index:1}
+.maker .mycover .meta{position:absolute;left:6%;right:6%;top:calc(3% + 90%*0.766*0.773 + 6px);display:flex;justify-content:space-between;color:var(--white);z-index:1;font-size:10px}
+.maker .mycover .title{position:absolute;left:6%;right:6%;bottom:12%;z-index:1;font-family:var(--display);text-transform:uppercase;letter-spacing:-.045em;line-height:.9;color:var(--white);font-size:clamp(26px,3.2vw,40px);overflow-wrap:anywhere;text-shadow:0 2px 14px rgba(0,0,0,.3)}
+.maker .mycover .lines{position:absolute;left:6%;bottom:5%;z-index:1;color:var(--white);font-size:10px}
+.maker .yours{text-align:center;font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(20px,2vw,26px);line-height:1;margin:0}
+.maker .yours span{color:var(--pinktext)}
+.maker .formblock{display:grid;gap:10px;justify-items:start}
+@media (max-width:860px){.maker{grid-template-columns:minmax(0,1fr)}.maker .preview{order:-1}.maker .mycover{width:min(100%,300px)}}
+
 /* 4 · Outcomes: calm alternating rows, one big screen each */
 .rows{display:grid;gap:24px}
 .row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-radius:var(--radius);background:var(--card);border:1px solid var(--line);overflow:hidden;min-height:540px}
@@ -219,9 +260,9 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
     <div class="top">
       <div class="masthead"><svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg></div>
       <div class="volrule mono"><span>Vol. 01</span><span class="hide-s">The future issue</span><span>Private beta 11.11.2026</span></div>
-      <p class="kicker">“I can literally see the life I want.”</p>
+      <p class="kicker">The app that helps you achieve your dreams.</p>
       <h1 id="hero-h" class="h">See it clearly. Take the next step.</h1>
-      <p class="lede">Getting there is the hard part. ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real.</p>
+      <p class="lede">Seeing it was never the problem. Moving toward it is. ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real.</p>
       <div class="formblock">
         <form class="join" data-join novalidate>
           <label><span class="sr">Email address</span><input id="hero-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
@@ -244,7 +285,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
 <section class="sec" id="what" aria-labelledby="what-h">
   <div class="wrap">
     <div class="folio mono"><span>P. 02</span><span>What it is</span></div>
-    <div class="head rv"><h2 id="what-h" class="h">From the life you want to a magazine you hold.</h2><p class="sub">Three steps. The magazine is step one, not the finish line.</p></div>
+    <div class="head rv"><h2 id="what-h" class="h">From scattered dreams to your Issue.</h2><p class="sub">Three steps. The magazine is step one, not the finish line.</p></div>
     <div class="flow">
       <div class="step rv"><div class="pic"><div class="saves"><img src="assets/mj-12.webp" alt=""><img src="assets/mj-15.webp" alt=""><img src="assets/mj-08.webp" alt=""></div></div>
         <span class="mono n">1 · Save</span><h3 class="h">Gather what you want</h3><p>Save the images, places and moments you want in your life, all in one place.</p></div>
@@ -271,12 +312,68 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
   </div>
 </section>
 
+<!-- STANCE: for you / not for you -->
+<section class="sec" aria-labelledby="fit-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 04</span><span>Is it for you?</span></div>
+    <div class="head rv"><h2 id="fit-h" class="h">Manifestation that makes you move.</h2><p class="sub">ISSUE11 is built for one kind of person. Here's how to tell.</p></div>
+    <div class="fit">
+      <div class="col yes rv"><p class="label">For you if</p><h3 class="h">You're done waiting.</h3><ul>
+        <li>You can see the life you want and you're ready for one small step a week toward it.</li>
+        <li>You want something beautiful that's actually yours.</li>
+        <li>You care about the process, not a promise.</li></ul></div>
+      <div class="col no rv"><p class="label" style="color:var(--grey)">Not for you if</p><h3 class="h">You're waiting for a sign.</h3><ul>
+        <li>You want the result without the process.</li>
+        <li>You need pressure to keep going.</li>
+        <li>You'd rather someone else wrote your story.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- NAME YOUR ISSUE: try it now (nothing is saved or sent) -->
+<section class="sec" id="try" aria-labelledby="try-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 05</span><span>Try it</span></div>
+    <div class="head rv"><h2 id="try-h" class="h">Name your Issue.</h2><p class="sub">What's the life you're making room for? Give it a title and a mood.</p></div>
+    <div class="maker">
+      <div class="controls">
+        <div class="field"><label class="mono" for="issue-title">Your Issue's title</label>
+          <input id="issue-title" type="text" maxlength="32" placeholder="The new city issue" autocomplete="off"></div>
+        <fieldset><legend class="mono">Pick a mood</legend><div class="moods">
+          <label><input type="radio" name="mood" value="mj-14" checked><span><i style="background-image:url(assets/mj-14.webp)"></i>Soft</span></label>
+          <label><input type="radio" name="mood" value="mj-03"><span><i style="background-image:url(assets/mj-03.webp)"></i>Golden</span></label>
+          <label><input type="radio" name="mood" value="mj-15"><span><i style="background-image:url(assets/mj-15.webp)"></i>Dreamy</span></label>
+          <label><input type="radio" name="mood" value="mj-07"><span><i style="background-image:url(assets/mj-07.webp)"></i>Bold</span></label>
+        </div></fieldset>
+        <div class="formblock">
+          <p class="yours">This is your cover. <span>The other 39 pages are yours to make.</span></p>
+          <form class="join" data-join novalidate>
+            <label><span class="sr">Email address</span><input id="try-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
+            <button class="btn" type="submit">Get early access</button>
+          </form>
+          <p class="note" aria-live="polite"></p>
+          <p class="fine">Just for fun: your title stays on this page and isn't saved.</p>
+        </div>
+      </div>
+      <figure class="preview" style="margin:0">
+        <div class="mycover" id="mycover" style="background-image:url(assets/mj-14.webp)" role="img" aria-live="polite" aria-label="Your cover: The new city issue">
+          <svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg>
+          <div class="meta mono"><span>Issue 01</span><span>40 pages</span></div>
+          <div class="title" id="mytitle">The new city issue</div>
+          <div class="lines mono">One small move a week</div>
+        </div>
+        <figcaption class="mono" style="color:var(--grey)">Preview · your real cover is designed in the app</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
 <!-- 4 · OUTCOMES -->
 <section class="sec" id="inside" aria-labelledby="val-h">
   <div class="wrap">
-    <div class="folio mono"><span>P. 04</span><span>Inside the app</span></div>
-    <div class="head rv"><h2 id="val-h" class="h">Your attention, back on your life.</h2><p class="sub">Less time on other people's highlight reels. More time on your own goals, at your own pace.</p></div>
-    <div class="rows"><article class="row rv"><div class="stagepic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div><div class="txt"><p class="label">Clarity</p><h3 class="h">Know what you actually want.</h3><p>Your dreams are scattered across screenshots, notes and boards. ISSUE11 gathers them into one 40-page magazine about your life. Lucky Star lays out the pages, and your words stay exactly as you wrote them.</p></div></article><article class="row rv"><div class="stagepic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div><div class="txt"><p class="label">Your pace</p><h3 class="h">A practice you actually keep.</h3><p>Most journals start to feel like homework. Here it's one small move a week. Missed a week? Pick up where you left off. No streaks, no guilt.</p></div></article><article class="row rv"><div class="stagepic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div><div class="txt"><p class="label">Your practice</p><h3 class="h">Motivated, not pressured.</h3><p>Affirmations can feel fake when your life says otherwise. Short audio sessions help you rehearse the everyday steps instead, like the breath before you walk into the meeting. A voice over soft music, with visuals.</p></div></article><article class="row rv"><div class="stagepic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div><div class="txt"><p class="label">Progress</p><h3 class="h">See how far you've come.</h3><p>Small shifts are easy to miss. When something moves, add proof to your Issue and watch it fill, page by page.</p></div></article></div>
+    <div class="folio mono"><span>P. 06</span><span>Inside the app</span></div>
+    <div class="head rv"><h2 id="val-h" class="h">Your attention, back on your life.</h2><p class="sub">Your goals. Your pace. Your pages. Nobody else's.</p></div>
+    <div class="rows"><article class="row rv"><div class="stagepic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div><div class="txt"><p class="label">Clarity</p><h3 class="h">Know what you actually want.</h3><p>Your dreams are scattered across screenshots, notes and boards. ISSUE11 gathers them into one 40-page magazine about your life. Lucky Star lays out the pages, and your words stay exactly as you wrote them.</p></div></article><article class="row rv"><div class="stagepic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div><div class="txt"><p class="label">Your pace</p><h3 class="h">A practice you actually keep.</h3><p>Most journals start to feel like homework. Here it's one small move a week. Missed a week? Pick up where you left off. No streaks, no guilt.</p></div></article><article class="row rv"><div class="stagepic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div><div class="txt"><p class="label">Your practice</p><h3 class="h">Motivated, not pressured.</h3><p>Affirmations can feel fake when your life says otherwise. Short audio sessions help you rehearse the everyday steps instead, like the breath before you walk into the meeting. A voice over soft music, with visuals, so the life you want feels close, not far away.</p></div></article><article class="row rv"><div class="stagepic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div><div class="txt"><p class="label">Progress</p><h3 class="h">See how far you've come.</h3><p>Small shifts are easy to miss. When something moves, add proof to your Issue and watch it fill, page by page.</p></div></article></div>
     <div class="mid"><a class="btn" href="#join">Get early access</a></div>
   </div>
 </section>
@@ -284,8 +381,8 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
 <!-- 5 · NEWSSTAND -->
 <section class="sec" aria-labelledby="stand-h">
   <div class="wrap">
-    <div class="folio mono"><span>P. 05</span><span>Your Issue · Example covers</span></div>
-    <div class="head rv"><h2 id="stand-h" class="h">No two Issues look alike.</h2><p class="sub">Your saves set the mood. Lucky Star lays out the cover and pages. Swipe through a few examples.</p></div>
+    <div class="folio mono"><span>P. 07</span><span>Your Issue · Example covers</span></div>
+    <div class="head rv"><h2 id="stand-h" class="h">No two Issues look alike.</h2><p class="sub">Your saves set the mood. Lucky Star lays out the cover and pages. Which one is yours?</p></div>
   </div>
   <div class="stand" aria-label="Example covers"><div class="cover"><div class="art" style="background-image:url(assets/mj-12.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The future issue</span></div><span class="cap mono">No. 01 · The future issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-14.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The soft life issue</span></div><span class="cap mono">No. 02 · The soft life issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-05.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The money issue</span></div><span class="cap mono">No. 03 · The money issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-03.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The new city issue</span></div><span class="cap mono">No. 04 · The new city issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-11.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The next chapter issue</span></div><span class="cap mono">No. 05 · The next chapter issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-15.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The bold issue</span></div><span class="cap mono">No. 06 · The bold issue</span></div></div>
 </section>
@@ -293,7 +390,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
 <!-- 6 · PRINT -->
 <section class="sec" aria-labelledby="print-h">
   <div class="wrap">
-    <div class="folio mono"><span>P. 06</span><span>In print</span></div>
+    <div class="folio mono"><span>P. 08</span><span>In print</span></div>
     <div class="print">
       <div class="photo rv" role="img" aria-label="A printed ISSUE11 magazine on a pink background"></div>
       <div class="txt rv">
@@ -308,7 +405,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
 <!-- 7 · FOUNDER (honest: no reviews exist yet) -->
 <section class="sec" aria-labelledby="founder-h">
   <div class="wrap">
-    <div class="folio mono"><span>P. 07</span><span>Editor's letter</span></div>
+    <div class="folio mono"><span>P. 09</span><span>Editor's letter</span></div>
     <div class="founder">
       <div class="img rv" style="background-image:url(assets/mj-10.webp)" role="img" aria-label="Editorial photo: a woman in a pink suit"></div>
       <figure class="txt rv" style="margin:0">
@@ -324,7 +421,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
 <!-- 8 · FAQ -->
 <section class="sec" id="faq" aria-labelledby="faq-h">
   <div class="wrap">
-    <div class="folio mono"><span>P. 08</span><span>Questions</span></div>
+    <div class="folio mono"><span>P. 10</span><span>Questions</span></div>
     <div class="faqgrid">
       <div class="head"><h2 id="faq-h" class="h">Asked and answered.</h2></div>
       <div class="faq"><details open><summary>What is ISSUE11?<span class="pm" aria-hidden="true">+</span></summary><p>ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real. You save images, listen to short audio sessions, write in your journal and pick one small move a week, and it all becomes pages in your own 40-page Issue.</p></details><details><summary>When can I get it?<span class="pm" aria-hidden="true">+</span></summary><p>A private beta starts on November 11, 2026. ISSUE11 launches on the Apple App Store for iPhone on December 11, 2026. Beta invites go to people on the waitlist.</p></details><details><summary>How much does it cost?<span class="pm" aria-hidden="true">+</span></summary><p>Joining the waitlist is free. The app is a subscription at $9.99 a month, and your digital magazine is included. A printed copy of your finished Issue is optional and costs $29.99 with free standard shipping in the US.</p></details><details><summary>Does ISSUE11 promise results?<span class="pm" aria-hidden="true">+</span></summary><p>No. ISSUE11 is about the process, not a promised outcome. You can't control the outcome. You are in control of the process: one small move a week, and a place to keep proof when something shifts.</p></details><details><summary>Is there AI in it?<span class="pm" aria-hidden="true">+</span></summary><p>Yes, and it's optional. Lucky Star is the app's AI helper. It lays out your magazine pages, never rewrites your words, and can be switched off in settings. The app works without it.</p></details><details><summary>How is it different from a vision board or a journal?<span class="pm" aria-hidden="true">+</span></summary><p>A vision board shows what you want, and most get forgotten. A journal holds what you write. ISSUE11 puts both into one magazine about your life and adds one small move a week, so it's where you start, not where you stop.</p></details></div>
@@ -338,7 +435,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
     <div class="closing">
       <p class="label">Issue 01 · Private beta</p>
       <h2 id="final-h" class="h">Your Issue + your actions = your way there.</h2>
-      <p class="lede">Join the waitlist. Beta invites go out from November 11, and you'll hear first when ISSUE11 reaches the App Store on December 11.</p>
+      <p class="lede">Stop saving it for someday. Join the waitlist. Beta invites go out from November 11, and you'll hear first when ISSUE11 reaches the App Store on December 11.</p>
       <div class="formblock">
         <form class="join" data-join novalidate>
           <label><span class="sr">Email address</span><input id="final-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
@@ -364,6 +461,12 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
 
 <script>
 (function(){
+  // Name your Issue: live cover preview (text only, never saved or sent).
+  (function(){var t=document.getElementById('issue-title'), out=document.getElementById('mytitle'), cov=document.getElementById('mycover');
+    function upd(){var v=(t.value||'').trim()||t.placeholder; out.textContent=v; cov.setAttribute('aria-label','Your cover: '+v);}
+    t.addEventListener('input',upd);
+    document.querySelectorAll('input[name=mood]').forEach(function(r){r.addEventListener('change',function(){cov.style.backgroundImage='url(assets/'+r.value+'.webp)';});});
+  })();
   var MSG_OK="You're on the list. Step one, done. Confirm your email in your inbox so you hear when beta invites go out.", MSG_ERR="That email doesn't look right. Try one like you@example.com.";
   document.querySelectorAll('[data-join]').forEach(function(f){
     f.addEventListener('submit',function(e){

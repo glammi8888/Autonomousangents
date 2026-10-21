@@ -229,7 +229,7 @@ a{color:inherit}
 .zebra svg{display:block;height:100%;width:calc(100% + 240px);transform:translate3d(var(--zx,0px),0,0);will-change:transform}
 
 /* 8 · Print: large opening magazine */
-.printstage{position:relative;height:660px;perspective:2200px;margin-top:112px;contain:paint}
+.printstage{position:relative;height:660px;perspective:2200px;margin-top:112px;overflow:clip;overflow-clip-margin:160px}
 .spread{--o:.4;position:absolute;left:50%;top:50%;width:min(940px,100%);aspect-ratio:17/11;transform:translate(-50%,-50%) rotateX(calc(36deg - 22deg*(1 - var(--o)))) rotateZ(calc(-6deg + 4deg*(1 - var(--o))));transform-style:preserve-3d}
 .spread .shadow{position:absolute;inset:6% 4% -6% 4%;background:rgba(13,13,13,.2);filter:blur(24px);transform:translateZ(-20px)}
 .spread .pageR{position:absolute;top:0;right:0;width:50%;height:100%;background:center/cover;box-shadow:inset 18px 0 24px -18px rgba(13,13,13,.45)}
@@ -469,7 +469,7 @@ footer .big .wm{transform:translateY(var(--fy,40px));will-change:transform}
         </form>
         <p class="note" aria-live="polite"></p>
         <p class="fine">By joining, you agree to receive emails from ISSUE11 about early access and the launch. Unsubscribe anytime. See our <a href="#privacy">Privacy Policy</a>.</p>
-        <p class="mono" style="color:var(--grey)">Private beta · Nov 11, 2026 · App Store · Dec 11, 2026</p>
+        <p class="mono" style="color:var(--grey)"><span style="white-space:nowrap">Private beta · Nov 11, 2026</span> · <span style="white-space:nowrap">App Store · Dec 11, 2026</span></p>
       </div>
     </div>
   </div>

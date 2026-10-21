@@ -1,4 +1,6 @@
 # ISSUE11 Positioning: pain points, desired outcomes, USP (Megan, Oct 7, 2026, verbatim)
+
+> **Rename (Megan, Oct 21, 2026): "The Editor is good".** Lucky Star is now called **the Editor** everywhere in the app and copy. Older text below keeps the old name. Onboarding screen 34 ("Meet Lucky Star") still waits for Megan's OK (onboarding is locked).
 Megan: "I want to clarify our customer's pain points and desired outcome and how ISSUE11 is different."
 Used by: design/ONBOARDING-V3.md (pain cards, mirror, paywall), Lucky Star Audio skill (process-focused scripts), marketing.
 **🗓 Update (Megan, Oct 7, later), word for word:** "I don't like \"becoming her\" .. it's been overused.... \"Visualizing outcomes don't work, focusing on what you can control: the process, does.\" something like that". → Don't use "becoming her" in product copy. Working line: **"You can't control the outcome. You are in control of the process."** (Megan to confirm.)

@@ -2,7 +2,7 @@
 Oct 15, 2026 · 📣 Content Room · Scales the approved sample (drafts/content/V1-APP-COPY-SAMPLE.md, Megan: "ok i follow you recommendations"). Goes into the ONE strings file so it can change without code. Nothing ships until Megan approves.
 
 **Checked against:** design/POSITIONING.md (incl. Oct 15 inward focus) · design/LUCKY-STAR-VOICE.md · design/ONBOARDING-V3.md · design/V1-SIMPLIFIED.md · design/PRINT-PURCHASE.md · drafts/replit/02b-app-flow-simplified.md · drafts/marketing/content-guidelines.md (no em dashes, no Oxford comma, banned words).
-**Voice rule (approved Oct 15):** magazine headlines and captions = "she" · her own words in the magazine = "I", in quotes, never rewritten · Today lines = "I" · Lucky Star = "you".
+**Voice rule (approved Oct 15):** magazine headlines and captions = "she" · her own words in the magazine = "I", in quotes, never rewritten · Today lines = "I" · the Editor = "you".
 **Never here:** "become/becoming her", promised outcomes, health, body, food, medical, therapy or money advice, streaks, guilt, fake urgency.
 **Tags:** [inward] = back to her own life, goals and pace, never shaming phones or social media (Megan, Oct 15) · [pain N] / [outcome N] = design/POSITIONING.md lists · (existing) = already in Megan's approved mockup · [brackets] = filled only from her own data.
 
@@ -11,7 +11,7 @@ Oct 15, 2026 · 📣 Content Room · Scales the approved sample (drafts/content/
 2. **Widgets:** they ship after launch, but the "App icon & widgets" screen shows widget styles. Apple says nothing unfinished in the build. OK to hide the widget cards until widgets are real?
 3. **Edge lines:** are you comfortable with "Look at last month's spending, just to notice" and "Mute one account that makes your money feel smaller"? They are the closest we get to money advice and to social media. Keep, soften or cut?
 
-**Counts:** Today lines 210 (30 × 7, 49 [inward]) · Weekly moves 91 (13 × 7) · Journal prompts 60 · Lucky Star: 20 next-thing cards, 10 status lines, 10 flashback questions, 5 end-of-session questions, AI off, offline · UI copy for every V1 screen · 10 notification previews.
+**Counts:** Today lines 210 (30 × 7, 49 [inward]) · Weekly moves 91 (13 × 7) · Journal prompts 60 · the Editor: 20 next-thing cards, 10 status lines, 10 flashback questions, 5 end-of-session questions, AI off, offline · UI copy for every V1 screen · 10 notification previews.
 
 ---
 
@@ -420,8 +420,8 @@ Journal writes straight onto an "In her words" magazine page, so prompts ask for
 
 ---
 
-## 4. Lucky Star lines
-Warm, short, one question at a time, never promises, never "you're absolutely right". Lucky Star = "you". Written lines work with AI off; with AI on, it may reword them but keeps the same shape. "Made from" tags show which of her things filled the [brackets].
+## 4. The Editor lines
+Warm, short, one question at a time, never promises, never "you're absolutely right". The Editor = "you". Written lines work with AI off; with AI on, it may reword them but keeps the same shape. "Made from" tags show which of her things filled the [brackets].
 
 ### Home "one next thing" cards (kicker · headline · body)
 **START SESSION**
@@ -490,11 +490,11 @@ Each one names only what it really reads.
 "Not yet" → **Okay. It'll still be here.** (no follow-up nudge)
 
 ### AI off
-**Lucky Star is off.** Everything else works as usual: your Issue, sessions and Journal. You can turn it on in You. (existing, merged with 02b)
+**The Editor is off.** Everything else works as usual: your Issue, sessions and Journal. You can turn it on in You. (existing, merged with 02b)
 Button: Turn on in You
 
 ### Offline
-- Inside Lucky Star: **I need the internet for this.** Your Issue is saved. (existing)
+- Inside the Editor: **I need the internet for this.** Your Issue is saved. (existing)
 - App-wide banner: **You're offline. Your Issue is saved.** (existing)
 
 ### End of session: "Keep a line from this?" (glass card, buttons: Write it · Not now)
@@ -504,9 +504,9 @@ Button: Turn on in You
 4. Now that you've rehearsed it, what would you do first?
 5. Where were you, and what did it feel like? [inward]
 
-### Lucky Star sheet (fixed copy)
-- Text bar: Talk to Lucky Star…
-- Under it: Lucky Star is AI and can make mistakes
+### the Editor sheet (fixed copy)
+- Text bar: Talk to the Editor…
+- Under it: The Editor is AI and can make mistakes
 - Hold to talk: Listening… · Release to send · slide left to cancel (existing)
 - Toast: Added to [your Issue · p.15] · UNDO · then "Saved. Nothing else changed." (existing)
 - "Why this?": Made from: [Journal · Oct 12] · [Career board] · [Your move]
@@ -561,9 +561,9 @@ Button: Turn on in You
 - Search: Search sessions and images
 - Chips: For you · Sessions · My saves · [topics]
 - Sessions: Picked for you tonight · Visualizations · Affirmations · Meditations · Breath · See all · 5 min · 10 min
-- My saves line: **Your saves set the vibe of your Issue. Lucky Star designs your pages with them.** (Megan, Oct 16: chip renamed My World → My saves; Oct 17: saves = vibe, no counter)
+- My saves line: **Your saves set the vibe of your Issue. The Editor designs your pages with them.** (Megan, Oct 16: chip renamed My World → My saves; Oct 17: saves = vibe, no counter)
 - My saves buttons: + Make a page · + Add your photo
-- Make a page: Pick 1 to 3 images. · From your saves and your photos. · My saves · My photos · [3] picked · Next › · Now, one line. · What does it mean to you? Or a moment you lived. · Your words stay exactly as you write them. · Make my page › · ★ Lucky Star designed p.[29] · ↻ Another look · Keep page
+- Make a page: Pick 1 to 3 images. · From your saves and your photos. · My saves · My photos · [3] picked · Next › · Now, one line. · What does it mean to you? Or a moment you lived. · Your words stay exactly as you write them. · Make my page › · ★ The Editor designed p.[29] · ↻ Another look · Keep page
 - Bottom of My saves: That's everything you've saved. · + Make a page · Find more in For you ›
 - **Empty My saves:** Tap ♡ on anything that feels like your life. Your own photos count most. [inward]
 - **No search results:** Nothing for that yet. Try another word.
@@ -609,7 +609,7 @@ Button: Turn on in You
 - Top: Journal · **You're writing page [28] of 40**
 - Page label: In her words · p.[28]
 - Prompt (small, bottom of page): from section 3 · swipe for another
-- Under the page: ★ Lucky Star lays out your page · ↻ Another look
+- Under the page: ★ The Editor lays out your page · ↻ Another look
 - Text bar: Keep writing…
 - Button: **Keep page**
 - Note: Not kept? It stays private in your Journal.
@@ -619,7 +619,7 @@ Button: Turn on in You
 ### You
 - Header: [Name] · [The Freedom Issue] · [14] of 40 pages
 - Proof row: My proof · See all · **empty:** Your proof lives here. The first one can be tiny.
-- Settings list: App icon & widgets · Notifications · Membership · Lucky Star & AI · Privacy policy · Terms · Sign out · Delete account
+- Settings list: App icon & widgets · Notifications · Membership · The Editor & AI · Privacy policy · Terms · Sign out · Delete account
 
 **App icon & widgets**
 - Pick your icon. · Classic · Eleven · Swirl red · Pink eleven · Swirl noir · Green
@@ -630,7 +630,7 @@ Button: Turn on in You
 - Today's story · 7:00
 - Your move · Mondays 9:00
 - New page
-- Lucky Star · max once a day
+- The Editor · max once a day
 - Quiet hours · 22:00–7:00
 - Helper: No streaks, no guilt. Turn any of these off anytime.
 
@@ -641,8 +641,8 @@ Button: Turn on in You
 4. Your move: This week: [move]. Still feels right?
 5. New page: Page [15] is in your Issue.
 6. New page: Your Issue grew a page. [15] of 40.
-7. Lucky Star: Lucky Star has one thing for you.
-8. Lucky Star: You wrote something in [July]. Want to read it again?
+7. The Editor: The Editor has one thing for you.
+8. The Editor: You wrote something in [July]. Want to read it again?
 9. Issue: Issue 01 is on your shelf. Issue 02 has started. (sent after she orders)
 10. Issue (only at 40/40): 40 of 40. Your Issue is ready to print.
 
@@ -653,14 +653,14 @@ Button: Turn on in You
 - Rows: Manage or cancel · Restore purchases · My print orders
 - Restore done: Purchases restored. · nothing found: We didn't find a purchase on this Apple ID.
 
-**Lucky Star & AI**
-- Switch: Lucky Star & AI
-- What it does: Lucky Star helps you pick a session, a move or a page layout. It only suggests. Nothing changes without your tap.
+**The Editor & AI**
+- Switch: The Editor & AI
+- What it does: The Editor helps you pick a session, a move or a page layout. It only suggests. Nothing changes without your tap.
 - What it reads: Only what you made in ISSUE11: your Journal, your saves, your moves, your proof and your cover story.
-- **What Lucky Star remembers** → list of what it keeps
-- **Clear Lucky Star's memory** → confirm: This clears what Lucky Star remembers. Your Issue, Journal and proof stay. · Clear · Keep
+- **What the Editor remembers** → list of what it keeps
+- **Clear the Editor's memory** → confirm: This clears what the Editor remembers. Your Issue, Journal and proof stay. · Clear · Keep
 - **How your data is used** → ⚠️ verify before launch: must match the privacy policy and the AI provider's real terms word for word. No "never used for training" claim unless confirmed.
-- Off note: With Lucky Star off, everything else works as usual.
+- Off note: With the Editor off, everything else works as usual.
 
 **Sign out**
 - Sign out? Your Issue stays saved to your account. · Sign out · Cancel
@@ -671,17 +671,17 @@ Button: Turn on in You
 - Delete everything · Keep my Issue
 
 ### Safety screen ⚠️ VERIFY BEFORE LAUNCH (numbers, wording, legal review)
-Full red screen, white text, no AI suggestions. Lucky Star stops.
+Full red screen, white text, no AI suggestions. The Editor stops.
 - Headline: **You don't have to carry this alone.**
 - Line: If you're in danger right now, please call 911.
 - Card: **Call or text 988** · 988 Suicide & Crisis Lifeline (US), free, any time
 - Card: **Call 911** · emergencies (US)
 - Card: **Outside the US** · Find a helpline in your country · [verified link]
-- Small: Lucky Star has paused. Your Issue is saved.
+- Small: The Editor has paused. Your Issue is saved.
 - Button: Back to my Issue
 
 ### System states
-- Loading (Lucky Star): Lucky Star is building (existing)
+- Loading (The Editor): The Editor is building (existing)
 - Offline: You're offline. Your Issue is saved. (existing)
 - Error: Something went wrong on our side. Your Issue is safe. Try again?
 - Page not found: This page moved. Your Issue is still here. · Back to my Issue

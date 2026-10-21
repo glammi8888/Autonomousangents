@@ -1,5 +1,7 @@
 # ISSUE11 Product Architecture (LOCKED by Megan, Oct 3, 2026)
 
+> **Rename (Megan, Oct 21, 2026): "The Editor is good".** Lucky Star is now called **the Editor** everywhere in the app and copy. Older text below keeps the old name. Onboarding screen 34 ("Meet Lucky Star") still waits for Megan's OK (onboarding is locked).
+
 
 > **🏷 In-app name (Megan, Oct 16, 2026): "yes let's replace My world with my saves".** The function is still "Your World" in this doc (her words below are kept as written), but in the app the chip, labels and copy say **"My saves"** (e.g. "From your saves", "Everything you save can become a page in your Issue.").
 > **🗓 Scope update (Megan, Oct 3, 2026, later): "I do think we need to add LuckyStar to the MVP because it's really part of the experience and aesthetic."** Lucky Star (two modes: GUIDE on Home, ASSIST inside features; chat with text + voice input) is back in **V1**. This replaces the earlier "agentic features in V2" note.

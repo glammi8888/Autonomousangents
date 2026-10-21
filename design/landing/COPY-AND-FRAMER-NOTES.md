@@ -126,3 +126,7 @@ Megan: "make the copy irresistible but also polarizing", "focused on desired out
 - **Liquid Glass buttons** like the app (pink glass, white top highlight). At launch (Dec 11), replace the "Coming to" badge with Apple's official "Download on the App Store" badge + the real store link (Apple's badge rules apply).
 - **Inside the app = screens gallery:** 4 phones side by side on stone plinths (swipe on phones with a "1 / 4 →" counter). One stone band only ("Name your Issue").
 - **Photography is the last upgrade:** shoot the printed proof on a white or stone table, ideally open on a spread; replace app screens with real build screenshots.
+
+## Founding offer (✅ Megan, Oct 21, word for word: "50% first year", "1000 only", "limited spots available")
+The first 1,000 people on the waitlist get 50% off their first year ($4.99/month instead of $9.99 for 12 months). Shown in the hero ("Limited spots · The first 1,000 get 50% off their first year."), the closing card and FAQ "How much does it cost?" (+ JSON-LD).
+⚠️ Before going live: Revenue + the build confirm how to deliver it in the App Store (introductory offer or offer codes, sent to the first 1,000 waitlist emails); the waitlist tool must count sign-ups so "first 1,000" is true; stop showing the offer once 1,000 is reached.

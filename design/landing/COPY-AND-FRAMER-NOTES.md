@@ -1,6 +1,6 @@
 # ISSUE11 landing page · copy + Framer rebuild notes (🎨 BRAND, Oct 21, 2026)
 Prototype: https://claude.ai/artifact/3VCnhy64sZCaWaTBQXsnSs (private) · source: `design/landing/index.html` + `assets/`
-Status: **draft for Megan.** Nothing is published or connected. Megan builds and publishes in Framer.
+Status: **v2 (calmer, Oct 21: Megan found v1 "too loud"), draft for Megan.** v1: design/landing/index-v1-loud.html. Nothing is published or connected. Megan builds and publishes in Framer.
 Sources: brand/BRAND-GUIDE.md · design/claude-design/V4-TOKENS.md · design/POSITIONING.md (Oct 10 one-liner) · design/V1-SIMPLIFIED.md · design/PRINT-PURCHASE.md · design/UX-LAWS-AUDIT.md (contrast) · drafts/launch-prep/holding-page.md · briefs/landing-page-11-11.md · real app screens from drafts/replit/handoff/screens/.
 Direction (Megan, Oct 21): keep the app's UI/UX; follow pillo-app.framer.website's structure and scroll effects (patterns only, never its words, ratings or "14,000+ users" style proof).
 

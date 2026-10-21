@@ -4,7 +4,7 @@
 <meta name="description" content="ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,800&family=Inter+Tight:ital,wght@0,400;0,600;0,800;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 /* v6 · Clarity first. The product is shown, not suggested: a real printed magazine photo next to a real-looking iPhone,
    then a plain 3-step picture of what happens (save → lay out → hold). Front-facing phones with proper bezels.
@@ -138,7 +138,7 @@ a{color:inherit}
 .flow .saves img:nth-child(2){right:0;top:0;transform:rotate(5deg)}
 .flow .saves img:nth-child(3){left:24%;bottom:0;transform:rotate(-1deg)}
 .flow .pic .iphone{--pw:190px}
-.flow .pic.mag{background:#f2b7c3 url(assets/magazine-photo.webp) 45% 50%/cover}
+
 .flow h3{font-size:var(--h3)}
 .flow p{margin:0;color:var(--body-ink)}
 .flow .n{color:var(--pinktext)}
@@ -160,7 +160,7 @@ p.turn{max-width:26ch}
 .statement{background:var(--ink);color:var(--white);margin-top:var(--gap);padding-block:clamp(72px,10vw,140px)}
 .statement .s1{margin:0 0 24px;font:italic 400 clamp(24px,2.8vw,40px)/1.15 var(--body);color:#cfc9c1;max-width:30ch}
 .statement .s2{margin:0;font-size:clamp(40px,6vw,88px);max-width:14ch}
-.statement .s2::after{content:".";color:var(--pink)}
+
 .statement + .sec{padding-top:var(--gap)}
 
 /* For you / not for you: take a stance against a behavior, never against people */
@@ -250,7 +250,7 @@ p.turn{max-width:26ch}
 
 /* 6 · Print: the real magazine photo */
 .print{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px;align-items:center}
-.print .photo{aspect-ratio:4/5;border-radius:var(--radius);background:#f2b7c3 url(assets/magazine-photo.webp) 40% 50%/cover;filter:saturate(.75)}
+.print .photo{aspect-ratio:4/5}
 .print .txt{display:grid;gap:18px}
 .print .txt h2{font-size:var(--h2)}
 .print .txt p{margin:0;color:var(--body-ink)}
@@ -297,6 +297,42 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
 .motion .rv{transform:translateY(18px);transition:transform .8s var(--ease)}
 .motion .rv.in{transform:none}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.motion .rv{opacity:1;transform:none}}
+
+/* ===== New brand (locked Oct 21, design/brand-revamp/BRAND-DIRECTION.md) =====
+   Archivo Condensed titles · Inter Tight text · IBM Plex Mono labels · flat, square, hairlines, no shadows or glass ·
+   white + black base, baby pink (#F7C6D9) touches, text-pink #C2207E for small pink text. Real photography only. */
+:root{--pink:#F7C6D9;--blush:#F7C6D9;--radius:0px;--card:#ffffff;--line:#e4e1dc;
+  --display:"Archivo","Arial Narrow",sans-serif;--body:"Inter Tight","Helvetica Neue",Arial,sans-serif;
+  --h1:clamp(48px,6.4vw,96px);--h2:clamp(44px,6vw,92px);--h3:clamp(30px,3vw,44px)}
+body{font-size:17px;line-height:1.5}
+.h,.turn,.bridge,.faq summary,.statement .s2,.maker .mycover .title,.cover .art .t{font-family:var(--display);font-weight:800;font-stretch:62%;letter-spacing:0;line-height:.88}
+.hero h1{font-size:clamp(56px,6vw,92px)!important}
+.hero .lede,.head p.sub,.row p,.gitem p,.flow p{letter-spacing:-.01em}
+.pull,.familiar blockquote,.hero .kicker,.hero .subh,.statement .s1{font-family:var(--body);font-style:normal;font-weight:800;letter-spacing:-.04em;line-height:1.08}
+.hero .kicker{font-weight:400;letter-spacing:-.01em;font-size:18px}
+/* flat buttons: black rectangles with white mono labels */
+.btn{border-radius:0!important;background:var(--ink)!important;color:var(--white)!important;border:1px solid var(--ink)!important;box-shadow:none!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+.btn::before{display:none}
+.btn:hover{background:#2a2a2a!important;transform:none}
+.closing .btn{background:var(--pink)!important;color:var(--ink)!important;border-color:var(--pink)!important}
+.join{border-radius:0!important;box-shadow:none!important}
+.join input{border-radius:0!important}
+.glass{border-radius:0;background:var(--white);border:1px solid var(--ink);box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none}
+.glass.dark{background:transparent;border-color:rgba(255,255,255,.6)}
+.offer{border-radius:0}
+.tag,.chip,.moods span,.idea,.faq summary .pm{border-radius:0!important;box-shadow:none!important}
+.nav .bar{border-radius:0;box-shadow:none;background:rgba(255,255,255,.94);border:1px solid var(--ink)}
+.cover .art{border-radius:0;box-shadow:none}
+.maker .mycover{border-radius:0;box-shadow:none}
+.gitem .plinth,.flow .pic,.founder .img,.print .photo,.shot .photo,.closing,.fit .col{border-radius:0!important}
+.gitem .plinth,.flow .pic{background:#f3f1ee}
+.iphone{box-shadow:0 0 0 calc(var(--pw)*.012) #8e8e93,0 0 0 calc(var(--pw)*.018) #c7c7cc,0 0 0 calc(var(--pw)*.022) #5a5a5f!important;filter:none!important}
+.familiar blockquote::before{color:var(--pinktext)}
+
+.fit .yes li::before{color:var(--pink)}
+/* real-photo slots (no rendered magazines, ever) */
+.slotphoto{display:grid;place-items:center;text-align:center;background:#f3f1ee;border:1px dashed #b9b4ad;color:var(--grey);padding:24px}
+.slotphoto span{max-width:26ch}
 </style>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
@@ -335,7 +371,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
       </div>
       </div>
   <figure class="shot" style="margin-inline:0">
-      <img class="photo" src="assets/magazine-photo.webp" alt="A printed ISSUE11 magazine">
+      <img class="photo" src="assets/mj-14.webp" alt="Editorial photo">
       <div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-21.webp" alt=""></div></div>
     </figure>
     </div>
@@ -465,7 +501,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
   <div class="wrap">
     <div class="folio mono"><span>P. 08</span><span>In print</span></div>
     <div class="print">
-      <div class="photo rv" role="img" aria-label="A printed ISSUE11 magazine on a pink background"></div>
+      <div class="photo rv slotphoto"><span class="mono">Photo of the real printed ISSUE11 proof goes here</span></div>
       <div class="txt rv">
         <h2 id="print-h" class="h">Hold it in your hands.</h2>
         <p>A real record of showing up for yourself. At 40 pages, order your Issue printed for $29.99 with free standard shipping in the US. Your digital Issue is always included.</p>

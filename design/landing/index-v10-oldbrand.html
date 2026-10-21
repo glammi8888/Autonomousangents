@@ -1,0 +1,568 @@
+<meta charset="utf-8">
+<title>ISSUE11 Landing</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* v6 · Clarity first. The product is shown, not suggested: a real printed magazine photo next to a real-looking iPhone,
+   then a plain 3-step picture of what happens (save → lay out → hold). Front-facing phones with proper bezels.
+   Black and white with pink accents. Motion is minimal: one gentle rise per section and soft hover lifts. */
+:root{
+  --ink:#0d0d0d; --page:#ffffff; --card:#f6f4f1; --line:#e9e4dd; --cream:#f5eee0; --pink:#f65aad; --blush:#fcd2dd;
+  --pinktext:#c2207e; --grey:#6b6762; --body-ink:#2b2b2b; --white:#ffffff;
+  --display:"Archivo Black","Arial Black",Impact,sans-serif;
+  --body:"Archivo Narrow","Arial Narrow","Roboto Condensed",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+  --gl:max(16px, env(safe-area-inset-left, 0px)); --gr:max(16px, env(safe-area-inset-right, 0px));
+  --max:1180px; --gap:120px; --radius:24px; --ease:cubic-bezier(.2,.8,.2,1);
+  --h1:clamp(38px,5vw,64px); --h2:clamp(34px,4.6vw,64px); --h3:clamp(26px,2.6vw,34px);
+  color-scheme:light;
+}
+@media (max-width:700px){:root{--gap:72px;--radius:18px}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--page);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.45}
+main,footer{overflow-x:clip}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:80;background:var(--page)}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:6px}
+.wrap{max-width:var(--max);margin:0 auto;padding-left:var(--gl);padding-right:var(--gr)}
+.mono{font-family:var(--mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase;line-height:1.4}
+.label{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--pinktext);margin:0}
+.h{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:-.05em;line-height:.9;margin:0;text-wrap:balance}
+.wm{display:block;width:100%;height:auto;color:var(--ink)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.pull{font:italic 400 clamp(28px,3.4vw,48px)/1.08 var(--body);margin:0;text-wrap:balance}
+.tag{display:inline-flex;align-items:center;gap:8px;background:var(--white);border:1px solid var(--line);border-radius:30px;padding:7px 12px;box-shadow:0 10px 24px -16px rgba(13,13,13,.35)}
+.tag .dot{width:7px;height:7px;border-radius:50%;background:var(--pink)}
+
+/* Section opener */
+.sec{padding-block:var(--gap) 0}
+.sec.band{background:#f4f1ec;padding-block:72px var(--gap);margin-top:var(--gap)}
+.bridge{display:inline-block;margin-bottom:48px;text-decoration:none;color:var(--ink);font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(22px,2.4vw,32px);line-height:1}
+.bridge .arrow{color:var(--pinktext)}
+.sec.band + .sec{padding-top:var(--gap)}
+.folio{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--ink);padding-top:10px;margin-bottom:28px}
+.head{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:20px 48px;align-items:end;margin-bottom:52px}
+.head p.sub{max-width:34ch!important}
+.head h2{font-size:var(--h2)}
+.head p.sub{margin:0;font-size:20px;color:var(--body-ink);max-width:40ch}
+@media (max-width:860px){.head{grid-template-columns:minmax(0,1fr);margin-bottom:36px}}
+
+/* Buttons + form */
+.btn{appearance:none;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;position:relative;overflow:hidden;
+  font-family:var(--mono);font-size:13px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);
+  border-radius:40px;padding:15px 24px;min-height:48px;isolation:isolate;
+  background:linear-gradient(180deg,rgba(255,170,214,.95) 0%,rgba(246,90,173,.92) 55%,rgba(233,70,158,.95) 100%);
+  border:1px solid rgba(255,255,255,.65);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.85),inset 0 -8px 16px rgba(170,20,100,.22),inset 0 0 0 1px rgba(255,255,255,.18),0 10px 26px -12px rgba(246,90,173,.8),0 2px 6px -2px rgba(13,13,13,.18);
+  backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%);transition:transform .2s var(--ease),box-shadow .2s}
+.btn::before{content:"";position:absolute;left:8%;right:8%;top:2px;height:45%;border-radius:40px;background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,0));pointer-events:none;z-index:-1}
+.btn:hover{transform:translateY(-1px);box-shadow:inset 0 1px 0 rgba(255,255,255,.9),inset 0 -8px 16px rgba(170,20,100,.22),0 14px 30px -12px rgba(246,90,173,.9),0 2px 6px -2px rgba(13,13,13,.18)}
+.glass{display:inline-flex;align-items:center;gap:10px;min-height:44px;padding:8px 16px 8px 12px;border-radius:40px;color:var(--ink);text-decoration:none;
+  background:linear-gradient(180deg,rgba(255,255,255,.75),rgba(255,255,255,.35));border:1px solid rgba(255,255,255,.9);
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.95),0 10px 24px -14px rgba(13,13,13,.35),0 0 0 1px rgba(13,13,13,.06);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%)}
+.glass .apple{width:18px;height:18px;flex:0 0 auto}
+.glass .txt{display:grid;line-height:1.1;text-align:left}
+.glass .txt small{font-family:var(--mono);font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:var(--grey)}
+.glass .txt b{font:600 16px var(--body)}
+.glass.dark{background:linear-gradient(180deg,rgba(255,255,255,.16),rgba(255,255,255,.05));border-color:rgba(255,255,255,.35);color:var(--white);box-shadow:inset 0 1px 0 rgba(255,255,255,.4)}
+.glass.dark .txt small{color:#cfc9c1}
+.btn:active{transform:scale(.98)}
+.btn.sm{padding:10px 16px;font-size:11px;min-height:44px}
+.join{display:flex;align-items:center;gap:8px;width:100%;max-width:500px;background:var(--white);border:1px solid var(--ink);border-radius:44px;padding:6px 6px 6px 22px}
+.join:focus-within{box-shadow:0 0 0 3px var(--blush)}
+.join label{flex:1;min-width:0}
+.join input{width:100%;border:0;outline:0;background:transparent;font:600 18px var(--body);color:var(--ink);padding:12px 0}
+.join input::placeholder{color:var(--grey)}
+.note:empty{display:none}
+.note{margin:0;font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--pinktext);min-height:1.4em}
+.fine{margin:0;font-size:14px;color:var(--grey);max-width:460px}
+@media (max-width:440px){.join{border:0;padding:0;background:none;flex-direction:column;align-items:stretch;gap:8px;border-radius:0}.join label{padding:0}.join input{height:52px;border:1px solid var(--ink);border-radius:30px;padding:0 20px;background:var(--white)}.closing .join input{border-color:var(--white)}.join .btn{width:100%}.moods{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}.moods label span{flex-direction:column;padding:8px 4px;border-radius:16px;font-size:10px;width:100%;justify-content:center}}
+
+/* Nav */
+.nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:70;padding-left:var(--gl);padding-right:var(--gr);margin-top:12px}
+.nav .bar{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 8px 8px 18px;border-radius:40px;
+  background:rgba(255,255,255,.86);border:1px solid var(--line);box-shadow:0 10px 30px -18px rgba(13,13,13,.3);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%)}
+.nav .brand{display:flex;align-items:center;gap:18px;min-width:0}
+.nav .brand > a{display:block}
+.nav .brand .wm{width:46px}
+.nav .links{display:flex;gap:18px}
+.nav .links a{text-decoration:none;color:var(--grey)}
+.nav .links a:hover{color:var(--ink)}
+@media (max-width:720px){.nav .links{display:none}}
+
+/* Realistic iPhone, front-facing: titanium rim, thick black bezel, side buttons, soft floor shadow */
+.iphone{--pw:280px;position:relative;width:var(--pw);aspect-ratio:0.49;border-radius:calc(var(--pw)*.165);padding:calc(var(--pw)*.042);background:#0b0b0c;
+  box-shadow:0 0 0 calc(var(--pw)*.012) #8e8e93,0 0 0 calc(var(--pw)*.018) #c7c7cc,0 0 0 calc(var(--pw)*.022) #5a5a5f,inset 0 0 0 2px #2a2a2c,0 40px 70px -30px rgba(13,13,13,.5),0 18px 30px -20px rgba(13,13,13,.35)}
+.iphone::before,.iphone::after{content:"";position:absolute;width:calc(var(--pw)*.014);border-radius:2px;background:linear-gradient(90deg,#6e6e73,#c7c7cc)}
+.iphone::before{left:calc(var(--pw)*-.034);top:24%;height:9%;box-shadow:0 calc(var(--pw)*.22) 0 #9a9aa0}
+.iphone::after{right:calc(var(--pw)*-.034);top:30%;height:14%}
+.iphone .scr{position:relative;width:100%;height:100%;border-radius:calc(var(--pw)*.125);overflow:hidden;background:#fff}
+.iphone .scr img{width:100%;height:100%;object-fit:cover;object-position:top}
+.iphone .scr::after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,rgba(255,255,255,.14),transparent 30%);pointer-events:none}
+
+/* 1 · Hero: masthead, promise, form; then the product shot (printed magazine + app) */
+.hero{padding-top:56px}
+.hero .top{display:grid;gap:40px}
+.heroL{display:grid;justify-items:center;text-align:center;gap:20px}
+@media (min-width:1024px){.hero .top{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start;gap:72px}.heroL{justify-items:start;text-align:left;gap:16px}.heroL .masthead,.heroL .volrule{width:300px}.heroL .formblock{justify-items:start}.heroL .fine{text-align:left}.hero .shot{align-self:start}.hero .shot .iphone{--pw:220px;right:28px;bottom:24px;filter:drop-shadow(0 30px 40px rgba(13,13,13,.25))}.heroL .meta{display:flex;gap:16px;align-items:center;flex-wrap:wrap}}
+.masthead{width:min(100%,560px)}
+.volrule{width:min(100%,560px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
+.volrule span{white-space:nowrap}
+.heroL .volrule .hide-s{display:none}
+.hero .subh{margin:0;font:italic 400 clamp(22px,2vw,28px)/1.15 var(--body);color:var(--ink)}
+.offer{margin:0;display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 10px;text-align:left;padding:8px 14px;border-radius:30px;background:var(--blush);color:var(--ink);font:500 16px/1.2 var(--body)}
+.offer b{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--pinktext);font-weight:500}
+.hero .kicker{margin:0;font:italic 400 21px/1.2 var(--body);color:var(--grey)}
+.hero h1{font-size:clamp(44px,4.2vw,60px);max-width:16ch}
+.hero .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:46ch}
+.hero .formblock{display:grid;gap:10px;justify-items:center;width:100%}
+.shot{position:relative;margin:0;display:grid;grid-template-columns:minmax(0,1fr)}
+.shot .photo{width:100%;border-radius:var(--radius);aspect-ratio:4/5;object-fit:cover;object-position:55% 70%}
+@media (min-width:1024px){.hero .shot .photo{max-height:calc(100svh - 150px)}}
+.shot .iphone{position:absolute;right:-4%;bottom:-24px;--pw:clamp(170px,20vw,300px)}
+@media (max-width:700px){.volrule .hide-s{display:none}.hero{padding-top:24px}.masthead,.volrule{width:58%}.hero .kicker{display:none}.hero h1{font-size:30px}.hero .lede{font-size:16px}.heroL{gap:12px}.shot .iphone{right:2%;bottom:-20px;--pw:150px}.hero .join{border:0;padding:0;background:none;flex-direction:column;align-items:stretch;gap:8px}.hero .join label{padding:0}.hero .join input{height:52px;border:1px solid var(--ink);border-radius:30px;padding:0 20px}.hero .join .btn{width:100%}.hero .formblock{gap:8px;row-gap:10px}.heroL .meta{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 12px;align-items:center}.hero .shot{margin-top:16px}.hero .top{gap:16px;padding-bottom:0}.masthead,.volrule{width:50%!important}.heroL .volrule{width:72%!important}}
+
+/* 2 · What it is: three plain steps with pictures */
+.flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.flow .step{display:grid;gap:16px;align-content:start}
+.flow .pic{position:relative;height:440px;border-radius:var(--radius);background:#f4f1ec;overflow:hidden;display:grid;place-items:center}
+.flow .saves{position:relative;width:78%;height:78%}
+.flow .saves img{position:absolute;width:52%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;box-shadow:0 18px 30px -18px rgba(13,13,13,.5);border:4px solid #fff}
+.flow .saves img:nth-child(1){left:0;top:4%;transform:rotate(-6deg)}
+.flow .saves img:nth-child(2){right:0;top:0;transform:rotate(5deg)}
+.flow .saves img:nth-child(3){left:24%;bottom:0;transform:rotate(-1deg)}
+.flow .pic .iphone{--pw:190px}
+.flow .pic.mag{background:#f2b7c3 url(assets/magazine-photo.webp) 45% 50%/cover}
+.flow h3{font-size:var(--h3)}
+.flow p{margin:0;color:var(--body-ink)}
+.flow .n{color:var(--pinktext)}
+@media (max-width:860px){.flow{grid-template-columns:minmax(0,1fr)}.flow .pic{height:360px}}
+
+/* 3 · Sound familiar? */
+.familiar{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);border-top:1px solid var(--ink)}
+.familiar blockquote{margin:0;padding:30px 30px 30px 0;border-bottom:1px solid var(--line);font:italic 400 clamp(23px,2.4vw,34px)/1.15 var(--body)}
+.familiar blockquote:nth-child(even){padding-left:30px;border-left:1px solid var(--line)}
+.familiar blockquote::before{content:"“";color:var(--pink);font-family:var(--display);font-style:normal;margin-right:4px}
+.turn{margin:64px 0 0;font-family:var(--display);text-transform:uppercase;letter-spacing:-.045em;font-size:clamp(32px,3.8vw,56px);line-height:.95;max-width:20ch}
+.turn span{color:var(--ink)}
+.turn span em{color:var(--pinktext);font-style:normal}
+a.turn span{color:var(--pinktext)}
+p.turn{max-width:26ch}
+@media (max-width:760px){.familiar{grid-template-columns:minmax(0,1fr)}.familiar blockquote,.familiar blockquote:nth-child(even){padding:22px 0;border-left:0}}
+
+/* Statement band */
+.statement{background:var(--ink);color:var(--white);margin-top:var(--gap);padding-block:clamp(72px,10vw,140px)}
+.statement .s1{margin:0 0 24px;font:italic 400 clamp(24px,2.8vw,40px)/1.15 var(--body);color:#cfc9c1;max-width:30ch}
+.statement .s2{margin:0;font-size:clamp(40px,6vw,88px);max-width:14ch}
+.statement .s2::after{content:".";color:var(--pink)}
+.statement + .sec{padding-top:var(--gap)}
+
+/* For you / not for you: take a stance against a behavior, never against people */
+.fit{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+.fit .col{border-radius:var(--radius);padding:clamp(28px,4vw,48px);display:grid;gap:18px;align-content:start}
+.fit .yes{background:var(--ink);color:var(--white)}
+.fit .no{background:var(--white);border:1px solid var(--ink)}
+.fit h3{font-size:var(--h3)}
+.fit ul{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.fit li{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;font-size:20px;line-height:1.35}
+.fit li::before{font-family:var(--display);font-size:18px;line-height:1.3}
+.fit .yes li::before{content:"✓";color:var(--pink)}
+.fit .no li::before{content:"✕";color:var(--grey)}
+.fit .no li{color:var(--body-ink)}
+@media (max-width:860px){.fit{grid-template-columns:minmax(0,1fr)}}
+
+/* Name your Issue: her cover, live (nothing is saved or sent) */
+.maker{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(28px,5vw,72px);align-items:center}
+.maker .controls{display:grid;gap:22px}
+.maker .field{display:grid;gap:8px}
+.maker .field input{width:100%;height:56px;border:1px solid var(--ink);border-radius:14px;padding:0 16px;font:600 20px var(--body);background:var(--white);color:var(--ink)}
+.maker .field input:focus{outline:none;box-shadow:0 0 0 3px var(--blush)}
+.maker fieldset{border:0;margin:0;padding:0;display:grid;gap:10px}
+.maker legend{padding:0;margin-bottom:10px}
+.moods{display:flex;flex-wrap:wrap;gap:8px}
+.moods label{cursor:pointer}
+.ideas{margin-top:4px}
+.idea{appearance:none;cursor:pointer;min-height:44px;padding:8px 14px;border-radius:30px;border:1px dashed var(--ink);background:var(--white);font:600 16px var(--body);color:var(--ink)}
+.idea:hover{border-style:solid}
+.idea[aria-pressed=true]{border-style:solid;border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.moods input{position:absolute;opacity:0;width:1px;height:1px}
+.moods span{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:6px 14px 6px 6px;border-radius:30px;border:1px solid var(--line);background:var(--white);font-family:var(--mono);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.moods span i{width:32px;height:32px;border-radius:50%;background-position:50% 30%;background-size:160%}
+.moods input:checked + span{border-color:var(--ink);box-shadow:inset 0 0 0 1px var(--ink)}
+.moods input:focus-visible + span{outline:3px solid var(--ink);outline-offset:2px}
+.maker .preview{display:grid;justify-items:center;gap:14px}
+.maker .mycover{position:relative;width:min(100%,380px);aspect-ratio:8.5/11;border-radius:3px;overflow:hidden;background:#222 center/cover;box-shadow:0 1px 0 #ddd,0 40px 60px -34px rgba(13,13,13,.6),inset 6px 0 8px -6px rgba(0,0,0,.45);transition:background-image .3s}
+.maker .mycover .bg{position:absolute;inset:0;background:center/cover;opacity:0;transition:opacity .35s ease}
+.maker .mycover .bg.on{opacity:1}
+.maker .mycover .title{transition:opacity .25s ease}
+.maker .mycover.flash .title{opacity:.4}
+.maker .mycover::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,0) 35%,rgba(0,0,0,0) 55%,rgba(0,0,0,.5))}
+.maker .mycover .wm{position:absolute;left:5%;right:5%;top:3%;width:90%;color:var(--white);z-index:1}
+.maker .mycover .meta{position:absolute;left:6%;right:6%;top:calc(3% + 90%*0.766*0.773 + 6px);display:flex;justify-content:space-between;color:var(--white);z-index:1;font-size:10px}
+.maker .mycover .title{position:absolute;left:6%;right:6%;bottom:12%;z-index:1;font-family:var(--display);text-transform:uppercase;letter-spacing:-.045em;line-height:.9;color:var(--white);font-size:clamp(26px,3.2vw,40px);overflow-wrap:anywhere;text-shadow:0 2px 14px rgba(0,0,0,.3)}
+.maker .mycover .lines{position:absolute;left:6%;bottom:5%;z-index:1;color:var(--white);font-size:10px}
+.maker .yours{font:600 19px/1.3 var(--body);margin:0;text-align:left}
+.maker .yours span{color:var(--ink)}
+.maker .formblock{display:grid;gap:10px;justify-items:start}
+@media (max-width:860px){.maker{grid-template-columns:minmax(0,1fr)}.maker .preview{order:-1;position:sticky;top:84px;z-index:2;background:#f4f1ec;padding-top:16px;padding-bottom:12px}.maker .mycover{width:46vw}.maker .mycover .meta{display:none}.maker .mycover .title{bottom:16%;font-size:20px!important}#issue-title,.ideas{scroll-margin-top:calc(84px + 38vw*1.3 + 40px)}.maker figcaption{white-space:nowrap;font-size:10px}.maker figcaption .long{display:none}.maker .mycover .title{font-size:22px}}
+
+/* 4 · Outcomes: one screens gallery (four phones side by side) */
+.gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.gitem{display:grid;gap:12px;align-content:start}
+.gitem .plinth{border-radius:var(--radius);padding:40px 0 0;overflow:hidden;height:440px;background:#f4f1ec;display:grid;justify-items:center}
+.gitem .iphone{--pw:230px;transform:translateY(8%);transition:transform .5s var(--ease)}
+.gitem:hover .iphone{transform:translateY(4%)}
+.gcount{display:none;margin:12px 0 0;color:var(--grey);font-size:11px}
+@media (max-width:860px){.gcount{display:block}}
+.gitem .label{margin-top:8px;font-size:11px;letter-spacing:.06em;color:var(--pinktext)}
+.gitem h3{min-height:2.1em}
+.gitem h3{font-size:24px}
+.gitem p{margin:0;color:var(--body-ink);font-size:17px}
+@media (max-width:1100px){.gitem .iphone{--pw:190px}.gitem .plinth{height:380px}}
+@media (max-width:860px){.gallery{grid-auto-flow:column;grid-auto-columns:78%;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px}.gitem{scroll-snap-align:start}.gitem .iphone{--pw:220px}.gitem .plinth{height:420px}}
+
+.rows{display:grid;gap:24px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);background:transparent;min-height:560px;gap:24px}
+.row:nth-child(even) .stagepic{order:2}
+.row .stagepic{position:relative;display:grid;place-items:center;padding:56px 24px 0;background:#fff;border-radius:var(--radius);overflow:hidden;align-items:start}
+.row .stagepic .iphone{--pw:310px;transform:translateY(14%);transition:transform .5s var(--ease)}
+.row:hover .stagepic .iphone{transform:translateY(11%)}
+.row .txt{display:grid;gap:14px;align-content:center;padding:48px 56px;background:transparent}
+.row h3{font-size:var(--h3)}
+.row p{margin:0;color:var(--body-ink);max-width:42ch}
+@media (max-width:860px){.row{grid-template-columns:minmax(0,1fr);min-height:0}.row:nth-child(even) .stagepic{order:0}.row .stagepic{padding:36px 16px 0;height:420px}.row .stagepic .iphone{--pw:230px}.row .txt{padding:28px 24px 32px}}
+.mid{display:flex;justify-content:center;margin-top:40px}
+
+/* 5 · Newsstand: real-looking flat covers you can swipe */
+.stand{display:flex;gap:28px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px var(--gr) 24px;padding-left:max(var(--gl),calc(50vw - 590px + 16px));scroll-padding-inline:max(var(--gl),calc(50vw - 590px + 16px));scrollbar-width:thin}
+.cover{flex:0 0 auto;width:min(360px,72vw);scroll-snap-align:start;display:grid;gap:12px}
+.cover .art{position:relative;aspect-ratio:8.5/11;border-radius:3px;background:center/cover;overflow:hidden;box-shadow:0 1px 0 #ddd,0 24px 36px -22px rgba(13,13,13,.55),inset 6px 0 8px -6px rgba(0,0,0,.4);transition:transform .4s var(--ease)}
+.cover:hover .art{transform:translateY(-6px)}
+.cover .art .wm{position:absolute;left:5%;right:5%;top:3%;width:90%;color:var(--white)}
+.cover .art .t{position:absolute;left:6%;right:6%;bottom:5%;font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;line-height:.9;color:var(--white);font-size:clamp(18px,1.8vw,22px);text-shadow:0 1px 10px rgba(0,0,0,.3)}
+.cover .cap{color:var(--grey)}
+
+/* 6 · Print: the real magazine photo */
+.print{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px;align-items:center}
+.print .photo{aspect-ratio:4/5;border-radius:var(--radius);background:#f2b7c3 url(assets/magazine-photo.webp) 40% 50%/cover;filter:saturate(.75)}
+.print .txt{display:grid;gap:18px}
+.print .txt h2{font-size:var(--h2)}
+.print .txt p{margin:0;color:var(--body-ink)}
+.print .chips{display:flex;flex-wrap:wrap;gap:8px}
+@media (max-width:860px){.print{grid-template-columns:minmax(0,1fr);gap:28px}}
+
+/* 7 · Founder */
+.founder{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:56px;align-items:center}
+.founder .img{aspect-ratio:4/5;border-radius:var(--radius);background:center 22%/cover}
+.founder .txt{display:grid;gap:22px}
+.founder .honest{margin:0;color:var(--grey);font-size:17px;max-width:46ch;border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:860px){.founder{grid-template-columns:minmax(0,1fr);gap:28px}.founder .img{aspect-ratio:4/3}}
+
+/* 8 · FAQ */
+.faqgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px}
+.faqgrid .head{grid-template-columns:minmax(0,1fr);margin:0;align-self:start}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:first-child{border-top:1px solid var(--ink)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:22px 0;font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(18px,1.9vw,23px);line-height:1}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pm{flex:0 0 36px;height:36px;border-radius:50%;border:1px solid var(--ink);display:grid;place-items:center;font:400 22px var(--body);transition:transform .3s var(--ease),background .3s}
+.faq details[open] summary .pm{transform:rotate(45deg);background:var(--pink);border-color:var(--pink)}
+.faq details p{margin:0 0 24px;color:var(--body-ink);max-width:62ch}
+@media (max-width:860px){.faqgrid{grid-template-columns:minmax(0,1fr);gap:8px}}
+
+/* 9 · Closing */
+.closing{border-radius:var(--radius);padding:clamp(48px,7vw,96px) clamp(20px,5vw,64px);display:grid;justify-items:center;text-align:center;gap:22px;background:var(--ink);color:var(--white)}
+.closing h2{font-size:var(--h2);max-width:18ch}
+.closing .label{color:var(--pink)}
+.closing .lede{margin:0;font-size:20px;color:#e8e4de;max-width:40ch}
+.closing .formblock{display:grid;gap:12px;justify-items:center;width:100%}
+.closing .join{border-color:var(--white)}
+.closing .fine,.closing .mono{color:#b9b4ad;text-align:center}
+.closing .fine a{color:var(--white)}
+.closing .note{color:var(--pink)}
+
+footer{padding-top:var(--gap)}
+footer .row2{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:center;border-top:1px solid var(--ink);padding-block:14px}
+footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;color:var(--grey)}
+footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
+@media (max-width:700px){footer .row2{flex-direction:column;align-items:flex-start}}
+
+/* Motion: one gentle rise per section; nothing else moves on its own */
+.motion .rv{transform:translateY(18px);transition:transform .8s var(--ease)}
+.motion .rv.in{transform:none}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}.motion .rv{opacity:1;transform:none}}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="wordmark" viewBox="3 3 828 634"><path fill="currentColor" fill-rule="evenodd" d="M0 0 L834 0 L834 640 L0 640 Z M298.0 638.9 C269.7 636.3 251.8 617.8 246.1 585.5 C244.9 578.8 242.9 540.0 243.6 538.8 C243.9 538.4 254.0 538.0 266.1 538.0 L288.0 538.0 L288.0 547.8 C288.0 575.0 293.1 588.1 303.9 588.4 C312.4 588.6 316.5 582.9 316.4 571.0 C316.2 551.6 306.1 536.4 275.4 509.4 C245.4 483.0 236.0 467.2 236.0 443.0 C236.0 419.8 245.1 399.0 269.6 366.0 C288.0 341.1 293.3 326.2 290.8 306.1 C288.6 287.8 281.9 272.7 265.2 248.1 C244.1 217.2 239.8 210.3 234.0 198.4 C218.7 167.3 213.0 137.4 214.3 95.0 C215.0 74.8 215.9 66.1 218.7 55.0 C226.4 23.8 243.4 5.1 267.8 1.0 C270.4 0.6 242.8 0.2 206.5 0.2 C170.2 0.2 142.6 0.6 145.2 1.0 C174.0 5.9 195.7 33.7 202.6 74.5 C203.4 79.5 204.4 93.7 204.7 106.8 L205.3 130.0 L180.7 130.0 C161.3 130.0 156.0 129.7 156.0 128.7 C156.0 118.7 150.6 91.0 147.3 84.6 C141.5 73.0 131.9 73.2 127.8 84.8 C125.3 91.8 126.2 121.8 129.2 133.0 C136.1 158.5 148.9 179.0 177.7 210.6 C216.4 253.1 226.9 273.1 229.5 309.0 C232.0 342.1 222.7 366.2 195.5 397.5 C178.0 417.6 171.8 428.6 171.2 440.7 C170.5 453.9 173.8 459.8 195.0 483.1 C216.3 506.4 225.8 521.0 231.4 538.5 C245.9 584.1 231.8 622.9 195.8 635.8 C185.3 639.6 158.2 639.8 147.8 636.2 C119.9 626.5 108.4 603.1 107.7 554.5 L107.5 538.5 L129.1 538.2 L150.7 538.0 L151.3 552.3 C152.3 572.7 155.4 582.1 162.4 585.4 C167.8 587.9 171.5 587.5 175.5 583.8 C183.1 576.7 182.4 561.1 173.6 543.5 C166.4 529.0 159.9 521.2 134.9 497.5 C111.5 475.2 103.7 460.3 103.8 437.5 C103.8 414.6 112.3 395.5 134.2 369.0 C156.9 341.6 162.0 330.7 162.0 309.7 C162.0 290.3 154.4 273.3 132.7 244.0 C91.8 188.9 74.7 143.8 74.7 91.0 C74.7 67.0 77.3 52.8 84.5 36.4 C92.3 18.7 107.5 5.2 123.0 2.1 C126.0 1.5 129.4 0.8 130.5 0.6 C131.6 0.4 102.7 0.2 66.2 0.1 L0.0 0.0 L0.0 2.5 L0.0 5.0 L31.3 5.0 L62.7 5.0 L61.4 13.0 C53.4 63.3 58.2 112.0 78.5 184.5 C94.9 243.4 98.9 263.7 99.7 292.5 C100.5 319.3 98.4 332.5 88.5 365.0 C75.4 407.7 74.7 427.3 85.0 474.0 C95.4 521.7 96.5 534.0 95.5 594.1 L94.7 637.0 L63.4 637.0 L32.0 637.0 L32.0 632.8 C32.0 630.4 32.7 618.6 33.5 606.5 C36.7 558.5 35.4 539.9 25.0 488.0 C11.8 421.9 11.9 407.6 26.1 354.5 C43.8 288.9 43.4 262.1 23.6 178.0 C9.2 116.6 6.1 96.9 2.1 42.5 C0.2 17.5 0.2 18.0 0.1 328.8 L0.0 640.0 L153.2 639.9 C237.5 639.8 302.7 639.4 298.0 638.9 Z M833.9 469.2 C833.8 368.0 833.4 302.2 832.9 307.5 C831.6 320.6 828.6 335.7 822.5 359.5 C813.3 395.0 812.5 400.8 812.5 428.0 C812.6 453.5 812.8 455.0 820.9 498.5 C827.3 532.7 828.1 542.1 828.7 592.2 L829.2 637.0 L797.0 637.0 L764.7 637.0 L765.4 601.8 C766.4 551.6 765.2 536.3 756.0 487.5 C748.0 445.4 747.5 441.6 747.6 420.5 C747.6 398.2 749.3 388.8 758.5 358.0 C775.0 303.4 775.9 284.2 765.9 204.5 C761.8 171.7 759.2 146.1 758.4 129.8 C758.0 122.2 757.4 116.0 756.9 116.0 C756.1 116.0 736.3 131.8 729.5 137.9 L725.5 141.4 L723.3 103.5 L721.2 65.5 L727.3 60.1 C744.2 45.1 754.5 31.8 768.2 7.1 L769.9 4.0 L789.2 4.0 L808.6 4.0 L808.2 24.0 C807.9 35.0 808.3 52.9 808.9 63.7 C810.8 95.5 812.6 110.3 826.4 204.0 C829.7 226.9 832.7 251.9 833.3 263.0 C833.5 266.0 833.7 208.1 833.8 134.2 L834.0 0.0 L557.8 0.1 C399.4 0.2 283.7 0.6 286.7 1.1 C322.7 7.1 344.9 50.4 345.0 114.8 L345.0 130.0 L320.5 130.0 C297.8 130.0 296.0 129.9 296.0 128.2 C296.0 127.3 295.3 120.9 294.5 114.0 C291.4 88.4 285.9 75.7 278.0 75.7 C262.9 75.7 261.2 121.1 275.0 155.6 C281.2 171.3 288.5 183.4 313.2 218.8 C346.2 266.3 357.4 293.4 357.2 326.0 C357.2 350.9 349.7 367.3 326.5 393.9 C312.2 410.3 308.9 414.8 303.8 425.6 C299.6 434.3 299.5 434.7 299.6 444.5 C299.6 460.1 302.6 465.1 326.4 490.3 C356.6 522.1 366.6 541.9 367.7 571.5 C368.3 588.6 366.8 596.9 360.9 608.8 C352.5 626.0 336.8 636.5 316.0 638.9 C311.6 639.4 417.4 639.8 571.2 639.9 L834.0 640.0 L833.9 469.2 Z M425.0 637.4 C409.2 634.0 394.6 623.4 387.6 610.0 C381.0 597.5 379.3 588.1 377.0 550.5 C375.7 529.3 374.4 520.7 367.0 483.8 C354.6 421.6 354.9 408.1 369.6 366.5 C383.8 326.2 384.4 300.8 372.5 241.0 C357.0 162.3 354.9 139.1 355.8 51.4 L356.2 5.2 L360.4 4.7 C364.4 4.2 410.0 4.7 410.6 5.2 C410.7 5.4 410.4 9.8 409.9 15.0 C409.4 20.2 408.7 39.4 408.4 57.5 C407.2 116.0 410.2 143.6 426.0 223.0 C435.3 269.4 437.0 281.7 437.7 304.7 C438.5 332.9 436.7 344.6 425.2 382.0 C418.4 404.3 416.6 416.6 417.4 434.0 C418.0 447.6 418.8 452.9 425.4 487.1 C430.7 514.6 432.1 528.0 432.6 553.0 C433.1 578.7 434.0 584.7 437.6 588.1 C441.2 591.4 447.8 591.4 451.4 588.1 C456.7 583.1 457.3 579.3 456.7 554.3 C456.1 529.4 455.9 527.3 447.5 485.0 C436.7 430.1 437.1 415.5 450.5 369.0 C464.9 319.0 463.8 295.8 442.5 202.5 C428.1 139.6 425.6 116.6 425.5 52.0 L425.5 4.5 L453.4 4.2 L481.3 4.0 L480.6 12.7 C475.9 75.6 480.3 123.1 501.9 242.1 C515.3 315.7 515.6 331.7 504.9 378.6 C495.3 421.0 495.4 433.1 506.0 486.5 C513.6 525.3 514.4 532.2 514.4 558.5 C514.4 584.5 513.3 590.8 506.3 605.0 C498.7 620.5 481.6 633.4 463.3 637.4 C454.4 639.4 434.1 639.4 425.0 637.4 Z M533.0 636.2 C533.0 635.8 533.0 621.1 533.0 603.5 C533.1 548.7 530.8 521.1 522.6 477.0 C515.2 436.9 515.0 417.2 521.9 383.5 C533.2 328.5 531.7 297.7 512.6 196.5 C498.5 121.7 495.9 93.4 496.8 25.8 L497.1 4.0 L544.6 4.0 L592.0 4.0 L592.0 27.3 C592.0 40.2 592.3 57.5 592.7 65.8 L593.3 81.0 L575.9 81.2 L558.5 81.5 L558.8 88.0 C559.2 98.1 561.4 113.0 571.5 176.0 C582.0 240.8 585.3 264.3 587.1 286.2 L588.4 301.0 L612.9 301.2 L637.5 301.5 L637.8 333.8 L638.0 366.0 L612.6 366.0 C598.6 366.0 586.9 366.4 586.6 366.8 C585.1 369.3 579.8 405.3 579.3 416.5 C578.6 432.0 579.7 441.6 585.0 468.0 C594.8 517.4 595.9 525.9 596.7 558.2 L597.3 584.0 L621.1 584.0 L645.0 584.0 L645.0 610.5 L645.0 637.0 L589.0 637.0 C558.2 637.0 533.0 636.7 533.0 636.2 Z M665.7 589.8 C665.2 535.0 665.2 535.1 653.6 483.8 C641.9 432.5 642.2 412.9 655.6 367.9 C668.0 326.1 668.5 323.0 668.4 295.0 C668.4 269.9 668.1 266.8 659.5 214.0 C653.1 174.4 650.4 154.1 649.0 133.1 C648.5 124.6 647.8 117.5 647.6 117.3 C647.4 117.1 645.1 118.7 642.6 121.0 C628.2 133.3 617.7 141.2 617.0 140.1 C616.6 139.4 616.0 132.7 615.6 125.2 C615.2 117.7 614.2 104.1 613.5 95.0 C612.7 85.9 612.0 75.5 612.0 71.9 L612.0 65.3 L620.1 58.4 C633.6 46.9 645.3 31.9 655.2 13.3 L660.2 4.0 L679.4 4.0 L698.6 4.0 L698.7 40.7 C698.7 99.3 702.0 129.1 716.6 204.0 C720.1 222.4 723.5 239.8 724.0 242.5 C727.0 257.8 730.1 284.5 730.7 298.5 C731.6 323.6 729.8 336.6 720.5 372.0 C711.7 405.7 711.5 406.8 711.6 430.5 C711.7 453.2 712.1 456.6 720.4 496.7 C727.1 529.1 729.4 559.7 728.8 610.0 L728.5 636.5 L697.3 636.8 L666.2 637.0 L665.7 589.8 Z"/></symbol>
+</svg>
+
+<header class="nav">
+  <div class="bar">
+    <span class="brand"><a href="#top" aria-label="ISSUE11, back to top"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg></a>
+      <span class="links mono"><a href="#what">What it is</a><a href="#inside">Inside</a><a href="#faq">FAQ</a></span></span>
+    <a class="btn sm" href="#join">Get early access</a>
+  </div>
+</header>
+
+<main id="top">
+<!-- 1 · HERO -->
+<section class="hero" aria-labelledby="hero-h">
+  <div class="wrap">
+    <div class="top">
+      <div class="heroL">
+      <div class="masthead"><svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg></div>
+      <div class="volrule mono"><span>Vol. 01</span><span class="hide-s">The future issue</span><span>Private beta 11.11.2026</span></div>
+      <p class="kicker">The first app ever that creates your magazine based on YOU.</p>
+      <h1 id="hero-h" class="h">Make your dreams come true.</h1>
+      <p class="subh">Manifest your richer, hotter and smarter life.</p>
+      <p class="lede">Seeing it was never the problem. Moving toward it is. ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real.</p>
+      <p class="offer"><b>Limited spots</b><span>The first 1,000 get 50% off their first year.</span></p>
+      <div class="formblock">
+        <form class="join" data-join novalidate>
+          <label><span class="sr">Email address</span><input id="hero-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
+          <button class="btn" type="submit">Get early access</button>
+        </form>
+        <p class="note" aria-live="polite"></p>
+        <div class="meta"><p class="fine">Free to join. No card needed. Unsubscribe anytime.</p>
+        <span class="glass" role="note" aria-label="Coming to the App Store on December 11, 2026"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.5-1-2.5-3.9zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg><span class="txt"><small>Coming to the</small><b>App Store · Dec 11</b></span></span></div>
+      </div>
+      </div>
+  <figure class="shot" style="margin-inline:0">
+      <img class="photo" src="assets/magazine-photo.webp" alt="A printed ISSUE11 magazine">
+      <div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-21.webp" alt=""></div></div>
+    </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 2 · WHAT IT IS -->
+<section class="sec" id="what" aria-labelledby="what-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 02</span><span>What it is</span></div>
+    <div class="head rv"><h2 id="what-h" class="h">From scattered dreams to your Issue.</h2><p class="sub">Three steps. The magazine is step one, not the finish line.</p></div>
+    <div class="flow">
+      <div class="step rv"><div class="pic"><div class="saves"><img src="assets/mj-12.webp" alt=""><img src="assets/mj-15.webp" alt=""><img src="assets/mj-08.webp" alt=""></div></div>
+        <span class="mono n">1 · Save</span><h3 class="h">Gather what you want</h3><p>Pick from curated editorial images, or upload your own. All the life you want, in one place.</p></div>
+      <div class="step rv"><div class="pic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-08.webp" alt=""></div></div></div>
+        <span class="mono n">2 · Write and move</span><h3 class="h">Make it yours</h3><p>Write a few honest lines and pick one small move a week. Lucky Star lays out the pages. Your words stay exactly as you wrote them.</p></div>
+      <div class="step rv"><div class="pic"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-11.webp" alt=""></div></div></div>
+        <span class="mono n">3 · Hold</span><h3 class="h">Your 40-page Issue</h3><p>Watch it fill, page by page. At 40 pages, keep it in the app or order it printed.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · NEWSSTAND -->
+<section class="sec" aria-labelledby="stand-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 03</span><span>Your Issue · Example covers</span></div>
+    <div class="head rv"><h2 id="stand-h" class="h">No two Issues look alike.</h2><p class="sub">Your saves set the mood. Lucky Star lays out the cover and pages. Which one is yours?</p></div>
+  </div>
+  <div class="stand" aria-label="Example covers"><div class="cover"><div class="art" style="background-image:url(assets/mj-12.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The future issue</span></div><span class="cap mono">No. 01 · The future issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-14.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The soft life issue</span></div><span class="cap mono">No. 02 · The soft life issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-05.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The money issue</span></div><span class="cap mono">No. 03 · The money issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-03.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The new city issue</span></div><span class="cap mono">No. 04 · The new city issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-11.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The next chapter issue</span></div><span class="cap mono">No. 05 · The next chapter issue</span></div><div class="cover"><div class="art" style="background-image:url(assets/mj-15.webp)"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg><span class="t">The bold issue</span></div><span class="cap mono">No. 06 · The bold issue</span></div></div>
+</section>
+
+<!-- 3 · SOUND FAMILIAR? -->
+<section class="sec" aria-labelledby="fam-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 04</span><span>Sound familiar?</span></div>
+    <div class="head rv"><h2 id="fam-h" class="h">You can see it. Reaching it is harder.</h2></div>
+    <div class="familiar">
+      <blockquote>My vision board inspires me for five minutes, then I forget about it.</blockquote>
+      <blockquote>I start journaling, then stop a few days later.</blockquote>
+      <blockquote>I'm so focused on when it will arrive.</blockquote>
+      <blockquote>I keep waiting for my life to start while I watch others live theirs.</blockquote>
+    </div>
+    <p class="turn">You don't need another method. <span>You need one place to start and <em>one next step.</em></span></p>
+  </div>
+</section>
+
+<!-- STATEMENT (Megan's words) -->
+<section class="statement" aria-label="Why ISSUE11">
+  <div class="wrap">
+    <p class="s1">Your social media feed brings you further from yourself and your dreams.</p>
+    <p class="s2 h">ISSUE11 brings you closer to the life you deserve.</p>
+  </div>
+</section>
+
+<!-- STANCE: for you / not for you -->
+<section class="sec" aria-labelledby="fit-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 05</span><span>Is it for you?</span></div>
+    <div class="head rv" style="grid-template-columns:minmax(0,1fr)"><h2 id="fit-h" class="h">Not a boring meditation app.</h2><p class="sub">One that's committed to making you change. Built for one kind of person. Here's how to tell.</p></div>
+    <div class="fit">
+      <div class="col yes rv"><p class="label">For you if</p><h3 class="h">You're done waiting.</h3><ul>
+        <li>You can see the life you want and you're ready for one small step a week toward it.</li>
+        <li>You want something beautiful that's actually yours.</li>
+        <li>You care about the process, not a promise.</li></ul></div>
+      <div class="col no rv"><p class="label" style="color:var(--grey)">Not for you if</p><h3 class="h">You're waiting for a sign.</h3><ul>
+        <li>You want the result without the process.</li>
+        <li>You need pressure to keep going.</li>
+        <li>You'd rather someone else wrote your story.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- NAME YOUR ISSUE: try it now (nothing is saved or sent) -->
+<section class="sec band" id="try" aria-labelledby="try-h">
+  <div class="wrap">
+    <a href="#try-h" class="bridge">Done waiting? Name your Issue <span class="arrow">↓</span></a>
+    <div class="folio mono"><span>P. 06</span><span>Try it</span></div>
+    <div class="head rv"><h2 id="try-h" class="h">Name your Issue.</h2><p class="sub">What's the life you're making room for? Give it a title and a mood.</p></div>
+    <div class="maker">
+      <div class="controls">
+        <div class="field"><label class="mono" for="issue-title">Your Issue's title</label>
+          <input id="issue-title" type="text" maxlength="32" placeholder="The new city issue" autocomplete="off">
+          <div class="moods ideas" aria-label="Title ideas"><button type="button" class="idea" aria-pressed="false">The soft life issue</button><button type="button" class="idea" aria-pressed="false">The money issue</button><button type="button" class="idea" aria-pressed="false">The new city issue</button></div>
+          <p class="fine">Just for fun: your title stays on this page and isn't saved.</p></div>
+        <fieldset><legend class="mono">Pick a mood</legend><div class="moods">
+          <label><input type="radio" name="mood" value="mj-14" checked><span><i style="background-image:url(assets/mj-14.webp)"></i>Soft</span></label>
+          <label><input type="radio" name="mood" value="mj-03"><span><i style="background-image:url(assets/mj-03.webp)"></i>Golden</span></label>
+          <label><input type="radio" name="mood" value="mj-15"><span><i style="background-image:url(assets/mj-15.webp)"></i>Dreamy</span></label>
+          <label><input type="radio" name="mood" value="mj-07"><span><i style="background-image:url(assets/mj-07.webp)"></i>Bold</span></label>
+        </div></fieldset>
+        <div class="formblock">
+          <p class="yours">This is your cover. <span>The other 39 pages are yours to make.</span></p>
+          <form class="join" data-join novalidate>
+            <label><span class="sr">Email address</span><input id="try-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
+            <button class="btn" type="submit">Get early access</button>
+          </form>
+          <p class="note" aria-live="polite"></p>
+        </div>
+      </div>
+      <figure class="preview" style="margin:0">
+        <div class="mycover" id="mycover" role="img" aria-live="polite" aria-label="Your cover: The new city issue">
+          <div class="bg on" style="background-image:url(assets/mj-14.webp)"></div><div class="bg"></div>
+          <svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg>
+          <div class="meta mono"><span>Issue 01</span><span>40 pages</span></div>
+          <div class="title" id="mytitle">The new city issue</div>
+          <div class="lines mono">One small move a week</div>
+        </div>
+        <figcaption class="mono" style="color:var(--grey)">Preview · <span class="long">your real cover is </span>designed in the app</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · OUTCOMES -->
+<section class="sec" id="inside" aria-labelledby="val-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 07</span><span>Inside the app</span></div>
+    <div class="head rv"><h2 id="val-h" class="h">Starring: you.</h2><p class="sub">Immersive meditations, and a magazine curated around the star of your own life: you.</p></div>
+    <div class="gallery"><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div><p class="label">Clarity</p><h3 class="h">Know what you actually want.</h3><p>Your dreams are scattered across screenshots, notes and boards. ISSUE11 gathers them into one 40-page magazine about your life. Lucky Star lays out the pages, and your words stay exactly as you wrote them.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div><p class="label">Your pace</p><h3 class="h">A practice you actually keep.</h3><p>Most journals start to feel like homework. Here it's one small move a week. Missed a week? Pick up where you left off. No streaks, no guilt.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div><p class="label">Your practice</p><h3 class="h">Motivated, not pressured.</h3><p>Affirmations can feel fake when your life says otherwise. Short audio sessions help you rehearse the everyday steps instead, like the breath before you walk into the meeting. A voice over soft music, with visuals, so the life you want feels close, not far away.</p></article><article class="gitem rv"><div class="plinth"><div class="iphone" aria-hidden="true"><div class="scr"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div><p class="label">Progress</p><h3 class="h">See how far you've come.</h3><p>Small shifts are easy to miss. When something moves, add proof to your Issue and watch it fill, page by page.</p></article></div>
+    <p class="gcount mono" id="gcount" aria-hidden="true">1 / 4 →</p>
+    <div class="mid"><a class="btn" href="#join">Get early access</a></div>
+  </div>
+</section>
+
+<!-- 6 · PRINT -->
+<section class="sec" aria-labelledby="print-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 08</span><span>In print</span></div>
+    <div class="print">
+      <div class="photo rv" role="img" aria-label="A printed ISSUE11 magazine on a pink background"></div>
+      <div class="txt rv">
+        <h2 id="print-h" class="h">Hold it in your hands.</h2>
+        <p>A real record of showing up for yourself. At 40 pages, order your Issue printed for $29.99 with free standard shipping in the US. Your digital Issue is always included.</p>
+        <div class="chips mono"><span class="tag"><span class="dot"></span>40 pages · full color</span><span class="tag">US Letter · glued spine</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 7 · FOUNDER (honest: no reviews exist yet) -->
+<section class="sec" aria-labelledby="founder-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 09</span><span>Editor's letter</span></div>
+    <div class="founder">
+      <div class="img rv" style="background-image:url(assets/mj-10.webp)" role="img" aria-label="Editorial photo: a woman in a pink suit"></div>
+      <figure class="txt rv" style="margin:0">
+        <h2 id="founder-h" class="sr">From the founder</h2>
+        <blockquote class="pull">“I kept saving other people's lives on my phone while my own goals waited. ISSUE11 turns you back to your own life, one page and one small move at a time.”</blockquote>
+        <figcaption class="mono">Megan · Founder, ISSUE11</figcaption>
+        <p class="honest">No reviews yet. Yours could be first. Private beta invites go out to people on the waitlist from November 11, 2026. Beta members help shape the app before the App Store launch on December 11, and their words go here, with their permission.</p>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- 8 · FAQ -->
+<section class="sec" id="faq" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 10</span><span>Questions</span></div>
+    <div class="faqgrid">
+      <div class="head"><h2 id="faq-h" class="h">Asked and answered.</h2></div>
+      <div class="faq"><details open><summary>What is ISSUE11?<span class="pm" aria-hidden="true">+</span></summary><p>ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real. You save images, listen to short audio sessions, write in your journal and pick one small move a week, and it all becomes pages in your own 40-page Issue.</p></details><details><summary>When can I get it?<span class="pm" aria-hidden="true">+</span></summary><p>A private beta starts on November 11, 2026. ISSUE11 launches on the Apple App Store for iPhone on December 11, 2026. Beta invites go to people on the waitlist.</p></details><details><summary>How much does it cost?<span class="pm" aria-hidden="true">+</span></summary><p>Joining the waitlist is free. The app is a subscription at $9.99 a month, and your digital magazine is included. The first 1,000 people on the waitlist get 50% off their first year. A printed copy of your finished Issue is optional and costs $29.99 with free standard shipping in the US.</p></details><details><summary>Does ISSUE11 promise results?<span class="pm" aria-hidden="true">+</span></summary><p>No. ISSUE11 is about the process, not a promised outcome. You can't control the outcome. You are in control of the process: one small move a week, and a place to keep proof when something shifts.</p></details><details><summary>Is there AI in it?<span class="pm" aria-hidden="true">+</span></summary><p>Yes, and it's optional. Lucky Star is the app's AI helper. It lays out your magazine pages, never rewrites your words, and can be switched off in settings. The app works without it.</p></details><details><summary>How is it different from a vision board or a journal?<span class="pm" aria-hidden="true">+</span></summary><p>A vision board shows what you want, and most get forgotten. A journal holds what you write. ISSUE11 puts both into one magazine about your life and adds one small move a week, so it's where you start, not where you stop.</p></details></div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · CLOSING -->
+<section class="sec" id="join" aria-labelledby="final-h">
+  <div class="wrap">
+    <div class="closing">
+      <p class="label">Founding offer · Limited spots</p>
+      <h2 id="final-h" class="h">You're amazing and your life deserves its own Issue.</h2>
+      <p class="lede">Stop saving it for someday. The first 1,000 on the waitlist get <b style="color:var(--white)">50% off their first year</b>. Beta invites go out from November 11, and you'll hear first when ISSUE11 reaches the App Store on December 11.</p>
+      <div class="formblock">
+        <form class="join" data-join novalidate>
+          <label><span class="sr">Email address</span><input id="final-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
+          <button class="btn" type="submit">Get early access</button>
+        </form>
+        <p class="note" aria-live="polite"></p>
+        <p class="fine">By joining, you agree to receive emails from ISSUE11 about early access and the launch. Unsubscribe anytime. See our <a href="#privacy">Privacy Policy</a>.</p>
+        <span class="glass dark" role="note" aria-label="Coming to the App Store on December 11, 2026"><svg class="apple" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M16.4 12.6c0-2.4 2-3.6 2.1-3.7-1.1-1.7-2.9-1.9-3.5-1.9-1.5-.2-2.9.9-3.7.9-.8 0-1.9-.9-3.2-.8-1.6 0-3.1 1-4 2.4-1.7 3-.4 7.4 1.2 9.8.8 1.2 1.8 2.5 3 2.4 1.2 0 1.7-.8 3.1-.8 1.5 0 1.9.8 3.2.8 1.3 0 2.2-1.2 3-2.4.9-1.4 1.3-2.7 1.3-2.8-.1 0-2.5-1-2.5-3.9zM14 5.4c.7-.8 1.1-1.9 1-3-1 0-2.1.7-2.8 1.5-.6.7-1.2 1.8-1 2.9 1 .1 2.1-.6 2.8-1.4z"/></svg><span class="txt"><small>Coming to the</small><b>App Store · Dec 11</b></span></span>
+        <p class="mono"><span style="white-space:nowrap">Private beta · Nov 11, 2026</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="row2 mono"><span>© 2026 ISSUE11 · See it. Write it. Become it.</span><span class="links"><a href="#privacy" id="privacy">Privacy</a><a href="#terms" id="terms">Terms</a></span></div>
+    <div class="big" aria-hidden="true"><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div>
+  </div>
+</footer>
+
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is ISSUE11?", "acceptedAnswer": {"@type": "Answer", "text": "ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real. You save images, listen to short audio sessions, write in your journal and pick one small move a week, and it all becomes pages in your own 40-page Issue."}}, {"@type": "Question", "name": "When can I get it?", "acceptedAnswer": {"@type": "Answer", "text": "A private beta starts on November 11, 2026. ISSUE11 launches on the Apple App Store for iPhone on December 11, 2026. Beta invites go to people on the waitlist."}}, {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "Joining the waitlist is free. The app is a subscription at $9.99 a month, and your digital magazine is included. The first 1,000 people on the waitlist get 50% off their first year. A printed copy of your finished Issue is optional and costs $29.99 with free standard shipping in the US."}}, {"@type": "Question", "name": "Does ISSUE11 promise results?", "acceptedAnswer": {"@type": "Answer", "text": "No. ISSUE11 is about the process, not a promised outcome. You can't control the outcome. You are in control of the process: one small move a week, and a place to keep proof when something shifts."}}, {"@type": "Question", "name": "Is there AI in it?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it's optional. Lucky Star is the app's AI helper. It lays out your magazine pages, never rewrites your words, and can be switched off in settings. The app works without it."}}, {"@type": "Question", "name": "How is it different from a vision board or a journal?", "acceptedAnswer": {"@type": "Answer", "text": "A vision board shows what you want, and most get forgotten. A journal holds what you write. ISSUE11 puts both into one magazine about your life and adds one small move a week, so it's where you start, not where you stop."}}]}</script>
+
+<script>
+(function(){
+  // Name your Issue: live cover preview (text only, never saved or sent).
+  (function(){var t=document.getElementById('issue-title'), out=document.getElementById('mytitle'), cov=document.getElementById('mycover');
+    function upd(){var v=(t.value||'').trim()||t.placeholder; out.textContent=v; cov.setAttribute('aria-label','Your cover: '+v);}
+    var ft; function flash(){cov.classList.add('flash');clearTimeout(ft);ft=setTimeout(function(){cov.classList.remove('flash');},250);}
+    var ideas=document.querySelectorAll('.idea'); function press(x){ideas.forEach(function(b){b.setAttribute('aria-pressed',b===x?'true':'false');});}
+    t.addEventListener('input',function(){press(null);upd();flash();});
+    ideas.forEach(function(b){b.addEventListener('click',function(){t.value=b.textContent;press(b);upd();flash();});});
+    var layers=cov.querySelectorAll('.bg');
+    document.querySelectorAll('input[name=mood]').forEach(function(r){r.addEventListener('change',function(){
+      var on=cov.querySelector('.bg.on'), off=on===layers[0]?layers[1]:layers[0];
+      off.style.backgroundImage='url(assets/'+r.value+'.webp)'; off.classList.add('on'); on.classList.remove('on'); flash();});});
+  })();
+  var MSG_OK="You're on the list. Step one, done. Confirm your email in your inbox so you hear when beta invites go out.", MSG_ERR="That email doesn't look right. Try one like you@example.com.";
+  document.querySelectorAll('[data-join]').forEach(function(f){
+    f.addEventListener('submit',function(e){
+      e.preventDefault();
+      var input=f.querySelector('input'), note=f.parentNode.querySelector('.note');
+      if(!input.value||!input.checkValidity()){note.textContent=MSG_ERR;input.focus();return;}
+      note.textContent=MSG_OK+' (Preview: this form is not connected yet.)';
+    });
+  });
+  (function(){var gc=document.getElementById('gcount'), items=document.querySelectorAll('.gitem'), g=document.querySelector('.gallery');
+    if(!gc||!('IntersectionObserver' in window)) return;
+    var o=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting&&en.intersectionRatio>.6){var i=[].indexOf.call(items,en.target)+1;gc.textContent=i+' / '+items.length+(i<items.length?' →':'');}});},{root:g,threshold:[.6]});
+    items.forEach(function(it){o.observe(it);});})();
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches||!('IntersectionObserver' in window)) return;
+  document.documentElement.classList.add('motion');
+  var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -6% 0px'});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el);});
+})();
+</script>

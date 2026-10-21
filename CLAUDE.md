@@ -40,6 +40,17 @@ Same rules as Notion → Company Structure. In short:
 10. Keep it light: fewer words, fewer runs, fewer agents.
 11. **Easiest path first, then cheapest** (Megan, Oct 7, word for word: "ALWAYS suggest the easiest path or the path of least resistance" and "Always send me the easiest (and cheapest) path... But easiest first and then cheapest"). Before recommending a tool or method, check for a simpler option for a non-developer founder (no-code/AI builders like Replit, done-for-you services) and recommend it unless it breaks a safety rule or the App Store checklist; say why if not.
 
+## 🩶 How OPS runs a task (approved by Megan, Oct 20, 2026)
+Autonomy without waste. Delegating is not finishing: the Manager owns a task until it is verified, approved or escalated.
+1. **Before starting:** check docs, `.pipeline/lessons.md` and Notion first. Then write the goal plus acceptance criteria (how we'll know it's done). If the goal, criteria or a brand, product or priority call is unclear, ask Megan short, grouped questions with a recommended option. Use reasonable defaults for low-risk, reversible details and note them. Save her answers where agents look (Done Log, docs, lessons) and don't ask again.
+2. **Loop:** Plan → Execute → Verify independently (tests, checks, a re-read or re-fetch, the criteria; a separate QA agent only for complex, risky or subjective work) → Correct with specific feedback → Done or Escalate. Never accept an agent's "done" without evidence.
+3. **Limits for routine non-app tasks:** max 2 attempts and max 5 agent runs (including QA and retries). Stop as soon as the criteria pass. App work keeps the `/pipeline` limits (3 build↔QA rounds, 2 review fails). Stop and escalate if the same fix fails twice for the same reason. Never restart a task to get around a limit. Raising a limit needs Megan's OK. These limits are instructions, not technical enforcement; the Friday retro checks them.
+4. **Task state:** the Notion Done Log is the one tracker. Status = In progress · Verified · Escalated, and Verified by = the evidence. A reset room resumes from it.
+5. **Rooms:** don't restart a room just because it's big. Judge context efficiency, continuity and actual performance first. When moving to a new room, write a full handoff (state, decisions, open items, files) first.
+6. **Usage:** session `cost_usd` is an API-equivalent estimate, not Megan's subscription bill. Use it as a signal and cut repeated work and unneeded agent calls. Never enable paid usage, trials or services without Megan's OK.
+7. **New capabilities:** suggest them in `.pipeline/lessons.md` → "## Suggestions" (what · why · cost · security · free alternative). Install only after a security scan (rule 7) and Megan's approval.
+8. **Report:** Completed · Verified · Usage (attempts, agent runs) · Needs Attention (only what needs Megan).
+
 ## 📈 Self-improvement (set by Megan)
 - Before working, read `.pipeline/lessons.md`. After working, add max 2 dated lessons there (what worked, what to do differently).
 - Megan's corrections are logged word for word as rules.

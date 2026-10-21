@@ -1,5 +1,7 @@
 # Spec: Core loop 1 (foundation · sign-in · Your World mechanics · Scribe)
 
+> 📌 **Oct 20, 2026: reference only.** ISSUE11 is now built in Replit (drafts/replit/). Use this spec and its acceptance criteria as a checklist for Replit prompts and QA (sign-in, Scribe, photos, data security, trust rules). Its file paths and code structure no longer apply; where it conflicts with drafts/replit/, the Replit prompts win. Backend: drafts/dev/replit-backend-recommendation.md.
+
 **Planner · 2026-10-06** · Branch for the build: `feature/core-loop-1` (Builder creates it Fri Oct 9) · App: `issue11/` (Expo SDK 57, expo-router, TypeScript strict)
 **Status: WAITING FOR MEGAN'S SPEC APPROVAL** (target Wed Oct 8). This slice touches Authentication, User data, Database migrations, Permissions, API keys, Security and infrastructure. Under the Production Safety Rule, nothing gets built until Megan approves this spec.
 

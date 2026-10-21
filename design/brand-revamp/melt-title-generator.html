@@ -1,0 +1,8 @@
+<!doctype html><meta charset=utf-8><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,800&display=swap"><body>
+<script>
+window.gen=async(words,Wcss)=>{await document.fonts.load("extra-condensed 800 100px Archivo");await document.fonts.ready;const out={};
+for(const txt of words){const S=2,W=Wcss*S,H=170*S;const t=document.createElement('canvas');t.width=W;t.height=H;const x=t.getContext('2d');x.fillStyle='#0d0d0d';x.fontStretch='extra-condensed';
+const A=W*0.017;let fs=500;const setf=()=>{x.font=`extra-condensed 800 ${fs}px Archivo`;};setf();while(x.measureText(txt).width>W-2*A-6&&fs>20){fs-=2;setf();}
+const cap=fs*0.72;x.fillText(txt,A+3,(H+cap)/2);const c=document.createElement('canvas');c.width=W;c.height=H;const o=c.getContext('2d');const top=(H-cap)/2;
+for(let y=0;y<H;y++){const dx=A*Math.sin((y-top)/cap*Math.PI*2*1.8+0.6);o.drawImage(t,0,y,W,1,dx,y,W,1);}out[txt]=c.toDataURL();}return out;};
+</script>

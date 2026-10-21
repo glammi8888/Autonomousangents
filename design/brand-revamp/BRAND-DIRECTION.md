@@ -54,3 +54,4 @@ Colors: white/off-white base, black, pink accents (calm: baby pink #F7C6D9 small
 ## Melting titles · LOCKED (Megan, Oct 21: "2. melting")
 Big hero titles (FREEDOM, EXPLORE, ISSUE 01, "THAT'S TODAY.") melt like the logo: Archivo Condensed 800 caps, smooth horizontal wave, medium strength (board 17, option 2). Only big titles melt; labels, body text and buttons never do.
 How to build (for Replit): render each title as an SVG/canvas with a row-by-row sine shift (amplitude ≈ 2% of the text width, ~2.5 waves over the cap height), or pre-render the fixed titles as images. Must stay readable and fit the screen width.
+Reference build: design/brand-revamp/melt-title-generator.html (canvas: Archivo extra-condensed 800, amplitude 1.7% of width, 1.8 waves over the cap height). Applied on screens: 18-screens-with-melting-titles.png.

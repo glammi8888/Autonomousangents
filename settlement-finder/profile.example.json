@@ -1,0 +1,13 @@
+{
+  "_note": "List only things that are actually true for you. The agent matches settlements against this; you swear to it when you file.",
+  "state": "CA",
+  "country": "US",
+  "age_range": "30-39",
+  "products_bought": ["Cheerios", "Similac formula", "Old Spice deodorant"],
+  "services_used": ["Verizon Wireless", "Google Play Store", "Facebook", "Ticketmaster", "Ring doorbell"],
+  "devices_owned": ["iPhone 12", "Samsung Galaxy S21"],
+  "websites_with_accounts": ["Amazon", "Uber", "Grubhub"],
+  "data_breach_notices_received": ["AT&T 2024"],
+  "past_employers": [],
+  "other": "Lived in Illinois 2016-2020 (BIPA settlements may apply)."
+}

@@ -8,7 +8,7 @@ NIKO / Noir Form Studio posters · REP.CLUB shop app · museum app (hairline lis
 1. **Type does the design.** Huge grotesk headlines (condensed black caps like Curated/REP.CLUB, or tight Helvetica-style like Pleo/Sexto/Editorial Drop), small mono or small sans labels. No cute shapes.
 2. **Flat and sharp.** Square corners, hairline rules, no shadows, no gloss, no bubbles, no stickers with drop shadows.
 3. **Real photography, full-bleed.** Fashion/beauty portraits, often cropped tight on a face; type sits on or next to the photo.
-4. **Black + white base, one bold flat color block per screen** (pink, lilac, sky blue, orange, acid yellow in the refs).
+4. **Black + white base, pink as the only accent** (refs use many colors; Megan chose pink only).
 5. **Lots of white space next to one loud element.**
 6. **Playful type moments, not illustrations** (text on a curve, giant word cut off at the edge, numbers 01/02/03).
 
@@ -22,5 +22,5 @@ NIKO / Noir Form Studio posters · REP.CLUB shop app · museum app (hairline lis
 - Archivo Black everywhere → condensed grotesk display + clean grotesk text + mono labels.
 - Magazine shown as real photos: digital pages composited into ~5 real background photos of blank magazines (Megan to make in Midjourney). Prompts in chat Oct 21.
 
-## Open
-- Color: pink only as the accent, or pink + 1–2 rotating color blocks (lilac, orange)?
+## Decided
+- **Color: pink only** (Megan, Oct 21, to "pink + lilac/orange?": "nope"). Black + white base, hot pink is the one accent. No extra color blocks.

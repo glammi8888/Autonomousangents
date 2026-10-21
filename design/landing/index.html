@@ -77,9 +77,10 @@ a{color:inherit}
 .join label{flex:1;min-width:0}
 .join input{width:100%;border:0;outline:0;background:transparent;font:600 18px var(--body);color:var(--ink);padding:12px 0}
 .join input::placeholder{color:var(--grey)}
+.note:empty{display:none}
 .note{margin:0;font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--pinktext);min-height:1.4em}
 .fine{margin:0;font-size:14px;color:var(--grey);max-width:460px}
-@media (max-width:440px){.join{flex-direction:column;align-items:stretch;border-radius:28px;padding:8px}.join label{padding:0 14px}}
+@media (max-width:440px){.join{border:0;padding:0;background:none;flex-direction:column;align-items:stretch;gap:8px;border-radius:0}.join label{padding:0}.join input{height:52px;border:1px solid var(--ink);border-radius:30px;padding:0 20px;background:var(--white)}.closing .join input{border-color:var(--white)}.join .btn{width:100%}.moods{display:grid;grid-template-columns:repeat(4,minmax(0,1fr))}.moods label span{flex-direction:column;padding:8px 4px;border-radius:16px;font-size:10px;width:100%;justify-content:center}}
 
 /* Nav */
 .nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:70;padding-left:var(--gl);padding-right:var(--gr);margin-top:12px}
@@ -107,7 +108,7 @@ a{color:inherit}
 .hero{padding-top:56px}
 .hero .top{display:grid;gap:40px}
 .heroL{display:grid;justify-items:center;text-align:center;gap:20px}
-@media (min-width:1024px){.hero .top{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start;gap:72px}.heroL{justify-items:start;text-align:left;gap:16px}.heroL .masthead,.heroL .volrule{width:300px}.heroL .formblock{justify-items:start}.heroL .fine{text-align:left}.hero .shot{align-self:start}.hero .shot .iphone{--pw:230px;right:-28px;bottom:-40px}.heroL .meta{display:flex;gap:16px;align-items:center;flex-wrap:wrap}}
+@media (min-width:1024px){.hero .top{grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:start;gap:72px}.heroL{justify-items:start;text-align:left;gap:16px}.heroL .masthead,.heroL .volrule{width:300px}.heroL .formblock{justify-items:start}.heroL .fine{text-align:left}.hero .shot{align-self:start}.hero .shot .iphone{--pw:220px;right:28px;bottom:-28px;filter:drop-shadow(0 30px 40px rgba(13,13,13,.25))}.heroL .meta{display:flex;gap:16px;align-items:center;flex-wrap:wrap}}
 .masthead{width:min(100%,560px)}
 .volrule{width:min(100%,560px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
 .volrule span{white-space:nowrap}
@@ -119,7 +120,7 @@ a{color:inherit}
 .shot{position:relative;margin:0;display:grid;grid-template-columns:minmax(0,1fr)}
 .shot .photo{width:100%;border-radius:var(--radius);aspect-ratio:4/5;object-fit:cover;object-position:35% 55%}
 .shot .iphone{position:absolute;right:-4%;bottom:-24px;--pw:clamp(170px,20vw,300px)}
-@media (max-width:700px){.volrule .hide-s{display:none}.hero{padding-top:24px}.masthead,.volrule{width:58%}.hero .kicker{display:none}.hero h1{font-size:30px}.hero .lede{font-size:16px}.heroL{gap:12px}.shot .iphone{right:2%;bottom:-20px;--pw:150px}.hero .join{border:0;padding:0;background:none;flex-direction:column;align-items:stretch;gap:8px}.hero .join label{padding:0}.hero .join input{height:52px;border:1px solid var(--ink);border-radius:30px;padding:0 20px}.hero .join .btn{width:100%}.hero .formblock{gap:8px}.heroL .meta{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 12px;align-items:center}.hero .shot{margin-top:24px}}
+@media (max-width:700px){.volrule .hide-s{display:none}.hero{padding-top:24px}.masthead,.volrule{width:58%}.hero .kicker{display:none}.hero h1{font-size:30px}.hero .lede{font-size:16px}.heroL{gap:12px}.shot .iphone{right:2%;bottom:-20px;--pw:150px}.hero .join{border:0;padding:0;background:none;flex-direction:column;align-items:stretch;gap:8px}.hero .join label{padding:0}.hero .join input{height:52px;border:1px solid var(--ink);border-radius:30px;padding:0 20px}.hero .join .btn{width:100%}.hero .formblock{gap:8px;row-gap:10px}.heroL .meta{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 12px;align-items:center}.hero .shot{margin-top:24px}}
 
 /* 2 · What it is: three plain steps with pictures */
 .flow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
@@ -143,7 +144,10 @@ a{color:inherit}
 .familiar blockquote:nth-child(even){padding-left:30px;border-left:1px solid var(--line)}
 .familiar blockquote::before{content:"“";color:var(--pink);font-family:var(--display);font-style:normal;margin-right:4px}
 .turn{margin:64px 0 0;font-family:var(--display);text-transform:uppercase;letter-spacing:-.045em;font-size:clamp(32px,3.8vw,56px);line-height:.95;max-width:20ch}
-.turn span{color:var(--pinktext)}
+.turn span{color:var(--ink)}
+.turn span em{color:var(--pinktext);font-style:normal}
+a.turn span{color:var(--pinktext)}
+p.turn{max-width:26ch}
 @media (max-width:760px){.familiar{grid-template-columns:minmax(0,1fr)}.familiar blockquote,.familiar blockquote:nth-child(even){padding:22px 0;border-left:0}}
 
 /* For you / not for you: take a stance against a behavior, never against people */
@@ -193,7 +197,7 @@ a{color:inherit}
 .maker .yours{font:600 19px/1.3 var(--body);margin:0;text-align:left}
 .maker .yours span{color:var(--ink)}
 .maker .formblock{display:grid;gap:10px;justify-items:start}
-@media (max-width:860px){.maker{grid-template-columns:minmax(0,1fr)}.maker .preview{order:-1;position:sticky;top:84px;z-index:2;background:#f4f1ec;padding-top:8px;padding-bottom:12px}.maker .mycover{width:38vw}#issue-title,.ideas{scroll-margin-top:calc(84px + 38vw*1.3 + 40px)}.maker figcaption{white-space:nowrap;font-size:10px}.maker figcaption .long{display:none}.maker .mycover .title{font-size:22px}}
+@media (max-width:860px){.maker{grid-template-columns:minmax(0,1fr)}.maker .preview{order:-1;position:sticky;top:84px;z-index:2;background:#f4f1ec;padding-top:16px;padding-bottom:12px}.maker .mycover{width:38vw}#issue-title,.ideas{scroll-margin-top:calc(84px + 38vw*1.3 + 40px)}.maker figcaption{white-space:nowrap;font-size:10px}.maker figcaption .long{display:none}.maker .mycover .title{font-size:22px}}
 
 /* 4 · Outcomes: one screens gallery (four phones side by side) */
 .gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
@@ -201,7 +205,8 @@ a{color:inherit}
 .gitem .plinth{border-radius:var(--radius);padding:40px 0 0;overflow:hidden;height:440px;background:#f4f1ec;display:grid;justify-items:center}
 .gitem .iphone{--pw:230px;transform:translateY(8%);transition:transform .5s var(--ease)}
 .gitem:hover .iphone{transform:translateY(4%)}
-.gitem .label{margin-top:8px}
+.gitem .label{margin-top:8px;font-size:11px;letter-spacing:.06em;color:var(--pinktext)}
+.gitem h3{min-height:2.1em}
 .gitem h3{font-size:24px}
 .gitem p{margin:0;color:var(--body-ink);font-size:17px}
 @media (max-width:1100px){.gitem .iphone{--pw:190px}.gitem .plinth{height:380px}}
@@ -356,7 +361,7 @@ footer .big{margin:40px auto 0;padding-bottom:48px;width:min(100%,640px)}
       <blockquote>I'm so focused on when it will arrive.</blockquote>
       <blockquote>I keep waiting for my life to start while I watch others live theirs.</blockquote>
     </div>
-    <p class="turn">You don't need another method. <span>You need one place to start and one next step.</span></p>
+    <p class="turn">You don't need another method. <span>You need one place to start and <em>one next step.</em></span></p>
   </div>
 </section>
 

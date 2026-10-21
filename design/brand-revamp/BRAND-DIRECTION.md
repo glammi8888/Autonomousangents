@@ -30,3 +30,7 @@ Museum app (white, lowercase grotesk, hairline lists) · "Curated (Works) 16–2
 
 ## Rule: real magazines only
 Megan, word for word: "I don't want any picture of a magazine that isn't real". Never show a drawn, rendered or fake-3D magazine anywhere (app, landing, App Store, social). Physical magazine = real photos only (her printed proof, or real photographed blank magazines with her page placed on them). Digital pages inside the app are fine because they're shown as screens, not as fake objects. Her Pinterest magazine board (Oct 19 + 21) is the target look for the pages themselves.
+
+## Update (Megan, Oct 21): "I don't mind showing real images of magazines if that makes sense... Like the ones i sent you. You can even use them as placeholders within the app"
+- Real magazine photos are welcome: Home hero, Issue cover, Order my print, My shelf. Draft: 04-real-magazine-placeholders.png.
+- The placeholders are cropped from her Pinterest saves = other people's work. **Internal mockups / Replit placeholders only. Never ship them in the App Store build, App Store screenshots, landing page or social.** Replace with her own printed proof photos or licensed/her Midjourney photos before launch.

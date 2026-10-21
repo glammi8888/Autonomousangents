@@ -6,24 +6,22 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo+Narrow:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout system (v3, one rule set for every section):
-   - one column of 1120px, every section opens with the same centered head (mono label · H2 · sub)
-   - one card style (32px radius, warm off-white, hairline), pink fade only in the hero and the closing card
-   - one type scale: H1 56 · H2 52 · H3 34 · body 19 · label 11 mono
-   - one rhythm: 128px between sections (88px on phones)
-   The app's own look: white page, wavy wordmark, Archivo Black + IBM Plex Mono, pink pill buttons, cream 11 sticker. */
+/* v4 · Editorial system. The page reads like an Issue: every section opens with a folio (P. 0X · name) on an ink rule,
+   a left-aligned Archivo Black headline and one supporting line. Pull quotes in Archivo Narrow italic.
+   Images run big and full-bleed (newsstand, spreads); the wavy zebra stripe appears once.
+   One signature moment: the wordmark docks onto the cover. Calm everywhere else. */
 :root{
-  --ink:#0d0d0d; --page:#ffffff; --card:#f8f5f1; --line:#ebe5de; --cream:#f5eee0; --pink:#f65aad; --blush:#fcd2dd;
+  --ink:#0d0d0d; --page:#ffffff; --card:#f8f5f1; --line:#ebe5de; --cream:#f5eee0; --pink:#f65aad; --blush:#fcd2dd; --set:#efedea;
   --pinktext:#c2207e; --grey:#6b6762; --body-ink:#2b2b2b; --white:#ffffff;
   --display:"Archivo Black","Arial Black",Impact,sans-serif;
   --body:"Archivo Narrow","Arial Narrow","Roboto Condensed",sans-serif;
   --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   --gl:max(16px, env(safe-area-inset-left, 0px)); --gr:max(16px, env(safe-area-inset-right, 0px));
-  --max:1120px; --gap:128px; --radius:32px; --ease:cubic-bezier(.2,.8,.2,1);
-  --h1:clamp(34px,4.6vw,56px); --h2:clamp(32px,4.2vw,52px); --h3:clamp(26px,2.6vw,34px);
+  --max:1180px; --gap:136px; --radius:28px; --ease:cubic-bezier(.2,.8,.2,1);
+  --h1:clamp(36px,4.8vw,60px); --h2:clamp(34px,5vw,72px); --h3:clamp(26px,2.6vw,36px);
   color-scheme:light;
 }
-@media (max-width:700px){:root{--gap:88px;--radius:26px}}
+@media (max-width:700px){:root{--gap:96px;--radius:22px}}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth}
@@ -34,47 +32,47 @@ img{max-width:100%;display:block}
 a{color:inherit}
 :focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:6px}
 .wrap{max-width:var(--max);margin:0 auto;padding-left:var(--gl);padding-right:var(--gr)}
+.bleed{width:100vw;margin-inline:calc(50% - 50vw)}
 .mono{font-family:var(--mono);font-size:11px;letter-spacing:.03em;text-transform:uppercase;line-height:1.4}
 .label{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--pinktext);margin:0}
-.h{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:-.05em;line-height:.9;margin:0;text-wrap:balance}
+.h{font-family:var(--display);font-weight:400;text-transform:uppercase;letter-spacing:-.055em;line-height:.88;margin:0;text-wrap:balance}
 .wm{display:block;width:100%;height:auto;color:var(--ink)}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-.flag{display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.04em;text-transform:uppercase;background:var(--ink);color:var(--pink);padding:3px 7px;border-radius:4px}
-.chips{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
-.chip{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--white);border-radius:22px;padding:6px 12px}
-.chip .dot{width:7px;height:7px;border-radius:50%;background:var(--pink)}
+.pull{font:italic 400 clamp(30px,3.8vw,54px)/1.06 var(--body);letter-spacing:-.01em;margin:0;text-wrap:balance}
 
-/* Section: same head, same rhythm everywhere */
+/* Section opener: folio on an ink rule + left-aligned headline */
 .sec{padding-block:var(--gap) 0}
-.head{display:grid;gap:16px;justify-items:center;text-align:center;max-width:760px;margin:0 auto 56px}
+.folio{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--ink);padding-top:10px;margin-bottom:28px}
+.head{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:24px 48px;align-items:end;margin-bottom:56px}
 .head h2{font-size:var(--h2)}
-.head p.sub{margin:0;font-size:20px;color:var(--body-ink);max-width:52ch}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);position:relative;overflow:hidden;min-width:0}
-.aura{position:absolute;pointer-events:none;border-radius:50%;filter:blur(40px);background:radial-gradient(closest-side,rgba(246,90,173,.5),rgba(252,210,221,.3) 55%,transparent 72%);animation:breathe 7s ease-in-out infinite}
-@keyframes breathe{50%{transform:scale(1.1);opacity:.75}}
+.head p.sub{margin:0;font-size:20px;color:var(--body-ink);max-width:40ch}
+@media (max-width:860px){.head{grid-template-columns:minmax(0,1fr);margin-bottom:40px}}
 
-/* Buttons + form (the app's pink pill, mono label in ink) */
+/* Buttons: pink pill with a label roll on hover */
 .btn{appearance:none;border:0;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;white-space:nowrap;
   font-family:var(--mono);font-size:13px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--ink);
   background:linear-gradient(180deg,#ff86c6,var(--pink));border-radius:40px;padding:15px 24px;min-height:48px;
-  box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 10px 26px -10px rgba(246,90,173,.8);transition:transform .2s var(--ease),box-shadow .2s var(--ease)}
-.btn:hover{transform:translateY(-2px)}
-.btn:active{transform:translateY(1px) scale(.98)}
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.65),0 10px 26px -12px rgba(246,90,173,.8);transition:transform .2s var(--ease)}
+.btn:active{transform:scale(.98)}
+.btn .roll{display:grid;overflow:hidden;height:1.4em;line-height:1.4em}
+.btn .roll span{grid-area:1/1;transition:transform .35s var(--ease)}
+.btn .roll span+span{transform:translateY(100%)}
+.btn:hover .roll span:first-child{transform:translateY(-100%)}
+.btn:hover .roll span+span{transform:none}
 .btn.sm{padding:10px 16px;font-size:11px;min-height:40px}
-.join{display:flex;align-items:center;gap:8px;width:100%;max-width:500px;margin:0 auto;background:var(--white);border:1px solid var(--line);border-radius:44px;padding:6px 6px 6px 22px;box-shadow:0 16px 36px -20px rgba(246,90,173,.6)}
-.join:focus-within{border-color:var(--pink)}
+.join{display:flex;align-items:center;gap:8px;width:100%;max-width:500px;background:var(--white);border:1px solid var(--line);border-radius:44px;padding:6px 6px 6px 22px;box-shadow:0 16px 36px -22px rgba(246,90,173,.7);transition:transform .3s var(--ease),border-color .3s}
+.join:focus-within{border-color:var(--pink);transform:scale(1.015)}
 .join label{flex:1;min-width:0}
 .join input{width:100%;border:0;outline:0;background:transparent;font:600 18px var(--body);color:var(--ink);padding:12px 0}
 .join input::placeholder{color:var(--grey)}
-.formblock{display:grid;gap:12px;justify-items:center;width:100%}
-.fine{margin:0;font-size:14px;color:var(--grey);max-width:460px;text-align:center}
-.note{margin:0;font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--pinktext);min-height:1.4em;text-align:center}
+.note{margin:0;font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.03em;color:var(--pinktext);min-height:1.4em}
+.fine{margin:0;font-size:14px;color:var(--grey);max-width:460px}
 @media (max-width:440px){.join{flex-direction:column;align-items:stretch;border-radius:28px;padding:8px}.join label{padding:0 14px}}
 
-/* Nav: floating glass pill */
+/* Nav */
 .nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px);z-index:70;padding-left:var(--gl);padding-right:var(--gr);margin-top:12px}
 .nav .bar{max-width:720px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 8px 8px 18px;border-radius:40px;
-  background:rgba(255,255,255,.78);border:1px solid var(--line);box-shadow:0 10px 30px -18px rgba(13,13,13,.3);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%)}
+  background:rgba(255,255,255,.8);border:1px solid var(--line);box-shadow:0 10px 30px -18px rgba(13,13,13,.3);backdrop-filter:blur(16px) saturate(180%);-webkit-backdrop-filter:blur(16px) saturate(180%)}
 .nav .brand{display:flex;align-items:center;gap:18px;min-width:0}
 .nav .brand > a{display:block}
 .nav .brand .wm{width:46px}
@@ -84,43 +82,65 @@ a{color:inherit}
 @media (max-width:720px){.nav .links{display:none}}
 
 /* 1 · Hero */
-.hero{position:relative;padding-top:64px;overflow:clip}
-.hero .aura{display:none}
-.hero .head{margin-bottom:0;gap:22px;max-width:620px}
-.masthead{width:min(100%,560px)}
-.volrule{width:min(100%,560px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
-.hero h1{font-size:var(--h1)}
+.hero{padding-top:56px}
+.hero .grid{display:grid;justify-items:center;text-align:center;gap:22px}
+.hero .kicker{margin:0;font:italic 400 22px/1.2 var(--body);color:var(--grey)}
+.masthead{width:min(100%,600px)}
+.volrule{width:min(100%,600px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
+.hero h1{font-size:var(--h1);max-width:15ch}
 .hero .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:44ch}
 .hero .lede b{color:var(--ink)}
-.stage{position:relative;height:640px;margin-top:64px;perspective:1800px}
-.stage .tilt{position:absolute;inset:0;transform-style:preserve-3d;transform:rotateX(var(--sx,10deg));transform-origin:50% 0;transition:transform .35s var(--ease)}
-@media (max-width:700px){.stage{margin-top:48px}.hero .volrule .hide-s{display:none}}
+.hero .formblock{display:grid;gap:10px;justify-items:center;width:100%}
+@media (max-width:700px){.volrule .hide-s{display:none}}
+
+/* 2 · Signature: the wordmark docks onto the cover (pinned; normal scrolling) */
+.dock{position:relative;height:240vh;margin-top:72px}
+.dock .pin{position:sticky;top:0;height:100vh;height:100svh;display:grid;place-items:center;padding-block:84px 24px}
+.dock .set{position:relative;width:100%;height:100%;border-radius:var(--radius);background:var(--set);border:1px solid var(--line);overflow:hidden;perspective:1800px}
+.dock .stagefloor{position:absolute;inset:auto 0 0;height:34%;background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.22))}
+.dock .mag{--w:min(330px,30vh);--h:calc(var(--w)*1.294);--t:15px;left:50%;top:50%;margin:calc(var(--h)/-2) 0 0 calc(var(--w)/-2);transform:rotateY(-12deg) rotateX(3deg) translateZ(0)}
+.dock .mag .fc{background-color:#fbfaf7;background-size:cover;background-position:center}
+.dock .mag .fc .photo-in{position:absolute;inset:0;background:center/cover;opacity:var(--ph,0)}
+.dock .mag .fc .cw{position:absolute;left:6%;right:6%;top:4%;color:var(--cream);opacity:var(--cw,0)}
+.dock .mag .fc .lines{position:absolute;left:7%;right:7%;bottom:6%;color:var(--white);opacity:var(--cw,0)}
+.dock .mag .fc .lines .h{font-size:calc(var(--w)*.085);color:var(--white)}
+.dock .fly{position:absolute;left:50%;top:50%;width:min(78%,820px);transform-origin:0 0;color:var(--ink);will-change:transform,opacity;pointer-events:none}
+.dock .phone{--pw:min(250px,26vh);left:calc(50% + var(--w,330px)*0 + min(170px,16vh));top:50%;margin-top:calc(var(--pw)*-1.066);transform:translateX(var(--px,60vw)) rotateY(-24deg) rotateX(6deg) rotateZ(3deg)}
+.dock .sticker{position:absolute;--s:min(96px,9vh);left:calc(50% + min(120px,11vh));top:calc(50% - min(250px,22vh));transform:scale(var(--ss,1.8)) rotate(10deg);opacity:var(--so,0);z-index:5}
+.dock .cap{position:absolute;left:24px;bottom:20px;color:var(--grey)}
+.dock .steps{position:absolute;right:24px;bottom:20px;display:flex;gap:10px;color:var(--ink)}
+.dock .steps span{opacity:.35;transition:opacity .3s}
+.dock .steps span.on{opacity:1}
+@media (max-width:700px){.dock{height:200vh;margin-top:48px}.dock .mag{--w:min(230px,56vw)}.dock .phone{--pw:150px;left:calc(50% + 28px)}.dock .sticker{left:calc(50% + 70px);top:calc(50% - 190px)}.dock .steps{display:none}}
 
 /* 3D phone */
 .phone{--pw:300px;position:absolute;width:var(--pw);aspect-ratio:375/800;transform-style:preserve-3d}
 .phone .body{position:absolute;inset:0;transform-style:preserve-3d}
-.phone .layer{display:none}
-/* side walls: 16 stacked rounded slices with a brushed-metal gradient, added by script */
 .phone .edge{position:absolute;inset:0;border-radius:calc(var(--pw)*.15);background:linear-gradient(90deg,#3b3b3e,#b9b9bf 7%,#5c5c62 18%,#2a2a2d 50%,#5c5c62 82%,#b9b9bf 93%,#3b3b3e)}
 .phone .edge.last{background:#151517;box-shadow:0 50px 70px -30px rgba(13,13,13,.45),0 18px 30px -18px rgba(13,13,13,.35)}
 .phone .key{position:absolute;width:4px;border-radius:2px;background:linear-gradient(90deg,#8d8d93,#cfcfd4);transform:translateZ(calc(var(--pw)*-.026))}
 .phone .key.k1{left:-3px;top:18%;height:5%}.phone .key.k2{left:-3px;top:26%;height:9%}.phone .key.k3{left:-3px;top:37%;height:9%}.phone .key.k4{right:-3px;top:28%;height:13%}
 .phone .face{position:absolute;inset:0;border-radius:calc(var(--pw)*.15);background:#0b0b0c;padding:calc(var(--pw)*.035);box-shadow:inset 0 0 0 2px #9a9aa0,inset 0 0 0 4px #1a1a1c}
-.phone .island{position:absolute;top:2.4%;left:50%;width:30%;height:3.6%;margin-left:-15%;background:#000;border-radius:20px;z-index:4}
 .phone .screen{position:relative;width:100%;height:100%;border-radius:calc(var(--pw)*.12);overflow:hidden;background:var(--white)}
-.phone .screen img{width:100%;height:100%;object-fit:cover;object-position:top;position:absolute;inset:0;transition:opacity .5s ease,transform .6s var(--ease)}
+.phone .screen img{width:100%;height:100%;object-fit:cover;object-position:top;position:absolute;inset:0}
+.phone .island{position:absolute;top:2.4%;left:50%;width:30%;height:3.6%;margin-left:-15%;background:#000;border-radius:20px;z-index:4}
 .phone .glare{position:absolute;inset:0;border-radius:inherit;background:linear-gradient(115deg,rgba(255,255,255,.16),transparent 35%);pointer-events:none;z-index:3}
-.set{position:relative;height:620px;border-radius:var(--radius);background:linear-gradient(180deg,#f9cbd6,#f4b7c7);overflow:hidden;perspective:1800px}
-.set .floor{position:absolute;inset:auto 0 0 0;height:40%;background:linear-gradient(180deg,rgba(255,255,255,0),rgba(255,255,255,.18))}
-.stage{height:auto;margin-top:64px}
-.stage .tilt{position:relative;inset:auto}
-.stage .phone{--pw:270px;left:52%;top:64px;transform:rotateY(-26deg) rotateX(8deg) rotateZ(3deg) translateZ(40px);animation:hover 7s ease-in-out infinite}
-.stage .mag{--w:320px;--h:414px;--t:15px;position:absolute;left:22%;top:150px;transform:rotateX(52deg) rotateZ(-20deg)}
-@keyframes hover{50%{translate:0 -10px}}
-@media (max-width:700px){.set{height:470px}.stage .phone{--pw:190px;left:44%;top:44px}.stage .mag{--w:180px;--h:233px;--t:10px;left:-2%;top:220px}}
 
+/* Paper-3D magazine */
+.mag{--w:270px;--h:349px;--t:14px;position:absolute;width:var(--w);height:var(--h);transform-style:preserve-3d}
+.mag .fc{position:absolute;inset:0;transform:translateZ(calc(var(--t)/2));background:#fbfaf7 center/cover;overflow:hidden;box-shadow:inset 4px 0 6px -4px rgba(0,0,0,.35)}
+.mag .bk{position:absolute;inset:0;transform:rotateY(180deg) translateZ(calc(var(--t)/2));background:#efe8dc}
+.mag .sp,.mag .er{position:absolute;top:0;left:50%;width:var(--t);height:var(--h);margin-left:calc(var(--t)/-2)}
+.mag .sp{transform:rotateY(-90deg) translateZ(calc(var(--w)/2));background:#e9e2d6}
+.mag .er{transform:rotateY(90deg) translateZ(calc(var(--w)/2));background:repeating-linear-gradient(90deg,#fff 0 1px,#e6dccb 1px 2px)}
+.mag .et,.mag .eb{position:absolute;left:0;top:50%;width:var(--w);height:var(--t);margin-top:calc(var(--t)/-2);background:repeating-linear-gradient(0deg,#fff 0 1px,#e6dccb 1px 2px)}
+.mag .et{transform:rotateX(90deg) translateZ(calc(var(--h)/2))}
+.mag .eb{transform:rotateX(-90deg) translateZ(calc(var(--h)/2));box-shadow:0 34px 46px rgba(60,30,30,.28)}
+.mag .fc.photo{display:flex;flex-direction:column;justify-content:space-between;padding:6%;color:var(--white)}
+.mag .fc.photo .wm{color:var(--cream)}
+.mag .fc.photo .h{font-size:calc(var(--w)*.08);color:var(--white);text-shadow:0 1px 8px rgba(0,0,0,.25)}
 
-/* Cream 11 sticker (pink 11), peels on hover/tap */
+/* Cream 11 sticker */
 .sticker{--s:112px;position:relative;display:block;width:var(--s);aspect-ratio:1;border:0;padding:0;background:none;cursor:pointer}
 .sticker .body{position:absolute;inset:0;border-radius:24%;background:var(--cream);box-shadow:0 0 0 3px var(--white),0 0 0 5px rgba(246,90,173,.4),0 16px 28px -10px rgba(246,90,173,.55);
   clip-path:polygon(0 0,100% 0,100% 78%,78% 100%,0 100%);transition:clip-path .5s var(--ease)}
@@ -130,64 +150,52 @@ a{color:inherit}
 .sticker:hover .flap,.sticker.peeled .flap{width:48%;height:48%}
 .sticker .tag{position:absolute;left:50%;bottom:-12px;transform:translateX(-50%) rotate(-4deg);background:var(--ink);color:var(--white);border-radius:6px;padding:3px 7px;font-family:var(--mono);font-size:9px;letter-spacing:.06em;white-space:nowrap}
 
-/* Paper-3D magazine (40 pages thick) */
-.mag{--w:270px;--h:349px;--t:14px;position:absolute;width:var(--w);height:var(--h);transform-style:preserve-3d}
-.mag .fc{position:absolute;inset:0;transform:translateZ(calc(var(--t)/2));background:#fbfaf7 center/cover;overflow:hidden;box-shadow:inset 4px 0 6px -4px rgba(0,0,0,.35)}
-.mag .bk{position:absolute;inset:0;transform:rotateY(180deg) translateZ(calc(var(--t)/2));background:#efe8dc}
-.mag .sp,.mag .er{position:absolute;top:0;left:50%;width:var(--t);height:var(--h);margin-left:calc(var(--t)/-2)}
-.mag .sp{transform:rotateY(-90deg) translateZ(calc(var(--w)/2));background:#e9e2d6}
-.mag .er{transform:rotateY(90deg) translateZ(calc(var(--w)/2));background:repeating-linear-gradient(90deg,#fff 0 1px,#e6dccb 1px 2px)}
-.mag .et,.mag .eb{position:absolute;left:0;top:50%;width:var(--w);height:var(--t);margin-top:calc(var(--t)/-2);background:repeating-linear-gradient(0deg,#fff 0 1px,#e6dccb 1px 2px)}
-.mag .et{transform:rotateX(90deg) translateZ(calc(var(--h)/2))}
-.mag .eb{transform:rotateX(-90deg) translateZ(calc(var(--h)/2));box-shadow:0 30px 40px rgba(60,30,30,.28)}
-.mag .fc.type{padding:7%;display:grid}
-.mag .fc.type .wm{height:100%;width:100%;color:var(--ink)}
-.mag .fc.photo{display:flex;flex-direction:column;justify-content:space-between;padding:6%;color:var(--white)}
-.mag .fc.photo .wm{color:var(--cream)}
-.mag .fc.photo .h{font-size:calc(var(--w)*.075);color:var(--white);text-shadow:0 1px 8px rgba(0,0,0,.25)}
-.mag .fc.photo .mono{font-size:calc(var(--w)*.032)}
+/* 3 · Newsstand (full-bleed, real scale) */
+.stand{position:relative;height:640px;perspective:1800px;overflow:hidden}
+.stand .track{position:absolute;left:0;top:40px;display:flex;gap:64px;padding-left:max(24px,calc(50vw - 560px));transform:translate3d(var(--x,0px),0,0);transform-style:preserve-3d;will-change:transform}
+.stand .item{flex:0 0 auto;width:420px;display:grid;gap:18px}
+.stand .slot3d{position:relative;width:420px;height:543px;transform-style:preserve-3d}
+.stand .mag{--w:420px;--h:543px;--t:16px;transform:rotateY(-6deg) rotateX(2deg);transition:transform .6s var(--ease)}
+.stand .item:hover .mag{transform:rotateY(-2deg) rotateX(1deg) translateY(-8px)}
+.stand .item:hover .mag .er{background:repeating-linear-gradient(90deg,#fff 0 1px,#f2c7d5 1px 2px)}
+.stand .cap{color:var(--grey)}
+.stand .note2{position:absolute;right:max(24px,calc(50vw - 560px));bottom:8px;color:var(--grey)}
+@media (max-width:700px){.stand{height:calc(64vw * 1.294 + 120px)}.stand .item,.stand .slot3d{width:64vw}.stand .slot3d{height:calc(64vw * 1.294)}.stand .mag{--w:64vw;--h:calc(64vw * 1.294);--t:11px}.stand .track{gap:28px;top:24px}}
 
-.covers{position:relative;height:600px;border-radius:var(--radius);background:var(--card);border:1px solid var(--line);overflow:hidden;perspective:1600px}
-.covers .track{position:absolute;left:0;top:52%;display:flex;gap:56px;padding-left:6%;transform:translate3d(var(--x,0px),-50%,0);transform-style:preserve-3d;will-change:transform}
-.covers .slot3d{position:relative;flex:0 0 auto;width:300px;height:388px;transform-style:preserve-3d}
-.covers .mag{--w:300px;--h:388px;--t:13px;transform:rotateY(-14deg) rotateX(4deg);transition:transform .6s var(--ease)}
-.covers .slot3d:nth-child(even) .mag{transform:rotateY(-14deg) rotateX(4deg) translateY(24px)}
-.covers .slot3d:hover .mag{transform:rotateY(-6deg) rotateX(2deg) translateY(-10px)}
-.covers .photo-real{flex:0 0 auto;width:360px;height:360px;border-radius:20px;background:center/cover;align-self:center;box-shadow:0 30px 50px -30px rgba(120,20,60,.5)}
-.covers .cap{position:absolute;left:0;right:0;bottom:16px;text-align:center;color:var(--grey)}
-@media (max-width:700px){.covers{height:440px}.covers .slot3d{width:200px;height:259px}.covers .mag{--w:200px;--h:259px;--t:10px}.covers .track{gap:36px}.covers .photo-real{width:260px;height:260px}}
+/* 4 · From the founder: pull quote beside one image */
+.founder{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:56px;align-items:center}
+.founder .img{aspect-ratio:4/5;border-radius:var(--radius);background:center/cover}
+.founder .txt{display:grid;gap:24px}
+.founder .honest{margin:0;color:var(--grey);font-size:17px;max-width:44ch;border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:860px){.founder{grid-template-columns:minmax(0,1fr);gap:28px}.founder .img{aspect-ratio:4/3}}
 
-/* 2 · The honest part: one card */
-.honest{display:grid;gap:0;max-width:880px;margin:0 auto}
-.honest .quote{padding:48px clamp(24px,6vw,72px);text-align:center;display:grid;gap:18px;justify-items:center}
-.honest blockquote{margin:0;font:italic 400 clamp(22px,2.4vw,30px)/1.35 var(--body);max-width:32ch}
-.honest .facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line)}
-.honest .facts div{padding:24px 16px;display:grid;gap:6px;justify-items:center;text-align:center}
-.honest .facts div+div{border-left:1px solid var(--line)}
-.honest .facts .h{font-size:var(--h3)}
-.slots{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;max-width:880px;margin:16px auto 0}
-@media (max-width:600px){.honest .facts{grid-template-columns:minmax(0,1fr)}.honest .facts div+div{border-left:0;border-top:1px solid var(--line)}}
+/* Sound familiar? (her pain, in her words; unattributed research, not reviews) */
+.familiar{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0;border-top:1px solid var(--ink)}
+.familiar blockquote{margin:0;padding:32px 32px 32px 0;border-bottom:1px solid var(--line);font:italic 400 clamp(24px,2.6vw,36px)/1.15 var(--body)}
+.familiar blockquote:nth-child(even){padding-left:32px;border-left:1px solid var(--line)}
+.familiar blockquote::before{content:"“";color:var(--pink);font-family:var(--display);font-style:normal;margin-right:4px}
+.turn{margin:40px 0 0;font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(22px,2.4vw,32px);line-height:1;max-width:28ch}
+.turn span{color:var(--pinktext)}
+@media (max-width:760px){.familiar{grid-template-columns:minmax(0,1fr)}.familiar blockquote,.familiar blockquote:nth-child(even){padding:24px 0;border-left:0}}
 
-/* 3 · Inside: three identical cards that stack as you scroll */
+/* 5 · Feature spreads (stack with depth) */
 .stack{display:grid;gap:24px}
-.feature{position:sticky;top:calc(100px + var(--i,0) * 20px);display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px;min-height:620px;padding:56px 72px 0;box-shadow:0 -24px 48px -36px rgba(13,13,13,.3)}
-.feature .txt{display:grid;gap:14px;align-content:center;max-width:40ch;padding-bottom:56px}
-.feature h3{font-size:var(--h3)}
-.feature p{margin:0;color:var(--body-ink)}
-.feature .vis{position:relative;perspective:1200px;min-height:420px;transform-style:preserve-3d}
-
-.feature .phone{--pw:300px;left:50%;bottom:-70px;margin-left:-150px;transform:rotateX(6deg) rotateY(calc(var(--base,-16deg) + var(--vy,0deg))) rotateZ(var(--rz,1deg));transition:transform .5s var(--ease)}
-.feature:nth-child(even) .phone{--base:16deg;--rz:-1deg}
-.feature:hover .phone{transform:rotateX(4deg) rotateY(calc(var(--base,-20deg)*.5 + var(--vy,0deg)))}
+.spreadcard{position:sticky;top:calc(96px + var(--i,0) * 18px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);min-height:600px;border-radius:var(--radius);overflow:hidden;background:var(--card);border:1px solid var(--line);
+  transform:scale(calc(1 - .04*var(--k,0)));filter:brightness(calc(1 - .06*var(--k,0)));transform-origin:50% 0;box-shadow:0 -24px 48px -36px rgba(13,13,13,.3)}
+.spreadcard .photo{background:center/cover;position:relative;overflow:visible;z-index:2}
+.spreadcard .txt{display:grid;gap:14px;align-content:center;padding:56px 56px 56px 190px;max-width:620px}
+.spreadcard h3{font-size:var(--h3)}
+.spreadcard p{margin:0;color:var(--body-ink)}
+.spreadcard .phone{--pw:280px;left:100%;bottom:-120px;margin-left:-140px;transform:rotateY(-14deg) rotateX(6deg) rotateZ(2deg);z-index:2}
 @media (max-width:860px){
-  .feature{grid-template-columns:minmax(0,1fr);padding:32px 28px 0;min-height:auto;top:calc(80px + var(--i,0) * 14px);gap:8px}
-  .feature .txt{padding-bottom:0}
-  .feature .vis{min-height:300px;margin-top:16px}
-  .feature .phone{--pw:210px;left:50%;margin-left:-105px;top:0;bottom:auto}
+  .spreadcard{grid-template-columns:minmax(0,1fr);min-height:auto;top:calc(76px + var(--i,0) * 12px)}
+  .spreadcard .photo{height:360px;overflow:hidden}
+  .spreadcard .txt{padding:28px 26px 32px}
+  .spreadcard .phone{--pw:180px;top:110px;bottom:auto;left:auto;right:18px;margin-left:0}
 }
 
-/* 4 · How it works: sticky phone swaps screens */
-.how{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px;padding-inline:72px}
+/* 6 · How it works (sticky phone) */
+.how{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px}
 .steps{list-style:none;margin:0;padding:0}
 .step{min-height:64vh;display:grid;align-content:center;gap:12px;opacity:.35;transition:opacity .4s ease}
 .step.on{opacity:1}
@@ -195,14 +203,12 @@ a{color:inherit}
 .step p{margin:0;color:var(--body-ink);max-width:36ch}
 .step .mini{display:none}
 .sticky{position:sticky;top:calc(50vh - 320px);height:640px;perspective:1600px}
-.sticky .aura{width:520px;height:520px;left:50%;top:50%;margin:-260px 0 0 -260px;opacity:.6}
 .sticky .phone{--pw:290px;left:50%;top:10px;margin-left:-145px;transform:rotateY(-18deg) rotateX(6deg) rotateZ(2deg)}
 .sticky .screen img{opacity:0;transition:opacity .25s ease}
 .sticky .screen img.on{opacity:1}
-.sticky .cap{position:absolute;left:0;right:0;bottom:-4px;text-align:center;color:var(--grey)}
-.after{display:flex;justify-content:center;margin-top:40px}
+.after{display:flex;margin-top:40px}
 @media (max-width:860px){
-  .how{grid-template-columns:minmax(0,1fr);gap:0;padding-inline:0}
+  .how{grid-template-columns:minmax(0,1fr);gap:0}
   .sticky{display:none}
   .step{min-height:0;opacity:1;padding-block:32px;border-top:1px solid var(--line)}
   .step:first-child{border-top:0;padding-top:0}
@@ -210,70 +216,82 @@ a{color:inherit}
   .step .mini .phone{--pw:210px;left:50%;top:20px;margin-left:-105px;transform:rotateY(-22deg) rotateX(6deg) rotateZ(3deg)}
 }
 
-/* 5 · Print: the paper Issue opens as you scroll */
-.printstage{position:relative;height:640px;perspective:2200px;margin-top:48px}
-.spread{--o:1;position:absolute;left:50%;top:50%;width:min(920px,100%);aspect-ratio:17/11;transform:translate(-50%,-50%) rotateX(calc(36deg - 22deg*(1 - var(--o)))) rotateZ(calc(-6deg + 4deg*(1 - var(--o))));transform-style:preserve-3d}
-.spread .shadow{position:absolute;inset:6% 4% -6% 4%;background:rgba(13,13,13,.22);filter:blur(24px);transform:translateZ(-20px)}
+/* 7 · The wavy stripe band (used once) */
+.zebra{height:150px;background:var(--white);border-block:1px solid var(--ink);margin-top:var(--gap);overflow:hidden}
+.zebra svg{display:block;height:100%;width:calc(100% + 240px);transform:translate3d(var(--zx,0px),0,0);will-change:transform}
+
+/* 8 · Print: large opening magazine */
+.printstage{position:relative;height:660px;perspective:2200px;margin-top:24px}
+.spread{--o:.4;position:absolute;left:50%;top:50%;width:min(940px,100%);aspect-ratio:17/11;transform:translate(-50%,-50%) rotateX(calc(36deg - 22deg*(1 - var(--o)))) rotateZ(calc(-6deg + 4deg*(1 - var(--o))));transform-style:preserve-3d}
+.spread .shadow{position:absolute;inset:6% 4% -6% 4%;background:rgba(13,13,13,.2);filter:blur(24px);transform:translateZ(-20px)}
 .spread .pageR{position:absolute;top:0;right:0;width:50%;height:100%;background:center/cover;box-shadow:inset 18px 0 24px -18px rgba(13,13,13,.45)}
 .spread .paper{position:absolute;right:-1px;top:2px;width:50%;height:calc(100% - 4px);transform:translateZ(-3px);background:repeating-linear-gradient(90deg,#efe7d7 0 1px,#fff 1px 2px)}
 .spread .cover{position:absolute;top:0;left:50%;width:50%;height:100%;transform-origin:0 50%;transform:translateZ(2px) rotateY(calc(-178deg * (1 - var(--o))));transform-style:preserve-3d}
 .spread .cover .f,.spread .cover .b{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden}
-.spread .cover .f{background:center/cover;display:flex;flex-direction:column;justify-content:space-between;padding:12px;box-shadow:inset 6px 0 10px -6px rgba(0,0,0,.5)}
+.spread .cover .f{background:center/cover;display:flex;flex-direction:column;justify-content:space-between;padding:12px}
 .spread .cover .f .wm{color:var(--cream)}
-.spread .cover .f .h{color:var(--white);font-size:clamp(14px,2vw,24px)}
-.spread .cover .b{transform:rotateY(180deg);background:var(--blush);padding:16px;display:grid;align-content:space-between;box-shadow:inset -18px 0 24px -18px rgba(13,13,13,.3)}
-.spread .cover .b .h{font-size:clamp(16px,3vw,44px)}
+.spread .cover .b{transform:rotateY(180deg);background:#fbfaf7;padding:clamp(14px,2.4vw,28px);display:grid;align-content:space-between;box-shadow:inset -18px 0 24px -18px rgba(13,13,13,.3)}
+.spread .cover .b .pull{font-size:clamp(16px,2.6vw,38px)}
 .spread .cover .b p{margin:0;font-size:clamp(11px,1.2vw,14px);color:#3a3a3a}
 @media (max-width:700px){.printstage{height:340px;perspective:1400px}.spread .shadow{inset:10% 8% -4% 8%;filter:blur(18px);background:rgba(13,13,13,.14)}}
-@media (prefers-reduced-motion:reduce){.covers{overflow-x:auto}.covers .track{position:relative;top:auto;transform:none;height:100%;align-items:center}}
 
-/* 6 · FAQ */
-.faq{max-width:760px;margin:0 auto}
+/* 9 · FAQ (editorial two columns) */
+.faqgrid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px}
+.faqgrid .head{grid-template-columns:minmax(0,1fr);margin:0;align-self:start;position:sticky;top:110px}
 .faq details{border-bottom:1px solid var(--line)}
-.faq details:first-child{border-top:1px solid var(--line)}
-.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:22px 0;font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(18px,2vw,24px);line-height:1}
+.faq details:first-child{border-top:1px solid var(--ink)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:16px;align-items:center;padding:22px 0;font-family:var(--display);text-transform:uppercase;letter-spacing:-.04em;font-size:clamp(18px,1.9vw,23px);line-height:1}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary .pm{flex:0 0 36px;height:36px;border-radius:50%;background:var(--card);border:1px solid var(--line);display:grid;place-items:center;font:400 22px var(--body);transition:transform .3s var(--ease),background .3s}
 .faq details[open] summary .pm{transform:rotate(45deg);background:var(--pink);border-color:var(--pink)}
 .faq details p{margin:0 0 24px;color:var(--body-ink);max-width:62ch}
+@media (max-width:860px){.faqgrid{grid-template-columns:minmax(0,1fr);gap:8px}.faqgrid .head{position:static}}
 
-/* 7 · Closing card (same card, pink fade) */
-.closing{padding:clamp(48px,7vw,88px) clamp(20px,5vw,64px);display:grid;justify-items:center;text-align:center;gap:22px;background:linear-gradient(180deg,var(--white),var(--blush))}
-.closing h2{font-size:var(--h2);max-width:16ch}
+/* 10 · Closing */
+.closing{border-radius:var(--radius);padding:clamp(48px,7vw,96px) clamp(20px,5vw,64px);display:grid;justify-items:center;text-align:center;gap:22px;background:var(--ink);color:var(--white)}
+.closing .label{color:var(--pink)}
+.closing .lede{color:#e8e4de!important}
+.closing .fine,.closing .mono{color:#b9b4ad!important}
+.closing .fine a{color:var(--white)}
+.closing .join{border-color:transparent}
+.closing .note{color:var(--pink)}
+.closing h2{font-size:var(--h2);max-width:14ch}
 .closing .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:40ch}
+.closing .formblock{display:grid;gap:12px;justify-items:center;width:100%}
+.closing .fine{text-align:center}
 
-/* Footer */
-footer{padding-block:var(--gap) 120px}
-footer .row{display:flex;flex-wrap:wrap;gap:16px 24px;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:20px}
-footer .wm{width:84px}
-footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color:var(--grey)}
-@media (max-width:700px){footer .row{flex-direction:column;align-items:flex-start;gap:16px}}
+/* Footer: the wordmark as the last page */
+footer{padding-top:var(--gap)}
+footer .row{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:center;border-top:1px solid var(--ink);padding-block:14px}
+footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;color:var(--grey)}
+footer .big{height:clamp(160px,30vw,440px);overflow:hidden;margin-top:24px}
+footer .big .wm{transform:translateY(var(--fy,40px));will-change:transform}
+@media (max-width:700px){footer .row{flex-direction:column;align-items:flex-start}}
 
-/* Floating Lucky Star 11 (always there, like the app) */
+/* Floating Lucky Star (desktop only) */
 .lucky{position:fixed;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:75;transition:opacity .3s,transform .3s var(--ease)}
 .lucky.away{opacity:0;transform:translateY(20px);pointer-events:none}
-.lucky .sticker{--s:64px;animation:bob 4s ease-in-out infinite}
-@media (max-width:700px){.lucky{right:calc(12px + env(safe-area-inset-right,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px))}.lucky .sticker{--s:48px}.lucky .sticker .tag{display:none}.lucky .pop{bottom:64px}}
-@keyframes bob{50%{transform:translateY(-6px) rotate(-3deg)}}
+.lucky .sticker{--s:64px}
 .lucky .pop{position:absolute;right:0;bottom:88px;width:min(300px,calc(100vw - 36px));padding:20px;border-radius:24px;display:grid;gap:12px;
-  background:rgba(255,255,255,.94);border:1px solid var(--line);box-shadow:0 24px 50px -24px rgba(246,90,173,.8);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+  background:rgba(255,255,255,.95);border:1px solid var(--line);box-shadow:0 24px 50px -24px rgba(246,90,173,.8);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
 .lucky .pop p{margin:0;font:600 18px/1.3 var(--body)}
 .lucky .pop .close{position:absolute;right:10px;top:10px;width:32px;height:32px;border-radius:50%;border:0;background:var(--card);cursor:pointer;font:400 18px var(--body)}
+@media (max-width:700px){.lucky{display:none}}
 
-/* Motion: one load moment + gentle reveals of section heads; page is complete at rest */
-.motion .hero .head > *{animation:fadeup 1s var(--ease) both}
-.motion .hero .head > *:nth-child(2){animation-delay:.08s}.motion .hero .head > *:nth-child(3){animation-delay:.16s}
-.motion .hero .head > *:nth-child(4){animation-delay:.24s}.motion .hero .head > *:nth-child(5){animation-delay:.32s}
-.motion .stage .phone{animation:phoneup 1.3s var(--ease) .3s both}
+/* Motion */
+.motion .hero .grid > *{animation:fadeup 1s var(--ease) both}
+.motion .hero .grid > *:nth-child(2){animation-delay:.06s}.motion .hero .grid > *:nth-child(3){animation-delay:.12s}
+.motion .hero .grid > *:nth-child(4){animation-delay:.18s}.motion .hero .grid > *:nth-child(5){animation-delay:.24s}
 .motion .rv{transform:translateY(16px);transition:transform .8s var(--ease)}
-.motion .rv.in{transform:none;opacity:1}
+.motion .rv.in{transform:none}
 @keyframes fadeup{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
-@keyframes phoneup{from{opacity:0;translate:0 100px}to{opacity:1;translate:0 0}}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   *,*::before,*::after{animation:none!important;transition:none!important}
-  .motion .rv{transform:none;opacity:1}
-  .stage .tilt{transform:none}
+  .dock{height:auto}.dock .pin{position:relative;height:640px}
+  .dock .fly{display:none}
+  .dock .mag .fc{--ph:1;--cw:1}.dock .phone{--px:0px}.dock .sticker{--ss:1;--so:1}
+  .stand{overflow-x:auto}.stand .track{transform:none}
 }
 </style>
 
@@ -285,198 +303,164 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color
   <div class="bar">
     <span class="brand"><a href="#top" aria-label="ISSUE11, back to top"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg></a>
       <span class="links mono"><a href="#inside">Inside</a><a href="#how">How it works</a><a href="#faq">FAQ</a></span></span>
-    <a class="btn sm" href="#join">Get early access</a>
+    <a class="btn sm" href="#join"><span class="roll"><span>Get early access</span><span aria-hidden="true">Get early access</span></span></a>
   </div>
 </header>
 
 <main id="top">
 <!-- 1 · HERO -->
 <section class="hero" aria-labelledby="hero-h">
-  <div class="aura" aria-hidden="true"></div>
-  <div class="wrap">
-    <div class="head">
-      <div class="masthead"><svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg></div>
-      <div class="volrule mono"><span>Vol. 01</span><span class="hide-s">The future issue</span><span>Private beta 11.11.2026</span></div>
-      <h1 id="hero-h" class="h">Put your dreams on the cover.</h1>
-      <p class="lede"><b>ISSUE11 is a process-focused manifestation app for iPhone.</b> It turns your dreams into a personal magazine and helps you take the small steps that make them real.</p>
-      <div class="formblock">
-        <form class="join" data-join novalidate>
-          <label><span class="sr">Email address</span><input id="hero-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
-          <button class="btn" type="submit">Get early access</button>
-        </form>
-        <p class="note" aria-live="polite"></p>
-        <div class="chips mono"><span class="chip"><span class="dot"></span>Private beta · Nov 11, 2026</span><span class="chip">App Store · Dec 11, 2026</span></div>
-      </div>
-    </div>
-    <div class="stage" id="stage" aria-hidden="true">
-      <div class="set">
-        <div class="floor"></div>
-        <div class="tilt" id="tilt" style="position:absolute;inset:0;transform-style:preserve-3d">
-          <div class="mag"><div class="fc type"><svg class="wm" viewBox="3 3 828 634" preserveAspectRatio="none"><use href="#wordmark"/></svg></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div>
-          <div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-21.webp" alt=""><span class="island"></span><span class="glare"></span></div></div></div></div>
-        </div>
-      </div>
+  <div class="wrap grid">
+    <div class="masthead"><svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg></div>
+    <div class="volrule mono"><span>Vol. 01</span><span class="hide-s">The future issue</span><span>Private beta 11.11.2026</span></div>
+    <p class="kicker">“I can literally see the life I want.”</p>
+    <h1 id="hero-h" class="h">See it clearly. Take the next step.</h1>
+    <p class="lede">Getting there is the hard part. <b>ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real.</b></p>
+    <div class="formblock">
+      <form class="join" data-join novalidate>
+        <label><span class="sr">Email address</span><input id="hero-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
+        <button class="btn" type="submit"><span class="roll"><span>Get early access</span><span aria-hidden="true">Get early access</span></span></button>
+      </form>
+      <p class="note" aria-live="polite"></p>
+      <p class="fine">Free to join. Email only. Unsubscribe anytime.</p>
     </div>
   </div>
 </section>
 
-<!-- Example covers: the magazine she makes -->
-<section class="sec" aria-labelledby="covers-h">
-  <div class="wrap">
-    <div class="head rv">
-      <p class="label">Your Issue</p>
-      <h2 id="covers-h" class="h">Every Issue looks like the life you want.</h2>
-      <p class="sub">Your saves set the mood. Lucky Star lays out the cover and the pages. No two Issues look the same.</p>
-    </div>
-    <div class="covers" id="covers" aria-hidden="true">
-      <div class="track" id="coverTrack"><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-12.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The future issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-08.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The soft life issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-05.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The money issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-14.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The pink issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-03.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The crown issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-15.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The bold issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div></div>
-      <span class="cap mono">Example covers</span>
+<!-- 2 · SIGNATURE: the wordmark docks onto the cover -->
+<section class="dock wrap" id="dock" aria-label="Your dreams on the cover">
+  <div class="pin">
+    <div class="set">
+      <div class="stagefloor"></div>
+      <div class="mag" id="dockMag"><div class="fc"><div class="photo-in" style="background-image:url(assets/mj-12.webp)"></div>
+        <div class="cw"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg></div>
+        <div class="lines"><span class="mono">Issue 01 · 40 pages</span><br><span class="h">The future issue</span></div></div>
+        <div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div>
+      <div class="phone" id="dockPhone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-21.webp" alt=""><span class="island"></span><span class="glare"></span></div></div></div></div>
+      <span class="sticker" id="dockSticker" aria-hidden="true"><span class="body"><span class="eleven"></span></span><span class="flap"></span></span>
+      <svg class="wm fly" id="dockFly" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg>
+      <span class="cap mono">Example Issue</span>
+      <span class="steps mono" id="dockSteps"><span class="on">Your dreams</span><span>On the cover</span><span>In your hands</span></span>
     </div>
   </div>
 </section>
 
-<!-- 2 · CREDIBILITY (honest: no reviews or users exist yet) -->
-<section class="sec" aria-labelledby="cred-h">
+<!-- 3 · SOUND FAMILIAR? -->
+<section class="sec" aria-labelledby="fam-h">
   <div class="wrap">
-    <div class="head rv">
-      <p class="label">The honest part</p>
-      <h2 id="cred-h" class="h">No fake reviews. Real ones after 11.11.</h2>
-      <p class="sub">ISSUE11 is new. The private beta opens on November 11, 2026, with invites for people on the waitlist. Beta members shape the app before it reaches the App Store on December 11.</p>
+    <div class="folio mono"><span>P. 02</span><span>Sound familiar?</span></div>
+    <div class="head rv"><h2 id="fam-h" class="h">You can see it. Reaching it is harder.</h2></div>
+    <div class="familiar">
+      <blockquote>My vision board inspires me for five minutes, then I forget about it.</blockquote>
+      <blockquote>I start journaling, then stop a few days later.</blockquote>
+      <blockquote>I'm so focused on when it will arrive.</blockquote>
+      <blockquote>I keep waiting for my life to start while I watch others live theirs.</blockquote>
     </div>
-    <figure class="card honest" style="margin-inline:auto">
-      <div class="quote">
-                <blockquote>“I kept saving other people's lives on my phone while my own goals waited. ISSUE11 turns you back to your own life, one page and one small move at a time.”</blockquote>
-        <figcaption class="mono">Megan · Founder, ISSUE11</figcaption>
-      </div>
-      <div class="facts">
-        <div><span class="mono">Made for</span><span class="h">iPhone</span></div>
-        <div><span class="mono">Your Issue</span><span class="h">40 pages</span></div>
-        <div><span class="mono">Your pace</span><span class="h">1 move a week</span></div>
-      </div>
-    </figure>
-    <!-- Reserved for real beta quotes (with permission). Stays hidden until filled. -->
-    <div class="slots" hidden><div class="card"></div><div class="card"></div><div class="card"></div></div>
+    <p class="turn">You don't need another method. <span>You need one place to start and one next step.</span></p>
   </div>
 </section>
 
-<!-- 3 · VALUE -->
+<!-- 5 · VALUE: three spreads -->
 <section class="sec" id="inside" aria-labelledby="val-h">
   <div class="wrap">
-    <div class="head rv">
-      <p class="label">Inside the app</p>
-      <h2 id="val-h" class="h">A magazine about your life. Written by you.</h2>
-    </div>
-    <div class="stack">
-      <article class="card feature" style="--i:0">
-        <div class="txt"><p class="label">Your Issue</p><h3 class="h">Your dreams, laid out like a magazine</h3>
-          <p>Save images, write a few lines and add proof. They become pages in your own 40-page Issue. Lucky Star lays out each page, and your words stay exactly as you wrote them.</p></div>
-        <div class="vis" aria-hidden="true"><div class="phone" data-turn="1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div></div></div>
-      </article>
-      <article class="card feature" style="--i:1">
-        <div class="txt"><p class="label">Your pace</p><h3 class="h">One small move a week</h3>
-          <p>Pick one step toward what you want and take it this week. No streaks and no guilt if a week gets away from you.</p></div>
-        <div class="vis" aria-hidden="true"><div class="phone" data-turn="-1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div></div></div>
-      </article>
-      <article class="card feature" style="--i:2">
-        <div class="txt"><p class="label">Your practice</p><h3 class="h">Sessions for the process</h3>
-          <p>Short audio sessions, voice over soft music with visuals. You rehearse the everyday steps toward what you want, like the breath before you walk into the meeting. Then write a line in your journal, straight onto a page of your Issue.</p></div>
-        <div class="vis" aria-hidden="true"><div class="phone" data-turn="1"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div></div></div>
-      </article>
-    </div>
+    <div class="folio mono"><span>P. 03</span><span>Inside</span></div>
+    <div class="head rv"><h2 id="val-h" class="h">Your attention, back on your life.</h2><p class="sub">Less time on other people's highlight reels. More time on your own goals, at your own pace.</p></div>
+    <div class="stack" id="spreads"><article class="spreadcard" style="--i:0"><div class="photo" style="background-image:url(assets/mj-08.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-30.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div><div class="txt"><p class="label">Clarity</p><h3 class="h">Know what you actually want.</h3><p>Your dreams are scattered across screenshots, notes and boards. ISSUE11 gathers them into one 40-page magazine about your life. Lucky Star lays out the pages, and your words stay exactly as you wrote them.</p></div></article><article class="spreadcard" style="--i:1"><div class="photo" style="background-image:url(assets/mj-07.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-26.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div><div class="txt"><p class="label">Your pace</p><h3 class="h">A practice you actually keep.</h3><p>Most journals start to feel like homework. Here it's one small move a week. Missed a week? Pick up where you left off. No streaks, no guilt.</p></div></article><article class="spreadcard" style="--i:2"><div class="photo" style="background-image:url(assets/mj-15.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-04.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div><div class="txt"><p class="label">Your practice</p><h3 class="h">Motivated, not pressured.</h3><p>Affirmations can feel fake when your life says otherwise. Short audio sessions help you rehearse the everyday steps instead, like the breath before you walk into the meeting. A voice over soft music, with visuals.</p></div></article><article class="spreadcard" style="--i:3"><div class="photo" style="background-image:url(assets/mj-14.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-05.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div><div class="txt"><p class="label">Progress</p><h3 class="h">See how far you've come.</h3><p>Small shifts are easy to miss. When something moves, add proof to your Issue and watch it fill, page by page.</p></div></article></div>
   </div>
 </section>
 
-<!-- 4 · EXPERIENCE: how an Issue gets made -->
+<!-- 3 · NEWSSTAND -->
+<section class="sec" aria-labelledby="stand-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 04</span><span>Your Issue</span></div>
+    <div class="head rv"><h2 id="stand-h" class="h">Finally, all of it in one place.</h2><p class="sub">Your saves set the mood. Lucky Star lays out the cover and pages. No two Issues look alike.</p></div>
+  </div>
+  <div class="stand" id="stand" aria-hidden="true">
+    <div class="track" id="standTrack"><div class="item"><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-12.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The future issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><span class="cap mono">No. 01 · The future issue</span></div><div class="item"><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-14.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The soft life issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><span class="cap mono">No. 02 · The soft life issue</span></div><div class="item"><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-05.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The money issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><span class="cap mono">No. 03 · The money issue</span></div><div class="item"><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-03.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The new city issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><span class="cap mono">No. 04 · The new city issue</span></div><div class="item"><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-11.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The next chapter issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><span class="cap mono">No. 05 · The next chapter issue</span></div><div class="item"><div class="slot3d"><div class="mag"><div class="fc photo" style="background-image:url(assets/mj-15.webp)"><div><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div><div><span class="h">The bold issue</span></div></div><div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div></div><span class="cap mono">No. 06 · The bold issue</span></div></div>
+    <span class="note2 mono">Example covers</span>
+  </div>
+</section>
+
+<!-- 6 · HOW IT WORKS -->
 <section class="sec" id="how" aria-labelledby="how-h">
   <div class="wrap">
-    <div class="head rv">
-      <p class="label">How it works</p>
-      <h2 id="how-h" class="h">Four steps. One Issue.</h2>
-    </div>
+    <div class="folio mono"><span>P. 05</span><span>How it works</span></div>
+    <div class="head rv"><h2 id="how-h" class="h">Four steps. One Issue.</h2><p class="sub">Small, doable, yours. The magazine is step one, not the finish line.</p></div>
     <div class="how">
-      <ol class="steps">
-        <li class="step" data-step="0"><p class="label">Step 1</p><h3 class="h">Save</h3><p>Collect images of the life you want in My saves. Everything you save can become a page in your Issue.</p>
-          <div class="mini" aria-hidden="true"><div class="phone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-17.webp" alt="" loading="lazy"></div></div></div></div></div></li>
-        <li class="step" data-step="1"><p class="label">Step 2</p><h3 class="h">Write</h3><p>Write a few honest lines in your journal. You watch them land on a real magazine page as you type.</p>
-          <div class="mini" aria-hidden="true"><div class="phone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-08.webp" alt="" loading="lazy"></div></div></div></div></div></li>
-        <li class="step" data-step="2"><p class="label">Step 3</p><h3 class="h">Move</h3><p>Take your one small move for the week. When something shifts, add proof to your Issue.</p>
-          <div class="mini" aria-hidden="true"><div class="phone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div></div></div></li>
-        <li class="step" data-step="3"><p class="label">Step 4</p><h3 class="h">Read</h3><p>Turn the pages of your Issue like a real magazine and watch it fill, page by page, toward 40.</p>
-          <div class="mini" aria-hidden="true"><div class="phone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span><div class="face"><div class="screen"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div></div></div></li>
-      </ol>
+      <ol class="steps"><li class="step" data-step="0"><p class="label">Step 1</p><h3 class="h">Save</h3><p>Gather the life you want in My saves, all in one place.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-17.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div></li><li class="step" data-step="1"><p class="label">Step 2</p><h3 class="h">Write</h3><p>Get clear in a few honest lines. They land on a magazine page as you type.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-08.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div></li><li class="step" data-step="2"><p class="label">Step 3</p><h3 class="h">Move</h3><p>Take one small move this week. When something shifts, add proof.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-06.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div></li><li class="step" data-step="3"><p class="label">Step 4</p><h3 class="h">Read</h3><p>Turn the pages and see your own progress, toward 40.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-21.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div></li></ol>
       <div class="sticky" aria-hidden="true">
-        <div class="aura"></div>
-        <div class="phone" id="stickyPhone"><div class="body"><span class="layer"></span><span class="layer"></span><span class="layer"></span><span class="layer"></span>
-          <div class="face"><div class="screen">
-            <img class="on" src="assets/app-17.webp" alt=""><img src="assets/app-08.webp" alt=""><img src="assets/app-26.webp" alt=""><img src="assets/app-05.webp" alt="">
-            <span class="glare"></span></div></div></div></div>
-        
+        <div class="phone" id="stickyPhone"><div class="body"><div class="face"><div class="screen">
+          <img class="on" src="assets/app-17.webp" alt=""><img src="assets/app-08.webp" alt=""><img src="assets/app-06.webp" alt=""><img src="assets/app-21.webp" alt="">
+          <span class="island"></span><span class="glare"></span></div></div></div></div>
       </div>
     </div>
-    <div class="after"><a class="btn" href="#join">Get early access</a></div>
+    <div class="after"><a class="btn" href="#join"><span class="roll"><span>Get early access</span><span aria-hidden="true">Get early access</span></span></a></div>
   </div>
 </section>
 
-<!-- 5 · PRINT -->
+<div class="zebra bleed" aria-hidden="true"><svg id="zebra" viewBox="0 0 1680 150" preserveAspectRatio="none"></svg></div>
+
+<!-- 7 · PRINT -->
 <section class="sec" aria-labelledby="print-h">
   <div class="wrap">
-    <div class="head rv">
-      <p class="label">At 40 pages</p>
-      <h2 id="print-h" class="h">Hold it in your hands.</h2>
-      <p class="sub">When your Issue reaches 40 pages, you can order it as a real printed magazine. Your digital Issue is always included in the app.</p>
-      <div class="chips mono"><span class="chip"><span class="dot"></span>Printed Issue · $29.99</span><span class="chip">Free standard shipping · US</span><span class="chip">40 pages · full color</span></div>
-    </div>
+    <div class="folio mono"><span>P. 06</span><span>In print</span></div>
+    <div class="head rv"><h2 id="print-h" class="h">Hold it in your hands.</h2><p class="sub">A real record of showing up for yourself. At 40 pages, order it printed for $29.99 with free standard shipping in the US. Your digital Issue is always included.</p></div>
     <div class="printstage" id="printStage" aria-hidden="true">
       <div class="spread" id="spread">
-        <div class="shadow"></div>
-        <div class="paper"></div>
+        <div class="shadow"></div><div class="paper"></div>
         <div class="pageR" style="background-image:url(assets/mj-15.webp)"></div>
         <div class="cover">
-          <div class="f" style="background-image:url(assets/mj-12.webp)"><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><div><span class="mono" style="color:var(--cream)">Issue 01 · Vol. 01</span><br><span class="h">The future issue</span></div></div>
-          <div class="b"><span class="mono">P. 09 · My move</span><span class="h">Mornings that feel like mine</span><p>Sample page. Lucky Star lays it out, and the words are hers.</p></div>
+          <div class="f" style="background-image:url(assets/mj-12.webp)"><svg class="wm" viewBox="3 3 828 634"><use href="#wordmark"/></svg><span class="mono" style="color:var(--cream)">Issue 01 · Vol. 01</span></div>
+          <div class="b"><span class="mono">P. 09 · My move</span><span class="pull">“Walked before email. Three mornings this week.”</span><p>Sample page. Lucky Star lays it out. The words are hers.</p></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- 6 · FAQ -->
-<section class="sec" id="faq" aria-labelledby="faq-h">
+<!-- 4 · FROM THE FOUNDER (honest: no reviews exist yet) -->
+<section class="sec" aria-labelledby="founder-h">
   <div class="wrap">
-    <div class="head rv"><p class="label">Questions</p><h2 id="faq-h" class="h">Asked and answered.</h2></div>
-    <div class="faq">
-      <details open><summary>What is ISSUE11?<span class="pm" aria-hidden="true">+</span></summary>
-        <p>ISSUE11 is a process-focused manifestation app for iPhone. It turns your dreams into a personal magazine and helps you take the small steps that make them real. You save images, listen to short audio sessions, write in your journal and pick one small move a week, and it all becomes pages in your own 40-page Issue.</p></details>
-      <details><summary>When can I get it?<span class="pm" aria-hidden="true">+</span></summary>
-        <p>A private beta starts on November 11, 2026, with invites for people on the waitlist. ISSUE11 launches on the Apple App Store for iPhone on December 11, 2026. Join the waitlist to hear first.</p></details>
-      <details><summary>How much does it cost?<span class="pm" aria-hidden="true">+</span></summary>
-        <p>Joining the waitlist is free. The app is a subscription at $9.99 a month, and your digital magazine is included. A printed copy of your finished Issue is optional and costs $29.99 with free standard shipping in the US.</p></details>
-      <details><summary>Does ISSUE11 promise results?<span class="pm" aria-hidden="true">+</span></summary>
-        <p>No. ISSUE11 is about the process, not a promised outcome. You can't control when something arrives. You can choose one small move this week, and ISSUE11 helps you notice and keep the proof when something shifts.</p></details>
-      <details><summary>Is there AI in it?<span class="pm" aria-hidden="true">+</span></summary>
-        <p>Yes, and it is optional. Lucky Star is the app's helper: it lays out your magazine pages and suggests what to do next. Your own words are never rewritten, and you can switch Lucky Star off in settings. The app still works without it.</p></details>
-      <details><summary>How is it different from a vision board or a journal?<span class="pm" aria-hidden="true">+</span></summary>
-        <p>A vision board shows what you want and a journal holds what you write. ISSUE11 puts both into one magazine about your own life and adds one small move a week, so your dreams turn into steps you actually take.</p></details>
+    <div class="folio mono"><span>P. 07</span><span>Editor's letter</span></div>
+    <div class="founder">
+      <div class="img rv" style="background-image:url(assets/mj-10.webp)" role="img" aria-label="Editorial photo: a woman in a pink suit"></div>
+      <figure class="txt" style="margin:0">
+        <h2 id="founder-h" class="sr">From the founder</h2>
+        <blockquote class="pull">“I kept saving other people's lives on my phone while my own goals waited. ISSUE11 turns you back to your own life, one page and one small move at a time.”</blockquote>
+        <figcaption class="mono">Megan · Founder, ISSUE11</figcaption>
+        <p class="honest">No reviews yet. Yours could be first. Private beta invites go out to people on the waitlist from November 11, 2026. Beta members help shape the app before the App Store launch on December 11, and their words go here, with their permission.</p>
+      </figure>
     </div>
   </div>
 </section>
 
-<!-- 7 · FINAL CTA -->
+<!-- 8 · FAQ -->
+<section class="sec" id="faq" aria-labelledby="faq-h">
+  <div class="wrap">
+    <div class="folio mono"><span>P. 08</span><span>Questions</span></div>
+    <div class="faqgrid">
+      <div class="head"><h2 id="faq-h" class="h">Asked and answered.</h2></div>
+      <div class="faq"><details open><summary>What is ISSUE11?<span class="pm" aria-hidden="true">+</span></summary><p>ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real. You save images, listen to short audio sessions, write in your journal and pick one small move a week, and it all becomes pages in your own 40-page Issue.</p></details><details><summary>When can I get it?<span class="pm" aria-hidden="true">+</span></summary><p>A private beta starts on November 11, 2026. ISSUE11 launches on the Apple App Store for iPhone on December 11, 2026. Beta invites go to people on the waitlist.</p></details><details><summary>How much does it cost?<span class="pm" aria-hidden="true">+</span></summary><p>Joining the waitlist is free. The app is a subscription at $9.99 a month, and your digital magazine is included. A printed copy of your finished Issue is optional and costs $29.99 with free standard shipping in the US.</p></details><details><summary>Does ISSUE11 promise results?<span class="pm" aria-hidden="true">+</span></summary><p>No. ISSUE11 is about the process, not a promised outcome. You can't control the outcome. You are in control of the process: one small move a week, and a place to keep proof when something shifts.</p></details><details><summary>Is there AI in it?<span class="pm" aria-hidden="true">+</span></summary><p>Yes, and it's optional. Lucky Star is the app's AI helper. It lays out your magazine pages, never rewrites your words, and can be switched off in settings. The app works without it.</p></details><details><summary>How is it different from a vision board or a journal?<span class="pm" aria-hidden="true">+</span></summary><p>A vision board shows what you want, and most get forgotten. A journal holds what you write. ISSUE11 puts both into one magazine about your life and adds one small move a week, so it's where you start, not where you stop.</p></details></div>
+    </div>
+  </div>
+</section>
+
+<!-- 9 · CLOSING -->
 <section class="sec" id="join" aria-labelledby="final-h">
   <div class="wrap">
-    <div class="card closing">
+    <div class="closing">
       <span class="sticker" data-peel aria-hidden="true"><span class="body"><span class="eleven"></span></span><span class="flap"></span></span>
       <p class="label">Issue 01 · Private beta</p>
       <h2 id="final-h" class="h">Your Issue + your actions = your way there.</h2>
-      <p class="lede">Your first Issue starts 11.11. Join the waitlist for a private beta invite and the first word on the App Store launch.</p>
+      <p class="lede">Join the waitlist. Beta invites go out from November 11, and you'll hear first when ISSUE11 reaches the App Store on December 11.</p>
       <div class="formblock">
         <form class="join" data-join novalidate>
           <label><span class="sr">Email address</span><input id="final-email" type="email" name="email" placeholder="Your email" autocomplete="email" required></label>
-          <button class="btn" type="submit">Get early access</button>
+          <button class="btn" type="submit"><span class="roll"><span>Get early access</span><span aria-hidden="true">Get early access</span></span></button>
         </form>
         <p class="note" aria-live="polite"></p>
         <p class="fine">By joining, you agree to receive emails from ISSUE11 about early access and the launch. Unsubscribe anytime. See our <a href="#privacy">Privacy Policy</a>.</p>
-        <div class="chips mono"><span class="chip">Private beta · Nov 11, 2026</span><span class="chip">App Store · Dec 11, 2026</span></div>
+        <p class="mono" style="color:var(--grey)">Private beta · Nov 11, 2026 · App Store · Dec 11, 2026</p>
       </div>
     </div>
   </div>
@@ -485,14 +469,8 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color
 
 <footer>
   <div class="wrap">
-    <div class="row mono">
-      <svg class="wm" viewBox="3 3 828 634" role="img" aria-label="ISSUE11"><use href="#wordmark"/></svg>
-      <span class="links">
-        <span>© 2026 ISSUE11</span>
-        <a href="#privacy" id="privacy">Privacy</a>
-        <a href="#terms" id="terms">Terms</a>
-      </span>
-    </div>
+    <div class="row mono"><span>© 2026 ISSUE11 · See it. Write it. Become it.</span><span class="links"><a href="#privacy" id="privacy">Privacy</a><a href="#terms" id="terms">Terms</a></span></div>
+    <div class="big" aria-hidden="true"><svg class="wm" id="footWm" viewBox="3 3 828 634"><use href="#wordmark"/></svg></div>
   </div>
 </footer>
 
@@ -500,97 +478,103 @@ footer .links{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;color
   <div class="pop" id="luckyPop" hidden>
     <button class="close" type="button" id="luckyClose" aria-label="Close">×</button>
     <p class="label">Lucky Star</p>
-    <p>Hi. I'm Lucky Star. When the beta opens on 11.11, I'll help lay out the pages of your Issue.</p>
-    <a class="btn sm" href="#join" id="luckyGo">Get early access</a>
+    <p>Hi, I'm Lucky Star. I lay out your pages and keep your words exactly as you wrote them. Off switch included.</p>
+    <a class="btn sm" href="#join" id="luckyGo"><span class="roll"><span>Get early access</span><span aria-hidden="true">Get early access</span></span></a>
   </div>
   <button class="sticker" type="button" id="luckyBtn" aria-expanded="false" aria-controls="luckyPop" aria-label="Lucky Star"><span class="body"><span class="eleven"></span></span><span class="flap"></span><span class="tag">LUCKY STAR</span></button>
 </div>
 
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-{"@type":"Question","name":"What is ISSUE11?","acceptedAnswer":{"@type":"Answer","text":"ISSUE11 is a process-focused manifestation app for iPhone. It turns your dreams into a personal magazine and helps you take the small steps that make them real. You save images, listen to short audio sessions, write in your journal and pick one small move a week, and it all becomes pages in your own 40-page Issue."}},
-{"@type":"Question","name":"When can I get it?","acceptedAnswer":{"@type":"Answer","text":"A private beta starts on November 11, 2026, with invites for people on the waitlist. ISSUE11 launches on the Apple App Store for iPhone on December 11, 2026. Join the waitlist to hear first."}},
-{"@type":"Question","name":"How much does it cost?","acceptedAnswer":{"@type":"Answer","text":"Joining the waitlist is free. The app is a subscription at $9.99 a month, and your digital magazine is included. A printed copy of your finished Issue is optional and costs $29.99 with free standard shipping in the US."}},
-{"@type":"Question","name":"Does ISSUE11 promise results?","acceptedAnswer":{"@type":"Answer","text":"No. ISSUE11 is about the process, not a promised outcome. You can't control when something arrives. You can choose one small move this week, and ISSUE11 helps you notice and keep the proof when something shifts."}},
-{"@type":"Question","name":"Is there AI in it?","acceptedAnswer":{"@type":"Answer","text":"Yes, and it is optional. Lucky Star is the app's helper: it lays out your magazine pages and suggests what to do next. Your own words are never rewritten, and you can switch Lucky Star off in settings. The app still works without it."}},
-{"@type":"Question","name":"How is it different from a vision board or a journal?","acceptedAnswer":{"@type":"Answer","text":"A vision board shows what you want and a journal holds what you write. ISSUE11 puts both into one magazine about your own life and adds one small move a week, so your dreams turn into steps you actually take."}}
-]}
-</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is ISSUE11?", "acceptedAnswer": {"@type": "Answer", "text": "ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real. You save images, listen to short audio sessions, write in your journal and pick one small move a week, and it all becomes pages in your own 40-page Issue."}}, {"@type": "Question", "name": "When can I get it?", "acceptedAnswer": {"@type": "Answer", "text": "A private beta starts on November 11, 2026. ISSUE11 launches on the Apple App Store for iPhone on December 11, 2026. Beta invites go to people on the waitlist."}}, {"@type": "Question", "name": "How much does it cost?", "acceptedAnswer": {"@type": "Answer", "text": "Joining the waitlist is free. The app is a subscription at $9.99 a month, and your digital magazine is included. A printed copy of your finished Issue is optional and costs $29.99 with free standard shipping in the US."}}, {"@type": "Question", "name": "Does ISSUE11 promise results?", "acceptedAnswer": {"@type": "Answer", "text": "No. ISSUE11 is about the process, not a promised outcome. You can't control the outcome. You are in control of the process: one small move a week, and a place to keep proof when something shifts."}}, {"@type": "Question", "name": "Is there AI in it?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it's optional. Lucky Star is the app's AI helper. It lays out your magazine pages, never rewrites your words, and can be switched off in settings. The app works without it."}}, {"@type": "Question", "name": "How is it different from a vision board or a journal?", "acceptedAnswer": {"@type": "Answer", "text": "A vision board shows what you want, and most get forgotten. A journal holds what you write. ISSUE11 puts both into one magazine about your life and adds one small move a week, so it's where you start, not where you stop."}}]}</script>
 
 <script>
 (function(){
-  // Waitlist forms: prototype only, nothing is sent anywhere.
+  var MSG_OK="You're on the list. Step one, done. Confirm your email in your inbox so you hear when beta invites go out.", MSG_ERR="That email doesn't look right. Try one like you@example.com.";
   document.querySelectorAll('[data-join]').forEach(function(f){
     f.addEventListener('submit',function(e){
       e.preventDefault();
       var input=f.querySelector('input'), note=f.parentNode.querySelector('.note');
-      if(!input.value||!input.checkValidity()){note.textContent='Enter a valid email address, like you@example.com.';input.focus();return;}
-      note.textContent='Preview only: this form is not connected yet. In Framer it sends to the waitlist tool.';
+      if(!input.value||!input.checkValidity()){note.textContent=MSG_ERR;input.focus();return;}
+      note.textContent=MSG_OK+' (Preview: this form is not connected yet.)';
     });
   });
   document.querySelectorAll('[data-peel]').forEach(function(s){s.addEventListener('click',function(){s.classList.toggle('peeled');});});
 
-  // Floating Lucky Star: a small card with the same single action; out of the way while the hero form shows.
+  // Real 3D phones: rounded slices behind each face make metal side walls, plus side keys.
+  document.querySelectorAll('.phone .body').forEach(function(b){
+    var frag=document.createDocumentFragment();
+    for(var i=16;i>=1;i--){var e=document.createElement('span');e.className='edge'+(i===16?' last':'');e.style.transform='translateZ(calc(var(--pw) * -'+(i*0.0034).toFixed(4)+'))';frag.appendChild(e);}
+    ['k1','k2','k3','k4'].forEach(function(k){var e=document.createElement('span');e.className='key '+k;frag.appendChild(e);});
+    b.insertBefore(frag,b.firstChild);
+  });
+
+  // The one wavy stripe band: hand-cut vertical stripes, like the wordmark.
+  (function(){var svg=document.getElementById('zebra'),d='',W=1680,H=150;
+    for(var x=-20,k=0;x<W+40;x+=34,k++){var w=14+((k*7)%9),a=8+((k*5)%7),ph=k*0.9,pts=[],pts2=[];
+      for(var y=0;y<=H;y+=10){var off=Math.sin(y/26+ph)*a;pts.push((x+off).toFixed(1)+','+y);pts2.unshift((x+off+w+Math.sin(y/19+ph)*3).toFixed(1)+','+y);}
+      d+='M'+pts.join(' L')+' L'+pts2.join(' L')+'Z';}
+    svg.innerHTML='<path fill="#0d0d0d" d="'+d+'"/>';})();
+
+  // Floating Lucky Star (desktop): small card with the same single action; hidden near forms and footer.
   var lk=document.querySelector('.lucky'), lb=document.getElementById('luckyBtn'), lp=document.getElementById('luckyPop');
   function setPop(open){lp.hidden=!open;lb.setAttribute('aria-expanded',open);lb.classList.toggle('peeled',open);}
   lb.addEventListener('click',function(){setPop(lp.hidden);});
   document.getElementById('luckyClose').addEventListener('click',function(){setPop(false);lb.focus();});
   document.getElementById('luckyGo').addEventListener('click',function(){setPop(false);});
   document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!lp.hidden){setPop(false);lb.focus();}});
-  var hide=[document.querySelector('.hero .join'),document.querySelector('.closing'),document.querySelector('footer')], seen=new Set();
-  if(window.matchMedia('(max-width: 700px)').matches){hide.push(document.getElementById('how'),document.getElementById('faq'),document.getElementById('printStage').closest('section'));}
-  if('IntersectionObserver' in window){var io2=new IntersectionObserver(function(es){es.forEach(function(en){en.isIntersecting?seen.add(en.target):seen.delete(en.target);});lk.classList.toggle('away',seen.size>0);if(seen.size)setPop(false);});
-    hide.forEach(function(el){io2.observe(el);});}
+  var seen=new Set(), hideEls=[document.querySelector('.hero'),document.getElementById('dock'),document.querySelector('.closing'),document.querySelector('footer')];
+  if('IntersectionObserver' in window){var hio=new IntersectionObserver(function(es){es.forEach(function(en){en.isIntersecting?seen.add(en.target):seen.delete(en.target);});lk.classList.toggle('away',seen.size>0);if(seen.size)setPop(false);});hideEls.forEach(function(el){hio.observe(el);});}
   else lk.classList.remove('away');
 
-  // Sticky phone: the screen matches the step in view.
+  // Sticky phone screens follow the step in view.
   var steps=[].slice.call(document.querySelectorAll('.step')), shots=[].slice.call(document.querySelectorAll('#stickyPhone .screen img'));
-  var labels=['My saves','Journal','Your move','Your Issue'], sl=document.getElementById('stickyLabel');
   function activate(i){steps.forEach(function(s,k){s.classList.toggle('on',k===i);});shots.forEach(function(im,k){im.classList.toggle('on',k===i);});}
   activate(0);
-  if('IntersectionObserver' in window){
-    var so=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting)activate(+en.target.dataset.step);});},{rootMargin:'-45% 0px -45% 0px'});
-    steps.forEach(function(s){so.observe(s);});
-  }
+  if('IntersectionObserver' in window){var so=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting)activate(+en.target.dataset.step);});},{rootMargin:'-45% 0px -45% 0px'});steps.forEach(function(s){so.observe(s);});}
 
-  // Real 3D phones: stack rounded slices behind each face for metal side walls, plus side keys.
-  document.querySelectorAll('.phone .body').forEach(function(b){
-    var n=16, frag=document.createDocumentFragment();
-    for(var i=n;i>=1;i--){var e=document.createElement('span');e.className='edge'+(i===n?' last':'');e.style.transform='translateZ(calc(var(--pw) * -'+(i*0.0034).toFixed(4)+'))';frag.appendChild(e);}
-    ['k1','k2','k3','k4'].forEach(function(k){var e=document.createElement('span');e.className='key '+k;frag.appendChild(e);});
-    b.insertBefore(frag,b.firstChild);
-  });
-
-  var spread=document.getElementById('spread');
-  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){spread.style.setProperty('--o','0');return;}
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){return;}
   document.documentElement.classList.add('motion');
-
-  // Gentle reveals for section heads only.
   var rv=[].slice.call(document.querySelectorAll('.rv'));
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -6% 0px'});
-    rv.forEach(function(el){io.observe(el);});
-  } else rv.forEach(function(el){el.classList.add('in');});
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -6% 0px'});rv.forEach(function(el){io.observe(el);});}
 
-  // Scroll-linked: hero phone straightens, feature phones turn a little, the printed Issue opens. Nothing is hijacked.
-  var turns=[].slice.call(document.querySelectorAll('[data-turn]'));
-  var tilt=document.getElementById('tilt'), stage=document.getElementById('stage'), pStage=document.getElementById('printStage');
-  var ticking=false;
   function clamp(v){return Math.max(0,Math.min(1,v));}
+  function seg(p,a,b){return clamp((p-a)/(b-a));}
+  var dock=document.getElementById('dock'), fly=document.getElementById('dockFly'), dmag=document.getElementById('dockMag'), dfc=dmag.querySelector('.fc'),
+      dph=document.getElementById('dockPhone'), dst=document.getElementById('dockSticker'), dsteps=[].slice.call(document.querySelectorAll('#dockSteps span')),
+      set=dock.querySelector('.set');
+  var stand=document.getElementById('stand'), track=document.getElementById('standTrack'), zebra=document.getElementById('zebra'),
+      foot=document.getElementById('footWm'), spread=document.getElementById('spread'), pStage=document.getElementById('printStage'),
+      cards=[].slice.call(document.querySelectorAll('.spreadcard'));
+  var ticking=false;
   function frame(){
     ticking=false;
     var vh=window.innerHeight;
-    var rs=stage.getBoundingClientRect();
-    tilt.style.setProperty('--sx',(10-10*clamp((vh-rs.top)/(vh*0.9))).toFixed(2)+'deg');
-    turns.forEach(function(el){
-      var r=el.getBoundingClientRect(), c=(r.top+r.height/2-vh/2)/vh;
-      el.style.setProperty('--vy',Math.max(-12,Math.min(12,c*-14*parseFloat(el.dataset.turn))).toFixed(2)+'deg');
-    });
-    var cv=document.getElementById('covers'), tr=document.getElementById('coverTrack');
-    var rc=cv.getBoundingClientRect(), pc=clamp((vh-rc.top)/(vh+rc.height));
-    tr.style.setProperty('--x',(-pc*Math.max(0,tr.scrollWidth-cv.clientWidth+80)).toFixed(1)+'px');
-    var r3=pStage.getBoundingClientRect();
-    spread.style.setProperty('--o',(0.4*(1-clamp((vh*0.95-r3.top)/(vh*0.65)))).toFixed(3));
+    // Signature: wordmark docks onto the cover.
+    var dr=dock.getBoundingClientRect(), p=clamp(-dr.top/Math.max(1,dr.height-vh));
+    var sr=set.getBoundingClientRect(), fr0w=Math.min(sr.width*0.78,820,sr.height*0.62*828/634), fr0h=fr0w*634/828;
+    var sx=sr.left+(sr.width-fr0w)/2, sy=sr.top+(sr.height-fr0h)/2;
+    var cr=dfc.getBoundingClientRect(), tw=cr.width*0.88, th=tw*634/828, tx=cr.left+cr.width*0.06, ty=cr.top+cr.height*0.04;
+    var m=seg(p,0.05,0.6), e=1-Math.pow(1-m,3);
+    var x=sx+(tx-sx)*e, y=sy+(ty-sy)*e, s=(fr0w+(tw-fr0w)*e)/fr0w;
+    fly.style.transform='translate('+(x-sr.left-sr.width/2).toFixed(1)+'px,'+(y-sr.top-sr.height/2).toFixed(1)+'px) scale('+s.toFixed(4)+')';
+    fly.style.width=fr0w+'px';
+    fly.style.opacity=(1-seg(p,0.6,0.7)).toFixed(3);
+    fly.style.color=p>0.45?'var(--cream)':'var(--ink)';
+    dfc.style.setProperty('--ph',seg(p,0.3,0.6).toFixed(3));
+    dfc.style.setProperty('--cw',seg(p,0.6,0.7).toFixed(3));
+    dph.style.setProperty('--px',((1-seg(p,0.62,0.85))*60).toFixed(2)+'vw');
+    var t=seg(p,0.8,0.92); dst.style.setProperty('--so',t.toFixed(3)); dst.style.setProperty('--ss',(1.8-0.8*t).toFixed(3)); dst.classList.toggle('peeled',p>0.95);
+    var stp=p<0.4?0:p<0.75?1:2; dsteps.forEach(function(sp,i){sp.classList.toggle('on',i===stp);});
+    // Newsstand drifts sideways while in view.
+    var rs=stand.getBoundingClientRect(), ps=clamp((vh-rs.top)/(vh+rs.height));
+    track.style.setProperty('--x',(-ps*Math.max(0,track.scrollWidth-stand.clientWidth+48)).toFixed(1)+'px');
+    // Spreads: the card underneath steps back as the next one arrives.
+    cards.forEach(function(c,i){var nx=cards[i+1];if(!nx){c.style.setProperty('--k',0);return;}
+      var top=parseFloat(getComputedStyle(nx).top)||0, d=nx.getBoundingClientRect().top-top; c.style.setProperty('--k',(1-clamp(d/c.offsetHeight)).toFixed(3));});
+    // Zebra band and footer wordmark.
+    var zr=zebra.getBoundingClientRect(); zebra.style.setProperty('--zx',(-clamp((vh-zr.top)/(vh+zr.height))*240).toFixed(1)+'px');
+    var fr=foot.getBoundingClientRect(); foot.style.setProperty('--fy',(40*clamp((fr.top-vh*0.5)/(vh*0.5))).toFixed(1)+'px');
+    // Printed Issue opens.
+    var r3=pStage.getBoundingClientRect(); spread.style.setProperty('--o',(0.4*(1-clamp((vh*0.95-r3.top)/(vh*0.65)))).toFixed(3));
   }
   function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(frame);}}
   window.addEventListener('scroll',onScroll,{passive:true});

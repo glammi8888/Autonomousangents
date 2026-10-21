@@ -25,7 +25,7 @@
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{scroll-behavior:smooth}
-body{background:var(--page);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.45}
+body{margin:0;background:var(--page);color:var(--ink);font-family:var(--body);font-size:19px;line-height:1.45}
 main,footer{overflow-x:clip}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:80;background:var(--page)}
 img{max-width:100%;display:block}
@@ -59,7 +59,7 @@ a{color:inherit}
 .btn .roll span+span{transform:translateY(100%)}
 .btn:hover .roll span:first-child{transform:translateY(-100%)}
 .btn:hover .roll span+span{transform:none}
-.btn.sm{padding:10px 16px;font-size:11px;min-height:40px}
+.btn.sm{padding:10px 16px;font-size:11px;min-height:44px}
 .join{display:flex;align-items:center;gap:8px;width:100%;max-width:500px;background:var(--white);border:1px solid var(--line);border-radius:44px;padding:6px 6px 6px 22px;box-shadow:0 16px 36px -22px rgba(246,90,173,.7);transition:transform .3s var(--ease),border-color .3s}
 .join:focus-within{border-color:var(--pink);transform:scale(1.015)}
 .join label{flex:1;min-width:0}
@@ -89,7 +89,7 @@ a{color:inherit}
 .volrule{width:min(100%,600px);display:flex;justify-content:space-between;gap:10px;border-top:1px solid var(--ink);padding-top:8px;margin-top:-8px}
 .hero h1{font-size:var(--h1);max-width:15ch}
 .hero .lede{margin:0;font-size:20px;color:var(--body-ink);max-width:44ch}
-.hero .lede b{color:var(--ink)}
+.hero .lede b{color:var(--ink);font-weight:400}
 .hero .formblock{display:grid;gap:10px;justify-items:center;width:100%}
 @media (max-width:700px){.volrule .hide-s{display:none}}
 
@@ -106,12 +106,12 @@ a{color:inherit}
 .dock .mag .fc .lines .h{font-size:calc(var(--w)*.085);color:var(--white)}
 .dock .fly{position:absolute;left:50%;top:50%;width:min(78%,820px);transform-origin:0 0;color:var(--ink);will-change:transform,opacity;pointer-events:none}
 .dock .phone{--pw:min(250px,26vh);left:calc(50% + var(--w,330px)*0 + min(170px,16vh));top:50%;margin-top:calc(var(--pw)*-1.066);transform:translateX(var(--px,60vw)) rotateY(-24deg) rotateX(6deg) rotateZ(3deg)}
-.dock .sticker{position:absolute;--s:min(96px,9vh);left:calc(50% + min(120px,11vh));top:calc(50% - min(250px,22vh));transform:scale(var(--ss,1.8)) rotate(10deg);opacity:var(--so,0);z-index:5}
+.dock .sticker{position:absolute;--s:min(84px,8vh);left:calc(50% - min(330px,30vh)/2 - 36px);top:calc(50% - min(330px,30vh)*.647 - 28px);transform:scale(var(--ss,1.8)) rotate(10deg);opacity:var(--so,0);z-index:5}
 .dock .cap{position:absolute;left:24px;bottom:20px;color:var(--grey)}
 .dock .steps{position:absolute;right:24px;bottom:20px;display:flex;gap:10px;color:var(--ink)}
-.dock .steps span{opacity:.35;transition:opacity .3s}
-.dock .steps span.on{opacity:1}
-@media (max-width:700px){.dock{height:200vh;margin-top:48px}.dock .mag{--w:min(230px,56vw)}.dock .phone{--pw:150px;left:calc(50% + 28px)}.dock .sticker{left:calc(50% + 70px);top:calc(50% - 190px)}.dock .steps{display:none}}
+.dock .steps span{color:var(--grey);transition:color .3s}
+.dock .steps span.on{color:var(--ink)}
+@media (max-width:700px){.dock{height:200vh;margin-top:48px}.dock .mag{--w:min(230px,56vw)}.dock .phone{--pw:150px;left:calc(50% + 28px)}.dock .sticker{left:calc(50% - min(230px,56vw)/2 - 20px);top:calc(50% - min(230px,56vw)*.647 - 24px)}.dock .steps{display:none}}
 
 /* 3D phone */
 .phone{--pw:300px;position:absolute;width:var(--pw);aspect-ratio:375/800;transform-style:preserve-3d}
@@ -188,17 +188,19 @@ a{color:inherit}
 .spreadcard p{margin:0;color:var(--body-ink)}
 .spreadcard .phone{--pw:280px;left:100%;bottom:-120px;margin-left:-140px;transform:rotateY(-14deg) rotateX(6deg) rotateZ(2deg);z-index:2}
 @media (max-width:860px){
-  .spreadcard{grid-template-columns:minmax(0,1fr);min-height:auto;top:calc(76px + var(--i,0) * 12px)}
-  .spreadcard .photo{height:360px;overflow:hidden}
+  .spreadcard{grid-template-columns:minmax(0,1fr);min-height:auto;position:relative;top:auto;transform:none;filter:none}
+  .spreadcard .photo{height:280px;overflow:hidden}
   .spreadcard .txt{padding:28px 26px 32px}
-  .spreadcard .phone{--pw:180px;top:110px;bottom:auto;left:auto;right:18px;margin-left:0}
+  .spreadcard .phone{--pw:150px;top:40px;bottom:auto;left:auto;right:18px;margin-left:0}
 }
 
 /* 6 · How it works (sticky phone) */
 .how{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:32px}
 .steps{list-style:none;margin:0;padding:0}
-.step{min-height:64vh;display:grid;align-content:center;gap:12px;opacity:.35;transition:opacity .4s ease}
-.step.on{opacity:1}
+.step{min-height:64vh;display:grid;align-content:center;gap:12px;color:var(--grey);transition:color .4s ease}
+.step p{transition:color .4s ease}
+.step.on{color:var(--ink)}
+.step:not(.on) p{color:var(--grey)}
 .step h3{font-size:var(--h3)}
 .step p{margin:0;color:var(--body-ink);max-width:36ch}
 .step .mini{display:none}
@@ -210,18 +212,19 @@ a{color:inherit}
 @media (max-width:860px){
   .how{grid-template-columns:minmax(0,1fr);gap:0}
   .sticky{display:none}
-  .step{min-height:0;opacity:1;padding-block:32px;border-top:1px solid var(--line)}
+  .step{min-height:0;color:var(--ink);padding-block:32px;border-top:1px solid var(--line)}
+  .step:not(.on) p{color:var(--body-ink)}
   .step:first-child{border-top:0;padding-top:0}
   .step .mini{display:block;position:relative;height:500px;perspective:1200px;margin-top:8px}
   .step .mini .phone{--pw:210px;left:50%;top:20px;margin-left:-105px;transform:rotateY(-22deg) rotateX(6deg) rotateZ(3deg)}
 }
 
 /* 7 · The wavy stripe band (used once) */
-.zebra{height:150px;background:var(--white);border-block:1px solid var(--ink);margin-top:var(--gap);overflow:hidden}
+.zebra{height:64px;background:var(--white);border-block:1px solid var(--ink);margin-top:var(--gap);overflow:hidden}
 .zebra svg{display:block;height:100%;width:calc(100% + 240px);transform:translate3d(var(--zx,0px),0,0);will-change:transform}
 
 /* 8 · Print: large opening magazine */
-.printstage{position:relative;height:660px;perspective:2200px;margin-top:24px}
+.printstage{position:relative;height:660px;perspective:2200px;margin-top:112px;contain:paint}
 .spread{--o:.4;position:absolute;left:50%;top:50%;width:min(940px,100%);aspect-ratio:17/11;transform:translate(-50%,-50%) rotateX(calc(36deg - 22deg*(1 - var(--o)))) rotateZ(calc(-6deg + 4deg*(1 - var(--o))));transform-style:preserve-3d}
 .spread .shadow{position:absolute;inset:6% 4% -6% 4%;background:rgba(13,13,13,.2);filter:blur(24px);transform:translateZ(-20px)}
 .spread .pageR{position:absolute;top:0;right:0;width:50%;height:100%;background:center/cover;box-shadow:inset 18px 0 24px -18px rgba(13,13,13,.45)}
@@ -336,7 +339,7 @@ footer .big .wm{transform:translateY(var(--fy,40px));will-change:transform}
         <div class="cw"><svg class="wm" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg></div>
         <div class="lines"><span class="mono">Issue 01 · 40 pages</span><br><span class="h">The future issue</span></div></div>
         <div class="bk"></div><div class="sp"></div><div class="er"></div><div class="et"></div><div class="eb"></div></div>
-      <div class="phone" id="dockPhone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-21.webp" alt=""><span class="island"></span><span class="glare"></span></div></div></div></div>
+      <div class="phone" id="dockPhone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-21.webp" alt=""><span class="glare"></span></div></div></div></div>
       <span class="sticker" id="dockSticker" aria-hidden="true"><span class="body"><span class="eleven"></span></span><span class="flap"></span></span>
       <svg class="wm fly" id="dockFly" viewBox="3 3 828 634" aria-hidden="true"><use href="#wordmark"/></svg>
       <span class="cap mono">Example Issue</span>
@@ -365,7 +368,7 @@ footer .big .wm{transform:translateY(var(--fy,40px));will-change:transform}
   <div class="wrap">
     <div class="folio mono"><span>P. 03</span><span>Inside</span></div>
     <div class="head rv"><h2 id="val-h" class="h">Your attention, back on your life.</h2><p class="sub">Less time on other people's highlight reels. More time on your own goals, at your own pace.</p></div>
-    <div class="stack" id="spreads"><article class="spreadcard" style="--i:0"><div class="photo" style="background-image:url(assets/mj-08.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-30.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div><div class="txt"><p class="label">Clarity</p><h3 class="h">Know what you actually want.</h3><p>Your dreams are scattered across screenshots, notes and boards. ISSUE11 gathers them into one 40-page magazine about your life. Lucky Star lays out the pages, and your words stay exactly as you wrote them.</p></div></article><article class="spreadcard" style="--i:1"><div class="photo" style="background-image:url(assets/mj-07.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-26.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div><div class="txt"><p class="label">Your pace</p><h3 class="h">A practice you actually keep.</h3><p>Most journals start to feel like homework. Here it's one small move a week. Missed a week? Pick up where you left off. No streaks, no guilt.</p></div></article><article class="spreadcard" style="--i:2"><div class="photo" style="background-image:url(assets/mj-15.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-04.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div><div class="txt"><p class="label">Your practice</p><h3 class="h">Motivated, not pressured.</h3><p>Affirmations can feel fake when your life says otherwise. Short audio sessions help you rehearse the everyday steps instead, like the breath before you walk into the meeting. A voice over soft music, with visuals.</p></div></article><article class="spreadcard" style="--i:3"><div class="photo" style="background-image:url(assets/mj-14.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-05.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div><div class="txt"><p class="label">Progress</p><h3 class="h">See how far you've come.</h3><p>Small shifts are easy to miss. When something moves, add proof to your Issue and watch it fill, page by page.</p></div></article></div>
+    <div class="stack" id="spreads"><article class="spreadcard" style="--i:0"><div class="photo" style="background-image:url(assets/mj-08.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-30.webp" alt="" loading="lazy"></div></div></div></div></div><div class="txt"><p class="label">Clarity</p><h3 class="h">Know what you actually want.</h3><p>Your dreams are scattered across screenshots, notes and boards. ISSUE11 gathers them into one 40-page magazine about your life. Lucky Star lays out the pages, and your words stay exactly as you wrote them.</p></div></article><article class="spreadcard" style="--i:1"><div class="photo" style="background-image:url(assets/mj-07.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-26.webp" alt="" loading="lazy"></div></div></div></div></div><div class="txt"><p class="label">Your pace</p><h3 class="h">A practice you actually keep.</h3><p>Most journals start to feel like homework. Here it's one small move a week. Missed a week? Pick up where you left off. No streaks, no guilt.</p></div></article><article class="spreadcard" style="--i:2"><div class="photo" style="background-image:url(assets/mj-15.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-04.webp" alt="" loading="lazy"></div></div></div></div></div><div class="txt"><p class="label">Your practice</p><h3 class="h">Motivated, not pressured.</h3><p>Affirmations can feel fake when your life says otherwise. Short audio sessions help you rehearse the everyday steps instead, like the breath before you walk into the meeting. A voice over soft music, with visuals.</p></div></article><article class="spreadcard" style="--i:3"><div class="photo" style="background-image:url(assets/mj-14.webp)" aria-hidden="true"><div class="phone" aria-hidden="true"><div class="body"><div class="face"><div class="screen"><img src="assets/app-05.webp" alt="" loading="lazy"></div></div></div></div></div><div class="txt"><p class="label">Progress</p><h3 class="h">See how far you've come.</h3><p>Small shifts are easy to miss. When something moves, add proof to your Issue and watch it fill, page by page.</p></div></article></div>
   </div>
 </section>
 
@@ -387,18 +390,18 @@ footer .big .wm{transform:translateY(var(--fy,40px));will-change:transform}
     <div class="folio mono"><span>P. 05</span><span>How it works</span></div>
     <div class="head rv"><h2 id="how-h" class="h">Four steps. One Issue.</h2><p class="sub">Small, doable, yours. The magazine is step one, not the finish line.</p></div>
     <div class="how">
-      <ol class="steps"><li class="step" data-step="0"><p class="label">Step 1</p><h3 class="h">Save</h3><p>Gather the life you want in My saves, all in one place.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-17.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div></li><li class="step" data-step="1"><p class="label">Step 2</p><h3 class="h">Write</h3><p>Get clear in a few honest lines. They land on a magazine page as you type.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-08.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div></li><li class="step" data-step="2"><p class="label">Step 3</p><h3 class="h">Move</h3><p>Take one small move this week. When something shifts, add proof.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-06.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div></li><li class="step" data-step="3"><p class="label">Step 4</p><h3 class="h">Read</h3><p>Turn the pages and see your own progress, toward 40.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-21.webp" alt="" loading="lazy"><span class="island"></span></div></div></div></div></div></li></ol>
+      <ol class="steps"><li class="step" data-step="0"><p class="label">Step 1</p><h3 class="h">Save</h3><p>Gather the life you want in My saves, all in one place.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-17.webp" alt="" loading="lazy"></div></div></div></div></div></li><li class="step" data-step="1"><p class="label">Step 2</p><h3 class="h">Write</h3><p>Get clear in a few honest lines. They land on a magazine page as you type.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-08.webp" alt="" loading="lazy"></div></div></div></div></div></li><li class="step" data-step="2"><p class="label">Step 3</p><h3 class="h">Move</h3><p>Take one small move this week. When something shifts, add proof.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-06.webp" alt="" loading="lazy"></div></div></div></div></div></li><li class="step" data-step="3"><p class="label">Step 4</p><h3 class="h">Read</h3><p>Turn the pages and see your own progress, toward 40.</p><div class="mini" aria-hidden="true"><div class="phone"><div class="body"><div class="face"><div class="screen"><img src="assets/app-21.webp" alt="" loading="lazy"></div></div></div></div></div></li></ol>
       <div class="sticky" aria-hidden="true">
         <div class="phone" id="stickyPhone"><div class="body"><div class="face"><div class="screen">
           <img class="on" src="assets/app-17.webp" alt=""><img src="assets/app-08.webp" alt=""><img src="assets/app-06.webp" alt=""><img src="assets/app-21.webp" alt="">
-          <span class="island"></span><span class="glare"></span></div></div></div></div>
+          <span class="glare"></span></div></div></div></div>
       </div>
     </div>
     <div class="after"><a class="btn" href="#join"><span class="roll"><span>Get early access</span><span aria-hidden="true">Get early access</span></span></a></div>
   </div>
 </section>
 
-<div class="zebra bleed" aria-hidden="true"><svg id="zebra" viewBox="0 0 1680 150" preserveAspectRatio="none"></svg></div>
+<div class="zebra bleed" aria-hidden="true"><svg id="zebra" viewBox="0 0 1680 64" preserveAspectRatio="none"></svg></div>
 
 <!-- 7 · PRINT -->
 <section class="sec" aria-labelledby="print-h">
@@ -508,7 +511,7 @@ footer .big .wm{transform:translateY(var(--fy,40px));will-change:transform}
   });
 
   // The one wavy stripe band: hand-cut vertical stripes, like the wordmark.
-  (function(){var svg=document.getElementById('zebra'),d='',W=1680,H=150;
+  (function(){var svg=document.getElementById('zebra'),d='',W=1680,H=64;
     for(var x=-20,k=0;x<W+40;x+=34,k++){var w=14+((k*7)%9),a=8+((k*5)%7),ph=k*0.9,pts=[],pts2=[];
       for(var y=0;y<=H;y+=10){var off=Math.sin(y/26+ph)*a;pts.push((x+off).toFixed(1)+','+y);pts2.unshift((x+off+w+Math.sin(y/19+ph)*3).toFixed(1)+','+y);}
       d+='M'+pts.join(' L')+' L'+pts2.join(' L')+'Z';}

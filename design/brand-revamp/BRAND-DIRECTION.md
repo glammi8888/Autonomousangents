@@ -34,3 +34,6 @@ Megan, word for word: "I don't want any picture of a magazine that isn't real". 
 ## Update (Megan, Oct 21): "I don't mind showing real images of magazines if that makes sense... Like the ones i sent you. You can even use them as placeholders within the app"
 - Real magazine photos are welcome: Home hero, Issue cover, Order my print, My shelf. Draft: 04-real-magazine-placeholders.png.
 - The placeholders are cropped from her Pinterest saves = other people's work. **Internal mockups / Replit placeholders only. Never ship them in the App Store build, App Store screenshots, landing page or social.** Replace with her own printed proof photos or licensed/her Midjourney photos before launch.
+
+## Favorite so far (Megan, Oct 21)
+"my favorite so far has been the very first options you gave me" + she sent back the Home 4-options board (05-home-4-options.png). This board is the style reference: white, hairlines, condensed caps titles, tight bold grotesk, mono labels, wavy logo big, black 11 square, pink only, real magazine photos.

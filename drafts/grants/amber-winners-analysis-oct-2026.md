@@ -16,3 +16,6 @@
 - **Name exactly what $10K funds**, tied to launch (examples to confirm with Megan: print proof copies via Lulu, licensed music for audio sessions, beta testing, launch marketing).
 - **The bigger why:** women who can picture the life they want but struggle to take the next step; process over outcome (design/POSITIONING.md).
 - **One "learned from users" line**, e.g. from the Reddit research: people don't need more inspiration, they need the path to feel possible.
+
+## Megan's grant positioning (Oct 22) → use this
+See design/POSITIONING.md → "Grant positioning". Structure every answer as: recognizable problem → distinctive solution → why Megan is the one to solve it.

@@ -79,12 +79,14 @@ ISSUE
 - At 40 of 40 pages: "Ready to print" screen with a grid of all 40 pages and the button "I love it · Approve my Issue".
 - Only after she approves: "Order my print" screen (cover preview, copies, shipping address, price "$29.99" per Issue, three shipping options "Standard · 11–14 business days · Free" (selected), "Expedited · 6–9 business days · + $16", "Express · 5–8 business days · + $32", a Total line "$29.99 + tax", and a small note "Printing takes 3–5 business days before shipping. Estimates, not guaranteed. Hawaii, Alaska and Puerto Rico take longer." Rules: purchase happens inside the app (not a web page), US addresses only; if the address is a PO box or APO/FPO, show only "Standard" and "Priority Mail · 9–12 business days · + $10". see 04-print-purchase.md; Apple Pay button "Place my order"). No real payment yet.
 
-JOURNAL (her words go straight onto a magazine page)
-- Top line: "Journal" and, in pink, "You're writing page 28 of 40".
-- A real magazine page (blush background, one of her images on the right): small label "In her words · p.28", and her words appear LIVE as a big uppercase pull quote while she types. Today's prompt sits small at the bottom of the page. Swipe the page sideways for another prompt.
-- Under the page, small: "★ The Editor lays out your page" and a pink "↻ Another look" (tries another of my layouts and images). The Editor chooses the layout and image; her words are never changed.
-- Below that: a text bar "Keep writing..." (the iPhone keyboard mic handles voice) and a pink glass button "Keep page". Keep page = it goes into her Issue. If she doesn't keep it, the entry stays private in her Journal.
-- Past entries: a list under the page (scroll down).
+JOURNAL = "the studio" (see design/brand-revamp/20-journal-loop-simplified.png)
+1. Studio open: dark full photo, small "Wed 22 Oct · Day 33", big "Your studio is open.", today's prompt, white button "Start today's page", small link "your wall".
+2. Write: a sketchbook spread (her photo left, her words right in italic, appearing live). "+ tape in a photo" right on the page (her saves / photos). Text bar "Keep writing...". Black button "Keep page". Small: "Private until you keep it."
+3. The Editor designs: the page laid out from a template, her words unchanged ("Your words, unchanged. The Editor picked the layout."). Buttons "↻ Another look" / "Keep page".
+4. In print: the page shown slightly tilted on the grey background, "That's in print.", "15 of 40 pages. Future you is getting closer.", button "Back to the studio".
+5. Your wall (Megan LOVES this: "It's really giving creative studio"): a dotted pinboard of her pinned ideas, lines and images (white cards, slight tilts, one baby-pink note). Title "Your wall." + "Ideas, lines and images you pinned. Tap one to make it a page." Button "Pin an idea +". Tap a pin -> Make a page with it.
+   RULES: NO columns, NO statuses (no Ideas / Moving / Printed), no due dates, no checkboxes. It must never look like a task board. Pins are inspiration, not tasks.
+- No sub-tabs inside Journal. The weekly move stays ONE move on Home.
 
 YOU
 - Top: her photo, her name, "The Freedom Issue · 14 of 40 pages".

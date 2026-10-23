@@ -38,14 +38,14 @@ HOME (one long scrollable page, calm, LOTS of white space · see design/brand-re
 HOW PAGES ARE MADE (important logic)
 - Saves are her VIBE, not pages. Saving (hearting) an image or session never adds a page by itself. There is NO save counter anywhere ("4 more saves = 1 new page" is removed everywhere).
 - The Editor is the designer: whenever a page is made, it picks the images from HER saves and HER own photos (matching her vibe) and lays the page out in one of my layouts. She can tap "↻ Another look" to try other images/layouts. Her words are NEVER changed.
-- Pages come from what she DOES and WRITES, from 4 places:
+- Pages come from what she DOES, WRITES or CHOOSES. An image alone can be a full-bleed page (Megan, Oct 23): "Add to my issue" on an image in Explore makes one directly. Hearting is still only a save. Pages come from 5 places (5 = "Add to my issue" on an image):
   1. Her weekly move + proof ("I made room for it" -> Add proof -> "It's real" = 1 page).
   2. Journal: "Keep page" = 1 page.
   3. Make a page (she builds it herself, below).
   4. Her cover and the first 8 starter pages (from onboarding).
 - MAKE A PAGE (screens/51-make-a-page-flow.png): a pink "+ Make a page" button at the top of My saves (next to "+ Add your photo") and on any empty page in the Issue's 40-page grid.
   Step 1 "Pick 1 to 3 images." from My saves or My photos (numbers show her order) -> "Next".
-  Step 2 "Now, one line." She must write one line ("What does it mean to you? Or a moment you lived."). Required, so every page is about her life. Small note: "Your words stay exactly as you write them." -> "Make my page".
+  Step 2 "Now, one line." She must write one line ("What does it mean to you? Or a moment you lived."). OPTIONAL (Megan, Oct 23: "An Image alone can definitely be a full bleed page"): if she skips it, the Editor makes a full-bleed image page with no text, and she can add words later with "Edit my words". Small note: "Your words stay exactly as you write them." -> "Make my page".
   Step 3 the Editor shows the designed page ("★ The Editor designed p.[29]") with "↻ Another look" and "Keep page". Keep page = added to her Issue (+1 of 40). Closing without keeping = nothing is added.
 - The floating 11 stays on every step.
 - NOTE: screens 17, 17b, 01 (Home) and 30 still show the old "4 more saves = 1 new page" tile/line. Ignore that part: this logic and screens/51-make-a-page-flow.png win.

@@ -15,7 +15,7 @@ WHAT ISSUE11 IS
 A process-focused manifestation app. She builds her dream life into her own magazine (her "Issue") and takes one small step a week. The magazine is the hero.
 
 FEEL
-It must feel instantly familiar: use the gestures people know from TikTok, Instagram, Pinterest and ChatGPT (listed per screen below). Borrow ONLY the gestures, never their look. No likes, followers, counts, comments, public posts or endless feeds.
+It must feel instantly familiar: use the gestures people know from TikTok, Instagram, Pinterest and ChatGPT (listed per screen below). Borrow ONLY the gestures, never their look. No likes, followers, comments or public posts. Explore (Images and Sessions) is ENDLESS like Pinterest (Megan, Oct 23); Home still ends with "That's today."
 
 NAVIGATION
 Bottom tabs: Home · Explore · Issue · Journal · You. Issue sits in the centre (like TikTok's "+").
@@ -141,7 +141,8 @@ Every tab needs an empty state. Also: a loading state ("The Editor is building")
 
 RULES
 - Keep our design system exactly. Flat, printed-magazine feel.
-- No streaks, no to-do lists, no stats, no goal trackers.
+- "Weeks showing up" streak (Megan, Oct 23: "Yes streaks"): a week counts if she does her move, the smaller move, or keeps any page. It never resets and there are no loss messages. No to-do lists, no stats, no goal trackers.
+- UNLOCKS (Megan, Oct 23): every 5 pages (10, 15 ... 40) unlocks one layout, cover style or sticker, announced in one line on the page-lands moment ("Unlocked: Pink layout."). Locked layouts show at the end of the Pick a layout strip with a lock and "at p.20". Page 40 unlocks a special cover.
 - Warm, simple copy. Never promise outcomes.
 - Put all wording (prompts, move suggestions, card lines) in ONE strings file so it can change without code.
 - Layouts must stretch to any screen size (no fixed widths).

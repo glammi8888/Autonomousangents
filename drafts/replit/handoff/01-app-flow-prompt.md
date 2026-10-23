@@ -95,7 +95,7 @@ YOU
 
 MORE SCREENS (inside You and around the app)
 - App icon & widgets: my 6 icons in a 3x2 grid (Classic, Eleven, Swirl red, Pink eleven, Swirl noir, Green), button "Save my look". (The 2 widget style cards, Stickers and Dreamy glass, are designed in the mockup but stay hidden until widgets exist.)
-- Notifications: one switch per reminder with its time (Today's story 7:00, Your move Mondays 9:00, New page, the Editor max once a day, Quiet hours 22:00-7:00) + a preview of the notification.
+- Notifications: one switch per reminder with its time (This week's move · Monday 9:00, Journal prompt · daily, optional, New page in your Issue, the Editor max once a day, Quiet hours 22:00-7:00) + a preview of the notification.
 - Membership: black card "ISSUE11 Monthly · $9.99 / month · renews [date]", what's included, rows "Manage or cancel" (opens App Store subscriptions), "Restore purchases", "My print orders". One line: "Printed Issues are ordered separately ($29.99). Your Issues stay yours to read, even if you cancel."
 - The Editor & AI: on/off switch, plain-words explanation of what it reads, "What the Editor remembers", "Clear the Editor's memory", "How your data is used". App works with it off.
 - Order status: her cover, steps Order placed -> Printing (3-5 business days) -> Shipped (tracking link) -> On its way, estimates note, "Need help with my order".

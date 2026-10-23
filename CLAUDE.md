@@ -39,6 +39,7 @@ Same rules as Notion → Company Structure. In short:
 9. Protect trust: nothing fake or misleading. The Production Safety Rule always wins.
 10. Keep it light: fewer words, fewer runs, fewer agents.
 11. **Easiest path first, then cheapest** (Megan, Oct 7, word for word: "ALWAYS suggest the easiest path or the path of least resistance" and "Always send me the easiest (and cheapest) path... But easiest first and then cheapest"). Before recommending a tool or method, check for a simpler option for a non-developer founder (no-code/AI builders like Replit, done-for-you services) and recommend it unless it breaks a safety rule or the App Store checklist; say why if not.
+12. **Logic first, then screens** (Megan, Oct 23, word for word: "It would have saved me some Replit Credits. Please remind me in the future to start with logic"). Before any new feature, tab or redesign: first show the logic per tab (what she sees · what she can do · where it goes · the behavior underneath, like `design/brand-revamp/26-logic-per-tab.png`), get Megan's OK, then draw screens, then send Replit ONE consolidated update. If Megan starts with screens or a Replit prompt, remind her: "Logic first?"
 
 ## 🩶 How OPS runs a task (approved by Megan, Oct 20, 2026)
 Autonomy without waste. Delegating is not finishing: the Manager owns a task until it is verified, approved or escalated.

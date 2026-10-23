@@ -38,7 +38,7 @@ HOME (one long scrollable page, calm, LOTS of white space · see design/brand-re
 HOW PAGES ARE MADE (important logic)
 - Saves are her VIBE, not pages. Saving (hearting) an image or session never adds a page by itself. There is NO save counter anywhere ("4 more saves = 1 new page" is removed everywhere).
 - The Editor is the designer: whenever a page is made, it picks the images from HER saves and HER own photos (matching her vibe) and lays the page out in one of my layouts. She can tap "↻ Another look" to try other images/layouts. Her words are NEVER changed.
-- Pages come from what she DOES, WRITES or CHOOSES. An image alone can be a full-bleed page (Megan, Oct 23): "Add to my issue" on an image in Explore makes one directly. Hearting is still only a save. Pages come from 5 places (5 = "Add to my issue" on an image):
+- Pages come from what she DOES, WRITES or CHOOSES. An image alone can be a full-bleed page (Megan, Oct 23): "Add to my issue" on an image in Explore opens the page preview: the image full-bleed, plus an optional "+ Add your words" line on the same screen, then "Keep page". She chooses image alone OR image + words (Megan, Oct 23: "she should have the option to do both"). Hearting is still only a save. Pages come from 5 places (5 = "Add to my issue" on an image):
   1. Her weekly move + proof ("I made room for it" -> Add proof -> "It's real" = 1 page).
   2. Journal: "Keep page" = 1 page.
   3. Make a page (she builds it herself, below).
@@ -53,7 +53,7 @@ HOW PAGES ARE MADE (important logic)
 MAGAZINE PAGES = TEMPLATES (important logic, not an editor)
 - Every Issue page is built from a fixed library of PAGE TEMPLATES (indie fashion/beauty magazine look: collage grids, giant cropped type, pink duotone, color blocks, spreads). The final templates come later; for now build 6 simple placeholder templates as data (JSON: image slots + text slot + color), e.g. 1) full photo + small caption, 2) 3x3 photo grid, 3) giant word + 1 photo, 4) pink duotone photo + quote, 5) color block (pink/red/yellow/black) + big quote, 6) cover.
 - The Editor only CHOOSES: which template, which of her images go in the slots, and the color treatment. Her words go in the text slot unchanged.
-- "↻ Another look" = same images + words, another template. She never drags, resizes or styles anything. No Canva-style tools.
+- PICK A LAYOUT (Megan, Oct 23: "We can give her a layout option she wants. Select from it, and that would be what the editor does for her"): under the page preview, a strip of 4 layouts the Editor made from her image(s) and words (e.g. Full photo · Photo + words · Big word · Pink). She taps one; the preview updates. This replaces "↻ Another look" everywhere (Make a page, Journal, Edit). Same images + words, another template. She never drags, resizes or styles anything. No Canva-style tools.
 - Edit a page = only 3 things: "↻ Another look" · "Swap a photo" (pick from her saves/photos) · "Edit my words". (Replaces the old Photo / Text / Layout / Mood / Words on-off tools.)
 - Pages render as real printed pages: page proportion (US Letter 8.5x11), white paper edge, page number. Turning the phone sideways shows two-page spreads.
 - Templates must be easy to add later without code changes (new JSON file = new template).

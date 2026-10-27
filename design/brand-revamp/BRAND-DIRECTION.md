@@ -50,3 +50,10 @@ From the Home 4-options board she loves. All free Google Fonts (OFL).
 - **Labels:** IBM Plex Mono 500, UPPERCASE, small (8–10px in mockups).
 - **Logo:** the wavy ISSUE11 image, unchanged.
 Colors: white/off-white base, black, pink accents (calm: baby pink #F7C6D9 small touches; text-pink #C2207E only for small readable pink text). No hot-pink blocks unless Megan asks.
+
+## Melting titles · DROPPED (Megan picked "2. melting", then on screens: "lmao no it doesn't work haha")
+Big hero titles (FREEDOM, EXPLORE, ISSUE 01, "THAT'S TODAY.") melt like the logo: Archivo Condensed 800 caps, smooth horizontal wave, medium strength (board 17, option 2). Only big titles melt; labels, body text and buttons never do.
+How to build (for Replit): render each title as an SVG/canvas with a row-by-row sine shift (amplitude ≈ 2% of the text width, ~2.5 waves over the cap height), or pre-render the fixed titles as images. Must stay readable and fit the screen width.
+Reference build: design/brand-revamp/melt-title-generator.html (canvas: Archivo extra-condensed 800, amplitude 1.7% of width, 1.8 waves over the cap height). Applied on screens: 18-screens-with-melting-titles.png.
+
+**Titles are straight** (Archivo Condensed caps, no melt). The wavy logo stays the only melting element. Current reference: 16-less-but-bigger-fixed.png.

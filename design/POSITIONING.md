@@ -116,3 +116,12 @@ Used by: design/ONBOARDING-V3.md (pain cards, mirror, paywall), Lucky Star Audio
 *Manager notes (not Megan's words):*
 - *Marketing guardrail: don't claim "vision boards don't work" or cite research as proof. Say "most vision boards get forgotten", which is honest.*
 - *Product guardrail (architecture lock): "small actions" stay gentle and inside Scribe / Lucky Star. No task lists, streaks or goal trackers, so ISSUE11 never becomes a productivity app.*
+
+## Grant positioning (Megan, Oct 22, 2026, word for word)
+"ISSUE11 helps women close the gap between the lives they envision and the actions they take to create them. By combining behavioral psychology, guided reflection, visualization, and small achievable actions, it transforms aspirations into consistent progress. The personalized editorial magazine makes that journey tangible, motivating, and emotionally engaging."
+Megan: "The first describes what the product is. The second explains why the product needs to exist." Narrative for grants: **a recognizable problem → a distinctive solution → evidence of why the founder is positioned to solve it.**
+Manager notes (trust): before launch there's no outcome data, so in applications prefer "designed to turn aspirations into consistent progress" over a proven claim; "behavioral psychology" refers to marketing/PSYCHOLOGY-FRAMEWORK.md principles, not a clinical study.
+
+## Brand line (Megan, Oct 22, 2026, word for word)
+"A creative studio for the life you want." · "The Editor turns your dreams into a personal magazine." · "Create the life of your dreams" brings the emotion; showing what she actually gets makes it compelling.
+ASO fit (Manager, from drafts/aso/aso-recheck-2026-10-04.md): use these lines in screenshots, promo text, description, landing page and social. Keep the store title/subtitle on searched words: `ISSUE11: Manifestation Journal` + `Manifest with a Vision Board`. "dream life/dream journal" = wrong search intent (sleep and life-sim apps); "creative studio" is unmeasured. Test "creative"/"studio" in ASO Round 2 if wanted.

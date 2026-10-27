@@ -15,7 +15,7 @@ WHAT ISSUE11 IS
 A process-focused manifestation app. She builds her dream life into her own magazine (her "Issue") and takes one small step a week. The magazine is the hero.
 
 FEEL
-It must feel instantly familiar: use the gestures people know from TikTok, Instagram, Pinterest and ChatGPT (listed per screen below). Borrow ONLY the gestures, never their look. No likes, followers, counts, comments, public posts or endless feeds.
+It must feel instantly familiar: use the gestures people know from TikTok, Instagram, Pinterest and ChatGPT (listed per screen below). Borrow ONLY the gestures, never their look. No likes, followers, comments or public posts. Explore (Images and Sessions) is ENDLESS like Pinterest (Megan, Oct 23); Home still ends with "That's today."
 
 NAVIGATION
 Bottom tabs: Home · Explore · Issue · Journal · You. Issue sits in the centre (like TikTok's "+").
@@ -38,14 +38,14 @@ HOME (one long scrollable page, calm, LOTS of white space · see design/brand-re
 HOW PAGES ARE MADE (important logic)
 - Saves are her VIBE, not pages. Saving (hearting) an image or session never adds a page by itself. There is NO save counter anywhere ("4 more saves = 1 new page" is removed everywhere).
 - The Editor is the designer: whenever a page is made, it picks the images from HER saves and HER own photos (matching her vibe) and lays the page out in one of my layouts. She can tap "↻ Another look" to try other images/layouts. Her words are NEVER changed.
-- Pages come from what she DOES and WRITES, from 4 places:
+- Pages come from what she DOES, WRITES or CHOOSES. An image alone can be a full-bleed page (Megan, Oct 23): "Add to my issue" on an image in Explore opens the page preview: the image full-bleed, plus an optional "+ Add your words" line on the same screen, then "Keep page". She chooses image alone OR image + words (Megan, Oct 23: "she should have the option to do both"). Hearting is still only a save. Pages come from 5 places (5 = "Add to my issue" on an image):
   1. Her weekly move + proof ("I made room for it" -> Add proof -> "It's real" = 1 page).
   2. Journal: "Keep page" = 1 page.
   3. Make a page (she builds it herself, below).
   4. Her cover and the first 8 starter pages (from onboarding).
 - MAKE A PAGE (screens/51-make-a-page-flow.png): a pink "+ Make a page" button at the top of My saves (next to "+ Add your photo") and on any empty page in the Issue's 40-page grid.
   Step 1 "Pick 1 to 3 images." from My saves or My photos (numbers show her order) -> "Next".
-  Step 2 "Now, one line." She must write one line ("What does it mean to you? Or a moment you lived."). Required, so every page is about her life. Small note: "Your words stay exactly as you write them." -> "Make my page".
+  Step 2 "Now, one line." She must write one line ("What does it mean to you? Or a moment you lived."). OPTIONAL (Megan, Oct 23: "An Image alone can definitely be a full bleed page"): if she skips it, the Editor makes a full-bleed image page with no text, and she can add words later with "Edit my words". Small note: "Your words stay exactly as you write them." -> "Make my page".
   Step 3 the Editor shows the designed page ("★ The Editor designed p.[29]") with "↻ Another look" and "Keep page". Keep page = added to her Issue (+1 of 40). Closing without keeping = nothing is added.
 - The floating 11 stays on every step.
 - NOTE: screens 17, 17b, 01 (Home) and 30 still show the old "4 more saves = 1 new page" tile/line. Ignore that part: this logic and screens/51-make-a-page-flow.png win.
@@ -53,7 +53,7 @@ HOW PAGES ARE MADE (important logic)
 MAGAZINE PAGES = TEMPLATES (important logic, not an editor)
 - Every Issue page is built from a fixed library of PAGE TEMPLATES (indie fashion/beauty magazine look: collage grids, giant cropped type, pink duotone, color blocks, spreads). The final templates come later; for now build 6 simple placeholder templates as data (JSON: image slots + text slot + color), e.g. 1) full photo + small caption, 2) 3x3 photo grid, 3) giant word + 1 photo, 4) pink duotone photo + quote, 5) color block (pink/red/yellow/black) + big quote, 6) cover.
 - The Editor only CHOOSES: which template, which of her images go in the slots, and the color treatment. Her words go in the text slot unchanged.
-- "↻ Another look" = same images + words, another template. She never drags, resizes or styles anything. No Canva-style tools.
+- PICK A LAYOUT (Megan, Oct 23: "We can give her a layout option she wants. Select from it, and that would be what the editor does for her"): under the page preview, a strip of 4 layouts the Editor made from her image(s) and words (e.g. Full photo · Photo + words · Big word · Pink). She taps one; the preview updates. This replaces "↻ Another look" everywhere (Make a page, Journal, Edit). Same images + words, another template. She never drags, resizes or styles anything. No Canva-style tools.
 - Edit a page = only 3 things: "↻ Another look" · "Swap a photo" (pick from her saves/photos) · "Edit my words". (Replaces the old Photo / Text / Layout / Mood / Words on-off tools.)
 - Pages render as real printed pages: page proportion (US Letter 8.5x11), white paper edge, page number. Turning the phone sideways shows two-page spreads.
 - Templates must be easy to add later without code changes (new JSON file = new template).
@@ -79,12 +79,14 @@ ISSUE
 - At 40 of 40 pages: "Ready to print" screen with a grid of all 40 pages and the button "I love it · Approve my Issue".
 - Only after she approves: "Order my print" screen (cover preview, copies, shipping address, price "$29.99" per Issue, three shipping options "Standard · 11–14 business days · Free" (selected), "Expedited · 6–9 business days · + $16", "Express · 5–8 business days · + $32", a Total line "$29.99 + tax", and a small note "Printing takes 3–5 business days before shipping. Estimates, not guaranteed. Hawaii, Alaska and Puerto Rico take longer." Rules: purchase happens inside the app (not a web page), US addresses only; if the address is a PO box or APO/FPO, show only "Standard" and "Priority Mail · 9–12 business days · + $10". see 04-print-purchase.md; Apple Pay button "Place my order"). No real payment yet.
 
-JOURNAL (her words go straight onto a magazine page)
-- Top line: "Journal" and, in pink, "You're writing page 28 of 40".
-- A real magazine page (blush background, one of her images on the right): small label "In her words · p.28", and her words appear LIVE as a big uppercase pull quote while she types. Today's prompt sits small at the bottom of the page. Swipe the page sideways for another prompt.
-- Under the page, small: "★ The Editor lays out your page" and a pink "↻ Another look" (tries another of my layouts and images). The Editor chooses the layout and image; her words are never changed.
-- Below that: a text bar "Keep writing..." (the iPhone keyboard mic handles voice) and a pink glass button "Keep page". Keep page = it goes into her Issue. If she doesn't keep it, the entry stays private in her Journal.
-- Past entries: a list under the page (scroll down).
+JOURNAL = "the studio" (see design/brand-revamp/20-journal-loop-simplified.png)
+1. Studio open: dark full photo, small "Wed 22 Oct · Day 33", big "Your studio is open.", today's prompt, white button "Start today's page", small link "your wall".
+2. Write: a sketchbook spread (her photo left, her words right in italic, appearing live). "+ tape in a photo" right on the page (her saves / photos). Text bar "Keep writing...". Black button "Keep page". Small: "Private until you keep it."
+3. The Editor designs: the page laid out from a template, her words unchanged ("Your words, unchanged. The Editor picked the layout."). Buttons "↻ Another look" / "Keep page".
+4. In print: the page shown slightly tilted on the grey background, "That's in print.", "15 of 40 pages. Future you is getting closer.", button "Back to the studio".
+5. Your wall (Megan LOVES this: "It's really giving creative studio"): a dotted pinboard of her pinned ideas, lines and images (white cards, slight tilts, one baby-pink note). Title "Your wall." + "Ideas, lines and images you pinned. Tap one to make it a page." Button "Pin an idea +". Tap a pin -> Make a page with it.
+   RULES: NO columns, NO statuses (no Ideas / Moving / Printed), no due dates, no checkboxes. It must never look like a task board. Pins are inspiration, not tasks.
+- No sub-tabs inside Journal. The weekly move stays ONE move on Home.
 
 YOU
 - Top: her photo, her name, "The Freedom Issue · 14 of 40 pages".
@@ -93,7 +95,7 @@ YOU
 
 MORE SCREENS (inside You and around the app)
 - App icon & widgets: my 6 icons in a 3x2 grid (Classic, Eleven, Swirl red, Pink eleven, Swirl noir, Green), button "Save my look". (The 2 widget style cards, Stickers and Dreamy glass, are designed in the mockup but stay hidden until widgets exist.)
-- Notifications: one switch per reminder with its time (Today's story 7:00, Your move Mondays 9:00, New page, the Editor max once a day, Quiet hours 22:00-7:00) + a preview of the notification.
+- Notifications: one switch per reminder with its time (This week's move · Monday 9:00, Journal prompt · daily, optional, New page in your Issue, the Editor max once a day, Quiet hours 22:00-7:00) + a preview of the notification.
 - Membership: black card "ISSUE11 Monthly · $9.99 / month · renews [date]", what's included, rows "Manage or cancel" (opens App Store subscriptions), "Restore purchases", "My print orders". One line: "Printed Issues are ordered separately ($29.99). Your Issues stay yours to read, even if you cancel."
 - The Editor & AI: on/off switch, plain-words explanation of what it reads, "What the Editor remembers", "Clear the Editor's memory", "How your data is used". App works with it off.
 - Order status: her cover, steps Order placed -> Printing (3-5 business days) -> Shipped (tracking link) -> On its way, estimates note, "Need help with my order".
@@ -139,7 +141,8 @@ Every tab needs an empty state. Also: a loading state ("The Editor is building")
 
 RULES
 - Keep our design system exactly. Flat, printed-magazine feel.
-- No streaks, no to-do lists, no stats, no goal trackers.
+- "Weeks showing up" streak (Megan, Oct 23: "Yes streaks"): a week counts if she does her move, the smaller move, or keeps any page. It never resets and there are no loss messages. No to-do lists, no stats, no goal trackers.
+- UNLOCKS (Megan, Oct 23): every 5 pages (10, 15 ... 40) unlocks one layout, cover style or sticker, announced in one line on the page-lands moment ("Unlocked: Pink layout."). Locked layouts show at the end of the Pick a layout strip with a lock and "at p.20". Page 40 unlocks a special cover.
 - Warm, simple copy. Never promise outcomes.
 - Put all wording (prompts, move suggestions, card lines) in ONE strings file so it can change without code.
 - Layouts must stretch to any screen size (no fixed widths).

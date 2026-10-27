@@ -50,3 +50,12 @@ Installing from GitHub may pull a newer version than the zip scanned; security-w
 | Skill | Source | Result | Status |
 |---|---|---|---|
 | frontend-design (Anthropic) | Anthropic Directory, `anthropics/claude-plugins-official` → `plugins/frontend-design` (Apache-2.0) | **SAFE.** 5 files, all read: plugin.json, README, 2 licenses, SKILL.md (design guidance text only). No scripts, hooks, MCP servers or network calls; no reading of keys/.env; no hidden instructions (only non-ASCII = em dashes). Sends nothing online. | Not installed. Its guidance was read and applied to design/landing/ (Megan, Oct 21: "Look for any skill that would make this landing page look incredible"). Install needs Megan's OK. Other directory hits not scanned: UXKIN "Website Design" (uses a remote MCP server → would send data online), "audit-suite" (community, 16 skills). |
+
+## Installed 2026-10-27 (🎨 BRAND, handoff from 🩶 OPS — Knowledge & Training; Megan approved: "THISSS", "let's grab that skill too please")
+Scanned first by OPS, then re-scanned by BRAND before install (every file read or pattern-checked; nothing run).
+| Skill | Source · license · pinned commit | Installed as | Scan result | Changes made |
+|---|---|---|---|---|
+| waitlist-page | nexu-io/open-design · Apache-2.0 (LICENSE copied) · 26d60298f8129e229a1c10aab4df7ca25b1e9ad3 · plugins/_official/examples/waitlist-page/ | `.claude/skills/waitlist-page` | SAFE. 5 files (SKILL.md, template.html, example.html, checklist.md, open-design.json). Only network use: Google Fonts in the HTML. Form script only hides the form: **saves nothing**. No hidden Unicode, no install steps. | Marked "ISSUE11 overrides" block: never publish unwired; use the locked brand; no fake counts. |
+| copywriting | coreyhaines31/marketingskills · MIT (LICENSE copied) · 17772c7a80b7b8c7a47af30f648374cd8bd8adc5 · skills/copywriting/ | `.claude/skills/copywriting` | SAFE. Text only (SKILL.md, references incl. ai-tells.md, evals.json). Links are citations only. | Marked "ISSUE11 overrides" block (Megan's copy rules win). |
+| marketing-psychology | same repo/commit · MIT · skills/marketing-psychology/ | `.claude/skills/marketing-psychology` | SAFE. Text only (SKILL.md, evals.json). | Marked "ISSUE11 overrides" block: ethical use only, real scarcity only. |
+Not installed: the rest of marketingskills, anything via npx or a plugin marketplace.

@@ -135,3 +135,9 @@ The first 1,000 people on the waitlist get 50% off their first year ($4.99/month
 Megan: "we changed the fonts". Landing now follows the locked brand: Archivo Condensed 800 titles (uppercase), Inter Tight text and bold sentences, IBM Plex Mono labels; flat and square, hairlines, no shadows, no glass; black buttons (baby-pink on the black closing card); white/black base with baby pink #F7C6D9 touches; text-pink #C2207E for small pink text.
 Real-magazine rule applied: the AI-rendered magazine photo is gone. Hero uses an editorial photo; the print section shows a dashed slot "Photo of the real printed ISSUE11 proof goes here" until her proof is photographed. Previous version: index-v10-oldbrand.html.
 Note: Megan asked earlier today for Liquid Glass buttons on the landing; the locked brand says flat buttons, so flat wins. Ask her if she wants glass back.
+
+## Waitlist tool = beehiiv (Megan, Nov 1: "Yes" to "Is beehiiv your waitlist tool?")
+Easiest path (no API key, no code): in beehiiv go to Subscribers > Subscribe forms, create a form with **double opt-in on**, copy the **Slim Embed** code, and in Framer drop an **Embed** component (type HTML) where each email form is (hero, Name your Issue, closing). Style the embed in beehiiv to the locked brand (black button, Inter Tight). Avoid Framer's Forms plugin for beehiiv: it asks for your API key.
+Prototype: design/landing/index.html has `BEEHIIV_EMBED_URL` at the top of the script; paste the embed's iframe src there to swap all 3 forms for the real beehiiv form.
+⚠️ Before going live: one real test sign-up must appear in beehiiv's subscriber list, and the confirmation email must arrive. Then add a Privacy Policy that names beehiiv as the email processor. The "first 1,000" offer needs beehiiv's subscriber count to know when it's full.
+Sources: beehiiv help "Creating an embedded subscribe form"; Buttondown's Framer embed guide (same method).

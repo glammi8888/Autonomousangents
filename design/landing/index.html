@@ -586,6 +586,13 @@ body{font-size:17px;line-height:1.5}
       var on=cov.querySelector('.bg.on'), off=on===layers[0]?layers[1]:layers[0];
       off.style.backgroundImage='url(assets/'+r.value+'.webp)'; off.classList.add('on'); on.classList.remove('on'); flash();});});
   })();
+  // beehiiv waitlist (Megan, Nov 1: beehiiv is the waitlist tool). Paste the beehiiv Slim Embed form URL below
+  // (beehiiv: Subscribers > Subscribe forms > Embed > Slim, the src of its iframe). Until it is set, the forms save nothing.
+  var BEEHIIV_EMBED_URL='';
+  if(BEEHIIV_EMBED_URL){document.querySelectorAll('[data-join]').forEach(function(f){
+    var fr=document.createElement('iframe'); fr.src=BEEHIIV_EMBED_URL; fr.title='Join the ISSUE11 waitlist';
+    fr.setAttribute('data-test-id','beehiiv-embed'); fr.loading='lazy'; fr.style.cssText='width:100%;max-width:500px;height:58px;border:0;background:transparent';
+    f.replaceWith(fr);});}
   var MSG_OK="You're on the list. Step one, done. Confirm your email in your inbox so you hear when beta invites go out.", MSG_ERR="That email doesn't look right. Try one like you@example.com.";
   document.querySelectorAll('[data-join]').forEach(function(f){
     f.addEventListener('submit',function(e){

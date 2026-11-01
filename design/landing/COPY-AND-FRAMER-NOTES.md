@@ -141,3 +141,6 @@ Easiest path (no API key, no code): in beehiiv go to Subscribers > Subscribe for
 Prototype: design/landing/index.html has `BEEHIIV_EMBED_URL` at the top of the script; paste the embed's iframe src there to swap all 3 forms for the real beehiiv form.
 ⚠️ Before going live: one real test sign-up must appear in beehiiv's subscriber list, and the confirmation email must arrive. Then add a Privacy Policy that names beehiiv as the email processor. The "first 1,000" offer needs beehiiv's subscriber count to know when it's full.
 Sources: beehiiv help "Creating an embedded subscribe form"; Buttondown's Framer embed guide (same method).
+
+## Decision (Megan, Nov 1, word for word): "I think I will do the landing page in Framer, I found a template I liked."
+The live page will be Megan's Framer template, not design/landing/index.html. The HTML page is **reference only, never published**. Reuse from here: the approved copy (copy-bank/ISSUE11-copy-bank.pdf), the founding offer, the FAQ + schema, and the beehiiv embed steps above. Next for BRAND: map the copy onto the template's sections, brand-check the template (Archivo Condensed / Inter Tight / IBM Plex Mono, black + white + baby pink, flat vs glass = Megan's call), wire beehiiv and test a real sign-up.

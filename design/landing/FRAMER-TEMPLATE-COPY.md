@@ -105,3 +105,8 @@ Stand against behaviors (pinning and waiting, collecting without moving), never 
 - **Stance block (if the template has room, e.g. before the CTA):** For you if: you make vision boards and you're ready to act on one. · Not for you if: you want the result without the process, or you'd rather someone else wrote your story.
 - **Final CTA:** ★ You're amazing and your life deserves its own Issue. · Your board has waited long enough. The first 1,000 pay $4.99 a month for their first year. · [Get early access]
 ⚠ "The next page waits until you've earned it with a move" / "No step, no new page" describe a gating rule. Confirm with Megan and the build that the app actually works this way before using them; otherwise use "Then your next move fills the next page."
+
+## "Accountable" (Megan, Nov 3: "holds you accountable maybe?!")
+- **Hero sub:** A vision board shows what you want. It won't get you there. ISSUE11 turns your dreams into a personal magazine and holds you accountable to one small move a week.
+- Optional **section 5 H2:** Dream big. Stay accountable.
+Keep it kind: accountable to her own move, still no streaks and no guilt (Missed a week? Pick up where you left off).

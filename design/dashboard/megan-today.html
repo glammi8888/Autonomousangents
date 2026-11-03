@@ -1,0 +1,182 @@
+<title>Megan Today</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500;700&family=Inter+Tight:wght@400;500;600&display=swap">
+<style>
+/* Layout: one narrow calm column. Now (one big card) → Next 3 → Brain dump → Wins → Rooms → Countdown. Never more than 4 tasks visible. */
+:root{
+  --bg:#fbf7f8; --surface:#ffffff; --ink:#1a1517; --muted:#6f6468; --line:#ecdfe3;
+  --pink:#f4c6d4; --pink-ink:#8a2f4e; --ok:#2f7a55; --wait:#a66a12; --idle:#8d8589;
+  --display:"Archivo Narrow","Arial Narrow",Arial,sans-serif;
+  --body:"Inter Tight",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#141113; --surface:#1e191c; --ink:#f5eef1; --muted:#b3a7ac; --line:#33292e;
+  --pink:#5a2f40; --pink-ink:#f6c2d3; --ok:#7fd1a6; --wait:#e8b45a; --idle:#8d8589; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#141113; --surface:#1e191c; --ink:#f5eef1; --muted:#b3a7ac; --line:#33292e;
+  --pink:#5a2f40; --pink-ink:#f6c2d3; --ok:#7fd1a6; --wait:#e8b45a; --idle:#8d8589; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+main{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1,h2{font-family:var(--display);font-weight:700;letter-spacing:.01em;margin:0;text-wrap:balance}
+h1{font-size:30px;line-height:1.1}
+h2{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);font-weight:700;margin-bottom:10px}
+.sub{color:var(--muted);font-size:14px;margin:4px 0 0}
+.now{background:var(--pink);color:var(--ink);border-radius:20px;padding:22px 20px;display:flex;flex-direction:column;gap:12px}
+.now .label{font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:600;color:var(--pink-ink)}
+.now .task{font-family:var(--display);font-size:26px;line-height:1.15;font-weight:700}
+.now .why{font-size:15px;color:var(--ink);opacity:.85;margin:0}
+.btns{display:flex;flex-wrap:wrap;gap:8px}
+button{font:600 15px var(--body);border-radius:999px;padding:12px 18px;min-height:44px;border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);cursor:pointer}
+button.ghost{background:transparent;color:var(--ink)}
+button:focus-visible,textarea:focus-visible{outline:3px solid var(--pink-ink);outline-offset:2px}
+button[disabled]{opacity:.45;cursor:default}
+.list{display:flex;flex-direction:column;gap:10px;list-style:none;margin:0;padding:0}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 16px;display:flex;flex-direction:column;gap:10px}
+.item .q{font-weight:600}
+.item .hint{font-size:14px;color:var(--muted);margin:0}
+.answered{font-size:14px;color:var(--ok);font-weight:600}
+textarea{width:100%;box-sizing:border-box;min-height:84px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:16px var(--body);padding:12px 14px;resize:vertical}
+.dump{display:flex;flex-direction:column;gap:8px}
+.wins li{padding:8px 0;border-bottom:1px solid var(--line);display:flex;gap:10px}
+.wins li:last-child{border-bottom:0}
+.wins .d{color:var(--muted);font-size:13px;min-width:46px;font-variant-numeric:tabular-nums}
+.room{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);color:inherit;text-decoration:none}
+.room:last-child{border-bottom:0}
+.dot{width:12px;height:12px;border-radius:50%;flex:none}
+.dot.working{background:var(--ok)} .dot.waiting{background:var(--wait)} .dot.idle{background:var(--idle)}
+.room .n{font-weight:600} .room .s{font-size:14px;color:var(--muted)}
+.room div{min-width:0}
+.count{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.count .c{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 16px}
+.count .big{font-family:var(--display);font-size:34px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
+.count .l{font-size:13px;color:var(--muted);margin-top:6px}
+.note{font-size:13px;color:var(--muted)}
+details summary{cursor:pointer;color:var(--muted);font-size:14px;padding:6px 0}
+@media (prefers-reduced-motion:no-preference){.now{transition:transform .2s}.now:hover{transform:translateY(-1px)}}
+</style>
+
+<main>
+  <header>
+    <h1 id="hello">Hi Megan</h1>
+    <p class="sub" id="updated">One thing at a time. Your agents keep this page current.</p>
+  </header>
+
+  <section aria-labelledby="now-h">
+    <h2 id="now-h">Right now</h2>
+    <div class="now" id="now"><span class="label">Loading…</span></div>
+  </section>
+
+  <section aria-labelledby="next-h">
+    <h2 id="next-h">Next up</h2>
+    <ul class="list" id="next"></ul>
+    <details id="more-wrap" hidden><summary id="more-sum">See the rest</summary><ul class="list" id="more" style="margin-top:10px"></ul></details>
+  </section>
+
+  <section aria-labelledby="dump-h" class="dump">
+    <h2 id="dump-h">Brain dump</h2>
+    <label for="dumpText" class="note">Type anything on your mind. The Manager picks it up at the next check-in.</label>
+    <textarea id="dumpText" placeholder="e.g. ask Christian for his NMLS number"></textarea>
+    <div class="btns"><button id="dumpBtn">Save it</button><span class="note" id="dumpMsg" aria-live="polite"></span></div>
+  </section>
+
+  <section aria-labelledby="wins-h">
+    <h2 id="wins-h">Wins this week 🎉</h2>
+    <ul class="list wins" id="wins"></ul>
+  </section>
+
+  <section aria-labelledby="rooms-h">
+    <h2 id="rooms-h">Your agents</h2>
+    <div id="rooms"></div>
+  </section>
+
+  <section aria-labelledby="count-h">
+    <h2 id="count-h">Countdown</h2>
+    <div class="count" id="count"></div>
+  </section>
+
+  <p class="note" id="status" aria-live="polite"></p>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+let db = null, board = null, answers = {};
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function daysTo(iso){
+  const t = new Date(iso + "T12:00:00"), n = new Date(); n.setHours(12,0,0,0);
+  return Math.max(0, Math.round((t - n) / 86400000));
+}
+
+function taskCard(t, big){
+  const a = answers[t.id];
+  const opts = (t.options || []).map((o, i) =>
+    `<button class="${i ? "ghost" : ""}" data-q="${esc(t.id)}" data-a="${esc(o)}" ${a ? "disabled" : ""}>${esc(o)}</button>`).join("");
+  const done = a ? `<span class="answered">✓ ${esc(a.choice)}: sent to your Manager</span>` : "";
+  if (big) return `<span class="label">${esc(t.agent || "Manager")}</span>
+    <span class="task">${esc(t.text)}</span>${t.why ? `<p class="why">${esc(t.why)}</p>` : ""}
+    <div class="btns">${opts}</div>${done}`;
+  return `<li class="item"><span class="q">${esc(t.text)}</span>${t.why ? `<p class="hint">${esc(t.why)}</p>` : ""}
+    <div class="btns">${opts}</div>${done}</li>`;
+}
+
+function render(){
+  if (!board) return;
+  const tasks = board.tasks || [];
+  const open = tasks.filter(t => !answers[t.id]);
+  const shown = (open.length ? open : tasks);
+  const now = shown[0];
+  $("now").innerHTML = now ? taskCard(now, true) : `<span class="task">Nothing waiting on you. Enjoy it.</span>`;
+  const next = shown.slice(1, 4), rest = shown.slice(4);
+  $("next").innerHTML = next.length ? next.map(t => taskCard(t)).join("") : `<li class="note">Nothing else right now.</li>`;
+  $("more-wrap").hidden = !rest.length;
+  $("more-sum").textContent = `See the rest (${rest.length}). These can wait`;
+  $("more").innerHTML = rest.map(t => taskCard(t)).join("");
+  $("wins").innerHTML = (board.wins || []).map(w => `<li><span class="d">${esc(w.date)}</span><span>${esc(w.text)}</span></li>`).join("") || `<li class="note">Wins show up here.</li>`;
+  $("rooms").innerHTML = (board.rooms || []).map(r => {
+    const inner = `<span class="dot ${esc(r.state)}" aria-hidden="true"></span><div><div class="n">${esc(r.name)}</div><div class="s">${esc(r.note)}</div></div>`;
+    return r.url ? `<a class="room" href="${esc(r.url)}" target="_blank" rel="noopener">${inner}</a>` : `<div class="room">${inner}</div>`;
+  }).join("");
+  $("count").innerHTML = (board.countdowns || []).map(c => `<div class="c"><div class="big">${daysTo(c.date)}</div><div class="l">days to ${esc(c.label)}</div></div>`).join("");
+  if (board.updated) $("updated").textContent = `Updated by your Manager: ${board.updated}. One thing at a time.`;
+}
+
+document.addEventListener("click", async e => {
+  const b = e.target.closest("button[data-q]");
+  if (!b || !db) return;
+  const q = b.dataset.q, choice = b.dataset.a;
+  const task = (board.tasks || []).find(t => t.id === q);
+  b.disabled = true;
+  try {
+    await db.doc("answers/" + q).set({ question: task ? task.text : q, choice, at: new Date().toISOString(), picked_up: false });
+  } catch (err) { b.disabled = false; $("status").textContent = "Couldn't save that tap. Try again in a moment."; }
+});
+
+$("dumpBtn").addEventListener("click", async () => {
+  const text = $("dumpText").value.trim();
+  if (!text) return;
+  if (!db) { $("dumpMsg").textContent = "Saving isn't available in this view."; return; }
+  $("dumpBtn").disabled = true;
+  try {
+    await db.collection("inbox").add({ text, at: new Date().toISOString(), picked_up: false });
+    $("dumpText").value = ""; $("dumpMsg").textContent = "Saved. Out of your head now.";
+  } catch (err) { $("dumpMsg").textContent = "Couldn't save. Try again."; }
+  $("dumpBtn").disabled = false;
+});
+
+(async () => {
+  const h = new Date().getHours();
+  $("hello").textContent = h < 12 ? "Good morning, Megan" : h < 18 ? "Hi Megan" : "Good evening, Megan";
+  db = await claude.use("db");
+  if (!db) { $("now").innerHTML = `<span class="task">Open this page in Claude to see your day.</span>`; return; }
+  const timer = setTimeout(() => { if (!board) $("status").textContent = "Your board can't be reached yet. It will appear when it loads."; }, 10000);
+  db.doc("board/today").onSnapshot(s => {
+    if (!s.metadata.fromCache) clearTimeout(timer);
+    if (s.exists) { board = s.data(); $("status").textContent = ""; render(); }
+    else if (!s.metadata.fromCache) $("now").innerHTML = `<span class="task">Your Manager fills this in at the next check-in.</span>`;
+  }, () => { clearTimeout(timer); $("status").textContent = "Your board couldn't load. Reopen the page later."; });
+  db.collection("answers").onSnapshot(s => {
+    answers = {}; s.docs.forEach(d => { if (d.exists) answers[d.id] = d.data(); }); render();
+  }, () => {});
+})();
+</script>

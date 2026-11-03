@@ -74,3 +74,17 @@ Features · Inside the app · Why ISSUE11 · FAQ · **[Get early access]**
 
 ## Brand notes for the template
 Swap the template's fonts for Archivo Condensed (titles, uppercase), Inter Tight (text), IBM Plex Mono (labels). Replace the orange/blue/purple gradients with white, black and baby pink #F7C6D9 touches; the purple "Continuous playback" card becomes black or baby pink. Buttons: flat black (or glass, Megan's call). Real photos only: no rendered magazines.
+
+## Target update (Megan, Nov 3, word for word: "we're trying to target people that make visionboards already")
+Angle: she already believes in seeing her dreams. Her pain is after: "My vision board inspires me for five minutes, then I forget about it." Respect the board, never mock it: ISSUE11 is the next step for her board. Only these lines change:
+- **Hero kicker (new, above H1):** For people who already make vision boards.
+- **Hero H1:** ★ Make your dreams come true. (A/B: "Your vision board, made into a magazine.")
+- **Hero sub:** Your vision board shows what you want. ISSUE11 turns it into a personal magazine, then helps you take the small steps that make it real, one move a week.
+- **Nav CTA / buttons:** unchanged (Get early access).
+- **3 · Label:** YOUR VISION BOARD, EVOLVED · **H2:** Bring your vision board with you. · **Body:** Pins, screenshots, cut-outs: your vision is scattered across boards and apps. Upload your own images or pick curated editorial ones, and keep every vision in one place. · ✓ Upload your board or your Pinterest saves (as images) ✓ Pick from curated editorial images ✓ Everything you save can become a page
+- **4 · H2:** Your vision board, as a magazine. · **Body:** The Editor turns your images and a few honest lines into real magazine pages. A board you glance at becomes an Issue you open, read and add to.
+- **5 · Right paragraph:** You already know what you want. That was never the hard part. Each week you pick one small step toward your board, take it, and keep the proof in your Issue.
+- **6 · H2:** Everything your vision board was missing. · **Sub:** ★ Not a boring meditation app. One that's committed to making you change, at your own pace.
+- **Pain line to reuse in ads/hooks:** "My vision board inspires me for five minutes, then I forget about it." · "Made a vision board in January? Here's what to do with it now."
+- **FAQ Q6 (unchanged, already on target):** How is it different from a vision board or a journal?
+⚠ Check: "Upload your board or your Pinterest saves (as images)" assumes photo upload from the camera roll (V1 has it). There's no Pinterest import, so don't promise one.

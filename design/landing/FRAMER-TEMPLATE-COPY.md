@@ -88,3 +88,20 @@ Angle: she already believes in seeing her dreams. Her pain is after: "My vision 
 - **Pain line to reuse in ads/hooks:** "My vision board inspires me for five minutes, then I forget about it." · "Made a vision board in January? Here's what to do with it now."
 - **FAQ Q6 (unchanged, already on target):** How is it different from a vision board or a journal?
 ⚠ Check: "Upload your board or your Pinterest saves (as images)" assumes photo upload from the camera roll (V1 has it). There's no Pinterest import, so don't promise one.
+
+## Polarizing pass (Megan, Nov 3: "make the copy polarizing")
+Stand against behaviors (pinning and waiting, collecting without moving), never against vision-board makers, other apps or anyone's beliefs. These replace the lines above where they overlap.
+- **Hero kicker:** For women who are done just pinning their dreams.
+- **Hero H1:** ★ Make your dreams come true. (A/B: "Your vision board can't do it for you.")
+- **Hero sub:** A vision board shows what you want. It won't get you there. ISSUE11 turns your dreams into a personal magazine and holds you to one small move a week.
+- **Hero small line:** Free to join · Limited spots · Not for dreamers who just wait
+- **3 · H2:** Stop collecting dreams. Start living them. · **Body:** You've saved hundreds of pins, screenshots and cut-outs. Bring them here, or pick curated editorial images, and give every one a job: becoming a page you act on.
+- **4 · H2:** A magazine that expects something from you. · **Body:** The Editor turns your images and honest lines into real magazine pages. Then the next page waits until you've earned it with a move.
+- **5 · H2:** Dream big. Move weekly. · **Right:** You already know what you want. Waiting for a sign is the hard part to quit. Each week you pick one small step, take it, and prove it in your Issue.
+  - 01 · Pick your move · One doable step toward what you want. No step, no new page.
+  - 02 · Rehearse it · Immersive meditations that rehearse the steps, so the life you want feels close.
+  - 03 · Prove it · When something shifts, add it to your Issue. Proof beats wishing.
+- **6 · H2:** For women who are done waiting. · **Sub:** ★ Not a boring meditation app. One that's committed to making you change.
+- **Stance block (if the template has room, e.g. before the CTA):** For you if: you make vision boards and you're ready to act on one. · Not for you if: you want the result without the process, or you'd rather someone else wrote your story.
+- **Final CTA:** ★ You're amazing and your life deserves its own Issue. · Your board has waited long enough. The first 1,000 pay $4.99 a month for their first year. · [Get early access]
+⚠ "The next page waits until you've earned it with a move" / "No step, no new page" describe a gating rule. Confirm with Megan and the build that the app actually works this way before using them; otherwise use "Then your next move fills the next page."

@@ -12,7 +12,7 @@ Features · Inside the app · Why ISSUE11 · FAQ · **[Get early access]**
 - **Buttons:** replace the App Store + Google Play badges and QR codes with the beehiiv email form + **[Get early access]**, and a small badge " Coming to the App Store · Dec 11". (iPhone only: remove Google Play.)
 - **Small line:** Free to join · Limited spots · iPhone · Private beta Nov 11
 
-## 2 · Stats bar (⚠ no fake numbers: these 3 are true)
+## 2 · Stats bar · ⏸ Megan, Nov 3: "you can leave as is and we'll figure out a solution about this later" (never publish the template's fake numbers; option below if needed)
 | Big | Small |
 |---|---|
 | 40 | Pages in your personal Issue |
@@ -60,7 +60,7 @@ Features · Inside the app · Why ISSUE11 · FAQ · **[Get early access]**
 - **Sub:** Explore the screens for saving your dreams, writing your pages, taking your weekly move and watching your Issue come to life.
 - **Tabs:** 01 Home · 02 My saves · 03 Sessions · 04 Now playing · 05 Journal · 06 Your Issue · 07 Make a page · 08 Print & shelf
 
-## 8 · Reviews section (⚠ no reviews exist yet: swap for honest copy)
+## 8 · Reviews section · ⏸ left as is for now (Megan, Nov 3); hide it before going live unless real reviews exist. Option if needed:
 - **Label:** WHY ISSUE11
 - **H2:** ★ Your life deserves its own Issue.
 - **Founder note (draft, Megan rewrites or approves):** "I kept saving other people's lives on my phone while my own goals waited. ISSUE11 turns you back to your own life, one page and one small move at a time." · Megan, Founder

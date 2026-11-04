@@ -1,5 +1,7 @@
 # ISSUE11 blog: first 7 articles (keyword plan) · Nov 4, 2026 · DRAFT for Megan's OK
 
+Live landing page (Framer preview domain, Nov 4): https://flowing-melon-563707.framer.app
+
 US search data (searches/mo · difficulty 0-100, lower = easier). Angle: process-focused, magazine as step one, honest (no promises of results, no science overclaims). Never framed as productivity or goal-setting.
 
 | # | Article | Main keyword | Vol · KD | Why now |

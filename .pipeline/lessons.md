@@ -249,3 +249,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-03 · 🩷 EXTERNAL (AEO) · RULE, Megan word for word: "let's just say thank you. I don't necessarily want to work with them because they're trying to discredit me (remember)". Never suggest Megan contacts or coordinates with 17MedSpa's website/marketing company (see Notion 'Call prep: 17MedSpa + GrowthMed (misinformation points)'). Reply to Alice = a simple thank you; wait for her.
 
 - 2026-11-03 (AEO external): Canva sometimes returns a tablet/laptop with a blank white screen. Fastest fix is drawing a simple chat UI with ImageMagick (grey bars, no fake text), then cropping to check. Took 1 attempt, no regeneration needed.
+- 2026-11-04 (Manager) Megan Today page broke after a quick `edits` publish (missing comma → whole script dead, page stuck on "Loading"). Rule: after ANY edit to an artifact's script, run `node --check` on the extracted <script> before publishing.

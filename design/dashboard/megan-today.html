@@ -182,7 +182,7 @@ const localIso = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate
 function calInput(){
   const s = new Date(); s.setHours(0,0,0,0);
   const e = new Date(); e.setHours(23,59,0,0);
-  return { startTime: localIso(s), endTime: localIso(e), orderBy: "startTime", pageSize: 20 };
+  return { calendarId: "megannancyscott@gmail.com", startTime: localIso(s), endTime: localIso(e), orderBy: "startTime", pageSize: 20 };
 }
 function evTime(x){ return x && (x.dateTime || x.date || (typeof x === "string" ? x : null)); }
 function renderCal(payload){
@@ -208,6 +208,7 @@ function calError(err){
     not_in_manifest: "Calendar is turned off for this page.",
     approval_required: "Tap below to let this page show your calendar.",
     server_unavailable: "Google Calendar isn't answering right now. It will refresh by itself."
+    tool_error: "Your calendar isn't shared yet. In Google Calendar (megannancyscott@gmail.com): Settings → your calendar → Share with specific people → add glammiagency@gmail.com → See all event details."
   }[c] || "Your calendar couldn't load right now.";
   if (c === "server_unavailable" && $("cal").querySelector(".t")) return; // keep last good list
   $("cal").innerHTML = `<li class="note">${esc(msg)}</li>`;

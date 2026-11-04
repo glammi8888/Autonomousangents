@@ -250,3 +250,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 
 - 2026-11-03 (AEO external): Canva sometimes returns a tablet/laptop with a blank white screen. Fastest fix is drawing a simple chat UI with ImageMagick (grey bars, no fake text), then cropping to check. Took 1 attempt, no regeneration needed.
 - 2026-11-04 (Manager) Megan Today page broke after a quick `edits` publish (missing comma → whole script dead, page stuck on "Loading"). Rule: after ANY edit to an artifact's script, run `node --check` on the extracted <script> before publishing.
+
+- 2026-11-04 (AEO external): Megan upgraded Mangools to the paid Basic plan (verified via quota: 495 AI tracker prompts left, 100 keyword lookups/day, 200 tracked keywords). The AI tracker is unblocked. Added 5 premium-audience prompts (dermatology, jewelers, luxury hair, med spas, skincare) for 10 in total. Don't tell Megan the tracker is stalled anymore. Check that new data arrives within about 48h.

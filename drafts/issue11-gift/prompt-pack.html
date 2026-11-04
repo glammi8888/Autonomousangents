@@ -8,170 +8,89 @@
 @page { size: A4; margin: 0; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: "Inter Tight", Inter, sans-serif; color: #0a0a0a; background: #fff; }
-.page { width: 210mm; height: 297mm; padding: 16mm 16mm 14mm; position: relative; page-break-after: always; overflow: hidden; }
+.page { width: 210mm; height: 297mm; padding: 16mm; position: relative; page-break-after: always; overflow: hidden; }
 .page:last-child { page-break-after: auto; }
 .label { font-family: "IBM Plex Mono", monospace; font-weight: 500; font-size: 8.5pt; letter-spacing: .08em; text-transform: uppercase; }
-.top { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #0a0a0a; padding-bottom: 4mm; margin-bottom: 9mm; }
+.top { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #0a0a0a; padding-bottom: 4mm; margin-bottom: 10mm; }
 .top img { height: 11mm; }
-h1, h2 { font-family: "Archivo", sans-serif; font-stretch: 62%; font-weight: 800; text-transform: uppercase; line-height: .86; letter-spacing: -.01em; }
-h1 { font-size: 64pt; }
-h2 { font-size: 40pt; margin-bottom: 6mm; }
-p { font-size: 11pt; line-height: 1.5; margin-bottom: 4mm; }
-.lead { font-size: 13.5pt; font-weight: 600; letter-spacing: -.02em; line-height: 1.4; }
-.pink { background: #F7C6D9; }
-.tag { display: inline-block; background: #F7C6D9; padding: 1.2mm 2.5mm; margin-bottom: 4mm; }
-ol { list-style: none; counter-reset: n var(--start, 0); }
-ol li { counter-increment: n; display: grid; grid-template-columns: 11mm 1fr; padding: 2.6mm 0; border-bottom: 1px solid #e6e6e6; font-size: 11pt; line-height: 1.4; }
-ol li::before { content: counter(n, decimal-leading-zero); font-family: "IBM Plex Mono", monospace; font-size: 9pt; color: #C2207E; padding-top: .6mm; }
-.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 9mm; }
-.sec { margin-bottom: 7mm; }
-.sec h3 { font-family: "Inter Tight", sans-serif; font-weight: 800; font-size: 13pt; letter-spacing: -.03em; margin-bottom: 1mm; }
-.ai li { grid-template-columns: 11mm 1fr; }
-.ai .q { font-weight: 600; }
-.ai .why { display: block; color: #555; font-size: 9.5pt; margin-top: 1mm; }
+h1, h2 { font-family: "Archivo", sans-serif; font-stretch: 62%; font-weight: 800; text-transform: uppercase; line-height: .86; }
+h1 { font-size: 66pt; }
+h2 { font-size: 44pt; margin-bottom: 7mm; }
+.lead { font-size: 14pt; font-weight: 600; letter-spacing: -.02em; line-height: 1.35; }
+p { font-size: 11pt; line-height: 1.5; }
+.tag { display: inline-block; background: #F7C6D9; padding: 1.2mm 2.5mm; margin-bottom: 5mm; }
+.prompt { display: grid; grid-template-columns: 16mm 1fr; padding: 5.5mm 0; border-bottom: 1px solid #0a0a0a; }
+.prompt .n { font-family: "Archivo", sans-serif; font-stretch: 62%; font-weight: 800; font-size: 26pt; line-height: .9; }
+.prompt .kind { color: #C2207E; display: block; margin-bottom: 1.5mm; }
+.prompt .t { font-size: 14pt; font-weight: 600; letter-spacing: -.025em; line-height: 1.3; }
+.how { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5mm; margin: 2mm 0 6mm; }
+.how div { border-top: 3px solid #0a0a0a; padding-top: 3mm; font-size: 10.5pt; line-height: 1.4; }
+.how b { display: block; font-weight: 800; margin-bottom: 1mm; }
 .foot { position: absolute; left: 16mm; right: 16mm; bottom: 10mm; display: flex; justify-content: space-between; border-top: 1px solid #0a0a0a; padding-top: 3mm; }
 .cover { padding: 0; }
-.cover .photo { height: 190mm; background: url("cover.jpg") center 30% / cover no-repeat; }
-.cover .body { padding: 10mm 16mm; }
+.cover .photo { height: 192mm; background: url("cover.jpg") center 30% / cover no-repeat; }
 .cover .logo { position: absolute; top: 12mm; left: 14mm; height: 16mm; filter: invert(1); }
-.box { border: 1px solid #0a0a0a; padding: 6mm; margin-bottom: 6mm; }
-.lines { height: 16mm; border-bottom: 1px solid #cfcfcf; }
-.planner .row { display: grid; grid-template-columns: 30mm 1fr; border-bottom: 1px solid #0a0a0a; min-height: 22mm; }
-.planner .row .label { padding-top: 4mm; }
-.sign { font-weight: 800; letter-spacing: -.03em; }
+.cover .body { padding: 10mm 16mm; }
+.ai { padding: 4mm 0; border-bottom: 1px solid #e3e3e3; }
+.ai .q { font-size: 12pt; font-weight: 600; letter-spacing: -.02em; }
+.ai .w { font-size: 9.5pt; color: #666; margin-top: 1mm; }
+.row { display: grid; grid-template-columns: 26mm 1fr; border-bottom: 1px solid #0a0a0a; height: 15mm; align-items: center; }
+.proof { background: #F7C6D9; padding: 5mm; margin-top: 6mm; height: 28mm; }
 </style>
 </head>
 <body>
 
-<!-- 1 · COVER -->
 <section class="page cover">
 	<div class="photo"></div>
 	<img class="logo" src="logo-black.png" alt="ISSUE11">
 	<div class="body">
 		<div class="label tag">Free · The Prompt Pack</div>
 		<h1>You've saved enough.<br>Start writing it.</h1>
-		<p class="lead" style="margin-top:6mm">30 journal prompts, 10 AI prompts and a one-page planner for turning the life you keep saving into the life you're living.</p>
+		<p class="lead" style="margin-top:6mm">Eleven prompts. Ten minutes a week. One small move.</p>
 	</div>
 </section>
 
-<!-- 2 · HOW TO USE -->
 <section class="page">
-	<div class="top"><img src="logo-black.png" alt="ISSUE11"><span class="label">P. 02 · Start here</span></div>
-	<h2>Read this first</h2>
-	<p class="lead">Hi, it's Megan. I made this because I had the same problem as you: a phone full of screenshots of a life I wanted, and a journal full of "one day."</p>
-	<p>Writing down what you want is a good start, but it's only the start. What changed things for me was asking a second question every time: okay, so what's my next move? That's what this pack is built around.</p>
-	<div class="box">
-		<p class="sign" style="margin-bottom:3mm">How to use it</p>
-		<p style="margin-bottom:2mm"><strong>Once a week, give yourself ten minutes.</strong> Pick one prompt from each section: Want, Become, Move, Proof. Write by hand, in your notes app, wherever you'll actually do it.</p>
-		<p style="margin-bottom:2mm"><strong>End every session with one move.</strong> Something small enough to do this week, in under an hour.</p>
-		<p style="margin-bottom:0"><strong>Use the AI prompts when you're stuck.</strong> They're written so the AI asks you questions. Your answers stay yours.</p>
+	<div class="top"><img src="logo-black.png" alt="ISSUE11"><span class="label">P. 02</span></div>
+	<div class="how">
+		<div><b>Once a week</b>Ten minutes, any notebook, your notes app. Wherever you'll actually do it.</div>
+		<div><b>Pick two or three</b>You don't need all eleven every time. Start with the one that makes you flinch.</div>
+		<div><b>Leave with a move</b>Something you can do before Sunday. Write it down before you close the page.</div>
 	</div>
-	<p>There's no wrong way to do this. Skip prompts that don't land. Come back to the ones that sting a little, they're usually the important ones.</p>
-	<p class="sign" style="margin-top:8mm">With love,<br>Megan, founder of ISSUE11</p>
+	<div class="prompt"><span class="n">01</span><div><span class="label kind">Want</span><span class="t">Write the number. The salary, the savings, the rent you'd happily pay. Don't round down.</span></div></div>
+	<div class="prompt"><span class="n">02</span><div><span class="label kind">Want</span><span class="t">Open your camera roll. Find the screenshot you keep going back to. What is it really about?</span></div></div>
+	<div class="prompt"><span class="n">03</span><div><span class="label kind">Want</span><span class="t">Describe a Tuesday in the life you want. What time you wake up, what you wear, who texts you first.</span></div></div>
+	<div class="prompt"><span class="n">04</span><div><span class="label kind">Want</span><span class="t">Whose life do you check on the most? Write down the one part you actually want. Let the rest go.</span></div></div>
+	<div class="prompt"><span class="n">05</span><div><span class="label kind">Become</span><span class="t">She's already up. What does she do before she checks her phone?</span></div></div>
 	<div class="foot"><span class="label">The ISSUE11 Prompt Pack</span><span class="label">issue11.app</span></div>
 </section>
 
-<!-- 3 · WANT + BECOME -->
 <section class="page">
-	<div class="top"><img src="logo-black.png" alt="ISSUE11"><span class="label">P. 03 · Journal prompts</span></div>
-	<h2>Want &amp; Become</h2>
-	<div class="sec">
-		<h3>Want: get honest about it</h3>
-		<ol style="--start:0">
-			<li>If no one would judge me, what would I admit I want?</li>
-			<li>Describe one ordinary Tuesday in the life you want. Morning to night.</li>
-			<li>What have I saved or screenshotted the most this year? What's it trying to tell me?</li>
-			<li>Which dream have I been calling "one day" for way too long?</li>
-			<li>What would actually feel like enough?</li>
-			<li>Whose life do I keep watching? Which part of it is really mine to want?</li>
-			<li>How do I want to feel when I wake up a year from now?</li>
-		</ol>
-	</div>
-	<div class="sec">
-		<h3>Become: meet her</h3>
-		<ol style="--start:7">
-			<li>What does the version of me who has this do on a normal day?</li>
-			<li>Which habit does she keep that I keep skipping?</li>
-			<li>What would she stop saying yes to?</li>
-			<li>How does she talk to herself when something goes wrong?</li>
-			<li>Where does she put her money, time and attention?</li>
-			<li>What's one small promise I can keep this week to get closer to her?</li>
-			<li>Which belief about myself am I ready to let go of?</li>
-		</ol>
-	</div>
+	<div class="top"><img src="logo-black.png" alt="ISSUE11"><span class="label">P. 03</span></div>
+	<div class="prompt"><span class="n">06</span><div><span class="label kind">Become</span><span class="t">What does she say no to without explaining herself?</span></div></div>
+	<div class="prompt"><span class="n">07</span><div><span class="label kind">Become</span><span class="t">Look around your room. What wouldn't she keep? Why is it still here?</span></div></div>
+	<div class="prompt"><span class="n">08</span><div><span class="label kind">Move</span><span class="t">What's the twenty-minute version of your dream? Do it before Sunday.</span></div></div>
+	<div class="prompt"><span class="n">09</span><div><span class="label kind">Move</span><span class="t">Finish this sentence and put it in your calendar now: "On ___ at ___, I will ___."</span></div></div>
+	<div class="prompt"><span class="n">10</span><div><span class="label kind">Move</span><span class="t">Who could make this happen faster? Write their name and the one-line message you'd send.</span></div></div>
+	<div class="prompt"><span class="n">11</span><div><span class="label kind">Proof</span><span class="t">Screenshot something you did this week that past you would've talked herself out of. That's page one.</span></div></div>
 	<div class="foot"><span class="label">The ISSUE11 Prompt Pack</span><span class="label">issue11.app</span></div>
 </section>
 
-<!-- 4 · MOVE + PROOF -->
 <section class="page">
-	<div class="top"><img src="logo-black.png" alt="ISSUE11"><span class="label">P. 04 · Journal prompts</span></div>
-	<h2>Move &amp; Proof</h2>
-	<div class="sec">
-		<h3>Move: make "one day" this week</h3>
-		<ol style="--start:14">
-			<li>What's the smallest step toward this that I could take in 20 minutes?</li>
-			<li>When and where exactly will I do it? ("Saturday, 10am, at my desk, I will…")</li>
-			<li>What's most likely to get in the way? What will I do if it does?</li>
-			<li>Who could I ask for help, an intro or advice this week?</li>
-			<li>What can I take off my plate to make room for this?</li>
-			<li>If I only did one thing this week, what would matter most?</li>
-			<li>How could I make this step feel exciting instead of heavy?</li>
-		</ol>
-	</div>
-	<div class="sec">
-		<h3>Proof: notice what's changing</h3>
-		<ol style="--start:21">
-			<li>What did I do this week that the old me wouldn't have?</li>
-			<li>What's changed, even a little, since I started?</li>
-			<li>What did I notice this week that I would have missed before?</li>
-			<li>Which yes, reply or small win surprised me?</li>
-			<li>What did the step that didn't work teach me?</li>
-			<li>How do I feel about this dream now compared with a month ago?</li>
-			<li>What am I proud of that nobody else saw?</li>
-			<li>What's the next page of this story?</li>
-			<li>If I read this a year from now, what do I hope I'll have done?</li>
-		</ol>
-	</div>
-	<div class="foot"><span class="label">The ISSUE11 Prompt Pack</span><span class="label">issue11.app</span></div>
-</section>
-
-<!-- 5 · AI PROMPTS -->
-<section class="page">
-	<div class="top"><img src="logo-black.png" alt="ISSUE11"><span class="label">P. 05 · AI prompts</span></div>
-	<h2>When the page<br>stays blank</h2>
-	<p>Copy one of these into ChatGPT or any AI assistant, then paste in what you wrote. One rule: let the AI ask the questions. You write the answers.</p>
-	<ol class="ai" style="--start:0">
-		<li><span><span class="q">"Here's what I wrote about the life I want. Ask me five questions that would make it more specific. Don't rewrite it."</span><span class="why">For when your dream still feels foggy.</span></span></li>
-		<li><span><span class="q">"Based on this, give me three small steps I could take this week, each under 30 minutes."</span><span class="why">For when you know what you want but not where to start.</span></span></li>
-		<li><span><span class="q">"What obstacle am I not mentioning? Ask me about it gently."</span><span class="why">For the thing you keep writing around.</span></span></li>
-		<li><span><span class="q">"Help me plan the next four weeks with one step per week. Keep it realistic for a busy person."</span><span class="why">For turning a big dream into a month.</span></span></li>
-		<li><span><span class="q">"Read my last few entries and point out progress I haven't noticed."</span><span class="why">For the weeks when it feels like nothing's moving.</span></span></li>
-		<li><span><span class="q">"Ask me what the version of me who already has this would do tomorrow morning."</span><span class="why">For getting out of your head and into your day.</span></span></li>
-		<li><span><span class="q">"I keep putting off [step]. Ask me three questions about why, without judging me."</span><span class="why">For honest procrastination check-ins.</span></span></li>
-		<li><span><span class="q">"Give me five journal prompts about [dream] that focus on what I can control."</span><span class="why">For making your own prompts when these run out.</span></span></li>
-		<li><span><span class="q">"Here's my week. Where could I fit 20 minutes for my dream?"</span><span class="why">For when "I don't have time" is the story.</span></span></li>
-		<li><span><span class="q">"Summarize what I've learned this month in three sentences, using my own words where you can."</span><span class="why">For closing the month with clarity.</span></span></li>
-	</ol>
-	<p style="margin-top:5mm;font-size:9.5pt;color:#555">Keep private details out of AI chats: full names, addresses, health info, account numbers. Check your assistant's privacy settings.</p>
-	<div class="foot"><span class="label">The ISSUE11 Prompt Pack</span><span class="label">issue11.app</span></div>
-</section>
-
-<!-- 6 · PLANNER -->
-<section class="page planner">
-	<div class="top"><img src="logo-black.png" alt="ISSUE11"><span class="label">P. 06 · Planner</span></div>
-	<h2>One move a week</h2>
-	<p>Print this or copy it into your notes. One dream, four weeks, four small moves.</p>
-	<div class="box"><span class="label">The dream</span><div class="lines"></div></div>
-	<div class="row"><span class="label">Week 1</span><div><div class="lines"></div></div></div>
-	<div class="row"><span class="label">Week 2</span><div><div class="lines"></div></div></div>
-	<div class="row"><span class="label">Week 3</span><div><div class="lines"></div></div></div>
-	<div class="row"><span class="label">Week 4</span><div><div class="lines"></div></div></div>
-	<div class="box pink" style="margin-top:8mm;border:none">
-		<p class="sign" style="margin-bottom:2mm">Proof I collected this month</p>
-		<div class="lines" style="border-color:#0a0a0a55"></div><div class="lines" style="border-color:#0a0a0a55"></div>
-	</div>
-	<p style="font-size:10pt">Want your dreams, entries and moves in one place? ISSUE11 turns them into a personal magazine about the life you want. Join the waitlist at issue11.app.</p>
-	<div class="foot"><span class="label">The ISSUE11 Prompt Pack</span><span class="label">issue11.app</span></div>
+	<div class="top"><img src="logo-black.png" alt="ISSUE11"><span class="label">P. 04</span></div>
+	<h2>Stuck? Ask AI.<br>Then answer it yourself.</h2>
+	<div class="ai"><div class="q">"Here's what I wrote. Ask me five questions that make it more specific. Don't rewrite anything."</div><div class="w">When the dream still feels blurry.</div></div>
+	<div class="ai"><div class="q">"I keep putting off [the move]. Ask me why, three times, and don't let me off easy."</div><div class="w">When you know exactly what to do and still aren't doing it.</div></div>
+	<div class="ai"><div class="q">"Here's my week. Find me twenty minutes for this."</div><div class="w">When "I don't have time" is the whole story.</div></div>
+	<p style="font-size:9pt;color:#666;margin:3mm 0 9mm">Leave names, addresses and anything medical or financial out of AI chats.</p>
+	<p class="label" style="margin-bottom:3mm">Four weeks, four moves</p>
+	<div class="row"><span class="label">The dream</span><span></span></div>
+	<div class="row"><span class="label">Week 1</span><span></span></div>
+	<div class="row"><span class="label">Week 2</span><span></span></div>
+	<div class="row"><span class="label">Week 3</span><span></span></div>
+	<div class="row"><span class="label">Week 4</span><span></span></div>
+	<div class="proof"><span class="label">Proof I collected</span></div>
+	<div class="foot"><span class="label">ISSUE11 turns your saves and words into a personal magazine</span><span class="label">issue11.app</span></div>
 </section>
 
 </body>

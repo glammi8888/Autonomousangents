@@ -268,3 +268,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-04 RULE (Megan: "please remember which key is correct"): the ISSUE11 Framer key is FRAMER_API_KEY_ISSUE11landing, for project https://framer.com/projects/NexApp-copy--37tiwNB9SSyPzkNCFNlD. FRAMER_API_KEY_ISSUE is old or empty, so don't use it. The Glammi key stays FRAMER_API_KEY_GLAMMI.
 
 - 2026-11-04 (AEO external): ISSUE11 blog covers come from Megan's own editorial images (drafts/issue11-blog/images/). The cover-to-article map is in design/landing/BLOG-KEYWORD-PLAN.md. Images sent mid-turn aren't saved to disk; ask Megan to send them in their own message. Updating an item with addItems without draft:true made it non-draft. Always pass draft:true (the scripts in tools/framer/ do now).
+
+- 2026-11-04 RULE (Megan, word for word): "i think it's slop" + "let's make sure that all content moving forward is anti-slop please". Checklist: .pipeline/ANTI-SLOP.md. Run it on every piece before showing Megan. The Prompt Pack v1 failed (40 generic prompts, invented "Hi, it's Megan" letter, template sections). v2 (11 specific prompts, no fake letter) is what good looks like.

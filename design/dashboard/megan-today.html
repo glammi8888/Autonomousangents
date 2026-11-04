@@ -52,6 +52,12 @@ textarea{width:100%;box-sizing:border-box;min-height:84px;border-radius:14px;bor
 .count .big{font-family:var(--display);font-size:34px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
 .count .l{font-size:13px;color:var(--muted);margin-top:6px}
 .note{font-size:13px;color:var(--muted)}
+.cal li{display:flex;gap:14px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line)}
+.cal li:last-child{border-bottom:0}
+.cal .t{font-family:var(--display);font-weight:700;font-size:17px;min-width:64px;font-variant-numeric:tabular-nums}
+.cal .ev{min-width:0;overflow-wrap:anywhere}
+.cal .past{opacity:.45}
+.cal .nowline .t{color:var(--pink-ink)}
 details summary{cursor:pointer;color:var(--muted);font-size:14px;padding:6px 0}
 @media (prefers-reduced-motion:no-preference){.now{transition:transform .2s}.now:hover{transform:translateY(-1px)}}
 </style>
@@ -65,6 +71,12 @@ details summary{cursor:pointer;color:var(--muted);font-size:14px;padding:6px 0}
   <section aria-labelledby="now-h">
     <h2 id="now-h">Right now</h2>
     <div class="now" id="now"><span class="label">Loading…</span></div>
+  </section>
+
+  <section aria-labelledby="cal-h">
+    <h2 id="cal-h">Today's calendar</h2>
+    <ul class="list cal" id="cal"><li class="note">Loading your calendar…</li></ul>
+    <div class="btns" id="calBtnWrap" hidden><button class="ghost" id="calBtn">Show my calendar</button></div>
   </section>
 
   <section aria-labelledby="next-h">
@@ -163,6 +175,59 @@ $("dumpBtn").addEventListener("click", async () => {
   } catch (err) { $("dumpMsg").textContent = "Couldn't save. Try again."; }
   $("dumpBtn").disabled = false;
 });
+
+// ---- Google Calendar (today only) ----
+const pad = n => String(n).padStart(2, "0");
+const localIso = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:00`;
+function calInput(){
+  const s = new Date(); s.setHours(0,0,0,0);
+  const e = new Date(); e.setHours(23,59,0,0);
+  return { startTime: localIso(s), endTime: localIso(e), orderBy: "startTime", pageSize: 20 };
+}
+function evTime(x){ return x && (x.dateTime || x.date || (typeof x === "string" ? x : null)); }
+function renderCal(payload){
+  const list = (payload && (payload.events || payload.items)) || [];
+  const now = Date.now();
+  if (!list.length){ $("cal").innerHTML = `<li class="note">Nothing on your calendar today. Space to breathe.</li>`; return; }
+  $("cal").innerHTML = list.map(ev => {
+    const st = evTime(ev.start), en = evTime(ev.end);
+    const allDay = st && st.length <= 10;
+    const sd = st ? new Date(st) : null, ed = en ? new Date(en) : null;
+    const t = allDay || !sd ? "All day" : sd.toLocaleTimeString([], {hour:"numeric", minute:"2-digit"});
+    const past = ed && !allDay && ed.getTime() < now;
+    const live = sd && ed && !allDay && sd.getTime() <= now && ed.getTime() >= now;
+    return `<li class="${past ? "past" : ""} ${live ? "nowline" : ""}"><span class="t">${esc(live ? "Now" : t)}</span><span class="ev">${esc(ev.summary || ev.title || "Busy")}</span></li>`;
+  }).join("");
+}
+function calError(err){
+  const c = err && err.code;
+  const msg = {
+    needs_reauth: "Reconnect Google Calendar in claude.ai Settings → Connectors to see today's events.",
+    server_not_connected: "Add Google Calendar in claude.ai Settings → Connectors to see today's events.",
+    selection_required: "Choose which Google Calendar to use when Claude asks, then reopen this page.",
+    not_in_manifest: "Calendar is turned off for this page.",
+    approval_required: "Tap below to let this page show your calendar.",
+    server_unavailable: "Google Calendar isn't answering right now. It will refresh by itself."
+  }[c] || "Your calendar couldn't load right now.";
+  if (c === "server_unavailable" && $("cal").querySelector(".t")) return; // keep last good list
+  $("cal").innerHTML = `<li class="note">${esc(msg)}</li>`;
+  $("calBtnWrap").hidden = c !== "approval_required";
+}
+async function startCal(){
+  const mcp = await claude.use("mcp");
+  if (!mcp){ $("cal").innerHTML = `<li class="note">Open this page in Claude to see your calendar.</li>`; return; }
+  mcp.watchTool("Google Calendar", "list_events", calInput(), ev => {
+    if (ev.type === "data") { $("calBtnWrap").hidden = true; renderCal(ev.result.payload); }
+    else calError(ev.error);
+  }, { refetchInterval: 300000 });
+  $("calBtn").addEventListener("click", async () => {
+    $("calBtn").disabled = true;
+    try { const r = await mcp.callTool("Google Calendar", "list_events", calInput()); $("calBtnWrap").hidden = true; renderCal(r.payload); }
+    catch (e) { calError(e); }
+    $("calBtn").disabled = false;
+  });
+}
+startCal();
 
 (async () => {
   const h = new Date().getHours();

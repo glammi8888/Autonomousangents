@@ -1,6 +1,6 @@
 # ISSUE11 blog: first 7 articles (keyword plan) · Nov 4, 2026 · DRAFT for Megan's OK
 
-Live landing page (Framer preview domain, Nov 4): https://flowing-melon-563707.framer.app
+Live landing page: https://issue11.app (custom domain, Nov 4; old preview: https://flowing-melon-563707.framer.app)
 Framer editor project (ISSUE11 landing, Nov 4): https://framer.com/projects/NexApp-copy--37tiwNB9SSyPzkNCFNlD · key variable: FRAMER_API_KEY_ISSUE (new key saved by Megan Nov 4; test on next session)
 
 US search data (searches/mo · difficulty 0-100, lower = easier). Angle: process-focused, magazine as step one, honest (no promises of results, no science overclaims). Never framed as productivity or goal-setting.

@@ -1,6 +1,6 @@
 # ISSUE11 landing page FAQ (AEO version) · Nov 4, 2026 (v2, paid keyword data) · DRAFT for Megan's OK
 
-Live landing page (Framer preview domain, Nov 4): https://flowing-melon-563707.framer.app
+Live landing page: https://issue11.app (custom domain, Nov 4; old preview: https://flowing-melon-563707.framer.app)
 
 Replaces the template's 8 questions. Built from approved copy in FRAMER-COPY-FINAL.md (§6, §10). Answers 3, 5, 6, 7 and 8 match the approved copy word for word or almost; 1, 2 and 4 combine approved lines.
 Keywords (US search volume per month, Nov 4): manifestation app 580 · vision board app 1,300 · digital vision board 2,900 · does manifestation work 2,200 · manifestation meditation 1,300 · manifestation journal 3,100 · how to manifest 8,400 · pinterest vision board 5,400 · free manifestation apps 90 (people ask "is it free", so Q7 uses that wording).

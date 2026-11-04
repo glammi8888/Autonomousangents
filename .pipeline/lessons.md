@@ -271,3 +271,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 
 - 2026-11-04 RULE (Megan, word for word): "i think it's slop" + "let's make sure that all content moving forward is anti-slop please". Checklist: .pipeline/ANTI-SLOP.md. Run it on every piece before showing Megan. The Prompt Pack v1 failed (40 generic prompts, invented "Hi, it's Megan" letter, template sections). v2 (11 specific prompts, no fake letter) is what good looks like.
 - 2026-11-04 RULE (Megan): "not speaking about herself in \"she\"" → always address the reader as "you". Also: "No one goes back to their camera roll, more like Pinterest i think" → say Pinterest saves, not camera roll.
+
+- 2026-11-04 (AEO external): Megan approved the ISSUE11 Prompt Pack v4 ("ok it's good !"): drafts/issue11-gift/The_ISSUE11_Prompt_Pack.pdf. What made it pass: 11 prompts, each with a second question that names the real reason (cost, permission, fear), always "you", Pinterest not camera roll, no invented story. Next: deliver it as the waitlist gift (depends on her waitlist email tool) and use the same voice for the blog drafts.

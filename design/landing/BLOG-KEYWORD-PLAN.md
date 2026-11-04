@@ -18,3 +18,12 @@ US search data (searches/mo · difficulty 0-100, lower = easier). Angle: process
 Order: 6 → 2 → 5 → 3 → 4 → 7, then 1 published early December (before the January search peak).
 Each article: FAQ section + FAQPage schema, one soft CTA to the waitlist, real sources only.
 Blog setup: same as glammi.ai (CMS collection with a "FAQ Schema" plain-text field + the /blog/:slug script binding). See the SOP in Notion.
+
+## Cover images (Megan's own editorial images, drafts/issue11-blog/images/)
+- #1 Vision board for manifestation → megan-editorial-4 (white shirt, journal) · USED
+- Manifestation journal prompts → megan-editorial-6 (hand writing in journal)
+- How to manifest → megan-editorial-5 (journal, white puff sleeves)
+- Does manifestation actually work? → megan-editorial-3 (knit sweater, reading)
+- How to make a vision board that doesn't get forgotten → megan-editorial-7 (flowers, blue sky)
+- Money vision board ideas (later) → megan-editorial-2 (red suit, money)
+Rules: crop to 1600x1067 and check the face isn't cut off; no visible brand logos (skip the Diesel image); every item stays a draft until Megan says publish.

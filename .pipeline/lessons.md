@@ -253,7 +253,7 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 
 - 2026-11-04 (AEO external): Megan upgraded Mangools to the paid Basic plan (verified via quota: 495 AI tracker prompts left, 100 keyword lookups/day, 200 tracked keywords). The AI tracker is unblocked. Added 5 premium-audience prompts (dermatology, jewelers, luxury hair, med spas, skincare) for 10 in total. Don't tell Megan the tracker is stalled anymore. Check that new data arrives within about 48h.
 
-- 2026-11-04 (AEO external): The ISSUE11 Framer project is https://framer.com/projects/NexApp-copy--37tiwNB9SSyPzkNCFNlD (key FRAMER_API_KEY_ISSUE). First job next session: test the connection with framer-api 5.1.0 (read only). ISSUE11 blog articles go in as drafts only and are published only with Megan's OK per article, unless she grants daily posting. Also: the scratchpad was wiped on a container reset and took the Glammi Framer scripts with it. Keep the scripts in the repo (no keys) from now on.
+- 2026-11-04 (AEO external): The ISSUE11 Framer project is https://framer.com/projects/NexApp-copy--37tiwNB9SSyPzkNCFNlD (key FRAMER_API_KEY_ISSUE11landing). First job next session: test the connection with framer-api 5.1.0 (read only). ISSUE11 blog articles go in as drafts only and are published only with Megan's OK per article, unless she grants daily posting. Also: the scratchpad was wiped on a container reset and took the Glammi Framer scripts with it. Keep the scripts in the repo (no keys) from now on.
 
 - 2026-11-04 RULE (Megan, word for word): "yes you can do anything that is necessary to optimize for SEO/AEO/GEO" + "But don't do changes oon the landing page copy unless I approce". So: SEO/AEO/GEO technical work on the ISSUE11 Framer site (CMS fields, schema, meta, blog drafts) is approved. Any landing page copy change needs her OK first.
 
@@ -264,3 +264,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-04 RULE (Megan, word for word): "Oh feel free to change website title and description too" (ISSUE11 site meta title and description are approved; visible landing copy still needs her OK).
 
 - 2026-11-04 (AEO external): Using helper sessions for the ISSUE11 Framer key wasted Megan's time. One run failed on the key name (the real name is FRAMER_API_KEY_ISSUE11landing, not FRAMER_API_KEY_ISSUE), and two others stopped to ask for approval Megan had already given. In the end she changed the title herself. Next time: start a NEW main session, where the key loads directly, and do Framer work there. First verify read-only what the stopped v2 run may have changed (possibly the FAQ Schema field on Blog Posts) and don't overwrite the title Megan set.
+
+- 2026-11-04 RULE (Megan: "please remember which key is correct"): the ISSUE11 Framer key is FRAMER_API_KEY_ISSUE11landing, for project https://framer.com/projects/NexApp-copy--37tiwNB9SSyPzkNCFNlD. FRAMER_API_KEY_ISSUE is old or empty, so don't use it. The Glammi key stays FRAMER_API_KEY_GLAMMI.

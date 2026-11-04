@@ -207,7 +207,7 @@ function calError(err){
     selection_required: "Choose which Google Calendar to use when Claude asks, then reopen this page.",
     not_in_manifest: "Calendar is turned off for this page.",
     approval_required: "Tap below to let this page show your calendar.",
-    server_unavailable: "Google Calendar isn't answering right now. It will refresh by itself."
+    server_unavailable: "Google Calendar isn't answering right now. It will refresh by itself.",
     tool_error: "Your calendar isn't shared yet. In Google Calendar (megannancyscott@gmail.com): Settings → your calendar → Share with specific people → add glammiagency@gmail.com → See all event details."
   }[c] || "Your calendar couldn't load right now.";
   if (c === "server_unavailable" && $("cal").querySelector(".t")) return; // keep last good list

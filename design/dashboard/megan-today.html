@@ -217,13 +217,16 @@ function calError(err){
 async function startCal(){
   const mcp = await claude.use("mcp");
   if (!mcp){ $("cal").innerHTML = `<li class="note">Open this page in Claude to see your calendar.</li>`; return; }
+  let got = false;
+  setTimeout(() => { if (!got) { $("cal").innerHTML = `<li class="note">Still waiting for your calendar. Tap below to load it.</li>`; $("calBtnWrap").hidden = false; } }, 10000);
   mcp.watchTool("Google Calendar", "list_events", calInput(), ev => {
+    got = true;
     if (ev.type === "data") { $("calBtnWrap").hidden = true; renderCal(ev.result.payload); }
     else calError(ev.error);
   }, { refetchInterval: 300000 });
   $("calBtn").addEventListener("click", async () => {
     $("calBtn").disabled = true;
-    try { const r = await mcp.callTool("Google Calendar", "list_events", calInput()); $("calBtnWrap").hidden = true; renderCal(r.payload); }
+    try { const r = await mcp.callTool("Google Calendar", "list_events", calInput()); got = true; $("calBtnWrap").hidden = true; renderCal(r.payload); }
     catch (e) { calError(e); }
     $("calBtn").disabled = false;
   });

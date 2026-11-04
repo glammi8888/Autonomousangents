@@ -262,3 +262,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-04 GOAL (Megan): ISSUE11 #1 for "manifestation app" and "vision board app", and anywhere else there's an honest opportunity. Plan: design/landing/ISSUE11-RANK-PLAN.md.
 
 - 2026-11-04 RULE (Megan, word for word): "Oh feel free to change website title and description too" (ISSUE11 site meta title and description are approved; visible landing copy still needs her OK).
+
+- 2026-11-04 (AEO external): Using helper sessions for the ISSUE11 Framer key wasted Megan's time. One run failed on the key name (the real name is FRAMER_API_KEY_ISSUE11landing, not FRAMER_API_KEY_ISSUE), and two others stopped to ask for approval Megan had already given. In the end she changed the title herself. Next time: start a NEW main session, where the key loads directly, and do Framer work there. First verify read-only what the stopped v2 run may have changed (possibly the FAQ Schema field on Blog Posts) and don't overwrite the title Megan set.

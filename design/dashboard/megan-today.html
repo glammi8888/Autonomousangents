@@ -52,6 +52,14 @@ textarea{width:100%;box-sizing:border-box;min-height:84px;border-radius:14px;bor
 .count .big{font-family:var(--display);font-size:34px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1}
 .count .l{font-size:13px;color:var(--muted);margin-top:6px}
 .note{font-size:13px;color:var(--muted)}
+.prog{height:10px;border-radius:999px;background:var(--line);overflow:hidden;margin-bottom:6px}
+.prog .bar{height:100%;width:0;background:var(--pink-ink);border-radius:999px;transition:width .4s}
+.todo li{list-style:none}
+.todo label{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;cursor:pointer}
+.todo input{width:22px;height:22px;flex:none;margin-top:1px;accent-color:var(--pink-ink)}
+.todo .tt{min-width:0;overflow-wrap:anywhere}
+.todo .meta{display:block;font-size:13px;color:var(--muted)}
+.todo .done .tt{text-decoration:line-through;opacity:.55}
 .cal li{display:flex;gap:14px;align-items:baseline;padding:10px 0;border-bottom:1px solid var(--line)}
 .cal li:last-child{border-bottom:0}
 .cal .t{font-family:var(--display);font-weight:700;font-size:17px;min-width:64px;font-variant-numeric:tabular-nums}
@@ -77,6 +85,13 @@ details summary{cursor:pointer;color:var(--muted);font-size:14px;padding:6px 0}
     <h2 id="cal-h">Today's calendar</h2>
     <ul class="list cal" id="cal"><li class="note">Loading your calendar…</li></ul>
     <div class="btns" id="calBtnWrap" hidden><button class="ghost" id="calBtn">Show my calendar</button></div>
+  </section>
+
+  <section aria-labelledby="todo-h">
+    <h2 id="todo-h">Today's list</h2>
+    <div class="prog" aria-hidden="true"><div class="bar" id="bar"></div></div>
+    <p class="note" id="progTxt" aria-live="polite"></p>
+    <ul class="list todo" id="todo"></ul>
   </section>
 
   <section aria-labelledby="next-h">
@@ -144,6 +159,7 @@ function render(){
   $("more-wrap").hidden = !rest.length;
   $("more-sum").textContent = `See the rest (${rest.length}). These can wait`;
   $("more").innerHTML = rest.map(t => taskCard(t)).join("");
+  renderTodo();
   $("wins").innerHTML = (board.wins || []).map(w => `<li><span class="d">${esc(w.date)}</span><span>${esc(w.text)}</span></li>`).join("") || `<li class="note">Wins show up here.</li>`;
   $("rooms").innerHTML = (board.rooms || []).map(r => {
     const inner = `<span class="dot ${esc(r.state)}" aria-hidden="true"></span><div><div class="n">${esc(r.name)}</div><div class="s">${esc(r.note)}</div></div>`;
@@ -152,6 +168,26 @@ function render(){
   $("count").innerHTML = (board.countdowns || []).map(c => `<div class="c"><div class="big">${daysTo(c.date)}</div><div class="l">days to ${esc(c.label)}</div></div>`).join("");
   if (board.updated) $("updated").textContent = `Updated by your Manager: ${board.updated}. One thing at a time.`;
 }
+
+// ---- Today's list (checkboxes, saved per day) ----
+let ticks = {}, tickVersion = 0;
+const dayKey = () => { const d = new Date(); return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; };
+function renderTodo(){
+  const items = (board && board.todo) || [];
+  const done = items.filter(t => ticks[t.id]).length;
+  $("todo").innerHTML = items.map(t => `<li class="${ticks[t.id] ? "done" : ""}"><label><input type="checkbox" data-t="${esc(t.id)}" ${ticks[t.id] ? "checked" : ""}><span class="tt">${esc(t.text)}<span class="meta">${esc([t.mins ? t.mins + " min" : "", t.area || ""].filter(Boolean).join(" · "))}</span></span></label></li>`).join("") || `<li class="note">Your list appears after the next check-in.</li>`;
+  const pct = items.length ? Math.round(done / items.length * 100) : 0;
+  $("bar").style.width = pct + "%";
+  $("progTxt").textContent = !items.length ? "" : done === items.length ? `All ${done} done. You did it 🎉` : `${done} of ${items.length} done`;
+}
+document.addEventListener("change", async e => {
+  const cb = e.target.closest("input[data-t]");
+  if (!cb || !db) return;
+  ticks[cb.dataset.t] = cb.checked;
+  renderTodo();
+  try { await db.doc("ticks/" + dayKey()).set({ ids: ticks, at: new Date().toISOString() }); }
+  catch (err) { $("status").textContent = "Couldn't save that tick. Try again in a moment."; }
+});
 
 document.addEventListener("click", async e => {
   const b = e.target.closest("button[data-q]");
@@ -244,6 +280,10 @@ startCal();
     if (s.exists) { board = s.data(); $("status").textContent = ""; render(); }
     else if (!s.metadata.fromCache) $("now").innerHTML = `<span class="task">Your Manager fills this in at the next check-in.</span>`;
   }, () => { clearTimeout(timer); $("status").textContent = "Your board couldn't load. Reopen the page later."; });
+  db.doc("ticks/" + dayKey()).onSnapshot(s => {
+    const d = s.exists ? s.data() : null;
+    if (d && d.ids) { ticks = Object.assign({}, d.ids); renderTodo(); }
+  }, () => {});
   db.collection("answers").onSnapshot(s => {
     answers = {}; s.docs.forEach(d => { if (d.exists) answers[d.id] = d.data(); }); render();
   }, () => {});

@@ -1,4 +1,6 @@
 # ISSUE11 × Framer template ("NexApp") · copy remix (Nov 3, 2026)
+
+> ⚠️ Dates in this older file are out of date (Megan, Nov 5): the private beta is **Dec 11, 2026**; the App Store launch follows after the beta (no date yet). Current copy: FRAMER-COPY-FINAL.md + FAQ-AEO.md.
 Megan: "Could you help me remix it? Just give me the copy based off the landing page template. Keep the amount of words similar. And adapt to Issue11. Keep the pain points and desired outcome of the copy I previously gave you."
 Sources: approved landing copy (copy-bank/ISSUE11-copy-bank.pdf), POSITIONING.md pains + outcomes, product facts in V1-SIMPLIFIED.md. ★ = Megan's own words. Word counts kept close to the template.
 

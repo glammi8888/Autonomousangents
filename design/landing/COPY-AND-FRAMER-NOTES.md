@@ -1,4 +1,6 @@
 # ISSUE11 landing page · copy + Framer rebuild notes (🎨 BRAND, Oct 21, 2026)
+
+> ⚠️ Dates in this older file are out of date (Megan, Nov 5): the private beta is **Dec 11, 2026**; the App Store launch follows after the beta (no date yet). Current copy: FRAMER-COPY-FINAL.md + FAQ-AEO.md.
 Prototype: https://claude.ai/artifact/3VCnhy64sZCaWaTBQXsnSs (private) · source: `design/landing/index.html` + `assets/`
 Status: **v3 (one layout system, real 3D phones, pink set, example-covers gallery, large opening magazine; Oct 21). Earlier: v2 (calmer, Oct 21: Megan found v1 "too loud"), draft for Megan.** v1: design/landing/index-v1-loud.html. Nothing is published or connected. Megan builds and publishes in Framer.
 Sources: brand/BRAND-GUIDE.md · design/claude-design/V4-TOKENS.md · design/POSITIONING.md (Oct 10 one-liner) · design/V1-SIMPLIFIED.md · design/PRINT-PURCHASE.md · design/UX-LAWS-AUDIT.md (contrast) · drafts/launch-prep/holding-page.md · briefs/landing-page-11-11.md · real app screens from drafts/replit/handoff/screens/.

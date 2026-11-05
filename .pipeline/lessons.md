@@ -304,4 +304,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 
 - 2026-11-05 (daily run): ISSUE11's first article went live (vision-board-for-manifestation) once Megan removed the template reviews. The narrowed review check in i11-publish-one let it through, and the 200 + FAQPage checks passed. Found that issue11.app's homepage FAQPage schema is installed site-wide (it shows on /privacy and the articles), so Megan should move it to the Home page only. Glammi covers are still blocked by the network (#23 and #24 have no cover). Queue: 11 Glammi drafts, 9 with covers, about 9 days left.
 
-- 2026-11-05 RULE (Megan, word for word): "No I prefer white over black". ISSUE11 cover logos are always white. On light photos, use drafts/issue11-blog/images/logo-w200-shadow.png (white with a soft shadow). Never use the black logo.
+- 2026-11-05 RULE (Megan, word for word): "No I prefer white over black". Then she clarified: "Not white logo always but in this scenario yes". So pick the logo color per photo by what looks best. When unsure, prefer white, and on light photos use logo-w200-shadow.png (white with a soft shadow). Black is allowed when it clearly looks better.

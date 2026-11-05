@@ -75,3 +75,11 @@ Not installed: the rest of either library, linked skills/tools, anything via npx
 | offers | same repo/commit · MIT · skills/offers/ | `.claude/skills/offers` | SAFE. 10 files (SKILL.md, 8 references, evals.json). Text only, 0 hidden Unicode, no URLs/commands. Bans fake scarcity/countdowns. Sends nothing online. |
 | competitor-profiling | same repo/commit · MIT · skills/competitor-profiling/ | `.claude/skills/competitor-profiling` | SAFE. 4 files (SKILL.md, tool-reference.md, templates.md, evals.json). Text only, 0 hidden Unicode, no commands; URLs are placeholders (competitor1.com) and registry docs. Sends nothing online. |
 Not installed: the rest of the library.
+
+## newsletter-writer (naveedharri/benai-skills) · scanned Nov 5, 2026 · NOT INSTALLED (method borrowed)
+- Source: https://github.com/naveedharri/benai-skills/tree/main/shared-skills/newsletter-writer (MIT), listed on mcpmarket.com. Install cmd would be `npx skillfish add naveedharri/benai-skills newsletter-writer` (not run).
+- Files: SKILL.md + references 01–05 read in full; 08 (example newsletters, 649 lines) scanned for instructions/network/install/key patterns. No hidden instructions, no scripts, no installs, no key or .env reading. References hold another person's private business details (team, revenue), so nothing from them is copied.
+- Network: optional Apify scraper tools (paid, not connected here). No key reading.
+- ⚠️ Self-modifying: its "PROGRESSIVE SELF-UPDATE RULE" edits its own SKILL.md without asking. Against our rules (agents may not change skills without Megan's approval).
+- ⚠️ Written entirely for another creator (Ben Van Sprundel): his voice, offers, prices, story. Unusable as-is.
+- Decision: not installed. Its step-by-step method (5 angles → 3 outlines → write → 10 subject lines) was adapted into our Notion "Skill: Newsletter (ISSUE11 + Glammi Studio)" v0.2 in our own voice.

@@ -5,7 +5,7 @@
 
 Last updated: [date of publishing]
 
-These terms cover your use of issue11.app, including the blog and the early access waitlist. "We" means [legal business name], the company behind ISSUE11. By using the site, you agree to these terms.
+These terms cover your use of issue11.app, including the blog and the early access waitlist. "We" means ISSUE11, the company behind ISSUE11. By using the site, you agree to these terms.
 
 ## The waitlist
 
@@ -45,4 +45,4 @@ These terms are governed by the laws of [state], United States. [Megan: confirm 
 
 ## Contact
 
-[Legal business name] · [contact email]
+ISSUE11 · [contact email]

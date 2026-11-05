@@ -61,7 +61,7 @@ Features · Inside the app · Why ISSUE11 · FAQ · [Get early access]
 ## 10 · FAQ
 - What is ISSUE11? · ISSUE11 is a process-focused manifestation app for iPhone that turns your dreams into a personal magazine and helps you take the small steps that make them real.
 - How is it different from a vision board? · A vision board shows what you want, and most get forgotten. ISSUE11 turns it into a magazine about your life and holds you accountable to one small move a week.
-- When can I get it? · A private beta starts on November 11, 2026, with invites for the waitlist. ISSUE11 launches on the App Store for iPhone on December 11, 2026.
+- When can I get it? · A private beta starts on December 11, 2026, with invites for the waitlist. The App Store launch follows after the beta.
 - How much does it cost? · Joining the waitlist is free. The app is $9.99 a month, digital magazine included. The first 1,000 on the waitlist get 50% off their first year. A printed Issue is optional: $29.99 with free standard shipping in the US.
 - Does it promise results? · No app can promise results. ISSUE11 gives you the process that moves you toward them: one small move a week, and a place to keep proof when something shifts.
 - Is there AI in it? · Yes, and it's optional. The Editor lays out your magazine pages, never rewrites your words, and can be switched off in settings.

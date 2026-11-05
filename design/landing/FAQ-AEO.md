@@ -18,7 +18,7 @@ Headline: **Common questions about ISSUE11.**
 5. **Does ISSUE11 include manifestation meditations and journaling?**
    Yes. Immersive meditations rehearse the steps toward what you want, and they keep playing with your phone locked. Your journal entries land on a real page of your Issue as you type.
 6. **When can I get ISSUE11?**
-   A private beta starts on November 11, 2026, with invites for the waitlist. ISSUE11 launches on the App Store for iPhone on December 11, 2026.
+   A private beta starts on December 11, 2026, with invites for the waitlist. The App Store launch follows after the beta.
 7. **Is ISSUE11 free?**
    Joining the waitlist is free. The app is $9.99 a month, digital magazine included. The first 1,000 on the waitlist get 50% off their first year. A printed Issue is optional: $29.99 with free standard shipping in the US.
 8. **Is there AI in ISSUE11?**
@@ -36,7 +36,7 @@ Not included on purpose: Android (not announced) and a privacy question (user da
 {"@type":"Question","name":"Can I turn my Pinterest vision board into a magazine?","acceptedAnswer":{"@type":"Answer","text":"Yes. Upload your board or your Pinterest saves as images, or pick curated editorial images. Everything you save can become a page."}},
 {"@type":"Question","name":"Does manifestation actually work?","acceptedAnswer":{"@type":"Answer","text":"No app can promise results. ISSUE11 focuses on what you can control: the process. One small move a week, meditations that rehearse the steps, and a place to keep proof when something shifts."}},
 {"@type":"Question","name":"Does ISSUE11 include manifestation meditations and journaling?","acceptedAnswer":{"@type":"Answer","text":"Yes. Immersive meditations rehearse the steps toward what you want, and they keep playing with your phone locked. Your journal entries land on a real page of your Issue as you type."}},
-{"@type":"Question","name":"When can I get ISSUE11?","acceptedAnswer":{"@type":"Answer","text":"A private beta starts on November 11, 2026, with invites for the waitlist. ISSUE11 launches on the App Store for iPhone on December 11, 2026."}},
+{"@type":"Question","name":"When can I get ISSUE11?","acceptedAnswer":{"@type":"Answer","text":"A private beta starts on December 11, 2026, with invites for the waitlist. The App Store launch follows after the beta."}},
 {"@type":"Question","name":"Is ISSUE11 free?","acceptedAnswer":{"@type":"Answer","text":"Joining the waitlist is free. The app is $9.99 a month, digital magazine included. The first 1,000 on the waitlist get 50% off their first year. A printed Issue is optional: $29.99 with free standard shipping in the US."}},
 {"@type":"Question","name":"Is there AI in ISSUE11?","acceptedAnswer":{"@type":"Answer","text":"Yes, and it's optional. The Editor lays out your magazine pages, never rewrites your words, and can be switched off in settings."}}
 ]}

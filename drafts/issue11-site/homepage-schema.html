@@ -1,0 +1,41 @@
+<!-- ISSUE11 homepage schema. Paste in Framer → Homepage → Page settings → Custom code → End of <head>.
+     Keep it next to the FAQPage script that's already there (don't replace it).
+     No ratings or reviews included on purpose (none exist yet; never add fake ones). -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://issue11.app/#org",
+      "name": "ISSUE11",
+      "url": "https://issue11.app",
+      "founder": {"@type": "Person", "name": "Megan Scott"},
+      "address": {"@type": "PostalAddress", "addressLocality": "Los Angeles", "addressRegion": "CA", "addressCountry": "US"}
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://issue11.app/#app",
+      "name": "ISSUE11",
+      "description": "A manifestation app for iPhone that turns your vision board into a personal magazine, with one small move a week.",
+      "operatingSystem": "iOS",
+      "applicationCategory": "LifestyleApplication",
+      "url": "https://issue11.app",
+      "publisher": {"@id": "https://issue11.app/#org"},
+      "offers": {
+        "@type": "Offer",
+        "price": "9.99",
+        "priceCurrency": "USD",
+        "priceSpecification": {"@type": "UnitPriceSpecification", "price": "9.99", "priceCurrency": "USD", "billingDuration": "P1M"}
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://issue11.app/#website",
+      "name": "ISSUE11",
+      "url": "https://issue11.app",
+      "publisher": {"@id": "https://issue11.app/#org"}
+    }
+  ]
+}
+</script>

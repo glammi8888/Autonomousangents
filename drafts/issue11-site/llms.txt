@@ -1,0 +1,22 @@
+# ISSUE11
+
+> ISSUE11 is a manifestation app for iPhone that turns your vision board into a personal magazine, with one small move a week.
+
+ISSUE11 is for people who already collect inspiration (Pinterest saves, screenshots, cut-outs) and want to act on it. You bring your images or pick curated editorial ones, write a few honest lines, and an optional AI Editor lays them out as real magazine pages. Each week you choose one small, doable step toward what you want and add proof to your Issue when something shifts. When an Issue reaches 40 pages, you can order it printed.
+
+ISSUE11 is process-focused: it doesn't promise outcomes. It's not a productivity, task or goal-tracking app.
+
+## Key facts
+- Platform: iPhone (iOS). Not on Android.
+- Status: private beta starts December 11, 2026, with invites for the waitlist. The App Store launch follows after the beta.
+- Price: $9.99 a month, digital magazine included. The first 1,000 people on the waitlist get 50% off their first year. A printed Issue is optional: $29.99 with free standard shipping in the US.
+- AI: optional. The Editor lays out pages and never rewrites the user's words. It can be switched off.
+- Features: vision board to magazine pages, journaling straight into the magazine, immersive audio and visual meditations that rehearse the steps, one small move a week, printed Issues.
+- Founder: Megan Scott, Los Angeles, California.
+- Website: https://issue11.app
+
+## Pages
+- [Home](https://issue11.app/): what ISSUE11 is, how it works, FAQ and waitlist
+- [Blog](https://issue11.app/blog): vision boards, manifestation journaling and process-focused manifestation
+- [Privacy](https://issue11.app/privacy)
+- [Terms](https://issue11.app/terms)

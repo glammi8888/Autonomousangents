@@ -1,5 +1,5 @@
 # ISSUE11 website privacy policy (DRAFT for Megan's approval, Nov 5, 2026)
-Scope: issue11.app + waitlist only. The app needs its own policy before launch (journal entries, photos, AI Editor, subscriptions; see .pipeline/app-store-checklist.md §5.1). Not legal advice; a lawyer review is recommended. Fill in the [brackets] before publishing.
+Scope: issue11.app + waitlist only. The app needs its own policy before launch (journal entries, photos, AI Editor, subscriptions; see .pipeline/app-store-checklist.md §5.1). Not legal advice; a lawyer review is recommended. Fill in the [brackets] before publishing (legal name = DBA in process; contact email not created yet; both on OPS's to-do list, Nov 5).
 
 ---
 
@@ -13,7 +13,7 @@ ISSUE11 is run by [legal name, e.g. Megan Scott or ISSUE11 LLC], based in Los An
 
 **What we collect**
 - Your email address, when you join the waitlist.
-- Basic technical information, collected automatically when you visit, such as browser type, device type, pages viewed and approximate location based on IP address. We use it to keep the site working and to understand how many people visit. [If you use Google Analytics or a Meta/TikTok pixel, name it here.]
+- Basic technical information, collected automatically when you visit, such as browser type, device type, pages viewed and approximate location based on IP address. We use it to keep the site working and to understand how many people visit. We use Framer's built-in website statistics only. We don't use advertising pixels or cross-site tracking.
 
 We don't ask for your name, payment details or anything else on this website.
 

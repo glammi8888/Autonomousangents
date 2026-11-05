@@ -1,13 +1,15 @@
 // Sets ONE ISSUE11 blog item live and publishes issue11.app.
 // usage: node i11-publish-one.mjs <slug>
 // Aborts (changes nothing) if: Megan has unpublished page changes, the item has no cover,
-// or the live homepage still shows template (NexApp) reviews.
+// or the live homepage still shows the template's fake user reviews.
+// (Nov 5: narrowed from any "NexApp" text to the review section, after Megan removed the reviews;
+// the leftover NexApp footer/download text is a cleanup item, not a fake-review risk.)
 // Key: FRAMER_API_KEY_ISSUE11landing (env).
 import { connect } from "framer-api";
 const slug = process.argv[2];
 if (!slug) { console.error("slug required"); process.exit(1); }
 const res0 = await fetch("https://issue11.app/?x=" + Date.now()).then(r => r.text()).catch(() => "");
-if (/NexApp/i.test(res0)) { console.error("ABORT: issue11.app still shows NexApp template content (fake reviews). Not publishing."); process.exit(5); }
+if (/USER REVIEWS|rave about ISSUE11|mariah\.writes|DylanK_92/i.test(res0)) { console.error("ABORT: issue11.app still shows the template's fake reviews. Not publishing."); process.exit(5); }
 const f = await connect("https://framer.com/projects/NexApp-copy--37tiwNB9SSyPzkNCFNlD", process.env.FRAMER_API_KEY_ISSUE11landing);
 try {
   const ch = await f.getChangedPaths();

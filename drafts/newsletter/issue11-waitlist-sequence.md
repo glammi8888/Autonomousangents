@@ -26,18 +26,18 @@ New direction, Nov 5, word for word: "Don't give the prompts. They should be gra
 
 ---
 
-## v4 flow (Megan, Nov 5): request received → in between → invited → follow-up
-Supersedes the 5-email v3 below (kept for reference). Needs Megan's OK.
+## v5 flow (Megan, Nov 5): request received → invited (7-day window) → reminder → feedback
+B (in between) removed by Megan ("B is useless"). D now has a real 7-day window instead of "no rush". Needs Megan's OK.
+⚠️ Trust rule: the 7-day window must really close on Dec 18 (see [CONFIRM] in C). If nothing closes, the deadline is fake and can't go out.
 
 | # | When | Job | CTA |
 |---|---|---|---|
-| A | On import (beehiiv welcome) | Request received, we'll be in touch | Add us to your contacts |
-| B | ~1 week after import (or Nov 24) | Something to hold while she waits | Reply with your cover line |
-| C | Dec 11 | You're invited and accepted | Accept your invitation |
-| D | Dec 14, only to people who didn't click C (beehiiv segment: Post C was not clicked) | Gentle nudge | Accept your invitation |
-| E | Dec 18, to people who clicked C | Ask how it's going | Reply with feedback |
+| 1 | On import (beehiiv welcome) | Request received, we'll be in touch | Add us to your contacts |
+| 2 | Thu Dec 11 | You're invited and accepted. Window open 7 days | Accept your invitation |
+| 3 | Tue Dec 16, only to people who didn't click 2 (segment: Post 2 not clicked) | Window closes in 2 days | Accept your invitation |
+| 4 | Thu Dec 18, to people who clicked 2 | Ask how it's going | Reply with feedback |
 
-### A · Request received
+### 1 · Request received
 **Subject:** we've received your request
 **Preview:** ISSUE11 is invite-only. We'll be in touch.
 
@@ -53,25 +53,9 @@ So it doesn't get lost, add this address to your contacts.
 
 Megan
 
-### B · In between
-**Subject:** one line for your cover
-**Preview:** While your request is with us.
-
-{first_name},
-
-Your request is still with us. In the meantime, one question from the editor's desk.
-
-If the next year of your life were on a newsstand, what would the cover line say?
-
-Hit reply with one line.
-
-**[Reply with your cover line]**
-
-Megan
-
-### C · You're invited
+### 2 · You're invited
 **Subject:** you're invited
-**Preview:** Welcome to ISSUE11.
+**Preview:** Your invitation is open for 7 days.
 
 {first_name},
 
@@ -79,28 +63,30 @@ You're invited. Welcome to ISSUE11.
 
 You've been accepted. ISSUE11 is invite-only. You found it early and you were curious enough to ask. That's why you're in.
 
-Your first Issue starts today. [CONFIRM: any guest list perk]
+Your invitation is open for 7 days, until Thursday, December 18. [CONFIRM: what closes then, e.g. the guest list price or access through this link]
 
-**[Accept your invitation]** → [CONFIRM App Store link]
+**[Accept your invitation]** → [CONFIRM link]
 
 See you in print,
 Megan
 
-### D · Follow-up (didn't click C)
-**Subject:** your invitation is still open
-**Preview:** Whenever you're ready.
+### 3 · Reminder (didn't click 2)
+**Subject:** your invitation closes thursday
+**Preview:** 2 days left to accept.
 
 {first_name},
 
-Your invitation to ISSUE11 is still waiting.
+Your invitation to ISSUE11 closes this Thursday, December 18.
 
-No rush. It's here whenever you're ready to start your first Issue.
+After that, it goes to the next person on the guest list. [CONFIRM: true, or cut this line]
+
+If you still want your first Issue, now's the time.
 
 **[Accept your invitation]**
 
 Megan
 
-### E · Feedback
+### 4 · Feedback (clicked 2)
 **Subject:** how's your first issue?
 **Preview:** One week in. Tell me honestly.
 

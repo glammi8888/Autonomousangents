@@ -5,7 +5,7 @@
 
 Last updated: [date of publishing]
 
-This policy explains what we collect on issue11.app, why and what you can do about it. "We" means [legal business name], the company behind ISSUE11. Questions go to [privacy contact email].
+This policy explains what we collect on issue11.app, why and what you can do about it. "We" means ISSUE11, the company behind ISSUE11. Questions go to [privacy contact email].
 
 ## What we collect
 
@@ -58,6 +58,6 @@ If we change this policy, we'll update the date at the top. If the change is imp
 
 ## Contact
 
-[Legal business name]
+ISSUE11
 [Mailing address, can be the iPostal1 address once verified]
 [privacy contact email]

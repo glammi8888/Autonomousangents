@@ -35,6 +35,7 @@ Supersedes the 5-email v3 below (kept for reference). Needs Megan's OK.
 | B | ~1 week after import (or Nov 24) | Something to hold while she waits | Reply with your cover line |
 | C | Dec 11 | You're invited and accepted | Accept your invitation |
 | D | Dec 14, only to people who didn't click C (beehiiv segment: Post C was not clicked) | Gentle nudge | Accept your invitation |
+| E | Dec 18, to people who clicked C | Ask how it's going | Reply with feedback |
 
 ### A · Request received
 **Subject:** we've received your request
@@ -96,6 +97,22 @@ Your invitation to ISSUE11 is still waiting.
 No rush. It's here whenever you're ready to start your first Issue.
 
 **[Accept your invitation]**
+
+Megan
+
+### E · Feedback
+**Subject:** how's your first issue?
+**Preview:** One week in. Tell me honestly.
+
+{first_name},
+
+You've had ISSUE11 for a week. I'd love to know how it's going.
+
+What's one thing you love, and one thing you'd change?
+
+Hit reply. Honest is perfect.
+
+**[Reply with your thoughts]**
 
 Megan
 

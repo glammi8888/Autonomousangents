@@ -26,6 +26,83 @@ New direction, Nov 5, word for word: "Don't give the prompts. They should be gra
 
 ---
 
+## v4 flow (Megan, Nov 5): request received → in between → invited → follow-up
+Supersedes the 5-email v3 below (kept for reference). Needs Megan's OK.
+
+| # | When | Job | CTA |
+|---|---|---|---|
+| A | On import (beehiiv welcome) | Request received, we'll be in touch | Add us to your contacts |
+| B | ~1 week after import (or Nov 24) | Something to hold while she waits | Reply with your cover line |
+| C | Dec 11 | You're invited and accepted | Accept your invitation |
+| D | Dec 14, only to people who didn't click C (beehiiv segment: Post C was not clicked) | Gentle nudge | Accept your invitation |
+
+### A · Request received
+**Subject:** we've received your request
+**Preview:** ISSUE11 is invite-only. We'll be in touch.
+
+{first_name},
+
+We've received your request to be part of ISSUE11.
+
+ISSUE11 is invite-only. We'll get back to you about your invitation status before December 11.
+
+So it doesn't get lost, add this address to your contacts.
+
+**[Add us to your contacts]** → [CONFIRM sender address]
+
+Megan
+
+### B · In between
+**Subject:** one line for your cover
+**Preview:** While your request is with us.
+
+{first_name},
+
+Your request is still with us. In the meantime, one question from the editor's desk.
+
+If the next year of your life were on a newsstand, what would the cover line say?
+
+Hit reply with one line.
+
+**[Reply with your cover line]**
+
+Megan
+
+### C · You're invited
+**Subject:** you're invited
+**Preview:** Welcome to ISSUE11.
+
+{first_name},
+
+You're invited. Welcome to ISSUE11.
+
+You've been accepted. ISSUE11 is invite-only. You found it early and you were curious enough to ask. That's why you're in.
+
+Your first Issue starts today. [CONFIRM: any guest list perk]
+
+**[Accept your invitation]** → [CONFIRM App Store link]
+
+See you in print,
+Megan
+
+### D · Follow-up (didn't click C)
+**Subject:** your invitation is still open
+**Preview:** Whenever you're ready.
+
+{first_name},
+
+Your invitation to ISSUE11 is still waiting.
+
+No rush. It's here whenever you're ready to start your first Issue.
+
+**[Accept your invitation]**
+
+Megan
+
+---
+
+# v3 (superseded, for reference)
+
 ## Email 1 · Accepted (on import)
 **Subject:** you've been accepted
 **Preview:** ISSUE11 is invite-only. You came early.

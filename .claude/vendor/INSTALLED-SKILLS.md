@@ -78,7 +78,7 @@ Not installed: the rest of the library.
 
 ## newsletter-writer (naveedharri/benai-skills) · scanned Nov 5, 2026 · NOT INSTALLED (method borrowed)
 - Source: https://github.com/naveedharri/benai-skills/tree/main/shared-skills/newsletter-writer (MIT), listed on mcpmarket.com. Install cmd would be `npx skillfish add naveedharri/benai-skills newsletter-writer` (not run).
-- Files: SKILL.md (read in full) + 6 reference .md files (grep-scanned for network/keys/injection patterns: none found). No scripts.
+- Files: SKILL.md + references 01–05 read in full; 08 (example newsletters, 649 lines) scanned for instructions/network/install/key patterns. No hidden instructions, no scripts, no installs, no key or .env reading. References hold another person's private business details (team, revenue), so nothing from them is copied.
 - Network: optional Apify scraper tools (paid, not connected here). No key reading.
 - ⚠️ Self-modifying: its "PROGRESSIVE SELF-UPDATE RULE" edits its own SKILL.md without asking. Against our rules (agents may not change skills without Megan's approval).
 - ⚠️ Written entirely for another creator (Ben Van Sprundel): his voice, offers, prices, story. Unusable as-is.

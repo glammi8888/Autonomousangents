@@ -327,3 +327,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-05 · RULE, Megan word for word: "The reports should be rebranded with Glammi studio". Every client-facing report (AI-visibility audits, monthly reports, ad reports) uses Glammi Studio branding only: template drafts/glammi/REPORT-TEMPLATE-ai-visibility.html (brand guidelines Notion 409997ea481081b9808ef6c0666c78f6: Geist, black/white, ✳ wordmark, #FF2600 handwritten labels). Never show tool names or tool branding (Mangools, claude-ads, Hyperagent) to clients; real numbers only; quote AI answers exactly. Open: contact email in reports = megan@glammi.ai (brand guide) or glammiagency@gmail.com (onboarding draft)? Ask Megan.
 
 - 2026-11-05 · Megan: client contact email = megan@glammi.ai ("Megan@glammi.ai is great"). Client reports end with "reply or write to megan@glammi.ai" + next monthly check-in date, never "Book a discovery call" (that CTA is for prospects only).
+
+- 2026-11-05 · Megan: Hyperagent "Cancelled". Client audits = Mangools + our agents. Don't suggest it again.

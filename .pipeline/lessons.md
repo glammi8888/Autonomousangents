@@ -45,6 +45,7 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 - 2026-10-14 (Manager): When Megan struggles to build, simplify scope before writing more prompts. Her own idea (a UX "simplify" pass on V1) unblocked her; Manager should offer a "what can wait until after launch?" pass first next time.
 
 ## Suggestions
+- 2026-11-06 · OPS (Friday retro) · Allow `git merge` + `git push` to claude/fervent-volta-fibmd4 in this repo's Claude permissions · why: Megan's "ok to merge" was blocked twice and needed a room hop · cost: $0 · security: only the working branch, never main (Production Safety Rule unchanged) · free alternative: Megan types "ok to merge" in each room. Needs Megan's OK.
 Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-10-01 · Launch Prep Room · 💡 Suggestion · A one-page "Launch calendar" (Oct 1 → Jan 11: grant, socials, holding page, recordings, beta, nomination, App Review) in the repo · why: dates now live in 6 files and two of them disagree (Hey Helen Oct vs Nov) · cost: 15 min, one agent run.
 - 2026-10-02 · Design Room · Megan (word for word): "The chat isn't the feature. The actions it can take are the feature." Rule: AI features in ISSUE11 are contextual, action-first and editorial (never a ChatGPT-style chat). Every AI answer must create or change something real.

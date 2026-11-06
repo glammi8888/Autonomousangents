@@ -319,3 +319,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-05 · Megan (word for word): "PR: allw the \"Re\"". Rule: PR pitches may use "Re: [journalist's real article headline]"; never fake a past thread.
 
 - 2026-11-05 FACT (Megan, word for word): "booking page already done on glammi.ai it's calendly". Never list the Glammi booking page as to-do again.
+
+- 2026-11-06 · 🩷 EXTERNAL (Glammi) · Drafted drafts/glammi/CLIENT-AGREEMENT-DRAFT-v1.md + CLIENT-ONBOARDING-v1.md (drafts only, attorney review required). Reused PRICING-EVALUATION §6 terms instead of a new structure. Found 2 conflicts to settle before client #1: the pilot "60-day cancel-anytime" vs the 3-month AEO minimum, and the tracker free plan (5 prompts, full) can't run client baselines. Lesson: check fulfilment capacity (tools, prompt slots) when drafting a contract, not after signing.

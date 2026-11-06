@@ -317,3 +317,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-06 · OPS · My mistake: I wrote "App Store launch Dec 11" in the Media Buyer brief, its agent file and the Megan Today goals/countdown, though lessons.md (Nov 5) says Dec 11 = BETA. Media Buyer caught it; all fixed. Lesson: grep lessons.md for dates before writing any deadline.
 
 - 2026-11-05 · Megan (word for word): "PR: allw the \"Re\"". Rule: PR pitches may use "Re: [journalist's real article headline]"; never fake a past thread.
+
+- 2026-11-05 FACT (Megan, word for word): "booking page already done on glammi.ai it's calendly". Never list the Glammi booking page as to-do again.

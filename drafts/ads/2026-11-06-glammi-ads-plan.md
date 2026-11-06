@@ -6,6 +6,8 @@
 
 ---
 
+> ✅ Update Nov 5 (Megan): the booking page is already live on glammi.ai (Calendly). Item (b) below is done.
+
 ## 1. Recommendation (3 lines)
 1. **Not yet. Cold email + daily articles first.** Cold email costs no extra cash per booked call, while Google charges an estimated $16 to $31 per click on our terms. At a $499 price, one paid client would cost more than the first 3 months bring in (math in section 3).
 2. **Must exist before $1 is spent:** (a) a confirmed offer and price, (b) the booking page live on glammi.ai with the calendar embedded, (c) tracking that counts a booked call, plus a privacy policy that mentions it, (d) payments working (bank → Stripe), so a "yes" on the call can actually pay.

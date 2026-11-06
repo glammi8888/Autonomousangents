@@ -9,7 +9,7 @@ Drafted Nov 6, 2026 by an agent for Megan. Not sent, not signed, not published. 
 
 | | |
 |---|---|
-| **Provider** | [LEGAL ENTITY NAME AND STRUCTURE — open question: separate business or same DBA as ISSUE11], doing business as Glammi Studio ("Glammi", "we") · [BUSINESS ADDRESS] · glammiagency@gmail.com · glammi.ai |
+| **Provider** | [LEGAL ENTITY NAME AND STRUCTURE — open question: separate business or same DBA as ISSUE11], doing business as Glammi Studio ("Glammi", "we") · [BUSINESS ADDRESS] · megan@glammi.ai · glammi.ai |
 | **Client** | [CLIENT LEGAL NAME] ("you") · [CLIENT ADDRESS] · [CLIENT CONTACT NAME AND EMAIL] |
 | **Claims approver** | [NAME AND ROLE of the person at your business who approves medical, treatment and product claims, e.g. medical director] |
 | **Plan(s)** | ☐ AEO/GEO Essentials: [PRICE — proposed $499/mo] · ☐ Glammi Site (Schedule B): [PRICE — proposed $199/mo] · ☐ Custom design add-on: [PRICE — proposed $499 one-time] |
@@ -101,7 +101,7 @@ This agreement is governed by the laws of [STATE]. [DISPUTE RESOLUTION — e.g. 
 
 ## 15. General
 - **Whole agreement:** this agreement (with the Order Form and schedules) replaces earlier discussions. Changes must be in writing and agreed by both of us. Email counts as writing.
-- **Notices:** to Glammi at glammiagency@gmail.com; to you at the email in the Order Form.
+- **Notices:** to Glammi at megan@glammi.ai; to you at the email in the Order Form.
 - **Events outside our control:** neither of us is responsible for delays caused by things like platform outages, natural disasters or changes by Google or AI companies.
 - **Assignment:** neither of us transfers this agreement to someone else without the other's written OK, except as part of selling the business.
 - If one part turns out to be unenforceable, the rest still applies.

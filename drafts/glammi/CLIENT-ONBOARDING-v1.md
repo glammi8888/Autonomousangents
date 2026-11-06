@@ -67,7 +67,7 @@ We don't need your passwords, your booking software, your payment details or any
 - For med spas and clinics: your claims approver signs off on anything about treatments, results or safety
 
 ## How to reach us
-Email **glammiagency@gmail.com**. We reply within [2] business days ([hours and time zone]). Want to talk it through? Ask in your email and we'll send a time.
+Email **megan@glammi.ai**. We reply within [2] business days ([hours and time zone]). Want to talk it through? Ask in your email and we'll send a time.
 
 ## What we never do
 - Ask for your passwords
@@ -81,7 +81,7 @@ Email **glammiagency@gmail.com**. We reply within [2] business days ([hours and 
 - Contact your clients or patients
 
 We're glad you're here.
-**Glammi Studio** · glammi.ai · glammiagency@gmail.com
+**Glammi Studio** · glammi.ai · megan@glammi.ai
 
 ---
 ---
@@ -99,7 +99,7 @@ Owner key: **M** = Megan (human gates: contracts, payments, sending, client call
 | 4 | Agreement signed by both | M countersigns | Signed PDF in the client folder |
 | 5 | Stripe payment link created and sent | M | Link sent from Megan's account |
 | 6 | First payment received | M confirms | Stripe shows paid. **No work starts before this** |
-| 7 | Welcome email drafted (Part 1 + kickoff link + intake link) | A drafts, M sends | Sent from glammiagency@gmail.com |
+| 7 | Welcome email drafted (Part 1 + kickoff link + intake link) | A drafts, M sends | Sent from megan@glammi.ai |
 | 8 | Private client folder created ([STORAGE TOOL]) | A | Folder link on the client's Notion page |
 
 ### First 30 days
@@ -123,6 +123,7 @@ Remove Glammi from every account on the access list within [10] business days (M
 
 ### Watch-outs
 - Prices and article counts are still proposals: use whatever the signed Order Form says.
+- Contact on all client docs + reports: megan@glammi.ai (Megan, Nov 5).
 - Client audits run on Mangools AI Search Watcher (paid Basic plan since Nov 4; verified Nov 5: 400 of 500 AI prompts left, unlimited monitors). Each client = 1 monitor + ~10-20 prompts, so ~20 clients fit before the prompt limit. Track prompts per client.
 - Never name our tools in anything client-facing.
 - Patient info sent by mistake: tell Megan, tell the client, delete it, log it.

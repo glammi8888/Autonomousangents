@@ -3,6 +3,17 @@
 Every pipeline agent reads this before starting and adds max 2 dated lines at the end of its step.
 Format: `- YYYY-MM-DD · <Planner|Builder|QA|Reviewer> · <lesson>`
 A lesson that appears twice gets promoted into that agent's file in `.claude/agents/`, and is removed here.
+
+## 📌 CURRENT FACTS (read first; OPS updates this box every Friday. Last: Nov 6, 2026)
+Why: this week Megan corrected us 4 times on facts that were already in this file (Dec 11 date, Mangools plan, booking page, contact email). Check this box before writing any date, price, tool or contact.
+- ISSUE11: **Dec 11, 2026 = private beta.** App Store launch date is set after the beta (never write "launches Dec 11").
+- ISSUE11 prices (Megan OK Nov 5): Monthly $9.99 (no trial) · Yearly $59.99 (7-day trial) · launch offer $39.99 first year. Website FAQ still says "50% off": open decision.
+- ISSUE11 waitlist: live on issue11.app (Megan's form → Google Sheet → beehiiv CSV). Email sequence final v6 saved (drafts/newsletter/issue11-waitlist-sequence.md).
+- ISSUE11 email: megan@issue11.app (main) + support@issue11.app (alias; also privacy contact). Megan setting up Nov 6.
+- Megan builds the app herself in Replit; agents don't put "approve the build" items on her list.
+- Glammi: booking page live (Calendly on glammi.ai). Contact on all client docs: megan@glammi.ai. Client reports = Glammi branding only, CTA = monthly check-in (never "Book a discovery call").
+- Glammi prices: NOT confirmed ($499/mo AEO, $199/mo site are proposals).
+- Tools: Mangools = paid Basic plan (AI Search Watcher covers client audits). Hyperagent cancelled. 17MedSpa articles paused. Christian's business parked.
 Allowed: better ways of working. Never allowed: weakening tests, the App Store checklist or the Production Safety Rule.
 
 ## 💗 From Megan

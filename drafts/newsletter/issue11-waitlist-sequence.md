@@ -1,119 +1,76 @@
-# ISSUE11 guest list sequence · DRAFT v2 (not approved, not sent)
-💚 GROWTH, Nov 5, 2026. v1 rejected by Megan ("No this is terrible"). Her frame, word for word: "It is an exclusive access invite only. Because they're here early and curious enough they are accepted by exclusive invite only."
+# ISSUE11 guest list email sequence · FINAL v6 (Megan, Nov 6, 2026)
+💚 GROWTH. Drafts only: nothing sent or scheduled. Full history (v1 to v6 and the 12-round improve log) is on branch claude/fervent-volta-fibmd4-newsletter.
 
-## Pass criteria (the loop runs until every line passes)
-1. Each email reads like a letter from an exclusive editorial house (acceptance letter, guest list, masthead), not a SaaS drip.
-2. The frame holds in every email: invite-only; you were accepted because you came early and curious. Never "waitlist", "sign up", "spots" or "launch".
-3. One clear step from request to accepted to invitation to doors open (Dec 11).
-4. Restraint: no feature lists or sales pitch. Show less and keep some mystery. Each email is under 120 words.
-5. Magazine language (Issue, in print, edition, editor's desk, assignment), used lightly.
-6. Exactly one CTA, and it's real.
-7. Nothing fake: no invented perks, limits, numbers or Megan anecdotes. Unknown facts go in [CONFIRM].
-8. ANTI-SLOP + skill rules: "you", no em dashes, no Oxford comma, no "not X, it's Y", no three short fragments in a row, no hype words.
-9. Subject lines: lowercase, 3 to 8 words, under 45 characters, and they feel like an invitation.
+**Megan's rules for this sequence (word for word):** "It is an exclusive access invite only. Because they're here early and curious enough they are accepted by exclusive invite only." · "Don't give the prompts. They should be grateful to have access in the first place lol" · "keep things concise and sweet" · founding member rate, first year only, never state the price.
 
-**How it sends:** email 1 is the beehiiv welcome email (on CSV import). Emails 2 to 5 are posts Megan sends to the whole list on the date.
-**Footer (every email):** ISSUE11 · [business mailing address after iPostal1] · beehiiv unsubscribe · issue11.app/privacy (page still needed).
+**Offer:** founding member rate = $4.99/mo for the first year for the first 1,000 (as on the landing page). Must work in the app on Dec 11 (offer code or RevenueCat; subscriptions = Megan's explicit approval).
+**Footer (every email):** ISSUE11 · [business mailing address after iPostal1] · beehiiv unsubscribe · issue11.app/privacy.
+**Open:** sender address; App Store link; email 3 "last call" must truly be the last invite email.
 
-| # | Send | One job | One CTA |
+| # | When | Job | CTA |
 |---|---|---|---|
-| 1 | On import | You've been accepted | Open your first assignment (Prompt Pack) |
-| 2 | Tue Nov 18 | One question from the editor's desk | Reply with one line |
-| 3 | Mon Nov 24 | A first look, guest list only | Extend an invitation |
-| 4 | Thu Dec 4 | Your invitation arrives in one week | Save the date |
-| 5 | Thu Dec 11 | This is your invitation | Accept your invitation (App Store) |
+| 1 | On import (beehiiv welcome) | Request received | Add us to your contacts |
+| 2 | Thu Dec 11 | You're invited | Accept your invitation |
+| 3 | Tue Dec 16, didn't click 2 (segment: Post 2 not clicked) | Last call + founding rate scarcity | Open your invitation |
+| 4 | Thu Dec 18, clicked 2 | Feedback | Reply |
 
----
-
-## Email 1 · Accepted (on import)
-**Subject:** you've been accepted
-**Preview:** ISSUE11 is invite-only. You're in.
+### 1 · Request received
+**Subject:** we've received your request
 
 {first_name},
 
-You've been accepted.
+We've received your request to be part of ISSUE11.
 
-ISSUE11 is invite-only. You found it early and you were curious enough to ask, and that's exactly who we let in first.
+ISSUE11 is invite-only. We'll get back to you about your invitation status before December 11.
 
-The first Issues go out December 11. Until then you'll get a few letters from me and nothing else.
+So it doesn't get lost, add this address to your contacts.
 
-Your first assignment is already here: eleven prompts, ten minutes a week. Start with number 06. It asks what staying where you are protects you from.
+**[Add us to your contacts]**
 
-**[Open your first assignment]** → [CONFIRM Prompt Pack link]
+Megan
+
+### 2 · You're invited
+**Subject:** you're invited
+
+{first_name},
+
+You're invited. Welcome to ISSUE11.
+
+You've been accepted. ISSUE11 is invite-only. You found it early and you were curious enough to ask. That's why you're in.
+
+Accept now to claim your founding member rate.
+
+**[Accept your invitation]**
 
 See you in print,
 Megan
 
----
-
-## Email 2 · From the editor's desk (Tue Nov 18)
-**Subject:** a question from the editor's desk
-**Preview:** Every Issue starts with one line.
+### 3 · Last call (didn't click 2)
+**Subject:** last call for your invitation
 
 {first_name},
 
-Every Issue starts with a question. Here's yours.
+You asked for this. You found ISSUE11 early, requested access and got accepted.
 
-What do you want your next chapter to hold?
+Your invitation is still unopened, and the founding member rate is only for the first 1,000 who accept.
 
-One line is enough. Hit reply and it comes straight to me. Keep a copy for yourself too, because it's the first line of your first page.
+Open it or let it go.
 
-**[Reply with your line]**
+**[Open your invitation]**
 
 Megan
 
----
-
-## Email 3 · A first look (Mon Nov 24)
-**Subject:** a first look, guest list only
-**Preview:** Before anyone else sees it.
+### 4 · Feedback (clicked 2)
+**Subject:** how's your first issue?
 
 {first_name},
 
-Before anyone else sees it, here's a page from inside ISSUE11.
+You've had ISSUE11 for a week. I'd love to know how it's going.
 
-[IMAGE: one real page. Megan picks.]
+We're new and we're indie developers, so your feedback shapes what we build next. Anything goes: what you love, what's confusing, what's missing.
 
-It started as a few saved images and one honest line. The Editor did the layout and left the words alone.
+Hit reply. Honest is perfect.
 
-If someone you know keeps a board full of saved dreams, you're welcome to extend an invitation. She'll request access the same way you did.
-
-**[Extend an invitation]** → issue11.app
-
-Megan
-
----
-
-## Email 4 · One week (Thu Dec 4)
-**Subject:** your invitation arrives thursday
-**Preview:** One thing to do before the doors open.
-
-{first_name},
-
-Your invitation arrives here next Thursday, December 11.
-
-Before then, choose one image you'd want on your first page. That's your cover.
-
-So there are no surprises: membership is $9.99 a month with your digital magazine included. A printed Issue is optional at $29.99, with free shipping in the US. [CONFIRM or delete: guest list price]
-
-**[Save December 11]** → [Google Calendar link]
-
-Megan
-
----
-
-## Email 5 · Doors open (Thu Dec 11)
-**Subject:** your invitation
-**Preview:** The doors are open.
-
-{first_name},
-
-The doors are open. This is your invitation.
-
-Start with one page: the image you chose last week and one honest line under it. The Editor will take it from there.
-
-**[Accept your invitation]** → [App Store link]
-
-Thank you for coming early and for being curious.
+**[Reply with your thoughts]**
 
 Megan

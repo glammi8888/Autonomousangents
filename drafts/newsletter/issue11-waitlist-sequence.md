@@ -26,20 +26,18 @@ New direction, Nov 5, word for word: "Don't give the prompts. They should be gra
 
 ---
 
-## v5 flow (Megan, Nov 5): request received → invited (7-day window) → reminder → feedback
-B (in between) removed by Megan ("B is useless"). D now has a real 7-day window instead of "no rush". Needs Megan's OK.
-⚠️ Trust rule: the 7-day window must really close on Dec 18 (see [CONFIRM] in C). If nothing closes, the deadline is fake and can't go out.
+## FINAL v6 (Megan, Nov 6): 4 emails, needs her last OK
+Offer: founding member rate = $4.99/mo for the first year for the first 1,000 (as on the landing page). Never state the price in emails (Megan). Must work in the app on Dec 11 (offer code or RevenueCat, Megan's approval: subscriptions).
 
 | # | When | Job | CTA |
 |---|---|---|---|
-| 1 | On import (beehiiv welcome) | Request received, we'll be in touch | Add us to your contacts |
-| 2 | Thu Dec 11 | You're invited and accepted. Window open 7 days | Accept your invitation |
-| 3 | Tue Dec 16, only to people who didn't click 2 (segment: Post 2 not clicked) | Window closes in 2 days | Accept your invitation |
-| 4 | Thu Dec 18, to people who clicked 2 | Ask how it's going | Reply with feedback |
+| 1 | On import (beehiiv welcome) | Request received | Add us to your contacts |
+| 2 | Thu Dec 11 | You're invited | Accept your invitation |
+| 3 | Tue Dec 16, didn't click 2 (segment: Post 2 not clicked) | Firm nudge + founding rate scarcity | Open your invitation |
+| 4 | Thu Dec 18, clicked 2 | Feedback | Reply |
 
 ### 1 · Request received
 **Subject:** we've received your request
-**Preview:** ISSUE11 is invite-only. We'll be in touch.
 
 {first_name},
 
@@ -49,13 +47,12 @@ ISSUE11 is invite-only. We'll get back to you about your invitation status befor
 
 So it doesn't get lost, add this address to your contacts.
 
-**[Add us to your contacts]** → [CONFIRM sender address]
+**[Add us to your contacts]**
 
 Megan
 
 ### 2 · You're invited
 **Subject:** you're invited
-**Preview:** Your invitation is open for 7 days.
 
 {first_name},
 
@@ -63,32 +60,30 @@ You're invited. Welcome to ISSUE11.
 
 You've been accepted. ISSUE11 is invite-only. You found it early and you were curious enough to ask. That's why you're in.
 
-Your invitation is open for 7 days, until Thursday, December 18. [CONFIRM: what closes then, e.g. the guest list price or access through this link]
+Accept now to claim your founding member rate.
 
-**[Accept your invitation]** → [CONFIRM link]
+**[Accept your invitation]**
 
 See you in print,
 Megan
 
-### 3 · Reminder (didn't click 2)
-**Subject:** your invitation closes thursday
-**Preview:** 2 days left to accept.
+### 3 · Nudge (didn't click 2)
+**Subject:** your invitation is still unopened
 
 {first_name},
 
-Your invitation to ISSUE11 closes this Thursday, December 18.
+You asked for this. You found ISSUE11 early, requested access and got accepted.
 
-After that, it goes to the next person on the guest list. [CONFIRM: true, or cut this line]
+Your invitation is still unopened, and the founding member rate is only for the first 1,000 who accept.
 
-If you still want your first Issue, now's the time.
+Open it or let it go.
 
-**[Accept your invitation]**
+**[Open your invitation]**
 
 Megan
 
 ### 4 · Feedback (clicked 2)
 **Subject:** how's your first issue?
-**Preview:** One week in. Tell me honestly.
 
 {first_name},
 

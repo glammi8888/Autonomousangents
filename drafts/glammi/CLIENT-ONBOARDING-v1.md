@@ -123,6 +123,6 @@ Remove Glammi from every account on the access list within [10] business days (M
 
 ### Watch-outs
 - Prices and article counts are still proposals: use whatever the signed Order Form says.
-- The visibility tracker's free plan is full (5 prompts, 1 monitor, all used for Glammi's own tracking). A client baseline and monthly re-audits need either a paid plan (Megan's OK first) or a manual method. Decide before client #1.
+- Client audits run on Mangools AI Search Watcher (paid Basic plan since Nov 4; verified Nov 5: 400 of 500 AI prompts left, unlimited monitors). Each client = 1 monitor + ~10-20 prompts, so ~20 clients fit before the prompt limit. Track prompts per client.
 - Never name our tools in anything client-facing.
 - Patient info sent by mistake: tell Megan, tell the client, delete it, log it.

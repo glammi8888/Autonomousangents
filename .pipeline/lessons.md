@@ -321,3 +321,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-05 FACT (Megan, word for word): "booking page already done on glammi.ai it's calendly". Never list the Glammi booking page as to-do again.
 
 - 2026-11-06 · 🩷 EXTERNAL (Glammi) · Drafted drafts/glammi/CLIENT-AGREEMENT-DRAFT-v1.md + CLIENT-ONBOARDING-v1.md (drafts only, attorney review required). Reused PRICING-EVALUATION §6 terms instead of a new structure. Found 2 conflicts to settle before client #1: the pilot "60-day cancel-anytime" vs the 3-month AEO minimum, and the tracker free plan (5 prompts, full) can't run client baselines. Lesson: check fulfilment capacity (tools, prompt slots) when drafting a contract, not after signing.
+
+- 2026-11-05 · OPS · Mangools is on the paid Basic plan (Megan, Nov 4). Verified Nov 5: 400/500 AI Search Watcher prompts left, unlimited monitors: client audits are covered. Never call it "free plan, full" again. Megan on Hyperagent (word for word): "It's literally an ai wrapper with a high price" — our agents + Mangools do client audits; recommend she cancels it.

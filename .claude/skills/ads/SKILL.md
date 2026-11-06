@@ -364,6 +364,6 @@ Community links may appear only when the operator explicitly enables branding.
 - No paid API calls without Megan's OK: don't configure or call image providers (`ads generate`, `ads photoshoot`) or set any key. Reference keys by variable name only; never read `.env*`.
 - Don't install or enable the Cockpit mod, run `install.sh`, or pip-install anything without Megan's OK.
 - Real numbers only: never invent results, benchmarks presented as ours, testimonials, or client logos. Health claims follow ISSUE11's no-medical-claims rules; med-spa ads follow FTC + Meta health policy.
-- Before sending any report to a Glammi client, remove the "Powered by claude-ads" header/footer and GitHub link.
+- Every client-facing report is branded Glammi Studio (Megan, Nov 5: "The reports should be rebranded with Glammi studio"): remove the "Powered by claude-ads" header/footer and GitHub link, and use the Glammi report template `drafts/glammi/REPORT-TEMPLATE-ai-visibility.html` + the Glammi brand guidelines (Notion 409997ea481081b9808ef6c0666c78f6).
 - Copy follows Megan's voice rules (`.claude/skills/copywriting` overrides) and `design/POSITIONING.md` for ISSUE11.
 - Note: several reference claims hit `refresh_due` Nov 6, 2026; treat them as provisional until `/ads research refresh` reverifies them.

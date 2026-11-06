@@ -1,0 +1,123 @@
+<title>Glammi AI Visibility Report</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Nanum+Pen+Script&display=swap">
+<style>
+/* Layout: Glammi newsletter system (Megan, Oct 30) applied to a client report — one 680px white column, black feature panel, outlined white cards, pill CTA. Black and white dominate; #FF2600 only for handwritten labels. */
+:root{
+  --ink:#000000; --paper:#ffffff; --soft:#f7f7f7; --muted:#5f5f5f; --accent:#ff2600; --mint:#00ffbb;
+  --sans:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif; --hand:"Nanum Pen Script","Comic Sans MS",cursive;
+  color-scheme:light;
+}
+body{background:var(--soft);color:var(--ink);font:16px/1.65 var(--sans);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 56px}
+.page{max-width:680px;margin:0 auto;background:var(--paper);border-radius:20px;padding:28px clamp(18px,5vw,44px) 36px;display:flex;flex-direction:column;gap:28px}
+.head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;border-bottom:1px solid var(--ink);padding-bottom:14px}
+.mark{font-weight:500;font-size:20px;letter-spacing:-.01em;display:flex;align-items:center;gap:6px}
+.mark b{font-weight:500;font-size:22px;line-height:1}
+.issue{font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:500}
+.hand{font-family:var(--hand);color:var(--accent);font-size:20px;line-height:1}
+h1{font-weight:400;font-size:clamp(32px,6vw,48px);line-height:1.05;letter-spacing:-.03em;margin:6px 0 0;text-wrap:balance}
+h2{font-weight:400;font-size:26px;letter-spacing:-.02em;line-height:1.15;margin:0 0 12px;text-wrap:balance}
+p{margin:0;max-width:62ch}
+.intro{font-size:17px;color:var(--ink)}
+.ph{background:#fffb00;padding:0 3px;border-radius:3px}
+.scores{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (min-width:560px){.scores{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.score{border:1px solid var(--ink);border-radius:16px;padding:14px}
+.score .n{font-size:30px;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1}
+.score .l{font-size:13px;color:var(--muted);margin-top:6px}
+.panel{background:var(--ink);color:var(--paper);border-radius:20px;padding:22px}
+.panel .hand{color:var(--mint)}
+.answer{background:var(--paper);color:var(--ink);border-radius:12px;padding:14px 16px;margin-top:14px;font-size:15px}
+.answer .q{font-size:13px;color:var(--muted);margin-bottom:6px}
+.tbl{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px;font-variant-numeric:tabular-nums}
+th,td{border-bottom:1px solid #e3e3e3;padding:9px 8px;text-align:left;vertical-align:top}
+th{font-weight:500;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.cards{display:grid;gap:12px}
+.card{border:1px solid var(--ink);border-radius:16px;padding:16px}
+.card h3{font-weight:400;font-size:20px;margin:0 0 6px}
+ul{margin:0;padding-left:20px} li{margin:4px 0;max-width:60ch}
+.cta{display:flex;flex-direction:column;gap:12px;align-items:flex-start}
+.pill{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--paper);border-radius:999px;padding:12px 22px;font:500 15px var(--sans);text-decoration:none;min-height:44px;box-sizing:border-box}
+.pill:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.foot{border-top:1px solid var(--ink);padding-top:14px;font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.note{font-size:13px;color:var(--muted)}
+.tpl{max-width:680px;margin:0 auto 14px;font-size:13px;color:var(--muted)}
+</style>
+
+<p class="tpl">Template. Yellow = fill in from the client's real data. Delete this line before sending.</p>
+<main class="page">
+  <header class="head">
+    <div class="mark"><b aria-hidden="true">✳</b> Glammi Studio</div>
+    <div class="issue">AI visibility / <span class="ph">[Month Year]</span></div>
+  </header>
+
+  <section>
+    <div class="hand">From the studio</div>
+    <h1><span class="ph">[Client name]</span> in AI answers</h1>
+  </section>
+
+  <p class="intro">Your clients are already asking AI where to go. This report shows what ChatGPT, Gemini, Perplexity and Google's AI answers say about <span class="ph">[Client name]</span> today, where those answers come from, and what we're changing next.</p>
+
+  <section aria-label="Scores">
+    <div class="scores">
+      <div class="score"><div class="n ph">[x]%</div><div class="l">Mentioned in answers</div></div>
+      <div class="score"><div class="n ph">[x]%</div><div class="l">Answers linking to you</div></div>
+      <div class="score"><div class="n ph">[x]/[y]</div><div class="l">Answers that got your details right</div></div>
+      <div class="score"><div class="n ph">[n]</div><div class="l">Questions we track</div></div>
+    </div>
+    <p class="note" style="margin-top:8px">Measured <span class="ph">[date range]</span> across <span class="ph">[n]</span> questions your clients ask. AI answers change from day to day, so we track trends, not single answers.</p>
+  </section>
+
+  <section class="panel">
+    <div class="hand">What AI says today</div>
+    <h2 style="margin-top:6px">The answer your next client sees</h2>
+    <div class="answer">
+      <div class="q">Asked: "<span class="ph">[real tracked question, e.g. best med spa for lip filler in Beverly Hills]</span>" · <span class="ph">[engine, date]</span></div>
+      <span class="ph">[Short real excerpt of the AI answer. Quote it exactly; never edit what the AI said.]</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Question by question</h2>
+    <div class="tbl"><table>
+      <thead><tr><th>Question</th><th>ChatGPT</th><th>Gemini</th><th>Perplexity</th><th>Google AI</th></tr></thead>
+      <tbody>
+        <tr><td class="ph">[question 1]</td><td class="ph">[mentioned / not]</td><td class="ph">[ ]</td><td class="ph">[ ]</td><td class="ph">[ ]</td></tr>
+        <tr><td class="ph">[question 2]</td><td class="ph">[ ]</td><td class="ph">[ ]</td><td class="ph">[ ]</td><td class="ph">[ ]</td></tr>
+        <tr><td class="ph">[question 3]</td><td class="ph">[ ]</td><td class="ph">[ ]</td><td class="ph">[ ]</td><td class="ph">[ ]</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>Where AI gets its answers</h2>
+    <p>The sites AI cited most when answering your clients' questions. These are the places worth being right on.</p>
+    <div class="tbl" style="margin-top:10px"><table>
+      <thead><tr><th>Source</th><th>Times cited</th><th>You're listed correctly?</th></tr></thead>
+      <tbody>
+        <tr><td class="ph">[e.g. Google Maps]</td><td class="ph">[n]</td><td class="ph">[yes / fix needed]</td></tr>
+        <tr><td class="ph">[e.g. Yelp]</td><td class="ph">[n]</td><td class="ph">[ ]</td></tr>
+        <tr><td class="ph">[source 3]</td><td class="ph">[n]</td><td class="ph">[ ]</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="cards">
+    <h2 style="margin:0">This month</h2>
+    <div class="card"><h3>What we fixed</h3><ul><li class="ph">[real change, e.g. corrected hours on your Google Business Profile]</li><li class="ph">[real change]</li></ul></div>
+    <div class="card"><h3>What we're doing next</h3><ul><li class="ph">[next step]</li><li class="ph">[next step]</li></ul></div>
+    <div class="card"><h3>What we need from you</h3><ul><li class="ph">[approval or access, or "Nothing this month"]</li></ul></div>
+  </section>
+
+  <section class="cta">
+    <p>Questions about this report? Let's walk through it together.</p>
+    <a class="pill" href="https://glammi.ai" target="_blank" rel="noopener">Book a discovery call <span aria-hidden="true">→</span></a>
+  </section>
+
+  <footer class="foot">
+    <div>Glammi Studio · Los Angeles, California · <span class="ph">[contact email]</span></div>
+    <div>AI answers vary by person, place and day. We don't control what AI engines say and can't guarantee placement; we improve the sources they rely on and report what we measure.</div>
+  </footer>
+</main>

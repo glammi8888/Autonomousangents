@@ -89,7 +89,7 @@ Megan
 
 You've had ISSUE11 for a week. I'd love to know how it's going.
 
-What's one thing you love, and one thing you'd change?
+We're new and we're indie developers, so your feedback shapes what we build next. Anything goes: what you love, what's confusing, what's missing.
 
 Hit reply. Honest is perfect.
 

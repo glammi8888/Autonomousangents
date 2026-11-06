@@ -1,7 +1,7 @@
 # 🍎 App Store readiness checklist (ISSUE11)
 
 Megan's rule: ISSUE11 must qualify for the Apple App Store. The Planner checks new features against this list, and the Reviewer treats a likely rejection as a blocker.
-**Last checked:** Oct 2, 2026 (sources: developer.apple.com/news, /news/upcoming-requirements). Apple changes these rules often, so re-verify against the official App Review Guidelines at build start (Nov) and before submission (Jan).
+**Last checked:** Nov 6, 2026 (sources: developer.apple.com/news items Oct 2 – Nov 4, 2026; previous check Oct 2). Apple changes these rules often, so re-verify against the official App Review Guidelines at build start (Nov) and before submission (Jan).
 
 ## Build & tooling
 - [ ] Built with **Xcode 26 / iOS 26 SDK or later** (required for uploads since Apr 28, 2026). Check that the Despia or Capacitor output meets this. Current release is iOS 27: build and test with the latest Xcode 27.x.
@@ -57,3 +57,13 @@ Megan's rule: ISSUE11 must qualify for the Apple App Store. The Planner checks n
 - Account deletion also deletes generated issues.
 - Re-check current App Store guidelines on AI and user data at build start and before submission.
 - Lucky Star (AI helper, spec: design/lucky-star-spec.md): "AI can make mistakes" label, crisis-word message with resources, no health/medical/financial advice, app still works with AI turned off.
+
+## New since Oct 2, 2026 (checked Nov 6 by 🩶 OPS)
+- [ ] **Age rating questionnaire (from Nov 16, 2026; all apps by Jan 12, 2027):** answer the new "Shared Location" and "Dating and Relationships" descriptors in App Store Connect. ISSUE11 has neither → answer No, but the answers are required before submission.
+- [ ] **Guideline 2.5.19 (Oct 16):** no hidden or undocumented features and no feature switch-on after approval. Anything behind a remote flag (e.g. the Editor, print orders) must be visible in review or described in the review notes.
+- [ ] **Guideline 2.3.14 (Oct 16):** new rule on creative assets (screenshots, previews). Use real app UI in screenshots; re-read 2.3.14 before making the App Store screenshots.
+- [ ] **Guideline 1.2 (Oct 16):** explicitly bans nonconsensual intimate imagery incl. AI-generated. If users can upload photos to their magazine, keep the report/remove path and AI image rules in place.
+- [ ] **iPhone Duo (launched Oct 23):** iPhone Duo screenshots required for submissions from April 2027. Submitting before April → optional, but recompile with Xcode 27.1+ and check the layout on Duo.
+- [ ] **SDK minimum (from Sep 9 notice):** from April 2027, uploads must use the iOS 27 SDK. Plan the build for that if submission slips past March.
+- Opportunity: **Retention messages (Nov 4)** in the subscription cancellation flow (text, image or offer) are configurable in App Store Connect. Worth adding at launch (Revenue Lead).
+- Opportunity: **new product page headers / search result assets (Oct 5)** help App Store featuring; add to the ASO plan.

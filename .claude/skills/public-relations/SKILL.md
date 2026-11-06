@@ -162,5 +162,5 @@ PR earns the highest-ceiling links but takes the most effort. For reclamation, p
 - Real proof only: example numbers ("10,000+ teams", "5,000+ downloads") are placeholders; use only real, current counts or leave them out. No fake urgency, scarcity, countdowns, reviews or testimonials; deadlines must be real.
 - Follow Megan's copy rules (`.claude/skills/copywriting` overrides), `design/POSITIONING.md` (ISSUE11) and `.pipeline/lessons.md` (latest dates: Dec 11 = ISSUE11 beta).
 - No paid tools, trials or new accounts without Megan's OK; never install packages.
-- No fake "Re:" subject lines on cold pitches. Use real published journalist emails or platform inboxes (Qwoted, Featured); never guess-and-bounce-check addresses or scrape.
+- "Re:" subject lines are allowed (Megan, Nov 5: "PR: allw the \"Re\"") when they name the journalist's real article, e.g. "Re: [their actual headline]". Never invent a past conversation ("Re: our call", "Re: following up" when there was none). Use real published journalist emails or platform inboxes (Qwoted, Featured); never guess-and-bounce-check addresses or scrape.
 - Megan sends every pitch and answer herself.

@@ -315,3 +315,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-06 · 💚 GROWTH (Media Buyer) · Glammi ads plan (drafts/ads/2026-11-06-glammi-ads-plan.md): the repo has NO confirmed Glammi price ($499/mo is only the Oct 26 proposal), and our own keyword-tool CPCs ($16 to $31) beat any outside benchmark for fit. Doing the break-even math first showed paid search can't pay back at that price yet, so the honest answer was "cold email first". Lesson: run the break-even before choosing channels, and check for CTA conflicts (VSL "15-min check" vs Calendly "30-min discovery call") before writing ad copy.
 
 - 2026-11-06 · OPS · My mistake: I wrote "App Store launch Dec 11" in the Media Buyer brief, its agent file and the Megan Today goals/countdown, though lessons.md (Nov 5) says Dec 11 = BETA. Media Buyer caught it; all fixed. Lesson: grep lessons.md for dates before writing any deadline.
+
+- 2026-11-05 · Megan (word for word): "PR: allw the \"Re\"". Rule: PR pitches may use "Re: [journalist's real article headline]"; never fake a past thread.

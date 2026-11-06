@@ -12,7 +12,9 @@ Why: this week Megan corrected us 4 times on facts that were already in this fil
 - ISSUE11 waitlist: live on issue11.app (Megan's form → Google Sheet → beehiiv CSV). Email sequence final v6 saved (drafts/newsletter/issue11-waitlist-sequence.md).
 - ISSUE11 email: megan@issue11.app (main) + support@issue11.app (alias; also privacy contact). Megan setting up Nov 6.
 - Megan builds the app herself in Replit; agents don't put "approve the build" items on her list.
+- RULE, Megan Nov 6 (word for word): "anything that you can do yourself do not delegate to me ever". Try it yourself first; only hand Megan what is truly blocked (her login, money, signature, a decision), and say exactly why.
 - Glammi: booking page live (Calendly on glammi.ai). Contact on all client docs: megan@glammi.ai. Client reports = Glammi branding only, CTA = monthly check-in (never "Book a discovery call").
+- beehiiv: the only publication ("The Radar", glammi-studio.beehiiv.com, 2 subscribers, never sent) becomes ISSUE11's newsletter (Megan, Nov 6). Agents can't rename it: beehiiv's save_publication_settings is blocked on the current plan.
 - Glammi prices: NOT confirmed ($499/mo AEO, $199/mo site are proposals).
 - Tools: Mangools = paid Basic plan (AI Search Watcher covers client audits). Hyperagent cancelled. 17MedSpa articles paused. Christian's business parked.
 Allowed: better ways of working. Never allowed: weakening tests, the App Store checklist or the Production Safety Rule.

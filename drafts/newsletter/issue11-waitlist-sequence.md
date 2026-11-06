@@ -68,7 +68,7 @@ See you in print,
 Megan
 
 ### 3 · Nudge (didn't click 2)
-**Subject:** your invitation is still unopened
+**Subject:** last call for your invitation
 
 {first_name},
 

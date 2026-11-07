@@ -10,7 +10,7 @@ Why: this week Megan corrected us 4 times on facts that were already in this fil
 - ISSUE11 ads: Megan chose ~$300/mo (Option B) on Nov 6. Before any ad runs: privacy page must allow the Meta Pixel, founding offer decided, Megan creates the Meta ad account.
 - ISSUE11 prices (Megan, Nov 7: "Ok let's do that"): Monthly $9.99 (no trial) · Yearly **$69.99** (7-day trial) · founding rate for approved waitlist guests: **$39.99 for the first year** (then renews at $69.99; first year only, not forever). Wording: "Approved guests lock in their founding rate". No "first 1,000" cap (Megan, Nov 7). $69.99 must be the real price charged (no fake reference price). Never "50% off".
 - ISSUE11 pages: unlock ANYTIME; the weekly Next Move is an optional suggestion, never a lock (Megan, Nov 7: "2. Ok").
-- ISSUE11 waitlist: live on issue11.app (Megan's form → Google Sheet → beehiiv CSV). Email sequence final v6 saved (drafts/newsletter/issue11-waitlist-sequence.md).
+- ISSUE11 waitlist: live on issue11.app (Megan's form → Google Sheet → beehiiv CSV). Nov 7: 0 real sign-ups (only Megan's test row) — expected, the page has NOT been promoted yet (Megan). Not a bug. Email sequence final v6 saved (drafts/newsletter/issue11-waitlist-sequence.md).
 - ISSUE11 email: megan@issue11.app (main) + support@issue11.app (alias; also privacy contact). Megan setting up Nov 6.
 - Megan builds the app herself in Replit; agents don't put "approve the build" items on her list.
 - RULE, Megan Nov 7 (word for word): "Moving forward for each decision I want you to help me make it and the reasoning behind it". Every question to Megan (chat, Megan Today taps, rooms) = our recommended answer first + 1–2 lines of reasoning (goal, cost, risk). The recommended option is the first tap button.

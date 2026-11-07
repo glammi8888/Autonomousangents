@@ -8,7 +8,7 @@ A lesson that appears twice gets promoted into that agent's file in `.claude/age
 Why: this week Megan corrected us 4 times on facts that were already in this file (Dec 11 date, Mangools plan, booking page, contact email). Check this box before writing any date, price, tool or contact.
 - ISSUE11: **Dec 11, 2026 = private beta.** App Store launch date is set after the beta (never write "launches Dec 11").
 - ISSUE11 ads: Megan chose ~$300/mo (Option B) on Nov 6. Before any ad runs: privacy page must allow the Meta Pixel, founding offer decided, Megan creates the Meta ad account.
-- ISSUE11 prices (Megan OK Nov 5): Monthly $9.99 (no trial) · Yearly $59.99 (7-day trial) · launch offer $39.99 first year. Founding offer = $39.99 first year (Megan, Nov 7: "I agree I like the number"). Use it in ads, FAQ and App Store. Never "50% off".
+- ISSUE11 prices (Megan, Nov 7: "Ok let's do that"): Monthly $9.99 (no trial) · Yearly **$69.99** (7-day trial) · founding rate for approved waitlist guests: **$39.99 for the first year** (then renews at $69.99; first year only, not forever). Wording: "Approved guests lock in their founding rate". $69.99 must be the real price charged (no fake reference price). Never "50% off".
 - ISSUE11 pages: unlock ANYTIME; the weekly Next Move is an optional suggestion, never a lock (Megan, Nov 7: "2. Ok").
 - ISSUE11 waitlist: live on issue11.app (Megan's form → Google Sheet → beehiiv CSV). Email sequence final v6 saved (drafts/newsletter/issue11-waitlist-sequence.md).
 - ISSUE11 email: megan@issue11.app (main) + support@issue11.app (alias; also privacy contact). Megan setting up Nov 6.

@@ -1,4 +1,7 @@
 # ISSUE11 paid ads launch plan (DRAFT, Nov 6, 2026)
+
+> ✅ **Pricing update, Megan Nov 7:** Yearly is now **$69.99** (was $59.99). Founding rate for approved guests = **$39.99 first year** (43% off yearly), then $69.99. Any $59.99 below is outdated.
+
 💚 GROWTH, Media Buyer. **Draft only.** Nothing is live, nothing is spent, no accounts or keys are set up, no images are generated. Megan clicks every button herself.
 
 > ⚠️ **Date check first.** Megan, Nov 5: "The beta is december 11". The App Store launch date isn't set yet and follows the beta (lessons.md, Nov 5). This plan says "after App Store launch" and never "Dec 11 launch". Ads must not say "launches Dec 11".

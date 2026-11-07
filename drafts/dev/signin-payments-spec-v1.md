@@ -1,5 +1,8 @@
 > **Megan, Nov 4 (LA time), word for word: "Yes use then"** to "Use my recommendations for sign-in and payments?" → Q1 returning-user link on onboarding screen 1: YES · Q2 plans: Monthly $9.99 (no trial) + Yearly $59.99 with 7-day free trial (pre-selected) + 37b offer $39.99 first year · Q3 print orders placed by hand on Lulu at launch. Full spec approval to start building (Production Safety Rule 4): pending Megan's explicit "approve".
 
+> ✅ **Pricing update, Megan Nov 7:** Yearly is now **$69.99** (was $59.99). Founding rate for approved guests = **$39.99 first year** (43% off yearly), then $69.99. Any $59.99 below is outdated.
+
+
 # ISSUE11 · Sign-in + payments spec v1 · DRAFT for Megan's approval
 Planner · 2026-10-30 · Nothing built, nothing installed, no keys read. Replaces nothing; `.pipeline/spec.md` stays a reference checklist.
 **Why this needs your OK before building:** it touches Authentication · Payments · RevenueCat/subscriptions · User data · Account deletion · API keys/secrets · Database changes (CLAUDE.md Production Safety Rule 4).

@@ -1,5 +1,7 @@
 # ISSUE11 landing page FAQ (AEO version) · Nov 4, 2026 (v2, paid keyword data) · DRAFT for Megan's OK
 
+> ⚠️ Nov 7: OPS updated the live FAQ pricing ($9.99/mo or $59.99/yr, founding first year $39.99) and the dates. The live site is the source of truth now. This file is the Nov 4 draft.
+
 Live landing page: https://issue11.app (custom domain, Nov 4; old preview: https://flowing-melon-563707.framer.app)
 
 Replaces the template's 8 questions. Built from approved copy in FRAMER-COPY-FINAL.md (§6, §10). Answers 3, 5, 6, 7 and 8 match the approved copy word for word or almost; 1, 2 and 4 combine approved lines.

@@ -47,6 +47,6 @@ Can you teach AI a new title, honestly? Every week I ask ChatGPT, Google AI and 
 
 ## Status (Nov 7, 2026)
 - Decision (Megan): NOT a separate site. One page on glammi.ai at /queen-of-aeo, in the Glammi look ("keep the Glammi Studio fonts and brands consistent"). thequeenofaeo.com forwards there (301, no masking) at her domain provider, so no Framer plan or new project.
-- Built in the Glammi Framer project on draft branch "fluid-slope" (page id CgLXVtRPI), duplicated from Home: hero, experiment card (Week 0, honest result), "Who I am", "What I do". Not published.
+- LIVE Nov 7 at https://glammi.ai/queen-of-aeo (page id CgLXVtRPI, Framer version b8db4b5bc, approved by Megan: "Excellent !"). Verified 200, correct title, no homepage leftovers; IndexNow 200.
 - Copy is first person ("I'm Megan Scott..."), so the page never calls her "she". The meta description is still third person; fine for search.
-- Still to do: Megan's photo (replaces the hexagon at the top), Person schema pasted into the page's custom code (the API can't set page code), merge + publish after Megan's OK, then domain forwarding, then delete the empty "The Queen of AEO" Framer project (h3qKRXdDEL3yN3miEzeD).
+- Still to do: Megan's photo (replaces the hexagon at the top), Person schema pasted into the page's custom code (the API can't set page code), domain forwarding (Megan), then delete the empty "The Queen of AEO" Framer project (h3qKRXdDEL3yN3miEzeD).

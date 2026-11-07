@@ -18,7 +18,7 @@ Why: this week Megan corrected us 4 times on facts that were already in this fil
 - RULE, Megan Nov 7 (word for word): "Moving forward for each decision I want you to help me make it and the reasoning behind it". Every question to Megan (chat, Megan Today taps, rooms) = our recommended answer first + 1–2 lines of reasoning (goal, cost, risk). The recommended option is the first tap button.
 - RULE, Megan Nov 6 (word for word): "anything that you can do yourself do not delegate to me ever". Try it yourself first; only hand Megan what is truly blocked (her login, money, signature, a decision), and say exactly why.
 - Glammi: booking page live (Calendly on glammi.ai). Contact on all client docs: megan@glammi.ai. Client reports = Glammi branding only, CTA = monthly check-in (never "Book a discovery call").
-- beehiiv: the only publication ("The Radar", glammi-studio.beehiiv.com, 2 subscribers, never sent) becomes ISSUE11's newsletter (Megan, Nov 6). Agents can't rename it: beehiiv's save_publication_settings is blocked on the current plan.
+- beehiiv: the only publication is now named ISSUE11 (renamed by Megan Nov 7, verified). Still on the old address glammi-studio.beehiiv.com; one form is still called "The Radar landing page". Glammi will need its own publication later.
 - Glammi prices: NOT confirmed ($499/mo AEO, $199/mo site are proposals).
 - Tools: Mangools = paid Basic plan (AI Search Watcher covers client audits). Hyperagent cancelled. 17MedSpa articles paused. Christian's business parked.
 Allowed: better ways of working. Never allowed: weakening tests, the App Store checklist or the Production Safety Rule.

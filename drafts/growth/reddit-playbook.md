@@ -35,5 +35,5 @@ After the Dec 11 beta for full weekly runs (Megan's focus until then: beta + fir
 - Never: two of our accounts in the same thread, upvoting or "agreeing with" each other (vote manipulation / sockpuppetry), or VAs posting as independent "happy users" from their own accounts (undisclosed paid endorsements).
 
 ## Listening tool
-- Start: F5Bot (free keyword email alerts for Reddit, no install). Keywords: "vision board app" · "manifestation app" · "digital vision board" · "manifestation journal app" · "best med spa" + city · "AI search" + "small business".
+- Start: F5Bot (free, max 5 keywords; Megan set up Nov 7). Keywords: "vision board app" · "manifestation app" · "digital vision board" (ISSUE11) · "med spa marketing" · "jewelry store marketing" (Glammi: owners looking for clients = buyers). Add "best med spa" + city once Glammi has a med spa client (to watch that client's Reddit mentions).
 - Later, only if needed: Reddit's official API (free, allowed) before any paid scraper. Apify or any other tool needs a security scan (CLAUDE.md rule 7) and Megan's OK on cost.

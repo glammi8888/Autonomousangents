@@ -347,3 +347,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-05 · Megan: client contact email = megan@glammi.ai ("Megan@glammi.ai is great"). Client reports end with "reply or write to megan@glammi.ai" + next monthly check-in date, never "Book a discovery call" (that CTA is for prospects only).
 
 - 2026-11-05 · Megan: Hyperagent "Cancelled". Client audits = Mangools + our agents. Don't suggest it again.
+
+- 2026-11-07 · OPS · issue11.app (Framer branch "mellow-crest", NOT published): FAQ "Is ISSUE11 free?" now says $9.99/mo or $59.99/yr + founding first year $39.99 (no more "50% off"); FAQ "When can I get ISSUE11?" now says beta Dec 11, App Store after the beta; site + home meta descriptions no longer say "Launching Dec 11". Found: main still had the OLD FAQ dates although lessons said they were fixed Nov 5 → always re-check the live site before claiming a fix. Hidden template "User Reviews" section (fake NexApp reviews) stays hidden; never unhide. FAQ schema (JSON-LD) not reachable via the Framer API: check page custom code.

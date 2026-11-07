@@ -27,3 +27,13 @@ Google ranks Reddit threads near the top, and AI answers (ChatGPT, Google AI, Pe
 
 ## Start
 After the Dec 11 beta for full weekly runs (Megan's focus until then: beta + first Glammi clients). A first test scan can run anytime.
+
+## Accounts and helpers (Megan, Nov 7: "Including fiverr VAs and my own accounts")
+- Megan's personal account: Megan as the founder, helpful answers, discloses when ISSUE11 or Glammi comes up.
+- Official brand accounts (e.g. u/ISSUE11app, u/GlammiStudio): clearly named as the brand. A VA may post from these, because it is openly the brand talking.
+- Fiverr VA (optional, later, ~2–3 h/week): checks F5Bot alerts, shortlists threads, drafts in Megan's voice for approval, posts only from the brand account. Hire only with Megan's OK (paid service).
+- Never: two of our accounts in the same thread, upvoting or "agreeing with" each other (vote manipulation / sockpuppetry), or VAs posting as independent "happy users" from their own accounts (undisclosed paid endorsements).
+
+## Listening tool
+- Start: F5Bot (free keyword email alerts for Reddit, no install). Keywords: "vision board app" · "manifestation app" · "digital vision board" · "manifestation journal app" · "best med spa" + city · "AI search" + "small business".
+- Later, only if needed: Reddit's official API (free, allowed) before any paid scraper. Apify or any other tool needs a security scan (CLAUDE.md rule 7) and Megan's OK on cost.

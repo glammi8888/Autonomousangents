@@ -3,7 +3,7 @@
 
 **Megan's rules for this sequence (word for word):** "It is an exclusive access invite only. Because they're here early and curious enough they are accepted by exclusive invite only." · "Don't give the prompts. They should be grateful to have access in the first place lol" · "keep things concise and sweet" · founding member rate, first year only, never state the price.
 
-**Offer (updated Nov 7, Megan):** founding rate for approved guests = **$39.99 for the first year** (then $69.99/yr; monthly is $9.99). ~~$4.99/mo for the first year~~ is retired. ⚠️ Open: the emails below still say "only for the first 1,000". Keep that cap only if Megan confirms it (real scarcity only). Must work in the app on Dec 11 (offer code or RevenueCat; subscriptions = Megan's explicit approval).
+**Offer (updated Nov 7, Megan):** founding rate for approved guests = **$39.99 for the first year** (then $69.99/yr; monthly is $9.99). ~~$4.99/mo for the first year~~ is retired. No number cap (Megan, Nov 7): exclusivity = approved guests only. Must work in the app on Dec 11 (offer code or RevenueCat; subscriptions = Megan's explicit approval).
 **Footer (every email):** ISSUE11 · [business mailing address after iPostal1] · beehiiv unsubscribe · issue11.app/privacy.
 **Open:** sender address; App Store link; email 3 "last call" must truly be the last invite email.
 
@@ -11,7 +11,7 @@
 |---|---|---|---|
 | 1 | On import (beehiiv welcome) | Request received | Add us to your contacts |
 | 2 | Thu Dec 11 | You're invited | Accept your invitation |
-| 3 | Tue Dec 16, didn't click 2 (segment: Post 2 not clicked) | Last call + founding rate scarcity | Open your invitation |
+| 3 | Tue Dec 16, didn't click 2 (segment: Post 2 not clicked) | Last call + founding rate for approved guests | Open your invitation |
 | 4 | Thu Dec 18, clicked 2 | Feedback | Reply |
 
 ### 1 · Request received
@@ -52,7 +52,7 @@ Megan
 
 You asked for this. You found ISSUE11 early, requested access and got accepted.
 
-Your invitation is still unopened, and the founding member rate is only for the first 1,000 who accept.
+Your invitation is still unopened, and the founding rate ($39.99 for your first year) is only for approved guests who accept.
 
 Open it or let it go.
 

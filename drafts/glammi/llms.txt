@@ -1,0 +1,28 @@
+# Glammi Studio
+
+> Glammi Studio is a Los Angeles AI search and AEO studio helping med spas, dermatology clinics, aesthetic clinics, jewelers, luxury hair salons and premium skincare brands get recommended by ChatGPT, Google AI, Gemini and Perplexity. We also build websites designed to look premium and to be read by AI search.
+
+- Founder: Megan Scott Manolova
+- Location: Los Angeles, California. Serves clients across the United States.
+- Services: AI search optimization, AEO (answer engine optimization), website design
+- Contact: megan@glammi.ai
+- Book a discovery call: https://calendly.com/glammiagency/30min
+
+## How we work
+
+- Every engagement starts with a live check of what AI tools say about the business today.
+- We fix the signals AI tools rely on: clear service pages, schema markup, consistent listings and helpful articles.
+- Every month we re-check AI mentions and send a report showing what changed.
+- No one can guarantee AI placement, so we measure and report instead of promising rankings.
+
+## Main pages
+
+- [Home](https://glammi.ai/): services, who we work with and how to book a discovery call
+- [Blog](https://glammi.ai/blog): guides on AI search, AEO and local visibility for beauty and luxury businesses
+
+## Guides
+
+- [AI Search Optimization for Local Businesses](https://glammi.ai/blog/ai-search-optimization): a practical guide to getting named in AI answers
+- [How to Get Your Med Spa Recommended by ChatGPT and Google AI](https://glammi.ai/blog/med-spa-ai-visibility)
+- [GEO vs SEO](https://glammi.ai/blog/geo-vs-seo): the difference, and what a med spa should do first
+- [How to Choose a GEO or AEO Agency](https://glammi.ai/blog/how-to-choose-a-geo-aeo-agency): 8 questions to ask before hiring

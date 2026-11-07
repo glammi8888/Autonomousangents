@@ -3,7 +3,7 @@
 Core line, word for word everywhere (matches glammi.ai and llms.txt):
 **Glammi Studio is a Los Angeles AI search and AEO studio helping med spas, dermatology clinics, aesthetic clinics, jewelers, luxury hair salons and premium skincare brands get recommended by ChatGPT, Google AI, Gemini and Perplexity.**
 
-Founder name everywhere: **Megan Scott** (Megan, Oct 31; the live llms.txt still says "Megan Nancy Scott", so replace it with the updated llms.txt). Ran through .pipeline/ANTI-SLOP.md. Never name our tools. No guarantees. Megan creates the accounts; agents only draft.
+Founder name everywhere: **Megan Scott Manolova** (Megan, Nov 7, word for word: "yes let's change everything to Megan Scott Manolova"; replaces the Oct 31 "Megan Scott" rule). Ran through .pipeline/ANTI-SLOP.md.
 
 ---
 
@@ -14,13 +14,13 @@ Glammi Studio is a Los Angeles AI search and AEO studio helping med spas, dermat
 
 Every engagement starts with a live check of what AI tools say about your business today. Then we fix the signals they rely on: clear service pages, schema markup, consistent listings and helpful articles. Every month we re-check and report what changed. No one can guarantee AI placement, so we measure instead of promising.
 
-Founded by Megan Scott. Book a discovery call: https://calendly.com/glammiagency/30min
+Founded by Megan Scott Manolova. Book a discovery call: https://calendly.com/glammiagency/30min
 - **Industry:** Marketing Services · **Size:** 1 employee · **Website:** https://glammi.ai
 
 ## Crunchbase
 - **Short description:** Los Angeles AEO and AI search studio for med spas, dermatology clinics, jewelers and premium beauty brands.
 - **Full description:** same as the LinkedIn About.
-- **Categories:** Marketing, SEO, Artificial Intelligence, Web Design · **HQ:** Los Angeles, California · **Founder:** Megan Scott
+- **Categories:** Marketing, SEO, Artificial Intelligence, Web Design · **HQ:** Los Angeles, California · **Founder:** Megan Scott Manolova
 
 ## Bing Places (if Megan meets clients in person in LA; service area, address hidden)
 - **Category:** Marketing Agency (secondary: Internet Marketing Service, Website Designer)

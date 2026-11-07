@@ -40,7 +40,7 @@ ISSUE11 is a manifestation app for iPhone that turns your vision board into a pe
 
 Most vision boards get made in January and forgotten by February. ISSUE11 turns saved images and journal entries into magazine pages people actually look at, then pairs every page with a small, doable action. It's built for women who already collect inspiration and are ready to act on it.
 
-Founded in Los Angeles by Megan Scott. Coming to the App Store.
+Founded in Los Angeles by Megan Scott Manolova. Coming to the App Store.
 - **Industry:** Mobile apps (closest LinkedIn option: Software Development)
 - **Website:** https://issue11.app
 
@@ -48,7 +48,7 @@ Founded in Los Angeles by Megan Scott. Coming to the App Store.
 - **Short description:** Manifestation app for iPhone that turns your vision board into a personal magazine, with one small move a week.
 - **Full description:** same as the LinkedIn About.
 - **Categories:** Mobile Apps, Consumer Software, Wellness, Publishing
-- **Headquarters:** Los Angeles, California · **Founder:** Megan Scott
+- **Headquarters:** Los Angeles, California · **Founder:** Megan Scott Manolova
 
 ## 4. Product Hunt (for launch day)
 - **Tagline (60 max):** Turn your vision board into a personal magazine

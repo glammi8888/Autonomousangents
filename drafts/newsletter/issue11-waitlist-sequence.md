@@ -3,7 +3,7 @@
 
 **Megan's rules for this sequence (word for word):** "It is an exclusive access invite only. Because they're here early and curious enough they are accepted by exclusive invite only." · "Don't give the prompts. They should be grateful to have access in the first place lol" · "keep things concise and sweet" · founding member rate, first year only, never state the price.
 
-**Offer:** founding member rate = $4.99/mo for the first year for the first 1,000 (as on the landing page). Must work in the app on Dec 11 (offer code or RevenueCat; subscriptions = Megan's explicit approval).
+**Offer (updated Nov 7, Megan):** founding rate for approved guests = **$39.99 for the first year** (then $69.99/yr; monthly is $9.99). ~~$4.99/mo for the first year~~ is retired. ⚠️ Open: the emails below still say "only for the first 1,000". Keep that cap only if Megan confirms it (real scarcity only). Must work in the app on Dec 11 (offer code or RevenueCat; subscriptions = Megan's explicit approval).
 **Footer (every email):** ISSUE11 · [business mailing address after iPostal1] · beehiiv unsubscribe · issue11.app/privacy.
 **Open:** sender address; App Store link; email 3 "last call" must truly be the last invite email.
 

@@ -12,6 +12,7 @@ Why: this week Megan corrected us 4 times on facts that were already in this fil
 - ISSUE11 waitlist: live on issue11.app (Megan's form → Google Sheet → beehiiv CSV). Email sequence final v6 saved (drafts/newsletter/issue11-waitlist-sequence.md).
 - ISSUE11 email: megan@issue11.app (main) + support@issue11.app (alias; also privacy contact). Megan setting up Nov 6.
 - Megan builds the app herself in Replit; agents don't put "approve the build" items on her list.
+- RULE, Megan Nov 7 (word for word): "Moving forward for each decision I want you to help me make it and the reasoning behind it". Every question to Megan (chat, Megan Today taps, rooms) = our recommended answer first + 1–2 lines of reasoning (goal, cost, risk). The recommended option is the first tap button.
 - RULE, Megan Nov 6 (word for word): "anything that you can do yourself do not delegate to me ever". Try it yourself first; only hand Megan what is truly blocked (her login, money, signature, a decision), and say exactly why.
 - Glammi: booking page live (Calendly on glammi.ai). Contact on all client docs: megan@glammi.ai. Client reports = Glammi branding only, CTA = monthly check-in (never "Book a discovery call").
 - beehiiv: the only publication ("The Radar", glammi-studio.beehiiv.com, 2 subscribers, never sent) becomes ISSUE11's newsletter (Megan, Nov 6). Agents can't rename it: beehiiv's save_publication_settings is blocked on the current plan.

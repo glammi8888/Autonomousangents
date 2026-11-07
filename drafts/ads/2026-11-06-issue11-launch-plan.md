@@ -8,6 +8,8 @@
 
 > ✅ Megan, Nov 6 (word for word): "Let's try the $300 ad budget for now" → Option B (~$10/day Instagram, 14-day test of 2 hooks). Nothing is set up or spent yet.
 
+> ✅ Megan, Nov 7: founding offer = **$39.99 for the first year** ("I agree I like the number"). Ads may state it.
+
 ## 1. Recommendation (3 lines)
 1. **Before the App Store launch: Instagram only (Meta Ads), sending people to the issue11.app waitlist.** Your audience (women who make vision boards) is already there, you already make Reels for organic, and Meta can count waitlist sign-ups with one pasted code snippet (no app code).
 2. **After the App Store launch: add Apple Ads.** It shows ISSUE11 to people who are already searching "manifestation app" or "vision board app" (the highest intent there is). It only works once the app is live, and Apple counts installs itself.

@@ -375,3 +375,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-07 DECISION (Megan: "2. sure"): Glammi site main button = "Book a discovery call", a 15-min call (matches the VSL's "free 15-min check"). Megan sets the Calendly event to 15 min; then the button links to it.
 - 2026-11-07 DECISION: Reddit listening = F5Bot now (free, no install). Megan asked about Apify; recommended against for now (cost, security scan, and Reddit's rules on scraping). Step up later = Reddit's official API.
 - 2026-11-07 (OPS): F5Bot free = 5 keywords + "personal use only" (Megan's pricing screenshot); its FAQ saying 200 is outdated. Lesson: check a tool's live pricing page, not its FAQ. Reddit listening for now = agent weekly web search ($0).
+- 2026-11-07 (OPS): Megan knows the site phones are still template (NexApp) screens until her real screens arrive ("I know that", "it's not done yet"). Don't re-flag it; just swap all phones in one pass when screens come.

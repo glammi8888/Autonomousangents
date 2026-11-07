@@ -10,8 +10,8 @@ For the Design Room and every design agent. The source of truth is brand/BRAND-G
 - Font: the landing page font, Inter Tight (headlines medium, tight about -0.06em, sentence case; small uppercase labels with tracking). Archivo Black is discarded (Megan, Nov 7).
 
 ## Where it is used
-- Website hero (issue11.app, Framer): the moving "Liquid Gradient" shader with these 7 colors, normal blend, original motion (speed 0.2), black hero text. Merged on Framer main, not published yet.
-- Website section backgrounds (features 01/02, Inside the app): blurred Electric Soft mixes in the original layout, color on the left fading to white on the right. Each section has its own mix. On Framer branch "warm-mosaic" (not merged, not published).
+- Website hero (issue11.app, Framer): the moving "Liquid Gradient" shader with these 7 colors, normal blend, original motion (speed 0.2), black hero text. Live on issue11.app (published Nov 7).
+- Website section backgrounds (features 01/02, Inside the app): blurred Electric Soft mixes in the original layout, color on the left fading to white on the right. Each section has its own mix. Live on issue11.app (published Nov 7).
 - App Store screenshots: Megan picked **A · Cover story** (Nov 7) as the master. 3 directions at 1290×2796, all Inter Tight with "your real screen here" placeholders: https://claude.ai/artifact/6WLt3yS8HB2trRBrT4N7TP
   - A · Cover story: full gradient, big headline, tilted phone.
   - B · Editorial page: white magazine page, phone on a gradient panel.

@@ -20,3 +20,17 @@ Manifestation is a to-do list with better lighting · Unpopular opinion: your vi
 8. Shredder ASMR: shredding old affirmation sticky notes that never had a plan (shredder, not fire).
 9. Ted-talk parody: "Hi, I'm Megan, and I've been manifesting the same apartment for 4 years." Huge stage-light energy in her living room.
 10. "Rate your 2026 Issue out of 11": Megan judges her own year like a reality-show panel, holding up score cards.
+
+## Round 2: further outside the box (Megan: "more outside of the box")
+1. Paparazzi for future you: a friend with a big camera "papping" Megan doing boring tasks (laundry, emails, a budget) like a celebrity. "Future her, spotted doing the boring part."
+2. The cover-line newsstand: a pop-up "newsstand" on a busy sidewalk. Strangers write the cover line of their life, and Megan holds up their cover. Real people, consent on camera. Product demo + content made by others.
+3. Print a stranger's dream life: at a coffee shop, ask someone for their dream, then come back with a printed magazine cover of it. Film the reaction. Consent, and only print with a real print shop.
+4. Nature documentary parody: "Here we observe the rare Pinterest hoarder in her natural habitat. 847 pins. No movement for 3 years." (A generic narrator voice. Never imitate a real person's voice.)
+5. Horror movie trailer: "In a world... where she saved 847 pins... one woman... never opened the folder."
+6. Hostage negotiation with your dream life: "I'll come out when you send ONE email."
+7. Manifestation personal trainer: a coach screaming at you, "ONE MORE DM TO THE RECRUITER. GIVE ME ONE MORE."
+8. The Universe's performance review: HR meeting where the Universe reviews YOU. "Expectation: beach house. Effort: 2 out of 11."
+9. Flight safety briefing for 2027: "In case of a setback, put on your own plan before helping others manifest."
+10. Anti vision board: a board of everything you're NOT doing in 2027 (doomscrolling, "starting Monday", group chats about starting Monday).
+11. Wedding vows to your future self: veil, altar, "I promise to send the email."
+12. Fortune teller: the crystal ball slowly reveals... a calendar with one task on Tuesday.

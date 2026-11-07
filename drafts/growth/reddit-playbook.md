@@ -35,5 +35,5 @@ After the Dec 11 beta for full weekly runs (Megan's focus until then: beta + fir
 - Never: two of our accounts in the same thread, upvoting or "agreeing with" each other (vote manipulation / sockpuppetry), or VAs posting as independent "happy users" from their own accounts (undisclosed paid endorsements).
 
 ## Listening tool
-- Start: F5Bot (free, max 5 keywords; Megan set up Nov 7). Keywords: "vision board app" · "manifestation app" · "digital vision board" (ISSUE11) · "med spa marketing" · "jewelry store marketing" (Glammi: owners looking for clients = buyers). Add "best med spa" + city once Glammi has a med spa client (to watch that client's Reddit mentions).
+- Now ($0): the agent's weekly web search (site:reddit.com + keywords) is the listening tool. F5Bot free = 5 keywords and "personal use only" (Megan's screenshot, Nov 7), so not used for business. Upgrade option later: F5Bot Silver $12.99/mo (20 keywords, ~5 min alerts), only with Megan's OK. Keyword shortlist: "vision board app" · "manifestation app" · "digital vision board" (ISSUE11) · "med spa marketing" · "jewelry store marketing" (Glammi). Add "best med spa" + city once Glammi has a med spa client.
 - Later, only if needed: Reddit's official API (free, allowed) before any paid scraper. Apify or any other tool needs a security scan (CLAUDE.md rule 7) and Megan's OK on cost.

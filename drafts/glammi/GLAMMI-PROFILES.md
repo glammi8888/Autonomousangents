@@ -14,7 +14,7 @@ Glammi Studio is a Los Angeles AI search and AEO studio helping med spas, dermat
 
 Every engagement starts with a live check of what AI tools say about your business today. Then we fix the signals they rely on: clear service pages, schema markup, consistent listings and helpful articles. Every month we re-check and report what changed. No one can guarantee AI placement, so we measure instead of promising.
 
-Founded by Megan Scott Manolova. Book a discovery call: https://calendly.com/glammiagency/30min
+Founded by Megan Scott Manolova. Book a discovery call: https://calendly.com/glammiagency/discoverycall
 - **Industry:** Marketing Services · **Size:** 1 employee · **Website:** https://glammi.ai
 
 ## Crunchbase

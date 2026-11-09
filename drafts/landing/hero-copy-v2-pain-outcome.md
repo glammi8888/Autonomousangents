@@ -85,3 +85,22 @@ New tests: (a) it takes a side, so the wrong reader leaves, (b) it promises the 
 **H1 alternates**
 - B: Stop manifesting from the couch. Live the life you saved.
 - C: Pretty boards don't change lives. Your next move does.
+
+## Round 6 (Megan: "and really painful") · CURRENT PICK
+Test added: does it hurt to read? It names the cost in time ("for years", "every January"), not just the habit.
+
+- Eyebrow: Not another vision board.
+- H1: **Your saves are full. Your life isn't.**
+- Sub (promise + outcome): ISSUE11 turns everything you've saved into your own magazine, then hands you one move a week until your life matches it.
+- Under the button: Founding members: $39.99 for your first year · First issues Dec 11 · Invite-only
+
+Pain strip:
+- "You've had the same dream life saved for years."
+- "You watch other people live it while you wait for 'one day'."
+- "Every January, a new board. Every December, the same life."
+→ **Not this year. Your life starts this week.**
+
+Sections: F01 You've saved enough. Do something with it. · F02 Make "one day" this week. · F03 Watch your real life catch up to your saves.
+Closing: **One more year of saving it, or the year you live it.** [Request access]
+
+H1 alternates: B "Your vision board is a museum of a life you're not living." · C "Stop manifesting from the couch. Live the life you saved."

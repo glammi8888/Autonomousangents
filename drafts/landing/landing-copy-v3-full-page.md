@@ -20,7 +20,7 @@ Eyebrow: Be honest. How long has that dream life been sitting in your saves?
 H2: You've been "about to start" for three years.
 Body:
 You've had the same dream life saved for years. The body, the business, the trips, the mornings where you actually have it together.
-You've screenshotted it a hundred times and nothing about your Tuesday has changed. Every January there's a new board, and December looks the same.
+You can picture it perfectly. It just feels so far from your actual Tuesday that you never start. Every January there's a new board, and December looks the same.
 ISSUE11 is for the part after the saving.
 
 ## 3. How it works
@@ -34,8 +34,8 @@ H2: From saved to started in 3 steps.
 Section label: INSIDE ISSUE11 (yes, there's a printed magazine)
 H2: Six things that make your dream life hard to ignore.
 
-- **My saves** · Your future, out of your camera roll.
-  Pull the good stuff out of 4,000 screenshots and give it a home, next to the images you heart in the app.
+- **My saves** · Where the life you want takes shape.
+  Add your photos and heart the images of the life you're going for. Your magazine and your weekly moves are built from them.
 - **Your Issue** · A magazine about the life you're building.
   Your saves and words become a real magazine with your name on the cover. You're the art director: tell your Editor what to change.
 - **Scribe** · Write the day you want, down to the outfit.
@@ -53,7 +53,7 @@ H2: Be honest. Is another pretty board enough for you?
 If it is, keep pinning. If you're tired of dreaming in drafts, come find out what you do once the board stops being enough.
 
 ## 6. Closing
-Eyebrow: Your screenshots have waited long enough.
+Eyebrow: That life has waited long enough.
 H1: **Stop manifesting from the couch. Live the life you saved.**
 Sub: Get your invite before the Dec 11 beta and lock in $39.99 for your first year.
 [Your email] [Get my invite]

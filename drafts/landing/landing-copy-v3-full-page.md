@@ -19,8 +19,8 @@ Under the button: Private beta opens Dec 11. Founding members pay $39.99 for the
 Eyebrow: Be honest. How long has that dream life been sitting in your saves?
 H2: You know exactly what you want. That was never the problem.
 Body:
-You've had the same dream life saved for years. The apartment, the body, the business, the mornings where you actually have it together.
-You've saved that apartment 40 times and haven't looked at one listing. Every January there's a new board, and December looks the same.
+You've had the same dream life saved for years. The body, the business, the trips, the mornings where you actually have it together.
+You've screenshotted it a hundred times and nothing about your Tuesday has changed. Every January there's a new board, and December looks the same.
 ISSUE11 is for the part after the saving.
 
 ## 3. How it works

@@ -16,7 +16,7 @@ Sub: ISSUE11 is an iPhone app that turns everything you've saved into your own m
 Under the button: Private beta opens Dec 11. Founding members pay $39.99 for the first year (then $69.99/yr). Invite-only.
 
 ## 2. The problem
-Eyebrow: Be honest. How many times have you saved that apartment?
+Eyebrow: Be honest. How long has that dream life been sitting in your saves?
 H2: You know exactly what you want. That was never the problem.
 Body:
 You've had the same dream life saved for years. The apartment, the body, the business, the mornings where you actually have it together.

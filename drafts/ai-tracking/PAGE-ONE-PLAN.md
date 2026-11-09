@@ -17,7 +17,7 @@ The daily article run takes these in order (one per site per day), skipping any 
 **Glammi**
 | Keyword | US/mo | KD | Page |
 |---|---|---|---|
-| ai seo | 7,000 | 8 | NEW article "AI SEO: what it is and what changes for your business" |
+| ai seo | 7,000 | 8 | DONE Nov 9: draft ai-seo with cover |
 | llms.txt | 4,800 | 33 | NEW article "What is llms.txt (and do you need one?)" |
 | answer engine optimization | 2,500 | 26 | strengthen what-is-aeo (H2 + FAQ) |
 | aeo vs seo | 2,000 | 23 | NEW article (geo-vs-seo exists; this one compares AEO) |
@@ -34,7 +34,7 @@ Already covered by live or queued pages: geo vs seo, what is aeo, generative eng
 | Keyword | US/mo | KD | Page |
 |---|---|---|---|
 | best manifestation app · manifestation app · best vision board app | 80 · 580 · 190 | 24 · 27 · 34 | NEW honest comparison "Best manifestation apps" naming ISSUE11 openly as ours, fair to the others; publish close to the Dec 11 beta. Plus App Store listing and honest pitches to the list sites AI cites (ISSUE11-RANK-PLAN.md) |
-| vision board ideas | 44,100 | 35 | NEW "Vision Board Ideas for 2027" (plan #1, New Year peak) |
+| vision board ideas | 44,100 | 35 | DONE Nov 9: draft vision-board-ideas with cover |
 | journaling prompts | 37,400 | 21 | NEW "Journaling prompts" (not only manifestation) |
 | law of assumption | 9,700 | 16 | NEW honest explainer |
 | manifestation journaling | 3,100 | 16 | strengthen manifestation-journal-prompts |
@@ -65,5 +65,6 @@ Already covered: how to manifest, vision board for manifestation, manifestation 
 3. Log the numbers in the Done Log and a dated line in this file. Report to OPS.
 
 ## Log
+- Nov 9: "Related reading" (3 links to live posts) added to all 28 Glammi and 7 ISSUE11 posts (tools/framer/related.mjs); covers added: ai-seo, how-to-photograph-jewelry. Rank baseline: glammi.ai not in the top 100 for any of the 58 keywords yet.
 - Nov 9: technical SEO audit (TECH-SEO-AUDIT-2026-11-09.md); 6 Glammi fixes on Framer main, waiting for the next publish.
 - Nov 9: trackings created (58 + 60 keywords), plan written. First positions pending (Mangools crawls within ~1 hour).

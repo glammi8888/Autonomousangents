@@ -11,7 +11,7 @@ Draft 2 → 3 fixes (second fresh-eyes review, scores 8/8/7/7): Audio is now con
 ---
 
 ## 1. Hero
-Eyebrow: If your camera roll is half screenshots of a life you want, hi.
+Eyebrow: Still believe in manifesting, but your life didn't get the memo? Hi.
 H1: **Your vision board is a museum of a life you're not living.**
 Sub: ISSUE11 is the manifestation app for people done with wishful thinking. Make your own magazine about the life you want, then live it one small move a week. Built on behavior-change psychology, so you finally manifest it for real.
 [Your email] [Get my invite]

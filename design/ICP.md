@@ -93,3 +93,4 @@ How: waitlist question ("What made you sign up?"), 5–10 beta interviews, then 
 ## Update (Megan, Nov 9, 2026, word for word)
 "my target demographic are for people that tried manifestation and think it doesn't work"
 The primary ICP is the disappointed manifester: she tried affirmations, vision boards and meditations, nothing changed, and now she thinks manifestation doesn't work. Copy angle: "Manifestation doesn't work. At least not the way you've been doing it."
+Megan also added: "Or complain that it doesn't work but believe in it". The ICP includes believers who still believe but are frustrated. Never mock belief; the passive method is what failed them.

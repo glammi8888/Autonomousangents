@@ -58,3 +58,30 @@ Each round was checked against 6 tests: (1) the pain is clear in 3 seconds, (2) 
 - Process-focused: "start", "this week", "one small step". It never promises a result.
 
 Sources: r/NevilleGoddard mirror (lr.ggtyler.dev), reddit.sentinel-team.org snapshots, medium.com/midform "too much inspiration", hercampus.com, soulrichwomanblueprint podcast ep. 135, librar1sing.substack.com "kill your vision board".
+
+---
+
+## Round 5 (Nov 9, Megan: "Promises are fine" · "Keep the copy polarizing" · "and outcome focused")
+New tests: (a) it takes a side, so the wrong reader leaves, (b) it promises the outcome she wants, (c) the pain is still clear in 3 seconds. Still no shaming social media (Megan Oct 15) and no "becoming her" (Oct 7).
+
+**Hero**
+- Eyebrow: Not another vision board.
+- H1: **Your vision board is a museum of a life you're not living.**
+- Sub (the promise): ISSUE11 turns your saves into your own magazine, then hands you one move a week until your real life starts to look like it.
+- Under the button: Founding members: $39.99 for your first year · First issues Dec 11 · Invite-only
+
+**Pain strip**
+- "Another board. Another January. Same life."
+- "Saving it feels like doing it. It isn't."
+- "You're not waiting to be ready. You're waiting for permission."
+→ **This is your permission. Your life starts this week.**
+
+**Sections**
+- F01: **You've saved enough. Do something with it.** (keep)
+- F02: **Make "one day" this week.** (keep)
+- F03: **Watch your real life catch up to your saves.**
+- Closing: **This isn't for people who want to keep dreaming. It's for the ones ready to live it.** · [Request access]
+
+**H1 alternates**
+- B: Stop manifesting from the couch. Live the life you saved.
+- C: Pretty boards don't change lives. Your next move does.

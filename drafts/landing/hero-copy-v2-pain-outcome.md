@@ -104,3 +104,22 @@ Sections: F01 You've saved enough. Do something with it. · F02 Make "one day" t
 Closing: **One more year of saving it, or the year you live it.** [Request access]
 
 H1 alternates: B "Your vision board is a museum of a life you're not living." · C "Stop manifesting from the couch. Live the life you saved."
+
+## Round 7 (Megan: "make the copy sound more human less AI") · CURRENT PICK
+Removed AI tells: perfectly matched pairs ("Every January… Every December…"), triplets with the same rhythm, "Not X. Y." reveals, big abstract words ("permission", "matches it"). Added real-life details (notes app, camera roll, Monday), contractions, questions, and uneven sentence lengths. No em dashes.
+
+- Eyebrow: If your camera roll is half screenshots of a life you want, hi.
+- H1: **You've saved your dream life a hundred times. You're still not living it.**
+- Sub: You've got the Pinterest board, the screenshots, the "one day" list in your notes app. ISSUE11 turns all of it into your own magazine, then gives you one small thing to do each week, until your actual life starts looking like the pages.
+- Under the button: $39.99 for your first year if you join before Dec 11. Invite-only for now.
+
+Pain strip:
+- You've had the same dream life saved since 2021.
+- You keep waiting for some perfect Monday to start.
+- And every January you make a new board, and nothing about December changes.
+→ **So let's actually do it this time.**
+
+Sections: F01 You've saved enough. Do something with it. · F02 Make "one day" this week. · F03 Watch your real life catch up to your saves.
+Closing: **Another year of saving it? Or the year you finally live it?** [Request access]
+
+Short H1 alternate (if the long one doesn't fit the hero): "Your saves are full. Your life isn't."

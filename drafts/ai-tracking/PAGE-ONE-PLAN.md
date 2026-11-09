@@ -30,9 +30,10 @@ The daily article run takes these in order (one per site per day), skipping any 
 | med spa social media · med spa branding | 50 · 40 | 18 · 8 | NEW articles (later) |
 Already covered by live or queued pages: geo vs seo, what is aeo, generative engine optimization, llm seo, med spa seo/marketing agency/advertising/website design/reviews, dermatology marketing/website design, jewelry seo/store marketing/website design/description, how to photograph jewelry.
 
-**ISSUE11**
+**ISSUE11** (Megan, Nov 9: "I want issue11 to be the best manifestion app in ai search as well as Google")
 | Keyword | US/mo | KD | Page |
 |---|---|---|---|
+| best manifestation app · manifestation app · best vision board app | 80 · 580 · 190 | 24 · 27 · 34 | NEW honest comparison "Best manifestation apps" naming ISSUE11 openly as ours, fair to the others; publish close to the Dec 11 beta. Plus App Store listing and honest pitches to the list sites AI cites (ISSUE11-RANK-PLAN.md) |
 | vision board ideas | 44,100 | 35 | NEW "Vision Board Ideas for 2027" (plan #1, New Year peak) |
 | journaling prompts | 37,400 | 21 | NEW "Journaling prompts" (not only manifestation) |
 | law of assumption | 9,700 | 16 | NEW honest explainer |
@@ -64,4 +65,5 @@ Already covered: how to manifest, vision board for manifestation, manifestation 
 3. Log the numbers in the Done Log and a dated line in this file. Report to OPS.
 
 ## Log
+- Nov 9: technical SEO audit (TECH-SEO-AUDIT-2026-11-09.md); 6 Glammi fixes on Framer main, waiting for the next publish.
 - Nov 9: trackings created (58 + 60 keywords), plan written. First positions pending (Mangools crawls within ~1 hour).

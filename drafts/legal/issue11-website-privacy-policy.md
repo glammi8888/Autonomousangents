@@ -1,11 +1,12 @@
-# ISSUE11 website privacy policy (v2 DRAFT, Nov 7, 2026: adds the Meta Pixel)
+# ISSUE11 website privacy policy (v3 DRAFT, Nov 10, 2026: email tool now Resend)
 Scope: issue11.app + waitlist only. The app needs its own policy before launch (journal entries, photos, AI Editor, subscriptions; see .pipeline/app-store-checklist.md §5.1). Not legal advice; a lawyer review is recommended.
 Changes vs v1 (Nov 5): Meta Pixel section added (Megan, Nov 7: "add the Meta pixel and privacy page"); "we don't use advertising pixels" removed; legal name = ISSUE11 (Megan, Nov 5); contact = support@issue11.app (being set up Nov 7); tools named (Framer, Google Sheets, beehiiv); unverified "free Prompt Pack" mention removed.
+Changes v2 → v3 (Nov 10, OPS): the newsletter moved from beehiiv to Resend (decision Nov 7), so "beehiiv" is replaced by "Resend"; date updated. Nothing else changed. Publish only with Megan's OK.
 
 ---
 
 **Privacy Policy**
-Last updated: November 7, 2026
+Last updated: November 10, 2026
 
 This policy explains what information the ISSUE11 website (issue11.app) collects and how we use it. It covers the website and the waitlist only. The ISSUE11 app will have its own privacy policy before it launches.
 
@@ -27,7 +28,7 @@ We don't ask for your name or payment details on this website.
 We don't sell your email address. Meta receives the information described above through the Pixel. Under some US state laws, using a pixel for advertising can count as "sharing" information for advertising. You can opt out (see Your choices).
 
 **Who we share it with**
-Only the services that run the website, our emails and our ads: Framer (website hosting and statistics), Google (where we store the waitlist list), beehiiv (our email newsletter) and Meta (advertising measurement through the Meta Pixel). Meta's use of information is described in Meta's Privacy Policy.
+Only the services that run the website, our emails and our ads: Framer (website hosting and statistics), Google (where we store the waitlist list), Resend (sends our emails) and Meta (advertising measurement through the Meta Pixel). Meta's use of information is described in Meta's Privacy Policy.
 
 **How long we keep it**
 We keep your email until you unsubscribe or ask us to delete it.

@@ -51,6 +51,7 @@ Autonomy without waste. Delegating is not finishing: the Manager owns a task unt
 6. **Usage:** session `cost_usd` is an API-equivalent estimate, not Megan's subscription bill. Use it as a signal and cut repeated work and unneeded agent calls. Never enable paid usage, trials or services without Megan's OK.
 7. **New capabilities:** suggest them in `.pipeline/lessons.md` → "## Suggestions" (what · why · cost · security · free alternative). Install only after a security scan (rule 7) and Megan's approval.
 8. **Report:** Completed · Verified · Usage (attempts, agent runs) · Needs Attention (only what needs Megan).
+9. **Give every agent its skills** (Megan, Nov 10, word for word: "When you orchestrate the agents please make sure you give them skills to work with"). Every brief to an agent, room or session names the installed skills it must load first (e.g. copywriting, cold-email, prospecting, emails, social, pinterest-posts, seo-*, ads-*), by exact name from the skills list, with one line on why. No skill fits → say so in the brief.
 
 ## 📈 Self-improvement (set by Megan)
 - Before working, read `.pipeline/lessons.md`. After working, add max 2 dated lessons there (what worked, what to do differently).

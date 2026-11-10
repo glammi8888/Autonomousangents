@@ -107,3 +107,9 @@ Not installed: the rest of the library (conversion-tracking has website JS snipp
 - **openclaudia → `email-subject-lines`**: ❌ FAIL. It runs `source ~/.claude/.env.global` and sends real emails via the Resend API with a key. That breaks rules 5 and 7. Never install.
 - **beehiiv's own skills** (built into the beehiiv connector, already reviewed Oct 30; nothing to install): automation-dropoff, build-segment, edit-post, media-kit, onboarding, performance-report, revenue-report, start-here, unsubscribe-spikes, upgrade-campaign. Most write tools need the paid beehiiv plan.
 - **Resend connector** (claude.ai official directory, Nov 7 2026): Megan to connect. Review on first use: list its tools, confirm the OAuth scope, and log what it can send. Rules: never create or show API keys (it has create-api-key), never send or schedule to subscribers without Megan's OK, only import people who signed up, never copy subscriber emails into the repo.
+
+## Metricool connector (official MCP), checked Nov 9, 2026 (OPS)
+- What it is: Metricool's own MCP server at https://ai.metricool.com/mcp. It's listed in Claude's connector directory (Settings → Connectors → Browse → Metricool). The code is public: github.com/metricool/mcp-metricool. It works on Metricool's free plan.
+- What it sends online: what Claude asks Metricool for (your connected social accounts, analytics, scheduled posts) goes between Metricool and Claude. It doesn't read files, keys or .env, and it doesn't install anything on a computer. You sign in with Metricool, and no API key is pasted anywhere.
+- Rules: agents draft posts and may only schedule them with Megan's OK. Nothing is published without her OK.
+- Verdict: OK to connect (official vendor connector, Megan connects it herself).

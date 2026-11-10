@@ -20,7 +20,7 @@ The daily article run takes these in order (one per site per day), skipping any 
 | ai seo | 7,000 | 8 | DONE Nov 9: draft ai-seo with cover |
 | llms.txt | 4,800 | 33 | DONE Nov 9: draft llms-txt |
 | answer engine optimization | 2,500 | 26 | strengthen what-is-aeo (H2 + FAQ) |
-| aeo vs seo | 2,000 | 23 | NEW article (geo-vs-seo exists; this one compares AEO) |
+| aeo vs seo | 2,000 | 23 | DONE Nov 10: draft aeo-vs-seo |
 | faq schema | 730 | 29 | NEW article "FAQ schema for AI search" |
 | geo agency · aeo agency · aeo services | 620 · 550 · 400 | 21 · 26 · 16 | glammi.ai needs a real AEO services page (/aeo-services). Landing copy change = Megan approves first |
 | ai search visibility | 420 | 13 | strengthen what-is-ai-visibility |
@@ -35,7 +35,7 @@ Already covered by live or queued pages: geo vs seo, what is aeo, generative eng
 |---|---|---|---|
 | best manifestation app · manifestation app · best vision board app | 80 · 580 · 190 | 24 · 27 · 34 | DONE Nov 9: draft best-manifestation-apps with cover (honest, ISSUE11 named as ours). Plus App Store listing and honest pitches to the list sites AI cites (ISSUE11-RANK-PLAN.md) |
 | vision board ideas | 44,100 | 35 | DONE Nov 9: draft vision-board-ideas with cover |
-| journaling prompts | 37,400 | 21 | NEW "Journaling prompts" (not only manifestation) |
+| journaling prompts | 37,400 | 21 | DONE Nov 10: draft journaling-prompts with cover |
 | law of assumption | 9,700 | 16 | NEW honest explainer |
 | manifestation journaling | 3,100 | 16 | strengthen manifestation-journal-prompts |
 | vision board quotes · vision board words | 2,700 · 1,100 | 25 · 37 | NEW one article |
@@ -69,3 +69,4 @@ Already covered: how to manifest, vision board for manifestation, manifestation 
 - Nov 9: "Related reading" (3 links to live posts) added to all 28 Glammi and 7 ISSUE11 posts (tools/framer/related.mjs); covers added: ai-seo, how-to-photograph-jewelry. Rank baseline: glammi.ai not in the top 100 for any of the 58 keywords yet.
 - Nov 9: technical SEO audit (TECH-SEO-AUDIT-2026-11-09.md); 6 Glammi fixes on Framer main, waiting for the next publish.
 - Nov 9: trackings created (58 + 60 keywords), plan written. First positions pending (Mangools crawls within ~1 hour).
+- Nov 10: live: glammi.ai/blog/jewelry-store-marketing (Glammi publish went through, no block) + issue11.app/blog/does-manifestation-work. New drafts: aeo-vs-seo (Glammi), journaling-prompts (ISSUE11, cover editorial-5). Cover added: llms-txt. Skipped for now: "strengthen what-is-aeo" (live page; edits to live copy go to Megan as a list).

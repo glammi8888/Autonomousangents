@@ -74,3 +74,10 @@ Hit reply. Honest is perfect.
 **[Reply with your thoughts]**
 
 Megan
+
+---
+## v7 (Nov 9, OPS): same sequence, new voice (Megan Nov 9: "keep that tone all over"). Waits for Megan's OK.
+The structure, timing and offer are unchanged. Email 1 stays as is (template issue11-request-received). Emails 2–4 are now draft templates in Resend, not published and not sent: issue11-youre-in (e4a98f91), issue11-last-call (6600ce62), issue11-feedback (aa6678fb). The footer address is still a placeholder until iPostal1. The CTA links point to issue11.app until the invite link or App Store link exists.
+- 2 · Subject "you're in" · "You tried manifesting, it didn't quite deliver, and you're still curious. That's exactly why you got an invite."
+- 3 · Subject "your invitation is still sitting there" · "Your invitation is still unopened. Kind of like that vision board." · "This is the last email about it."
+- 4 · Subject "be honest: how's your first issue?" · "Did your week look a little more like your pages?"

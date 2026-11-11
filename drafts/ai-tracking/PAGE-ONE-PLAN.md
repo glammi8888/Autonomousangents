@@ -5,6 +5,7 @@ Megan, word for word: "keep working until both Glammi ai and issue11 are first p
 ## Definition of done (how we'll know)
 - **Google:** every tracked easy keyword (KD 0 to 29) and medium keyword (KD 30 to 45) has a page on our site, and at least 70% of them rank in the top 10 (US) in Mangools rank tracking. Hard keywords (KD 46+) wait for phase 2.
 - **AI search:** Glammi and ISSUE11 are mentioned in at least 25% of the 50 tracked prompts each (Mangools AI search tracker), up from 0% in the Nov baseline.
+- **AI target ladder (Megan, Nov 11: "Okay !! Great 25% then"):** 25% = phase 1 done (first benchmark) → 50% = the usual answer in our niche → ~100% on the prompts that are about us by name (Queen of AEO, Glammi Studio, ISSUE11).
 - Honest expectation: new pages usually take 4 to 12 weeks to settle in Google. We measure weekly and fix what doesn't move. No promises, no shortcuts (no bought links, no fake reviews).
 
 ## Measuring stick (set up Nov 9)
@@ -70,3 +71,4 @@ Already covered: how to manifest, vision board for manifestation, manifestation 
 - Nov 9: technical SEO audit (TECH-SEO-AUDIT-2026-11-09.md); 6 Glammi fixes on Framer main, waiting for the next publish.
 - Nov 9: trackings created (58 + 60 keywords), plan written. First positions pending (Mangools crawls within ~1 hour).
 - Nov 10: live: glammi.ai/blog/jewelry-store-marketing (Glammi publish went through, no block) + issue11.app/blog/does-manifestation-work. New drafts: aeo-vs-seo (Glammi), journaling-prompts (ISSUE11, cover editorial-5). Cover added: llms-txt. Skipped for now: "strengthen what-is-aeo" (live page; edits to live copy go to Megan as a list).
+- Nov 11: first AI movement. Glammi weekly report Nov 3 to 10: AI Search Score 1.8/100 (from 0), visibility 1.6 percent (from 0), avg position 1.2 when mentioned, 0 citations (named but not linked yet). Next: Google Business Profile + list sites to earn citations.

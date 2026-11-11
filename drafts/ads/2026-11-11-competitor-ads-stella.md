@@ -109,3 +109,8 @@ Compared against: `drafts/ads/2026-11-11-issue11-meta-launch-kit.md` (Hook A, Ho
 - **Whether Future You AI is the App Store app "Future Self - Manifest AI".**
 - **Facebook Page IDs for I am, Vision Board & Goal Tracker and My Manifestation Journal.** Their absence from Meta ads is likely but not proven.
 - **TikTok ads.** The TikTok Creative Center was not checked: there's no connector for it, and the site isn't reachable from here.
+
+
+## Added after the baseline (OPS, Nov 11)
+- **Activations** (Megan named it a competitor). Two Ad Library keyword searches ("Activations app", "activations manifest") returned only unrelated pages, so its Facebook Page ID is still unknown. Next Monday's watch finds the page_id first, then checks its ads.
+- **The Rewire App** showed up in the same search: 9+ active ads for a "Free 5-Day Founder Expansion Series" (billed in AED). A mindset app using a free challenge as the hook. Watch it.

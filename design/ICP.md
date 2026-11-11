@@ -94,3 +94,6 @@ How: waitlist question ("What made you sign up?"), 5–10 beta interviews, then 
 "my target demographic are for people that tried manifestation and think it doesn't work"
 The primary ICP is the disappointed manifester: she tried affirmations, vision boards and meditations, nothing changed, and now she thinks manifestation doesn't work. Copy angle: "Manifestation doesn't work. At least not the way you've been doing it."
 Megan also added: "Or complain that it doesn't work but believe in it". The ICP includes believers who still believe but are frustrated. Never mock belief; the passive method is what failed them.
+
+## Update Nov 11, 2026: Reddit ICP research (Megan)
+Full research: `design/research/REDDIT-ICP-2026-11.md` (Megan: "This is important"). It is now the source for content, copy, onboarding and feature decisions. Key: release the outcome, keep the practice; pains = the loop, the hows, plan killers, gurus, content fatigue; channels = Pinterest + long-form YouTube over hype short-form; gap = digital consistency + paper depth (our printed issue).

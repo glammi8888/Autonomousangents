@@ -6,7 +6,7 @@ Changes v2 → v3 (Nov 10, OPS): the newsletter moved from beehiiv to Resend (de
 ---
 
 **Privacy Policy**
-Last updated: November 10, 2026
+Last updated: November 11, 2026
 
 This policy explains what information the ISSUE11 website (issue11.app) collects and how we use it. It covers the website and the waitlist only. The ISSUE11 app will have its own privacy policy before it launches.
 

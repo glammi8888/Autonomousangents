@@ -53,6 +53,8 @@ Allowed: better ways of working. Never allowed: weakening tests, the App Store c
 
 - 2026-11-10 RULE (Megan, word for word): "When you orchestrate the agents please make sure you give them skills to work with". Every agent brief names the exact skills to load first (now CLAUDE.md OPS rule 9). The Glammi Outreach Room brief missed this; skills sent after (cold-email, prospecting).
 
+- 2026-11-10 PLAN (Megan, word for word): "I think after issue11 is launched and most of the marketing is set up, I will focus on creating content for Glammi but also ISSUE11. Then I might do a sprint for Glammi and try to get to 10k as fast as possible". Order: ISSUE11 launch + marketing set up → content for both → Glammi sprint to 10k. AI Fashion Week (for fun) saved in the Ideas Backlog.
+
 ## Suggestions
 - 2026-11-07 · OPS · Metricool (official claude.ai connector: createScheduledPost, getScheduledPosts, analytics) as the social scheduler for IG, FB, TikTok, Pinterest, YouTube, X; Typefully (connected) for Threads · why: Megan wants "a tool that accepts Claude as a manager" · cost: free plan (~20 posts/mo, 1 brand), paid ~$20–25/mo if needed (verify on metricool.com) · security: OAuth via claude.ai, can publish publicly → agents schedule ONLY posts Megan ✓'d on the weekly review page · status: APPROVED by Megan Nov 7; she creates the account + connects it; OPS reviews the connector before first use.
 - 2026-11-06 · OPS (Friday retro) · Allow `git merge` + `git push` to claude/fervent-volta-fibmd4 in this repo's Claude permissions · why: Megan's "ok to merge" was blocked twice and needed a room hop · cost: $0 · security: only the working branch, never main (Production Safety Rule unchanged) · free alternative: Megan types "ok to merge" in each room. Needs Megan's OK.

@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FAQ Schema for AI Search (AEO): What It Still Does and How to Add It | Glammi Studio</title>
+	<meta name="description" content="FAQ schema is code that labels the questions and answers on your page so search engines and AI tools can read them. Google rarely shows FAQ rich results anymore, but the markup still helps. Here's what it does, a copy-ready example and the mistakes to avoid.">
+	<!--
+	  Glammi Studio · Blog article #31 · AEO topic (PAGE-ONE-PLAN row 5)
+	  Keyword (US, Nov 11 2026): faq schema (730/mo, KD 29)
+	  URL slug: /blog/faq-schema/
+	-->
+</head>
+<body>
+
+<p>FAQ schema is a small block of code (structured data in JSON-LD) that labels the questions and answers already on your page, so search engines and AI tools can read them as clean question-and-answer pairs. Since 2023 Google shows the old FAQ dropdowns in search results only for a small group of well-known government and health sites, so for most businesses the markup won't change how your listing looks. It's still worth adding, as long as you know what it does and doesn't do.</p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+	<li><a href="#what">What FAQ Schema Is</a></li>
+	<li><a href="#changed">What Changed in 2023</a></li>
+	<li><a href="#why">Why We Still Add It</a></li>
+	<li><a href="#example">A Copy-Ready Example</a></li>
+	<li><a href="#questions">Which Questions to Use</a></li>
+	<li><a href="#mistakes">Mistakes to Avoid</a></li>
+	<li><a href="#comparison">FAQ Schema vs Other Schema Types</a></li>
+	<li><a href="#frequently-asked-questions">Frequently Asked Questions</a></li>
+	<li><a href="#references">References</a></li>
+</ul>
+
+<h2 id="what">What FAQ Schema Is</h2>
+<p>Schema is a shared vocabulary (schema.org) that websites use to describe their content to machines. The FAQPage type says: this page has a list of questions, and here is the answer to each one. It lives in your page's code, so visitors never see it. What they see is your normal FAQ section. The schema simply mirrors it.</p>
+
+<h2 id="changed">What Changed in 2023</h2>
+<p>For a few years, FAQ schema was a quick way to take up more space on Google: your result showed expandable questions underneath. In August 2023 Google announced it would show FAQ rich results only for well-known, authoritative government and health websites. For a med spa, a dermatology clinic or a jeweler, that means the dropdowns are gone, and anyone selling FAQ schema as a way to "take over page one" is selling 2021.</p>
+
+<blockquote><p>FAQ schema won't make your listing bigger. It makes your answers easier to read for anything that reads code.</p></blockquote>
+
+<h2 id="why">Why We Still Add It</h2>
+<ul>
+	<li><strong>It forces you to write real answers.</strong> Schema needs a short, complete answer to each question. That's exactly the format AI tools quote.</li>
+	<li><strong>It's clean, labeled data.</strong> Structured data helps search engines understand what a page is about. Google says structured data helps it understand content, even when no rich result appears.</li>
+	<li><strong>It's cheap and low risk.</strong> If your FAQs are real and visible on the page, the markup can't hurt.</li>
+</ul>
+<p>To be clear about the limits: no search engine or AI company has said FAQ schema makes you more likely to be cited. Treat it as good hygiene, not a ranking trick. The answers themselves do the work. That's the core idea of <a href="/blog/what-is-aeo">AEO</a>.</p>
+
+<h2 id="example">A Copy-Ready Example</h2>
+<p>Here's what the code looks like for a med spa page about lip filler. Swap in your own questions and answers, word for word as they appear on the page.</p>
+<pre><code>&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does lip filler last?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most hyaluronic acid lip fillers last about 6 to 12 months, depending on the product and your metabolism."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is there downtime after lip filler?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most people have some swelling for 1 to 3 days and can go back to work the same day."
+      }
+    }
+  ]
+}
+&lt;/script&gt;</code></pre>
+<p><strong>Pro tip:</strong> the answers in the example are general. Your page should use your own numbers, reviewed by your medical team, and the schema must match them exactly.</p>
+<p>Most website builders let you paste this into a page's custom code or head section. After you publish, run the page through Google's Rich Results Test to check the code is valid.</p>
+
+<h2 id="questions">Which Questions to Use</h2>
+<p>Skip the questions nobody asks ("Why choose us?"). Use the ones your front desk hears every week:</p>
+<ul>
+	<li>Price ranges and what changes the price</li>
+	<li>Downtime, results timeline, how long it lasts</li>
+	<li>Who it's right for and who should wait</li>
+	<li>For jewelers: sizing, custom timelines, resetting heirloom stones, warranties</li>
+</ul>
+<p>Five strong questions per page is plenty. Each answer should make sense on its own in one or two sentences, because that's how AI tools lift it. Our guide to <a href="/blog/llm-seo">LLM SEO</a> explains why short, self-contained answers get picked.</p>
+
+<h2 id="mistakes">Mistakes to Avoid</h2>
+<ul>
+	<li><strong>Hidden FAQs.</strong> Every question in the schema has to be visible on the page. Marking up content people can't see breaks Google's guidelines.</li>
+	<li><strong>Answers that don't match.</strong> If you edit the page, edit the schema too.</li>
+	<li><strong>Ads disguised as answers.</strong> "Why are we the best med spa in LA?" isn't a FAQ.</li>
+	<li><strong>The same FAQ on every page.</strong> Each page gets questions about its own topic.</li>
+	<li><strong>Medical claims you can't back up.</strong> Keep answers accurate and reviewed.</li>
+</ul>
+
+<h2 id="comparison">FAQ Schema vs Other Schema Types</h2>
+<table>
+	<thead>
+		<tr><th>Schema Type</th><th>What It Describes</th><th>Worth It for a Beauty Business?</th></tr>
+	</thead>
+	<tbody>
+		<tr><td>FAQPage</td><td>Questions and answers on a page</td><td>Yes, on service pages and articles</td></tr>
+		<tr><td>LocalBusiness (or MedicalBusiness)</td><td>Your name, address, hours, phone</td><td>Yes, on your homepage or contact page</td></tr>
+		<tr><td>Organization</td><td>Your brand, logo and social profiles</td><td>Yes, once, sitewide</td></tr>
+		<tr><td>Product</td><td>Items for sale, price, availability</td><td>Yes for jewelers with online shops</td></tr>
+		<tr><td>Review</td><td>Ratings and reviews</td><td>Only for real reviews, and never self-written ones</td></tr>
+	</tbody>
+</table>
+
+<h2 id="frequently-asked-questions">Frequently Asked Questions</h2>
+<h3 id="faq-what">What is FAQ schema?</h3>
+<p>FAQ schema is structured data in JSON-LD that labels the questions and answers on a page so search engines and AI tools can read them as clear question-and-answer pairs.</p>
+<h3 id="faq-still">Does FAQ schema still work in Google?</h3>
+<p>Since August 2023 Google shows FAQ rich results only for well-known government and health websites. For most businesses the markup no longer changes how the search listing looks, but it still describes the page clearly.</p>
+<h3 id="faq-ai">Does FAQ schema help with AI search?</h3>
+<p>No AI company has confirmed it as a ranking factor. It helps by pushing you to write short, complete answers and by giving machines clean, labeled data, which is the format AI tools tend to quote.</p>
+<h3 id="faq-add">How do I add FAQ schema to my website?</h3>
+<p>Write your FAQs on the page first, then paste a JSON-LD FAQPage script with the same questions and answers into the page's custom code, and check it with Google's Rich Results Test.</p>
+<h3 id="faq-many">How many questions should I include?</h3>
+<p>Around five per page is enough. Use real questions clients ask about that specific page, with answers that make sense on their own in one or two sentences.</p>
+
+<hr>
+
+<p><strong>Want your service pages written so AI tools can quote them?</strong> Glammi Studio is a Los Angeles AEO and AI search studio for med spas, dermatology clinics, jewelers and premium beauty brands. <a href="https://calendly.com/glammiagency/discoverycall" rel="noopener" target="_blank">Book a discovery call</a>.</p>
+
+<p><strong>Written by:</strong> Glammi Studio</p>
+
+<h2 id="references">References</h2>
+<ul>
+	<li><a href="https://developers.google.com/search/blog/2023/08/howto-faq-changes" rel="noopener" target="_blank">Google Search Central Blog: Changes to HowTo and FAQ rich results (August 2023)</a></li>
+	<li><a href="https://developers.google.com/search/docs/appearance/structured-data/faqpage" rel="noopener" target="_blank">Google Search Central: FAQ (FAQPage) structured data</a></li>
+	<li><a href="https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data" rel="noopener" target="_blank">Google Search Central: Introduction to structured data markup</a></li>
+	<li><a href="https://schema.org/FAQPage" rel="noopener" target="_blank">schema.org: FAQPage</a></li>
+	<li><a href="https://search.google.com/test/rich-results" rel="noopener" target="_blank">Google: Rich Results Test</a></li>
+</ul>
+
+<!-- FAQPage schema: must match the FAQ text above word for word -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "What is FAQ schema?", "acceptedAnswer": {"@type": "Answer", "text": "FAQ schema is structured data in JSON-LD that labels the questions and answers on a page so search engines and AI tools can read them as clear question-and-answer pairs."}},
+    {"@type": "Question", "name": "Does FAQ schema still work in Google?", "acceptedAnswer": {"@type": "Answer", "text": "Since August 2023 Google shows FAQ rich results only for well-known government and health websites. For most businesses the markup no longer changes how the search listing looks, but it still describes the page clearly."}},
+    {"@type": "Question", "name": "Does FAQ schema help with AI search?", "acceptedAnswer": {"@type": "Answer", "text": "No AI company has confirmed it as a ranking factor. It helps by pushing you to write short, complete answers and by giving machines clean, labeled data, which is the format AI tools tend to quote."}},
+    {"@type": "Question", "name": "How do I add FAQ schema to my website?", "acceptedAnswer": {"@type": "Answer", "text": "Write your FAQs on the page first, then paste a JSON-LD FAQPage script with the same questions and answers into the page's custom code, and check it with Google's Rich Results Test."}},
+    {"@type": "Question", "name": "How many questions should I include?", "acceptedAnswer": {"@type": "Answer", "text": "Around five per page is enough. Use real questions clients ask about that specific page, with answers that make sense on their own in one or two sentences."}}
+  ]
+}
+</script>
+
+</body>
+</html>

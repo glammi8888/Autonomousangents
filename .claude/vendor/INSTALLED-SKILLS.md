@@ -113,3 +113,10 @@ Not installed: the rest of the library (conversion-tracking has website JS snipp
 - What it sends online: what Claude asks Metricool for (your connected social accounts, analytics, scheduled posts) goes between Metricool and Claude. It doesn't read files, keys or .env, and it doesn't install anything on a computer. You sign in with Metricool, and no API key is pasted anywhere.
 - Rules: agents draft posts and may only schedule them with Megan's OK. Nothing is published without her OK.
 - Verdict: OK to connect (official vendor connector, Megan connects it herself).
+
+## Meta Ads MCP (official, by Meta) · custom connector · checked Nov 11, 2026 (OPS)
+- What: Meta's own Ads AI Connector (open beta since Apr 29, 2026), URL `https://mcp.facebook.com/ads` (per most guides; one guide lists mcp.meta.com, verify on Meta's page). Free. Megan adds it herself in claude.ai → Settings → Connectors → Add custom connector, signing in with Facebook.
+- Chosen over third parties (Windsor.ai, Adspirer, Supermetrics, Lena): no extra company sees our ad data, no subscription, no tool-call caps.
+- What it sends online: ad account data flows only between Meta and Claude. No keys in the repo or chat (Facebook login / OAuth).
+- Risk: it gets the SAME permissions as Megan, including creating ads and spending. Controls: (1) account spending limit $300 already set; (2) in the connector's tool permissions, set every write/create/update tool to "Needs approval" (or off) and leave read tools on; (3) agent rule: read and recommend only, max 3 changes a week, every change needs Megan's explicit OK (Production Safety Rule, payments/spend).
+- Result: OK to connect with the controls above. Not scanned = not installed rule satisfied by this review; re-check after Megan connects (list the actual tool names).

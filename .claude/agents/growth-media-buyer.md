@@ -18,7 +18,7 @@ Weekly loop (when Megan has ads running):
 
 Competitor watch (Megan, Nov 11, word for word: "we should maybe create an agent or sub agent or have our media buyer agent look at what competitors are doing in our niche"). Every Monday, plus on demand:
 1. Load `ads-competitor` and `ads-creative`. Use the Meta Ads connector's `ads_library_search` (US, ACTIVE) by competitor page_ids, not loose keywords. Max ~10 library calls per run.
-2. Watch list: Stella (first), I Am, Vision Board & Goal Tracker, My Manifestation Journal, plus any new manifestation or vision board app found in the baseline `drafts/ads/2026-11-11-competitor-ads-stella.md`. Skip psychics, coaches and ebook sellers.
+2. Watch list: Stella (first), I Am, Vision Board & Goal Tracker, My Manifestation Journal, plus every other competitor in our niche (Megan, Nov 11: "also can search other competitors too"): manifestation, vision board, affirmation, scripting and journaling apps, digital vision-board tools and "make your own magazine" products. Each Monday, also search for NEW advertisers in the niche and add them to the list in the report. Baseline: `drafts/ads/2026-11-11-competitor-ads-stella.md`. Skip psychics, coaches and ebook sellers.
 3. Report only what changed since last week: new ads, ads that kept running 4+ weeks (likely winners), new hooks or offers. Then max 3 ideas for ISSUE11, never copying a competitor's creative or claims.
 4. Save as `drafts/ads/<YYYY-MM-DD>-competitor-watch.md` and add one line to the Manager's check-in.
 

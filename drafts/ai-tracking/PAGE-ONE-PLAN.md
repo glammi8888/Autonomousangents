@@ -38,6 +38,16 @@ Already covered by live or queued pages: geo vs seo, what is aeo, generative eng
 | vision board ideas | 44,100 | 35 | DONE Nov 9: draft vision-board-ideas with cover |
 | journaling prompts | 37,400 | 21 | DONE Nov 10: draft journaling-prompts with cover |
 | law of assumption | 9,700 | 16 | DONE Nov 11: draft law-of-assumption with cover |
+| **Megan's ICP keywords (Nov 12), written next, in this order:** | | | |
+| scripting examples · scripting tutorial · scripting manifestation · scripting for beginners · what is scripting manifestation · how to start scripting | 6,200 · 2,300 · 920 · 210 · 150 · 20 | 11 · n/a · 18 | NEW "Scripting manifestation: examples + a 5-line method" (H2s = her AEO questions: How do I start scripting? What do I write in a scripting journal?) |
+| becoming her · become her · how to become unrecognizable | 3,200 · 480 · 150 | 9 · 34 | NEW "Becoming her" (keyword in title; body talks to "you") + "How do I become her without changing who I am?" |
+| how to glow up · glow up · how to glow up in 30 days · internal glow up | 9,300 · 20,500 · 30 · 10 | 24 · 31 | NEW "How to glow up from the inside out" |
+| mirror work · how to do mirror work · mirror exercise | 1,700 · 50 · 520 | 25 · n/a · 55 | NEW "Mirror work: how to do it without cringing" (mirror exercise KD 55 = phase 2) |
+| how to stop people pleasing · how to say no without apologizing · how to stop abandoning yourself | 1,700 · 10 · 60 | 21 | NEW (careful: self-help, not therapy; no clinical claims) |
+| how to rebrand yourself · personal rebrand | 280 · 40 | 33 · 9 | NEW "How to rebrand yourself" + "What is a personal rebrand?" |
+| future self letter example · letter from future self · future self journal | 40 · 20 · 40 | 21 | NEW short "Letter from your future self" |
+| how to stop overthinking | 15,600 | 19 | LATER, ask Megan: big but mental-health adjacent (YMYL); only with real sources and no clinical promises |
+Zero-volume questions from Megan's list (2027 rebrand, what to put on a 2027 vision board, higher self, art direct your life, 5 line scripting method) = H2s/FAQs inside the articles above and Reel hooks, not separate pages. All 34 keywords with volume added to the issue11.app tracking Nov 12 (94 total).
 | manifestation journaling | 3,100 | 16 | strengthen manifestation-journal-prompts |
 | vision board quotes · vision board words | 2,700 · 1,100 | 25 · 37 | NEW one article |
 | manifestation methods · techniques | 1,700 | 20 · 25 | NEW "Manifestation methods, ranked by evidence" |

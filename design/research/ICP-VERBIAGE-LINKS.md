@@ -1,0 +1,6 @@
+# ICP verbiage docs (Megan, Nov 11): links + rules
+Source: Megan, via her main Claude chat (Megan Today inbox, Nov 11, 2026). Saved word for word by OPS. Source of truth for ISSUE11 content, copy, onboarding and product.
+
+---
+
+From Megan via her main Claude chat (updated): her ICP research is now two docs, every line word for word. (1) ISSUE11 Lexicon: Their Verbiage, Word for Word (slang, affirmation lines, voice and code-switching, lexicon gaps, Pinterest vs TikTok language, 2027 vision board and glow up lines): https://claude.ai/artifact/FrAGXX7Yf1V4J14kb3tBi1. (2) ISSUE11 ICP Verbiage: Pain Points + Desired Outcomes (pain points, desired outcomes, skeptic wording, real Reddit and App Store quotes): https://claude.ai/artifact/DmVVKdPX1aBQ54gyh7KdFD. Megan: "The wording is the most important." Use the ICP's exact vocabulary in content. Lines marked "Meta AI note" are explanations, not ICP quotes; only the Reddit and App Store lines are confirmed real. The earlier ICP Lexicon + Hook Bank (https://claude.ai/artifact/2CCRhJk7CcR63ohQAFVfSo) is superseded; she said its hooks sounded AI-written. Her rules: in ISSUE11's own lines use "Become YOU", "your true self", "future you", never "become her" (their words, quoted only as research). No "this is X but should be Y" phrasing. No promised outcomes, dates or specific people.

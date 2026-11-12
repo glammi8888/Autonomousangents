@@ -1,5 +1,5 @@
 # ISSUE11 Market Research: Reddit ICP (Nov 11, 2026)
-Source: Megan's research doc (PDF, Nov 11, 2026), from 11 questions run through Reddit Answers (r/Manifestation, r/lawofattraction, r/NevilleGoddard, r/manifestation_support and others). Megan: "This is important". **Use as the source for content, copy, onboarding and feature decisions**, alongside the Intellectual & Editorial Bible and the Marketing Playbook. Quotes are Reddit Answers summaries of public posts: directional, not a statistical sample.
+Source: Megan's research doc (PDF, Nov 11, 2026; live doc: https://claude.ai/artifact/Mq8kgYAqepWuHXKarceQh2), from 11 questions run through Reddit Answers (r/Manifestation, r/lawofattraction, r/NevilleGoddard, r/manifestation_support and others). Megan: "This is important". **Use as the source for content, copy, onboarding and feature decisions**, alongside the Intellectual & Editorial Bible and the Marketing Playbook. Quotes are Reddit Answers summaries of public posts: directional, not a statistical sample.
 
 **Thesis it backs:** let go of the outcome, keep the action. **Gap:** no product gives her both the consistency of digital and the depth of paper.
 

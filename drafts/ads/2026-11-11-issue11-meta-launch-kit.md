@@ -3,7 +3,10 @@
 💚 GROWTH, Media Buyer. **Draft only.** Nothing has been created in Meta and nothing has been spent. Megan presses every button.
 Skills used: ads-meta, ads-create, ads-creative, ads-test, copywriting. Builds on `drafts/ads/2026-11-06-issue11-launch-plan.md` (budget, break-even math, stop rules). The voice now follows the live landing page (`drafts/landing/landing-copy-v3-full-page.md`).
 
-**Status:** Pixel 2228324218041215 is live on issue11.app (PageView, loads once). Thank-you page is /thank-you. Automatic Advanced Matching stays OFF (the privacy page promises it). Facebook Page "Issue11" exists and Instagram is linked. The ad account has no card yet, and the Meta Ads connector can't read it yet.
+**Updated Nov 13 to match Megan's Nov 12 decisions:** the $300 Instagram test goes live **Mon Nov 17**. Ad Reels use **only Megan's own photos and footage plus the text-only Scribe screen** (`6-scribe-write-fit.jpg`), never the photos inside the interim app screens. Day-of steps: `drafts/ads/2026-11-17-launch-checklist.md`.
+
+**Status (Nov 12):** ISSUE11 ad account created ✓. Pixel 2228324218041215 live on issue11.app ✓ (PageView, loads once). issue11.app confirmed in Meta ✓. Thank-you page is /thank-you. Automatic Advanced Matching stays OFF (the privacy page promises it). Facebook Page "Issue11" exists and Instagram is linked.
+**Not confirmed yet:** card added · $300 spending limit · "Waitlist sign-up" custom conversion (URL contains /thank-you) showing Active · the 2 Reels filmed. The Meta Ads connector couldn't read the ad account in this run, so these are Megan's to confirm.
 **Cold start:** the ad account, the Pixel's conversion history and the sign-up event are all new. That means no outside benchmark applies and no forecast. Our own test is the only number that counts.
 **Provisional:** Meta's menus and names (Advantage+ audience, A/B test, creative enhancements) change often and weren't re-checked live today. If a button below has a different name, take a screenshot and I'll match it.
 
@@ -17,12 +20,12 @@ Skills used: ads-meta, ads-create, ads-creative, ads-test, copywriting. Builds o
 4. **Connect the Pixel to the ad account.** Business settings → Data sources → Datasets (or Pixels) → pick **2228324218041215** → Connected assets → Add assets → choose the ISSUE11 ad account → Save.
 5. **Give the ad account your Instagram.** Business settings → Accounts → Instagram accounts → Issue11 → Connected assets → add the ISSUE11 ad account. Without this, the ad can't post as @issue11.
 6. **Create the sign-up conversion.** Events Manager → Custom conversions → Create custom conversion:
-   - Name: **Waitlist Sign Ups**
+   - Name: **Waitlist sign-up**
    - Data source: Pixel 2228324218041215 · Action source: Website
    - Event: All URL traffic · Rule: **URL contains** `thank-you`
    - Category: **Lead** · Value: leave empty
-7. **Test it once.** Sign up on issue11.app with a test email, land on /thank-you, then check that "Waitlist Sign Ups" shows **Active** in Events Manager (it can take up to a day). Mark that test row in the Google Sheet as "test" so we don't count it.
-8. **Verify the domain if it isn't done yet.** Business settings → Brand safety → Domains → Add issue11.app → use the meta-tag option and paste it in Framer → Site Settings → Custom Code (head). Then press Verify.
+7. **Test it once.** Sign up on issue11.app with a test email, land on /thank-you, then check that "Waitlist sign-up" shows **Active** in Events Manager (it can take up to a day). Mark that test row in the Google Sheet as "test" so we don't count it.
+8. **Done Nov 12 (issue11.app confirmed in Meta). Skip.** Kept for reference: **Verify the domain if it isn't done yet.** Business settings → Brand safety → Domains → Add issue11.app → use the meta-tag option and paste it in Framer → Site Settings → Custom Code (head). Then press Verify.
 9. **Send me one screenshot** of the custom conversion page showing Active. Then you're ready to build the campaign below.
 
 ## 2. Exact campaign settings
@@ -43,9 +46,9 @@ Changes from Nov 6: new hooks in the live voice, the price is now decided (kept 
 | Name | Hook A · Manifestation doesn't work |
 | Conversion location | **Website** |
 | Performance goal | Maximize number of conversions |
-| Dataset / conversion event | Pixel 2228324218041215 → custom conversion **Waitlist Sign Ups** |
+| Dataset / conversion event | Pixel 2228324218041215 → custom conversion **Waitlist sign-up** |
 | Budget | **$5/day per ad set** (2 ad sets = $10/day total) |
-| Schedule | Start the day after step 9 is done. End date exactly **14 days later** |
+| Schedule | Start **Mon Nov 17** (only if every box in the launch checklist is ticked). End date exactly **14 days later** |
 | Location | United States only |
 | Audience | Click **"Switch to original audience options"** so these are firm limits instead of suggestions: **Women, 18 to 40**. No interests, no lookalikes, no uploaded lists |
 | Placements | **Manual placements** → Instagram only: Feed, Explore, Explore home, Stories, Reels. Untick Facebook, Messenger, Audience Network and Threads |

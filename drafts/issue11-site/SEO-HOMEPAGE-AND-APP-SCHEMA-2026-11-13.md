@@ -42,3 +42,12 @@ No price on purpose (prices differ by plan and change; Google flags mismatches) 
 
 ## 3. Found while checking: llms.txt is out of date
 issue11.app/llms.txt still says "first 1,000 people get 50% off their first year" and "$9.99 a month". The live site says $39.99 for the first year (then $69.99/yr), and the Nov 6 rule is never to say "50% off". Fix: replace the Price line with the live site's wording (Megan re-uploads, 1 minute). Also add "manifestation journal app" to the first line.
+
+## 4. Also outdated: the homepage FAQ code (Google and AI read it)
+The hidden FAQ schema on issue11.app says two things that no longer match the page:
+- "When can I get ISSUE11?" → says beta **November 11**, App Store **December 11**. The page says the private beta opens **Dec 11**.
+- "Is ISSUE11 free?" → says "$9.99 a month" and "**50% off** their first year". The page says founding members pay **$39.99 the first year, then $69.99/yr**.
+
+Corrected answers (replace the "text" values in that code; it lives in Framer → Site settings → Code, or Page → Home → Custom Code):
+- When can I get ISSUE11? → "A private beta opens on December 11, 2026, with invites for the waitlist. The App Store launch follows after the beta."
+- Is ISSUE11 free? → "Joining the waitlist is free. Founding members pay $39.99 for the first year, then $69.99 a year, digital magazine included. A printed Issue is optional: $29.99 with free standard shipping in the US."

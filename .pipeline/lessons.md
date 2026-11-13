@@ -4,10 +4,16 @@ Every pipeline agent reads this before starting and adds max 2 dated lines at th
 Format: `- YYYY-MM-DD · <Planner|Builder|QA|Reviewer> · <lesson>`
 A lesson that appears twice gets promoted into that agent's file in `.claude/agents/`, and is removed here.
 
-## 📌 CURRENT FACTS (read first; OPS updates this box every Friday. Last: Nov 6, 2026)
+## 📌 CURRENT FACTS (read first; OPS updates this box every Friday. Last: Nov 13, 2026)
 Why: this week Megan corrected us 4 times on facts that were already in this file (Dec 11 date, Mangools plan, booking page, contact email). Check this box before writing any date, price, tool or contact.
+- NEW Nov 13 retro: Megan again corrected us 4 times on things already true (App Store description already published; favicon already live; yearly price is $69.99, which THIS BOX already said; she has Apify). Rule: before saying something is "not done" or proposing to build it, check this box AND the live source (live site, App Store Connect status, Notion) first.
+- Websites: standing permission (Megan Nov 12, word for word: "always publish glammi.ai and issue11.app"). App, payments, user data, security etc. still need her OK.
+- Tools Megan HAS: Apify ("Never forget I have apify ok?!"; check Apify actors before manual work or new paid tools), Metricool (Pinterest scheduling), Resend (email, both businesses), Mangools, Meta Ads connector (read-only). ASO: Astro ongoing from Mon Nov 16 + ASOMobile 1 month before submission.
+- Megan does not want manual research steps ("I do not want to do the work manually"). Pinterest SEO data = Apify "Pinterest Trends Scraper" (apt_marble), security check passed; needs her Apify key.
+- ISSUE11 ads: $300 Instagram test launches Mon Nov 17; only Megan's own photos + the text screen. Ad account created Nov 12.
+- App Store description: DONE and published by Megan. Landing H2 + Editorial Bible both stay.
 - ISSUE11: **Dec 11, 2026 = private beta.** App Store launch date is set after the beta (never write "launches Dec 11").
-- ISSUE11 ads: Megan chose ~$300/mo (Option B) on Nov 6. Before any ad runs: privacy page must allow the Meta Pixel, founding offer decided, Megan creates the Meta ad account.
+- ISSUE11 ads: Megan chose ~$300/mo (Option B) on Nov 6 (Pixel live Nov 11, ad account created Nov 12).
 - ISSUE11 prices (Megan, Nov 7: "Ok let's do that"): Monthly $9.99 (no trial) · Yearly **$69.99** (7-day trial) · founding rate for approved waitlist guests: **$39.99 for the first year** (then renews at $69.99; first year only, not forever). Wording: "Approved guests lock in their founding rate". No "first 1,000" cap (Megan, Nov 7). $69.99 must be the real price charged (no fake reference price). Never "50% off".
 - ISSUE11 pages: unlock ANYTIME; the weekly Next Move is an optional suggestion, never a lock (Megan, Nov 7: "2. Ok").
 - ISSUE11 brand update (Megan, Nov 7, word for word): "it's ok I can contradict myself because the slight gradients look amazing on that landing page". Soft, slight gradients in the brand palette (baby pink #F7C6D9 → off-white #F6F6F4, touch of black) are now ALLOWED for backgrounds (landing page + App Store screenshot backgrounds). Still no loud/hot-pink blocks, no glass.

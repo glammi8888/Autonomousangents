@@ -1,4 +1,4 @@
-# issue11.app: homepage SEO title/description + App schema (DRAFT, needs Megan's OK)
+# issue11.app: homepage SEO title/description + App schema (LIVE Nov 13 except llms.txt)
 
 Megan, Nov 13: "Ok let's do it" (homepage title/description wording + App schema for review). Goal: make Google and AI read ISSUE11 as a **manifestation journal app** (Canva and Pinterest win those answers today without being journals).
 
@@ -51,3 +51,9 @@ The hidden FAQ schema on issue11.app says two things that no longer match the pa
 Corrected answers (replace the "text" values in that code; it lives in Framer → Site settings → Code, or Page → Home → Custom Code):
 - When can I get ISSUE11? → "A private beta opens on December 11, 2026, with invites for the waitlist. The App Store launch follows after the beta."
 - Is ISSUE11 free? → "Joining the waitlist is free. Founding members pay $39.99 for the first year, then $69.99 a year, digital magazine included. A printed Issue is optional: $29.99 with free standard shipping in the US."
+
+## Status (Nov 13, verified on live issue11.app)
+- ✅ 1 Homepage title + description: live.
+- ✅ 2 App schema: live (Framer custom code "App Schema (MobileApplication)", Home only, end of body).
+- ✅ 4 FAQ schema answers: live (no "50% off", no "November 11").
+- ⏳ 3 llms.txt: Static Files can't be uploaded by agents. Handed to OPS (Freyja Inbox, Nov 13). Fallback: Megan.

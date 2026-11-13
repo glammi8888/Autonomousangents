@@ -74,9 +74,10 @@ Changes from Nov 6: new hooks in the live voice, the price is now decided (kept 
 
 ## 3. Two Reel concepts (new voice)
 
-Both use only (a) the interim screens in `design/site-screens/` (the `-fit` versions crop best) and (b) Megan's own phone footage. Rules applied: magazine stays the hero, the AI isn't sold, no promised results, no health words (meditation, healing, anxiety, body), no dates, no em dashes, belief is never mocked (the passive method is what failed).
-Small text on the last frame of both Reels: **"Early design preview."** The screens are interim mockups, not the final app, so this keeps it honest.
-Screen 2 (My saves) is left out on purpose: its "03 Body" board label could pull the ad into Meta's health review.
+**Megan's rule (Nov 12):** the Reels use ONLY (a) Megan's own photos and phone footage and (b) the text screen `design/site-screens/6-scribe-write-fit.jpg` (text only, no photos inside). No other app screen appears, because screens 1, 7, 9 and 11 contain photos we haven't cleared for paid ads. The end card is a plain brand card (blush background + wavy 11 icon), not an app screen.
+Megan's own photos: `drafts/issue11-blog/images/megan-editorial-*.webp`. **Skip the cash and money photos** (8, 10, 11, 12, 19, 28) and the supercar photos (13 to 15) in ads: next to "manifest", money imagery reads as a money promise, which Meta reviews as a financial claim. Good picks: 9 and 16 (back views, no face), 20 to 22 (dream closets), 26 (freckles + glasses, journaling feel), 34 to 37.
+Rules applied: magazine stays the hero, the AI isn't sold, no promised results, no health words (meditation, healing, anxiety, body), no dates, no em dashes, belief is never mocked (the passive method is what failed).
+Small text on the last frame of both Reels: **"Early design preview."** The Scribe screen is still an interim design, so this keeps it honest.
 
 ### Hook A · "Manifestation doesn't work." (the follow-through angle)
 **On-screen hook (0 to 2 s):** **Manifestation doesn't work.**
@@ -85,9 +86,9 @@ Screen 2 (My saves) is left out on purpose: its "03 Body" board label could pull
 |---|---|---|
 | 0 to 2 s | Megan's footage: a still shot of a sticky-note affirmation on a mirror or a vision board on a wall. No face needed | Manifestation doesn't work. |
 | 2 to 4 s | Same shot, slow push in | At least not the passive kind. |
-| 4 to 7 s | Screen `1-home-fit.jpg`, slow zoom to "This week's move: Send the pitch you've been sitting on." | One small move a week. |
-| 7 to 10 s | Screen `6-scribe-write-fit.jpg` (the typed line "Send the pitch. Not reread it nine times.") | Write the day you want. |
-| 10 to 13 s | Screen `11-i-did-it-fit.jpg` (the page lands: "The pitch.") | Do it. It becomes a page in your magazine. |
+| 4 to 7 s | Screen `6-scribe-write-fit.jpg`, slow zoom to the typed line "Send the pitch. Not reread it nine times." | Write the day you want. |
+| 7 to 10 s | Megan's own footage: her hand pressing Send on a laptop or phone (blur any names or text on screen), or her own photo 26 | One small move a week. |
+| 10 to 13 s | Megan's own photo (9 or 16), slide in like a magazine page turning | Do it. It becomes a page in your magazine. |
 | 13 to 15 s | End card: blush background, wavy 11 icon (`icon-wavy-11-black.png`) | Get your invite · issue11.app · Early design preview. |
 
 **Caption** (only if the same Reel is also posted organically; ads use the primary text): Manifestation doesn't work when it's all wishing and waiting. ISSUE11 is built on behavior-change psychology: you make your own magazine about the life you want, then live it one small move a week. Invite link in bio.
@@ -107,10 +108,10 @@ Screen 2 (My saves) is left out on purpose: its "03 Body" board label could pull
 
 | Time | Shot | Text on screen |
 |---|---|---|
-| 0 to 2 s | Megan's footage: slow pan across a real vision board, or her thumb scrolling a camera roll full of saved screenshots | Your vision board is a museum of a life you're not living. |
-| 2 to 5 s | Keep scrolling the camera roll, a bit faster | So make it a magazine instead. |
-| 5 to 9 s | Screen `7-your-issue-fit.jpg`, slide left like a page turn ("p.15 of 40") | Your own magazine. Your name on the cover. |
-| 9 to 12 s | Screen `1-home-fit.jpg`, zoom from "The Freedom Issue." down to "This week's move" | Then live it, one small move a week. |
+| 0 to 2 s | Megan's footage: slow pan across a real vision board she made | Your vision board is a museum of a life you're not living. |
+| 2 to 5 s | Same board, faster pan (if she scrolls a camera roll instead, use a folder with only her own editorial photos, nothing personal) | So make it a magazine instead. |
+| 5 to 9 s | 3 of Megan's own photos (for example 20, 34, 37), each slides left like a page turn | Your own magazine. Your name on the cover. |
+| 9 to 12 s | Screen `6-scribe-write-fit.jpg`, zoom to "What would future you do before lunch?" | Then live it, one small move a week. |
 | 12 to 15 s | End card: blush background, wavy 11 icon | Get your invite · issue11.app · Early design preview. |
 
 **Caption** (organic version only): If your camera roll is half screenshots of a life you want, hi. ISSUE11 turns them into your own magazine, then helps you live it one small move a week. Invite link in bio.
@@ -123,7 +124,7 @@ Screen 2 (My saves) is left out on purpose: its "03 Body" board label could pull
 **Headline:** Make your own manifestation magazine
 **CTA:** Sign Up
 
-**Policy self-check, Hook B:** no health or healing words, and the "Body" screen is left out ✓ · no promised result ✓ · no date, no "launches Dec 11" ✓ · "your vision board" names an object, not a belief or a personal trait ✓ (small risk: if Meta rejects it, swap in variant 2 and the hook "Most vision boards get forgotten.") · price with renewal ✓ · nothing fake ✓ · images inside the screens: see Question 1.
+**Policy self-check, Hook B:** no health or healing words ✓ · only Megan's own photos + the text screen, no money imagery ✓ · no promised result ✓ · no date, no "launches Dec 11" ✓ · "your vision board" names an object, not a belief or a personal trait ✓ (small risk: if Meta rejects it, swap in variant 2 and the hook "Most vision boards get forgotten.") · price with renewal ✓ · nothing fake ✓.
 
 ## 4. The A/B test and stop rules (reused from Nov 6)
 
@@ -145,6 +146,6 @@ Screen 2 (My saves) is left out on purpose: its "03 Body" board label could pull
 - **Hook B:** no health claims ✓ · no outcome guarantees ✓ · no "launches Dec 11" (no date at all) ✓.
 - **Landing page note:** the page says "so you finally manifest it for real" and "Manifesting, the way that actually works." Those are fine on the site (Megan's Nov 9 rule) but they stay out of the ads, where Meta and the FTC judge them as result claims.
 
-## 6. Two decisions only Megan can make
-1. **Are the photos inside the interim screens ours to use in paid ads?** (For example the "the cool girl." magazine page in screens 1, 7 and 9.) **Recommended:** if you're not sure they're yours or licensed, swap your own photos into those screens before filming, or use only screen 6 (text only) plus your own footage. Reason: paid ads get more eyes than the site, and a rights complaint can get the ad or the account flagged.
-2. **When do we press Publish?** **Recommended:** as soon as steps 1 to 9 are done, ideally by Mon Nov 17. Reason: 14 days ends around Dec 1, before holiday ad prices peak and with 10 days left to push the winner before the Dec 11 beta. Filming both Reels is about 30 minutes of phone footage (best on Tue/Wed, not on your solo days).
+## 6. Decisions (both made by Megan, Nov 12)
+1. **Photos in ads:** ONLY Megan's own photos + the text screen, never the photos inside the interim app screens. Applied in section 3.
+2. **Publish date:** Mon Nov 17. 14 days ends around Dec 1, before holiday ad prices peak and with 10 days left to push the winner before the Dec 11 beta. If any checklist box isn't ticked by then, wait a day rather than publish without tracking.

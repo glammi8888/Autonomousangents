@@ -74,7 +74,7 @@ Already covered: how to manifest, vision board for manifestation, manifestation 
 | # | Action | Who | Status |
 |---|---|---|---|
 | 1 | Publishing unblocked: permission rule for the 2 publish scripts, or Megan's OK per run | Megan | blocked since Nov 6 (Glammi) |
-| 2 | Google Search Console + Bing Webmaster for both sites, submit sitemaps | Megan (her Google login), agent writes steps | open |
+| 2 | Google Search Console + Bing Webmaster for both sites, submit sitemaps | Megan (her Google login), agent writes steps | Search Console DONE for both (issue11.app Nov 13). Bing still open |
 | 3 | Internal links: every article links to 2 to 3 related ones and the money page | Agent | start with the live posts |
 | 4 | Glammi menu/footer dead booking link (/30min) fixed via smooth-mosaic branch | OPS / Megan to publish | open |
 | 5 | Profiles that AI reads: LinkedIn company, Crunchbase, Pinterest (ISSUE11), Google Business Profile (Glammi), same name everywhere: Megan Scott Manolova | Megan creates, agent writes copy | open |

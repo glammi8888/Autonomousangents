@@ -6,7 +6,7 @@ Goal (Megan, Nov 11): "Okay !! Great 25% then" · "Seriously we need to speed th
 
 ### Both sites
 1. 📱 Bing Webmaster Tools: sign in with Google → Import from Search Console → pick glammi.ai (5 min). Add issue11.app after step 2.
-2. 📱 ⭐ Google Search Console for issue11.app (5 min): steps on the dashboard.
+2. ✅ Google Search Console for issue11.app: DONE Nov 13.
 3. 💻 Paste the "same person, same brand" code (sameAs schema) in Framer → Site settings → Code, once per site (2 min each). Agent sends it.
 
 ### Glammi

@@ -2,7 +2,12 @@
 
 Megan, word for word: "keep working until both Glammi ai and issue11 are first page of Google and both appear ai search for easy and medium keywords" · "We will attack competitive keywords after that".
 
+Megan, Nov 13, word for word: "The goal is to rank #1 on Google for many searches and with AEO too" (both sites).
+
 Megan, Nov 12, word for word, about her ICP keywords for ISSUE11: "track AND RANK FOR" · "I need to rank for all of them" · "#1 page" · "And top search result" · "So never stop working until that happens". Target: page 1, then position #1, for every tracked ICP keyword with 100+ searches. Work doesn't stop at page 1.
+
+
+> **Latest goal (Megan, Nov 13, word for word):** "And keep looping until both issue11 and Glammi are apprearing #1 on all searches, easier keywords to rank first" · "Then 25% AEO rate" · "I want to get a lot of traffic". Order: #1 for easy keywords on both sites (lowest difficulty first, most searches first among them), then 25% AI mention rate, then medium/competitive.
 
 ## Definition of done (how we'll know)
 - **Google:** every tracked easy keyword (KD 0 to 29) and medium keyword (KD 30 to 45) has a page on our site, and at least 70% of them rank in the top 10 (US) in Mangools rank tracking. Hard keywords (KD 46+) wait for phase 2.
@@ -49,6 +54,13 @@ Already covered by live or queued pages: geo vs seo, what is aeo, generative eng
 | journaling prompts | 37,400 | 21 | DONE Nov 10: draft journaling-prompts with cover |
 | law of assumption | 9,700 | 16 | DONE Nov 11: draft law-of-assumption with cover |
 | **Megan's ICP keywords (Nov 12), written next, in this order:** | | | |
+| **Small, winnable app searches (Megan, Nov 13: "those keywords are highly competitive" · "Any smaller questions ?!"), written FIRST:** | | | |
+| vision board magazine | 1,400 | low (no KD yet) | NEW, NEXT: "Vision board magazine: turn your board into an issue about your life" (ISSUE11 is literally this; also wins the AI prompt "Is there an app that turns your vision board into a magazine?") |
+| scripting app | 1,100 | low (no KD yet) | NEW: "Best scripting apps" (honest list, ISSUE11 named as ours, link to scripting-manifestation) |
+| vision board app free | 360 | 25 | NEW: "Free vision board apps" (honest, prices as listed) |
+| manifestation planner | 140 | 19 | NEW: "Manifestation planner: what to put in it + digital vs paper" |
+| affirmation app | 13,000 | 26 | LATER: honest "best affirmation apps" (ISSUE11 is not an affirmation app, so it can only appear as a "if you want action, not affirmations" alternative) |
+| best manifestation journal app (AI prompt, Megan Nov 13) · manifesting app · manifestation journal app · best journaling app | n/a · 580 · 20 · 2,100 | 16 · 17 · 41 | NEW, NEXT: "Best manifestation journal apps" (honest comparison, ISSUE11 named as ours; answers the exact AI prompt in the first 2 sentences). best-manifestation-apps draft moved to publish first (Nov 14) |
 | scripting examples · scripting tutorial · scripting manifestation · scripting for beginners · what is scripting manifestation · how to start scripting | 6,200 · 2,300 · 920 · 210 · 150 · 20 | 11 · n/a · 18 | DONE Nov 12: LIVE issue11.app/blog/scripting-manifestation. Was: NEW "Scripting manifestation: examples + a 5-line method" (H2s = her AEO questions: How do I start scripting? What do I write in a scripting journal?) |
 | personal rebrand (Megan, Nov 12: "Personal rebrand is huge one") · how to change your life · how to reinvent yourself · reinvent yourself · how to rebrand yourself · rebranding yourself · how to completely change yourself | 40 · 1,000 · 960 · 870 · 280 · 230 · 140 (about 3,500 together) | 9 · 23 · 33 · 26 · 33 · 23 | DONE Nov 12: LIVE issue11.app/blog/personal-rebrand. Was: NEW "Personal rebrand: how to reinvent yourself" (one page for the whole cluster; "What is a personal rebrand?" as H2). Tracked even though "personal rebrand" itself is 40/mo, because it is the core term |
 | becoming her · become her · how to become unrecognizable | 3,200 · 480 · 150 | 9 · 34 | DONE Nov 12: LIVE issue11.app/blog/becoming-her. Was: NEW "Becoming her" (keyword in title; body talks to "you") + "How do I become her without changing who I am?" |
@@ -72,7 +84,7 @@ Already covered: how to manifest, vision board for manifestation, manifestation 
 | # | Action | Who | Status |
 |---|---|---|---|
 | 1 | Publishing unblocked: permission rule for the 2 publish scripts, or Megan's OK per run | Megan | blocked since Nov 6 (Glammi) |
-| 2 | Google Search Console + Bing Webmaster for both sites, submit sitemaps | Megan (her Google login), agent writes steps | open |
+| 2 | Google Search Console + Bing Webmaster for both sites, submit sitemaps | Megan (her Google login), agent writes steps | Search Console DONE for both (issue11.app Nov 13). Bing still open |
 | 3 | Internal links: every article links to 2 to 3 related ones and the money page | Agent | start with the live posts |
 | 4 | Glammi menu/footer dead booking link (/30min) fixed via smooth-mosaic branch | OPS / Megan to publish | open |
 | 5 | Profiles that AI reads: LinkedIn company, Crunchbase, Pinterest (ISSUE11), Google Business Profile (Glammi), same name everywhere: Megan Scott Manolova | Megan creates, agent writes copy | open |
@@ -94,3 +106,9 @@ Already covered: how to manifest, vision board for manifestation, manifestation 
 - Nov 11: live: glammi.ai/blog/dermatology-marketing + issue11.app/blog/pinterest-vision-board. New drafts with covers: faq-schema (Glammi), law-of-assumption (ISSUE11, editorial-3).
 - Nov 12: live: glammi.ai/blog/how-jewelers-get-recommended-by-chatgpt + issue11.app/blog/scripting-manifestation (Nov 11 evening) + personal-rebrand + becoming-her (ISSUE11 now 2 a day). New Glammi draft: how-to-rank-in-chatgpt. Skipped: geo/aeo agency services page (needs Megan's OK, site copy) and 'strengthen what-is-ai-visibility' (live page).
 - Nov 13: live: glammi.ai/blog/med-spa-advertising (+ chrome covers on all Glammi articles, Megan's request) + issue11.app/blog/how-to-glow-up + mirror-work. New Glammi draft: seo-for-small-business (first new-vertical article).
+- Nov 13: ISSUE11 AI (report Nov 4 to 10): score 0 → 1.23, visibility 0 → 1.08%, avg position 3.3. Named in "What is the ISSUE11 app?" (61% visibility) and "ISSUE11 app review" (11%). 0 on generic prompts (best manifestation app, best vision board app). Top cited sources: youtube.com, apps.apple.com, reddit.com, play.google.com (Gallory "Photos to Magazine" = closest competitor concept), canva.com, plannedo.com, appshunter.io. Top brands: Canva, Pinterest, Perfectly Happy, Notion, Vision Board ++, Milanote.
+
+## Daily projection
+Megan, Nov 13: "I also would like you to give me a projection daily" · "Time projection as well as results accomplished". Estimates, not promises. Based on typical timelines for new sites until 7+ days of our own ranking data exist.
+
+- 2026-11-13 · RESULTS: glammi.ai 18 articles live, 0/63 keywords in the top 100, AI visibility 1.6%. issue11.app 11 articles live, 0/87 in the top 100, AI visibility 1.08% ("What is the ISSUE11 app?" 61%). Today: homepage SEO title, FAQ schema fix and App schema live on issue11.app. Est. Google visits: 0/mo both. · PROJECTION: first keywords in the top 100 late Nov to early Dec · first page-1 easy keyword mid-Dec to late Jan · first #1 Jan to Mar 2027 · half the easy keywords on page 1 Feb to May 2027 · 25% AI mention rate Jan to Mar 2027 (faster with outside mentions: directories, Reddit, reviews) · visits in 30 days: under 100/mo per site; in 90 days: a few hundred to ~1,500/mo per site if the easy keywords land.

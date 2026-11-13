@@ -6,6 +6,9 @@ Megan, Nov 13, word for word: "The goal is to rank #1 on Google for many searche
 
 Megan, Nov 12, word for word, about her ICP keywords for ISSUE11: "track AND RANK FOR" · "I need to rank for all of them" · "#1 page" · "And top search result" · "So never stop working until that happens". Target: page 1, then position #1, for every tracked ICP keyword with 100+ searches. Work doesn't stop at page 1.
 
+
+> **Latest goal (Megan, Nov 13, word for word):** "And keep looping until both issue11 and Glammi are apprearing #1 on all searches, easier keywords to rank first" · "Then 25% AEO rate" · "I want to get a lot of traffic". Order: #1 for easy keywords on both sites (lowest difficulty first, most searches first among them), then 25% AI mention rate, then medium/competitive.
+
 ## Definition of done (how we'll know)
 - **Google:** every tracked easy keyword (KD 0 to 29) and medium keyword (KD 30 to 45) has a page on our site, and at least 70% of them rank in the top 10 (US) in Mangools rank tracking. Hard keywords (KD 46+) wait for phase 2.
 - **AI search:** Glammi and ISSUE11 are mentioned in at least 25% of the 50 tracked prompts each (Mangools AI search tracker), up from 0% in the Nov baseline.

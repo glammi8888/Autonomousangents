@@ -7,3 +7,5 @@ Read these before ANY ISSUE11 content, copy, ad, onboarding or product brief (an
 5. `../research/ICP-VERBIAGE-LINKS.md`: Megan: "The wording is the most important." Lexicon + pain/outcome verbiage docs (word for word).
 
 Copy rules (Megan): in ISSUE11's own lines say "Become YOU", "your true self", "future you", never "become her" (quote it only as research). No "this is X but should be Y" phrasing. No promised outcomes, dates or specific people. Never mock belief. No hype, guru tone or unsourced science.
+
+**Update Nov 12 (Megan):** Brand Voice Guide https://claude.ai/artifact/92WZYpLvRUwjLLNtQmyEPp + Lexicon https://claude.ai/artifact/FrAGXX7Yf1V4J14kb3tBi1 are the source for content language. New line ISSUE11 owns: "Become your own dream girl" (with Become YOU and future you). Never use "Dream Girl" alone as a product or feature name (DREAMGIRL is a heavily registered trademark, mostly apparel). The creator line "becoming my own dream girl" is research only, no credit to the creator.

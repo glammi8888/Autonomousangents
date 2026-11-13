@@ -31,6 +31,14 @@ The daily article run takes these in order (one per site per day), skipping any 
 | salon marketing · hair salon seo | 330 · 60 | 27 · 10 | NEW article for luxury hair salons |
 | plastic surgery seo | 260 | 20 | NEW article |
 | med spa social media · med spa branding | 50 · 40 | 18 · 8 | NEW articles (later) |
+| **New verticals (Megan, Nov 13: "AEO should have more verticals too in industries that are creative, local businesses but also beauty brands like e-commerce, perfume brands, indie fashion brands, etc")** | | | |
+| seo for small business · local seo for small business | 2,800 · 1,100 | 29 · 30 | NEW "AI search for local businesses (AEO)": salons, boutiques, studios, photographers |
+| shopify seo | 1,300 | 39 | NEW "Shopify AEO: how beauty and fashion e-commerce brands get recommended by AI" |
+| skincare marketing · cosmetics marketing | 170 · 80 | 30 · 21 | NEW "Skincare brand marketing for AI search" (indie beauty e-commerce) |
+| photographer seo | 360 | 31 | NEW "Photographer SEO and AEO" (creative businesses) |
+| fragrance marketing · perfume brand | 80 · n/a | n/a | NEW "How perfume brands get recommended by AI" (low Google volume, high AI-answer value: write after the above) |
+| fashion seo · boutique marketing · how to market a clothing brand | 70 · 70 · 70 | 24 · 16 · 35 | NEW "AEO for indie fashion brands" (one page for the cluster) |
+| ecommerce seo · chatgpt shopping | 1,700 · 1,000 | 51 · 80 | PHASE 2 (hard) |
 Already covered by live or queued pages: geo vs seo, what is aeo, generative engine optimization, llm seo, med spa seo/marketing agency/advertising/website design/reviews, dermatology marketing/website design, jewelry seo/store marketing/website design/description, how to photograph jewelry.
 
 **ISSUE11** (Megan, Nov 9: "I want issue11 to be the best manifestion app in ai search as well as Google")

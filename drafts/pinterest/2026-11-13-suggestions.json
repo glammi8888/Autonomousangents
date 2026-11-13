@@ -1,1 +1,1708 @@
-upstream request failed
+[{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board ideas",
+  "rank": 1,
+  "suggestionType": "query",
+  "suggestionId": "ac_41UkWYgT",
+  "displayLabel": "vision board ideas",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+ideas&rs=ac&len=12&source_id=ac_41UkWYgT",
+  "previewImages": [
+    "https://i.pinimg.com/60x60/af/f6/25/aff6257da7a3eb91ff62477d15145f05.jpg"
+  ],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20ideas&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20ideas&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20ideas&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20ideas&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20ideas&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Aesthetic"
+    },
+    {
+      "label": "Pictures"
+    },
+    {
+      "label": "Examples"
+    },
+    {
+      "label": "Photos"
+    },
+    {
+      "label": "Aesthetic pictures"
+    },
+    {
+      "label": "Clear skin"
+    },
+    {
+      "label": "Inspiration"
+    },
+    {
+      "label": "Eating healthy"
+    },
+    {
+      "label": "Aesthetic pictures 2026"
+    },
+    {
+      "label": "Pictures study"
+    },
+    {
+      "label": "Healthy lifestyle"
+    },
+    {
+      "label": "Pictures skincare"
+    },
+    {
+      "label": "Pictures family"
+    },
+    {
+      "label": "Family"
+    },
+    {
+      "label": "Future"
+    },
+    {
+      "label": "Aesthetic pictures clean room"
+    },
+    {
+      "label": "2027"
+    },
+    {
+      "label": "Pictures career"
+    },
+    {
+      "label": "Love"
+    },
+    {
+      "label": "Travel"
+    },
+    {
+      "label": "Pictures style"
+    },
+    {
+      "label": "Pictures friends"
+    },
+    {
+      "label": "Friends"
+    },
+    {
+      "label": "Money"
+    }
+  ],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board ideas",
+    "searchCount": 4532914,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board pics",
+  "rank": 2,
+  "suggestionType": "query",
+  "suggestionId": "ac_PclvpXhw",
+  "displayLabel": "vision board pics",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+pics&rs=ac&len=12&source_id=ac_PclvpXhw",
+  "previewImages": [
+    "https://i.pinimg.com/60x60/af/f6/25/aff6257da7a3eb91ff62477d15145f05.jpg"
+  ],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20pics&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20pics&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20pics&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20pics&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20pics&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "Life aesthetic"
+    },
+    {
+      "label": "Fitness"
+    },
+    {
+      "label": "Study aesthetic"
+    },
+    {
+      "label": "Healthy relationship"
+    },
+    {
+      "label": "Success"
+    },
+    {
+      "label": "Aesthetic"
+    },
+    {
+      "label": "Career women"
+    },
+    {
+      "label": "Healthy eating"
+    },
+    {
+      "label": "Student"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Friends"
+    },
+    {
+      "label": "Travel"
+    },
+    {
+      "label": "Health"
+    },
+    {
+      "label": "Life aesthetic 2026"
+    },
+    {
+      "label": "Family"
+    },
+    {
+      "label": "Pink"
+    },
+    {
+      "label": "Gym"
+    },
+    {
+      "label": "Life aesthetic study"
+    },
+    {
+      "label": "Life aesthetic travel"
+    },
+    {
+      "label": "Love"
+    },
+    {
+      "label": "Relationship"
+    },
+    {
+      "label": "Money"
+    },
+    {
+      "label": "School"
+    },
+    {
+      "label": "Academic validation"
+    },
+    {
+      "label": "Care"
+    }
+  ],
+  "category": "Art",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board pics",
+    "searchCount": 1646289,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board manifestation",
+  "rank": 3,
+  "suggestionType": "query",
+  "suggestionId": "ac_UbLXr1tk",
+  "displayLabel": "vision board manifestation",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+manifestation&rs=ac&len=12&source_id=ac_UbLXr1tk",
+  "previewImages": [
+    "https://i.pinimg.com/60x60/d1/11/26/d11126cfe21e27cc1c6fdffdb13319ad.jpg"
+  ],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20manifestation&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20manifestation&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20manifestation&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20manifestation&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20manifestation&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "Dream life"
+    },
+    {
+      "label": "Pics"
+    },
+    {
+      "label": "Law of attraction"
+    },
+    {
+      "label": "Aesthetic"
+    },
+    {
+      "label": "Love"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Friendship"
+    },
+    {
+      "label": "2025 student"
+    },
+    {
+      "label": "Quotes"
+    },
+    {
+      "label": "Wallpaper"
+    },
+    {
+      "label": "Dream life 2026"
+    },
+    {
+      "label": "Family"
+    },
+    {
+      "label": "Dream life men"
+    },
+    {
+      "label": "Photos"
+    },
+    {
+      "label": "2025 men"
+    },
+    {
+      "label": "Ideas"
+    },
+    {
+      "label": "Pics health"
+    },
+    {
+      "label": "Dream life travel"
+    },
+    {
+      "label": "2026 student"
+    },
+    {
+      "label": "2025"
+    },
+    {
+      "label": "Money"
+    },
+    {
+      "label": "Dream life family"
+    },
+    {
+      "label": "Sticker"
+    },
+    {
+      "label": "Pics travel"
+    },
+    {
+      "label": "Pictures"
+    }
+  ],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board manifestation",
+    "searchCount": 491345,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-05T19:26:50.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board wallpaper",
+  "rank": 4,
+  "suggestionType": "query",
+  "suggestionId": "ac_xHieeFKH",
+  "displayLabel": "vision board wallpaper",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+wallpaper&rs=ac&len=12&source_id=ac_xHieeFKH",
+  "previewImages": [],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20wallpaper&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20wallpaper&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20wallpaper&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20wallpaper&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20wallpaper&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "Less AI",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20wallpaper&filter_genai=true"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Iphone"
+    },
+    {
+      "label": "Laptop"
+    },
+    {
+      "label": "Aesthetic"
+    },
+    {
+      "label": "Desktop"
+    },
+    {
+      "label": "Ipad"
+    },
+    {
+      "label": "Pink"
+    },
+    {
+      "label": "Students"
+    },
+    {
+      "label": "2025"
+    },
+    {
+      "label": "Macbook"
+    },
+    {
+      "label": "Study"
+    },
+    {
+      "label": "Ideas"
+    },
+    {
+      "label": "Pc"
+    },
+    {
+      "label": "Phone"
+    },
+    {
+      "label": "2027"
+    },
+    {
+      "label": "Manifestation"
+    },
+    {
+      "label": "Black aesthetic"
+    },
+    {
+      "label": "Neet 2026"
+    },
+    {
+      "label": "Study abroad"
+    },
+    {
+      "label": "Ca"
+    },
+    {
+      "label": "Doctor"
+    },
+    {
+      "label": "Neet 2027"
+    },
+    {
+      "label": "Laptop aesthetic"
+    },
+    {
+      "label": "Luxury"
+    },
+    {
+      "label": "Template"
+    }
+  ],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board wallpaper",
+    "searchCount": 264407,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-10-28T22:23:09.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board aesthetic",
+  "rank": 5,
+  "suggestionType": "query",
+  "suggestionId": "ac_94nOo2vD",
+  "displayLabel": "vision board aesthetic",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+aesthetic&rs=ac&len=12&source_id=ac_94nOo2vD",
+  "previewImages": [],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20aesthetic&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20aesthetic&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20aesthetic&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20aesthetic&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20aesthetic&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Pictures"
+    },
+    {
+      "label": "Money"
+    },
+    {
+      "label": "Pink"
+    },
+    {
+      "label": "Healthy"
+    },
+    {
+      "label": "Ideas"
+    },
+    {
+      "label": "Care"
+    },
+    {
+      "label": "Gym"
+    },
+    {
+      "label": "Travel"
+    },
+    {
+      "label": "2027"
+    },
+    {
+      "label": "2025"
+    },
+    {
+      "label": "Youtube"
+    },
+    {
+      "label": "Green"
+    },
+    {
+      "label": "Photos"
+    },
+    {
+      "label": "Muslim"
+    },
+    {
+      "label": "Brown"
+    },
+    {
+      "label": "Friends"
+    },
+    {
+      "label": "Quotes"
+    },
+    {
+      "label": "Red"
+    },
+    {
+      "label": "Black"
+    },
+    {
+      "label": "Skincare"
+    },
+    {
+      "label": "Doctor"
+    },
+    {
+      "label": "Purple"
+    },
+    {
+      "label": "Clear skin"
+    },
+    {
+      "label": "Tattoo"
+    }
+  ],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board aesthetic",
+    "searchCount": 155367,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board goals pictures",
+  "rank": 6,
+  "suggestionType": "query",
+  "suggestionId": "ac_rNiGrqVk",
+  "displayLabel": "vision board goals pictures",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+goals+pictures&rs=ac&len=12&source_id=ac_rNiGrqVk",
+  "previewImages": [
+    "https://i.pinimg.com/60x60/af/f6/25/aff6257da7a3eb91ff62477d15145f05.jpg"
+  ],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20goals%20pictures&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20goals%20pictures&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20goals%20pictures&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20goals%20pictures&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20goals%20pictures&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "Gym"
+    },
+    {
+      "label": "Ideas"
+    },
+    {
+      "label": "Job"
+    },
+    {
+      "label": "Love"
+    },
+    {
+      "label": "Friends"
+    },
+    {
+      "label": "School"
+    },
+    {
+      "label": "Family"
+    },
+    {
+      "label": "Travel"
+    },
+    {
+      "label": "Food"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Ideas 2026"
+    },
+    {
+      "label": "Health"
+    },
+    {
+      "label": "Ideas family"
+    },
+    {
+      "label": "Healthy relationship"
+    },
+    {
+      "label": "Care"
+    },
+    {
+      "label": "Money"
+    },
+    {
+      "label": "Car"
+    },
+    {
+      "label": "Study"
+    },
+    {
+      "label": "Aesthetic"
+    },
+    {
+      "label": "Hobbies"
+    },
+    {
+      "label": "Ideas study"
+    },
+    {
+      "label": "Business"
+    },
+    {
+      "label": "Skin care"
+    },
+    {
+      "label": "Pink"
+    },
+    {
+      "label": "Reading"
+    }
+  ],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board goals pictures",
+    "searchCount": 498530,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board photos",
+  "rank": 7,
+  "suggestionType": "query",
+  "suggestionId": "ac_woVDrjYT",
+  "displayLabel": "vision board photos",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+photos&rs=ac&len=12&source_id=ac_woVDrjYT",
+  "previewImages": [
+    "https://i.pinimg.com/60x60/1a/8e/dc/1a8edc597ff1680b4ee560418221e948.jpg"
+  ],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20photos&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20photos&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20photos&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20photos&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20photos&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "Aesthetic"
+    },
+    {
+      "label": "Pictures"
+    },
+    {
+      "label": "Luxury"
+    },
+    {
+      "label": "Beauty"
+    },
+    {
+      "label": "Happiness"
+    },
+    {
+      "label": "Students"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Study"
+    },
+    {
+      "label": "Happy family"
+    },
+    {
+      "label": "2025"
+    },
+    {
+      "label": "Friends"
+    },
+    {
+      "label": "Health"
+    },
+    {
+      "label": "Men"
+    },
+    {
+      "label": "Travel"
+    },
+    {
+      "label": "Love"
+    },
+    {
+      "label": "Ideas"
+    },
+    {
+      "label": "Healthy lifestyle"
+    },
+    {
+      "label": "Relationship"
+    },
+    {
+      "label": "Care"
+    },
+    {
+      "label": "Family"
+    },
+    {
+      "label": "Gym"
+    },
+    {
+      "label": "Work"
+    },
+    {
+      "label": "Manifest"
+    },
+    {
+      "label": "Money"
+    },
+    {
+      "label": "Aesthetic 2026"
+    }
+  ],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board photos",
+    "searchCount": 1424818,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board ideas aesthetic",
+  "rank": 8,
+  "suggestionType": "query",
+  "suggestionId": "ac_poz2pbWK",
+  "displayLabel": "vision board ideas aesthetic",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+ideas+aesthetic&rs=ac&len=12&source_id=ac_poz2pbWK",
+  "previewImages": [
+    "https://i.pinimg.com/60x60/07/12/a0/0712a0d6a230a5827247edf911ef841a.jpg"
+  ],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20ideas%20aesthetic&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20ideas%20aesthetic&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20ideas%20aesthetic&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20ideas%20aesthetic&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20ideas%20aesthetic&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Pictures"
+    },
+    {
+      "label": "Pictures 2026"
+    },
+    {
+      "label": "2025"
+    },
+    {
+      "label": "Pictures clean room"
+    },
+    {
+      "label": "Dream"
+    },
+    {
+      "label": "School"
+    },
+    {
+      "label": "Pictures happiness"
+    },
+    {
+      "label": "Pictures healthy eating"
+    },
+    {
+      "label": "Poster 2026"
+    },
+    {
+      "label": "Poster"
+    },
+    {
+      "label": "Pictures clear skin"
+    },
+    {
+      "label": "Pictures studying"
+    },
+    {
+      "label": "2026 for students"
+    },
+    {
+      "label": "Eating healthy"
+    },
+    {
+      "label": "Pictures spiritual"
+    },
+    {
+      "label": "Wallpaper"
+    },
+    {
+      "label": "Pictures skincare"
+    },
+    {
+      "label": "2025 work"
+    },
+    {
+      "label": "Pictures 2027"
+    },
+    {
+      "label": "Pink"
+    },
+    {
+      "label": "2025 money"
+    },
+    {
+      "label": "2027"
+    },
+    {
+      "label": "Wallpaper 2026"
+    },
+    {
+      "label": "2025 friends"
+    }
+  ],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board ideas aesthetic",
+    "searchCount": 404968,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board ideas pictures",
+  "rank": 9,
+  "suggestionType": "query",
+  "suggestionId": "ac_49V1kI93",
+  "displayLabel": "vision board ideas pictures",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+ideas+pictures&rs=ac&len=12&source_id=ac_49V1kI93",
+  "previewImages": [
+    "https://i.pinimg.com/60x60/af/f6/25/aff6257da7a3eb91ff62477d15145f05.jpg"
+  ],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20ideas%20pictures&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20board%20ideas%20pictures&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20board%20ideas%20pictures&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20board%20ideas%20pictures&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20board%20ideas%20pictures&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "Cute"
+    },
+    {
+      "label": "Study"
+    },
+    {
+      "label": "Skincare"
+    },
+    {
+      "label": "Family"
+    },
+    {
+      "label": "Career"
+    },
+    {
+      "label": "Aesthetic"
+    },
+    {
+      "label": "Style"
+    },
+    {
+      "label": "Friends"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Travel"
+    },
+    {
+      "label": "Hair care"
+    },
+    {
+      "label": "Fitness"
+    },
+    {
+      "label": "School"
+    },
+    {
+      "label": "Gym"
+    },
+    {
+      "label": "Money"
+    },
+    {
+      "label": "Health"
+    },
+    {
+      "label": "Relationship"
+    },
+    {
+      "label": "Dream"
+    },
+    {
+      "label": "Study medicine"
+    },
+    {
+      "label": "Pink"
+    },
+    {
+      "label": "Business"
+    },
+    {
+      "label": "Study english"
+    },
+    {
+      "label": "Car"
+    },
+    {
+      "label": "Work"
+    },
+    {
+      "label": "2025"
+    }
+  ],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board ideas pictures",
+    "searchCount": 303479,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision boards",
+  "rank": 10,
+  "suggestionType": "query",
+  "suggestionId": "ac_KhbjszWw",
+  "displayLabel": "vision boards",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+boards&rs=ac&len=12&source_id=ac_KhbjszWw",
+  "previewImages": [],
+  "searchRefinements": [
+    {
+      "label": "All Pins",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20boards&rs=content_type_filter"
+    },
+    {
+      "label": "Videos",
+      "url": "https://www.pinterest.com/search/videos/?q=vision%20boards&rs=content_type_filter"
+    },
+    {
+      "label": "Boards",
+      "url": "https://www.pinterest.com/search/boards/?q=vision%20boards&rs=content_type_filter"
+    },
+    {
+      "label": "Profiles",
+      "url": "https://www.pinterest.com/search/users/?q=vision%20boards&rs=content_type_filter"
+    },
+    {
+      "label": "Products",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20boards&rs=content_type_filter&commerce_only=True"
+    },
+    {
+      "label": "Less AI",
+      "url": "https://www.pinterest.com/search/pins/?q=vision%20boards&filter_genai=true"
+    },
+    {
+      "label": "Ideas"
+    },
+    {
+      "label": "2026"
+    },
+    {
+      "label": "Pics"
+    },
+    {
+      "label": "Photos"
+    },
+    {
+      "label": "Goals pictures"
+    },
+    {
+      "label": "Manifestation"
+    },
+    {
+      "label": "Ideas aesthetic"
+    },
+    {
+      "label": "Ideas pictures"
+    },
+    {
+      "label": "Money"
+    },
+    {
+      "label": "Quotes"
+    },
+    {
+      "label": "Travel"
+    },
+    {
+      "label": "Pictures"
+    },
+    {
+      "label": "Future"
+    },
+    {
+      "label": "Aesthetic"
+    },
+    {
+      "label": "Inspiration"
+    },
+    {
+      "label": "Pics life aesthetic"
+    },
+    {
+      "label": "Inspo"
+    },
+    {
+      "label": "Fitness"
+    },
+    {
+      "label": "Wallpaper"
+    },
+    {
+      "label": "Gym"
+    },
+    {
+      "label": "Ideas examples"
+    },
+    {
+      "label": "2027"
+    },
+    {
+      "label": "Health"
+    },
+    {
+      "label": "Ideas photos"
+    },
+    {
+      "label": "Family"
+    }
+  ],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision boards",
+    "searchCount": 0,
+    "followerCount": 0
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board",
+  "suggestion": "vision board 2026",
+  "rank": 12,
+  "suggestionType": "query",
+  "suggestionId": "ac_DLaMd8vO",
+  "displayLabel": "vision board 2026",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+2026&rs=ac&len=12&source_id=ac_DLaMd8vO",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board 2026",
+    "searchCount": 1810460,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board affirmations",
+  "rank": 2,
+  "suggestionType": "query",
+  "suggestionId": "ac_KDRWyB9b",
+  "displayLabel": "vision board affirmations",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+affirmations&rs=ac&len=14&source_id=ac_KDRWyB9b",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board affirmations",
+    "followerCount": 0
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board aesthetic pictures",
+  "rank": 3,
+  "suggestionType": "query",
+  "suggestionId": "ac_htOlxqu6",
+  "displayLabel": "vision board aesthetic pictures",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+aesthetic+pictures&rs=ac&len=14&source_id=ac_htOlxqu6",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Art",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board aesthetic pictures",
+    "searchCount": 25793,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board aesthetic ideas",
+  "rank": 4,
+  "suggestionType": "query",
+  "suggestionId": "ac_iSiiqfcb",
+  "displayLabel": "vision board aesthetic ideas",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+aesthetic+ideas&rs=ac&len=14&source_id=ac_iSiiqfcb",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board aesthetic ideas",
+    "searchCount": 8140,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board art",
+  "rank": 5,
+  "suggestionType": "query",
+  "suggestionId": "ac_cBW2UzPA",
+  "displayLabel": "vision board art",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+art&rs=ac&len=14&source_id=ac_cBW2UzPA",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Art",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board art",
+    "searchCount": 7203,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-11T19:31:46.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board aesthetic wallpaper",
+  "rank": 6,
+  "suggestionType": "query",
+  "suggestionId": "ac_kfylLcwJ",
+  "displayLabel": "vision board aesthetic wallpaper",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+aesthetic+wallpaper&rs=ac&len=14&source_id=ac_kfylLcwJ",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board aesthetic wallpaper",
+    "searchCount": 2467,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-10-28T22:23:09.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board aesthetic photos",
+  "rank": 7,
+  "suggestionType": "query",
+  "suggestionId": "ac_3N3B1eJO",
+  "displayLabel": "vision board aesthetic photos",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+aesthetic+photos&rs=ac&len=14&source_id=ac_3N3B1eJO",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Art",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board aesthetic photos",
+    "searchCount": 3036,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board academic",
+  "rank": 8,
+  "suggestionType": "query",
+  "suggestionId": "ac_lG8IfQU0",
+  "displayLabel": "vision board academic",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+academic&rs=ac&len=14&source_id=ac_lG8IfQU0",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board academic",
+    "searchCount": 5101,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board aesthetic pictures girly",
+  "rank": 9,
+  "suggestionType": "query",
+  "suggestionId": "ac_3ogQyDgw",
+  "displayLabel": "vision board aesthetic pictures girly",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+aesthetic+pictures+girly&rs=ac&len=14&source_id=ac_3ogQyDgw",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Art",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board aesthetic pictures girly",
+    "searchCount": 1357,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2025-11-02T18:57:01.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board architecture",
+  "rank": 10,
+  "suggestionType": "query",
+  "suggestionId": "ac_PkQViXQl",
+  "displayLabel": "vision board architecture",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+architecture&rs=ac&len=14&source_id=ac_PkQViXQl",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board architecture",
+    "searchCount": 2651,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-09-18T20:52:39.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board a",
+  "suggestion": "vision board autumn",
+  "rank": 12,
+  "suggestionType": "query",
+  "suggestionId": "ac_xXSB3zBi",
+  "displayLabel": "vision board autumn",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+autumn&rs=ac&len=14&source_id=ac_xXSB3zBi",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board autumn",
+    "searchCount": 0,
+    "followerCount": 0
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board backgrounds",
+  "rank": 1,
+  "suggestionType": "query",
+  "suggestionId": "ac_zq12NoNF",
+  "displayLabel": "vision board backgrounds",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+backgrounds&rs=ac&len=14&source_id=ac_zq12NoNF",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board backgrounds",
+    "searchCount": 10906,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board book",
+  "rank": 2,
+  "suggestionType": "query",
+  "suggestionId": "ac_DFw8Rlax",
+  "displayLabel": "vision board book",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+book&rs=ac&len=14&source_id=ac_DFw8Rlax",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board book",
+    "searchCount": 12581,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board blue",
+  "rank": 3,
+  "suggestionType": "query",
+  "suggestionId": "ac_jcRwQF95",
+  "displayLabel": "vision board blue",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+blue&rs=ac&len=14&source_id=ac_jcRwQF95",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board blue",
+    "searchCount": 6658,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-11T19:31:46.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board business woman",
+  "rank": 4,
+  "suggestionType": "query",
+  "suggestionId": "ac_pNpYKOyt",
+  "displayLabel": "vision board business woman",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+business+woman&rs=ac&len=14&source_id=ac_pNpYKOyt",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board business woman",
+    "searchCount": 7142,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2025-11-02T18:57:01.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board business",
+  "rank": 5,
+  "suggestionType": "query",
+  "suggestionId": "ac_Xqp1CCWl",
+  "displayLabel": "vision board business",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+business&rs=ac&len=14&source_id=ac_Xqp1CCWl",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board business",
+    "searchCount": 8460,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-11T19:31:46.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board black woman",
+  "rank": 6,
+  "suggestionType": "query",
+  "suggestionId": "ac_QNb0dwK3",
+  "displayLabel": "vision board black woman",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+black+woman&rs=ac&len=14&source_id=ac_QNb0dwK3",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Art",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board black woman",
+    "searchCount": 0,
+    "followerCount": 0
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board boyfriend",
+  "rank": 7,
+  "suggestionType": "query",
+  "suggestionId": "ac_BYuYegHe",
+  "displayLabel": "vision board boyfriend",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+boyfriend&rs=ac&len=14&source_id=ac_BYuYegHe",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Quotes",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board boyfriend",
+    "searchCount": 0,
+    "followerCount": 0
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board body goals",
+  "rank": 8,
+  "suggestionType": "query",
+  "suggestionId": "ac_ujSQ3FsW",
+  "displayLabel": "vision board body goals",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+body+goals&rs=ac&len=14&source_id=ac_ujSQ3FsW",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board body goals",
+    "searchCount": 9273,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2025-11-02T18:57:01.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board beauty",
+  "rank": 9,
+  "suggestionType": "query",
+  "suggestionId": "ac_eUfnSdDB",
+  "displayLabel": "vision board beauty",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+beauty&rs=ac&len=14&source_id=ac_eUfnSdDB",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board beauty",
+    "searchCount": 6593,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-06T20:41:12.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board black and white",
+  "rank": 10,
+  "suggestionType": "query",
+  "suggestionId": "ac_2dJkplWH",
+  "displayLabel": "vision board black and white",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+black+and+white&rs=ac&len=14&source_id=ac_2dJkplWH",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board black and white",
+    "searchCount": 3845,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-11T19:31:46.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board backgrounds aesthetic plain",
+  "rank": 11,
+  "suggestionType": "query",
+  "suggestionId": "ac_BvszejC3",
+  "displayLabel": "vision board backgrounds aesthetic plain",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+backgrounds+aesthetic+plain&rs=ac&len=14&source_id=ac_BvszejC3",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board backgrounds aesthetic plain",
+    "searchCount": 3157,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-11-04T20:23:19.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board b",
+  "suggestion": "vision board black",
+  "rank": 12,
+  "suggestionType": "query",
+  "suggestionId": "ac_KD3wcbjI",
+  "displayLabel": "vision board black",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+black&rs=ac&len=14&source_id=ac_KD3wcbjI",
+  "previewImages": [],
+  "searchRefinements": [],
+  "category": "Home Decor",
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board black",
+    "searchCount": 2599,
+    "followerCount": 0,
+    "searchTimeContext": "Idea last updated: 2026-10-28T22:23:09.000Z"
+  }
+},
+{
+  "seed": "vision board",
+  "keyword": "vision board c",
+  "suggestion": "vision board collage",
+  "rank": 1,
+  "suggestionType": "query",
+  "suggestionId": "ac_HsoTuNvk",
+  "displayLabel": "vision board collage",
+  "locale": "en-US",
+  "country": "US",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=vision+board+collage&rs=ac&len=14&source_id=ac_HsoTuNvk",
+  "previewImages": [],
+  "searchRefinements": [],
+  "annotations": [],
+  "topic": {
+    "searchScope": "vision board collage",
+    "searchCount": 83688,
+    "followerCount": 1,
+    "searchTimeContext": "Idea last updated: 2026-11-11T19:31:46.000Z"
+  }
+}]

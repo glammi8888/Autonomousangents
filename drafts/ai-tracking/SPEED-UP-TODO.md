@@ -10,7 +10,7 @@ Goal (Megan, Nov 11): "Okay !! Great 25% then" · "Seriously we need to speed th
 3. 💻 Paste the "same person, same brand" code (sameAs schema) in Framer → Site settings → Code, once per site (2 min each). Agent sends it.
 
 ### Glammi
-4. 💻 Google Business Profile (20 min, copy from agent).
+4. ✅ Google Business Profile: DONE (Megan confirmed Nov 13).
 5. 📱 Bing Places: import from Google Business Profile (5 min, after 4).
 6. 💻 Apple Business Connect (10 min, same copy).
 7. 💻 Free agency directory profiles: Clutch, DesignRush, GoodFirms, Sortlist, UpCity (10 min each, copy from agent).

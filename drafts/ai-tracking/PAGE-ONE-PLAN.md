@@ -2,6 +2,8 @@
 
 Megan, word for word: "keep working until both Glammi ai and issue11 are first page of Google and both appear ai search for easy and medium keywords" · "We will attack competitive keywords after that".
 
+Megan, Nov 13, word for word: "The goal is to rank #1 on Google for many searches and with AEO too" (both sites).
+
 Megan, Nov 12, word for word, about her ICP keywords for ISSUE11: "track AND RANK FOR" · "I need to rank for all of them" · "#1 page" · "And top search result" · "So never stop working until that happens". Target: page 1, then position #1, for every tracked ICP keyword with 100+ searches. Work doesn't stop at page 1.
 
 ## Definition of done (how we'll know)

@@ -29,7 +29,7 @@ No price on purpose (prices differ by plan and change; Google flags mismatches) 
   "applicationCategory": "LifestyleApplication",
   "operatingSystem": "iOS",
   "url": "https://issue11.app",
-  "image": "https://issue11.app/favicon.png",
+  "image": "https://framerusercontent.com/images/XnHnG3EBPLY3Hn7CnGsMMBO32gU.png",
   "creator": {
     "@type": "Person",
     "name": "Megan Scott Manolova",

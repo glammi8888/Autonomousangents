@@ -5,6 +5,8 @@
 #   G           = logo only (use when the top of the image is too busy for two lines)
 #   crop-y      = top offset of the 3:2 crop on the source (default: centered)
 # Output: 1600x1067 JPG. LOOK at it before using it.
+# Safe zone (Nov 13): the site shows covers as a centered square on blog cards (x 267-1333) and a
+# centered 16:9 header on articles (y 83-984), so the logo and text sit inside x>=300, y>=120.
 set -euo pipefail
 src="$1"; out="$2"; mode="${3:-H}"; y="${4:-}"
 root="$(cd "$(dirname "$0")/../.." && pwd)"
@@ -20,12 +22,12 @@ convert "$src[0]" -crop "${cw}x${ch}+${x}+${y}" +repage -resize 1600x1067! "$tmp
 convert "$logo" -resize 260x "$tmp/l.png"
 convert "$tmp/l.png" \( +clone -background black -shadow 60x6+0+2 \) +swap -background none -layers merge +repage "$tmp/ls.png"
 if [ "$mode" = "G" ]; then
-  convert "$tmp/base.jpg" \( -size 1600x360 gradient:'rgba(0,0,0,0.55)'-'rgba(0,0,0,0)' \) -gravity north -composite \
-    "$tmp/ls.png" -gravity northwest -geometry +50+36 -composite -quality 90 "$out"
+  convert "$tmp/base.jpg" \( -size 1600x400 gradient:'rgba(0,0,0,0.5)'-'rgba(0,0,0,0)' \) -gravity north -composite \
+    "$tmp/ls.png" -gravity northwest -geometry +296+120 -composite -quality 90 "$out"
 else
-  convert "$tmp/base.jpg" \( -size 1600x380 gradient:'rgba(0,0,0,0.55)'-'rgba(0,0,0,0)' \) -gravity north -composite \
-    "$tmp/ls.png" -gravity northwest -geometry +50+36 -composite \
+  convert "$tmp/base.jpg" \( -size 1600x480 gradient:'rgba(0,0,0,0.5)'-'rgba(0,0,0,0)' \) -gravity north -composite \
+    "$tmp/ls.png" -gravity northwest -geometry +296+120 -composite \
     -font "$font" -pointsize 64 -kerning -3 -interline-spacing -16 -fill white -gravity northwest \
-    -annotate +56+160 $'DISCOVERABILITY\n× DESIRABILITY' -quality 90 "$out"
+    -annotate +302+244 $'DISCOVERABILITY\n× DESIRABILITY' -quality 90 "$out"
 fi
 echo "cover: $out ($mode)"

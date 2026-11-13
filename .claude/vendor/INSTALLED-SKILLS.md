@@ -120,3 +120,11 @@ Not installed: the rest of the library (conversion-tracking has website JS snipp
 - What it sends online: ad account data flows only between Meta and Claude. No keys in the repo or chat (Facebook login / OAuth).
 - Risk: it gets the SAME permissions as Megan, including creating ads and spending. Controls: (1) account spending limit $300 already set; (2) in the connector's tool permissions, set every write/create/update tool to "Needs approval" (or off) and leave read tools on; (3) agent rule: read and recommend only, max 3 changes a week, every change needs Megan's explicit OK (Production Safety Rule, payments/spend).
 - Result: OK to connect with the controls above. Not scanned = not installed rule satisfied by this review; re-check after Megan connects (list the actual tool names).
+
+## Apify actor: apt_marble/pinterest-trends-scraper (security check Nov 12, 2026, OPS Manager)
+- What: Pinterest Trends top/growing search terms for 34 countries (week/month/year change, seasonality), optional related searches. Run on Apify's servers via api.apify.com.
+- Checked (Apify API metadata + input schema, build 0.0.4, updated Oct 27, 2026): inputs are only countries, trend type, max terms, sort, growth filter, related-terms toggle. NO Pinterest login, cookies or account needed. 35/35 runs succeeded in the last 30 days; small actor (15 users, 162 runs total) by an individual developer, so it may break if Pinterest changes.
+- Sends online: only our run settings (countries, numbers) to Apify. We never give it Pinterest credentials or personal data. Our Apify API token is stored as a network secret (never in the repo or chat).
+- Cost: pay per term, about $0.0012 per term on Apify's free tier (100 terms about $0.12).
+- Caveats: Pinterest's terms don't allow scraping; use for occasional keyword research only, never with Megan's Pinterest login. It returns trending lists, it does not look up a word we choose.
+- Result: PASS. Approved by Megan Nov 12 ("Pinterest trend scraper is definitely the most efficient and cheap option I LOVE IT").

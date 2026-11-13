@@ -1,3 +1,5 @@
+> SUPERSEDED (Megan, Nov 12): the App Store description was already written, decided and published by Megan. Do not use this draft.
+
 # ISSUE11 App Store description v1 (US English + Mexico Spanish) · DRAFT, needs Megan's OK
 
 Nov 12, 2026 · by an ISSUE11 agent with skills `aso-specialist` (limits, localization) and `copywriting` (no AI tells). Not submitted, not published.

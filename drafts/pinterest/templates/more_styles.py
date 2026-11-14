@@ -26,8 +26,8 @@ d.text((60,70),"9:41",font=IT(30,"SemiBold"),fill=(255,255,255))
 d.text((60,150),"‹ Notes",font=IT(34,"Medium"),fill=(255,214,10))
 y=250
 for l in wrap(d,"future self journal prompts",IT(62,"Bold"),W-120): d.text((60,y),l,font=IT(62,"Bold"),fill=(255,255,255)); y+=72
-d.text((60,y+10),"for the version of me i’m becoming",font=IT(32,"Regular"),fill=(160,160,165)); y+=90
-ps=["what does future me do first each morning?","what did i stop saying yes to?","what does my true self want this week?","what is more possible now than before?","one habit i’m building, and why","what would i wear to the life i want?","what’s on my vision board that i can start tonight?","one small move for tomorrow"]
+d.text((60,y+10),"before you reach for your phone, reach for a pen",font=IT(32,"Regular"),fill=(160,160,165)); y+=90
+ps=["remember your future: what does a normal tuesday look like in 2027?","write it like it already happened","what am i too grown to keep explaining?","where am i still abandoning myself to keep the peace?","what would i do if i didn’t need the proof?","it’s on my vision board. what’s one small action tonight?","what am i claiming for 2027?","what does protecting my peace look like this week?"]
 for p in ps:
     ls=wrap(d,p,IT(38,"Regular"),W-170)
     d.ellipse([70,y+16,82,y+28],fill=(255,255,255))

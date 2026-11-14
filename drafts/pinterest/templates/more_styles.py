@@ -33,6 +33,7 @@ for p in ps:
     d.ellipse([70,y+16,82,y+28],fill=(255,255,255))
     for l in ls: d.text((110,y),l,font=IT(38,"Regular"),fill=(255,255,255)); y+=50
     y+=18
+d.text((60,H-150),"write yours on",font=IT(32,"Regular"),fill=(142,142,147)); d.text((60,H-108),"issue11.app",font=IT(40,"SemiBold"),fill=(255,214,10))
 paste_logo(D_,_mk((255,255,255)),W-60-110,H-60-85,110)
 D_.convert("RGB").save(OUT+"D-notes-prompts.jpg",quality=92)
 

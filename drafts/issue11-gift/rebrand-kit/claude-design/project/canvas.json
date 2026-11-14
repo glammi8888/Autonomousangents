@@ -2,68 +2,19 @@
   "v": 3,
   "attachments": {},
   "boards": {
-    "DreamLife.dc.html": {
-      "h": 1056,
-      "title": "04–05 My 2027 (spread)",
-      "w": 1632,
-      "x": 2608,
-      "y": 0
-    },
-    "Editor.dc.html": {
-      "h": 1056,
-      "title": "02–03 Editor’s letter (spread)",
-      "w": 1632,
-      "x": 896,
-      "y": 0
-    },
-    "Main.dc.html": {
+    "Back.dc.html": {
       "h": 1056,
       "paper": "letter",
-      "title": "01 Cover",
+      "title": "19 Back cover",
       "w": 816,
-      "x": 0,
-      "y": 0
-    },
-    "Physical.dc.html": {
-      "h": 1056,
-      "title": "06–07 Chapter: Physical (spread)",
-      "w": 1632,
       "x": 4320,
-      "y": 0
-    },
-    "Money.dc.html": {
-      "h": 1056,
-      "title": "08–09 Chapter: Money (spread)",
-      "w": 1632,
-      "x": 0,
-      "y": 1243
-    },
-    "Love.dc.html": {
-      "h": 1056,
-      "title": "10–11 Chapter: Love (spread)",
-      "w": 1632,
-      "x": 1712,
-      "y": 1243
-    },
-    "Fashion.dc.html": {
-      "h": 1056,
-      "title": "12–13 Chapter: Fashion (spread)",
-      "w": 1632,
-      "x": 3424,
-      "y": 1243
+      "y": 2486
     },
     "Beauty.dc.html": {
       "h": 1056,
       "title": "14–15 Chapter: Beauty (spread)",
       "w": 1632,
       "x": 0,
-      "y": 2486
-    },
-    "Finances.dc.html": {
-      "h": 1056,
-      "title": "16–17 Chapter: Finances (spread)",
-      "w": 1632,
-      "x": 1712,
       "y": 2486
     },
     "Challenge.dc.html": {
@@ -73,80 +24,6 @@
       "w": 816,
       "x": 3424,
       "y": 2486
-    },
-    "Back.dc.html": {
-      "h": 1056,
-      "paper": "letter",
-      "title": "19 Back cover",
-      "w": 816,
-      "x": 4320,
-      "y": 2486
-    },
-    "HowTo.dc.html": {
-      "h": 1056,
-      "paper": "letter",
-      "title": "New · How to use this issue",
-      "w": 816,
-      "x": 0,
-      "y": 3729
-    },
-    "Interlude.dc.html": {
-      "h": 1056,
-      "paper": "letter",
-      "title": "New · Interlude",
-      "w": 816,
-      "x": 896,
-      "y": 3729
-    },
-    "FutureLetter.dc.html": {
-      "h": 1056,
-      "paper": "letter",
-      "title": "New · A letter from future you",
-      "w": 816,
-      "x": 1792,
-      "y": 3729
-    },
-    "MyCover.dc.html": {
-      "h": 1056,
-      "title": "New · Your 2027 cover (spread)",
-      "w": 1632,
-      "x": 2688,
-      "y": 3729
-    },
-    "StyleA.dc.html": {
-      "h": 1056,
-      "title": "Pick a style · A Framed",
-      "w": 1632,
-      "x": 0,
-      "y": 4972
-    },
-    "StyleB.dc.html": {
-      "h": 1056,
-      "title": "Pick a style · B Scattered type",
-      "w": 1632,
-      "x": 1712,
-      "y": 4972
-    },
-    "StyleC.dc.html": {
-      "h": 1056,
-      "title": "Pick a style · C Contact sheet",
-      "w": 1632,
-      "x": 3424,
-      "y": 4972
-    },
-    "StyleD.dc.html": {
-      "h": 1056,
-      "title": "Pick a style · D Big word",
-      "w": 1632,
-      "x": 0,
-      "y": 6215
-    },
-    "StyleE.dc.html": {
-      "h": 1056,
-      "title": "Pick a style · E Colour block",
-      "w": 1632,
-      "x": 1712,
-      "y": 6215
     },
     "CopyF.dc.html": {
       "h": 1056,
@@ -224,6 +101,164 @@
       "w": 1632,
       "x": 1712,
       "y": 11187
+    },
+    "DreamLife.dc.html": {
+      "h": 1056,
+      "title": "04–05 My 2027 (spread)",
+      "w": 1632,
+      "x": 2608,
+      "y": 0
+    },
+    "Editor.dc.html": {
+      "h": 1056,
+      "title": "02–03 Editor’s letter (spread)",
+      "w": 1632,
+      "x": 896,
+      "y": 0
+    },
+    "Fashion.dc.html": {
+      "h": 1056,
+      "title": "12–13 Chapter: Fashion (spread)",
+      "w": 1632,
+      "x": 3424,
+      "y": 1243
+    },
+    "Finances.dc.html": {
+      "h": 1056,
+      "title": "16–17 Chapter: Finances (spread)",
+      "w": 1632,
+      "x": 1712,
+      "y": 2486
+    },
+    "FutureLetter.dc.html": {
+      "h": 1056,
+      "paper": "letter",
+      "title": "New · A letter from future you",
+      "w": 816,
+      "x": 1792,
+      "y": 3729
+    },
+    "HowTo.dc.html": {
+      "h": 1056,
+      "paper": "letter",
+      "title": "New · How to use this issue",
+      "w": 816,
+      "x": 0,
+      "y": 3729
+    },
+    "Interlude.dc.html": {
+      "h": 1056,
+      "paper": "letter",
+      "title": "New · Interlude",
+      "w": 816,
+      "x": 896,
+      "y": 3729
+    },
+    "Love.dc.html": {
+      "h": 1056,
+      "title": "10–11 Chapter: Love (spread)",
+      "w": 1632,
+      "x": 1712,
+      "y": 1243
+    },
+    "Main.dc.html": {
+      "h": 1056,
+      "paper": "letter",
+      "title": "01 Cover",
+      "w": 816,
+      "x": 0,
+      "y": 0
+    },
+    "Money.dc.html": {
+      "h": 1056,
+      "title": "08–09 Chapter: Money (spread)",
+      "w": 1632,
+      "x": 0,
+      "y": 1243
+    },
+    "MyCover.dc.html": {
+      "h": 1056,
+      "title": "New · Your 2027 cover (spread)",
+      "w": 1632,
+      "x": 2688,
+      "y": 3729
+    },
+    "Physical.dc.html": {
+      "h": 1056,
+      "title": "06–07 Chapter: Physical (spread)",
+      "w": 1632,
+      "x": 4320,
+      "y": 0
+    },
+    "StyleA.dc.html": {
+      "h": 1056,
+      "title": "Pick a style · A Framed",
+      "w": 1632,
+      "x": 0,
+      "y": 4972
+    },
+    "StyleB.dc.html": {
+      "h": 1056,
+      "title": "Pick a style · B Scattered type",
+      "w": 1632,
+      "x": 1712,
+      "y": 4972
+    },
+    "StyleC.dc.html": {
+      "h": 1056,
+      "title": "Pick a style · C Contact sheet",
+      "w": 1632,
+      "x": 3424,
+      "y": 4972
+    },
+    "StyleD.dc.html": {
+      "h": 1056,
+      "title": "Pick a style · D Big word",
+      "w": 1632,
+      "x": 0,
+      "y": 6215
+    },
+    "StyleE.dc.html": {
+      "h": 1056,
+      "title": "Pick a style · E Colour block",
+      "w": 1632,
+      "x": 1712,
+      "y": 6215
+    },
+    "CopyQ.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · Q Stepped words + photo grid",
+      "w": 1632,
+      "x": 0,
+      "y": 12430
+    },
+    "CopyR.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · R Colour spread, staggered photos",
+      "w": 1632,
+      "x": 1712,
+      "y": 12430
+    },
+    "CopyS.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · S Poster type + full photo",
+      "w": 1632,
+      "x": 3424,
+      "y": 12430
+    },
+    "CopyT.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · T Stacked letters + portrait",
+      "w": 1632,
+      "x": 0,
+      "y": 13673
+    },
+    "CopyU.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · U Outlined type + bubble",
+      "w": 1632,
+      "x": 1712,
+      "y": 13673
     }
   },
   "createdOnFiles": {
@@ -235,6 +270,14 @@
     "view": "canvas"
   },
   "notes": {
+    "copies": {
+      "kind": "title1",
+      "maxW": 4924,
+      "text": "Inspo remakes: your indie magazine layouts, ISSUE11 fonts + colours",
+      "w": 240,
+      "x": 0,
+      "y": 7238
+    },
     "kit": {
       "kind": "title1",
       "maxW": 5798,
@@ -242,6 +285,14 @@
       "w": 240,
       "x": 0,
       "y": -260
+    },
+    "more": {
+      "kind": "title1",
+      "maxW": 5056,
+      "text": "More inspo remakes: L–P",
+      "w": 240,
+      "x": 0,
+      "y": 9724
     },
     "styles": {
       "kind": "title1",
@@ -251,21 +302,13 @@
       "x": 0,
       "y": 4752
     },
-    "copies": {
-      "kind": "title1",
-      "maxW": 4924,
-      "text": "Inspo remakes: your indie magazine layouts, ISSUE11 fonts + colours",
-      "w": 240,
-      "x": 0,
-      "y": 7238
-    },
-    "more": {
+    "more2": {
       "kind": "title1",
       "maxW": 5056,
-      "text": "More inspo remakes: L–P",
+      "text": "Even more inspo remakes: Q–U",
       "w": 240,
       "x": 0,
-      "y": 9724
+      "y": 12210
     }
   },
   "order": [
@@ -283,7 +326,28 @@
     "FutureLetter.dc.html",
     "MyCover.dc.html",
     "Challenge.dc.html",
-    "Back.dc.html"
+    "Back.dc.html",
+    "StyleA.dc.html",
+    "StyleB.dc.html",
+    "StyleC.dc.html",
+    "StyleD.dc.html",
+    "StyleE.dc.html",
+    "CopyF.dc.html",
+    "CopyG.dc.html",
+    "CopyH.dc.html",
+    "CopyI.dc.html",
+    "CopyJ.dc.html",
+    "CopyK.dc.html",
+    "CopyL.dc.html",
+    "CopyM.dc.html",
+    "CopyN.dc.html",
+    "CopyO.dc.html",
+    "CopyP.dc.html",
+    "CopyQ.dc.html",
+    "CopyR.dc.html",
+    "CopyS.dc.html",
+    "CopyT.dc.html",
+    "CopyU.dc.html"
   ],
   "pages": [],
   "title": "ISSUE11 Rebrand Issue"

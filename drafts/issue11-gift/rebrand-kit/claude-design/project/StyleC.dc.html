@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Style C · Contact sheet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width:1588px; height:1123px; position:relative; overflow:hidden; background:#FFFFFF; font-family:'Inter Tight', sans-serif; color:#0D0D0D; display:flex">
+
+<div style="width:794px; height:1123px; position:relative; overflow:hidden; box-sizing:border-box; background:#fff; padding:64px 56px 56px 64px">
+  <div style="display:flex; justify-content:space-between; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase"><span>Contact sheet</span><span>10</span></div>
+  <div style="margin-top:24px; display:grid; grid-template-columns:repeat(3, 1fr); gap:16px 12px"><figure style="margin:0"><img src="/_blob/e1791165572920b6aed78f5406ef0ddd" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:300px"><figcaption style="margin-top:6px; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; font-size:9px">Sunday plans</figcaption></figure><figure style="margin:0"><img src="/_blob/7bae4a6ec2052314c0ed63fd1543de31" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:300px"><figcaption style="margin-top:6px; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; font-size:9px">The group chat</figcaption></figure><figure style="margin:0"><img src="/_blob/50e16c5811fdeb41086939469fe9f7c9" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:300px"><figcaption style="margin-top:6px; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; font-size:9px">Dinner, 8pm</figcaption></figure><figure style="margin:0"><img src="/_blob/71d727f2abc523ae7070e501a6ffe403" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:300px"><figcaption style="margin-top:6px; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; font-size:9px">Soft launch</figcaption></figure><figure style="margin:0"><img src="/_blob/5db38769e2a8fe9bb8fe6d1937a9cb7a" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:300px"><figcaption style="margin-top:6px; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; font-size:9px">Just us</figcaption></figure><figure style="margin:0"><img src="/_blob/1561a2278d41fcfc9f3147c62b1e62c2" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:300px"><figcaption style="margin-top:6px; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; font-size:9px">Same table, every week</figcaption></figure></div>
+  <p style="margin:30px 0 0; font-size:44px; font-weight:500; letter-spacing:-0.06em; line-height:0.86">Your people, your story.</p>
+</div>
+<div style="width:794px; height:1123px; position:relative; overflow:hidden; box-sizing:border-box; background:#EAF6FF; padding:64px 72px 56px 88px; display:flex; flex-direction:column">
+  <div style="display:flex; justify-content:space-between; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase"><span>Chapter 04 · Love</span><span>The Rebrand Issue</span></div>
+  <h2 style="margin:40px 0 0; font-size:150px; font-weight:500; letter-spacing:-0.06em; line-height:0.86">Love.</h2>
+  <p style="margin:12px 0 0; font-size:22px; font-weight:500; letter-spacing:-0.03em; color:#C2207E">My people, my circle</p>
+  <div style="margin-top:30px; columns:2; column-gap:28px; text-align:justify; hyphens:auto"><sc-for list="{{prompts}}" as="p" hint-placeholder-count="5">
+  <div style="break-inside:avoid; margin-bottom:14px">
+    <p style="margin:0 0 3px; font-size:12.5px; font-weight:600; letter-spacing:-0.02em; text-align:left"><span style="color:#C2207E; margin-right:6px">{{p.n}}</span>{{p.title}}</p>
+    <p style="margin:0; font-size:11.5px; line-height:1.48">“{{p.text}}”</p>
+    <p style="margin:4px 0 0; font-size:10.5px; line-height:1.4; opacity:0.7; text-align:left">Why it works: {{p.why}}</p>
+  </div>
+</sc-for></div>
+  <div style="margin-top:auto; display:flex; justify-content:space-between; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase"><span>issue11.app</span><span>11</span></div>
+</div>
+<div style="position:absolute; left:744px; top:0; width:100px; height:1123px; pointer-events:none; background:linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.08) 42%, rgba(0,0,0,0.18) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.05) 62%, rgba(0,0,0,0) 100%)"></div>
+<svg style="position:absolute; inset:0; width:100%; height:100%; pointer-events:none; mix-blend-mode:multiply; opacity:{{grain}}" aria-hidden="true"><filter id="g2"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#g2)"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"grain":{"editor":"range","default":0.16,"min":0,"max":0.5,"step":0.02},"$preview":{"width":1588,"height":1123}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const prompts = [{"n": "11", "title": "What my kind of love looks like.", "text": "Ask about affection, communication, independence and how we handle disagreements. Help me sort needs, nice-to-haves and what I’m still figuring out.", "why": "Knowing your values makes the big choices easier."}, {"n": "12", "title": "Friends we actually make time for.", "text": "Ask who I want to see more and what gets in the way. Help me write one if-then plan.", "why": "If-then plans make follow-through much more likely."}, {"n": "13", "title": "Meet more of my people.", "text": "Ask about my interests and places I already like. Suggest three settings where I’d see the same people often.", "why": "Seeing the same faces again and again is how friendships start."}, {"n": "14", "title": "Say no, kindly.", "text": "Help me write a short, kind way to set a boundary with [person]. Then play them, and give me feedback.", "why": "Ready-made words lower the cost of a boundary."}, {"n": "15", "title": "My inner critic is loud today.", "text": "Here’s what it says: [paste]. Ask me to check the evidence: what’s true, what’s old, and what a friend would say.", "why": "Questioning a thought (from CBT) loosens its grip."}];
+    return { grain: this.props.grain ?? 0.16, prompts };
+  }
+}
+</script>
+</body>
+</html>

@@ -46,8 +46,8 @@ paste_logo(A,logo_c,60,60,300)
 d.text((W-60,78),"THE FUTURE ISSUE · 2027",font=MONO(24),fill=CREAM,anchor="ra")
 d.line([(60,175),(W-60,175)],fill=CREAM,width=2)
 lines(d,60,1040,["2027","VISION BOARD","IDEAS"],AB(118),CREAM)
-d.rectangle([60,1395,60+20+d.textlength("SEE IT · WRITE IT · BECOME IT",font=MONO(22)),1440],fill=BLUSH)
-d.text((75,1404),"SEE IT · WRITE IT · BECOME IT",font=MONO(22),fill=BLACK)
+d.rectangle([60,1395,60+20+d.textlength("BECOME YOUR OWN DREAM GIRL",font=MONO(22)),1440],fill=BLUSH)
+d.text((75,1404),"BECOME YOUR OWN DREAM GIRL",font=MONO(22),fill=BLACK)
 A.convert("RGB").save(OUT+"A-editorial-cover.jpg",quality=92)
 
 # B: type card on Electric Soft gradient

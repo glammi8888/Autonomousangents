@@ -8,9 +8,9 @@ Megan's rule: list pins are written as the customer's desires, in her own words.
 - business popping OFF
 - become my own dream girl
 - $20,000 saved
-- rebranding my entire life (Lexicon) · glowing up (Megan, Nov 14)
+- rebranding my entire life (Lexicon) · glowing up · looking hotter (Megan, Nov 14)
 
-Ticks go only on identity lines (rebrand, glowing up, become my own dream girl), never on money or engagement lines, so a tick never reads as a promised result.
+Ticks go only on identity lines (rebrand, glowing up, looking hotter, become my own dream girl), never on money or engagement lines, so a tick never reads as a promised result.
 
 ## From the Lexicon (customer words)
 - my dream home · new car · debt free · my own business · dream bod

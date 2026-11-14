@@ -12,7 +12,7 @@ def wrap(d,text,f,maxw):
         if d.textlength(t,font=f)>maxw and cur: out.append(cur); cur=w
         else: cur=t
     out.append(cur); return out
-TICK={'rebranding my entire life','glowing up','become my own dream girl'}
+TICK={'rebranding my entire life','glowing up','looking hotter','become my own dream girl'}
 EMO='\U0001FAF1\U0001F3FB\u200d\U0001FAF2\U0001F3FD'
 def notes(hook,hl,ps,out,sub=""):
     im=Image.new("RGBA",(W,H),(0,0,0)); d=ImageDraw.Draw(im)
@@ -51,7 +51,7 @@ def notes(hook,hl,ps,out,sub=""):
     d.text((60,H-108),"issue11.app",font=IT(40,"SemiBold"),fill=Y)
     paste_logo(im,_mk((255,255,255)),W-60-110,H-60-85,110)
     im.convert("RGB").save(OUT+out,quality=92); return y
-A=["rebranding my entire life","become my own dream girl","getting engaged","being rich af","business popping OFF","$20,000 saved"]
+A=["rebranding my entire life","looking hotter","getting engaged","being rich af","business popping OFF","become my own dream girl"]
 B=["rebranding my entire life","become my own dream girl","$20,000 saved","business popping OFF","getting engaged","being rich af"]
 C=["glowing up","become my own dream girl","being rich af","my dream home","business popping OFF","getting engaged"]
 print(notes("My 2027:",[],A,"D1-notes-11pm.jpg",sub="same girl, bigger dreams"))

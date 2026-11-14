@@ -1,7 +1,7 @@
 # ISSUE11 mise en page guidelines v1 (strict)
 
 Owner: 🖋 The Editor (agent, `.claude/agents/the-editor.md`). Set up by Megan on Nov 14, 2026, word for word: "I think we need to create « the editor » agent with Claude design and follow some strict mise en page guidelines" and "And we can use those same guidelines for magazine layouts for the app".
-Scope: every ISSUE11 magazine page. That covers PDFs, lead magnets (Rebrand Kit, Vision Board Kit, Journaling Prompts), tripwires and other paid digital products (Megan: "Because that will help us with all the tripwires"), wallpapers and pins with magazine pages, and the app's magazine page templates.
+Scope: every ISSUE11 magazine page. That covers PDFs, lead magnets (Rebrand Kit, Vision Board Kit, Journaling Prompts; Megan: "that will help us with all the lead magnets"), wallpapers and pins with magazine pages, and the app's magazine page templates.
 This file replaces the type and colour parts of `design/MAGAZINE-STYLE-GUIDE.md` (Archivo, hot-pink blocks, collage). That guide's logic still holds: a fixed template library where the AI picks and the user never moves things around.
 "Must" means no exceptions without Megan's OK.
 

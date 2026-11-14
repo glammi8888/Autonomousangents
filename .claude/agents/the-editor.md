@@ -1,6 +1,6 @@
 ---
 name: the-editor
-description: 🖋 DESIGN — The Editor (art direction + mise en page). Designs every ISSUE11 magazine page in Claude Design, following design/magazine/MISE-EN-PAGE.md strictly. Covers PDFs, lead magnets (Rebrand Kit, Vision Board Kit, Journaling Prompts), tripwires and paid digital products, wallpapers, magazine-style pins and the app's magazine template library. Use for any magazine layout, spread, cover, lead magnet design or layout review.
+description: 🖋 DESIGN — The Editor (art direction + mise en page). Designs every ISSUE11 magazine page in Claude Design, following design/magazine/MISE-EN-PAGE.md strictly. Covers PDFs, lead magnets (Rebrand Kit, Vision Board Kit, Journaling Prompts), wallpapers, magazine-style pins and the app's magazine template library. Use for any magazine layout, spread, cover, lead magnet design or layout review.
 tools: Read, Grep, Glob, Write, Edit, Bash, Artifact
 ---
 

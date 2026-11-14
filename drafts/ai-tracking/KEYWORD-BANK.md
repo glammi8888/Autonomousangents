@@ -24,11 +24,11 @@
 | I2 | vision board examples · things to put on a vision board · what to put on a vision board | 11,000 + 900 + 910 | 26 to 36 | DONE Nov 14: draft vision-board-examples (10 whole-board examples; different intent from vision-board-ideas; cover megan-editorial-21 dream closet, dated Nov 12) |
 | I3 | self love affirmations · self worth affirmations · self confidence affirmations · affirmations for confidence | 4,300 + 1,500 + 1,500 + 1,500 | 15 to 24 | DONE Nov 14: draft self-love-affirmations (60: self love, self worth, confidence; believable style + 2 studies; cover megan-editorial-26, dated Nov 15) |
 | I4 | positive affirmations for women · affirmations for women · powerful daily affirmations · positive affirmations for the day · short positive affirmations | 8,400 + 6,600 + 3,500 + 3,400 + 2,100 | 16 to 28 | DONE Nov 14: draft positive-affirmations-for-women (50 short daily, by time of day; cover megan-editorial-25, dated Nov 16) |
-| I5 | money affirmations · affirmations for abundance · manifesting money · how to manifest money · money vision board | 2,800 + 1,000 + 2,100 + 1,300 + 600 | 15 to 29 | queued (no money promises) |
+| I5 | money affirmations · affirmations for abundance · manifesting money · how to manifest money · money vision board | 2,800 + 1,000 + 2,100 + 1,300 + 600 | 15 to 29 | NEXT (no money promises) |
 | I6 | manifestation examples · manifestation techniques · manifestation methods · quantum manifestation | 4,300 + 1,700 + 1,700 + 710 | 16 to 25 | queued |
 | I7 | manifestation journals · manifestation journaling · best manifestation journal app | 3,100 + 3,100 | 16 to 20 | queued (honest comparison, ISSUE11 named as ours) |
 | I8 | book on manifestation · best manifestation books | 4,600 | 18 | queued (real books only) |
-| I9 | self care ideas · self care ideas for women · self care activities · beauty self care ideas · self care sunday ideas | 8,000 + 710 + 10,600 | 14 to 32 | NEXT (switch away from affirmations for variety; I5 money affirmations after) |
+| I9 | self care ideas · self care ideas for women · self care activities · beauty self care ideas · self care sunday ideas | 8,000 + 710 + 10,600 | 14 to 32 | DONE Nov 14: draft self-care-ideas (60 ideas by time + Sunday plan; cover megan-editorial-22, dated Nov 17) |
 | I10 | list of affirmations · list of positive affirmations · funny affirmations | 1,300 + 1,300 + 1,200 | 9 to 19 | queued (easiest KD in the bank) |
 | I11 | manifesting love · love affirmations · how to manifest love | 1,000 + 2,000 + 520 | 14 to 18 | queued |
 | I12 | positive affirmations for work · work affirmations | 1,500 + 1,200 | 19 to 20 | queued |

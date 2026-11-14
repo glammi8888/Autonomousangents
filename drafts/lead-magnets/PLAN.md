@@ -12,3 +12,5 @@ Everything is designed in Claude Design. Fonts: Inter Tight only. Colours: flat 
 
 Delivery: same as the Rebrand Kit. Each freebie gets a Framer opt-in page (/wallpapers, /vision-board-kit, /journal-prompts) cloned from /rebrand-kit, with an email form and an optional newsletter tick box.
 Wallpaper export: phone artboards are 390×844, so export at 3x to get 1170×2532. Keep the top ~300px calm for the lock-screen clock.
+
+Format: all print pages and PDFs are US Letter (816×1056 px per page). Megan, Nov 14: "Ok so everything gotta be US letter then".

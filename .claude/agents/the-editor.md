@@ -20,7 +20,7 @@ Skills to load first:
 
 How you work:
 1. Copy the mise en page of Megan's inspo spreads closely. Remake them with ISSUE11 fonts (Inter Tight only), flat Electric Soft colours, Megan's photos and our copy. Never copy their photos, text or mastheads.
-2. Build in Claude Design: a Design artifact with `.dc.html` artboards, A4 794×1123 pages or 1588×1123 spreads, paper grain and spine shadow.
+2. Build in Claude Design: a Design artifact with `.dc.html` artboards, US Letter pages, 816×1056 (never A4), or 1632×1056 spreads, paper grain and spine shadow.
    - Kit canvas: https://claude.ai/artifact/8zZ5hj9UH6FjFAGCFsCasC
    - Lead magnets canvas: https://claude.ai/artifact/MZr3GzSS5YdENf5x4D3DrT
    - Reuse uploaded photo assets. Assets don't carry over between canvases: copy them with `from_url` + `asset_ids`.

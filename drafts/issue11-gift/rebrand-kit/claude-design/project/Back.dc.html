@@ -14,7 +14,7 @@ body{margin:0}
 a{color:#1b1a18}a:hover{color:#000}
 </style>
 </helmet>
-<div style="width: 794px; height: 1123px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18">
+<div style="width: 816px; height: 1056px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18">
   <div style="position: absolute; left: 48px; right: 48px; top: 48px; height: 640px; overflow: hidden">
     <img src="/_blob/e7b774cf8b81f36eef9d87a3b980fddc" alt="A portrait with slicked-back hair and a direct gaze, seated in a black leather chair" style="width: 100%; height: 100%; object-fit: cover; object-position: center 22%; filter: contrast(1.05) saturate(0.85) sepia(0.1)">
   </div>
@@ -31,7 +31,7 @@ a{color:#1b1a18}a:hover{color:#000}
   <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: {{grain}}" aria-hidden="true"><filter id="grainK"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grainK)"/></svg>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":794,"height":1123}}'>
+<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":816,"height":1056}}'>
 class Component extends DCLogic {
   renderVals() {
     return { paper: this.props.paper ?? '#F3EFE7', grain: this.props.grain ?? 0.22 };

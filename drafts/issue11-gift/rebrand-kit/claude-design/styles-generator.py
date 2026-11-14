@@ -22,7 +22,7 @@ PROMPTS = """<sc-for list="{{prompts}}" as="p" hint-placeholder-count="5">
   </div>
 </sc-for>"""
 def prompts(acc=PINKTXT): return PROMPTS.replace("ACC", acc)
-SPINE = '<div style="position:absolute; left:744px; top:0; width:100px; height:1123px; pointer-events:none; background:linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.08) 42%, rgba(0,0,0,0.18) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.05) 62%, rgba(0,0,0,0) 100%)"></div>'
+SPINE = '<div style="position:absolute; left:766px; top:0; width:100px; height:1056px; pointer-events:none; background:linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.08) 42%, rgba(0,0,0,0.18) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.05) 62%, rgba(0,0,0,0) 100%)"></div>'
 def grain(i): return f'<svg style="position:absolute; inset:0; width:100%; height:100%; pointer-events:none; mix-blend-mode:multiply; opacity:{{{{grain}}}}" aria-hidden="true"><filter id="g{i}"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#g{i})"/></svg>'
 DATA = [
  dict(n='11', title='What my kind of love looks like.', text='Ask about affection, communication, independence and how we handle disagreements. Help me sort needs, nice-to-haves and what I’m still figuring out.', why='Knowing your values makes the big choices easier.'),
@@ -44,13 +44,13 @@ def page(name, title, body, i):
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <style>body{{margin:0}}</style>
 </helmet>
-<div style="width:1588px; height:1123px; position:relative; overflow:hidden; background:#FFFFFF; font-family:'Inter Tight', sans-serif; color:{INK}; display:flex">
+<div style="width:1632px; height:1056px; position:relative; overflow:hidden; background:#FFFFFF; font-family:'Inter Tight', sans-serif; color:{INK}; display:flex">
 {body}
 {SPINE}
 {grain(i)}
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{{"grain":{{"editor":"range","default":0.16,"min":0,"max":0.5,"step":0.02}},"$preview":{{"width":1588,"height":1123}}}}'>
+<script type="text/x-dc" data-dc-script data-props='{{"grain":{{"editor":"range","default":0.16,"min":0,"max":0.5,"step":0.02}},"$preview":{{"width":1632,"height":1056}}}}'>
 class Component extends DCLogic {{
   renderVals() {{
     const prompts = {json.dumps(DATA, ensure_ascii=False)};
@@ -61,7 +61,7 @@ class Component extends DCLogic {{
 </body>
 </html>
 """
-L = 'width:794px; height:1123px; position:relative; overflow:hidden; box-sizing:border-box'
+L = 'width:816px; height:1056px; position:relative; overflow:hidden; box-sizing:border-box'
 S = {}
 # A · Framed page: lilac page, photo inside a thin white frame, vertical running text
 S["StyleA"] = ("Style A · Framed", f"""

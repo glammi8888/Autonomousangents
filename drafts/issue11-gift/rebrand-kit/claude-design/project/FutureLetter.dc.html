@@ -11,7 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
 <style>body{margin:0}</style>
 </helmet>
-<div style="width: 794px; height: 1123px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18; box-sizing: border-box; padding: 64px 72px 56px; display: flex; flex-direction: column">
+<div style="width: 816px; height: 1056px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18; box-sizing: border-box; padding: 64px 72px 56px; display: flex; flex-direction: column">
   <div style="display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #55524c"><span>Write it down</span><span>The Rebrand Issue</span></div>
   <div style="margin-top: 30px; display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 32px; align-items: end">
     <img src="/_blob/70d9dbfdf9370951b874a4dfd64e6f5f" alt="An aspirational editorial portrait" style="width: 250px; height: 320px; object-fit: cover; filter: contrast(1.05) saturate(0.85) sepia(0.1)">
@@ -35,7 +35,7 @@
   <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: {{grain}}" aria-hidden="true"><filter id="grainF"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grainF)"/></svg>
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":794,"height":1123}}'>
+<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":816,"height":1056}}'>
 class Component extends DCLogic {
   renderVals() {
     const lines = Array.from({ length: 11 }, (_, i) => ({ i }));

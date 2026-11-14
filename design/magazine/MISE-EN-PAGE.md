@@ -11,8 +11,9 @@ This file replaces the type and colour parts of `design/MAGAZINE-STYLE-GUIDE.md`
 - Printed indie magazine, not glossy and not a Canva template. It should look like paper: grain, spine shadow, page numbers, real margins.
 
 ## 2. Format and grid
-- Page: A4 portrait, 794×1123 px (1:1.414). A spread is 1588×1123. Print-ready at 2x.
-- App: the same A4 proportion, scaled to the screen width. A page is a printed page, not a web card.
+- Page: **US Letter** portrait, 8.5×11 in = 816×1056 px (1:1.294). A spread is 1632×1056. Megan, Nov 14: "Ok so everything gotta be US letter then". This is the printed issue's format (Lulu, `design/PRINT-PURCHASE.md`). Never A4.
+- Print files (Lulu): add 0.125 in bleed on each side (12 px; 840×1080 per page) and keep text 0.5 in (48 px) inside the trim. Check Lulu's current spec page before the first real print file.
+- App: the same US Letter proportion, scaled to the screen width. A page is a printed page, not a web card.
 - Margins: top 64, bottom 56, outer 72, inner/spine 88. Full-bleed photos may ignore the margins. Text never does.
 - Grid: 6 columns, 24 px gutter, 8 px baseline steps. Text runs in 1–3 columns. Body columns are 220–330 px wide.
 - Spine shadow on every spread (a 100 px soft gradient centred on the fold). Paper grain on every page (feTurbulence, multiply, opacity 0.12–0.22).
@@ -83,7 +84,7 @@ Candidates live in the Rebrand Kit canvas (https://claude.ai/artifact/8zZ5hj9UH6
 
 ## 10. Process (Claude Design)
 1. Before working, read this file, `.pipeline/lessons.md` and the inspo folder.
-2. Build in Claude Design (Design artifact, `.dc.html` artboards). Pages are A4 or spreads, with the fonts and colours above.
+2. Build in Claude Design (Design artifact, `.dc.html` artboards). Pages are US Letter (816×1056) or spreads (1632×1056), with the fonts and colours above.
 3. New direction? Show 3–6 sample spreads first and let Megan pick. Then build the whole piece in the picked layouts.
 4. Never verify, render or screenshot unless Megan asks. Before republishing, read any file she may have edited.
 5. Copy the canvas source into the repo next to the piece and commit after every change.

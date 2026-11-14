@@ -1,7 +1,7 @@
 import os, sys, json, math
 src = open(os.path.join(os.path.dirname(__file__), "styles.py")).read().split("L = '")[0]
 exec(src)
-L = 'width:794px; height:1123px; position:relative; overflow:hidden; box-sizing:border-box'
+L = 'width:816px; height:1056px; position:relative; overflow:hidden; box-sizing:border-box'
 def star(cx, cy, r):
     pts=[]
     for i in range(10):
@@ -78,7 +78,7 @@ C["CopyI"] = ("Copy I · Giant word + app windows", f"""
   {win(420,800,280,"issue11.app","Want your answers turned into a magazine about YOU? <b>Make your issue.</b>")}
 </div>""")
 # J · Colour page with star cut-outs, facing photo with colour stars (ref: editorial-12 "trust the process")
-stars_l = "".join(f'<img src="{B(P["e24"])}" alt="" style="position:absolute; inset:0; width:794px; height:1123px; object-fit:cover; {F}; clip-path:{star(cx,cy,r)}">' for cx,cy,r in [(220,430,150),(500,700,210)])
+stars_l = "".join(f'<img src="{B(P["e24"])}" alt="" style="position:absolute; inset:0; width:816px; height:1056px; object-fit:cover; {F}; clip-path:{star(cx,cy,r)}">' for cx,cy,r in [(220,430,150),(500,700,210)])
 stars_r = "".join(f'<div style="position:absolute; inset:0; background:{c}; clip-path:{star(cx,cy,r)}"></div>' for cx,cy,r,c in [(300,420,150,ROSE),(620,640,210,LILAC)])
 C["CopyJ"] = ("Copy J · Star cut-outs", f"""
 <div style="{L}; background:{ROSE}">

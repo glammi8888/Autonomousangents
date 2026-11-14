@@ -1,14 +1,14 @@
 import sys; sys.path.insert(0,"/tmp/claude-0/-home-user-Autonomousangents/c1b1bd34-cf66-56f8-bc34-f80edec64abe/scratchpad")
 from quotes_lib import *
 Q=[
- (["2027 IS","THE YEAR","I BECOME","ME."],"Future you is already on her way."),
- (["I'M NOT","WAITING","FOR 2027.","I'M PRACTICING","FOR IT."],"One small move today."),
- (["MY FUTURE","SELF","IS TAKING","NOTES."],"Write it like it's already yours."),
- (["SOFT","VOICE.","RADICAL","MIND."],"Become your own dream girl."),
- (["ROMANTICIZE","THE","PRACTICE."],"Not just the outcome."),
- (["I DON'T","NEED TO","SEE IT","TO START IT."],"Participate in your own life."),
- (["DREAM","BOLDLY.","MOVE","DELIBERATELY."],"Your vision, your issue."),
- (["NEW YEAR,","SAME ME,","BETTER","HABITS."],"Your true self is built, not found."),
+ (["2027","I AM","BECOMING","ME"],"same girl, bigger dreams"),
+ (["I'M IN MY","BUILDING","ERA"],"one small action. then rest"),
+ (["YOUR FUTURE","IS NOT A","SPECTATOR","SPORT"],"you're the visionary"),
+ (["A SOFT VOICE","A RADICAL","MIND"],"the new way of manifestation"),
+ (["BECOME","YOUR OWN","DREAM GIRL"],"it's giving future you"),
+ (["YOU CAN BE","MANIFESTING","SOMETHING","LONG BEFORE","YOU POSSESS IT"],"one line is enough"),
+ (["ART DIRECT","YOUR LIFE"],"you're the cover star"),
+ (["IT'S NOT","TOO LATE"],"i let today be enough"),
 ]
 import os
 OUTD="/home/user/Autonomousangents/drafts/pinterest/quotes/"

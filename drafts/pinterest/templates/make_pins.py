@@ -59,8 +59,8 @@ for y in range(H):
         c=tuple(int(stops[i][k]+(stops[i+1][k]-stops[i][k])*f) for k in range(3)); px[x,y]=c
 B=B.filter(ImageFilter.GaussianBlur(40)).convert("RGBA"); d=ImageDraw.Draw(B)
 d.text((W//2,110),"ISSUE11 · NOTE TO SELF · 01 / 11",font=MONO(26),fill=BLACK,anchor="ma")
-lines(d,W//2,520,["2027 IS","THE YEAR","I BECOME","ME."],AB(150),BLACK,anchor="c")
-d.text((W//2,1180),"Future you is already on her way.",font=font("IBMPlexSerif-Italic.ttf" if False else "IBMPlexMono-Regular.ttf",30),fill=BLACK,anchor="ma")
+lines(d,W//2,520,["2027","I AM","BECOMING","ME"],AB(150),BLACK,anchor="c")
+d.text((W//2,1180),"same girl, bigger dreams",font=font("IBMPlexSerif-Italic.ttf" if False else "IBMPlexMono-Regular.ttf",30),fill=BLACK,anchor="ma")
 paste_logo(B,logo_b,W//2,1250,200,anchor="c")
 B.convert("RGB").save(OUT+"B-type-card.jpg",quality=92)
 

@@ -27,16 +27,16 @@ def notes(hook,hl,ps,out,sub="future self journal prompts · save for 2027"):
         y+=112
     y+=44
     d.text((60,y),sub,font=IT(30,"Regular"),fill=(160,160,165)); y+=80
-    fp=IT(44,"Regular")
+    fp=IT(58,"Regular")
     for p in ps:
-        d.ellipse([70,y+20,84,y+34],fill=(255,255,255))
-        for l in wrap(d,p,fp,W-180): d.text((110,y),l,font=fp,fill=(255,255,255)); y+=56
+        d.ellipse([68,y+26,84,y+42],fill=(255,255,255))
+        for l in wrap(d,p,fp,W-180): d.text((110,y),l,font=fp,fill=(255,255,255)); y+=72
         y+=20
     paste_logo(im,_mk((255,255,255)),W-60-110,H-60-85,110)
     im.convert("RGB").save(OUT+out,quality=92); return y
-A=["money that feels calm. not checking my bank app 10x a day","to work for myself","to feel at home in my body","one friend who gets it","to say no without a 3-paragraph apology","to feel like myself again"]
-B=["a soft life with a calm nervous system","to be debt free","my dream home","to protect my peace and keep my circle small","to be chosen","to feel like myself again"]
-C=["money that feels calm","my own business","my dream home","to feel at home in my body","one friend who gets it","to feel like myself again"]
+A=["getting engaged","being rich af","business popping OFF","$20,000 saved","my dream home","become my own dream girl"]
+B=["$20,000 saved","business popping OFF","getting engaged","being rich af","to protect my peace","become my own dream girl"]
+C=["being rich af","$20,000 saved","business popping OFF","getting engaged","my dream home","become my own dream girl"]
 print(notes("for the girls rebranding their entire life at 11pm",["11pm"],A,"D1-notes-11pm.jpg",sub="my 2027 list · save this for later"))
 print(notes("i’m too grown to keep explaining myself.",["grown"],B,"D2-notes-too-grown.jpg",sub="what i want in 2027 · save this for later"))
 print(notes("2027, i claim it.",["claim"],C,"D3-notes-claim-it.jpg",sub="my 2027 vision board list · save this for later"))

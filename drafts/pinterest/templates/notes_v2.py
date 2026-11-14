@@ -14,35 +14,30 @@ def wrap(d,text,f,maxw):
     out.append(cur); return out
 def notes(hook,hl,ps,out,sub=""):
     im=Image.new("RGBA",(W,H),(0,0,0)); d=ImageDraw.Draw(im)
-    Y=(255,214,10); G=(142,142,147)
-    d.text((70,50),"11:04",font=IT(34,"SemiBold"),fill=(255,255,255))
-    d.text((52,128),"‹",font=IT(64,"Regular"),fill=Y)
-    d.text((92,140),"Notes",font=IT(40,"Regular"),fill=Y)
-    # right icons: share + more
-    d.rounded_rectangle([W-205,142,W-175,178],4,outline=Y,width=4); d.line([W-190,130,W-190,160],fill=Y,width=4)
-    d.ellipse([W-125,135,W-75,185],outline=Y,width=4)
-    for k in (-12,0,12): d.ellipse([W-100+k-3,157,W-100+k+3,163],fill=Y)
-    d.text((W//2,230),"November 14, 2026 at 11:04 PM",font=IT(28,"Regular"),fill=G,anchor="ma")
-    f=IT(84,"Bold"); y=300
-    for l in wrap(d,hook,f,W-140):
-        x=70
+    Y=(255,214,10); G=(160,160,165)
+    d.text((60,70),"11:04",font=IT(30,"SemiBold"),fill=(255,255,255))
+    d.text((60,150),"‹ Notes",font=IT(34,"Medium"),fill=Y)
+    f=IT(62,"Bold"); y=250
+    for l in wrap(d,hook,f,W-120):
+        x=60
         for w in l.split():
             ww=d.textlength(w,font=f)
             col=PINKC if w.strip(".,").lower() in hl else (255,255,255)
             d.text((x,y),w,font=f,fill=col); x+=ww+d.textlength(" ",font=f)
-        y+=96
-    y+=30
-    fp=IT(52,"Regular")
+        y+=72
+    if sub: d.text((60,y+10),sub,font=IT(32,"Regular"),fill=G); y+=90
+    else: y+=40
+    fp=IT(38,"Regular")
     for n,p in enumerate(ps):
         if n<2:
-            d.ellipse([70,y+8,118,y+56],fill=Y)
-            d.line([(83,y+33),(91,y+42),(106,y+22)],fill=(0,0,0),width=6,joint="curve")
+            d.ellipse([60,y+4,96,y+40],fill=Y)
+            d.line([(70,y+23),(76,y+30),(87,y+15)],fill=(0,0,0),width=5,joint="curve")
         else:
-            d.ellipse([70,y+8,118,y+56],outline=(99,99,102),width=4)
-        for l in wrap(d,p,fp,W-230): d.text((146,y),l,font=fp,fill=(255,255,255)); y+=66
-        y+=34
-    d.text((70,H-150),"write yours on",font=IT(32,"Regular"),fill=(142,142,147))
-    d.text((70,H-108),"issue11.app",font=IT(40,"SemiBold"),fill=(255,214,10))
+            d.ellipse([60,y+4,96,y+40],outline=(99,99,102),width=3)
+        for l in wrap(d,p,fp,W-180): d.text((118,y),l,font=fp,fill=(255,255,255)); y+=50
+        y+=26
+    d.text((60,H-150),"write yours on",font=IT(32,"Regular"),fill=(142,142,147))
+    d.text((60,H-108),"issue11.app",font=IT(40,"SemiBold"),fill=Y)
     paste_logo(im,_mk((255,255,255)),W-60-110,H-60-85,110)
     im.convert("RGB").save(OUT+out,quality=92); return y
 A=["getting engaged","being rich af","business popping OFF","$20,000 saved","my dream home","become my own dream girl"]

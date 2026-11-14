@@ -17,8 +17,8 @@
 
 | # | Main keyword · variants | US/mo (main + variants) | KD | Status |
 |---|---|---|---|---|
-| I1 | 🎄 new year vision board · vision board 2027 · new year vision boards · vision board party · vision board party ideas | 980 + 1,400 + seasonal spike in Dec/Jan | 9 to 20 | NEXT (seasonal, publish first) |
-| I2 | vision board examples · things to put on a vision board · what to put on a vision board | 11,000 + 900 + 910 | 26 to 36 | NEXT after I1 |
+| I1 | 🎄 new year vision board · vision board 2027 · new year vision boards · vision board party · vision board party ideas | 980 + 1,400 + seasonal spike in Dec/Jan | 9 to 20 | DONE Nov 14: draft new-year-vision-board (cover megan-editorial-33, dated Nov 7 so it publishes first) |
+| I2 | vision board examples · things to put on a vision board · what to put on a vision board | 11,000 + 900 + 910 | 26 to 36 | NEXT |
 | I3 | self love affirmations · self worth affirmations · self confidence affirmations · affirmations for confidence | 4,300 + 1,500 + 1,500 + 1,500 | 15 to 24 | queued |
 | I4 | positive affirmations for women · affirmations for women · powerful daily affirmations · positive affirmations for the day · short positive affirmations | 8,400 + 6,600 + 3,500 + 3,400 + 2,100 | 16 to 28 | queued |
 | I5 | money affirmations · affirmations for abundance · manifesting money · how to manifest money · money vision board | 2,800 + 1,000 + 2,100 + 1,300 + 600 | 15 to 29 | queued (no money promises) |

@@ -35,16 +35,16 @@ The daily article run takes these in order (one per site per day), skipping any 
 | geo agency · aeo agency · aeo services | 620 · 550 · 400 | 21 · 26 · 16 | glammi.ai needs a real AEO services page (/aeo-services). Landing copy change = Megan approves first |
 | ai search visibility | 420 | 13 | strengthen what-is-ai-visibility |
 | chatgpt seo · how to rank in chatgpt | 380 · 160 | 42 · n/a | DONE Nov 12: draft how-to-rank-in-chatgpt |
-| salon marketing · hair salon seo | 330 · 60 | 27 · 10 | NEW article for luxury hair salons |
+| salon marketing · hair salon seo | 330 · 60 | 27 · 10 | DRAFT Nov 14 salon-marketing (Glammi worker) |
 | plastic surgery seo | 260 | 20 | NEW article |
 | med spa social media · med spa branding | 50 · 40 | 18 · 8 | NEW articles (later) |
 | **New verticals (Megan, Nov 13: "AEO should have more verticals too in industries that are creative, local businesses but also beauty brands like e-commerce, perfume brands, indie fashion brands, etc")** | | | |
 | seo for small business · local seo for small business | 2,800 · 1,100 | 29 · 30 | DONE Nov 13: draft seo-for-small-business. Was: NEW "AI search for local businesses (AEO)": salons, boutiques, studios, photographers |
-| shopify seo | 1,300 | 39 | NEW "Shopify AEO: how beauty and fashion e-commerce brands get recommended by AI" |
-| skincare marketing · cosmetics marketing | 170 · 80 | 30 · 21 | NEW "Skincare brand marketing for AI search" (indie beauty e-commerce) |
-| photographer seo | 360 | 31 | NEW "Photographer SEO and AEO" (creative businesses) |
+| shopify seo | 1,300 | 39 | DRAFT Nov 14 shopify-seo (Glammi worker) |
+| skincare marketing · cosmetics marketing | 170 · 80 | 30 · 21 | DRAFT Nov 14 skincare-marketing (Glammi worker) |
+| photographer seo | 360 | 31 | DRAFT Nov 14 photographer-seo (Glammi worker) |
 | fragrance marketing · perfume brand | 80 · n/a | n/a | NEW "How perfume brands get recommended by AI" (low Google volume, high AI-answer value: write after the above) |
-| fashion seo · boutique marketing · how to market a clothing brand | 70 · 70 · 70 | 24 · 16 · 35 | NEW "AEO for indie fashion brands" (one page for the cluster) |
+| fashion seo · boutique marketing · how to market a clothing brand | 70 · 70 · 70 | 24 · 16 · 35 | DRAFT Nov 14 how-to-market-a-clothing-brand (Glammi worker); industry page /aeo-for-indie-fashion-brands next once live |
 | ecommerce seo · chatgpt shopping | 1,700 · 1,000 | 51 · 80 | PHASE 2 (hard) |
 Already covered by live or queued pages: geo vs seo, what is aeo, generative engine optimization, llm seo, med spa seo/marketing agency/advertising/website design/reviews, dermatology marketing/website design, jewelry seo/store marketing/website design/description, how to photograph jewelry.
 
@@ -136,3 +136,4 @@ Megan, Nov 13: "I also would like you to give me a projection daily" · "Time pr
 - 2026-11-14 · (ISSUE11 block 08:39Z) Researched I1d: new year journal prompts cluster ~900/mo + end of year reflection questions ~600/mo (all KD 13 to 23). Wrote #20 new-year-journal-prompts (20 reflection + 20 new year prompts, Pennebaker 1997 + WOOP), draft + cover, dated Nov 9. All 4 🎄 seasonal rows now drafted. Next: I2 vision board examples (11,000/mo). Nothing for OPS.
 - 2026-11-14 · (Glammi worker, 09:09Z block) Draft #37 shopify-seo (KEYWORD-BANK G9: shopify seo 1,300, KD 39; beauty and fashion e-commerce), dated Nov 21, chrome shopping-bag cover (Canva fallback), links brand-positioning-for-ai-search, faq-schema, /aeo-for-skincare-brands, /aeo-for-perfume-brands. Glammi drafts waiting for the daily run: salon (Nov 18), skincare (Nov 19), photographer (Nov 20), shopify (Nov 21); salon not live yet. All Glammi queue rows G6 to G9 now drafted. Next: indie fashion brands cluster (fashion seo · boutique marketing · how to market a clothing brand) as one draft, then the /aeo-for-indie-fashion-brands page.
 - 2026-11-14 · (ISSUE11 block 10:39Z) Wrote bank row I2: #21 vision-board-examples (vision board examples 11,000 KD 36 + sample vision board 11,000 + things/what to put on a vision board ~1,800), 10 whole-board types so it doesn't cannibalize vision-board-ideas (per-area items). Draft + cover, dated Nov 12. Next: I3 self love affirmations cluster. Nothing for OPS.
+- 2026-11-14 · (Glammi worker, 11:09Z block) Draft #38 how-to-market-a-clothing-brand (indie fashion cluster: how to market a clothing brand · fashion seo · boutique marketing, 70 each, KD 16 to 35), dated Nov 22, chrome gown cover (Canva fallback), links shopify-seo (publishes Nov 21), brand-positioning-for-ai-search, what-is-ai-visibility. FIX: the Glammi content queue table still said NEW for salon, skincare, photographer and shopify, so the daily run could have written duplicates; all five rows now say DRAFT with their slugs. Glammi drafts waiting: salon 18, skincare 19, photographer 20, shopify 21, clothing brand 22. Next: fragrance marketing draft (supports /aeo-for-perfume-brands) or plastic surgery seo (260, KD 20); industry pages for photographers + indie fashion once their articles are live.

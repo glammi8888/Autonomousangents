@@ -12,7 +12,7 @@ def wrap(d,text,f,maxw):
         if d.textlength(t,font=f)>maxw and cur: out.append(cur); cur=w
         else: cur=t
     out.append(cur); return out
-def notes(hook,hl,ps,out):
+def notes(hook,hl,ps,out,sub="future self journal prompts · save for 2027"):
     im=Image.new("RGBA",(W,H),(0,0,0)); d=ImageDraw.Draw(im)
     d.text((60,60),"11:04 PM",font=IT(30,"SemiBold"),fill=(255,255,255))
     d.text((60,130),"‹ Notes",font=IT(34,"Medium"),fill=(255,214,10))
@@ -26,7 +26,7 @@ def notes(hook,hl,ps,out):
             d.text((x,y),w,font=f,fill=(255,255,255)); x+=ww+d.textlength(" ",font=f)
         y+=112
     y+=44
-    d.text((60,y),"future self journal prompts · save for 2027",font=IT(30,"Regular"),fill=(160,160,165)); y+=80
+    d.text((60,y),sub,font=IT(30,"Regular"),fill=(160,160,165)); y+=80
     fp=IT(44,"Regular")
     for p in ps:
         d.ellipse([70,y+20,84,y+34],fill=(255,255,255))
@@ -34,11 +34,13 @@ def notes(hook,hl,ps,out):
         y+=20
     paste_logo(im,_mk((255,255,255)),W-60-110,H-60-85,110)
     im.convert("RGB").save(OUT+out,quality=92); return y
-ps1=["remember your future: what does a normal tuesday look like in 2027?","what am i too grown to keep explaining?","where am i still abandoning myself to keep the peace?","what would i do if i didn’t need the proof?","one small action. tonight."]
-print(notes("for the girls rebranding their entire life at 11pm",["11pm"],ps1,"D1-notes-11pm.jpg"))
-print(notes("i’m too grown to keep explaining myself.",["grown"],["what am i done explaining?","who gets my time in 2027?","what does protecting my peace look like this week?","what would i say no to without a 3-paragraph apology?","one small action. tonight."],"D2-notes-too-grown.jpg"))
-print(notes("i don’t need the proof.",["proof"],["what am i claiming for 2027?","write it like it already happened","what would i do if i already had it?","it’s on my vision board. what’s one small action tonight?","remember your future"],"D3-notes-no-proof.jpg"))
-ims=[Image.open(OUT+f) for f in ["D1-notes-11pm.jpg","D2-notes-too-grown.jpg","D3-notes-no-proof.jpg"]]
+A=["money that feels calm. not checking my bank app 10x a day","to work for myself","to feel at home in my body","one friend who gets it","to say no without a 3-paragraph apology","to feel like myself again"]
+B=["a soft life with a calm nervous system","to be debt free","my dream home","to protect my peace and keep my circle small","to be chosen","to feel like myself again"]
+C=["money that feels calm","my own business","my dream home","to feel at home in my body","one friend who gets it","to feel like myself again"]
+print(notes("for the girls rebranding their entire life at 11pm",["11pm"],A,"D1-notes-11pm.jpg",sub="my 2027 list · save this for later"))
+print(notes("i’m too grown to keep explaining myself.",["grown"],B,"D2-notes-too-grown.jpg",sub="what i want in 2027 · save this for later"))
+print(notes("2027, i claim it.",["claim"],C,"D3-notes-claim-it.jpg",sub="my 2027 vision board list · save this for later"))
+ims=[Image.open(OUT+f) for f in ["D1-notes-11pm.jpg","D2-notes-too-grown.jpg","D3-notes-claim-it.jpg"]]
 s=Image.new('RGB',(3*390+20,600),(255,255,255)); x=10
 for i in ims: s.paste(i.resize((380,570)),(x,15)); x+=390
 s.save(OUT+"preview-notes-v2.jpg",quality=85)

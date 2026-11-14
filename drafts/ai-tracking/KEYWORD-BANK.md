@@ -49,7 +49,7 @@
 | G2 | gmb profile · google business profile optimization · optimizing google my business · set up google business profile | 680 + 570 + 570 + 970 | 17 to 49 | NEXT after G1 ("Google Business Profile checklist for salons, med spas and boutiques") |
 | G3 | local seo experts · best local seo agency · local seo agency near me | 1,200 + 740 + 2,300 | 13 to 16 | queued, only as an honest "how to choose a local SEO or AEO agency" guide (no fake rankings) |
 | G4 | seo for chatgpt · chatgpt for seo | 280 + 360 | 21 to 36 | strengthen live how-to-rank-in-chatgpt (H2 "Can you use ChatGPT for SEO?") |
-| G5 | dentist local seo · local seo for dentists | 640 | 11 | LATER (not our niche; only if Megan wants dental clients) |
+| G5 | dentist local seo · local seo for dentists | 640 | 11 | YES for COSMETIC dentistry (Megan, Nov 14: "cosmetic dentistry, dermatologists, etc"); research cosmetic dentist seo / marketing keywords first |
 | G6 | salon marketing · hair salon seo | 330 + 60 | 10 to 27 | DRAFT Nov 14 salon-marketing (Glammi worker) |
 | G7 | skincare marketing · cosmetics marketing | 170 + 80 | 21 to 30 | DRAFT Nov 14 skincare-marketing (Glammi worker) |
 | G8 | photographer seo | 360 | 31 | DRAFT Nov 14 photographer-seo (Glammi worker) |

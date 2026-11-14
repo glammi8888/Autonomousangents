@@ -39,6 +39,8 @@ A=cover(img,W,H).convert("RGBA")
 ov=Image.new("RGBA",(W,H),(0,0,0,0)); od=ImageDraw.Draw(ov)
 for i in range(H//2):
     a=int(170*(i/(H/2))**1.6); od.line([(0,H//2+i),(W,H//2+i)],fill=(13,13,13,a))
+for i in range(260):
+    od.line([(0,i),(W,i)],fill=(13,13,13,int(150*(1-i/260))))
 A.alpha_composite(ov); d=ImageDraw.Draw(A)
 paste_logo(A,logo_c,60,60,300)
 d.text((W-60,78),"THE FUTURE ISSUE · 2027",font=MONO(24),fill=CREAM,anchor="ra")
@@ -59,7 +61,7 @@ B=B.filter(ImageFilter.GaussianBlur(40)).convert("RGBA"); d=ImageDraw.Draw(B)
 d.text((W//2,110),"ISSUE11 · NOTE TO SELF · 01 / 11",font=MONO(26),fill=BLACK,anchor="ma")
 lines(d,W//2,520,["2027 IS","THE YEAR","I BECOME","ME."],AB(150),BLACK,anchor="c")
 d.text((W//2,1180),"Future you is already on her way.",font=font("IBMPlexSerif-Italic.ttf" if False else "IBMPlexMono-Regular.ttf",30),fill=BLACK,anchor="ma")
-paste_logo(B,logo_b,W//2,1330,220,anchor="c")
+paste_logo(B,logo_b,W//2,1250,200,anchor="c")
 B.convert("RGB").save(OUT+"B-type-card.jpg",quality=92)
 
 # C: magazine page with journal prompts
@@ -76,8 +78,8 @@ yy=y+60
 for i,p in enumerate(prompts,1):
     d.text((60,yy),f"{i:02d}",font=MONO(28),fill=PINK)
     d.text((130,yy-6),p,font=AN(40),fill=BLACK); yy+=88
-d.line([(60,H-120),(W-60,H-120)],fill=BLACK,width=2)
-d.text((60,H-95),"SAVE THIS · WRITE IT IN YOUR ISSUE",font=MONO(24),fill=BLACK)
-paste_logo(C,logo_b,W-60-200,H-105,200)
+d.line([(60,H-200),(W-60,H-200)],fill=BLACK,width=2)
+d.text((60,H-118),"SAVE THIS · WRITE IT IN YOUR ISSUE",font=MONO(24),fill=BLACK)
+paste_logo(C,logo_b,W-60-150,H-80-115,150)
 C.convert("RGB").save(OUT+"C-prompt-page.jpg",quality=92)
 print("done")

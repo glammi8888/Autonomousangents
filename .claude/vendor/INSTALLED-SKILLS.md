@@ -128,3 +128,13 @@ Not installed: the rest of the library (conversion-tracking has website JS snipp
 - Cost: pay per term, about $0.0012 per term on Apify's free tier (100 terms about $0.12).
 - Caveats: Pinterest's terms don't allow scraping; use for occasional keyword research only, never with Megan's Pinterest login. It returns trending lists, it does not look up a word we choose.
 - Result: PASS. Approved by Megan Nov 12 ("Pinterest trend scraper is definitely the most efficient and cheap option I LOVE IT").
+
+## ECC agent: chief-of-staff (security check Nov 14, 2026, OPS Manager) · NOT INSTALLED (waiting on Megan's OK for an adapted version)
+- Source: github.com/affaan-m/everything-claude-code, agents/chief-of-staff.md, commit d2ef268 (Nov 6, 2026), MIT. One markdown file, 160 lines, read in full.
+- What it is: a prompt for an inbox and calendar "chief of staff". It sorts email, Slack, LINE and Messenger into 4 tiers (skip, info only, meeting, action required), drafts replies, writes a daily briefing and runs a follow-up checklist after each send.
+- Scan: no hidden instructions, no code that runs, no network calls in the file itself, no reading of keys or .env. It includes a sensible "prompt defense" section.
+- Risks as written (why it can't be installed unchanged):
+  1. It expects a third-party Gmail CLI ("gog") with OAuth, plus scripts and hooks that aren't in the file (calendar-suggest.js, a PostToolUse hook). Those would be new installs needing their own scan. We already have the Gmail + Google Calendar connectors, so they aren't needed.
+  2. It auto-archives "skip" emails and offers [Send]. Both act on Megan's inbox. Our rule is drafts only; nothing sent or archived without Megan.
+  3. It writes private/relationships.md and then runs "git commit & push" on it. That would put personal details about people in Megan's life into the GitHub repo, which breaks the CLAUDE.md privacy rule.
+- Recommended: install an ISSUE11 version. Same 4-tier triage and briefing; Gmail/Calendar via our connectors (read + drafts only); no auto-archive or send; no relationship notes in the repo; the briefing goes onto Megan Today. It sends nothing online beyond reading Megan's Gmail/Calendar through the connectors she already approved.

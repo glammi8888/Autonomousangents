@@ -54,7 +54,7 @@
 | G7 | skincare marketing · cosmetics marketing | 170 + 80 | 21 to 30 | DRAFT Nov 14 skincare-marketing (Glammi worker) |
 | G8 | photographer seo | 360 | 31 | DRAFT Nov 14 photographer-seo (Glammi worker) |
 | G9 | shopify seo | 1,300 | 39 | DRAFT Nov 14 shopify-seo (Glammi worker) |
-| G10 | dental seo · dentist local seo · dental seo company · seo dentist | 920 + 640 + 760 + 830 | 10 to 23 | NEXT (Megan Nov 14: medical field incl. cosmetic dentistry). Article "Dental SEO for cosmetic dentists" + /aeo-for-cosmetic-dentists page |
+| G10 | dental seo · dentist local seo · dental seo company · seo dentist | 920 + 640 + 760 + 830 | 10 to 23 | DRAFT Nov 14 dental-seo (cover pending). Was: NEXT (Megan Nov 14: medical field incl. cosmetic dentistry). Article "Dental SEO for cosmetic dentists" + /aeo-for-cosmetic-dentists page |
 | G11 | dental marketing · dental marketing agency · online marketing for dentists · dental marketing strategies · dental implant marketing | 1,200 + 610 + 220 + 190 + 150 | 14 to 21 | NEXT after G10 ("Dental marketing for cosmetic and implant practices") |
 | G12 | seo for plastic surgeons · plastic surgery seo · surgeon seo | 380 + 210 + 60 | 12 to 20 | covered by draft plastic-surgery-seo (Nov 23); "SEO for plastic surgeons" phrase added |
 | G13 | marketing for plastic surgeons · plastic surgery marketing agency · plastic surgery advertising | 250 + 170 + 190 | 15 to 25 | NEXT ("Marketing for plastic surgeons") |

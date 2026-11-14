@@ -12,6 +12,7 @@ def wrap(d,text,f,maxw):
         if d.textlength(t,font=f)>maxw and cur: out.append(cur); cur=w
         else: cur=t
     out.append(cur); return out
+TICK={'rebranding my entire life','glowing up','become my own dream girl'}
 EMO='\U0001FAF1\U0001F3FB\u200d\U0001FAF2\U0001F3FD'
 def notes(hook,hl,ps,out,sub=""):
     im=Image.new("RGBA",(W,H),(0,0,0)); d=ImageDraw.Draw(im)
@@ -39,7 +40,7 @@ def notes(hook,hl,ps,out,sub=""):
     else: y+=40
     fp=IT(38,"Regular")
     for n,p in enumerate(ps):
-        if n<2:
+        if p in TICK:
             d.ellipse([60,y+4,96,y+40],fill=Y)
             d.line([(70,y+23),(76,y+30),(87,y+15)],fill=(0,0,0),width=5,joint="curve")
         else:
@@ -50,9 +51,9 @@ def notes(hook,hl,ps,out,sub=""):
     d.text((60,H-108),"issue11.app",font=IT(40,"SemiBold"),fill=Y)
     paste_logo(im,_mk((255,255,255)),W-60-110,H-60-85,110)
     im.convert("RGB").save(OUT+out,quality=92); return y
-A=["getting engaged","being rich af","business popping OFF","$20,000 saved","my dream home","become my own dream girl"]
-B=["$20,000 saved","business popping OFF","getting engaged","being rich af","to protect my peace","become my own dream girl"]
-C=["being rich af","$20,000 saved","business popping OFF","getting engaged","my dream home","become my own dream girl"]
+A=["rebranding my entire life","become my own dream girl","getting engaged","being rich af","business popping OFF","$20,000 saved"]
+B=["rebranding my entire life","become my own dream girl","$20,000 saved","business popping OFF","getting engaged","being rich af"]
+C=["glowing up","become my own dream girl","being rich af","my dream home","business popping OFF","getting engaged"]
 print(notes("My 2027:",[],A,"D1-notes-11pm.jpg",sub="same girl, bigger dreams"))
 print(notes("Me "+EMO+" 2027",[],B,"D2-notes-too-grown.jpg",sub="claim it"))
 print(notes("My 2027:",[],C,"D3-notes-claim-it.jpg",sub="yes, i claim it"))

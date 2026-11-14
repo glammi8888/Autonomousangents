@@ -147,6 +147,48 @@
       "w": 1588,
       "x": 1668,
       "y": 6215
+    },
+    "CopyF.dc.html": {
+      "h": 1123,
+      "title": "Inspo remake · F Headline over photo",
+      "w": 1588,
+      "x": 0,
+      "y": 7458
+    },
+    "CopyG.dc.html": {
+      "h": 1123,
+      "title": "Inspo remake · G Scattered words",
+      "w": 1588,
+      "x": 1668,
+      "y": 7458
+    },
+    "CopyH.dc.html": {
+      "h": 1123,
+      "title": "Inspo remake · H Quote + full photo",
+      "w": 1588,
+      "x": 3336,
+      "y": 7458
+    },
+    "CopyI.dc.html": {
+      "h": 1123,
+      "title": "Inspo remake · I Giant word + app windows",
+      "w": 1588,
+      "x": 0,
+      "y": 8701
+    },
+    "CopyJ.dc.html": {
+      "h": 1123,
+      "title": "Inspo remake · J Star cut-outs",
+      "w": 1588,
+      "x": 1668,
+      "y": 8701
+    },
+    "CopyK.dc.html": {
+      "h": 1123,
+      "title": "Inspo remake · K Giant letters over text",
+      "w": 1588,
+      "x": 3336,
+      "y": 8701
     }
   },
   "createdOnFiles": {
@@ -173,6 +215,14 @@
       "w": 240,
       "x": 0,
       "y": 4752
+    },
+    "copies": {
+      "kind": "title1",
+      "maxW": 4924,
+      "text": "Inspo remakes: your indie magazine layouts, ISSUE11 fonts + colours",
+      "w": 240,
+      "x": 0,
+      "y": 7238
     }
   },
   "order": [

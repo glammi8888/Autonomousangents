@@ -71,7 +71,7 @@
 
 | # | Main long-tail keyword · variants | US/mo | KD | Status |
 |---|---|---|---|---|
-| L6 | 🎄 journal prompts for january · journal prompts for december | 370 + 270 (seasonal) | 21 | NEXT, seasonal: one article "December + January journal prompts", live before Dec 20 |
+| L6 | 🎄 journal prompts for january · journal prompts for december | 370 + 270 (seasonal) | 21 | DONE Nov 14: draft december-january-journal-prompts (62 daily prompts, 0 repeats from other journaling articles; cover megan-editorial-32, dated Nov 14 so it publishes first tomorrow) |
 | L1 | journal prompts for self discovery · journal prompts for self reflection · journal for self discovery · journaling for self awareness | 1,300 + 1,300 + 4,100 + 5,100 | 12 to 25 | NEXT after L6 (best ratio in the bank) |
 | L2 | journaling for self love · journal prompts for healing · journal prompts for mindfulness · journal prompts for self care | 2,200 + 620 + 670 + 310 | 14 to 20 | queued |
 | L3 | how to manifest something · how to manifest something by writing it down · how to manifest quickly | 5,500 + 90 + 140 | 15 to 26 | STRENGTHEN live how-to-manifest (add these as H2s + FAQ) instead of a new page |

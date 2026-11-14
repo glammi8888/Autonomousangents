@@ -498,3 +498,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-14 · Megan approved 3 ISSUE11 articles a day (asked "Can I go to 3 a day for ISSUE11?", word for word: "Ok deal"). Daily run prompt updated: 3 ISSUE11 publishes + IndexNow for all 3, keep 3 covered drafts waiting. Full accelerate to-do list for Megan sent to OPS (Freyja Inbox, Nov 14).
 
 - 2026-11-14 · Megan, word for word: "I did do a Pinterest account for issue11 already". Pinterest account for ISSUE11 is DONE; never put it on her to-do list again.
+
+- 2026-11-14 · Published all 13 waiting Glammi drafts at once (Megan, word for word: "Also can you publish all the changes on Glammi website because I don’t see them"). Live + IndexNow; first curl hit cached shells, Googlebot re-fetch showed real titles + FAQPage. queen-of-aeo and taste-engine-optimization stay drafts. Vision board template PDF: Megan, word for word: "I still want to check the PDF before it goes live" · "It could be a separate lead magnet within the same page or even a different page". Never publish a lead magnet before her OK.

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chapter Money spread</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1b1a18}a:hover{color:#000}
+</style>
+</helmet>
+<div style="width: 1588px; height: 1123px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18; display: flex">
+  <div style="width: 794px; height: 1123px; position: relative; box-sizing: border-box; padding: 64px 88px 64px 72px; display: flex; flex-direction: column">
+    <div style="display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #55524c"><span>Chapter 03 · Prompts 06–10</span><span>The Rebrand Issue</span></div>
+    <p style="margin: 34px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: 30px">Business popping OFF</p>
+    <h2 style="margin: 4px 0 0; font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 150px; line-height: 0.8; letter-spacing: -0.03em">Money.</h2>
+    <div style="margin-top: 34px; columns: 2; column-gap: 32px; column-rule: 1px solid rgba(27,26,24,0.25); text-align: justify; hyphens: auto">
+      <sc-for list="{{prompts}}" as="p" hint-placeholder-count="5">
+        <div style="break-inside: avoid; margin-bottom: 16px">
+          <p style="margin: 0 0 4px; font-size: 13px; font-weight: 600; letter-spacing: -0.01em; text-align: left"><span style="font-family: 'Instrument Serif', serif; font-weight: 400; font-style: italic; font-size: 18px; margin-right: 6px; color: #8a6170">{{p.n}}</span>{{p.title}}</p>
+          <p style="margin: 0; font-size: 12.5px; line-height: 1.48">“{{p.text}}”</p>
+          <p style="margin: 5px 0 0; font-size: 11px; line-height: 1.4; color: #55524c; text-align: left"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 13px; color: #1b1a18">Why it works:</span> {{p.why}}</p>
+        </div>
+      </sc-for>
+    </div>
+    <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid #1b1a18; padding-top: 12px">
+      <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 19px">Your money goals, on your own cover.</span>
+      <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase">08 · issue11.app</span>
+    </div>
+    <span style="position: absolute; left: 26px; top: 50%; transform: rotate(-90deg); transform-origin: left center; font-size: 10px; letter-spacing: 0.3em; text-transform: uppercase; color: #55524c; white-space: nowrap">I’m in my building era · I’m in my building era</span>
+  </div>
+  <div style="width: 794px; height: 1123px; position: relative; overflow: hidden">
+    <img src="/_blob/3d709aab8fe8d43997995e74fc5e19b1" alt="A woman in a white shearling coat sipping coffee at a white desk" style="width: 100%; height: 100%; object-fit: cover; object-position: center 30%; filter: contrast(1.05) saturate(0.85) sepia(0.1)">
+    <p style="position: absolute; left: 48px; right: 48px; bottom: 64px; margin: 0; font-family: 'Instrument Serif', serif; font-size: 72px; line-height: 0.9; color: #fff; text-shadow: 0 2px 20px rgba(0,0,0,0.25)">“I’m in my building era.”</p>
+    <span style="position: absolute; right: 48px; bottom: 30px; font-size: 11px; color: #fff">09</span>
+  </div>
+  <div style="position: absolute; left: 744px; top: 0; width: 100px; height: 1123px; pointer-events: none; background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.10) 42%, rgba(0,0,0,0.22) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.06) 62%, rgba(0,0,0,0) 100%)"></div>
+  <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: {{grain}}" aria-hidden="true"><filter id="grainM"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grainM)"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":1588,"height":1123}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const prompts = [
+      { n: '06', title: 'What does “rich af” mean for me?', text: 'Ask what I earn now, what I want to earn in 2027, and what that money would make possible. Rough numbers are fine. Help me find a few realistic routes and separate facts from guesses.', why: 'A specific number makes a goal concrete, and concrete goals get more effort.' },
+      { n: '07', title: 'See what I bring to the table.', text: 'Interview me about problems I solve and what people ask me for help with. If I downplay something, ask for the real example. Turn it into a skills list with proof.', why: 'Writing down past wins builds belief for the next one.' },
+      { n: '08', title: 'Ask for more, no 3-paragraph apology.', text: 'Help me prepare to ask for a raise, a higher rate or a new offer. Draft my opening in my voice, then role-play it with me one reply at a time.', why: 'Rehearsing a hard conversation makes the real one easier to start.' },
+      { n: '09', title: 'Give my business idea a real chance.', text: 'Use the WOOP method with me: my Wish, the best Outcome, my main inner Obstacle, then a Plan. End with a small, cheap test, a spending limit and a decision date.', why: 'WOOP (mental contrasting) beats positive thinking alone: you dream, then plan for what gets in the way.' },
+      { n: '10', title: 'If it doesn’t happen, what stopped it?', text: 'Imagine it’s June 2027 and I gave up on [goal]. Ask me what went wrong, then help me plan around it now.', why: 'A pre-mortem spots problems before they happen.' }
+    ];
+    return { paper: this.props.paper ?? '#F3EFE7', grain: this.props.grain ?? 0.22, prompts };
+  }
+}
+</script>
+</body>
+</html>

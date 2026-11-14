@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chapter Love spread</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1b1a18}a:hover{color:#000}
+</style>
+</helmet>
+<div style="width: 1588px; height: 1123px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18; display: flex">
+  <div style="width: 794px; height: 1123px; position: relative; overflow: hidden; background: #F7C6D9">
+    <img src="/_blob/e39855a95925db9820fdae8ad7190a0c" alt="Two friends in sunglasses and blue workwear, one leaning on the other" style="position: absolute; left: 56px; top: 64px; width: 520px; height: 700px; object-fit: cover; filter: contrast(1.05) saturate(0.85) sepia(0.1)">
+    <p style="position: absolute; left: 56px; bottom: 80px; margin: 0; width: 420px; font-family: 'Instrument Serif', serif; font-size: 60px; line-height: 0.9">“I keep my <span style="font-style: italic">circle small.</span>”</p>
+    <span style="position: absolute; left: 56px; bottom: 36px; font-size: 11px">10</span>
+  </div>
+  <div style="width: 794px; height: 1123px; position: relative; box-sizing: border-box; padding: 64px 72px 64px 88px; display: flex; flex-direction: column">
+    <div style="display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #55524c"><span>Chapter 04 · Prompts 11–15</span><span>The Rebrand Issue</span></div>
+    <h2 style="margin: 34px 0 0; font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 150px; line-height: 0.8; letter-spacing: -0.03em">Love.</h2>
+    <p style="margin: 10px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: 30px">My people, my circle</p>
+    <div style="margin-top: 34px; display: flex; flex-direction: column">
+      <sc-for list="{{prompts}}" as="p" hint-placeholder-count="5">
+        <div style="display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 0 16px; padding: 14px 0; border-top: 1px solid #1b1a18">
+          <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 34px; line-height: 0.9; color: #8a6170">{{p.n}}</span>
+          <div>
+            <p style="margin: 0 0 4px; font-size: 14px; font-weight: 600; letter-spacing: -0.01em">{{p.title}}</p>
+            <p style="margin: 0; font-size: 12.5px; line-height: 1.48">“{{p.text}}”</p>
+            <p style="margin: 5px 0 0; font-size: 11px; line-height: 1.4; color: #55524c"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 13px; color: #1b1a18">Why it works:</span> {{p.why}}</p>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+    <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid #1b1a18; padding-top: 12px">
+      <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 19px">Your people, your story, your issue.</span>
+      <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase">issue11.app · 11</span>
+    </div>
+  </div>
+  <div style="position: absolute; left: 744px; top: 0; width: 100px; height: 1123px; pointer-events: none; background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.10) 42%, rgba(0,0,0,0.22) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.06) 62%, rgba(0,0,0,0) 100%)"></div>
+  <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: {{grain}}" aria-hidden="true"><filter id="grainL"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grainL)"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":1588,"height":1123}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const prompts = [
+      { n: '11', title: 'What my kind of love looks like.', text: 'Ask about affection, communication, independence and how we handle disagreements. Help me sort needs, nice-to-haves and what I’m still figuring out. Include what I want to give, too.', why: 'Knowing your values makes the big choices easier.' },
+      { n: '12', title: 'Friends we actually make time for.', text: 'Ask who I want to see more and what gets in the way. Help me write one if-then plan, like: “If it’s the first Sunday of the month, then I text [name] a plan.”', why: 'Implementation intentions: if-then plans make follow-through much more likely.' },
+      { n: '13', title: 'Meet more of my people.', text: 'Ask about my interests and places I already like. Suggest three settings where I’d see the same people often, plus a one-month experiment with easy conversation starters.', why: 'Seeing the same faces again and again is one of the main ways friendships start.' },
+      { n: '14', title: 'Say no, kindly.', text: 'I’m too grown to keep explaining myself. Help me write a short, kind way to set a boundary with [person]. Then play them, and give me feedback on how clear I was.', why: 'Ready-made words lower the cost of a boundary in the moment.' },
+      { n: '15', title: 'My inner critic is loud today.', text: 'Here’s what it says: [paste]. Ask me to check the evidence: what’s true, what’s old, and what a friend would say.', why: 'Questioning a thought (from CBT) loosens its grip.' }
+    ];
+    return { paper: this.props.paper ?? '#F3EFE7', grain: this.props.grain ?? 0.22, prompts };
+  }
+}
+</script>
+</body>
+</html>

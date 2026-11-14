@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chapter Finances spread</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1b1a18}a:hover{color:#000}
+</style>
+</helmet>
+<div style="width: 1588px; height: 1123px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18; display: flex">
+  <div style="width: 794px; height: 1123px; position: relative; box-sizing: border-box; padding: 64px 88px 64px 72px; display: flex; flex-direction: column">
+    <div style="display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #55524c"><span>Chapter 07 · Prompts 26–30</span><span>The Rebrand Issue</span></div>
+    <p style="margin: 34px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: 30px">$20,000 saved</p>
+    <h2 style="margin: 4px 0 0; font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 136px; line-height: 0.8; letter-spacing: -0.03em">Finances.</h2>
+    <div style="margin-top: 30px; columns: 2; column-gap: 32px; column-rule: 1px solid rgba(27,26,24,0.25); text-align: justify; hyphens: auto">
+      <sc-for list="{{prompts}}" as="p" hint-placeholder-count="5">
+        <div style="break-inside: avoid; margin-bottom: 15px">
+          <p style="margin: 0 0 4px; font-size: 13px; font-weight: 600; letter-spacing: -0.01em; text-align: left"><span style="font-family: 'Instrument Serif', serif; font-weight: 400; font-style: italic; font-size: 18px; margin-right: 6px; color: #8a6170">{{p.n}}</span>{{p.title}}</p>
+          <p style="margin: 0; font-size: 12.5px; line-height: 1.46">“{{p.text}}”</p>
+          <p style="margin: 5px 0 0; font-size: 11px; line-height: 1.4; color: #55524c; text-align: left"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 13px; color: #1b1a18">Why it works:</span> {{p.why}}</p>
+        </div>
+      </sc-for>
+    </div>
+    <p style="margin: 6px 0 0; padding: 14px 18px; background: #F7C6D9; font-size: 12.5px; line-height: 1.45"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 17px">Before you close the chat:</span> “Give me a short recap in my own words: what I learned, what I’m choosing, and what I’ll try next.”</p>
+    <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid #1b1a18; padding-top: 12px">
+      <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 19px">You just wrote your cover lines. Now see your cover.</span>
+      <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase">16 · issue11.app</span>
+    </div>
+  </div>
+  <div style="width: 794px; height: 1123px; position: relative; overflow: hidden; background: #1b1a18">
+    <img src="/_blob/bd50c724194c82bcbebe293cc388d577" alt="A close-up portrait with a sleek black bob surrounded by pink fur and cash" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 40%; filter: contrast(1.05) saturate(0.85) sepia(0.1)">
+    <p style="position: absolute; left: 56px; right: 56px; bottom: 70px; margin: 0; font-family: 'Instrument Serif', serif; font-size: 72px; line-height: 0.9; color: #fff; text-shadow: 0 2px 20px rgba(0,0,0,0.3)">“Money that feels <span style="font-style: italic">calm.</span>”</p>
+    <span style="position: absolute; right: 48px; bottom: 30px; font-size: 11px; color: #fff">17</span>
+  </div>
+  <div style="position: absolute; left: 744px; top: 0; width: 100px; height: 1123px; pointer-events: none; background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.10) 42%, rgba(0,0,0,0.22) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.06) 62%, rgba(0,0,0,0) 100%)"></div>
+  <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: {{grain}}" aria-hidden="true"><filter id="grainN"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grainN)"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":1588,"height":1123}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const prompts = [
+      { n: '26', title: 'Let’s have a money date.', text: 'Using rough totals (no account numbers), summarize what comes in, what goes out and what we still need to check. Give me one task for this week and a monthly money-date checklist.', why: 'Small, regular check-ins make money feel calmer than avoiding it.' },
+      { n: '27', title: 'A budget with a life in it.', text: 'Here’s my real spending: [paste]. Build a plan that covers the bills and makes room for fun. Ask what made past budgets hard to follow.', why: 'A plan that includes fun is a plan you’ll stick to.' },
+      { n: '28', title: 'What makes me hit “buy”?', text: 'Ask me about three recent purchases: what was happening before, what I hoped to feel, and how I felt after. No judging. Help me add a pause only where I want one.', why: 'Noticing the moment before a habit is the first step to changing it.' },
+      { n: '29', title: '$20,000 saved: what’s the plan?', text: 'Break my savings goal of [$ amount] by [date] into a weekly number. Show me three places it could come from in this budget: [paste], with the tradeoffs. No promises.', why: 'Breaking a big goal into small steps makes progress visible, and progress keeps you going.' },
+      { n: '30', title: 'Put my 2027 on one page.', text: 'Bring my plans for body, money, love, style, beauty and savings into one first-month plan with one main focus. Then write five cover lines for my 2027 issue, as if I’m on the cover of my own magazine.', why: 'Seeing yourself as the main story makes the plan feel like yours.' }
+    ];
+    return { paper: this.props.paper ?? '#F3EFE7', grain: this.props.grain ?? 0.22, prompts };
+  }
+}
+</script>
+</body>
+</html>

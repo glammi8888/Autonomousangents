@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A letter from future you</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 794px; height: 1123px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18; box-sizing: border-box; padding: 64px 72px 56px; display: flex; flex-direction: column">
+  <div style="display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #55524c"><span>Write it down</span><span>The Rebrand Issue</span></div>
+  <div style="margin-top: 30px; display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 32px; align-items: end">
+    <img src="/_blob/70d9dbfdf9370951b874a4dfd64e6f5f" alt="An aspirational editorial portrait" style="width: 250px; height: 320px; object-fit: cover; filter: contrast(1.05) saturate(0.85) sepia(0.1)">
+    <div>
+      <h2 style="margin: 0; font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 76px; line-height: 0.86; letter-spacing: -0.02em">A letter from <span style="font-style: italic">future you.</span></h2>
+      <p style="margin: 16px 0 0; font-size: 13.5px; line-height: 1.5">It’s December 2027. Write to yourself as the version of you who lived this year on purpose. What does your morning look like? What did you stop apologizing for?</p>
+    </div>
+  </div>
+  <p style="margin: 40px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: 30px">Dear me,</p>
+  <div style="margin-top: 6px; display: flex; flex-direction: column">
+    <sc-for list="{{lines}}" as="l" hint-placeholder-count="14">
+      <div style="height: 34px; border-bottom: 1px solid rgba(27,26,24,0.35)"></div>
+    </sc-for>
+  </div>
+  <p style="margin: 18px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: 24px; text-align: right">Love, future you</p>
+  <div style="margin-top: auto; padding: 14px 18px; background: #F7C6D9; font-size: 12.5px; line-height: 1.45"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 17px">Stuck? Paste this into ChatGPT:</span> “Interview me about my 2027 list, one question at a time. Then help me write a short, kind letter from future me, in my own words.”</div>
+  <div style="margin-top: 16px; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid #1b1a18; padding-top: 12px">
+    <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 17px">Become YOU, on paper first.</span>
+    <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase">issue11.app</span>
+  </div>
+  <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: {{grain}}" aria-hidden="true"><filter id="grainF"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grainF)"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":794,"height":1123}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const lines = Array.from({ length: 11 }, (_, i) => ({ i }));
+    return { paper: this.props.paper ?? '#F3EFE7', grain: this.props.grain ?? 0.22, lines };
+  }
+}
+</script>
+</body>
+</html>

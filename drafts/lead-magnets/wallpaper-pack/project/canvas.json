@@ -119,6 +119,104 @@
       "h": 844,
       "title": "Generator 5 · Thank you",
       "is_interactive": true
+    },
+    "Pin01.dc.html": {
+      "x": 0,
+      "y": 3300,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · How to glow up in 2027 · photo"
+    },
+    "Pin02.dc.html": {
+      "x": 1080,
+      "y": 3300,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · How to glow up in 2027 · notes"
+    },
+    "Pin03.dc.html": {
+      "x": 2160,
+      "y": 3300,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · Glow up tips · split"
+    },
+    "Pin04.dc.html": {
+      "x": 3240,
+      "y": 3300,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · Glow up tips · notes"
+    },
+    "Pin05.dc.html": {
+      "x": 4320,
+      "y": 3300,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · ChatGPT prompts for self improvement · photo"
+    },
+    "Pin06.dc.html": {
+      "x": 5400,
+      "y": 3300,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · ChatGPT prompts for self improvement · notes"
+    },
+    "Pin07.dc.html": {
+      "x": 6480,
+      "y": 3300,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · Self improvement plan 2027 · split"
+    },
+    "Pin08.dc.html": {
+      "x": 0,
+      "y": 4920,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · Self improvement plan 2027 · photo"
+    },
+    "Pin09.dc.html": {
+      "x": 1080,
+      "y": 4920,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · How to rebrand yourself · photo"
+    },
+    "Pin10.dc.html": {
+      "x": 2160,
+      "y": 4920,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · How to rebrand yourself · split"
+    },
+    "Pin11.dc.html": {
+      "x": 3240,
+      "y": 4920,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · Personal rebrand prompts · notes"
+    },
+    "Pin12.dc.html": {
+      "x": 4320,
+      "y": 4920,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · Personal rebrand prompts · photo"
+    },
+    "Pin13.dc.html": {
+      "x": 5400,
+      "y": 4920,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · Future self letter · split"
+    },
+    "Pin14.dc.html": {
+      "x": 6480,
+      "y": 4920,
+      "w": 1000,
+      "h": 1500,
+      "title": "Pin batch 1 · Future self letter · notes"
     }
   },
   "order": [
@@ -136,7 +234,21 @@
     "GenVibe.dc.html",
     "GenImages.dc.html",
     "GenPreview.dc.html",
-    "GenDone.dc.html"
+    "GenDone.dc.html",
+    "Pin01.dc.html",
+    "Pin02.dc.html",
+    "Pin03.dc.html",
+    "Pin04.dc.html",
+    "Pin05.dc.html",
+    "Pin06.dc.html",
+    "Pin07.dc.html",
+    "Pin08.dc.html",
+    "Pin09.dc.html",
+    "Pin10.dc.html",
+    "Pin11.dc.html",
+    "Pin12.dc.html",
+    "Pin13.dc.html",
+    "Pin14.dc.html"
   ],
   "designSystems": [],
   "notes": {
@@ -153,6 +265,13 @@
       "y": 1964,
       "maxW": 2300,
       "text": "Free wallpaper maker: screens (logic OK'd by Megan Nov 14)"
+    },
+    "pins1": {
+      "kind": "title1",
+      "x": 0,
+      "y": 3080,
+      "maxW": 7480,
+      "text": "Pinterest batch 1 (14 pins → issue11.app/rebrand-kit) · for Megan's review"
     }
   }
 }

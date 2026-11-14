@@ -22,6 +22,8 @@ Megan, Nov 12, word for word, about her ICP keywords for ISSUE11: "track AND RAN
 ## Content queue: pages we still need (easy/medium, biggest first)
 The daily article run takes these in order (one per site per day), skipping any slug that exists.
 
+**From Nov 14: once a site's NEW rows below are done, take the next NEXT row in `drafts/ai-tracking/KEYWORD-BANK.md`** (one article per keyword cluster; Megan: "Especially if we rank for 100´s of them"). Seasonal 🎄 rows go first.
+
 **Glammi**
 | Keyword | US/mo | KD | Page |
 |---|---|---|---|
@@ -122,3 +124,4 @@ Megan, Nov 13: "I also would like you to give me a projection daily" · "Time pr
 - 2026-11-14 · Built the first Glammi industry page: glammi.ai/aeo-for-med-spas (copy of the queen-of-aeo layout, med spa copy, Service schema, title 55 / description 152 chars), live, in sitemap, IndexNow. Linked from med-spa-seo, med-spa-ai-visibility, med-spa-marketing-agency, med-spa-advertising, dermatology-marketing. Next industry page (one a week): jewelers.
 - 2026-11-14 · Industry pages live (Service schema, sitemap, IndexNow): /aeo-for-jewelers (linked from 4 jewelry articles), /aeo-for-hair-salons, /aeo-for-dermatology-clinics (linked from dermatology-marketing), /aeo-for-skincare-brands. Still to build: perfume brands, indie fashion brands, photographers/creative studios, local businesses (each once its first supporting article is live, so it has internal links). Internal links to salon + skincare pages come with the next salon/skincare articles.
 - 2026-11-14 · Wrote ISSUE11 #16 magazines-for-vision-board (draft + cover; cluster ~3,000 searches/mo; SERP intent = magazines to cut up, so written as "best magazines + where to get them free + without magazines + your own magazine").
+- 2026-11-14 · Lever: many small keywords (Megan's ask). Researched 8 seeds (vision board, manifestation, affirmations, self care, glow up, local seo, google business profile, chatgpt seo). Did: KEYWORD-BANK.md with 17 ISSUE11 + 9 Glammi clusters (each 1k to 15k searches/mo combined, mostly KD 9 to 30), seasonal new-year vision board first. Workers now draw from it. Skipped off-brand or risky terms (words of affirmation, anxiety, makeup). Nothing for OPS.

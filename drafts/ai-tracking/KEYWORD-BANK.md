@@ -49,11 +49,20 @@
 | G2 | gmb profile · google business profile optimization · optimizing google my business · set up google business profile | 680 + 570 + 570 + 970 | 17 to 49 | NEXT after G1 ("Google Business Profile checklist for salons, med spas and boutiques") |
 | G3 | local seo experts · best local seo agency · local seo agency near me | 1,200 + 740 + 2,300 | 13 to 16 | queued, only as an honest "how to choose a local SEO or AEO agency" guide (no fake rankings) |
 | G4 | seo for chatgpt · chatgpt for seo | 280 + 360 | 21 to 36 | strengthen live how-to-rank-in-chatgpt (H2 "Can you use ChatGPT for SEO?") |
-| G5 | dentist local seo · local seo for dentists | 640 | 11 | LATER (not our niche; only if Megan wants dental clients) |
+| G5 | dentist local seo · local seo for dentists | 640 | 11 | YES for COSMETIC dentistry (Megan, Nov 14: "cosmetic dentistry, dermatologists, etc"); research cosmetic dentist seo / marketing keywords first |
 | G6 | salon marketing · hair salon seo | 330 + 60 | 10 to 27 | DRAFT Nov 14 salon-marketing (Glammi worker) |
 | G7 | skincare marketing · cosmetics marketing | 170 + 80 | 21 to 30 | DRAFT Nov 14 skincare-marketing (Glammi worker) |
 | G8 | photographer seo | 360 | 31 | DRAFT Nov 14 photographer-seo (Glammi worker) |
 | G9 | shopify seo | 1,300 | 39 | DRAFT Nov 14 shopify-seo (Glammi worker) |
+| G10 | dental seo · dentist local seo · dental seo company · seo dentist | 920 + 640 + 760 + 830 | 10 to 23 | NEXT (Megan Nov 14: medical field incl. cosmetic dentistry). Article "Dental SEO for cosmetic dentists" + /aeo-for-cosmetic-dentists page |
+| G11 | dental marketing · dental marketing agency · online marketing for dentists · dental marketing strategies · dental implant marketing | 1,200 + 610 + 220 + 190 + 150 | 14 to 21 | NEXT after G10 ("Dental marketing for cosmetic and implant practices") |
+| G12 | seo for plastic surgeons · plastic surgery seo · surgeon seo | 380 + 210 + 60 | 12 to 20 | covered by draft plastic-surgery-seo (Nov 23); "SEO for plastic surgeons" phrase added |
+| G13 | marketing for plastic surgeons · plastic surgery marketing agency · plastic surgery advertising | 250 + 170 + 190 | 15 to 25 | NEXT ("Marketing for plastic surgeons") |
+| G14 | dermatology seo · cosmetic surgery seo | 50 + 50 | 20 to 21 | small; fold into a dermatology SEO article later |
+| G15 | skincare advertising · advertising skin care | 1,000 | 28 to 30 | DRAFT Nov 14 skincare-advertising (cover pending). Was: NEXT beauty (Megan Nov 14: "Most demand and the least competition" in beauty/fashion). Article "Skincare advertising" linking skincare-marketing + /aeo-for-skincare-brands |
+| G16 | beauty marketing · beauty marketing agencies · marketing for beauty industry · cosmetic marketing | 460 + 120 + 80 + 80 | 19 to 30 | NEXT beauty ("Beauty marketing for brands and salons") |
+| G17 | fashion marketing agency · fashion influencer marketing · fashion digital marketing | 180 + 140 + 70 | 14 to 21 | NEXT fashion. (Note: "fashion marketing" 3,600 is mostly students looking for degrees, not clients) |
+| G18 | social media marketing for beauty salons | 160 | 17 | later, links salon-marketing |
 | skip | "seo agency near me" style terms (38,400) | local-pack intent, we can't rank without local presence in each city | 14 to 40 | skip |
 
 ## Math (honest)

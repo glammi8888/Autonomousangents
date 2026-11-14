@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chapter Beauty spread</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1b1a18}a:hover{color:#000}
+</style>
+</helmet>
+<div style="width: 1588px; height: 1123px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18; display: flex">
+  <div style="width: 794px; height: 1123px; position: relative; overflow: hidden">
+    <img src="/_blob/38a3b25768b6ddc939a88e4e5ba361d5" alt="A model with slicked hair and glowing skin in a chrome jacket, sitting in a leather chair" style="width: 100%; height: 100%; object-fit: cover; object-position: center 25%; filter: contrast(1.05) saturate(0.85) sepia(0.1)">
+    <span style="position: absolute; left: 40px; top: 44px; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #fff">Chapter 06 · Beauty</span>
+    <span style="position: absolute; left: 40px; bottom: 36px; font-size: 11px; color: #fff">14</span>
+  </div>
+  <div style="width: 794px; height: 1123px; position: relative; box-sizing: border-box; padding: 64px 72px 64px 88px; display: flex; flex-direction: column">
+    <div style="display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #55524c"><span>Prompts 21–25</span><span>The Rebrand Issue</span></div>
+    <h2 style="margin: 30px 0 0; font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 150px; line-height: 0.8; letter-spacing: -0.03em">Beauty.</h2>
+    <p style="margin: 10px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: 30px">Glowing up</p>
+    <p style="margin: 26px 0 0; padding: 20px 24px; background: linear-gradient(100deg, #EAF6FF 0%, #D9B3FF 35%, #FF8AC8 72%, #FFB49A 100%); font-family: 'Instrument Serif', serif; font-size: 46px; line-height: 0.95">“It’s giving <span style="font-style: italic">future you.</span>”</p>
+    <div style="margin-top: 26px; columns: 2; column-gap: 32px; column-rule: 1px solid rgba(27,26,24,0.25); text-align: justify; hyphens: auto">
+      <sc-for list="{{prompts}}" as="p" hint-placeholder-count="5">
+        <div style="break-inside: avoid; margin-bottom: 16px">
+          <p style="margin: 0 0 4px; font-size: 13px; font-weight: 600; letter-spacing: -0.01em; text-align: left"><span style="font-family: 'Instrument Serif', serif; font-weight: 400; font-style: italic; font-size: 18px; margin-right: 6px; color: #8a6170">{{p.n}}</span>{{p.title}}</p>
+          <p style="margin: 0; font-size: 12.5px; line-height: 1.48">“{{p.text}}”</p>
+          <p style="margin: 5px 0 0; font-size: 11px; line-height: 1.4; color: #55524c; text-align: left"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 13px; color: #1b1a18">Why it works:</span> {{p.why}}</p>
+        </div>
+      </sc-for>
+    </div>
+    <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid #1b1a18; padding-top: 12px">
+      <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 19px">Glowing up? Make it the cover story.</span>
+      <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase">issue11.app · 15</span>
+    </div>
+  </div>
+  <div style="position: absolute; left: 744px; top: 0; width: 100px; height: 1123px; pointer-events: none; background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.10) 42%, rgba(0,0,0,0.22) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.06) 62%, rgba(0,0,0,0) 100%)"></div>
+  <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: {{grain}}" aria-hidden="true"><filter id="grainB"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grainB)"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":1588,"height":1123}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const prompts = [
+      { n: '21', title: 'My version of polished.', text: 'Ask what makes me feel put together, what I’d happily skip, and how much time and money I want to spend. Build an everyday routine and a going-out version from what I already use.', why: 'Your own definition of a goal is the one you’ll keep.' },
+      { n: '22', title: 'Edit my beauty routine.', text: 'Here’s what I use: [list]. Sort it into love it, not sure, and could simplify. Don’t diagnose skin or hair concerns. Give me questions to ask a professional instead.', why: 'A simpler routine is an easier one to keep.' },
+      { n: '23', title: 'Try something new with my look.', text: 'I’m curious about [hair, makeup, color]. Suggest three ways to try it, starting with the easiest to undo.', why: 'Small, reversible experiments make change feel safe.' },
+      { n: '24', title: 'Make getting ready fun again.', text: 'Ask which parts of getting ready feel rushed. Pair my routine with something I love, like a playlist or podcast, and give me a 5-minute version for busy days.', why: 'Temptation bundling: the routine comes with a reward built in.' },
+      { n: '25', title: 'What my glow up really costs.', text: 'Here are the treatments and products I’m considering: [list]. Map the full yearly cost, upkeep included, and help me fit what I’ll enjoy most into a budget I choose.', why: 'Seeing the full cost up front helps you spend on what you’ll love most.' }
+    ];
+    return { paper: this.props.paper ?? '#F3EFE7', grain: this.props.grain ?? 0.22, prompts };
+  }
+}
+</script>
+</body>
+</html>

@@ -79,7 +79,7 @@ for i,p in enumerate(prompts,1):
     d.text((60,yy),f"{i:02d}",font=MONO(28),fill=PINK)
     d.text((130,yy-6),p,font=AN(40),fill=BLACK); yy+=88
 d.line([(60,H-200),(W-60,H-200)],fill=BLACK,width=2)
-_cy=H-130
+_cy=H-108
 d.text((60,_cy),"SAVE THIS · WRITE IT IN YOUR ISSUE",font=MONO(24),fill=BLACK,anchor="lm")
 paste_logo(C,logo_b,W-60-130,_cy-99//2,130)
 C.convert("RGB").save(OUT+"C-prompt-page.jpg",quality=92)

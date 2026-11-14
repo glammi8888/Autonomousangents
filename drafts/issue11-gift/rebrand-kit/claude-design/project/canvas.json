@@ -12,7 +12,11 @@
     "Beauty.dc.html": {"h": 1123, "title": "14–15 Chapter: Beauty (spread)", "w": 1588, "x": 0, "y": 2486},
     "Finances.dc.html": {"h": 1123, "title": "16–17 Chapter: Finances (spread)", "w": 1588, "x": 1668, "y": 2486},
     "Challenge.dc.html": {"h": 1123, "paper": "a4", "title": "18 The 30-day challenge", "w": 794, "x": 3336, "y": 2486},
-    "Back.dc.html": {"h": 1123, "paper": "a4", "title": "19 Back cover", "w": 794, "x": 4210, "y": 2486}
+    "Back.dc.html": {"h": 1123, "paper": "a4", "title": "19 Back cover", "w": 794, "x": 4210, "y": 2486},
+    "HowTo.dc.html": {"h": 1123, "paper": "a4", "title": "New · How to use this issue", "w": 794, "x": 0, "y": 3729},
+    "Interlude.dc.html": {"h": 1123, "paper": "a4", "title": "New · Interlude", "w": 794, "x": 874, "y": 3729},
+    "FutureLetter.dc.html": {"h": 1123, "paper": "a4", "title": "New · A letter from future you", "w": 794, "x": 1748, "y": 3729},
+    "MyCover.dc.html": {"h": 1123, "title": "New · Your 2027 cover (spread)", "w": 1588, "x": 2622, "y": 3729}
   },
   "createdOnFiles": {"at": "2026-11-14T06:45:00Z", "v": 1},
   "designSystems": [],
@@ -20,7 +24,7 @@
   "notes": {
     "kit": {"kind": "title1", "maxW": 5798, "text": "The Rebrand Issue: printed indie magazine direction", "w": 240, "x": 0, "y": -260}
   },
-  "order": ["Main.dc.html", "Editor.dc.html", "DreamLife.dc.html", "Physical.dc.html", "Money.dc.html", "Love.dc.html", "Fashion.dc.html", "Beauty.dc.html", "Finances.dc.html", "Challenge.dc.html", "Back.dc.html"],
+  "order": ["Main.dc.html", "Editor.dc.html", "HowTo.dc.html", "DreamLife.dc.html", "Physical.dc.html", "Money.dc.html", "Interlude.dc.html", "Love.dc.html", "Fashion.dc.html", "Beauty.dc.html", "Finances.dc.html", "FutureLetter.dc.html", "MyCover.dc.html", "Challenge.dc.html", "Back.dc.html"],
   "pages": [],
   "title": "ISSUE11 Rebrand Issue"
 }

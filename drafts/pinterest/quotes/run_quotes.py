@@ -1,14 +1,14 @@
 import sys; sys.path.insert(0,"/tmp/claude-0/-home-user-Autonomousangents/c1b1bd34-cf66-56f8-bc34-f80edec64abe/scratchpad")
 from quotes_lib import *
 Q=[
- (["2027","I AM","BECOMING","ME"],"same girl, bigger dreams"),
- (["I'M IN MY","BUILDING","ERA"],"one small action. then rest"),
- (["YOUR FUTURE","IS NOT A","SPECTATOR","SPORT"],"you're the visionary"),
- (["A SOFT VOICE","A RADICAL","MIND"],"the new way of manifestation"),
- (["BECOME","YOUR OWN","DREAM GIRL"],"it's giving future you"),
- (["YOU CAN BE","MANIFESTING","SOMETHING","LONG BEFORE","YOU POSSESS IT"],"one line is enough"),
- (["ART DIRECT","YOUR LIFE"],"you're the cover star"),
- (["IT'S NOT","TOO LATE"],"i let today be enough"),
+ (["2027.","I am","becoming me."],"Same girl, bigger dreams."),
+ (["I’m in my","building era."],"One small action. Then rest."),
+ (["Your future","is not a","spectator sport."],"You’re the visionary."),
+ (["A soft voice.","A radical mind."],"The new way of manifestation."),
+ (["Become your","own dream girl."],"It’s giving future you."),
+ (["You can be","manifesting","something long","before you","possess it."],"One line is enough."),
+ (["Art direct","your life."],"You’re the cover star."),
+ (["It’s not","too late."],"I let today be enough."),
 ]
 import os
 OUTD="/home/user/Autonomousangents/drafts/pinterest/quotes/"

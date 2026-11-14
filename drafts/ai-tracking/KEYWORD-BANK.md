@@ -18,17 +18,17 @@
 | # | Main keyword · variants | US/mo (main + variants) | KD | Status |
 |---|---|---|---|---|
 | I1 | 🎄 new year vision board · vision board 2027 · new year vision boards · vision board party · vision board party ideas | 980 + 1,400 + seasonal spike in Dec/Jan | 9 to 20 | DONE Nov 14: draft new-year-vision-board (cover megan-editorial-33, dated Nov 7 so it publishes first) |
-| I1b | 🎄 word of the year ideas · word for the year ideas · one word for the year | 1,200 + 150 + 40 (monthly average; peaks Dec/Jan) | 29 | NEXT, seasonal (Megan, Nov 14: "Yes let’s definitely try to rank for all the searches that are peaking in December and January for vision board or manifestation journal related etc") |
-| I1c | 🎄 new year affirmations · affirmations for the new year · positive new year affirmations | 510 + 130 (peaks Dec/Jan) | 12 to 16 | NEXT after I1b, seasonal |
-| I1d | 🎄 new year journal prompts · manifestation journal for 2027 (fold the I7 manifestation journal keywords in here for the January peak) | check volume | n/a | seasonal, research then write |
-| I2 | vision board examples · things to put on a vision board · what to put on a vision board | 11,000 + 900 + 910 | 26 to 36 | after the 🎄 rows (vision board searches also peak in Jan) |
-| I3 | self love affirmations · self worth affirmations · self confidence affirmations · affirmations for confidence | 4,300 + 1,500 + 1,500 + 1,500 | 15 to 24 | queued |
-| I4 | positive affirmations for women · affirmations for women · powerful daily affirmations · positive affirmations for the day · short positive affirmations | 8,400 + 6,600 + 3,500 + 3,400 + 2,100 | 16 to 28 | queued |
-| I5 | money affirmations · affirmations for abundance · manifesting money · how to manifest money · money vision board | 2,800 + 1,000 + 2,100 + 1,300 + 600 | 15 to 29 | queued (no money promises) |
+| I1b | 🎄 word of the year ideas · word for the year ideas · one word for the year | 1,200 + 150 + 40 (monthly average; peaks Dec/Jan) | 29 | DONE Nov 14: draft word-of-the-year-ideas (120 words, cover megan-editorial-35, dated Nov 7 so it publishes tomorrow) |
+| I1c | 🎄 new year affirmations · affirmations for the new year · positive new year affirmations | 510 + 130 (peaks Dec/Jan) | 12 to 16 | DONE Nov 14: draft new-year-affirmations (50 affirmations, 2 real studies, cover megan-editorial-37, dated Nov 8) |
+| I1d | 🎄 new year journal prompts · manifestation journal for 2027 (fold the I7 manifestation journal keywords in here for the January peak) | check volume | n/a | DONE Nov 14: draft new-year-journal-prompts (40 prompts; folded in end of year reflection questions 470 x3 variants, KD 19 to 22; cover megan-editorial-36, dated Nov 9). Cluster ~1,500/mo avg |
+| I2 | vision board examples · things to put on a vision board · what to put on a vision board | 11,000 + 900 + 910 | 26 to 36 | DONE Nov 14: draft vision-board-examples (10 whole-board examples; different intent from vision-board-ideas; cover megan-editorial-21 dream closet, dated Nov 12) |
+| I3 | self love affirmations · self worth affirmations · self confidence affirmations · affirmations for confidence | 4,300 + 1,500 + 1,500 + 1,500 | 15 to 24 | DONE Nov 14: draft self-love-affirmations (60: self love, self worth, confidence; believable style + 2 studies; cover megan-editorial-26, dated Nov 15) |
+| I4 | positive affirmations for women · affirmations for women · powerful daily affirmations · positive affirmations for the day · short positive affirmations | 8,400 + 6,600 + 3,500 + 3,400 + 2,100 | 16 to 28 | DONE Nov 14: draft positive-affirmations-for-women (50 short daily, by time of day; cover megan-editorial-25, dated Nov 16) |
+| I5 | money affirmations · affirmations for abundance · manifesting money · how to manifest money · money vision board | 2,800 + 1,000 + 2,100 + 1,300 + 600 | 15 to 29 | NEXT (no money promises) |
 | I6 | manifestation examples · manifestation techniques · manifestation methods · quantum manifestation | 4,300 + 1,700 + 1,700 + 710 | 16 to 25 | queued |
 | I7 | manifestation journals · manifestation journaling · best manifestation journal app | 3,100 + 3,100 | 16 to 20 | queued (honest comparison, ISSUE11 named as ours) |
 | I8 | book on manifestation · best manifestation books | 4,600 | 18 | queued (real books only) |
-| I9 | self care ideas · self care ideas for women · self care activities · beauty self care ideas · self care sunday ideas | 8,000 + 710 + 10,600 | 14 to 32 | queued |
+| I9 | self care ideas · self care ideas for women · self care activities · beauty self care ideas · self care sunday ideas | 8,000 + 710 + 10,600 | 14 to 32 | DONE Nov 14: draft self-care-ideas (60 ideas by time + Sunday plan; cover megan-editorial-22, dated Nov 17) |
 | I10 | list of affirmations · list of positive affirmations · funny affirmations | 1,300 + 1,300 + 1,200 | 9 to 19 | queued (easiest KD in the bank) |
 | I11 | manifesting love · love affirmations · how to manifest love | 1,000 + 2,000 + 520 | 14 to 18 | queued |
 | I12 | positive affirmations for work · work affirmations | 1,500 + 1,200 | 19 to 20 | queued |
@@ -51,9 +51,9 @@
 | G4 | seo for chatgpt · chatgpt for seo | 280 + 360 | 21 to 36 | strengthen live how-to-rank-in-chatgpt (H2 "Can you use ChatGPT for SEO?") |
 | G5 | dentist local seo · local seo for dentists | 640 | 11 | LATER (not our niche; only if Megan wants dental clients) |
 | G6 | salon marketing · hair salon seo | 330 + 60 | 10 to 27 | DRAFT Nov 14 salon-marketing (Glammi worker) |
-| G7 | skincare marketing · cosmetics marketing | 170 + 80 | 21 to 30 | queued (links /aeo-for-skincare-brands) |
-| G8 | photographer seo | 360 | 31 | queued |
-| G9 | shopify seo | 1,300 | 39 | queued (medium) |
+| G7 | skincare marketing · cosmetics marketing | 170 + 80 | 21 to 30 | DRAFT Nov 14 skincare-marketing (Glammi worker) |
+| G8 | photographer seo | 360 | 31 | DRAFT Nov 14 photographer-seo (Glammi worker) |
+| G9 | shopify seo | 1,300 | 39 | DRAFT Nov 14 shopify-seo (Glammi worker) |
 | skip | "seo agency near me" style terms (38,400) | local-pack intent, we can't rank without local presence in each city | 14 to 40 | skip |
 
 ## Math (honest)

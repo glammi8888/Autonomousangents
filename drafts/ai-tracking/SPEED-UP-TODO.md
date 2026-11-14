@@ -18,7 +18,7 @@ Goal (Megan, Nov 11): "Okay !! Great 25% then" · "Seriously we need to speed th
 9. 📱 Send the review ask to 3 to 5 real people you've worked with (agent drafts the message).
 10. 📱 OK or no: an "AEO Services" page on glammi.ai (site copy change, so it needs your OK).
 11. 📱 Post the Reddit replies the Reddit agent drafts (disclosed as yours).
-12. 📱 Send the agent's pitches to webtonic.io and posirank.com ("best LA AEO agencies" lists).
+12. 📱 Send the agent's pitches to webtonic.io and posirank.com ("best LA AEO agencies" lists). Drafts ready: drafts/glammi/LIST-PITCHES-2026-11-14.md (Nov 14).
 
 ### ISSUE11
 13. 💻 BetaList submission (10 min, copy from agent).

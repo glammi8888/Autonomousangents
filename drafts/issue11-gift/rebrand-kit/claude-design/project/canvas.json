@@ -259,6 +259,41 @@
       "w": 1632,
       "x": 1712,
       "y": 13673
+    },
+    "CopyV.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · V Repeated name + ID card",
+      "w": 1632,
+      "x": 3424,
+      "y": 13673
+    },
+    "CopyW.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · W Circle windows",
+      "w": 1632,
+      "x": 0,
+      "y": 14916
+    },
+    "CopyX.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · X Recap notes",
+      "w": 1632,
+      "x": 1712,
+      "y": 14916
+    },
+    "CopyY.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · Y Vertical word band",
+      "w": 1632,
+      "x": 3424,
+      "y": 14916
+    },
+    "CopyZ.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · Z Ruled word stack",
+      "w": 1632,
+      "x": 0,
+      "y": 16159
     }
   },
   "createdOnFiles": {
@@ -309,6 +344,14 @@
       "w": 240,
       "x": 0,
       "y": 12210
+    },
+    "more3": {
+      "kind": "title1",
+      "maxW": 5056,
+      "text": "Inspo remakes V–Z (V is in the row above)",
+      "w": 240,
+      "x": 0,
+      "y": 14696
     }
   },
   "order": [
@@ -347,7 +390,12 @@
     "CopyR.dc.html",
     "CopyS.dc.html",
     "CopyT.dc.html",
-    "CopyU.dc.html"
+    "CopyU.dc.html",
+    "CopyV.dc.html",
+    "CopyW.dc.html",
+    "CopyX.dc.html",
+    "CopyY.dc.html",
+    "CopyZ.dc.html"
   ],
   "pages": [],
   "title": "ISSUE11 Rebrand Issue"

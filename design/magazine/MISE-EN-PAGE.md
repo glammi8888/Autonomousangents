@@ -79,6 +79,11 @@ Candidates live in the Rebrand Kit canvas (https://claude.ai/artifact/8zZ5hj9UH6
 | S | Dense poster type filling a page, key words in colour, facing a full-bleed photo | board-02 ("Hidden Pictures" poster) | Manifesto |
 | T | Giant letters stacked down a cream page, facing a full-bleed portrait | board-02 ("IRIS") | Chapter opener |
 | U | Huge outlined type on a rose page + outlined type over a portrait with a mint bubble note | editorial-15 ("K-pop's new era") | Feature opener |
+| V | One name repeated in huge white type on rose, facing a portrait with an ID-card list ("Name: Future you…") | editorial-30 (repeated name) | Future you, My 2027 |
+| W | Cream page with circular windows onto one photo + vertical numbers, facing a headline + columns | board-03 (die-cut cover) | Beauty, chapter opener |
+| X | Photo page facing pinned paper notes, giant "Recap" across the bottom | board-03 ("RECAP") | Monthly recap, challenge |
+| Y | Vertical word in a lilac band + photo stack, facing a full photo with a text box | board-03 ("BALENCIAGA") | Fashion |
+| Z | Words stacked in ruled boxes ("And it's finally my year."), facing a full photo | board-03 ("AND IT'S NOT EVEN MY…") | Closing, manifesto |
 
 ## 8. Rhythm (a whole issue)
 - Never put the same layout on two spreads in a row.

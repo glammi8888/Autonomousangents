@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Copy Y · Vertical word band</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width:1632px; height:1056px; position:relative; overflow:hidden; background:#FFFFFF; font-family:'Inter Tight', sans-serif; color:#0D0D0D; display:flex">
+
+<div style="width:816px; height:1056px; position:relative; overflow:hidden; box-sizing:border-box; background:#fff; display:grid; grid-template-columns:130px minmax(0,1fr)">
+  <div style="background:#D9B3FF; display:flex; align-items:center; justify-content:center"><p style="margin:0; writing-mode:vertical-rl; transform:rotate(180deg); font-size:120px; font-weight:600; letter-spacing:-0.06em; line-height:0.8">Fashion</p></div>
+  <div style="padding:40px 40px 40px 24px; display:grid; grid-template-rows:1.3fr 1fr; gap:14px">
+    <img src="/_blob/04e1e88d776f917541f6c0cbdc6d49d4" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:100%">
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:14px"><img src="/_blob/bee38449fbf73a6689d9321f33a525e9" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:100%"><img src="/_blob/e1791165572920b6aed78f5406ef0ddd" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); width:100%; height:100%"></div>
+  </div>
+</div>
+<div style="width:816px; height:1056px; position:relative; overflow:hidden; box-sizing:border-box">
+  <img src="/_blob/35962210e47ab96e674456132b95227f" alt="Aspirational editorial photo" style="display:block; object-fit:cover; filter: contrast(1.04) saturate(0.9); position:absolute; inset:0; width:100%; height:100%">
+  <div style="position:absolute; right:56px; top:80px; width:250px; padding:18px; background:#D9B3FF">
+    <p style="margin:0 0 8px; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase">Dress for the life you want</p>
+    <p style="margin:0; font-size:12px; line-height:1.45">Five prompts to build a wardrobe for the woman you’re becoming: what she wears to the meeting, the dinner and the Sunday reset.</p>
+  </div>
+  <span style="position:absolute; right:56px; bottom:30px; font-size:10px; font-weight:500; letter-spacing:0.18em; text-transform:uppercase; color:#fff">(13)</span>
+</div>
+<div style="position:absolute; left:766px; top:0; width:100px; height:1056px; pointer-events:none; background:linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.08) 42%, rgba(0,0,0,0.18) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.05) 62%, rgba(0,0,0,0) 100%)"></div>
+<svg style="position:absolute; inset:0; width:100%; height:100%; pointer-events:none; mix-blend-mode:multiply; opacity:{{grain}}" aria-hidden="true"><filter id="m63"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#m63)"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"grain":{"editor":"range","default":0.16,"min":0,"max":0.5,"step":0.02},"$preview":{"width":1632,"height":1056}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { grain: this.props.grain ?? 0.16 };
+  }
+}
+</script>
+</body>
+</html>

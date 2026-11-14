@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Chapter Physical spread</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#1b1a18}a:hover{color:#000}
+</style>
+</helmet>
+<div style="width: 1588px; height: 1123px; position: relative; overflow: hidden; background: {{paper}}; font-family: 'Inter Tight', sans-serif; color: #1b1a18; display: flex">
+  <div style="width: 794px; height: 1123px; position: relative; overflow: hidden">
+    <img src="/_blob/d248afd98fef1c1fcda5dfb038152b83" alt="A woman in a white sporty jumpsuit and futuristic glasses crouching in a garden at night" style="width: 100%; height: 100%; object-fit: cover; object-position: center 30%; filter: contrast(1.05) saturate(0.85) sepia(0.1)">
+    <span style="position: absolute; left: 40px; top: 44px; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #fff">Chapter 02 · Physical</span>
+    <span style="position: absolute; left: 40px; bottom: 36px; font-size: 11px; color: #fff">06</span>
+  </div>
+  <div style="width: 794px; height: 1123px; position: relative; box-sizing: border-box; padding: 64px 72px 64px 88px; display: flex; flex-direction: column">
+    <div style="display: flex; justify-content: space-between; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: #55524c"><span>Prompts 01–05</span><span>The Rebrand Issue</span></div>
+    <h2 style="margin: 30px 0 0; font-family: 'Instrument Serif', serif; font-weight: 400; font-size: 128px; line-height: 0.82; letter-spacing: -0.02em">Physical.</h2>
+    <p style="margin: 10px 0 0; font-family: 'Instrument Serif', serif; font-style: italic; font-size: 30px">Looking hotter, feeling better</p>
+    <p style="margin: 26px 0 0; padding: 20px 24px; background: linear-gradient(100deg, #EAF6FF 0%, #D9B3FF 35%, #FF8AC8 72%, #FFB49A 100%); font-family: 'Instrument Serif', serif; font-size: 46px; line-height: 0.95; color: #1b1a18">“Not skinny. Regulated.”</p>
+    <div style="margin-top: 26px; columns: 2; column-gap: 32px; column-rule: 1px solid rgba(27,26,24,0.25); text-align: justify; hyphens: auto">
+      <sc-for list="{{prompts}}" as="p" hint-placeholder-count="5">
+        <div style="break-inside: avoid; margin-bottom: 16px">
+          <p style="margin: 0 0 4px; font-size: 13px; font-weight: 600; letter-spacing: -0.01em; text-align: left"><span style="font-family: 'Instrument Serif', serif; font-weight: 400; font-style: italic; font-size: 18px; margin-right: 6px; color: #8a6170">{{p.n}}</span>{{p.title}}</p>
+          <p style="margin: 0; font-size: 12.5px; line-height: 1.48">“{{p.text}}”</p>
+          <p style="margin: 5px 0 0; font-size: 11px; line-height: 1.4; color: #55524c; text-align: left"><span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 13px; color: #1b1a18">Why it works:</span> {{p.why}}</p>
+        </div>
+      </sc-for>
+    </div>
+    <div style="margin-top: auto; display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid #1b1a18; padding-top: 12px">
+      <span style="font-family: 'Instrument Serif', serif; font-style: italic; font-size: 19px">Want your answers turned into a magazine about YOU?</span>
+      <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase">issue11.app · 07</span>
+    </div>
+  </div>
+  <div style="position: absolute; left: 744px; top: 0; width: 100px; height: 1123px; pointer-events: none; background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.10) 42%, rgba(0,0,0,0.22) 50%, rgba(255,255,255,0.10) 54%, rgba(0,0,0,0.06) 62%, rgba(0,0,0,0) 100%)"></div>
+  <svg style="position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; mix-blend-mode: multiply; opacity: {{grain}}" aria-hidden="true"><filter id="grainP"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter><rect width="100%" height="100%" filter="url(#grainP)"/></svg>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"paper":{"editor":"color","default":"#F3EFE7","options":["#F3EFE7","#F6F3EE","#FFFFFF"]},"accent":{"editor":"color","default":"#C9708F","options":["#C9708F","#E9A7BF","#1B1A18"]},"grain":{"editor":"range","default":0.22,"min":0,"max":0.5,"step":0.02},"$preview":{"width":1588,"height":1123}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const prompts = [
+      { n: '01', title: 'Future me has energy for my life.', text: 'Interview me, one question at a time, about my energy, sleep and movement right now. Then help me pick three priorities for 2027. Don’t assume weight loss is the goal.', why: 'Goals about how you want to feel last longer than goals about a number.' },
+      { n: '02', title: 'A workout I actually like.', text: 'Ask what I’ve enjoyed before, what puts me off, and whether I like company, music or alone time. Suggest three options and a two-week trial before I commit.', why: 'Testing before committing takes away the pressure to get it perfect.' },
+      { n: '03', title: 'My 5-minute glow up morning.', text: 'Here’s my normal morning: [paste]. Attach one small habit to something I already do every day. Give me a 2-minute version for bad days.', why: 'Habit stacking and tiny habits: an old habit becomes the reminder, and tiny means it doesn’t need motivation.' },
+      { n: '04', title: 'Walk in like the cover star.', text: 'Ask me about three moments I want to feel confident in. For each, help me pick one thing I control (outfit, pace, my first sentence) and a low-pressure way to practice.', why: 'Small, rehearsed actions build self-efficacy: the belief that you can do it.' },
+      { n: '05', title: 'Make taking care of me easier.', text: 'Ask about one habit I want and what makes it annoying to do now. Suggest one change to my space so it takes less effort. I’ll test it this week.', why: 'Changing your surroundings works better than relying on willpower.' }
+    ];
+    return { paper: this.props.paper ?? '#F3EFE7', accent: this.props.accent ?? '#C9708F', grain: this.props.grain ?? 0.22, prompts };
+  }
+}
+</script>
+</body>
+</html>

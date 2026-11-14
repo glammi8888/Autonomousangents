@@ -43,9 +43,9 @@ def notes(hook,hl,ps,out,sub=""):
 A=["getting engaged","being rich af","business popping OFF","$20,000 saved","my dream home","become my own dream girl"]
 B=["$20,000 saved","business popping OFF","getting engaged","being rich af","to protect my peace","become my own dream girl"]
 C=["being rich af","$20,000 saved","business popping OFF","getting engaged","my dream home","become my own dream girl"]
-print(notes("for the girls rebranding their entire life at 11pm",["11pm"],A,"D1-notes-11pm.jpg",sub="my 2027 list · save this for later"))
-print(notes("i’m too grown to keep explaining myself.",["grown"],B,"D2-notes-too-grown.jpg",sub="what i want in 2027 · save this for later"))
-print(notes("2027, i claim it.",["claim"],C,"D3-notes-claim-it.jpg",sub="my 2027 vision board list · save this for later"))
+print(notes("My 2027:",[],A,"D1-notes-11pm.jpg",sub="same girl, bigger dreams"))
+print(notes("My 2027:",[],B,"D2-notes-too-grown.jpg",sub="it’s on my vision board"))
+print(notes("My 2027:",[],C,"D3-notes-claim-it.jpg",sub="yes, i claim it"))
 ims=[Image.open(OUT+f) for f in ["D1-notes-11pm.jpg","D2-notes-too-grown.jpg","D3-notes-claim-it.jpg"]]
 s=Image.new('RGB',(3*390+20,600),(255,255,255)); x=10
 for i in ims: s.paste(i.resize((380,570)),(x,15)); x+=390

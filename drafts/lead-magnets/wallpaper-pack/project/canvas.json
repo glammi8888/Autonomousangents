@@ -79,6 +79,46 @@
       "w": 1440,
       "h": 900,
       "title": "10 · Laptop: Main story"
+    },
+    "GenWrite.dc.html": {
+      "x": 0,
+      "y": 2184,
+      "w": 390,
+      "h": 844,
+      "title": "Generator 1 · Write your 2027",
+      "is_interactive": true
+    },
+    "GenVibe.dc.html": {
+      "x": 470,
+      "y": 2184,
+      "w": 390,
+      "h": 844,
+      "title": "Generator 2 · Pick your vibe",
+      "is_interactive": true
+    },
+    "GenImages.dc.html": {
+      "x": 940,
+      "y": 2184,
+      "w": 390,
+      "h": 844,
+      "title": "Generator 3 · Pick your images",
+      "is_interactive": true
+    },
+    "GenPreview.dc.html": {
+      "x": 1410,
+      "y": 2184,
+      "w": 390,
+      "h": 844,
+      "title": "Generator 4 · Preview + download",
+      "is_interactive": true
+    },
+    "GenDone.dc.html": {
+      "x": 1880,
+      "y": 2184,
+      "w": 390,
+      "h": 844,
+      "title": "Generator 5 · Thank you",
+      "is_interactive": true
     }
   },
   "order": [
@@ -91,7 +131,12 @@
     "BusinessOff.dc.html",
     "CircleSmall.dc.html",
     "LaptopList.dc.html",
-    "LaptopCover.dc.html"
+    "LaptopCover.dc.html",
+    "GenWrite.dc.html",
+    "GenVibe.dc.html",
+    "GenImages.dc.html",
+    "GenPreview.dc.html",
+    "GenDone.dc.html"
   ],
   "designSystems": [],
   "notes": {
@@ -101,6 +146,13 @@
       "y": -260,
       "maxW": 3680,
       "text": "2027 Manifestation Wallpaper Pack (phone + laptop)"
+    },
+    "gen": {
+      "kind": "title1",
+      "x": 0,
+      "y": 1964,
+      "maxW": 2300,
+      "text": "Free wallpaper maker: screens (logic OK'd by Megan Nov 14)"
     }
   }
 }

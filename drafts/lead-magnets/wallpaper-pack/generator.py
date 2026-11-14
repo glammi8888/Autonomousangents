@@ -36,7 +36,9 @@ class Component extends DCLogic {{
 </body>
 </html>
 """
-mark = lambda c: f'<span style="position:absolute; left:0; right:0; bottom:34px; text-align:center; {LBL}; color:{c}">issue11.app</span>'
+def mark(c):
+    inv = "filter:invert(1); " if c!=INK else ""
+    return f'<img src="{LOGO}" alt="ISSUE11" style="position:absolute; left:50%; bottom:34px; transform:translateX(-50%); height:20px; width:auto; {inv}">'
 # Phone 390x844. Top ~300px stays calm for the lock-screen clock.
 P = {}
 P["Main"] = ("01 · My 2027: claim it", INK, f"""
@@ -52,7 +54,7 @@ P["BecomeYou"] = ("02 · Become YOU", LILAC, f"""
 P["BuildingEra"] = ("03 · Building era", PEACH, f"""
 <p style="position:absolute; left:28px; right:28px; top:300px; margin:0; font-size:76px; {H}">I’m in my building era.</p>
 {img('e29','position:absolute; left:0; right:0; bottom:0; width:100%; height:330px')}
-<span style="position:absolute; left:0; right:0; bottom:34px; text-align:center; {LBL}; color:#fff">issue11.app</span>""")
+{mark('#fff')}""")
 P["CalmMoney"] = ("04 · Money that feels calm", INK, f"""
 {img('e28','position:absolute; inset:0; width:100%; height:100%')}
 <p style="position:absolute; left:28px; right:28px; bottom:96px; margin:0; font-size:58px; {H}; color:#fff">Money that feels <span style="color:{LILAC}">calm.</span></p>
@@ -87,7 +89,8 @@ P["LaptopList"] = ("09 · Laptop: My 2027 list", ICE, f"""
   {lis}
 </div>
 {img('e27','position:absolute; right:110px; top:110px; width:520px; height:680px')}
-<span style="position:absolute; left:110px; bottom:44px; {LBL}">write yours on issue11.app</span>""")
+<span style="position:absolute; left:110px; bottom:44px; {LBL}">write yours on issue11.app</span>
+<img src="{LOGO}" alt="ISSUE11" style="position:absolute; right:110px; bottom:40px; height:24px; width:auto">""")
 P["LaptopCover"] = ("10 · Laptop: Main story", "#fff", f"""
 {img('e36','position:absolute; left:0; top:0; width:720px; height:900px')}
 <div style="position:absolute; left:720px; top:0; right:0; bottom:0; background:{LILAC}"></div>

@@ -14,3 +14,9 @@ Delivery: same as the Rebrand Kit. Each freebie gets a Framer opt-in page (/wall
 Wallpaper export: phone artboards are 390×844, so export at 3x to get 1170×2532. Keep the top ~300px calm for the lock-screen clock.
 
 Format: all print pages and PDFs are US Letter (816×1056 px per page). Megan, Nov 14: "Ok so everything gotta be US letter then".
+
+## Free wallpaper maker (Megan, Nov 14: "What if we created a manifestation wallpaper pack generator? For free? They can write their own goals and we lay it out for them instead")
+Logic (OK'd by Megan): 1) write 3–7 goals in her words (example chips) → 2) pick a look (full photo, framed, scattered words, list) + an app colour → 3) upload her own photos OR pick from our library (Megan: "They can upload their own images too or pick from our library") → 4) preview phone + laptop, email (newsletter tick optional) → download → thank-you page with the waitlist CTA.
+Underneath: everything runs in the browser, and her goals and photos are never uploaded. Only her email is collected (same Framer form as the Rebrand Kit). No AI, no cost. The ISSUE11 logo is on every wallpaper (Megan: "And issue11 logo appears of course on each").
+Build: a Framer code component on issue11.app/wallpapers (like RebrandPrompts.tsx). The 8 static wallpapers become the examples and Pinterest pins.
+Screens: lead magnets canvas, row 3 (GenWrite → GenDone).

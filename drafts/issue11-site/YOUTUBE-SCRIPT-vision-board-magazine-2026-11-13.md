@@ -4,7 +4,7 @@
 
 **Format:** 60 to 90 seconds, vertical (also post as a YouTube Short, TikTok and Instagram Reel). Your voice over a screen recording of the app on iPhone, plus 2 or 3 shots of you or your saves. No script reading on camera needed.
 
-**YouTube title:** I Turned My Vision Board Into a Magazine (ISSUE11 app)
+**YouTube title:** How I Stopped Just Dreaming About the Life I Want (ISSUE11 app)
 **Description (first 2 lines matter most):**
 ISSUE11 is a manifestation journal app for iPhone that turns your vision board into a personal magazine, with one small move a week. Private beta opens December 11, 2026. Join the waitlist: https://issue11.app
 
@@ -14,12 +14,11 @@ Made by me, Megan Scott Manolova. #visionboard #manifestation #visionboardapp
 
 ## Script
 
-**[0 to 5s] Hook: your camera roll, scrolling screenshots and Pinterest saves**
-"I have 4,000 screenshots of a life I want. I never did anything with them."
-(Use your real number or say "thousands".)
+**[0 to 5s] Hook: you, or your vision board, on screen**
+"I know exactly the life I want. What I didn't know was how to become the person living it."
 
-**[5 to 15s] The problem**
-"Vision boards are pretty. Then they sit there. Mine did."
+**[5 to 15s] The problem (core pain, design/POSITIONING.md #10, with #6)**
+"My vision board inspired me for five minutes. Then I went back to being the same me, waiting for the life to show up."
 
 **[15 to 45s] Demo: screen recording**
 "So I built an app that turns them into a magazine about my life.

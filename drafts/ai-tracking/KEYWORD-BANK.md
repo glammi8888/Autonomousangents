@@ -65,6 +65,24 @@
 | G18 | social media marketing for beauty salons | 160 | 17 | later, links salon-marketing |
 | skip | "seo agency near me" style terms (38,400) | local-pack intent, we can't rank without local presence in each city | 14 to 40 | skip |
 
+
+## Long-tail finds (Megan, Nov 14: "CHeck long tail keywords too" · "Low competition high volume")
+3+ word searches, KD 21 or lower where possible, real volume. Write these BEFORE the remaining "queued" rows above (except 🎄), easiest first.
+
+| # | Main long-tail keyword · variants | US/mo | KD | Status |
+|---|---|---|---|---|
+| L6 | 🎄 journal prompts for january · journal prompts for december | 370 + 270 (seasonal) | 21 | NEXT, seasonal: one article "December + January journal prompts", live before Dec 20 |
+| L1 | journal prompts for self discovery · journal prompts for self reflection · journal for self discovery · journaling for self awareness | 1,300 + 1,300 + 4,100 + 5,100 | 12 to 25 | NEXT after L6 (best ratio in the bank) |
+| L2 | journaling for self love · journal prompts for healing · journal prompts for mindfulness · journal prompts for self care | 2,200 + 620 + 670 + 310 | 14 to 20 | queued |
+| L3 | how to manifest something · how to manifest something by writing it down · how to manifest quickly | 5,500 + 90 + 140 | 15 to 26 | STRENGTHEN live how-to-manifest (add these as H2s + FAQ) instead of a new page |
+| L4 | how to manifest someone · how to manifest a specific person · how to manifest a man | 1,900 + 300 + 110 | 16 to 21 | queued: honest, healthy framing (you can't control another person; focus on you, consent, red flags) |
+| L5 | how to start a manifestation journal · how to start manifesting journal | 220 + 100 | 16 | STRENGTHEN live manifestation-journal-prompts (H2 "How to start a manifestation journal") |
+| L7 | how to manifest a job | 410 | 27 | queued |
+| L8 | shadow work prompts for beginners | 160 | 8 | later (low volume, easiest KD) |
+| G10 | marketing ideas for small business · marketing to small businesses | 760 + 2,100 | 15 to 33 | Glammi NEXT after G2 (link seo-for-small-business, footer industries) |
+
+Glammi note: very specific B2B long-tails ("how to get my business on chatgpt" 30/mo, "google business profile tips" 20/mo) have almost no volume; Glammi's long-tail wins come from broader small-business and industry phrases.
+
 ## Math (honest)
 - If 40 cluster pages each reach page 1 for a few thousand combined searches, at a 2% to 5% click rate that is roughly 2,000 to 8,000 visits a month across both sites. Ranges, not promises. Takes 2 to 6 months per page.
 - Next research round: journaling, morning routine, that girl, 2027 goals (ISSUE11); boutique marketing, med spa marketing ideas, ai search for ecommerce (Glammi).

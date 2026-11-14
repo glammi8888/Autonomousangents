@@ -41,6 +41,8 @@ def notes(hook,hl,ps,out,sub=""):
             d.ellipse([70,y+8,118,y+56],outline=(99,99,102),width=4)
         for l in wrap(d,p,fp,W-230): d.text((146,y),l,font=fp,fill=(255,255,255)); y+=66
         y+=34
+    d.text((70,H-150),"write yours on",font=IT(32,"Regular"),fill=(142,142,147))
+    d.text((70,H-108),"issue11.app",font=IT(40,"SemiBold"),fill=(255,214,10))
     paste_logo(im,_mk((255,255,255)),W-60-110,H-60-85,110)
     im.convert("RGB").save(OUT+out,quality=92); return y
 A=["getting engaged","being rich af","business popping OFF","$20,000 saved","my dream home","become my own dream girl"]

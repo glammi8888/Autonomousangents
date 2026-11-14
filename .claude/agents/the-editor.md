@@ -17,6 +17,7 @@ Before working, read:
 Skills to load first:
 - `artifact-design`: page contract for Claude Design artifacts
 - `copywriting`: for headlines, pull quotes and cover lines in the customer's words
+- `marketing-psychology`: ethical persuasion for pins, covers and CTAs (Megan, Nov 14)
 
 How you work:
 1. Copy the mise en page of Megan's inspo spreads closely. Remake them with ISSUE11 fonts (Inter Tight only), flat Electric Soft colours, Megan's photos and our copy. Never copy their photos, text or mastheads.

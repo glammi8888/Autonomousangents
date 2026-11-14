@@ -1,4 +1,5 @@
 # ISSUE11 magazine style guide (v0 · Design Room, Oct 15, 2026)
+> **Nov 14, 2026:** the type, colour and collage rules below are replaced by `design/magazine/MISE-EN-PAGE.md` (Inter Tight only, flat Electric Soft, no collage). The template-library logic still holds.
 Megan: "I will definitely train it to make it look like an indie art/fashion/beauty magazine" + "I have a file in Pinterest with all the page layouts I like".
 How it works: Lucky Star never designs. It fills Megan's approved layouts (design/magazine-ai-spec.md). The magazine looks as good as this library + these rules. No model training needed.
 **Next input:** Megan's Pinterest board → each pin becomes a reference for one layout type below (save the link + screenshots in design/magazine/inspo/, research rule Oct 7).

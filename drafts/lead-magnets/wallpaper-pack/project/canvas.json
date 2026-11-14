@@ -1,0 +1,106 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-14T08:00:00Z"
+  },
+  "title": "ISSUE11 Lead Magnets",
+  "launch": {
+    "view": "canvas"
+  },
+  "pages": [],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "01 · My 2027: claim it"
+    },
+    "BecomeYou.dc.html": {
+      "x": 470,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "02 · Become YOU"
+    },
+    "BuildingEra.dc.html": {
+      "x": 940,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "03 · Building era"
+    },
+    "CalmMoney.dc.html": {
+      "x": 1410,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "04 · Money that feels calm"
+    },
+    "BiggerDreams.dc.html": {
+      "x": 1880,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "05 · Same girl, bigger dreams"
+    },
+    "FutureYou.dc.html": {
+      "x": 2350,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "06 · It's giving future you"
+    },
+    "BusinessOff.dc.html": {
+      "x": 2820,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "07 · Business popping OFF"
+    },
+    "CircleSmall.dc.html": {
+      "x": 3290,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "08 · I keep my circle small"
+    },
+    "LaptopList.dc.html": {
+      "x": 0,
+      "y": 1064,
+      "w": 1440,
+      "h": 900,
+      "title": "09 · Laptop: My 2027 list"
+    },
+    "LaptopCover.dc.html": {
+      "x": 1520,
+      "y": 1064,
+      "w": 1440,
+      "h": 900,
+      "title": "10 · Laptop: Main story"
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "BecomeYou.dc.html",
+    "BuildingEra.dc.html",
+    "CalmMoney.dc.html",
+    "BiggerDreams.dc.html",
+    "FutureYou.dc.html",
+    "BusinessOff.dc.html",
+    "CircleSmall.dc.html",
+    "LaptopList.dc.html",
+    "LaptopCover.dc.html"
+  ],
+  "designSystems": [],
+  "notes": {
+    "wp": {
+      "kind": "title1",
+      "x": 0,
+      "y": -260,
+      "maxW": 3680,
+      "text": "2027 Manifestation Wallpaper Pack (phone + laptop)"
+    }
+  }
+}

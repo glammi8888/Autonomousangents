@@ -69,6 +69,11 @@ Candidates live in the Rebrand Kit canvas (https://claude.ai/artifact/8zZ5hj9UH6
 | I | Giant vertical word + app-style windows on a photo | editorial-05 ("Renderizarme") | App CTA, prompts |
 | J | Star cut-outs: colour page with star windows, photo with colour stars | editorial-12 ("trust the process") | Beauty, glow up |
 | K | Giant letters over dense text columns | editorial-20 ("WASHINGTON") | Long read |
+| L | Quote set across a full-bleed spread photo, vertical credits on both edges | editorial-08 ("Everything we use…") | Chapter opener, manifesto |
+| M | Giant overprint type (multiply) on a busy photo + small ice info box | editorial-25 ("Happy Victims") | Cover, poster page |
+| N | One giant lowercase word across the spread + 6 small photo "specimens" with captions | editorial-33 ("gaijin") | Contents, chapter map |
+| O | Stacked title over a half photo, facing 3 dense columns with a round photo | editorial-08 ("The first 15 years") | Long read, challenge |
+| P | Two portraits with an itemised list down each outer edge | editorial-05 (what's-in-the-bag) | My 2027 list, lifestyle |
 
 ## 8. Rhythm (a whole issue)
 - Never put the same layout on two spreads in a row.

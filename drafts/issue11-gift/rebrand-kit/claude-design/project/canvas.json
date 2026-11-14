@@ -189,6 +189,41 @@
       "w": 1632,
       "x": 3424,
       "y": 8701
+    },
+    "CopyL.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · L Quote across the spread",
+      "w": 1632,
+      "x": 0,
+      "y": 9944
+    },
+    "CopyM.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · M Overprint type on photo",
+      "w": 1632,
+      "x": 1712,
+      "y": 9944
+    },
+    "CopyN.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · N Giant word + photo specimens",
+      "w": 1632,
+      "x": 3424,
+      "y": 9944
+    },
+    "CopyO.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · O Stacked title + dense columns",
+      "w": 1632,
+      "x": 0,
+      "y": 11187
+    },
+    "CopyP.dc.html": {
+      "h": 1056,
+      "title": "Inspo remake · P What's in her 2027",
+      "w": 1632,
+      "x": 1712,
+      "y": 11187
     }
   },
   "createdOnFiles": {
@@ -223,6 +258,14 @@
       "w": 240,
       "x": 0,
       "y": 7238
+    },
+    "more": {
+      "kind": "title1",
+      "maxW": 5056,
+      "text": "More inspo remakes: L–P",
+      "w": 240,
+      "x": 0,
+      "y": 9724
     }
   },
   "order": [

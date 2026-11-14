@@ -4,7 +4,7 @@
 
 **Needs Megan's OK before it goes live** (user data + privacy = CLAUDE.md rule 4). Not legal advice; if ISSUE11 has a lawyer, show them too.
 
-**Before you approve, check:** is the Rebrand Kit form's list stored in Google (same as the waitlist) or somewhere else? If somewhere else, name that service in section 4.
+**Checked with Megan (Nov 14):** the Rebrand Kit form sends each signup to her email inbox (Framer form → email). Section 4 below names Framer (forms) and Google (email inbox and list).
 
 ---
 
@@ -29,7 +29,7 @@
 > Only the services that run the website, our emails and our ads: Framer (website hosting and statistics), Google (where we store the waitlist list), Resend (sends our emails) and Meta (advertising measurement through the Meta Pixel).
 
 **With:**
-> Only the services that run the website, our emails and our ads: Framer (website hosting and statistics), Google (where we store our email list, and advertising if we run Google ads), Resend (sends our emails) and Meta (advertising measurement through the Meta Pixel, and ads shown to people on our email list).
+> Only the services that run the website, our emails and our ads: Framer (website hosting, statistics and our sign-up forms), Google (our email inbox, where we store our email list, and advertising if we run Google ads), Resend (sends our emails) and Meta (advertising measurement through the Meta Pixel, and ads shown to people on our email list).
 
 **Section 6, add a new bullet:**
 > Ask us to take your email out of ad audiences on Meta and Google, by writing to support@issue11.app. Unsubscribing from our emails also removes you from future uploads.

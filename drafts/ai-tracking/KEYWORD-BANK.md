@@ -50,7 +50,7 @@
 | G3 | local seo experts · best local seo agency · local seo agency near me | 1,200 + 740 + 2,300 | 13 to 16 | queued, only as an honest "how to choose a local SEO or AEO agency" guide (no fake rankings) |
 | G4 | seo for chatgpt · chatgpt for seo | 280 + 360 | 21 to 36 | strengthen live how-to-rank-in-chatgpt (H2 "Can you use ChatGPT for SEO?") |
 | G5 | dentist local seo · local seo for dentists | 640 | 11 | LATER (not our niche; only if Megan wants dental clients) |
-| G6 | salon marketing · hair salon seo | 330 + 60 | 10 to 27 | queued (from PAGE-ONE-PLAN, links /aeo-for-hair-salons) |
+| G6 | salon marketing · hair salon seo | 330 + 60 | 10 to 27 | DRAFT Nov 14 salon-marketing (Glammi worker) |
 | G7 | skincare marketing · cosmetics marketing | 170 + 80 | 21 to 30 | queued (links /aeo-for-skincare-brands) |
 | G8 | photographer seo | 360 | 31 | queued |
 | G9 | shopify seo | 1,300 | 39 | queued (medium) |

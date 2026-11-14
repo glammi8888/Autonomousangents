@@ -59,7 +59,7 @@
 | G12 | seo for plastic surgeons · plastic surgery seo · surgeon seo | 380 + 210 + 60 | 12 to 20 | covered by draft plastic-surgery-seo (Nov 23); "SEO for plastic surgeons" phrase added |
 | G13 | marketing for plastic surgeons · plastic surgery marketing agency · plastic surgery advertising | 250 + 170 + 190 | 15 to 25 | NEXT ("Marketing for plastic surgeons") |
 | G14 | dermatology seo · cosmetic surgery seo | 50 + 50 | 20 to 21 | small; fold into a dermatology SEO article later |
-| G15 | skincare advertising · advertising skin care | 1,000 | 28 to 30 | NEXT beauty (Megan Nov 14: "Most demand and the least competition" in beauty/fashion). Article "Skincare advertising" linking skincare-marketing + /aeo-for-skincare-brands |
+| G15 | skincare advertising · advertising skin care | 1,000 | 28 to 30 | DRAFT Nov 14 skincare-advertising (cover pending). Was: NEXT beauty (Megan Nov 14: "Most demand and the least competition" in beauty/fashion). Article "Skincare advertising" linking skincare-marketing + /aeo-for-skincare-brands |
 | G16 | beauty marketing · beauty marketing agencies · marketing for beauty industry · cosmetic marketing | 460 + 120 + 80 + 80 | 19 to 30 | NEXT beauty ("Beauty marketing for brands and salons") |
 | G17 | fashion marketing agency · fashion influencer marketing · fashion digital marketing | 180 + 140 + 70 | 14 to 21 | NEXT fashion. (Note: "fashion marketing" 3,600 is mostly students looking for degrees, not clients) |
 | G18 | social media marketing for beauty salons | 160 | 17 | later, links salon-marketing |

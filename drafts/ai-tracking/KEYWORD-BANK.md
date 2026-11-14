@@ -53,7 +53,7 @@
 | G6 | salon marketing · hair salon seo | 330 + 60 | 10 to 27 | DRAFT Nov 14 salon-marketing (Glammi worker) |
 | G7 | skincare marketing · cosmetics marketing | 170 + 80 | 21 to 30 | DRAFT Nov 14 skincare-marketing (Glammi worker) |
 | G8 | photographer seo | 360 | 31 | DRAFT Nov 14 photographer-seo (Glammi worker) |
-| G9 | shopify seo | 1,300 | 39 | queued (medium) |
+| G9 | shopify seo | 1,300 | 39 | DRAFT Nov 14 shopify-seo (Glammi worker) |
 | skip | "seo agency near me" style terms (38,400) | local-pack intent, we can't rank without local presence in each city | 14 to 40 | skip |
 
 ## Math (honest)

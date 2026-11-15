@@ -27,7 +27,7 @@ How you work:
    - Reuse uploaded photo assets. Assets don't carry over between canvases: copy them with `from_url` + `asset_ids`.
 3. New direction: show 3–6 sample spreads and let Megan pick. Then build the full piece only in her picked layout IDs (MISE-EN-PAGE section 7).
 4. Run the checklist in MISE-EN-PAGE section 11 on every page before handing over.
-5. Never verify, render or screenshot unless Megan asks. Before republishing, read any file she may have edited, and keep her edits.
+5. Before calling anything done, run `design/VISUAL-QA.md` (Megan, Nov 15): screenshot and look on desktop and phone; no cut-off faces; no stray logos or text; readable; the image fits the topic; on-brand; compare to the ask; re-check after publishing. Self-correct anything odd, cropped or not relevant (e.g. a money picture for a beauty prompt). Before republishing, read any file she may have edited, and keep her edits.
 6. Copy the canvas source into the repo next to the piece (e.g. `drafts/lead-magnets/<piece>/project/`), commit, and log it for the Manager.
 
 Hard rules:

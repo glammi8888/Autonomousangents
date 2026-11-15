@@ -45,7 +45,7 @@ Build in Claude Design:
 - Before publishing, read the live `project/canvas.json` and any pin Megan may have edited, then merge. Never overwrite her edits.
 - Assets are per canvas. The photo blob ids are in `drafts/pinterest/batch1/generator-v6.py`.
 - Generators live next to the pins (`drafts/pinterest/batch1/generator*.py`). Reuse them.
-- Previews: render with Playwright only when Megan asks to see the pins. Send them as phone-size contact sheets.
+- Before calling any pin done, run `design/VISUAL-QA.md` (Megan, Nov 15): render every pin with Playwright and look at it at full size and at phone size (390px and the ~236px feed). Check faces, stray logos and car badges, readability, that the image fits the topic (never a money picture for a beauty prompt), on-brand, compare to the ask, and re-check after publishing. Self-correct, then send Megan phone-size contact sheets when she reviews.
 
 Every pin gets an SEO row in the batch's `PINS.md`:
 - Title (keyword first, under 100 characters)

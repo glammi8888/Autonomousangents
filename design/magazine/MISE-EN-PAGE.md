@@ -101,7 +101,7 @@ Candidates live in the Rebrand Kit canvas (https://claude.ai/artifact/8zZ5hj9UH6
 1. Before working, read this file, `.pipeline/lessons.md` and the inspo folder.
 2. Build in Claude Design (Design artifact, `.dc.html` artboards). Pages are US Letter (816×1056) or spreads (1632×1056), with the fonts and colours above.
 3. New direction? Show 3–6 sample spreads first and let Megan pick. Then build the whole piece in the picked layouts.
-4. Never verify, render or screenshot unless Megan asks. Before republishing, read any file she may have edited.
+4. Run `design/VISUAL-QA.md` before calling a page done (screenshot on desktop and phone, faces, stray logos, readability, image fits topic, on-brand, compare, re-check after publishing), and self-correct. Before republishing, read any file she may have edited.
 5. Copy the canvas source into the repo next to the piece and commit after every change.
 6. Megan approves before anything goes live (Framer, Pinterest, the app).
 

@@ -54,6 +54,9 @@ Autonomy without waste. Delegating is not finishing: the Manager owns a task unt
 9. **Give every agent its skills** (Megan, Nov 10, word for word: "When you orchestrate the agents please make sure you give them skills to work with"). Every brief to an agent, room or session names the installed skills it must load first (e.g. copywriting, cold-email, prospecting, emails, social, pinterest-posts, seo-*, ads-*), by exact name from the skills list, with one line on why. No skill fits → say so in the brief.
 10. **Keep Knowledge & Training updated** (Megan, Nov 12, word for word: "The manager should update you" and "Ask ops manager if you don't know"). Every Megan decision about tools, connectors, agents, skills or training sources, and every new or changed agent, goes into the Notion page 📥 Knowledge & Training Inbox (https://app.notion.com/p/416997ea48108153bf57c433e30ab6bb): newest at the top, heading "From OPS — Manager, <date>", quoting Megan. Answer Knowledge & Training's questions in that same page.
 
+## 🖼 Visual QA (Megan, Nov 15, 2026)
+Before anything visual is called done, run `design/VISUAL-QA.md`: screenshot and look on desktop and phone · no cut-off faces · no stray logos, badges or readable signs, and our logo fully visible · readable on a phone · the image fits the topic · on-brand · compare to the ask or reference · re-check after publishing. Megan: "Give these instructions to any agent doing visual work please, and always ask it to self-improve and self-correct if things seem odd, cropped, or not relevant (example of non relevant content: A money picture for a beauty prompt)". Every brief for visual work names this file.
+
 ## 📈 Self-improvement (set by Megan)
 - Before working, read `.pipeline/lessons.md`. After working, add max 2 dated lessons there (what worked, what to do differently).
 - Megan's corrections are logged word for word as rules.

@@ -77,7 +77,7 @@
 | L3 | how to manifest something · how to manifest something by writing it down · how to manifest quickly | 5,500 + 90 + 140 | 15 to 26 | DONE Nov 15: live how-to-manifest strengthened (H2 "How to Manifest Something Specific" + H3 writing it down + H3 quickly; SEO title now "How to Manifest Something: A Simple 4-Step Process") |
 | L4 | how to manifest someone · how to manifest a specific person · how to manifest a man | 1,900 + 300 + 110 | 16 to 21 | DONE Nov 15: draft how-to-manifest-someone (healthy framing: you cannot control another person, 5 steps focused on you, red flags; first cover from Megan's Drive "ISSUE11 Images" love set) |
 | L5 | how to start a manifestation journal · how to start manifesting journal | 220 + 100 | 16 | DONE Nov 15: live manifestation-journal-prompts strengthened (H2 "How to Start a Manifestation Journal") |
-| L7 | how to manifest a job | 410 | 27 | queued |
+| L7 | how to manifest a job | 410 | 27 | DONE Nov 15 how-to-manifest-a-job (DRAFT, dated Nov 17; cover Drive office-gold). On publish: add inbound links from how-to-manifest + scripting-manifestation |
 | L8 | shadow work prompts for beginners | 160 | 8 | later (low volume, easiest KD) |
 | G10 | marketing ideas for small business · marketing to small businesses | 760 + 2,100 | 15 to 33 | Glammi NEXT after G2 (link seo-for-small-business, footer industries) |
 

@@ -144,3 +144,12 @@ Not installed: the rest of the library (conversion-tracking has website JS snipp
 - What it is: a tutorial showing how to build a Chief of Staff for a made-up startup (TechStart) with the Agent SDK. It covers CLAUDE.md memory, Python scripts via Bash, output styles, plan mode, slash commands, hooks and subagents. It's a teaching example, not a ready skill; its data and finance scripts are fake demo numbers.
 - Scan: the hooks only write local JSON audit logs. No network calls, no reading of keys or .env in the agent files (the notebook itself loads an API key from .env to run the demo; we don't run it). Nothing installed from it.
 - Adopted (our own text, adapted): `.claude/commands/decision-brief.md`. It uses the "executive" format (recommendation first, real numbers, reasoning, 2 alternatives, risks, next step), which matches Megan's rule "help me make each decision and the reasoning behind it". Not adopted: the demo scripts and data, the hooks (we already log in Notion and lessons), and the Agent SDK runtime (not needed in Claude Code).
+
+## Nov 15, 2026: marketingskills re-check: NOT INSTALLED yet (Megan: "Can you check the marketing-skills on GitHub skill? And scan for safety")
+Source: github.com/coreyhaines31/marketingskills · MIT · commit 1f837447b20bb6f0e72d87b80ece1c221c362c7d (Nov 11, 2026). 55 skills; 19 already installed, 36 new.
+First-pass scan of all 460 files in skills/: 0 hidden Unicode, no hooks, no allowed-tools, no auto-installs, no instructions to hide anything or read .env/keys. Most skills are markdown only.
+Code found (only runs if someone runs it):
+- conversion-tracking: 2 local Python helpers (no network), plus GTM recipes and JS snippets meant to be pasted on a website. Their job is to send form-submit events to GA4/Meta/etc.
+- reverse-engineer-marketing/scripts/teardown.mjs: fetches public sites, web.archive.org and crt.sh, and api.scrapecreators.com if SCRAPECREATORS_API_KEY is set (paid; never set without Megan's OK).
+- ad-creative, image, video: docs show curl/npx examples for paid AI APIs (Gemini, ElevenLabs, Remotion) using env keys. These are examples only and are not run automatically.
+Verdict: no malicious content found. Each skill chosen for install still gets a full read of every file before install (rule 7).

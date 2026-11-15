@@ -30,11 +30,11 @@
 | I8 | book on manifestation · best manifestation books | 4,600 | 18 | queued (real books only) |
 | I9 | self care ideas · self care ideas for women · self care activities · beauty self care ideas · self care sunday ideas | 8,000 + 710 + 10,600 | 14 to 32 | DONE Nov 14: draft self-care-ideas (60 ideas by time + Sunday plan; cover megan-editorial-22, dated Nov 17) |
 | I10 | list of affirmations · list of positive affirmations · funny affirmations | 1,300 + 1,300 + 1,200 | 9 to 19 | NEXT (check overlap with the 5 affirmation articles, keep under 15%) |
-| I11 | manifesting love · love affirmations · how to manifest love | 1,000 + 2,000 + 520 | 14 to 18 | queued |
+| I11 | manifesting love · love affirmations · how to manifest love | 1,000 + 2,000 + 520 | 14 to 18 | NEXT (love affirmations; manifesting love partly covered by how-to-manifest-someone, so lead with affirmations) |
 | I12 | positive affirmations for work · work affirmations | 1,500 + 1,200 | 19 to 20 | DONE Nov 15 positive-affirmations-for-work (DRAFT dated Nov 18; 50 lines, 3 near-dupes rewritten; cover Drive office-glasses). On publish: link it from positive-affirmations-for-women work section |
 | I13 | manifestation affirmations | 1,400 | 23 | queued (fold into I6 if thin) |
 | I14 | how to stop overthinking | 15,600 | 19 | DONE Nov 14: draft how-to-stop-overthinking (9 ways + night + decisions, Nolen-Hoeksema 2008, 988; cover megan-editorial-17) |
-| I15 | how to stop people pleasing | 1,700 | 21 | NEXT, waiting on a fitting cover image (asked OPS Nov 15; self-help, not therapy) |
+| I15 | how to stop people pleasing | 1,700 | 21 | DONE Nov 15 how-to-stop-people-pleasing (DRAFT dated Nov 19, NO COVER yet: needs a calm 'saying no' image, asked OPS; won't publish until covered) |
 | I16 | vision board quotes · vision board words | 2,700 + 1,100 | 25 to 37 | DONE Nov 15 vision-board-quotes (DRAFT dated Nov 15 so it publishes first: seasonal; 80 ORIGINAL quotes, no misattribution; cover megan-editorial-12 on black frame) |
 | I17 | pinterest vision boards · aesthetic vision board | 5,300 + 1,400 | 14 | strengthen live pinterest-vision-board first (cheaper than a new page) |
 | skip | words of affirmation (48,300) | love-language intent, off brand | 20 | skip |

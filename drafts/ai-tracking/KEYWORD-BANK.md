@@ -29,7 +29,7 @@
 | I7 | manifestation journals · manifestation journaling · best manifestation journal app | 3,100 + 3,100 | 16 to 20 | queued (honest comparison, ISSUE11 named as ours) |
 | I8 | book on manifestation · best manifestation books | 4,600 | 18 | queued (real books only) |
 | I9 | self care ideas · self care ideas for women · self care activities · beauty self care ideas · self care sunday ideas | 8,000 + 710 + 10,600 | 14 to 32 | DONE Nov 14: draft self-care-ideas (60 ideas by time + Sunday plan; cover megan-editorial-22, dated Nov 17) |
-| I10 | list of affirmations · list of positive affirmations · funny affirmations | 1,300 + 1,300 + 1,200 | 9 to 19 | NEXT (easiest KD; check overlap with the 4 affirmation articles, keep under 15%) |
+| I10 | list of affirmations · list of positive affirmations · funny affirmations | 1,300 + 1,300 + 1,200 | 9 to 19 | NEXT (check overlap with the 5 affirmation articles, keep under 15%) |
 | I11 | manifesting love · love affirmations · how to manifest love | 1,000 + 2,000 + 520 | 14 to 18 | queued |
 | I12 | positive affirmations for work · work affirmations | 1,500 + 1,200 | 19 to 20 | queued |
 | I13 | manifestation affirmations | 1,400 | 23 | queued (fold into I6 if thin) |
@@ -75,7 +75,7 @@
 | L1 | journal prompts for self discovery · journal prompts for self reflection · journal for self discovery · journaling for self awareness | 1,300 + 1,300 + 4,100 + 5,100 | 12 to 25 | DONE Nov 15: draft journal-prompts-for-self-discovery (60 prompts in 6 themes, 0 repeats across all ISSUE11 articles; Trapnell and Campbell 1999 + Pennebaker; cover megan-editorial-31, dated Nov 16) |
 | L2 | journaling for self love · journal prompts for healing · journal prompts for mindfulness · journal prompts for self care | 2,200 + 620 + 670 + 310 | 14 to 20 | DONE Nov 15: draft journaling-for-self-love (40 prompts: kindness, healing, self care, mindfulness; Neff 2003 + Pennebaker; 0 repeats; cover megan-editorial-10) |
 | L3 | how to manifest something · how to manifest something by writing it down · how to manifest quickly | 5,500 + 90 + 140 | 15 to 26 | DONE Nov 15: live how-to-manifest strengthened (H2 "How to Manifest Something Specific" + H3 writing it down + H3 quickly; SEO title now "How to Manifest Something: A Simple 4-Step Process") |
-| L4 | how to manifest someone · how to manifest a specific person · how to manifest a man | 1,900 + 300 + 110 | 16 to 21 | NEXT: honest, healthy framing (you cannot control another person; focus on you, consent, red flags) |
+| L4 | how to manifest someone · how to manifest a specific person · how to manifest a man | 1,900 + 300 + 110 | 16 to 21 | DONE Nov 15: draft how-to-manifest-someone (healthy framing: you cannot control another person, 5 steps focused on you, red flags; first cover from Megan's Drive "ISSUE11 Images" love set) |
 | L5 | how to start a manifestation journal · how to start manifesting journal | 220 + 100 | 16 | DONE Nov 15: live manifestation-journal-prompts strengthened (H2 "How to Start a Manifestation Journal") |
 | L7 | how to manifest a job | 410 | 27 | queued |
 | L8 | shadow work prompts for beginners | 160 | 8 | later (low volume, easiest KD) |

@@ -30,6 +30,7 @@ Rule (Megan, Nov 15): "The quotes still sound way too AI it needs to stop". Agen
 - My dream life wants me
 - I'm the girl who always makes it work
 - 2027 is the year I lifemaxx
+- My face card is absolutely lethal
 
 ## Audience lines (ICP doc, verbatim)
 - My nervous system is calm

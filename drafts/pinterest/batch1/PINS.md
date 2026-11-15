@@ -9,7 +9,7 @@ All pins link to https://issue11.app/rebrand-kit (the 2027 Life Glow Up Kit, fre
 
 | # | Pin title (keyword first, max 100) | Description | Board | Alt text |
 |---|---|---|---|---|
-| 01 | How to rebrand yourself in 2027 (Project: Rebrand checklist) | Project: Rebrand 🎀 Physical, mentally, money, wardrobe. The free 2027 Life Glow Up Kit gives you a ChatGPT prompt for every part of your personal rebrand, plus a 30-day plan. | How to Rebrand Yourself | Phone notes titled Project: Rebrand with a walk-in closet photo and a rebrand checklist |
+| 01 | Project: Personal Rebrand: how to rebrand yourself in 2027 | Project: Personal Rebrand 🎀 Physical, mentally, wardrobe. The free 2027 Life Glow Up Kit gives you a ChatGPT prompt for every part of your personal rebrand, plus a 30-day plan. | How to Rebrand Yourself | Dark-mode phone note titled Project: Personal Rebrand, with physical, mental and wardrobe lists |
 | 02 | How to glow up in 2027: my glow up notes | My 2027 glow up: looking hotter, feeling better, business popping OFF. 5 minutes, one thing. Get the free glow up kit with 30 ChatGPT prompts. | Glow Up Tips | Phone notes listing a 2027 glow up plan under a dressing room photo |
 | 03 | Glow up checklist 2027 (free printable kit) | Glow up checklist for 2027 ✨ 5-minute mornings, money dates, small circle, early nights. Save it, then grab the free kit to plan yours. | Glow Up Checklist | Glow up checklist over a luxury walk-in closet |
 | 04 | 30 ChatGPT prompts for self improvement (glow up your whole life) | Copy, paste, answer. 30 ChatGPT prompts for your body, money, love, style, beauty and savings, each built on a real behavior-change method. Free. | ChatGPT Prompts for Self Improvement | Numbered list of 30 ChatGPT prompts for a life glow up |

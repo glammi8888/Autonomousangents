@@ -103,12 +103,12 @@ def p23():
              "a car i’m not embarrassed of","pilates 3x a week","paris w the girls?","in bed before 12"]
     return (W, f'<h1 style="position:absolute; left:60px; right:60px; top:56px; margin:0; font-size:104px; font-weight:800; letter-spacing:-0.06em; line-height:0.88">2027 vision board ideas</h1>'
       f'<p style="position:absolute; left:60px; top:300px; margin:0; font-size:42px; font-weight:600">(that aren’t a beach)</p>'
-      f'<div style="position:absolute; left:60px; right:60px; top:380px">{lst(items, 50)}</div>'
+      f'<div style="position:absolute; left:60px; right:60px; top:390px">{lst(items, 58)}</div>'
       f'<p style="position:absolute; left:60px; right:60px; top:1270px; margin:0; font-size:34px; font-weight:600">pin the pics, then write the list. the page is free.</p>' + foot("Write yours · free 2027 list page"))
 def p24():
     items = ["a raise (and actually asking for it)","friends i don’t have to chase","clear skin",
              "a closet i actually wear","no more overdraft fees","a trip i paid for myself","maybe a dog?"]
-    return (INK, f'<h1 style="position:absolute; left:60px; right:60px; top:80px; margin:0; color:{W}; font-size:112px; font-weight:800; letter-spacing:-0.06em; line-height:0.88">my 2027 list (no judging)</h1>'
+    return (INK, f'<h1 style="position:absolute; left:60px; right:60px; top:80px; margin:0; color:{W}; font-size:112px; font-weight:800; letter-spacing:-0.06em; line-height:0.88">my 2027 list<br>(no judging)</h1>'
       f'<div style="position:absolute; left:60px; right:60px; top:420px; color:{W}">{lst(items, 50, True, False)}</div>' + foot("Write your list · free kit", False))
 def p25():
     items = ["what do i want my mornings to look like","what am i tired of pretending is fine","how much do i actually want to make",

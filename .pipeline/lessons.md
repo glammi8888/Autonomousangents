@@ -567,3 +567,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-15 LESSON (Pinterest SEO, batch 5): the style sampler's text-only styles (night card, giant word, SAY IT, lilac caps, repeat page) have no ISSUE11 logo, so batch5/generator-b5.py wraps them in withlogo() (logo at the top; the repeat page starts at 150px). Photo-over-text pins need a dark fade under the type when the photo is busy (Pin89 silver jacket).
 
 - 2026-11-15 RULE (Megan, on the black "reminder 🫧" Notes pin): "This is so good we need a few more like This". The reminder Note is a winning format: make more of it, using only her lines. Batch 6 = Pin90–99.
+- 2026-11-15 RULE (Megan): "Oh no not aesthetically I meant what I wrote" + "It's fueled by pain and that is the best". The winning thing is the pain/spite feeling of her line, not the Notes look. Source more lines like it from her or verbatim viral pins, never written by us.

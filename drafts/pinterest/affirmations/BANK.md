@@ -68,3 +68,4 @@ Megan picked and rewrote (Nov 15), now Megan's lines:
 - I am no longer proving my worth to someone. You either value me or you're OUT! (from 17)
 - Get up girl, you got people to prove wrong (from 4)
 The other 15 candidates are rejected.
+- Imagine what your bullies will feel when they see you succeed (Megan, Nov 15)

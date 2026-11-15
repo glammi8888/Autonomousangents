@@ -1,7 +1,7 @@
 # Pinterest batch 6 (Nov 15, 2026): more "reminder 🫧" Notes pins (style 8).
 # Megan on Pin81: "This is so good we need a few more like This". Lines are Megan's own, word for word
 # (drafts/pinterest/affirmations/BANK.md); no agent copy.
-# Usage: python3 generator-b6.py <out_root>  -> writes <out_root>/project/Pin90..Pin101.dc.html
+# Usage: python3 generator-b6.py <out_root>  -> writes <out_root>/project/Pin90..Pin102.dc.html
 import sys, os, importlib.util
 R = sys.argv[1]; os.makedirs(f"{R}/project", exist_ok=True)
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -24,7 +24,9 @@ P = [("Pin90", "I glowed up so hard now my enemies are crying", "I glowed up<br>
      # Megan's own rewrites of viral lines (Nov 15): "17. I am no longer proving my worth..." and "4. Get up girl..."
      ("Pin100", "I am no longer proving my worth to someone. You either value me or you're OUT!",
                "I am no longer<br>proving my worth<br>to someone.<br>You either value<br>me or you’re<br>OUT!", 90),
-     ("Pin101", "Get up girl, you got people to prove wrong", "Get up girl,<br>you got people<br>to prove wrong", 108)]
+     ("Pin101", "Get up girl, you got people to prove wrong", "Get up girl,<br>you got people<br>to prove wrong", 108),
+     ("Pin102", "Imagine what your bullies will feel when they see you succeed",
+               "Imagine what<br>your bullies<br>will feel when<br>they see you<br>succeed", 100)]
 if __name__ == "__main__":
     for k, line, text, size in P:
         bg, inner = st.s8(text, size)

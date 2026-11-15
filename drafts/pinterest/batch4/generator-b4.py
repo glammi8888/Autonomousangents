@@ -39,6 +39,8 @@ P = [
  ("Pin49", "I am so fit and healthy and I am proud to say that I love my own body", pin(["I am so fit", "and healthy", "and I am proud", "to say that I", "love my own", "body"], 120, False, "mid")),
  ("Pin50", "A healthy mind, a fit body, and lots of money $$$", pin(["A healthy mind,", "a fit body,", "and lots of", "money $$$"], 120, True, "mid")),
  ("Pin51", "I'm the art director of my life. I create it page by page. I make my own opportunities.", pin(["I’m the art", "director of", "my life.", "I create it", "page by page.", "I make my own", "opportunities."], 112, False, "mid")),
+ ("Pin52", "I glowed up so hard now my enemies are crying", pin(["I glowed up", "so hard now", "my enemies", "are crying"], 150, True, "mid")),
+ ("Pin53", "I glowed up so hard now my ex is crying", pin(["I glowed up", "so hard now", "my ex is", "crying"], 150, False, "mid")),
 ]
 for k, t, (bg, inner) in P:
     open(f"{R}/project/{k}.dc.html", "w").write(doc(f"Quote · {t}", inner, bg))

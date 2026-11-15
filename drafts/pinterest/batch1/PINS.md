@@ -24,4 +24,9 @@ All pins link to https://issue11.app/rebrand-kit (the 2027 Life Glow Up Kit, fre
 | 13 | Future self letter (free printable page) | It’s December 2027. Dear me… Write a letter from future you on this free printable page. | Future Self Letter | Printable letter-to-future-self page on a closet background |
 | 14 | Letter to my future self prompts | 5 prompts for your letter to future you: what does my morning look like? What did I stop apologizing for? Free kit. | Future Self Letter | Phone notes with future self letter prompts |
 
+| 15 | How to lifemaxx 2027 (lifemaxxing guide) | How to lifemaxx 2027 🫧 Body, money, life: one small thing at a time. Lifemaxxing guide + 30 ChatGPT prompts, free. | Lifemaxxing | Phone notes titled how to lifemaxx 2027 |
+| 16 | Lifemaxxing 101: your 2027 guide (free) | Lifemaxxing 101: six chapters, one prompt each. Paste the prompt, do one small thing. Free 2027 Life Glow Up Kit. | Lifemaxxing | Lifemaxxing 101 guide under a luxury closet photo |
+
+Nov 15 changes (Megan: "I think we need to crop the images more accurately" / "Also the notes app pins don't need visuals" / "I also think we could use terms like 'lifemaxx'" / "How to lifemaxx 2027"): Notes pins have no photos (text scales to fill the screen like a real screenshot), every photo has a set focal point, and pins 15–16 added for lifemaxxing.
+
 Schedule (after Megan's OK): 2 pins a day for 7 days in Metricool (Pinterest "issue11app"), mixing formats so no two of the same format run back to back.

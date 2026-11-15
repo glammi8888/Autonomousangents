@@ -44,3 +44,10 @@ Volumes = Google US monthly searches (Mangools, Nov 14), a proxy for demand. Pin
 | Vision board wallpaper 2027 (make your own) | 450 |
 | Aesthetic iPhone wallpaper with your own goals | Pinterest trends: wallpapers dominate |
 | 2027 lock screen wallpaper (free maker) | seasonal |
+
+## Lifemaxxing (added Nov 15, Megan: "I also think we could use terms like 'lifemaxx'" / "How to lifemaxx 2027")
+Google US: lifemaxxing 1,200/mo, lifemaxx 70/mo (Mangools). Pinterest autocomplete (Apify, Nov 15): lifemaxxing aesthetic, wallpaper, quotes, pfp, 101, captions, tips, affirmations, **magazine**, guide, poster, core; social lifemaxxing; lifemaxxer.
+- Glow Up Kit pins: "How to lifemaxx 2027", "Lifemaxxing 101", "lifemaxxing guide", "lifemaxxing tips"
+- Wallpaper maker pins: "lifemaxxing wallpaper", "lifemaxxing affirmations", "lifemaxxing quotes"
+- ISSUE11 itself: "lifemaxxing magazine". The app is literally a magazine about your life, so it's a strong fit for the landing page and App Store keywords (ASO room).
+Write "lifemaxxing" in titles (the searched form); "lifemaxx" is fine as a verb on the image.

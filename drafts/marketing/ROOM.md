@@ -50,10 +50,21 @@ AEO worker publishes 1 article/day on issue11.app  (log: AEO commit + this board
 ```
 Hand-off by files, not by calling each other: new article URLs come from the AEO commits; pins go to `drafts/pinterest/`; Reddit drafts to `drafts/growth/reddit/<date>.md`; Reels to `drafts/social/`; ad notes to `drafts/ads/`. Nobody redoes the hourly Pinterest routine's or the AEO workers' work.
 
-## 5. Decisions waiting on Megan (max 3)
-1. **Pinterest strategy v1 + boards + claim the site.** Recommended: OK `drafts/pinterest/STRATEGY.md`, create the 12 boards and claim issue11.app (we add the meta tag in Framer). Why: pins can't go out without boards, and claiming is what credits pin traffic to the site. Option B: change the board list first.
-2. **Let the room read the real numbers.** Recommended: connect Pinterest analytics in Metricool (already your tool; we read it with the Metricool connector) and drop one Framer analytics screenshot each Monday. Why: today every traffic number is "missing", so we can't tell what's working. Option B: you send both screenshots weekly.
-3. **Reddit answers.** Recommended: yes to max 5 disclosed reply drafts a week, linking to our matching article where the subreddit allows; you post from your own account (~15 min/week). Why: Reddit threads rank on Google and get quoted by AI answers, which brings long-lasting traffic. Option B: wait until after the Dec 11 beta.
+## 5. Decisions waiting on Megan (max 3; full plan in `drafts/marketing/100K-PLAN.md`)
+1. **Turn everything on (~20 min of your logins).** Recommended: set up Search Console for issue11.app, OK the Pinterest strategy, create the 12 boards, claim issue11.app on Pinterest, connect Pinterest in Metricool. Why: Google can't index the 27 live posts and we can't measure a single visit without these. Option B: do the Pinterest part only this week.
+2. **Back to 1 article a day, with 2–3 of your own lines on each hub page.** Recommended: yes. Why: the AEO workers publish 2–3 a day right now, and AI-assisted volume on a new domain is our biggest Google flag risk. It also matches your Nov 5 rule ("1 article daily"). Option B: keep 2–3 a day.
+3. **Pick the layout for the Vision Board Kit + Journal Prompts this week.** Recommended: yes. Why: pins can only use the biggest New Year searches (vision board ideas 43,400/mo, journal prompts 38,200/mo) honestly once those pages exist, and the peak is Dec–Jan. Option B: launch the Wallpaper pack first.
+(Next in line once these are done: Reddit yes/no, from the first board.)
+
+## 5b. Roll call (Nov 15, from repo status + each agent's own report)
+- 💚 **Growth Lead:** set up the room and merged 5 brainstorms into 100K-PLAN.md. Next: every Monday, fill the numbers row and keep the order of moves.
+- 📌 **Pinterest SEO:** Pin1–Pin122 designed, nothing scheduled, no boards, site not claimed. `drafts/pinterest/QUEUE.md` is missing. Next: daily 10-pin production batch to all 32 URLs, at least 72h apart per URL.
+- 🔎 **SEO/AEO:** publishing 2–3 posts a day (27 live). 9 drafts with covers queued to Nov 18. Their tracking: 0/87 keywords in the top 100, 1.1% AI visibility. Next: Christmas + New Year pages before Dec 20, inbound links, Monday rank check.
+- 💸 **Media Buyer:** $300 Instagram test ready for Nov 17, $0 spent. Next: first read about Nov 24, Monday competitor watch.
+- 🧵 **Reddit:** playbook read, 0 posted. Next: first 5 threads + disclosed drafts after your yes.
+- 🎬 **Viral Formats:** formats and ad scripts reviewed. Next: weekly GRWM script batch in `drafts/social/` + the 2 ad Reels.
+- 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 6. Log
 - 2026-11-15 · Growth Lead · Room set up. Read CLAUDE.md, lessons, STRATEGY.md, the 4 agent files, recent ads/blog/pinterest drafts. Numbers filled from repo + sitemap only; traffic rows missing. No agents run, nothing posted or spent.
+- 2026-11-15 22:45 · Growth Lead · Megan: "100k minimum of course" → goal is at least 100k/mo. Roll call + brainstorm (5 subagent runs: Pinterest, Reddit, Media Buyer, SEO/AEO, Viral; all text only). Merged into `100K-PLAN.md`. Decisions replaced with the 3 most blocking.

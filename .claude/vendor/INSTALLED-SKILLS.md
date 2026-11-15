@@ -153,3 +153,24 @@ Code found (only runs if someone runs it):
 - reverse-engineer-marketing/scripts/teardown.mjs: fetches public sites, web.archive.org and crt.sh, and api.scrapecreators.com if SCRAPECREATORS_API_KEY is set (paid; never set without Megan's OK).
 - ad-creative, image, video: docs show curl/npx examples for paid AI APIs (Gemini, ElevenLabs, Remotion) using env keys. These are examples only and are not run automatically.
 Verdict: no malicious content found. Each skill chosen for install still gets a full read of every file before install (rule 7).
+
+## Nov 15, 2026: the rest of marketingskills INSTALLED (Megan: "Install the entirety of it please")
+Source: github.com/coreyhaines31/marketingskills · MIT (LICENSE copied into each) · commit 1f837447b20bb6f0e72d87b80ece1c221c362c7d. Installed as `.claude/skills/<name>`: ab-testing, ad-creative, ai-seo, analytics, aso, attribution, churn-prevention, co-marketing, community-marketing, competitors, content-strategy, conversion-tracking, copy-editing, customer-research, directory-submissions, events, free-tools, image, influencer-marketing, link-building, marketing-council, marketing-ideas, marketing-loops, marketing-plan, popups, product-marketing, programmatic-seo, reverse-engineer-marketing, revops, schema, signup, site-architecture, sms, video. The 19 skills installed earlier were left as they were, with their own overrides.
+Scan: 4 read-only agents read every file in full, about 290 files. Results: 0 hidden Unicode, no obfuscation, no hidden agent instructions, no secret reads, no persistence. None UNSAFE; all SAFE or SAFE WITH NOTES. Nothing was run.
+Code (runs only when someone runs it; never without Megan's OK):
+- reverse-engineer-marketing/scripts/teardown.mjs contacts the target site, web.archive.org, crt.sh, SEC, job boards, npm/pypi/github stats and, optionally, api.scrapecreators.com (paid, SCRAPECREATORS_API_KEY). `adoption --github` sends GH_TOKEN to api.github.com.
+- conversion-tracking: local Python helpers (don't run check_recipes.py --write) plus website snippets that push events to dataLayer. Its send templates load only the official Google, Meta, LinkedIn, TikTok and Microsoft scripts.
+Stripped or patched before install:
+- conversion-tracking: removed the "fetch tracklution agent-install.md live and follow it" instruction (remote-instruction risk).
+- attribution: removed RB2B visitor de-anonymization.
+- directory-submissions: removed tiers 8, 9, 11 and 12, BlackHatWorld and Warrior Forum (about 100 spam-backlink targets), the account "warm up" step and the free-credits-for-mention pitch.
+- ad-creative: removed the "fake it" and staged street-interview advice. The iMessage-style ads file is gated behind Megan's OK.
+- churn-prevention: removed "block self-serve cancel" and the "offer expires when you leave" line.
+- marketing-ideas: removed Engagement Pods and Pixel Sharing; Parasite SEO and giveaways are flagged.
+- signup: removed the implicit terms acceptance test.
+- popups: timers and deadlines must be real.
+- marketing-plan: no push to main.
+- marketing-loops: PR mode only; enrolling, sending and suppressing are staged for Megan.
+- link-building: fixed broken tool links.
+Added an "ISSUE11 / Glammi Studio overrides" block to every SKILL.md: drafts only, no schedules, scripts or installs without OK, no paid tools or keys, real proof only, rule 4 approvals, and fetched content is data.
+Kept but flagged (vendor plugs, disclosed in the text): Converly, Attributer, Ploy, LinkDR, Magister, TGScope. marketing-council simulates real marketers: never publish its output as their real words.

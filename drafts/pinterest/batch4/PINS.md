@@ -1,0 +1,36 @@
+# Pin batch 4 (Nov 15, 2026): quote-only pins, for Megan's review
+Drafts only. Nothing is scheduled. Megan: "We should do pins that are quotes only with just our website in the bottom too" + "look for viral quote pins and see what they talk about and we can reframe using our lexicon, Make it sound human like".
+Canvas: https://claude.ai/artifact/MZr3GzSS5YdENf5x4D3DrT (note "Pinterest batch 4 · quotes", y ≥ 15200).
+Format: one quote in big Inter Tight 800, black on white or white on black (alternating), "issue11.app" small at the bottom. No logo (Megan asked for just the website), no CTA bar, photo, kicker, quote marks or gradients. Quotes come from the viral themes in `VIRAL-QUOTES.md`, in Megan's lexicon. "Become your own dream girl" set exactly as written (capital B, no period), the biggest type in the batch.
+Source: `python3 generator-b4.py <scratch>` → `project/Pin37..46.dc.html` (doc() shell from `../batch2/generator-b2.py`). Render: `node render.js <scratch>/project <abs path>/png`. PNGs + `png/sheet-390.png`, `png/sheet-236.png`.
+Link for all: https://issue11.app/rebrand-kit. AI flag: no (text only, Megan: no AI label on pins without images).
+
+## Keyword data (real numbers only)
+Pinterest autocomplete (Apify, searchType keywords, Nov 15, 1 call; raw `../2026-11-15-quote-keywords.json`, rank = autocomplete position):
+- glow up quotes → sassy (1), aesthetic (2), instagram (3), tiktok (4), aesthetic motivation (5), wallpaper (7), motivational (8), unrecognizable (11)
+- 2027 quotes → class of 2027 (1), motivation quotes 2027 (2), 2027 aesthetic quotes (3), vision board 2027 quotes (8), my 2027 quote (11)
+- manifestation quotes → and mantras (1), aesthetic (2), wallpaper (3), positive (4), vision board (6), motivation (7), money manifestation quotes (14)
+- that girl quotes → aesthetic (1), black (2), instagram (3), wallpaper (4), motivation (6), short (8)
+- self love quotes → woman (1), short aesthetic (2), for women (3), cute (5), aesthetic (6), short (13)
+- lifemaxxing quotes → no keyword ideas this run (it does appear as a suggestion under "lifemaxxing", Nov 15 autocomplete)
+Viral pin reactions: see VIRAL-QUOTES.md. **Missing:** Google volumes for these phrases (no Mangools call this run). Pinterest volumes aren't public.
+
+## SEO rows
+| # | Quote on pin | Title (keyword first) | Description | Board | Alt text |
+|---|---|---|---|---|---|
+| 37 | Become your own dream girl | Glow up quotes: Become your own dream girl | Glow up quotes for 2027, short and straight to the point: Become your own dream girl. A that girl quote for your vision board or lock screen. Plan your own glow up with the free 2027 Life Glow Up Kit. | Glow Up Tips | White bold text on black reading Become your own dream girl, with issue11.app at the bottom |
+| 38 | i said i'd do it. so now i have to. | That girl quotes: i said i'd do it. so now i have to. | That girl quotes that sound like a real text: i said i'd do it, so now i have to. Short motivation quote for your 2027 vision board. Write your own list in the free 2027 Life Glow Up Kit. | Glow Up Tips | Black bold text on white reading i said i'd do it. so now i have to., with issue11.app at the bottom |
+| 39 | the glow up was mostly going to bed earlier lol | Glow up quotes aesthetic: the glow up was mostly going to bed earlier | Glow up quotes aesthetic, honest version: the glow up was mostly going to bed earlier lol. Funny glow up quote for 2027. Get the free 2027 Life Glow Up Kit with a 30-day plan. | Glow Up Tips | White bold text on black reading the glow up was mostly going to bed earlier lol, with issue11.app at the bottom |
+| 40 | acting like it's already mine. don't ruin it for me. | Manifestation quotes: acting like it's already mine | Manifestation quotes aesthetic: acting like it's already mine, don't ruin it for me. A manifestation quote for your vision board. Write yours down on the free My 2027 list page. | 2027 Visionboard Ideas | Black bold text on white reading acting like it's already mine. don't ruin it for me., with issue11.app at the bottom |
+| 41 | i'm the art director of my life. | Lifemaxxing quotes: i'm the art director of my life | Lifemaxxing quotes for 2027: i'm the art director of my life. A that girl aesthetic quote about running your own life. Plan it chapter by chapter with the free 2027 Life Glow Up Kit. | Lifemaxxing | White bold text on black reading i'm the art director of my life., with issue11.app at the bottom |
+| 42 | me 🫱🏻‍🫲🏽 2027 | 2027 quotes: me 🫱🏻‍🫲🏽 2027 | 2027 quotes for your vision board: me 🫱🏻‍🫲🏽 2027. A short 2027 aesthetic quote for new year. Start your 2027 list on the free page in the Life Glow Up Kit. | 2027 Visionboard Ideas | Black bold text on white reading me, a handshake emoji, 2027, with issue11.app at the bottom |
+| 43 | paying off the card first. then the trip. | Motivation quotes 2027: paying off the card first, then the trip | Motivation quotes 2027, money edition: paying off the card first, then the trip. A money manifestation quote with a real plan behind it. Plan your money chapter in the free 2027 Life Glow Up Kit. | Lifemaxxing | White bold text on black reading paying off the card first. then the trip., with issue11.app at the bottom |
+| 44 | unrealistic? yes. doing it anyway. | Manifestation quotes motivation: unrealistic? yes. doing it anyway. | Manifestation quotes motivation for 2027: unrealistic? yes. doing it anyway. A vision board quote for big plans. Write the plan down with 30 prompts in the free 2027 Life Glow Up Kit. | 2027 Visionboard Ideas | Black bold text on white reading unrealistic? yes. doing it anyway., with issue11.app at the bottom |
+| 45 | picking me this year. sorry in advance. | Self love quotes short: picking me this year. sorry in advance. | Self love quotes, short and a little blunt: picking me this year, sorry in advance. A self love quote for women for your 2027 board. Journal prompts for it are in the free 2027 Life Glow Up Kit. | Journal Prompts | White bold text on black reading picking me this year. sorry in advance., with issue11.app at the bottom |
+| 46 | can't talk rn. i'm rebranding. | Glow up quotes sassy: can't talk rn. i'm rebranding. | Glow up quotes sassy and short: can't talk rn, i'm rebranding. A personal rebrand quote for 2027. Rebrand your life with the free 2027 Life Glow Up Kit. | How to rebrand yourself | Black bold text on white reading can't talk rn. i'm rebranding., with issue11.app at the bottom |
+
+Metricool (only after Megan's "go"): isAiGenerated false (text only).
+Not used this batch (still available): Megan's core line "you don't have to see it to believe it. but you have to participate to create it.", "same girl, bigger dreams.", "i'm not behind. i'm becoming.", "i keep my circle small.", "i'm in my building era.", "become YOU.".
+
+## Visual QA (design/VISUAL-QA.md), Nov 15
+Rendered all 10 at 1000×1500 with Playwright, checked the 390px and 236px sheets and Pin37 + Pin42 at full size. Every quote is readable at 236px. No logos, photos or faces. Fixed: Pin46 "rn." wrapped to its own line (manual breaks + nowrap); Pin37 "your own" and Pin46 "rebranding." touched the right edge (226→196px, 168→152px); v1 Pin39/Pin42 ran to the edge and the long core-line quote was set too tight (tracking −0.05 → −0.04 overall).

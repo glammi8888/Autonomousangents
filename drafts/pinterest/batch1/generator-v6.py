@@ -38,9 +38,9 @@ class Component extends DCLogic {{
 # --- Format 1: dark-mode iPhone Notes screenshot (top "how to rebrand yourself" pin, 3,905 reactions)
 # ===== v5: photo-led, black & white high-contrast design, photos in colour (2 B&W for contrast) (Megan, Nov 15: "the other pins I want them more visual" + "keep a high contrast like black and white")
 B["e34"]="841dd818467d3ee2d8ad91449d66fdc3"; POS["e34"]="50% 12%"; POS["e20"]="50% 55%"; POS["e24"]="50% 8%"; POS["e27"]="50% 20%"; POS["e31"]="60% 30%"
-B.update({"n14":"742bb7df3d5aa3d310907070916b8a30","n16":"233e3c8b1372ede1ef7ecb0663429ac7","n17":"61c13ba5e0a9205473641aaca015e7c7","n18":"4104fae58009e60889f79ebf1c2348da"})  # Megan Nov 15, logos cropped out
-POS.update({"n14":"50% 25%","n16":"50% 30%","n17":"50% 18%","n18":"50% 20%"})
-THUMB={"n17":"50% 18%","e29":"60% 15%","e24":"50% 5%","e34":"50% 8%","e28":"50% 30%","e31":"70% 35%","e22":"50% 60%"}
+B.update({"l19":"7ab58c9e707b37ca7f8fb64c351c8287","l20":"73cb8b35f0722c3b2b27876f327172ba","l22":"25cc887437020aebe48755e2332924cf","l23":"f9aebbe835f6f14787a79bcfba5c4f11","n14":"742bb7df3d5aa3d310907070916b8a30","n16":"233e3c8b1372ede1ef7ecb0663429ac7","n17":"61c13ba5e0a9205473641aaca015e7c7","n18":"4104fae58009e60889f79ebf1c2348da"})  # Megan Nov 15, logos cropped out
+POS.update({"l19":"50% 0%","l20":"50% 15%","l22":"50% 15%","l23":"50% 20%","n14":"50% 25%","n16":"50% 30%","n17":"50% 18%","n18":"50% 20%"})
+THUMB={"n17":"50% 18%","l19":"50% 0%","l23":"55% 15%","e29":"60% 15%","e24":"50% 5%","e34":"50% 8%","e28":"50% 30%","e31":"70% 35%","e22":"50% 60%"}
 BW="filter:grayscale(1) contrast(1.18) brightness(0.96)"
 W="#FFFFFF"
 COL="filter:contrast(1.06) saturate(0.95)"
@@ -55,7 +55,7 @@ chapters=json.load(open(PROMPTS))
 allp=[t for ch in chapters for t in ch[1]]
 CH=[ch[0].split('·')[0].strip() for ch in chapters]
 SHORT=["Physical","Money","Love","Fashion","Beauty","Finances"]
-CHPH=["e34","e29","e31","n17","e24","e28"]  # Visual QA: photo matches chapter (beauty≠money)
+CHPH=["e34","e29","l23","n17","e24","e28"]  # Visual QA: photo matches chapter (beauty≠money)
 
 def p03():
     L=["pilates","hot girl walks","skincare","drink water","nails done","new hair","signature scent","early nights"]

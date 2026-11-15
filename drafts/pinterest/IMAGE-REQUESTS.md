@@ -12,3 +12,8 @@ Specs for every shot: vertical 2:3 (for example 1000×1500 or larger), in colour
 | 5 | Vision board on a wall or a table with cut-out pictures, pins and a hand | The vision board batch (next, before the New Year spike) | Vision board terms peak in late Dec / Jan |
 | 6 | A phone in hand showing a notes-app checklist (text unreadable or blurred) | Glow up checklist pins | Ties the Notes pins to a real moment |
 | 7 | Two or three friends laughing at dinner or brunch | Love chapter (Pins 11 + 16) | Love has a work photo right now |
+
+## Received (Nov 15)
+- **Luxury shopping (Megan: "that's for shopping and luxury fashion you can mix and match"):** n14, n16, n17, n18 are in use (logos cropped out). Asset ids are in generator-v6.py.
+- **Love:** l19, l20, l22 and l23 are uploaded to the canvas. l23 (rain kiss) is in use on the Love chapter. l19 (walking from above) has a head cut off at the source, so don't use it where heads must be whole. Skipped: the red bus kiss (bare wet back, badge on the bus), plus the more suggestive shots, which risk limited reach on Pinterest.
+- **Still needed:** the glossy beauty close-up (re-send), journal writing, desk with laptop + magazine, pilates/walk, vision board, phone checklist.

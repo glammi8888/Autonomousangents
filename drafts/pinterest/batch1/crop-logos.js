@@ -1,10 +1,10 @@
 const {chromium}=require('playwright');const fs=require('fs');const path=require('path');
 const D=process.argv[2];
 const jobs=[
- {src:'14.webp',out:'n14.jpg',crop:[0,0,928,820],blur:[]},
- {src:'16.webp',out:'n16.jpg',crop:[0,0,928,760],blur:[]},
- {src:'17.webp',out:'n17.jpg',crop:[0,0,928,1020],blur:[]},
- {src:'18.webp',out:'n18.jpg',crop:[0,0,690,1232],blur:[]},
+ {src:'19.webp',out:'l19.jpg',crop:[0,0,928,1232],blur:[]},
+ {src:'20.webp',out:'l20.jpg',crop:[180,0,748,1232],blur:[]},
+ {src:'22.webp',out:'l22.jpg',crop:[0,0,928,1232],blur:[]},
+ {src:'23.webp',out:'l23.jpg',crop:[0,0,928,900],blur:[]},
 ];
 (async()=>{const b=await chromium.launch();const p=await b.newPage();
 for(const j of jobs){

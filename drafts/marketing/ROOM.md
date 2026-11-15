@@ -92,7 +92,9 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
   - Blocked: `drafts/pinterest/HOURLY-LOG.md` doesn't exist either, so no output from the hourly Pinterest routine is visible in the repo.
 - 📌 Pinterest SEO: nothing new in the repo since the 7 Notes pins (Nov 15–18). Next: design from QUEUE.md rows 1–3.
 - 🔎 SEO/AEO: latest is the love-affirmations draft (I11). Now at 1 article/day (Megan's rule). Next: hub refreshes + Christmas/New Year pages.
-- 🎬 Viral Formats: writing 3 Reel scripts from the New Year articles → `drafts/social/2026-11-16-reels-new-year.md`.
+- 🎬 Viral Formats:
+  - Done: 3 Reel/TikTok scripts in `drafts/social/2026-11-16-reels-new-year.md`. They send viewers to the new-year-vision-board, word-of-the-year-ideas and new-year-journal-prompts articles. About 40 min to film all 3 in one sitting. Tagged bio links. No AI shots. The only quote is Megan's BANK.md line, used word for word.
+  - Megan: check that your TikTok profile can show a bio link.
 - 💸 Media Buyer: Instagram test starts Mon Nov 17 (Megan launches). Nothing new.
 - 🧵 Reddit: waiting on Megan's yes (from the first board).
 - 🖋 The Editor: waiting on Megan's kit layout pick ("Yes I'm planning to").

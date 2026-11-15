@@ -49,7 +49,7 @@ Bursts of posts or pins · duplicate or colour-swap "new" pins · keyword stuffi
 - 🧵 **Reddit Specialist:** move 7.
 - 💸 **Media Buyer:** move 9 and the creator side of 8.
 
-## 5. Goal 2: 500 new subscribers a month (sign-up levers)
+## 5. Sign-up levers (the leading indicator for goal 2)
 **Conversion we need:** sign-ups ÷ visits. Today both numbers are **missing**.
 - 500 ÷ 100,000 visits = **0.5%**.
 - At the 2k–25k visits a month expected in the first 3 months, it has to be **2–25%**. Plain blog pages alone won't do that, so most sign-ups have to come from freebie pages people land on directly.
@@ -72,3 +72,37 @@ All conversion rates below are **assumptions**. Our own forms will replace them.
 **Parked:** referral perk for subscribers who share (touches user data, needs her approval; the list is in Resend). Paid traffic to freebie pages only after S1 shows a real page conversion rate.
 
 **Order:** S5 now → S1 + S2 once the kit pages are live (late Nov) → S4 → S3 (December, before the New Year peak).
+
+## 6. Goal 2 funnel, built backwards: 500 new paying subscribers a month
+Prices (approved): Monthly $9.99 with no trial · Yearly $69.99 with a 7-day trial · approved waitlist guests get the founding rate, $39.99 for the first year.
+**Every rate below is an assumption.** None is measured yet. We swap in real numbers as soon as the beta and the launch give them.
+
+| Step (backwards from goal) | Assumed rate | Needed per month |
+|---|---|---|
+| Paying subscribers | — | **500** |
+| ← trials + direct monthly purchases | 30–50% become paid | 1,000–1,670 |
+| ← app installs | 10–25% start a trial or buy | 4,000–16,700 |
+| ← site visitors (App Store button on every article after launch) | 2–8% install | 50,000–835,000 |
+| ← email/waitlist list (launch email + reminders) | 15–40% of the list installs at launch | one-off launch spike |
+
+**Running it forward at 100k visits/mo:** 100,000 × 2–8% = 2,000–8,000 installs → × 10–25% = 200–2,000 trials → × 30–50% = **60–1,000 paying a month**. So 100k+ visits a month can carry 500 paying subscribers if our rates land in the middle or upper part of these ranges. That's why goal 1 comes first and 100k is the floor.
+
+### Which step each agent moves
+| Step | Agents |
+|---|---|
+| Visitors | 📌 Pinterest SEO · 🔎 SEO/AEO · 🧵 Reddit · 🎬 Viral Formats · 💸 Media Buyer |
+| Email/waitlist sign-ups | 🖋 The Editor (freebies, wallpaper maker) · 🔎 SEO/AEO (forms in articles) · 💚 Growth Lead (waitlist + founding-rate page) |
+| Installs | 💚 Growth Lead (launch email drafts, each send waits on Megan's OK) · 🔎 SEO/AEO (App Store button on articles after launch) · 💸 Media Buyer (app-install ads, only after organic proof) · App Store listing work is the ASO lane (Astro from Nov 16), outside this room |
+| Trials → paid | **Not this room.** Onboarding, paywall and price screens are product work (Megan + Replit via `/pipeline`; onboarding is locked). We only report the numbers back. |
+
+### Realistic ramp
+The calendar is set by the launch date. Megan sets that after the beta, so the milestones count from launch day (L).
+| When | Leading signal | Paying subscribers/mo (from the funnel above) |
+|---|---|---|
+| Now → Dec 11 beta | Email sign-ups growing every week (number missing today) | 0 (pre-launch) |
+| Beta → L | Real beta rates measured: install, return use, trial start | 0, or only beta guests if billing is on |
+| L (launch month) | Launch email to the whole list | one-off spike: list size × 15–40% × 10–25% × 30–50% |
+| L+3 | ~10k–30k visits/mo | ~6–300 |
+| L+6 | ~30k–60k visits/mo | ~18–600 |
+| L+9 to L+12 | 100k+ visits/mo | ~60–1,000 → **500 goal in range** |
+The visits column follows the 6–12 month path in section 0. Each month we replace one assumed rate with a real one and redo this table.

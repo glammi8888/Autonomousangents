@@ -1,7 +1,7 @@
 # 🚀 100K+ PLAN: issue11.app visits per month (draft for Megan)
 Nov 15, 2026 · 💚 Growth Lead, merged from 5 agent brainstorms (Pinterest SEO, SEO/AEO, Reddit, Media Buyer, Viral Formats).
 Megan, word for word: "brainstorm on how to get 100k visitors monthly on the website as fast as possible (but without getting flagged)" · "100k minimum of course".
-**Goal: at least 100,000 visits a month. 100k is the floor, not the ceiling.** Drafts only: nothing here is posted, scheduled or paid for without Megan's "go".
+**Goal 1: at least 100,000 visits a month (the floor, not the ceiling). Goal 2: 500 new subscribers a month** (Megan: "Ideally I'd want 500 new subscribers per month to issue11"; ⏳ what counts is pending her confirmation; for now = email/waitlist sign-ups on issue11.app). Drafts only: nothing here is posted, scheduled or paid for without Megan's "go".
 
 ## 0. Honest starting point
 - Real data today: issue11.app visits **missing**, Pinterest impressions **missing**, waitlist count **missing**. We have 32 URLs in the sitemap (fetched Nov 15) and 27 live blog posts. Pin1–Pin122 are designed and none are scheduled. Ad spend is $0.
@@ -48,3 +48,27 @@ Bursts of posts or pins · duplicate or colour-swap "new" pins · keyword stuffi
 - 🎬 **Viral Formats:** move 6, plus the creative for move 9.
 - 🧵 **Reddit Specialist:** move 7.
 - 💸 **Media Buyer:** move 9 and the creator side of 8.
+
+## 5. Goal 2: 500 new subscribers a month (sign-up levers)
+**Conversion we need:** sign-ups ÷ visits. Today both numbers are **missing**.
+- 500 ÷ 100,000 visits = **0.5%**.
+- At the 2k–25k visits a month expected in the first 3 months, it has to be **2–25%**. Plain blog pages alone won't do that, so most sign-ups have to come from freebie pages people land on directly.
+
+**How we'll track it:**
+- Count sign-ups by source every Monday: Waitlist Sheet + each freebie form.
+- Tag pin links with `utm_source=pinterest&utm_medium=organic&utm_campaign=<page>`. Reddit already uses its UTMs.
+- The ROOM.md rows "New subscribers" and "Visitor → sign-up conversion" stay "missing" until real counts exist.
+
+All conversion rates below are **assumptions**. Our own forms will replace them.
+
+| # | Lever | Owner (skills) | Expected sign-ups/mo (assumptions) | Speed | Cost | Flag risk | Megan |
+|---|---|---|---|---|---|---|---|
+| S1 | **Pins straight to freebie pages:** Rebrand Kit (live), Wallpapers, Vision Board Kit, Journal Prompts. The pin shows exactly what's inside. | Pinterest SEO (`pinterest-pin-design`, `lead-magnets`) | 15–40% of freebie-page visitors (assumed). 1,000 pin visits → 150–400 | 2–8 weeks | $0 | low (the freebie is delivered as promised) | layout pick (decision 3) |
+| S2 | **The matching freebie inside every article:** one inline form mid-article + one at the end ("Get the 2027 Journal Prompts" on journal articles, Vision Board Kit on vision board articles). The forms already exist. | SEO/AEO workers + the-editor (`lead-magnets`, `cro`, `copywriting`) | 1–5% of article visitors (assumed). 10k article visits → 100–500 | 1–2 weeks after kits are live | $0 | low | OK once (touches the forms → user data) |
+| S3 | **Free wallpaper maker** (already approved). Email needed to download, newsletter tick optional, ISSUE11 logo on every wallpaper, everything runs in the browser. | the-editor + Pinterest (`free-tools`, `lead-magnets`) | 10–30% of tool users (assumed). Tool visitors also come from pins + search | 3–6 weeks (build) | $0 | low | design OK; the Framer build goes through `/pipeline` (email form = user data) |
+| S4 | **Gentle popup or banner with the page's real freebie:** exit-intent on desktop, small bottom banner on mobile, easy to close. No fake urgency or countdowns, and no full-screen mobile popups (Google penalises intrusive interstitials on mobile). | SEO/AEO (`popups`, `cro`) | +0.5–2 points of conversion on articles (assumed) | 1–2 weeks | $0 | low as specified; med if full-screen on mobile | OK the copy |
+| S5 | **A real reason to join on the waitlist and thank-you pages:** approved guests lock in their founding rate ($39.99 first year, then $69.99, already approved), plus a beta spot for Dec 11. Wording as approved, never "50% off". | Growth Lead (`waitlist-page`, `copywriting`) | lifts waitlist-page conversion (missing until measured) | days | $0 | low (the offer is real) | none (already approved) |
+
+**Parked:** referral perk for subscribers who share (touches user data, needs her approval; the list is in Resend). Paid traffic to freebie pages only after S1 shows a real page conversion rate.
+
+**Order:** S5 now → S1 + S2 once the kit pages are live (late Nov) → S4 → S3 (December, before the New Year peak).

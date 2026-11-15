@@ -7,6 +7,8 @@ Rules: drafts only, so nothing is posted, sent, scheduled, published or paid for
 ## 1. The goal
 Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin views and traffic in the 100 thousands for issue11". Then users on the app.
 - North star: **at least 100,000 visits a month to issue11.app**. Megan, Nov 15: "100k minimum of course". 100k is the floor, not the ceiling: plan moves that can go beyond it, never anything that gets us flagged. Deadline: not set by Megan yet.
+- **Goal 2: 500 new subscribers a month.** Megan, Nov 15: "Ideally I'd want 500 new subscribers per month to issue11". ⏳ *Pending Megan's confirmation of what counts.* Until then we count email/waitlist sign-ups on issue11.app (waitlist forms + Rebrand Kit and other freebie forms).
+- What that means for conversion: 500 ÷ 100,000 visits = 0.5% of visitors signing up. At lower traffic it has to be higher (at 10,000 visits/mo it's 5%).
 - Supporting: Pinterest impressions in the millions per month → outbound clicks → visits → waitlist sign-ups → beta users (private beta Dec 11, 2026).
 
 ## 2. This week's numbers (week of Nov 15, 2026)
@@ -15,6 +17,8 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 | issue11.app visits / month | **missing** | Framer analytics, not read yet |
 | Pinterest impressions (pin views) / month | **missing** | Pinterest Analytics / Metricool, not read yet |
 | Pinterest outbound clicks | **missing** | same |
+| New subscribers this month (goal 500) | **missing** | Waitlist Sheet + freebie forms, not counted yet |
+| Visitor → sign-up conversion | **missing** (needs both visits and sign-ups) | sign-ups ÷ visits, same period |
 | Waitlist sign-ups (real) | **missing** (last count: 0 real on Nov 7, before any promotion) | Waitlist Google Sheet |
 | Live pages in sitemap | 32 URLs | issue11.app/sitemap.xml, fetched Nov 15 |
 | Blog article drafts in repo | 35 (#1–#35) | `drafts/issue11-blog/` |
@@ -68,3 +72,4 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 ## 6. Log
 - 2026-11-15 · Growth Lead · Room set up. Read CLAUDE.md, lessons, STRATEGY.md, the 4 agent files, recent ads/blog/pinterest drafts. Numbers filled from repo + sitemap only; traffic rows missing. No agents run, nothing posted or spent.
 - 2026-11-15 22:45 · Growth Lead · Megan: "100k minimum of course" → goal is at least 100k/mo. Roll call + brainstorm (5 subagent runs: Pinterest, Reddit, Media Buyer, SEO/AEO, Viral; all text only). Merged into `100K-PLAN.md`. Decisions replaced with the 3 most blocking.
+- 2026-11-15 22:40 · Growth Lead · Megan: "Ideally I'd want 500 new subscribers per month to issue11". Added as goal 2 (definition pending her OK), conversion rows, and sign-up levers in 100K-PLAN.md section 5.

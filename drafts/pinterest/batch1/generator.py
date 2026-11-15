@@ -51,8 +51,8 @@ def notes(date, title, sections, footer, photo=None):
   {img(photo,'margin-top:26px; width:100%; height:330px; border-radius:22px') if photo else ''}
   {secs}
 </div>
-<div style="position:absolute; left:0; right:0; bottom:0; padding:30px 64px; background:#1c1c1e; display:flex; justify-content:space-between; align-items:center; color:#fff; font-family:{SYS}">
-  <span style="font-size:30px; font-weight:600">{footer}</span>{logo(True)}
+<div style="position:absolute; left:0; right:0; bottom:0; padding:26px 64px 30px; background:#fff; display:flex; justify-content:space-between; align-items:center; color:#0D0D0D; font-family:'Inter Tight', {SYS}">
+  <div><p style="margin:0; font-size:26px; font-weight:500">{footer}</p><p style="margin:4px 0 0; font-size:44px; font-weight:800; letter-spacing:-0.03em">Get it free at issue11.app →</p></div>{logo()}
 </div>""")
 # --- Format 2: ✨ two-column checklist over a photo (top "glow up checklist" pin, 1,416 reactions)
 def checklist(title, left, right, photo, footer):
@@ -114,12 +114,14 @@ P=[
  ("Pin16","Lifemaxxing 101 · cheat sheet", cheatsheet("Lifemaxxing 101: your 2027 guide","One chapter at a time. Paste the prompt, do one small thing.",[(f"{i+1:02d}",ch[0].split('·')[0].strip()+"maxxing" if False else ch[0].split('·')[1].strip(),"Prompt: "+ch[1][0][0].rstrip('.')) for i,ch in enumerate(chapters)],cols=1,bg=LILAC,fs=28,photo="e22",photo_h=330)),
 ]
 c=json.load(open(f"{R}/project/canvas.json"))
+NOTES={"Pin01","Pin02","Pin06","Pin09","Pin12","Pin14","Pin15"}  # v6+ only the Notes pins come from this file
 for i,(k,t,(bg,inner)) in enumerate(P):
+    if k not in NOTES: continue
     open(f"{R}/project/{k}.dc.html","w").write(doc(t,inner,bg))
     if f"{k}.dc.html" not in c["boards"]:
         c["boards"][f"{k}.dc.html"]={"x":(i%7)*1080,"y":3300+(i//7)*1620,"w":1000,"h":1500}
         c["order"].append(f"{k}.dc.html")
-    c["boards"][f"{k}.dc.html"]["title"]=f"Pin batch 1 v2 · {t}"
-c["notes"]["pins1"]["text"]="Pinterest batch 1 v2: viral formats (Notes, checklist, cheat sheet, printable, type card) → issue11.app/rebrand-kit"
+    c["boards"][f"{k}.dc.html"]["title"]=f"Pin batch 1 · Notes (approved) · {t}"
+#c["notes"]["pins1"]["text"]="Pinterest batch 1 v2: viral formats (Notes, checklist, cheat sheet, printable, type card) → issue11.app/rebrand-kit"
 json.dump(c,open(f"{R}/project/canvas.json","w"),ensure_ascii=False,indent=2)
 print("ok")

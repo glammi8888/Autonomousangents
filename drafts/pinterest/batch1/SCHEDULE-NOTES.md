@@ -1,6 +1,6 @@
 # Notes pins: ready to schedule (Megan approved Nov 15)
 Images hosted on Framer CDN (issue11.app project). Link: https://issue11.app/rebrand-kit. Not AI-flagged (text-only, Megan: "no need to mention that the pins without images are AI").
-Blocked: the Pinterest account (issue11app) has no boards yet. Megan creates the 5 boards below, then OPS schedules.
+✅ SCHEDULED Nov 14 (Metricool ids 428565808, 428565873, 428565911, 428565943, 428566129, 428565994, 428566034). Boards: Glow Up Tips 253327616479086940 · How to rebrand yourself …941 · 2027 Visionboard Ideas …942 · Journal Prompts …943 · Lifemaxxing …944.
 
 | Pin | When (PT) | Board | Title | Image |
 |---|---|---|---|---|

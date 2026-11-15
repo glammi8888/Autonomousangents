@@ -194,3 +194,12 @@ Kept but flagged (vendor plugs, disclosed in the text): Converly, Attributer, Pl
   - workflow reinstalls with pip every session.
   - It includes celebrity selfies, face swap/lipsync, AI watermark removal, low-censorship tiers and undisclosed UGC/testimonial recipes.
 - Needs Megan's decisions before any install.
+
+## Nov 15, 2026: 4 Pinterest skills INSTALLED (Megan asked: "Is there a skill for Pinterest growth?", then "Yes please")
+- pinterest-growth, pinterest-seo, pinterest-pin-design: from github.com/social-media-skills/skills @ f28cef2 · MIT.
+- pinterest-growth-manager: from github.com/milad-ahmd/pinterest-growth-manager @ 322c0bd · MIT.
+- Installed unmodified as `.claude/skills/<name>`, with LICENSE copied and an ISSUE11 overrides block appended.
+- Scan: SAFE. Text only (SKILL.md, references, evals.json). There are no scripts or hooks, no allowed-tools and 0 hidden Unicode, and nothing reads keys or .env. Nothing is sent online. Every SKILL.md and reference file was read in full; the evals.json files were pattern-checked.
+- Notes:
+  - The skills assume WoopSocial for publishing. We use Metricool (see the override).
+  - The pgm README suggests a `curl | bash` installer. We did NOT use it; we copied the skill folder by hand.

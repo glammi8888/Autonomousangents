@@ -19,6 +19,7 @@ Before working, read:
 
 Skills to load first:
 - `anthropic-skills:pinterest-posts`: Pinterest titles, descriptions, boards and posting rhythm
+- `pinterest-growth`, `pinterest-seo`, `pinterest-pin-design`, `pinterest-growth-manager`: the Pinterest playbook (PINS, FOUND, SAVED frameworks; fresh pins, 72h same-URL spacing, seasonal 45–90 days early)
 - `seo-research`: keyword research and search intent
 - `copywriting`: copy in the customer's own words, no AI tells
 - `marketing-psychology`: ethical hooks (curiosity, identity, social proof without fake numbers)

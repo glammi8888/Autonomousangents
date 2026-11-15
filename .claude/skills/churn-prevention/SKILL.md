@@ -128,6 +128,7 @@ The key insight: **match the offer to the reason.** A discount won't save someon
 **Discount**
 - 20-30% off for 2-3 months is the sweet spot
 - Avoid 50%+ discounts (trains customers to cancel for deals)
+- Time-limit the offer ("This offer expires when you leave this page")
 - Show the dollar amount saved, not just the percentage
 
 **Pause subscription**

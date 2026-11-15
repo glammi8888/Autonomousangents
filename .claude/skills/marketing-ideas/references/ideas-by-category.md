@@ -41,7 +41,7 @@ Complete list of proven marketing approaches organized by category.
 
 9. **Knowledge Base SEO** - Optimize help documentation for search. Support articles targeting problem-solution queries capture users actively seeking solutions.
 
-10. **Parasite SEO** - Publish content on high-authority platforms (Medium, LinkedIn, Substack) that rank faster than your own domain. *(ISSUE11: check platform rules and the law first; ask Megan.)*
+10. **Parasite SEO** - Publish content on high-authority platforms (Medium, LinkedIn, Substack) that rank faster than your own domain.
 
 ---
 
@@ -123,6 +123,7 @@ Complete list of proven marketing approaches organized by category.
 
 42. **Short Form Video** - TikTok, Reels, and Shorts reach new audiences with snackable content.
 
+43. **Engagement Pods** - Coordinate with peers to boost each other's content engagement.
 
 44. **Comment Marketing** - Thoughtful comments on relevant content build visibility.
 
@@ -164,6 +165,7 @@ Complete list of proven marketing approaches organized by category.
 
 59. **Article Quotes** - Contribute expert quotes to journalists. HARO connects experts with writers.
 
+60. **Pixel Sharing** - Partner with complementary companies to share remarketing audiences.
 
 61. **Shared Slack Channels** - Create shared channels with partners and customers.
 
@@ -221,11 +223,11 @@ Complete list of proven marketing approaches organized by category.
 
 82. **Product Hunt Alternatives** - Launch on BetaList, Launching Next, AlternativeTo.
 
-83. **Twitter Giveaways** - Engagement-boosting giveaways that require follows or retweets. *(ISSUE11: check platform rules and the law first; ask Megan.)*
+83. **Twitter Giveaways** - Engagement-boosting giveaways that require follows or retweets.
 
 84. **Giveaways** - Strategic giveaways attract attention and capture leads.
 
-85. **Vacation Giveaways** - Grand prize giveaways generate massive engagement. *(ISSUE11: check platform rules and the law first; ask Megan.)*
+85. **Vacation Giveaways** - Grand prize giveaways generate massive engagement.
 
 86. **Lifetime Deals** - One-time payment deals generate cash and users.
 

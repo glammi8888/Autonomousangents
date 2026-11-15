@@ -214,6 +214,7 @@ For implementation, see the [tools registry](https://github.com/coreyhaines31/ma
 | **HubSpot** | CRM lead-source + self-reported fields | ✓ | [hubspot.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/hubspot.md) |
 | **Salesforce** | CRM as revenue source of truth | - | [salesforce.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/salesforce.md) |
 | **Supermetrics** | Pull platform numbers into one place to reconcile | ✓ | [supermetrics.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/supermetrics.md) |
+| **RB2B** | De-anonymize B2B website visitors | - | [rb2b.md](https://github.com/coreyhaines31/marketingskills/blob/main/tools/integrations/rb2b.md) |
 
 ---
 

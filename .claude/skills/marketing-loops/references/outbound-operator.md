@@ -48,10 +48,10 @@ If the CRM already holds suppression and stages, use it as the source of truth a
 
 | Action | Default |
 |--------|---------|
-| Enroll Tier 3 contacts in an approved sequence | ISSUE11: stage for Megan's approval |
-| Tier 2 first touches | ISSUE11: Megan approves each |
+| Enroll Tier 3 contacts in an approved sequence | Agent alone, within caps |
+| Tier 2 first touches | Agent alone; a human reviews a sample weekly |
 | Tier 1 messages on any channel | Human approves each |
-| Suppress, pause for out-of-office, set not-now reminders | ISSUE11: stage for Megan's approval |
+| Suppress, pause for out-of-office, set not-now reminders | Agent alone |
 | Responses to positive, objection, information, and referral replies | Agent drafts, human sends, until accuracy is proven over 100+ replies |
 | New sequences, new claims, new segments | Human approves |
 | LinkedIn actions | Per the owner's automation decision (see the cold-email LinkedIn reference) |

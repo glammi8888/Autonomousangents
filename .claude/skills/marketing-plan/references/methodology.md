@@ -334,7 +334,7 @@ Ask the user:
 
 If yes:
 - Clone (or assume cloned) target repo
-- Check out a feature branch (ISSUE11: never push to main; Megan approves merges)
+- Check out a feature branch or push direct to main per user's preference
 - Copy `final_plan.md` to the target path
 - Adjust the appendix to use repo-relative paths (not machine paths)
 - Commit + push

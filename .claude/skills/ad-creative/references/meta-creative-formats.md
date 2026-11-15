@@ -67,7 +67,7 @@ TikTok love letter · Real short *(top-of-funnel support, Med)* · Callout ads �
 
 Can win in narrow conditions but cost more than they return for most accounts. Reach for these only when the specific condition applies.
 
-AI animation *(Pixar/claymation; High — hits net-new pockets initially, rarely holds long-term)* · Statistics ads *(luxury/retail + awareness/traffic objectives, **not** D2C ROI)* · Celebrity *(High; can crank or be a money pit)* · AI avatar *(has scaled **with** legal disclaimers, but phasing out as brands pick real creators)* · Warehouse *(High; great for sales, complex to shoot)* · Street interview *(ISSUE11: real only; a recreation must be disclosed as one)* · Duet/reaction/stitch *(needs rights from the original creator)* · ASMR *(pet/beauty; needs specific ASMR creators)* · Regular UGC *(still works, but **general fatigue** on manufactured problem-solution VO + B-roll UGC)*
+AI animation *(Pixar/claymation; High — hits net-new pockets initially, rarely holds long-term)* · Statistics ads *(luxury/retail + awareness/traffic objectives, **not** D2C ROI)* · Celebrity *(High; can crank or be a money pit)* · AI avatar *(has scaled **with** legal disclaimers, but phasing out as brands pick real creators)* · Warehouse *(High; great for sales, complex to shoot)* · Street interview *(often better to **fake/recreate** than capture live)* · Duet/reaction/stitch *(needs rights from the original creator)* · ASMR *(pet/beauty; needs specific ASMR creators)* · Regular UGC *(still works, but **general fatigue** on manufactured problem-solution VO + B-roll UGC)*
 
 ---
 
@@ -97,6 +97,7 @@ Explicitly de-prioritized. These aren't just weak — they cost real time/rights
 
 - **Portfolio, not silver bullet.** Only founder / partnership / authority / investigation / VSL / grid-static reliably scale cold. Everything else is a converter — staff both roles.
 - **Andromeda is persona-based** → creator-fronted formats win because the format *is* the targeting.
+- **Fake it when honest capture is painful** — street interviews and duet reactions can be recreated; don't wait for the perfect real moment.
 - **Fatigue is real** on over-taught formats (manufactured UGC, notes-app, AI billboards). **Freshness itself is an edge** — a novel-but-honest format out-punches a saturated "best practice."
 
 ---

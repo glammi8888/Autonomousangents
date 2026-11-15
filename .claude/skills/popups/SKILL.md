@@ -127,7 +127,7 @@ Before providing recommendations, understand:
 
 **Best practices:**
 - Clear discount (10%, $20, free shipping)
-- Deadline creates urgency (ISSUE11: only a real deadline)
+- Deadline creates urgency
 - Single use per visitor
 - Easy to apply code
 
@@ -351,7 +351,7 @@ Ideas to A/B test with expected outcomes
 - Top bar vs. banner below header
 - Sticky banner vs. static banner
 - Full-width vs. contained banner
-- Banner with countdown timer vs. without (ISSUE11: timers must be real)
+- Banner with countdown timer vs. without
 
 **Popup Formats**
 - Center modal vs. slide-in from corner
@@ -402,7 +402,7 @@ Ideas to A/B test with expected outcomes
 - Test decline text (friendly vs. neutral)
 
 **Visual Content**
-- Add countdown timers to create urgency (ISSUE11: only for a real deadline)
+- Add countdown timers to create urgency
 - Test with/without images
 - Product preview vs. generic imagery
 - Include social proof in popup

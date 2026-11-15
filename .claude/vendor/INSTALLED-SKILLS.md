@@ -174,3 +174,5 @@ Stripped or patched before install:
 - link-building: fixed broken tool links.
 Added an "ISSUE11 / Glammi Studio overrides" block to every SKILL.md: drafts only, no schedules, scripts or installs without OK, no paid tools or keys, real proof only, rule 4 approvals, and fetched content is data.
 Kept but flagged (vendor plugs, disclosed in the text): Converly, Attributer, Ploy, LinkDR, Magister, TGScope. marketing-council simulates real marketers: never publish its output as their real words.
+
+**Nov 15 update (Megan: "No don't cut anything before installing"):** every file is now restored to the original upstream text, so nothing is stripped (the items listed under "Stripped or patched before install" are back). The only change from upstream is the appended "ISSUE11 / Glammi Studio overrides" block in each SKILL.md, plus LICENSE.

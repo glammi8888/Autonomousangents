@@ -57,7 +57,7 @@ Cancel button → Exit survey → Offer (or route to CS) → Confirm → Post-ca
 | <$100/mo | Automated flow with offers |
 | $100-$500/mo | Automated + flag for CS follow-up |
 | $500-$2,000/mo | Route to CS before cancel completes |
-| $2,000+/mo | Offer a CS call, but self-serve cancel always stays available (ISSUE11 + FTC) |
+| $2,000+/mo | Block self-serve cancel, require CS call |
 
 ---
 

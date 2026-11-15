@@ -13,7 +13,7 @@ Settle five things with the owner and write them at the top of the operator brie
 | **Site** | The production URL |
 | **Conversion** | The one action that counts (trial, demo request, purchase). Traffic that never reaches it isn't the goal |
 | **Competitors** | 3–8 names, or permission to find them from the SERPs and AI answers |
-| **Ship mode** | "Open a PR for review" (ISSUE11: always; never auto-merge); see `loop-guardrails.md` |
+| **Ship mode** | "Open a PR for review" (default) or "merge when checks pass." Auto-merge needs the owner's explicit say-so; see `loop-guardrails.md` |
 | **Data access** | Which of Search Console, analytics, a rank or backlink tool, and an AI-visibility tool the agent can read |
 
 Then confirm the foundation: tracking works (the tracking-QA loop), and `.agents/product-marketing.md` exists. If it doesn't, build it with the `product-marketing` skill first. The operator reads product facts from there; it doesn't keep a second copy.

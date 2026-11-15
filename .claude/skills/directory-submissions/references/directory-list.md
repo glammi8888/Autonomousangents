@@ -272,7 +272,7 @@ Not directories per se — these are blog posts on high-DR domains that you get 
 - `"[category] tools review"`
 
 **Outreach template (short):**
-> Hey [name], saw your post on [best X tools]. We launched [product] recently — thought it might be worth a mention. Here's a 60s demo: [link]. No worries if not a fit.
+> Hey [name], saw your post on [best X tools]. We launched [product] recently — thought it might be worth a mention. Happy to give you a free account + credits for readers. Here's a 60s demo: [link]. No worries if not a fit.
 
 **Target:** 10 inclusions in 30 days. Each = dofollow backlink from DR 40–70 + referral traffic + AI citation fuel.
 
@@ -296,11 +296,93 @@ Only relevant once the product has integrations. These are the highest-DR backli
 
 ## Tier 8 — Profile & Content Platforms
 
-*Removed for ISSUE11 (spam / low-quality backlink risk; see the skill's own warnings).*
+Create a profile or publish content on these high-DR platforms to earn a dofollow backlink. These are not traditional directories — they're content and identity platforms where your profile or published content links back to your site. Highest DR backlinks available without building integrations.
+
+| Platform | DR | Category | Type | Notes |
+|---|---|---|---|---|
+| **WordPress.com** | 100 | Any | Blog | Create a free blog, link to main site in posts and profile. |
+| **Blogger** | 100 | Any | Blog | Google property. Free blog with dofollow links. |
+| **Tumblr** | 99 | Design | Blog | Highest DR blog platform. Project blog or microblog. |
+| **GitHub** | 98 | Tech | Code host | Profile + repo README links. Every software product should have this. |
+| **SoundCloud** | 96 | Music | Profile | Niche — relevant for audio/music products. |
+| **Weebly** | 95 | Any | Blog | Free site builder with dofollow profile link. |
+| **SlideShare** | 95 | Any | Content | Upload pitch decks, guides, presentations. |
+| **Flickr** | 95 | Photography | Profile | Product screenshot galleries with profile link. |
+| **GitLab** | 94 | Tech | Code host | Profile link. Mirror repos if open source. |
+| **eBay Stores** | 94 | E-commerce | Profile | Niche — relevant for physical/digital goods. |
+| **Etsy** | 93 | E-commerce | Profile | Niche — templates, digital downloads. |
+| **Substack** | 93 | Tech | Newsletter | Publish product updates, thought leadership. High-intent readers. |
+| **Bitbucket** | 93 | Tech | Code host | Profile link. Atlassian property. |
+| **Scribd** | 93 | Any | Content | Upload whitepapers, guides, case studies. |
+| **Disqus** | 93 | Professional | Profile | Profile with website link. Comment on industry blogs. |
+| **Behance** | 93 | Design | Profile | Portfolio/project links. Best for design-adjacent products. |
+| **Pastebin** | 93 | Tech | Code host | Code snippets with profile link. |
+| **Patreon** | 93 | Creator | Profile | Creator page with product links. |
+| **Imgur** | 93 | Any | Profile | Image hosting with profile link. |
+| **Dun & Bradstreet** | 93 | B2B | Directory | Business credibility. Feeds AI training corpora. |
+| **Ghost.org** | 92 | Any | Blog | Publish content with dofollow links. |
+| **Evernote** | 92 | Any | Content | Public notebooks with links. |
+| **Issuu** | 92 | Any | Content | Upload marketing PDFs, brochures, reports. |
+| **CodePen** | 92 | Tech | Profile | Front-end demos and profile link. |
+| **Kaggle** | 92 | AI | Profile | AI/data science community. Notebooks with links. |
+| **Houzz** | 92 | Home | Profile | Niche — home/interior products. |
+| **LiveJournal** | 91 | Any | Blog | Legacy but high DR. Blog with dofollow links. |
+| **Bandcamp** | 91 | Music | Profile | Niche — audio products. |
+| **Dev.to** | 90 | Tech | Blog | Technical articles with dofollow links. Cross-post with canonical URL. |
+| **Gravatar** | 90 | Professional | Profile | Profile with website link. Quick setup. |
+| **Replit** | 90 | Tech | Code host | Profile link. Interactive demos. |
+| **CodeProject** | 90 | Tech | Blog | Technical articles for dev audience. |
+| **Jimdo** | 89 | Any | Blog | Free site builder with profile link. |
+| **Calameo** | 89 | Any | Content | Digital publishing platform. Upload PDFs. |
+| **Buy Me a Coffee** | 88 | Creator | Profile | Creator page with product links. |
+| **ArtStation** | 88 | Design | Profile | Portfolio for creative/design products. |
+| **500px** | 88 | Photography | Profile | Product imagery with profile link. |
+| **IndiaMART** | 87 | B2B | Profile | Indian B2B marketplace. Niche but high DR. |
+| **Strikingly** | 87 | Any | Blog | Free one-page site with backlink. |
+| **Hashnode** | 85 | Tech | Blog | Dev blogging. Custom domain support. Dofollow links. |
+| **About.me** | 85 | Professional | Profile | One-page profile. Quick dofollow backlink. |
+| **Mixcloud** | 85 | Music | Profile | Niche — audio/podcast products. |
+| **4Shared** | 85 | Any | Content | File sharing with profile link. |
+| **HubPages** | 84 | Any | Blog | Article publishing platform. |
+| **AppSumo** | 84 | E-commerce | Marketplace | SaaS deals marketplace. Great for launch visibility + backlink. |
+| **TeachersPayTeachers** | 84 | Education | Profile | Niche — education products. |
+| **AuthorStream** | 70 | Any | Content | Presentation sharing. |
+| **Model Mayhem** | 72 | Design | Profile | Niche — creative industry. |
+| **Penzu** | 60 | Any | Blog | Online journal with profile link. |
+| **Crevado** | 50 | Design | Profile | Portfolio platform. |
+| **MyFolio** | 55 | Design | Profile | Portfolio platform. |
+
+---
 
 ## Tier 9 — Local Business & General Directories
 
-*Removed for ISSUE11 (spam / low-quality backlink risk; see the skill's own warnings).*
+Relevant for products with a physical presence, local customer base, or business address. Also useful for any product wanting pure DR-building backlinks from established directories.
+
+| Directory | DR | Category | Notes |
+|---|---|---|---|
+| **Manta** | 76 | Local business | US business directory. Free listing. |
+| **ActiveSearchResults** | 74 | General | Search engine directory. |
+| **Hotfrog** | 72 | Local business | International business directory. |
+| **Spoke** | 70 | B2B | Business profile directory. |
+| **Locanto** | 70 | General | Classifieds + business listings. International. |
+| **MerchantCircle** | 68 | Local business | US small business directory. |
+| **Just Landed** | 65 | Local business | International directory. |
+| **Showmelocal** | 64 | Local business | US local search directory. |
+| **Cylex** | 64 | Local business | International business directory. |
+| **Brownbook** | 63 | Local business | Global business directory. |
+| **Tupalo** | 62 | Local business | European business directory. |
+| **WebWiki** | 60 | General | Website directory with reviews. |
+| **iBegin** | 60 | Local business | US business directory. |
+| **CitySquares** | 55 | Local business | US local business directory. |
+| **eLocal** | 55 | Local business | US service provider directory. |
+| **2FindLocal** | 53 | Local business | US local directory. |
+| **Chamber of Commerce** | 50 | Local business | Business directory + resources. |
+| **FindUsLocal** | 50 | Local business | Local search directory. |
+| **ezlocal** | 50 | Local business | US local business listings. |
+| **Yellow Pages Goes Green** | 49 | Local business | Eco-friendly business directory. |
+| **Where To?** | 46 | Local business | Local discovery directory. |
+
+---
 
 ## Tier 10 — Forums & Communities
 
@@ -314,7 +396,9 @@ Create a profile and participate in relevant communities. Most give dofollow pro
 | **Mumsnet Forums** | 85 | Family | Niche — family/parenting products. Large UK audience. |
 | **Digital Point** | 82 | Marketing | SEO/marketing forum. |
 | **WebmasterWorld** | 77 | Marketing | SEO/webmaster community. High editorial standards. |
+| **BlackHatWorld** | 77 | Marketing | SEO/marketing forum. Despite the name, has legitimate discussions. |
 | **GrowthHackers** | 76 | Marketing | Growth marketing community. Dofollow articles + profile. |
+| **Warrior Forum** | 73 | Marketing | Internet marketing community. |
 | **Apsense** | 72 | Marketing | Business networking + marketing forum. |
 | **ActiveRain** | 70 | Real estate | Niche — real estate industry. |
 | **Quibblo** | 55 | General | Quiz/poll community with profile links. |
@@ -323,11 +407,61 @@ Create a profile and participate in relevant communities. Most give dofollow pro
 
 ## Tier 11 — Press Release, Article & Blog Directory Sites
 
-*Removed for ISSUE11 (spam / low-quality backlink risk; see the skill's own warnings).*
+Publish articles or press releases to earn dofollow backlinks. Best for product launches, funding announcements, major feature releases. Some accept any topic, others are PR-specific.
+
+### Article & Blog Directories
+
+| Site | DR | Type | Notes |
+|---|---|---|---|
+| **Feedspot** | 80 | Blog directory | Blog discovery + RSS aggregation. Submit your blog. |
+| **Alltop** | 73 | Blog directory | Guy Kawasaki's blog aggregator. |
+| **ArticlesBase** | 70 | Article | Article publishing platform. |
+| **Blogarama** | 64 | Blog directory | Blog directory with categories. |
+| **Sooper Articles** | 60 | Article | Article submission site. |
+| **OnToplist** | 60 | Blog directory | Blog ranking directory. |
+| **BlogEngage** | 55 | Blog directory | Blog promotion community. |
+| **BizSugar** | 55 | Business | Small business content sharing. |
+| **TechPluto** | 50 | Marketing | Tech/marketing blog directory. |
+
+### Press Release Distribution
+
+| Site | DR | Notes |
+|---|---|---|
+| **PRLog** | 80 | Free press release distribution. Good reach. |
+| **PR.com** | 77 | Free + paid press releases. Business directory too. |
+| **OpenPR** | 72 | Free international press release distribution. |
+| **1888 Press Release** | 69 | Free press release site. |
+| **NewswireToday** | 65 | Free press release distribution. |
+| **PR Free** | 62 | Free press release site. |
+
+### Marketing & General Directories
+
+| Site | DR | Notes |
+|---|---|---|
+| **SubmissionWebDirectory** | 61 | General web directory. |
+| **Site Promotion Directory** | 46 | Marketing-focused directory. |
+| **Semfirms** | 45 | Marketing services directory. |
+| **CabinetM** | 45 | Marketing technology directory. |
+| **Cold Email Kit** | 44 | Email marketing directory. |
+| **Directory LDM Studio** | 40 | General directory. |
+| **Quality Internet Directory** | 39 | General web directory. |
+| **ProofStories** | 32 | Marketing stories/case studies. |
+
+---
 
 ## Tier 12 — Social Bookmarking & Curation
 
-*Removed for ISSUE11 (spam / low-quality backlink risk; see the skill's own warnings).*
+Bookmark or curate content with dofollow links. Lower effort than publishing full articles. Most useful for building diverse backlink profile.
+
+| Platform | DR | Notes |
+|---|---|---|
+| **Scoop.it** | 91 | Content curation platform. Create topic pages with links. |
+| **Diigo** | 85 | Social bookmarking + annotation. Profile + bookmark links. |
+| **Pearltrees** | 84 | Visual content curation. Organize links into collections. |
+| **BibSonomy** | 70 | Academic bookmarking. Best for research/data products. |
+| **Folkd** | 64 | Social bookmarking. Tag and share links. |
+
+---
 
 ## Tier 13 — Niche Vertical Directories
 

@@ -179,7 +179,7 @@ UGC- and creator-driven short-form formats that reliably perform for growth and 
 - **When:** pet, beauty, food, or tactile products where the sensory experience *is* the appeal. Situational and needs the right ASMR-native creator.
 - **Mechanics:** breaks the mute-by-default rule — the audio is the point; capture it clean. Requires talent who actually shoots ASMR; a generalist creator can't fake the sensory craft.
 
-### Format 13 — Street Interview · C
+### Format 13 — Street Interview · C ("often better to fake")
 **Shape:** person-on-the-street questions — real or recreated — capturing candid reactions to your product or category question.
 
 ```
@@ -187,7 +187,7 @@ UGC- and creator-driven short-form formats that reliably perform for growth and 
 ```
 
 - **When:** you want the credibility of unscripted public reaction. Situational and operationally heavy to capture honestly.
-- **Mechanics:** ISSUE11: real interviews only, with releases. A recreation must be clearly labelled as a dramatization; never present actors as real passersby.
+- **Mechanics:** honest capture is painful (releases, dead takes, weather, luck), so this format is **often better staged/recreated** with the same visual language — the recreated version is faster, controllable, and reads the same. If you do stage it, keep the claims real (Grounded Inputs still apply).
 
 ### Founder / Organic Vlog Structures
 

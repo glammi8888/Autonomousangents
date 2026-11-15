@@ -327,6 +327,7 @@ Organized by:
 **Friction Points**
 - Email verification required vs. delayed vs. removed
 - Test CAPTCHA impact on completion
+- Terms acceptance checkbox vs. implicit acceptance
 - Phone verification for high-value accounts
 
 ---

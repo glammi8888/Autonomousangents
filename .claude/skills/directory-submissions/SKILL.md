@@ -192,7 +192,7 @@ Product Hunt is the single highest-leverage submission but also the most easily 
 
 ### 3-week prep timeline
 
-- **Day -21 to -14:** Use the account genuinely: comment on launches you actually care about (ISSUE11: no engagement farming).
+- **Day -21 to -14:** Warm up hunter account. Upvote + thoughtfully comment on 3 launches/day. Follow 100+ active makers. Build history so your account looks real to the algorithm.
 - **Day -14:** Create "Upcoming" page on PH. Drive traffic to it to collect "notify on launch" subscribers.
 - **Day -10:** (Optional) book a hunter. Don't pay cash — trade a feature, shoutout, or intro. A known hunter adds ~15% to day-one momentum but isn't required.
 - **Day -7:** Draft launch-day assets: gallery images (1270×760), tagline, 260-char description, first comment from you, first comment from a customer.

@@ -33,7 +33,7 @@ Research (data before ideas):
 Pin rules (approved by Megan, Nov 14–15, 2026):
 - **Copy the viral format, fill it with our offer.** Every pin points to one real lead magnet, and the pin shows what's inside it.
 - **Notes pins:** a dark iPhone Notes screenshot with no photos. They should sound like a real girl's phone: lowercase, concrete, a little messy ("drink water. actually"). Megan's own note is the bar: a short title, about 4 plain items, real numbers, one item ending in "?". Never copy Megan's personal goals.
-- **All other pins are photo-led:** big photos in colour, with high-contrast black and white design (type, frames, footers). A few B&W photos are fine for contrast. No pastel backgrounds, no ombré, no hot pink.
+- **All other pins are photo-led:** big photos in colour, with high-contrast black and white design (type, frames, footers). Photos are never black and white (Megan: "Also no images in black and white"). No pastel backgrounds, no ombré, no hot pink.
 - **Crops:** set a focal point per photo, and never cut faces or put text on a face.
 - **Logo:** the ISSUE11 logo is on every pin. Inter Tight is the only font. Pins are 1000×1500.
 - **Lexicon and words:** use lexicon terms and real search phrases ("glow up", "lifemaxxing", "personal rebrand", "i'm the art director of my life").

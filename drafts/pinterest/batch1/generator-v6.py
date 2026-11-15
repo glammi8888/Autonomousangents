@@ -103,7 +103,7 @@ def p16():
 days=["Write your 2027 list","Pick 1 glow up habit","5-min morning","Walk 20 min","Clear one drawer","Money date","Text a friend","Say no, kindly","Plan 1 outfit","Skincare + water","Rest day","Your savings number","List your wins","Ask for more","Try a new class","Unfollow 10","Read 10 pages","Budget with fun","Cook something nice","Rest day","Letter from future you","1 brave email","Style 3 outfits","Early night","Weekly savings goal","Call your bestie","Glow up check-in","Reset your space","Rest day","Write your cover lines"]
 P=[("Pin03","Glow up checklist 2027 · B&W photo",p03()),("Pin04","ChatGPT prompts for self improvement · B&W",p04()),("Pin05","ChatGPT prompts 2027 rebrand · B&W",p05()),
    ("Pin07","Self improvement plan 2027 · B&W printable",p07()),
-   ("Pin08","Self improvement plan · B&W type card",bigtype("e27","I’m not behind. I’m becoming.","A 30-day self improvement plan, 5 minutes a day.",bw=True)),
+   ("Pin08","Self improvement plan · B&W type card",bigtype("e27","I’m not behind. I’m becoming.","A 30-day self improvement plan, 5 minutes a day.")),
    ("Pin10","How to rebrand yourself · B&W type card",bigtype("e22","Becoming me again, on purpose.","How to rebrand yourself in 2027: 30 prompts + a 30-day plan.")),
    ("Pin11","Personal rebrand prompts · B&W chapters",p11()),("Pin13","Future self letter · B&W",p13()),("Pin16","Lifemaxxing 101 · B&W",p16())]
 def p18():
@@ -112,7 +112,7 @@ def p18():
     rr="".join(f'<div style="display:grid; grid-template-columns:200px 1fr; padding:18px 0; border-top:2px solid {INK}"><b style="font-size:20px; letter-spacing:0.18em; text-transform:uppercase; padding-top:5px">{a}</b><span style="font-size:32px; line-height:1.25">{b}</span></div>' for a,b in rows)
     return (W, f'<div style="position:absolute; left:0; top:0; width:1000px; height:520px; overflow:hidden; display:grid; grid-template-columns:repeat(3,1fr); gap:4px; background:{INK}">{tiles}</div>'
       f'<div style="position:absolute; left:60px; right:60px; top:560px">{label("Creative brief · 2027")}<h1 style="margin:12px 0 22px; font-size:84px; font-weight:700; letter-spacing:-0.06em; line-height:0.88">Art direct your life</h1>{rr}<p style="margin:26px 0 0; font-size:26px; font-weight:600">Write yours with 30 prompts in the free kit.</p></div>'+foot("Write your brief · free kit"))
-P+=[("Pin17","Art director of my life · B&W type card",bigtype("e29","I’m the art director of my life.","Write the brief for your 2027: 30 prompts + a 30-day plan.",bw=True)),
+P+=[("Pin17","Art director of my life · B&W type card",bigtype("e29","I’m the art director of my life.","Write the brief for your 2027: 30 prompts + a 30-day plan.")),
     ("Pin18","Art direct your life · creative brief",p18())]
 c=json.load(open(f"{R}/project/canvas.json"))
 for k,t,(bg,inner) in P:

@@ -25,13 +25,13 @@
 | I3 | self love affirmations · self worth affirmations · self confidence affirmations · affirmations for confidence | 4,300 + 1,500 + 1,500 + 1,500 | 15 to 24 | DONE Nov 14: draft self-love-affirmations (60: self love, self worth, confidence; believable style + 2 studies; cover megan-editorial-26, dated Nov 15) |
 | I4 | positive affirmations for women · affirmations for women · powerful daily affirmations · positive affirmations for the day · short positive affirmations | 8,400 + 6,600 + 3,500 + 3,400 + 2,100 | 16 to 28 | DONE Nov 14: draft positive-affirmations-for-women (50 short daily, by time of day; cover megan-editorial-25, dated Nov 16) |
 | I5 | money affirmations · affirmations for abundance · manifesting money · how to manifest money · money vision board | 2,800 + 1,000 + 2,100 + 1,300 + 600 | 15 to 29 | DONE Nov 14: draft money-affirmations (40, no money promises, CFPB reference; cover megan-editorial-28) |
-| I6 | manifestation examples · manifestation techniques · manifestation methods · quantum manifestation | 4,300 + 1,700 + 1,700 + 710 | 16 to 25 | queued |
+| I6 | manifestation examples · manifestation techniques · manifestation methods · quantum manifestation | 4,300 + 1,700 + 1,700 + 710 | 16 to 25 | DONE Nov 15 manifestation-examples (DRAFT dated Nov 17; 20 examples + 10 techniques incl. 369, 55x5, quantum; cover megan-editorial-20 closet) |
 | I7 | manifestation journals · manifestation journaling · best manifestation journal app | 3,100 + 3,100 | 16 to 20 | queued (honest comparison, ISSUE11 named as ours) |
 | I8 | book on manifestation · best manifestation books | 4,600 | 18 | queued (real books only) |
 | I9 | self care ideas · self care ideas for women · self care activities · beauty self care ideas · self care sunday ideas | 8,000 + 710 + 10,600 | 14 to 32 | DONE Nov 14: draft self-care-ideas (60 ideas by time + Sunday plan; cover megan-editorial-22, dated Nov 17) |
 | I10 | list of affirmations · list of positive affirmations · funny affirmations | 1,300 + 1,300 + 1,200 | 9 to 19 | NEXT (check overlap with the 5 affirmation articles, keep under 15%) |
 | I11 | manifesting love · love affirmations · how to manifest love | 1,000 + 2,000 + 520 | 14 to 18 | queued |
-| I12 | positive affirmations for work · work affirmations | 1,500 + 1,200 | 19 to 20 | queued |
+| I12 | positive affirmations for work · work affirmations | 1,500 + 1,200 | 19 to 20 | NEXT (work affirmations; check overlap with job article's 10 lines) |
 | I13 | manifestation affirmations | 1,400 | 23 | queued (fold into I6 if thin) |
 | I14 | how to stop overthinking | 15,600 | 19 | DONE Nov 14: draft how-to-stop-overthinking (9 ways + night + decisions, Nolen-Hoeksema 2008, 988; cover megan-editorial-17) |
 | I15 | how to stop people pleasing | 1,700 | 21 | queued (self-help, not therapy) |

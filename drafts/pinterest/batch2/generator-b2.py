@@ -61,8 +61,8 @@ def tile(k, label=None, pos=None):
 
 # ---------- 4 vision board collages (clean grid, no rotation/tape/stickers) ----------
 def p19():  # "2027 vision board ideas": white, 3x3 grid with captions
-    t = [("e20","dream closet"),("m27","money"),("l19","date nights"),("n16","city nights"),("e27","my own desk"),
-         ("n18","shopping day"),("l23","love"),("m25","savings"),("e22","the walk-in")]
+    t = [("e20","dream closet"),("m27","money"),("l23","date nights"),("n16","city nights"),("e27","my own desk"),
+         ("n18","shopping day"),("l22","love"),("m25","savings"),("e22","the walk-in")]
     g = "".join(tile(k,c) for k,c in t)
     return (W, f'<h1 style="position:absolute; left:56px; right:56px; top:48px; margin:0; font-size:112px; font-weight:800; letter-spacing:-0.06em; line-height:0.86">2027 vision<br>board ideas</h1>'
       f'<div style="position:absolute; left:56px; right:56px; top:300px; height:900px; display:grid; grid-template-columns:repeat(3,1fr); grid-template-rows:repeat(3,1fr); gap:8px; background:{INK}; border:8px solid {INK}">{g}</div>'
@@ -99,28 +99,27 @@ def lst(items, fs=40, dark=False, num=True):
     fg = W if dark else INK
     return "".join(f'<div style="display:flex; gap:22px; padding:18px 0; border-top:2.5px solid {fg}; font-size:{fs}px; font-weight:500; line-height:1.18"><b style="flex:none; width:{int(fs*1.4)}px; font-weight:800">{(f"{i+1:02d}" if num else "☐")}</b><span>{t}</span></div>' for i,t in enumerate(items))
 def p23():
-    items = ["a closet where i can see the floor","a savings number. written down","a group chat that actually makes plans",
-             "pilates 3x a week (or just walk lol)","one solo trip. lisbon?","a desk with a candle on it","asleep before 12. most nights"]
+    items = ["my own place. no roommates","$10k saved (starting w $1k lol)","learn to cook 5 real meals",
+             "a car i’m not embarrassed of","pilates 3x a week","paris w the girls?","in bed before 12"]
     return (W, f'<h1 style="position:absolute; left:60px; right:60px; top:56px; margin:0; font-size:104px; font-weight:800; letter-spacing:-0.06em; line-height:0.88">2027 vision board ideas</h1>'
       f'<p style="position:absolute; left:60px; top:300px; margin:0; font-size:42px; font-weight:600">(that aren’t a beach)</p>'
       f'<div style="position:absolute; left:60px; right:60px; top:380px">{lst(items, 50)}</div>'
       f'<p style="position:absolute; left:60px; right:60px; top:1270px; margin:0; font-size:34px; font-weight:600">pin the pics, then write the list. the page is free.</p>' + foot("Write yours · free 2027 list page"))
 def p24():
-    items = ["a raise. asking this time","friends who clap when i win","skin that looks like i drink water",
-             "a closet i actually wear","money i don’t panic about","a trip i pay for myself","more peace. maybe a dog?"]
-    return (INK, f'<p style="position:absolute; left:60px; top:60px; margin:0; color:{W}; font-size:26px; font-weight:700; letter-spacing:0.2em; text-transform:uppercase">2027 · claim it</p>'
-      f'<h1 style="position:absolute; left:60px; right:60px; top:106px; margin:0; color:{W}; font-size:104px; font-weight:800; letter-spacing:-0.06em; line-height:0.88">things i’m manifesting for 2027</h1>'
+    items = ["a raise (and actually asking for it)","friends i don’t have to chase","clear skin",
+             "a closet i actually wear","no more overdraft fees","a trip i paid for myself","maybe a dog?"]
+    return (INK, f'<h1 style="position:absolute; left:60px; right:60px; top:80px; margin:0; color:{W}; font-size:112px; font-weight:800; letter-spacing:-0.06em; line-height:0.88">my 2027 list (no judging)</h1>'
       f'<div style="position:absolute; left:60px; right:60px; top:420px; color:{W}">{lst(items, 50, True, False)}</div>' + foot("Write your list · free kit", False))
 def p25():
-    items = ["what do i want my mornings to look like?","what am i done apologizing for?","what money number scares me to say out loud?",
-             "who makes me feel bigger, not smaller?","what would 2027 me stop buying?","what does a perfect tuesday look like?"]
+    items = ["what do i want my mornings to look like","what am i tired of pretending is fine","how much do i actually want to make",
+             "who do i feel good around","what’s one thing i keep putting off","what’s something 2026 me would never do again"]
     return (W, f'<h1 style="position:absolute; left:60px; right:60px; top:56px; margin:0; font-size:120px; font-weight:800; letter-spacing:-0.06em; line-height:0.86">journal prompts for 2027</h1>'
       f'<div style="position:absolute; left:60px; right:60px; top:330px">{lst(items, 52)}</div>'
       f'<p style="position:absolute; left:60px; right:60px; top:1290px; margin:0; font-size:32px; font-weight:600">+ 30 more prompts in the free kit. paste them into chatgpt or your journal.</p>'
       + foot("Free 2027 Life Glow Up Kit →"))
 def p26():
-    rows = [("body","walk daily. pilates when i can"),("money","one money date a month"),("love","text back. plan the dinner"),
-            ("style","3 outfits i love, not 30 i don’t"),("beauty","spf every day. yes, in winter"),("home","clear one drawer a week")]
+    rows = [("body","walk daily, pilates when i can"),("money","money date once a month"),("love","text back in under a day"),
+            ("style","stop buying stuff i return"),("beauty","spf every day (yes in winter)"),("home","clear one drawer a week")]
     rr = "".join(f'<div style="display:grid; grid-template-columns:190px 1fr; padding:22px 0; border-top:2.5px solid {W}"><b style="font-size:26px; letter-spacing:0.18em; text-transform:uppercase; padding-top:8px">{a}</b><span style="font-size:48px; line-height:1.15; font-weight:500">{b}</span></div>' for a,b in rows)
     return (INK, f'<h1 style="position:absolute; left:60px; right:60px; top:56px; margin:0; color:{W}; font-size:124px; font-weight:800; letter-spacing:-0.06em; line-height:0.86">lifemaxxing 2027: the list</h1>'
       f'<div style="position:absolute; left:60px; right:60px; top:350px; color:{W}">{rr}</div>'
@@ -151,7 +150,7 @@ P = [("Pin19","2027 vision board ideas · collage 3x3",p19()),
      ("Pin21","Vision board aesthetic · magazine grid",p21()),
      ("Pin22","2027 manifestation board · collage + type tiles",p22()),
      ("Pin23","2027 vision board ideas (that aren't a beach) · text",p23()),
-     ("Pin24","Things i'm manifesting for 2027 · text",p24()),
+     ("Pin24","My 2027 list (no judging) · text",p24()),
      ("Pin25","Journal prompts for 2027 · text",p25()),
      ("Pin26","Lifemaxxing 2027: the list · text",p26()),
      ("Pin27","Vision board ideas · Notes",notes("November 15, 2026 at 22:41","vision board 2027:",[("the list",["the closet i’m saving for","$300 a month into savings","pilates 3x a week (or just walk lol)","one trip i book myself. lisbon?"])],"The “my 2027” list page · free kit")),

@@ -30,3 +30,13 @@ All pins link to https://issue11.app/rebrand-kit (the 2027 Life Glow Up Kit, fre
 Nov 15 changes (Megan: "I think we need to crop the images more accurately" / "Also the notes app pins don't need visuals" / "I also think we could use terms like 'lifemaxx'" / "How to lifemaxx 2027"): Notes pins have no photos (text scales to fill the screen like a real screenshot), every photo has a set focal point, and pins 15–16 added for lifemaxxing.
 
 Schedule (after Megan's OK): 2 pins a day for 7 days in Metricool (Pinterest "issue11app"), mixing formats so no two of the same format run back to back.
+
+## v6 (Nov 15): photo-led, high-contrast black & white design
+Megan: "the other pins I want them more visual", "keep a high contrast like black and white", then "No I mean colors for the images, and some black and white and high contrast in the pins".
+Photos are in colour. Pins 08 and 17 use B&W photos for contrast. The frames and type are black and white only.
+
+| # | Title | Description | Board | Alt text |
+|---|---|---|---|---|
+| 17 | I'm the art director of my life | I'm the art director of my life. Write the creative brief for your 2027 with 30 ChatGPT prompts and a 30-day plan, free in the 2027 Life Glow Up Kit. | Glow Up 2027 | Black and white photo of a woman working at a desk, with the words I'm the art director of my life |
+| 18 | Art direct your life: your 2027 creative brief | Art direct your life like a magazine: palette, desk, uniform, mornings, cast, cut. Write yours with the free 2027 Life Glow Up Kit. | Glow Up 2027 | Three photos of stylish women at work above a creative brief list titled Art direct your life |
+Keyword: "i'm the art director of my life" is Pinterest autocomplete #1 for "art director of my life" (Apify, Nov 15).

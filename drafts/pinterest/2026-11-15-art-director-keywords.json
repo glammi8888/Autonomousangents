@@ -1,0 +1,82 @@
+[{
+  "type": "keyword",
+  "keyword": "i’m the art director of my life",
+  "seed": "art director of my life",
+  "parentKeyword": "art director of my life",
+  "depth": 1,
+  "source": "autocomplete",
+  "sources": [
+    "autocomplete",
+    "refinement"
+  ],
+  "rank": 1,
+  "refinementLabel": "I’m the",
+  "relevanceScore": 1.04,
+  "wordCount": 7,
+  "addedWords": "i’m the",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=i%E2%80%99m%20the%20art%20director%20of%20my%20life",
+  "query": "art director of my life",
+  "searchType": "keywords",
+  "position": 1,
+  "scrapedAt": "2026-11-15T00:49:36.641Z"
+},
+{
+  "type": "keyword",
+  "keyword": "i am the art director of my life tattoo",
+  "seed": "art director of my life",
+  "parentKeyword": "art director of my life",
+  "depth": 1,
+  "source": "autocomplete",
+  "sources": [
+    "autocomplete"
+  ],
+  "rank": 2,
+  "wordCount": 9,
+  "addedWords": "i am the tattoo",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=i%20am%20the%20art%20director%20of%20my%20life%20tattoo",
+  "query": "art director of my life",
+  "searchType": "keywords",
+  "position": 2,
+  "scrapedAt": "2026-11-15T00:49:36.641Z"
+},
+{
+  "type": "keyword",
+  "keyword": "asylum life roblox art director",
+  "seed": "art director of my life",
+  "parentKeyword": "art director of my life",
+  "depth": 1,
+  "source": "refinement",
+  "sources": [
+    "refinement"
+  ],
+  "rank": 2,
+  "refinementLabel": "Asylum",
+  "relevanceScore": 1.472,
+  "wordCount": 5,
+  "addedWords": "asylum roblox",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=asylum%20life%20roblox%20art%20director",
+  "query": "art director of my life",
+  "searchType": "keywords",
+  "position": 3,
+  "scrapedAt": "2026-11-15T00:49:36.641Z"
+},
+{
+  "type": "error",
+  "kind": "no-results",
+  "query": "art direct your life",
+  "searchType": "keywords",
+  "error": "Pinterest has no keyword ideas for \"art direct your life\". Try a shorter or more common seed. Not charged.",
+  "scrapedAt": "2026-11-15T00:49:35.965Z"
+},
+{
+  "type": "error",
+  "kind": "no-results",
+  "query": "main character energy work",
+  "searchType": "keywords",
+  "error": "Pinterest has no keyword ideas for \"main character energy work\". Try a shorter or more common seed. Not charged.",
+  "scrapedAt": "2026-11-15T00:49:37.923Z"
+},
+{
+  "type": "notice",
+  "notice": "Run summary: 3 row(s) delivered, 2 free, 2 failed; nothing charged. This row is free and is not part of your data — filter it out with type != \"notice\"."
+}]

@@ -86,6 +86,23 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 2 · Nov 15, 23:25 UTC (hourly team cycle)**
+- 💚 Growth Lead:
+  - Done: created `drafts/pinterest/QUEUE.md` with 15 pin briefs (New Year first, keyword-first titles, boards, real volumes or "—"). Lessons.md pointed the routine there, but the file didn't exist.
+  - Blocked: `drafts/pinterest/HOURLY-LOG.md` doesn't exist either, so no output from the hourly Pinterest routine is visible in the repo.
+- 📌 Pinterest SEO: nothing new in the repo since the 7 Notes pins (Nov 15–18). Next: design from QUEUE.md rows 1–3.
+- 🔎 SEO/AEO: latest is the love-affirmations draft (I11). Now at 1 article/day (Megan's rule). Next: hub refreshes + Christmas/New Year pages.
+- 🎬 Viral Formats: writing 3 Reel scripts from the New Year articles → `drafts/social/2026-11-16-reels-new-year.md`.
+- 💸 Media Buyer: Instagram test starts Mon Nov 17 (Megan launches). Nothing new.
+- 🧵 Reddit: waiting on Megan's yes (from the first board).
+- 🖋 The Editor: waiting on Megan's kit layout pick ("Yes I'm planning to").
+- Ideas:
+  1. **Pins to live articles now, kits later.**
+     - Each New Year article gets its pins today instead of waiting for the kit pages. When the kits go live, the article's sign-up form is switched to the kit.
+     - Traffic: same formula as plan move 2. Speed: this week. Cost: $0. Flag risk: low. Megan: nothing.
+  2. **Add a log line to the routine.** Each run appends one line to `drafts/pinterest/HOURLY-LOG.md` (pins made, pins scheduled), so the room can see it.
+     - Traffic: 0 (it's visibility). Cost: $0. Flag risk: none. Megan: nothing (OPS edits the routine).
+
 **Cycle 1 · Nov 15, 22:45 UTC · Growth Lead, no subagents**
 - Done:
   - `drafts/marketing/UTM-MAP.md`: tagged Pinterest + Reddit links for all 28 live content pages (27 blog posts + the kit page), so every visit and sign-up can be credited to a channel.
@@ -105,3 +122,4 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 2026-11-15 22:55 · Growth Lead · Megan: "And you can use the MIT marketing skills too". Mapped 36 marketingskills to agents (section 3b), verified each has its ISSUE11 overrides block, listed the never-use parts.
 - 2026-11-15 22:50 · Growth Lead · Megan: "Right now you can have them looping in the meeting room". Cycle 1 done (UTM map, live S5 check). Self-paced loop NOT started: Megan needs to type /loop (command in section 5).
 - 2026-11-15 23:00 · Growth Lead · Megan: "2. Ok but when can we pick up to more?" / "3. Yes I'm planning to". 1 article/day logged as a rule in lessons.md + ramp gates in 100K-PLAN.md. Corrected the board: 7 Notes pins were already scheduled (lessons.md). Noted Megan's "Engagement pods are ok" (limits in lessons.md) in the plan.
+- 2026-11-15 23:30 · Growth Lead · Hourly cycle 2: QUEUE.md created (15 pin briefs), 1 subagent (Viral: 3 New Year Reel scripts). Flag for OPS: the hourly Pinterest routine leaves no HOURLY-LOG/QUEUE trace.

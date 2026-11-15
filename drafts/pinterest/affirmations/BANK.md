@@ -63,3 +63,8 @@ Source: drafts/pinterest/2026-11-15-spite-quote-pins.json (Apify, Pinterest sear
 15. "You've changed." Yeah, I'm hotter, prettier, smarter, and the best at everything now
 16. Woke up fine as hell again, it's getting out of control
 17. I am no longer convincing people to see my worth, I am just living it
+
+Megan picked and rewrote (Nov 15), now Megan's lines:
+- I am no longer proving my worth to someone. You either value me or you're OUT! (from 17)
+- Get up girl, you got people to prove wrong (from 4)
+The other 15 candidates are rejected.

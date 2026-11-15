@@ -25,15 +25,18 @@ def pin(lines, size, dark, pos="mid", align="left", track=-0.04, lh=0.94):
 # Megan via OPS: "Become your own dream girl" exactly as written (capital B, no period), ISSUE11's brand line: biggest set in the batch.
 P = [
  ("Pin37", "Become your own dream girl", pin(["Become", "your own", "dream", "girl"], 196, True, "mid")),
- ("Pin38", "i said i'd do it. so now i have to.", pin(["i said i’d", "do it.", "so now i", "have to."], 178, False, "top")),
- ("Pin39", "the glow up was mostly going to bed earlier lol", pin(["the glow up", "was mostly", "going to bed", "earlier lol"], 140, True, "low")),
- ("Pin40", "acting like it's already mine. don't ruin it for me.", pin(["acting like", "it’s already", "mine. don’t", "ruin it for me."], 132, False, "mid")),
- ("Pin41", "i'm the art director of my life.", pin(["i’m the", "art director", "of my life."], 160, True, "top")),
+ ("Pin38", "I said I'd do it. so now I have to.", pin(["I said I’d", "do it.", "so now I", "have to."], 178, False, "top")),
+ ("Pin39", "I glowed up by going to bed earlier lol", pin(["I glowed up", "by going", "to bed", "earlier lol"], 150, True, "low")),
+ ("Pin40", "I'm acting like it's already mine. don't ruin it for me.", pin(["I’m acting", "like it’s", "already mine.", "don’t ruin it", "for me."], 128, False, "mid")),
+ ("Pin41", "I'm the art director of my life.", pin(["I’m the", "art director", "of my life."], 160, True, "top")),
  ("Pin42", "me 🫱🏻‍🫲🏽 2027", pin(["me 🫱🏻‍🫲🏽", "2027"], 230, False, "mid", "center")),
- ("Pin43", "paying off the card first. then the trip.", pin(["paying off", "the card", "first. then", "the trip."], 168, True, "low")),
- ("Pin44", "unrealistic? yes. doing it anyway.", pin(["unrealistic?", "yes.", "doing it", "anyway."], 150, False, "top")),
- ("Pin45", "picking me this year. sorry in advance.", pin(["picking me", "this year.", "sorry in", "advance."], 172, True, "mid")),
- ("Pin46", "can't talk rn. i'm rebranding.", pin(["can’t talk", "rn. i’m", "rebranding."], 152, False, "low")),
+ ("Pin43", "I'm paying off the card first. then the trip.", pin(["I’m paying", "off the card", "first. then", "the trip."], 150, True, "low")),
+ ("Pin44", "unrealistic? yes. I'm doing it anyway.", pin(["unrealistic?", "yes.", "I’m doing it", "anyway."], 150, False, "top")),
+ ("Pin45", "I'm picking me this year. sorry in advance.", pin(["I’m picking", "me this year.", "sorry in", "advance."], 150, True, "mid")),
+ ("Pin46", "can't talk rn. I'm rebranding.", pin(["can’t talk", "rn. I’m", "rebranding."], 152, False, "low")),
+ ("Pin47", "I only attract the best of the best", pin(["I only", "attract", "the best of", "the best"], 170, False, "mid")),
+ ("Pin48", "I only get to experience the best. The best friends, connections, family, restaurants, clothing, etc... the universe really spoils me", pin(["I only get to", "experience the", "best. The best", "friends, connections,", "family, restaurants,", "clothing, etc...", "the universe", "really spoils me"], 86, True, "mid")),
+ ("Pin49", "I am so fit and healthy and I am proud to say that I love my own body", pin(["I am so fit", "and healthy", "and I am proud", "to say that I", "love my own", "body"], 120, False, "mid")),
 ]
 for k, t, (bg, inner) in P:
     open(f"{R}/project/{k}.dc.html", "w").write(doc(f"Quote · {t}", inner, bg))

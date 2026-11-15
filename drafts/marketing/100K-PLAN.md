@@ -26,7 +26,17 @@ Megan, word for word: "brainstorm on how to get 100k visitors monthly on the web
 **Parked until there's data or Megan's OK:** comment-for-the-link DM tool (~$15/mo), sponsored newsletter slots (~$100–300 a send, assumed), the waitlist referral loop (touches user data, so it needs her approval; the list now lives in Resend, not beehiiv), and "vision board ideas for [life area]" programmatic pages (20–30 pages max, each truly unique; volumes to check in KWFinder first).
 
 ## 2. Never (this is what gets us flagged)
-Bursts of posts or pins · duplicate or colour-swap "new" pins · keyword stuffing · link cloaking · bought traffic, followers, views, votes or links (PBNs, click farms, traffic exchanges) · fake or extra accounts · engagement pods · undisclosed paid or gifted posts · thin spun pages or AI content passed off as first-hand · engagement-bait or outcome-promise ads · watermarked cross-posts · links pasted into comments · mass DMs.
+Bursts of posts or pins · duplicate or colour-swap "new" pins · keyword stuffing · link cloaking · bought traffic, followers, views, votes or links (PBNs, click farms, traffic exchanges) · fake or extra accounts · undisclosed paid or gifted posts · thin spun pages or AI content passed off as first-hand · engagement-bait or outcome-promise ads · watermarked cross-posts · links pasted into comments · mass DMs.
+
+**Megan's decisions that change this list (Nov 15, see lessons.md):** "Engagement pods are ok", with limits: real creators who opt in, no bots, automation or bought engagement, and agents only draft invites. Known risk: Instagram, Pinterest or TikTok may cut reach or act on the account if they detect it.
+
+## 2b. Article pace: when we can go back up (Megan: "when can we pick up to more?")
+There's no fixed number Google allows. Its scaled-content rule is about pages made mainly to rank without real value. So we step up when Google's own data shows the pages are being accepted:
+1. **Gate 1 → 2 a day:** Search Console has been live for 4+ weeks · at least 80% of published posts are indexed · no manual action or "crawled, not indexed" pile-up · the last 2 weeks of posts each have their own topic (under 15% overlap with sibling articles) plus her first-hand lines on hub pages.
+2. **Gate 2 → 3 a day:** 4 more weeks at 2/day with the same checks still passing, and the newer posts are getting impressions in Search Console.
+3. **Back down a step** if indexing drops or a warning appears.
+- Earliest realistic: Gate 1 about 4–6 weeks after Search Console is set up, so **around late December if it's done this week** (estimate; it depends on Google's crawl speed).
+- Until then the spare writing time isn't wasted. It goes to refreshing the big hub pages, adding inbound links and the Christmas/New Year pages. That often lifts traffic more than a new post.
 
 ## 3. Weekly milestones (things we do, since we don't have measured results yet)
 | Week of | Milestone |

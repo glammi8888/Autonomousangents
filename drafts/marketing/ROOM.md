@@ -22,7 +22,7 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 | Waitlist sign-ups (real) | **missing** (last count: 0 real on Nov 7, before any promotion) | Waitlist Google Sheet |
 | Live pages in sitemap | 32 URLs | issue11.app/sitemap.xml, fetched Nov 15 |
 | Blog article drafts in repo | 35 (#1–#35) | `drafts/issue11-blog/` |
-| Pin designs made | Pin1–Pin122 (batches 1–6 + styles2), none scheduled yet | `drafts/pinterest/` |
+| Pin designs made | Pin1–Pin122 (batches 1–6 + styles2). 7 Notes pins scheduled in Metricool, Nov 15–18 (2/day → /rebrand-kit, per lessons.md) | `drafts/pinterest/` |
 | Paid ads | $0 spent; $300 Instagram test starts Mon Nov 17 | `drafts/ads/2026-11-17-launch-checklist.md` |
 | Reddit replies posted | 0 (playbook only, no thread list yet) | `drafts/growth/reddit-playbook.md` |
 
@@ -71,14 +71,14 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 
 ## 5. Decisions waiting on Megan (max 3; full plan in `drafts/marketing/100K-PLAN.md`)
 1. **Turn everything on (~20 min of your logins).** Recommended: set up Search Console for issue11.app, OK the Pinterest strategy, create the 12 boards, claim issue11.app on Pinterest, connect Pinterest in Metricool. Why: Google can't index the 27 live posts and we can't measure a single visit without these. Option B: do the Pinterest part only this week.
-2. **Back to 1 article a day, with 2–3 of your own lines on each hub page.** Recommended: yes. Why: the AEO workers publish 2–3 a day right now, and AI-assisted volume on a new domain is our biggest Google flag risk. It also matches your Nov 5 rule ("1 article daily"). Option B: keep 2–3 a day.
-3. **Pick the layout for the Vision Board Kit + Journal Prompts this week.** Recommended: yes. Why: pins can only use the biggest New Year searches (vision board ideas 43,400/mo, journal prompts 38,200/mo) honestly once those pages exist, and the peak is Dec–Jan. Option B: launch the Wallpaper pack first.
+2. ✅ **Decided (Megan, Nov 15): "Ok"**. Back to 1 article a day. Her question "when can we pick up to more?" is answered by the ramp gates in `100K-PLAN.md` ("Article pace").
+3. ⏳ **Pick the layout for the Vision Board Kit + Journal Prompts this week** (Megan: "Yes I'm planning to"). Recommended: yes. Why: pins can only use the biggest New Year searches (vision board ideas 43,400/mo, journal prompts 38,200/mo) honestly once those pages exist, and the peak is Dec–Jan. Option B: launch the Wallpaper pack first.
 (Next in line once these are done: Reddit yes/no, from the first board.)
 - ⏳ **Team loop:** not started automatically. A scheduled prompt can't start a self-paced loop by itself in this setup. To start it, Megan types in this room: `/loop Marketing Room team cycle: stand-up in ROOM.md, brainstorm 1–3 ideas, do the top 1–2 tasks from 100K-PLAN.md with the right agents and skills, commit and push. Goal: 100k+ visitors a month and 500 paying subscribers a month over time, without getting flagged. Drafts only.` To stop it: "stop looping".
 
 ## 5b. Roll call (Nov 15, from repo status + each agent's own report)
 - 💚 **Growth Lead:** set up the room and merged 5 brainstorms into 100K-PLAN.md. Next: every Monday, fill the numbers row and keep the order of moves.
-- 📌 **Pinterest SEO:** Pin1–Pin122 designed, nothing scheduled, no boards, site not claimed. `drafts/pinterest/QUEUE.md` is missing. Next: daily 10-pin production batch to all 32 URLs, at least 72h apart per URL.
+- 📌 **Pinterest SEO:** Pin1–Pin122 designed. 7 Notes pins scheduled in Metricool Nov 15–18 (board "2027 Visionboard Ideas"). The other boards still need to be made and the site still isn't claimed. `drafts/pinterest/QUEUE.md` is missing. Next: daily 10-pin production batch to all 32 URLs, at least 72h apart per URL.
 - 🔎 **SEO/AEO:** publishing 2–3 posts a day (27 live). 9 drafts with covers queued to Nov 18. Their tracking: 0/87 keywords in the top 100, 1.1% AI visibility. Next: Christmas + New Year pages before Dec 20, inbound links, Monday rank check.
 - 💸 **Media Buyer:** $300 Instagram test ready for Nov 17, $0 spent. Next: first read about Nov 24, Monday competitor watch.
 - 🧵 **Reddit:** playbook read, 0 posted. Next: first 5 threads + disclosed drafts after your yes.
@@ -104,3 +104,4 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 2026-11-15 22:50 · Growth Lead · Megan: "Paying app subscribers". Goal 2 = 500 new paying subscribers/mo over time after launch; funnel built backwards in 100K-PLAN.md section 6.
 - 2026-11-15 22:55 · Growth Lead · Megan: "And you can use the MIT marketing skills too". Mapped 36 marketingskills to agents (section 3b), verified each has its ISSUE11 overrides block, listed the never-use parts.
 - 2026-11-15 22:50 · Growth Lead · Megan: "Right now you can have them looping in the meeting room". Cycle 1 done (UTM map, live S5 check). Self-paced loop NOT started: Megan needs to type /loop (command in section 5).
+- 2026-11-15 23:00 · Growth Lead · Megan: "2. Ok but when can we pick up to more?" / "3. Yes I'm planning to". 1 article/day logged as a rule in lessons.md + ramp gates in 100K-PLAN.md. Corrected the board: 7 Notes pins were already scheduled (lessons.md). Noted Megan's "Engagement pods are ok" (limits in lessons.md) in the plan.

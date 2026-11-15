@@ -73,9 +73,9 @@
 |---|---|---|---|---|
 | L6 | 🎄 journal prompts for january · journal prompts for december | 370 + 270 (seasonal) | 21 | DONE Nov 14: draft december-january-journal-prompts (62 daily prompts, 0 repeats from other journaling articles; cover megan-editorial-32, dated Nov 14 so it publishes first tomorrow) |
 | L1 | journal prompts for self discovery · journal prompts for self reflection · journal for self discovery · journaling for self awareness | 1,300 + 1,300 + 4,100 + 5,100 | 12 to 25 | DONE Nov 15: draft journal-prompts-for-self-discovery (60 prompts in 6 themes, 0 repeats across all ISSUE11 articles; Trapnell and Campbell 1999 + Pennebaker; cover megan-editorial-31, dated Nov 16) |
-| L2 | journaling for self love · journal prompts for healing · journal prompts for mindfulness · journal prompts for self care | 2,200 + 620 + 670 + 310 | 14 to 20 | NEXT |
+| L2 | journaling for self love · journal prompts for healing · journal prompts for mindfulness · journal prompts for self care | 2,200 + 620 + 670 + 310 | 14 to 20 | DONE Nov 15: draft journaling-for-self-love (40 prompts: kindness, healing, self care, mindfulness; Neff 2003 + Pennebaker; 0 repeats; cover megan-editorial-10) |
 | L3 | how to manifest something · how to manifest something by writing it down · how to manifest quickly | 5,500 + 90 + 140 | 15 to 26 | STRENGTHEN live how-to-manifest (add these as H2s + FAQ) instead of a new page |
-| L4 | how to manifest someone · how to manifest a specific person · how to manifest a man | 1,900 + 300 + 110 | 16 to 21 | queued: honest, healthy framing (you can't control another person; focus on you, consent, red flags) |
+| L4 | how to manifest someone · how to manifest a specific person · how to manifest a man | 1,900 + 300 + 110 | 16 to 21 | NEXT: honest, healthy framing (you cannot control another person; focus on you, consent, red flags) |
 | L5 | how to start a manifestation journal · how to start manifesting journal | 220 + 100 | 16 | STRENGTHEN live manifestation-journal-prompts (H2 "How to start a manifestation journal") |
 | L7 | how to manifest a job | 410 | 27 | queued |
 | L8 | shadow work prompts for beginners | 160 | 8 | later (low volume, easiest KD) |

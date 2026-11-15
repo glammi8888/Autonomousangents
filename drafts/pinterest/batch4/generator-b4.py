@@ -41,6 +41,14 @@ P = [
  ("Pin51", "I'm the art director of my life. I create it page by page. I make my own opportunities.", pin(["I’m the art", "director of", "my life.", "I create it", "page by page.", "I make my own", "opportunities."], 112, False, "mid")),
  ("Pin52", "I glowed up so hard now my enemies are crying", pin(["I glowed up", "so hard now", "my enemies", "are crying"], 150, True, "mid")),
  ("Pin53", "I glowed up so hard now my ex is crying", pin(["I glowed up", "so hard now", "my ex is", "crying"], 150, False, "mid")),
+ ("Pin54", "My success is my revenge", pin(["My success", "is my", "revenge"], 150, True, "mid")),
+ ("Pin55", "I hope my ex sees this pin", pin(["I hope", "my ex sees", "this pin"], 170, False, "mid")),
+ ("Pin56", "I'm thriving out of spite and honestly it's working", pin(["I’m thriving", "out of spite", "and honestly", "it’s working"], 136, True, "mid")),
+ ("Pin57", "I unfollowed. I glowed up. in that order.", pin(["I unfollowed.", "I glowed up.", "in that order."], 136, False, "low")),
+ ("Pin58", "I'm doing amazing, thanks for watching my stories", pin(["I’m doing", "amazing,", "thanks for", "watching", "my stories"], 140, True, "mid")),
+ ("Pin59", "I got hot and rich just to be petty", pin(["I got hot", "and rich", "just to", "be petty"], 160, False, "mid")),
+ ("Pin60", "My business is bringing sooooo much money", pin(["My business", "is bringing", "sooooo much", "money"], 132, True, "mid")),
+ ("Pin61", "I make way more money than what I'm able to spend", pin(["I make way", "more money", "than what I’m", "able to spend"], 140, False, "mid")),
 ]
 for k, t, (bg, inner) in P:
     open(f"{R}/project/{k}.dc.html", "w").write(doc(f"Quote · {t}", inner, bg))

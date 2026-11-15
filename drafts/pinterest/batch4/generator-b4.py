@@ -12,7 +12,7 @@ def doc(title, inner, bg):
     ns = {"INK": INK, "EMO": EMO}; exec(exec_src, ns); return ns["doc"](title, inner, bg)
 
 # pos: where the quote block sits ("top" | "mid" | "low"); size in px at 1000 wide; lines joined with <br>
-def pin(lines, size, dark, pos="mid", align="left", track=-0.05, lh=0.94):
+def pin(lines, size, dark, pos="mid", align="left", track=-0.04, lh=0.94):
     bg, fg = (INK, W) if dark else (W, INK)
     v = {"top": "justify-content:flex-start; padding-top:150px", "mid": "justify-content:center", "low": "justify-content:flex-end; padding-bottom:230px"}[pos]
     q = "<br>".join(lines)
@@ -22,17 +22,17 @@ def pin(lines, size, dark, pos="mid", align="left", track=-0.05, lh=0.94):
     return bg, inner
 
 P = [
- ("Pin37", "i'm the art director of my life", pin(["i’m the", "art director", "of my life."], 150, False, "low")),
+ ("Pin37", "i'm the art director of my life", pin(["i’m the", "art director", "of my life."], 160, False, "low")),
  ("Pin38", "same girl, bigger dreams", pin(["same girl,", "bigger", "dreams."], 200, True, "top")),
- ("Pin39", "i'm not behind. i'm becoming.", pin(["i’m not", "behind.", "i’m", "becoming."], 190, False, "mid")),
+ ("Pin39", "i'm not behind. i'm becoming.", pin(["i’m not", "behind.", "i’m", "becoming."], 172, False, "mid")),
  ("Pin40", "i keep my circle small", pin(["i keep", "my circle", "small."], 196, True, "low")),
  ("Pin41", "i'm in my building era", pin(["i’m in my", "building", "era."], 196, False, "top")),
- ("Pin42", "become YOU", pin(["become", "YOU."], 250, True, "mid")),
- ("Pin43", "you don't have to see it to believe it", pin(["you don’t have to see it to believe it.", "but you have to participate to create it."], 104, False, "mid", lh=1.0)),
+ ("Pin42", "become YOU", pin(["become", "YOU."], 228, True, "mid")),
+ ("Pin43", "you don't have to see it to believe it", pin(["you don’t have to", "see it to believe it.", "but you have to", "participate to", "create it."], 100, False, "mid", track=-0.03, lh=1.04)),
  # Megan via OPS: "Become your own dream girl" exactly as written (capital B, no period). ISSUE11's brand line: biggest set in the batch.
- ("Pin44", "Become your own dream girl", pin(["Become", "your own", "dream", "girl"], 230, True, "mid")),
+ ("Pin44", "Become your own dream girl", pin(["Become", "your own", "dream", "girl"], 226, True, "mid")),
  ("Pin45", "me 🫱🏻‍🫲🏽 2027", pin(["me 🫱🏻‍🫲🏽", "2027"], 230, False, "mid", "center")),
- ("Pin46", "can't talk rn. i'm rebranding.", pin(["can’t talk rn.", "i’m", "rebranding."], 170, True, "low")),
+ ("Pin46", "can't talk rn. i'm rebranding.", pin(["can’t talk", "rn. i’m", "rebranding."], 168, True, "low")),
 ]
 for k, t, (bg, inner) in P:
     open(f"{R}/project/{k}.dc.html", "w").write(doc(f"Quote · {t}", inner, bg))

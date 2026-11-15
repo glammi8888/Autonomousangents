@@ -6,7 +6,7 @@ Rules: drafts only, so nothing is posted, sent, scheduled, published or paid for
 
 ## 1. The goal
 Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin views and traffic in the 100 thousands for issue11". Then users on the app.
-- North star: **100,000 visits a month to issue11.app**. Deadline: not set by Megan yet.
+- North star: **at least 100,000 visits a month to issue11.app**. Megan, Nov 15: "100k minimum of course". 100k is the floor, not the ceiling: plan moves that can go beyond it, never anything that gets us flagged. Deadline: not set by Megan yet.
 - Supporting: Pinterest impressions in the millions per month → outbound clicks → visits → waitlist sign-ups → beta users (private beta Dec 11, 2026).
 
 ## 2. This week's numbers (week of Nov 15, 2026)
@@ -24,7 +24,7 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 
 Fix for the missing rows: decision 2 below.
 
-## 3. Lanes (who does what toward 100k)
+## 3. Lanes (who does what toward 100k+ a month)
 | Agent | Lane | Skills to load (exact names) | Current task |
 |---|---|---|---|
 | 💚 Growth Lead (this room) | Keeps this board, reads the weekly numbers, picks the next move, routes work. No production of its own. | `marketing-loops`, `marketing-plan`, `analytics` | Set up the room; get real numbers in (decision 2). |

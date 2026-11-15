@@ -29,6 +29,7 @@ Rule (Megan, Nov 15): "The quotes still sound way too AI it needs to stop". Agen
 - Dream life is on its way
 - My dream life wants me
 - I'm the girl who always makes it work
+- 2027 is the year I lifemaxx
 
 ## Audience lines (ICP doc, verbatim)
 - My nervous system is calm

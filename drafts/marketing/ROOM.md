@@ -39,6 +39,21 @@ Fix for the missing rows: decision 2 below.
 | 💸 growth-media-buyer | Paid boost of what already works organically; weekly read of results, max 3 changes. Never launches or spends. | `ads-meta`, `ads-monitor`, `ads-optimize`, `ads-creative`, `ads-test`, `ads-competitor`, `ads-math` | $300 Instagram waitlist test, Nov 17 → Dec 1. First read ~Nov 24. Monday competitor watch. |
 | 🖋 the-editor | Visuals and lead magnets the pins point to (sign-up pages). | `artifact-design`, `copywriting`, `marketing-psychology`, `lead-magnets` | Wallpaper pack v1 done; Vision Board Kit + Journaling Prompts wait on Megan's layout pick (`drafts/lead-magnets/PLAN.md`). |
 
+## 3b. Marketing skills per agent (marketingskills pack, MIT, in `.claude/skills/`)
+Megan, Nov 15: "And you can use the MIT marketing skills too". Every brief names these by exact name and the agent loads them first. **Each SKILL.md ends with an "ISSUE11 / Glammi Studio overrides" block, and those rules win** (checked Nov 15: all 36 below have it).
+| Agent | Load these (plus its own skills in section 3) |
+|---|---|
+| 💚 Growth Lead | `marketing-plan`, `marketing-loops`, `marketing-ideas`, `marketing-council`, `reverse-engineer-marketing`, `analytics`, `attribution`, `ab-testing` |
+| 📌 Pinterest SEO | `content-strategy`, `lead-magnets`, `copywriting`, `analytics` (UTMs) |
+| 🔎 SEO/AEO | `content-strategy`, `programmatic-seo`, `ai-seo`, `link-building`, `site-architecture`, `schema`, `competitors`, `free-tools`, `directory-submissions` (reputable listings only), `popups`, `cro`, `copy-editing` |
+| 🧵 Reddit | `community-marketing`, `copywriting`, `copy-editing` |
+| 🎬 Viral Formats | `social`, `influencer-marketing`, `co-marketing`, `copywriting` |
+| 💸 Media Buyer | `influencer-marketing`, `conversion-tracking`, `attribution`, `ab-testing`, `offers` |
+| 🖋 The Editor | `lead-magnets`, `free-tools`, `signup`, `copywriting` |
+| Sign-up → paid (reported to Megan; app screens stay her Replit work via `/pipeline`) | `signup`, `onboarding`, `paywalls`, `pricing`, `offers`, `emails`, `referrals`, `churn-prevention`, `aso`, `cro` |
+
+**Never use these parts of the skills** (Megan kept the files unmodified, but these would get us flagged): spammy directory tiers, "warm-up" accounts, fake or staged UGC, engagement pods, pixel sharing, fake urgency.
+
 ## 4. The cross-channel loop (one article → many doors → sign-ups)
 ```
 AEO worker publishes 1 article/day on issue11.app  (log: AEO commit + this board)
@@ -74,3 +89,4 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 2026-11-15 22:45 · Growth Lead · Megan: "100k minimum of course" → goal is at least 100k/mo. Roll call + brainstorm (5 subagent runs: Pinterest, Reddit, Media Buyer, SEO/AEO, Viral; all text only). Merged into `100K-PLAN.md`. Decisions replaced with the 3 most blocking.
 - 2026-11-15 22:40 · Growth Lead · Megan: "Ideally I'd want 500 new subscribers per month to issue11". Added as goal 2 (definition pending her OK), conversion rows, and sign-up levers in 100K-PLAN.md section 5.
 - 2026-11-15 22:50 · Growth Lead · Megan: "Paying app subscribers". Goal 2 = 500 new paying subscribers/mo over time after launch; funnel built backwards in 100K-PLAN.md section 6.
+- 2026-11-15 22:55 · Growth Lead · Megan: "And you can use the MIT marketing skills too". Mapped 36 marketingskills to agents (section 3b), verified each has its ISSUE11 overrides block, listed the never-use parts.

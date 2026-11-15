@@ -41,6 +41,7 @@ Bursts of posts or pins · duplicate or colour-swap "new" pins · keyword stuffi
 | Monthly | Compare real visits to these ranges · cut what's flat · move effort to what wins · update this plan |
 
 ## 4. Who owns what
+Skills per agent (marketingskills pack + platform skills, by exact name) are in `ROOM.md` section 3b. Each SKILL.md's ISSUE11 overrides block wins.
 - 💚 **Growth Lead:** this plan, the ROOM.md numbers every Monday, the order of moves.
 - 📌 **Pinterest SEO + hourly routine:** moves 2–3 and the Pinterest half of 4. Fix: create `drafts/pinterest/QUEUE.md` (lessons.md says it exists, but it doesn't).
 - 🔎 **SEO/AEO workers:** moves 1 (technical side), 5 and 8 (links).

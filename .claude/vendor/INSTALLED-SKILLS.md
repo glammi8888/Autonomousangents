@@ -176,3 +176,21 @@ Added an "ISSUE11 / Glammi Studio overrides" block to every SKILL.md: drafts onl
 Kept but flagged (vendor plugs, disclosed in the text): Converly, Attributer, Ploy, LinkDR, Magister, TGScope. marketing-council simulates real marketers: never publish its output as their real words.
 
 **Nov 15 update (Megan: "No don't cut anything before installing"):** every file is now restored to the original upstream text, so nothing is stripped (the items listed under "Stripped or patched before install" are back). The only change from upstream is the appended "ISSUE11 / Glammi Studio overrides" block in each SKILL.md, plus LICENSE.
+
+## Nov 15, 2026: Open Generative AI desktop app (github.com/Anil-matcha/Open-Generative-AI @ 7dd77861, v2.0.0, MIT): SCANNED, SAFE WITH NOTES. Megan is installing it on her Mac herself.
+- Source review only (211 files; the Electron code was read in full). No malware, telemetry, auto-updater or persistence. Electron settings are sound (contextIsolation on, nodeIntegration off).
+- Hosts:
+  - api.muapi.ai: x-api-key header, prompts and uploads, on cloud generations only.
+  - Result CDNs.
+  - github.com and huggingface.co: only if she clicks "Install engine" or "Download" for local models. No checksum check, and macOS quarantine is stripped.
+- The muapi key is stored in plain text in localStorage under ~/Library/Application Support/Open Generative AI/. Use a separate muapi key with a low spending cap.
+- The .dmg is not notarized and cannot be proven to match the source. README markets "no content filters"/"Uncensored (Spicy)". README "Your data stays local" is false for cloud generations.
+
+## Nov 15, 2026: muapi-skills (github.com/SamurAIGPT/muapi-skills @ 1dd7527, MIT): SCANNED, NOT INSTALLED (Megan chose the desktop app instead)
+- All 94 files read. SAFE WITH NOTES: no malware, obfuscation or persistence. The only host the scripts call with the key is api.muapi.ai (x-api-key header).
+- Notes:
+  - The scripts `source .env` from the current folder, which breaks our secrets rule, and `--add-key` writes the key into ./.env.
+  - muapi-chat-agents tells the agent to route Claude Code through muapi by editing settings.json.
+  - workflow reinstalls with pip every session.
+  - It includes celebrity selfies, face swap/lipsync, AI watermark removal, low-censorship tiers and undisclosed UGC/testimonial recipes.
+- Needs Megan's decisions before any install.

@@ -29,7 +29,6 @@ Rule (Megan, Nov 15): "The quotes still sound way too AI it needs to stop". Agen
 - Dream life is on its way
 - My dream life wants me
 - I'm the girl who always makes it work
-- Doors and opportunities always come for me
 
 ## Audience lines (ICP doc, verbatim)
 - My nervous system is calm
@@ -40,4 +39,4 @@ Rule (Megan, Nov 15): "The quotes still sound way too AI it needs to stop". Agen
 - I am worthy of love, respect, and everything I desire
 
 ## Rejected by Megan (never use)
-I sent the text and forgot about it · I don't have to earn my rest anymore · Nothing I want has an expiry date · Rich women rest. I'm a rich woman. · Hard work is overrated. Alignment pays better. · Everyone who doubted me gets a front row seat. (meh) · I can relax. It's handled. · Good news is looking for me. · It's already mine. · The universe is obsessed with me.
+I sent the text and forgot about it · I don't have to earn my rest anymore · Nothing I want has an expiry date · Rich women rest. I'm a rich woman. · Hard work is overrated. Alignment pays better. · Everyone who doubted me gets a front row seat. (meh) · I can relax. It's handled. · Good news is looking for me. · It's already mine. · The universe is obsessed with me. · Doors and opportunities always come for me (cut Nov 15)

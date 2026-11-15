@@ -74,6 +74,7 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 2. **Back to 1 article a day, with 2–3 of your own lines on each hub page.** Recommended: yes. Why: the AEO workers publish 2–3 a day right now, and AI-assisted volume on a new domain is our biggest Google flag risk. It also matches your Nov 5 rule ("1 article daily"). Option B: keep 2–3 a day.
 3. **Pick the layout for the Vision Board Kit + Journal Prompts this week.** Recommended: yes. Why: pins can only use the biggest New Year searches (vision board ideas 43,400/mo, journal prompts 38,200/mo) honestly once those pages exist, and the peak is Dec–Jan. Option B: launch the Wallpaper pack first.
 (Next in line once these are done: Reddit yes/no, from the first board.)
+- ⏳ **Team loop:** not started automatically. A scheduled prompt can't start a self-paced loop by itself in this setup. To start it, Megan types in this room: `/loop Marketing Room team cycle: stand-up in ROOM.md, brainstorm 1–3 ideas, do the top 1–2 tasks from 100K-PLAN.md with the right agents and skills, commit and push. Goal: 100k+ visitors a month and 500 paying subscribers a month over time, without getting flagged. Drafts only.` To stop it: "stop looping".
 
 ## 5b. Roll call (Nov 15, from repo status + each agent's own report)
 - 💚 **Growth Lead:** set up the room and merged 5 brainstorms into 100K-PLAN.md. Next: every Monday, fill the numbers row and keep the order of moves.
@@ -84,9 +85,22 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🎬 **Viral Formats:** formats and ad scripts reviewed. Next: weekly GRWM script batch in `drafts/social/` + the 2 ad Reels.
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
+## 5c. Cycle stand-up (latest first)
+**Cycle 1 · Nov 15, 22:45 UTC · Growth Lead, no subagents**
+- Done:
+  - `drafts/marketing/UTM-MAP.md`: tagged Pinterest + Reddit links for all 28 live content pages (27 blog posts + the kit page), so every visit and sign-up can be credited to a channel.
+  - Checked live S5: the homepage already shows the founding rate ("Founding members pay $39.99 for the first year (then $69.99/yr)"), but the /thank-you page doesn't.
+  - Live check: /rebrand-kit is now titled "Free 2027 Life Glow Up Kit".
+- Ideas (drafts, for the plan):
+  1. Add one line to /thank-you, using the approved wording "Approved guests lock in their founding rate", plus a link to the Glow Up Kit. That's a second freebie for people who are already warm.
+  2. Pinterest pins to the Glow Up Kit use its live name and keywords (glow up kit, 2027 glow up).
+  3. Count sign-ups by source every Monday from the Sheet, using the UTM tags.
+- Next cycle: pin batch destinations for the hourly routine (handed over by file only), plus the first numbers once Megan connects tracking (decision 1).
+
 ## 6. Log
 - 2026-11-15 · Growth Lead · Room set up. Read CLAUDE.md, lessons, STRATEGY.md, the 4 agent files, recent ads/blog/pinterest drafts. Numbers filled from repo + sitemap only; traffic rows missing. No agents run, nothing posted or spent.
 - 2026-11-15 22:45 · Growth Lead · Megan: "100k minimum of course" → goal is at least 100k/mo. Roll call + brainstorm (5 subagent runs: Pinterest, Reddit, Media Buyer, SEO/AEO, Viral; all text only). Merged into `100K-PLAN.md`. Decisions replaced with the 3 most blocking.
 - 2026-11-15 22:40 · Growth Lead · Megan: "Ideally I'd want 500 new subscribers per month to issue11". Added as goal 2 (definition pending her OK), conversion rows, and sign-up levers in 100K-PLAN.md section 5.
 - 2026-11-15 22:50 · Growth Lead · Megan: "Paying app subscribers". Goal 2 = 500 new paying subscribers/mo over time after launch; funnel built backwards in 100K-PLAN.md section 6.
 - 2026-11-15 22:55 · Growth Lead · Megan: "And you can use the MIT marketing skills too". Mapped 36 marketingskills to agents (section 3b), verified each has its ISSUE11 overrides block, listed the never-use parts.
+- 2026-11-15 22:50 · Growth Lead · Megan: "Right now you can have them looping in the meeting room". Cycle 1 done (UTM map, live S5 check). Self-paced loop NOT started: Megan needs to type /loop (command in section 5).

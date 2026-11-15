@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Editorial</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;700&amp;display=swap" rel="stylesheet">
+<style>body{margin:0}</style>
+</helmet>
+<div style="width: 1640px; height: 1882px; box-sizing: border-box; padding: 60px; background: #FFFFFF; font-family: 'Inter Tight', sans-serif; color: #0D0D0D">
+<div style="display: flex; justify-content: space-between; align-items: baseline; height: 80px"><h1 style="margin: 0; font-size: 44px; font-weight: 700; letter-spacing: -0.04em">Editorial (first set)</h1><p style="margin: 0; font-size: 18px; font-weight: 500">Closets, cars, girls at work · used across the pins</p></div>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+<sc-for list="{{photos}}" as="p" hint-placeholder-count="12">
+<img src="{{p}}" alt="Aspirational editorial photo" style="width: 100%; height: 570px; object-fit: cover; display: block">
+</sc-for>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1640,"height":1882}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return { photos: ['/_blob/27f1284781670035f8f8615ef29020b2','/_blob/6d821732ae95f4f3698f1d5da54abce3','/_blob/dc8a15a3984ed70985713daccccdc64e','/_blob/b196a296981d593cced6f5becd995735','/_blob/0ab66c9ab26d5e5bdd931dc6b6a13d96','/_blob/cd31658273e95257d91973fbe75f7fff','/_blob/56ac52a8233c4f9568030eadd32d5ce3','/_blob/55ab05a5eac304ad60342a5a28530bd6','/_blob/203189bf5f57f11e4913886fd030ef5d','/_blob/8dd86ea5ba8557cd11e503cc88f0c404','/_blob/d44ad8130ff3b6317fc7b93b86ceff54','/_blob/58699dcfd17623ebcf140b7cc8d767b0'] };
+  }
+}
+</script>
+</body>
+</html>

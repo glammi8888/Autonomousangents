@@ -18,18 +18,69 @@
 ## Main pages
 
 - [Home](https://glammi.ai/): services, who we work with and how to book a discovery call
-- [Blog](https://glammi.ai/blog): guides on AI search, AEO and local visibility for beauty and luxury businesses
+- [Blog](https://glammi.ai/blog): guides on AI search, AEO and local visibility for beauty, fashion and aesthetic businesses
 
-## Guides
+## Industries
 
-- [AI Search Optimization for Local Businesses](https://glammi.ai/blog/ai-search-optimization): a practical guide to getting named in AI answers
-- [How to Get Your Med Spa Recommended by ChatGPT and Google AI](https://glammi.ai/blog/med-spa-ai-visibility)
-- [GEO vs SEO](https://glammi.ai/blog/geo-vs-seo): the difference, and what a med spa should do first
-- [How to Choose a GEO or AEO Agency](https://glammi.ai/blog/how-to-choose-a-geo-aeo-agency): 8 questions to ask before hiring
+- [AEO for Med Spas](https://glammi.ai/aeo-for-med-spas)
+- [AEO for Dermatology Clinics](https://glammi.ai/aeo-for-dermatology-clinics)
+- [AEO for Jewelers](https://glammi.ai/aeo-for-jewelers)
+- [AEO for Hair Salons](https://glammi.ai/aeo-for-hair-salons)
+- [AEO for Skincare Brands](https://glammi.ai/aeo-for-skincare-brands)
+- [AEO for Perfume Brands](https://glammi.ai/aeo-for-perfume-brands)
+- [AEO for Fashion Brands](https://glammi.ai/aeo-for-fashion-brands)
+
+## Guides: AI search basics
+
 - [What Is AEO?](https://glammi.ai/blog/what-is-aeo): answer engine optimization explained
-- [Med Spa SEO](https://glammi.ai/blog/med-spa-seo): a practical checklist for Google and AI search
+- [AEO vs SEO](https://glammi.ai/blog/aeo-vs-seo): what changes when AI search answers first
+- [GEO vs SEO](https://glammi.ai/blog/geo-vs-seo): the difference, and what a med spa should do first
+- [What Is Generative Engine Optimization?](https://glammi.ai/blog/what-is-generative-engine-optimization)
+- [What Is AI Visibility?](https://glammi.ai/blog/what-is-ai-visibility): how to measure it
+- [AI Search Optimization for Local Businesses](https://glammi.ai/blog/ai-search-optimization): a practical guide to getting named in AI answers
+- [ChatGPT SEO: How to Rank in ChatGPT](https://glammi.ai/blog/how-to-rank-in-chatgpt)
+- [LLM SEO](https://glammi.ai/blog/llm-seo): how to get your business mentioned by ChatGPT
+- [AI SEO](https://glammi.ai/blog/ai-seo): what it means for your business
+- [Brand Positioning for AI Search](https://glammi.ai/blog/brand-positioning-for-ai-search)
+- [What Is llms.txt?](https://glammi.ai/blog/llms-txt)
+- [FAQ Schema for AI Search](https://glammi.ai/blog/faq-schema)
+- [SEO for Small Business](https://glammi.ai/blog/seo-for-small-business): a Google and AI search checklist
+- [How to Choose a GEO or AEO Agency](https://glammi.ai/blog/how-to-choose-a-geo-aeo-agency): 8 questions to ask before hiring
+
+## Guides: med spas, dermatology and aesthetic medicine
+
+- [How to Get Your Med Spa Recommended by ChatGPT](https://glammi.ai/blog/med-spa-ai-visibility)
+- [Med Spa SEO](https://glammi.ai/blog/med-spa-seo): a checklist for Google and AI search
+- [Med Spa Marketing Agency](https://glammi.ai/blog/med-spa-marketing-agency): what to expect and red flags
+- [Med Spa Marketing Ideas](https://glammi.ai/blog/med-spa-marketing-ideas)
+- [Med Spa Advertising](https://glammi.ai/blog/med-spa-advertising): what works and what's allowed
+- [Med Spa Website Design](https://glammi.ai/blog/med-spa-website-design)
+- [Med Spa Reviews](https://glammi.ai/blog/med-spa-reviews): how to get more the right way
+- [Dermatology Marketing](https://glammi.ai/blog/dermatology-marketing): how clinics get found by AI
+- [Plastic Surgery SEO](https://glammi.ai/blog/plastic-surgery-seo)
+
+## Guides: jewelers
+
 - [Jewelry SEO](https://glammi.ai/blog/jewelry-seo): how jewelers get found on Google and AI search
-- [Med Spa Marketing Agency](https://glammi.ai/blog/med-spa-marketing-agency): what a modern agency should do, and red flags
+- [How Jewelers Get Recommended by ChatGPT](https://glammi.ai/blog/how-jewelers-get-recommended-by-chatgpt)
+- [Jewelry Store Marketing](https://glammi.ai/blog/jewelry-store-marketing)
+- [Jewelry Store Advertising](https://glammi.ai/blog/jewelry-store-advertising)
+- [Jewelry Website Design](https://glammi.ai/blog/jewelry-website-design)
+- [Jewelry Product Descriptions](https://glammi.ai/blog/jewelry-product-descriptions)
+- [How to Photograph Jewelry](https://glammi.ai/blog/how-to-photograph-jewelry)
+
+## Guides: beauty, fashion and creative businesses
+
+- [Salon Marketing for Luxury Hair Salons](https://glammi.ai/blog/salon-marketing)
+- [Skincare Marketing](https://glammi.ai/blog/skincare-marketing): how brands get recommended by AI
+- [Shopify SEO for Beauty and Fashion Brands](https://glammi.ai/blog/shopify-seo)
+- [How to Market a Clothing Brand](https://glammi.ai/blog/how-to-market-a-clothing-brand)
+- [Photographer SEO](https://glammi.ai/blog/photographer-seo)
+
+## Local research
+
+- [AEO and AI Search for Beauty Businesses in Los Angeles](https://glammi.ai/blog/aeo-for-beauty-businesses-los-angeles)
+- [Where AI Gets Answers About LA Med Spas and Jewelers](https://glammi.ai/blog/where-ai-gets-answers-la-med-spas-jewelers)
 
 ## About the founder
 

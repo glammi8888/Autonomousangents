@@ -60,7 +60,7 @@
 | G13 | marketing for plastic surgeons · plastic surgery marketing agency · plastic surgery advertising | 250 + 170 + 190 | 15 to 25 | NEXT ("Marketing for plastic surgeons") |
 | G14 | dermatology seo · cosmetic surgery seo | 50 + 50 | 20 to 21 | small; fold into a dermatology SEO article later |
 | G15 | skincare advertising · advertising skin care | 1,000 | 28 to 30 | DRAFT Nov 14 skincare-advertising (cover pending). Was: NEXT beauty (Megan Nov 14: "Most demand and the least competition" in beauty/fashion). Article "Skincare advertising" linking skincare-marketing + /aeo-for-skincare-brands |
-| G16 | beauty marketing · beauty marketing agencies · marketing for beauty industry · cosmetic marketing | 460 + 120 + 80 + 80 | 19 to 30 | NEXT beauty ("Beauty marketing for brands and salons") |
+| G16 | beauty marketing · beauty marketing agencies · marketing for beauty industry · cosmetic marketing | 460 + 120 + 80 + 80 | 19 to 30 | DRAFT beauty-marketing (Nov 27). Was: NEXT beauty ("Beauty marketing for brands and salons") |
 | G17 | fashion marketing agency · fashion influencer marketing · fashion digital marketing | 180 + 140 + 70 | 14 to 21 | NEXT fashion. (Note: "fashion marketing" 3,600 is mostly students looking for degrees, not clients) |
 | G18 | social media marketing for beauty salons | 160 | 17 | later, links salon-marketing |
 | skip | "seo agency near me" style terms (38,400) | local-pack intent, we can't rank without local presence in each city | 14 to 40 | skip |
@@ -71,7 +71,7 @@
 
 | # | Main long-tail keyword · variants | US/mo | KD | Status |
 |---|---|---|---|---|
-| L6 | 🎄 journal prompts for january · journal prompts for december | 370 + 270 (seasonal) | 21 | NEXT, seasonal: one article "December + January journal prompts", live before Dec 20 |
+| L6 | 🎄 journal prompts for january · journal prompts for december | 370 + 270 (seasonal) | 21 | DONE Nov 14: draft december-january-journal-prompts (62 daily prompts, 0 repeats from other journaling articles; cover megan-editorial-32, dated Nov 14 so it publishes first tomorrow) |
 | L1 | journal prompts for self discovery · journal prompts for self reflection · journal for self discovery · journaling for self awareness | 1,300 + 1,300 + 4,100 + 5,100 | 12 to 25 | NEXT after L6 (best ratio in the bank) |
 | L2 | journaling for self love · journal prompts for healing · journal prompts for mindfulness · journal prompts for self care | 2,200 + 620 + 670 + 310 | 14 to 20 | queued |
 | L3 | how to manifest something · how to manifest something by writing it down · how to manifest quickly | 5,500 + 90 + 140 | 15 to 26 | STRENGTHEN live how-to-manifest (add these as H2s + FAQ) instead of a new page |

@@ -1,7 +1,7 @@
 # 🚀 100K+ PLAN: issue11.app visits per month (draft for Megan)
 Nov 15, 2026 · 💚 Growth Lead, merged from 5 agent brainstorms (Pinterest SEO, SEO/AEO, Reddit, Media Buyer, Viral Formats).
 Megan, word for word: "brainstorm on how to get 100k visitors monthly on the website as fast as possible (but without getting flagged)" · "100k minimum of course".
-**Goal 1: at least 100,000 visits a month (the floor, not the ceiling). Goal 2: 500 new subscribers a month** (Megan: "Ideally I'd want 500 new subscribers per month to issue11"; ⏳ what counts is pending her confirmation; for now = email/waitlist sign-ups on issue11.app). Drafts only: nothing here is posted, scheduled or paid for without Megan's "go".
+**Goal 1: at least 100,000 visits a month (the floor, not the ceiling). Goal 2: 500 new PAYING app subscribers a month, built up over time after launch** (Megan: "Paying app subscribers" · "Obviously over time I don't expect having that much from the get go"). Before launch, email/waitlist sign-ups are the leading indicator. Drafts only: nothing here is posted, scheduled or paid for without Megan's "go".
 
 ## 0. Honest starting point
 - Real data today: issue11.app visits **missing**, Pinterest impressions **missing**, waitlist count **missing**. We have 32 URLs in the sitemap (fetched Nov 15) and 27 live blog posts. Pin1–Pin122 are designed and none are scheduled. Ad spend is $0.

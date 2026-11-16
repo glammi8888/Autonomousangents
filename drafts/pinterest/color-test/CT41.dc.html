@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 41 · black + lilac · photo</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%)}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;letter-spacing:-.01em}
+.big{position:absolute;left:44px;right:44px;font-weight:900;letter-spacing:-.055em;line-height:.86}
+.big i{font-weight:300;letter-spacing:-.04em}
+.shade{position:absolute;inset:0}
+
+.pin{background:#0E0E0E}
+.big{top:1050px;color:#D9B3FF;font-size:116px;text-transform:uppercase;text-align:center}
+.shade{background:linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,0) 15%,rgba(0,0,0,0) 55%,rgba(10,10,10,.92) 75%)}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="bg" src="/_blob/bb6331704485e735630ba2d0f3bcaec4" style="object-position:45% 20%" alt="Editorial photo (AI-generated)"><div class="shade"></div>
+<img class="tl w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="big">I'm making money in my sleep</div><div class="url" style="color:#D9B3FF">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

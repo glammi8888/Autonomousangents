@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 49 · full-bleed champagne · lilac type</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%)}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;letter-spacing:-.01em}
+.big{position:absolute;left:44px;right:44px;font-weight:900;letter-spacing:-.055em;line-height:.86}
+.big i{font-weight:300;letter-spacing:-.04em}
+.shade{position:absolute;inset:0}
+
+.pin{background:#1A140C}
+.shade{background:linear-gradient(180deg,rgba(20,12,4,.35) 0%,rgba(20,12,4,0) 22%,rgba(20,12,4,0) 60%,rgba(20,12,4,.92) 80%)}
+.big{top:1080px;color:#F3D9A4;font-size:96px;text-transform:uppercase;text-align:center}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="bg" src="/_blob/09ac110d6a4b99f7489e0491c3418e33" style="object-position:50% 35%" alt="Editorial photo (AI-generated)"><div class="shade"></div><img class="tl w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="big">My business is bringing <i>sooooo</i> much money</div><div class="url" style="color:#F3D9A4">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 15 · baby blue + cream · text on top</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#EAF4FF}
+.top{position:absolute;inset:0 0 auto 0;height:620px;background:linear-gradient(180deg,#EAF4FF 0%,#EAF4FFEE 55%,#EAF4FF00 100%)}
+.q{position:absolute;left:48px;right:48px;top:90px;color:#1B4F9C;font-weight:900;font-size:128px;line-height:.86;letter-spacing:-.055em;text-transform:uppercase}
+.q i{font-style:italic;font-weight:500;text-transform:none;color:#5FA8FF}
+.tag{right:52px;bottom:52px;background:#EAF4FF;color:#1B4F9C}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="bg" src="/_blob/192e7090c0bebed08ef694877d2afefc" style="object-position:50% 70%" alt="Editorial photo (AI-generated)"><div class="top"></div>
+<div class="q">I only attract <i>the best of</i> the best</div>
+<img class="logo" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="tag">Save this</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

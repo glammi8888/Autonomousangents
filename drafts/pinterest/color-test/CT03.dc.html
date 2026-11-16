@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 03 · hot pink + red · magazine cover</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#FF3EA5}
+.fade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(0,0,0,.55) 100%)}
+.kick{position:absolute;left:52px;top:52px;background:#E8112D;color:#fff;font-weight:900;font-size:30px;letter-spacing:.12em;padding:12px 20px;text-transform:uppercase}
+h1{position:absolute;left:44px;right:40px;top:1010px;margin:0;color:#FF3EA5;font-weight:900;font-size:126px;line-height:.82;letter-spacing:-.055em;text-transform:uppercase;text-shadow:0 4px 30px rgba(0,0,0,.25)}
+.lines{position:absolute;left:52px;top:1268px;display:flex;gap:12px}
+.lines span{background:#E8112D;color:#fff;font-weight:800;font-size:30px;padding:10px 16px;letter-spacing:-.01em}
+.logo{bottom:auto;top:1394px}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="bg" src="/_blob/61c13ba5e0a9205473641aaca015e7c7" style="object-position:50% 20%" alt="Editorial photo (AI-generated)">
+<div class="fade"></div>
+<div class="kick">60 that feel true</div>
+<h1>Self love<br>affirmations</h1>
+<div class="lines"><span>Self love</span><span>Self worth</span><span>Confidence</span></div>
+<img class="logo w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

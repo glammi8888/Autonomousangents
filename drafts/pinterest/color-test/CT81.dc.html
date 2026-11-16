@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 81 · falling tags on full bleed</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%);z-index:5}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
+img.f{position:absolute;object-fit:cover;display:block}
+.full{inset:0;width:100%;height:100%}
+
+.pin{background:#1D47B8}
+.tg{position:absolute;background:#F2F0E6;color:#1F4A2A;font-weight:900;font-size:66px;letter-spacing:-.04em;padding:14px 26px;border:3px dashed #9DBF9F;box-shadow:0 14px 30px rgba(0,0,30,.35)}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="f full" src="/_blob/1b47a89319b10d2a520ecd22bff402a1" style="object-position:50% 20%" alt="Editorial photo (AI-generated)"><img class="tl w" style="left:auto;right:52px;transform:none" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="tg" style="left:120px;top:860px;transform:rotate(-8deg)">My business</div><div class="tg" style="left:380px;top:980px;transform:rotate(6deg)">is bringing</div><div class="tg" style="left:140px;top:1090px;transform:rotate(-4deg)">sooooo</div><div class="tg" style="left:420px;top:1200px;transform:rotate(5deg)">much money</div><div class="url" style="color:#fff">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

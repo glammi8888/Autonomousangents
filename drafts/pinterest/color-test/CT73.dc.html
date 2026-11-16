@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 73 · indie framed bleed</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.run{position:absolute;left:52px;right:52px;top:44px;display:flex;justify-content:space-between;font-weight:500;font-size:17px;letter-spacing:.26em;text-transform:uppercase}
+.folio{position:absolute;right:52px;bottom:60px;font-weight:500;font-size:18px;letter-spacing:.2em}
+.cap{font-weight:400;font-size:19px;letter-spacing:.02em;line-height:1.4}
+.cap b{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:15px;margin-right:10px}
+img.ph{position:absolute;object-fit:cover;display:block}
+
+.pin{background:#DCE6F2}
+img.ph{left:40px;top:40px;width:920px;height:1420px}
+.fr{position:absolute;left:70px;top:70px;right:70px;bottom:70px;border:2px solid #fff}
+.t{position:absolute;left:100px;top:100px;color:#fff;font-weight:700;font-size:17px;letter-spacing:.3em;text-transform:uppercase}
+.sh{position:absolute;left:40px;top:40px;width:920px;height:1420px;background:linear-gradient(180deg,rgba(0,0,0,0) 64%,rgba(15,30,70,.8) 90%)}
+.q{position:absolute;left:100px;right:100px;bottom:200px;color:#fff;font-weight:300;font-size:92px;line-height:.92;letter-spacing:-.05em}
+.q b{font-weight:800}
+.logo{left:100px;bottom:100px}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="ph" src="/_blob/aad3cb4d8a25e93713be097d5e182795" style="object-position:50% 20%" alt="Editorial photo (AI-generated)"><div class="sh"></div><div class="fr"></div><div class="t">Vol. 01 · The calm issue</div>
+<div class="q">My nervous system is <b>calm</b></div><img class="logo w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

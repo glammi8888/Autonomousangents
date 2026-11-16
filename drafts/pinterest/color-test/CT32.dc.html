@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 32 · indie feature · powder blue</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.run{position:absolute;left:52px;right:52px;top:44px;display:flex;justify-content:space-between;font-weight:500;font-size:17px;letter-spacing:.26em;text-transform:uppercase}
+.folio{position:absolute;right:52px;bottom:60px;font-weight:500;font-size:18px;letter-spacing:.2em}
+.cap{font-weight:400;font-size:19px;letter-spacing:.02em;line-height:1.4}
+.cap b{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:15px;margin-right:10px}
+img.ph{position:absolute;object-fit:cover;display:block}
+
+.pin{background:#DCE6F2;color:#1E3A6E}
+img.ph{left:52px;top:110px;width:560px;height:760px}
+.side{position:absolute;left:650px;right:52px;top:120px}
+.side .cap{color:#1E3A6E}
+.side hr{border:0;border-top:1px solid #1E3A6E;margin:18px 0}
+.q{position:absolute;left:46px;right:52px;top:930px;font-weight:300;font-size:150px;line-height:.86;letter-spacing:-.055em}
+.q b{font-weight:800;font-style:italic}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="run" style="color:#1E3A6E"><span>Vol. 01 — Winter 2027</span><span>Self worth</span></div><img class="ph" src="/_blob/aad3cb4d8a25e93713be097d5e182795" style="object-position:50% 30%" alt="Editorial photo (AI-generated)">
+<div class="side"><div class="cap"><b>Fig. 2</b>Blue liner, wet hair, no apology.</div><hr><div class="cap"><b>Read</b>Self love affirmations, p. 60</div><hr><div class="cap"><b>Save</b>for the days you forget.</div></div>
+<div class="q">I am <b>the prize</b>, always</div>
+<img class="logo" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="folio">P. 32</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

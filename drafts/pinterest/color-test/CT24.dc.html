@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 24 · paint swatch card</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#FBF7F2}
+.card{position:absolute;left:150px;right:150px;top:90px;height:1230px;background:#fff;box-shadow:0 30px 70px rgba(80,40,40,.18);padding:22px;box-sizing:border-box}
+.chip{height:330px;margin-bottom:16px;position:relative}
+.chip span{position:absolute;left:22px;bottom:16px;font-weight:700;font-size:20px;letter-spacing:.14em;color:rgba(0,0,0,.55)}
+.c1{background:#FFD6E5}.c2{background:#FF8DB8}.c3{height:330px;overflow:hidden}
+.c3 img{width:100%;height:100%;object-fit:cover;object-position:50% 45%}
+.name{font-weight:900;font-size:74px;line-height:.95;letter-spacing:-.04em;color:#B0124F;margin-top:18px}
+.code{font-weight:700;font-size:20px;letter-spacing:.2em;color:#B0124F;margin-top:10px}
+.punch{position:absolute;left:50%;top:44px;width:30px;height:30px;margin-left:-15px;border-radius:50%;background:#FBF7F2;box-shadow:inset 0 2px 4px rgba(0,0,0,.2)}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="card"><div class="chip c1"><span>SOFT START</span></div><div class="chip c2"><span>ON ITS WAY</span></div><div class="chip c3"><img src="/_blob/e0b2acd5fe4e7845cf15c0a2d79a2367" alt="Editorial photo (AI-generated)"></div>
+<div class="name">Dream life is on its way</div><div class="code">COLOUR OF THE YEAR · 2027</div></div><div class="punch"></div>
+<img class="logo" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

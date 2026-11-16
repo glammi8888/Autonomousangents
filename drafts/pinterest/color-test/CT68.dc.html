@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 68 · indie band + full bleed</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.run{position:absolute;left:52px;right:52px;top:44px;display:flex;justify-content:space-between;font-weight:500;font-size:17px;letter-spacing:.26em;text-transform:uppercase}
+.folio{position:absolute;right:52px;bottom:60px;font-weight:500;font-size:18px;letter-spacing:.2em}
+.cap{font-weight:400;font-size:19px;letter-spacing:.02em;line-height:1.4}
+.cap b{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:15px;margin-right:10px}
+img.ph{position:absolute;object-fit:cover;display:block}
+
+.pin{background:#111}
+img.ph{inset:0;width:100%;height:100%}
+.band{position:absolute;left:0;right:0;top:0;height:96px;background:#C9B6FF;color:#2A1650;display:flex;justify-content:space-between;align-items:center;padding:0 40px;font-weight:700;font-size:20px;letter-spacing:.28em;text-transform:uppercase}
+.sh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 60%,rgba(20,10,35,.8) 92%)}
+.it{position:absolute;left:52px;right:300px;bottom:190px;color:#fff;font-style:italic;font-weight:400;font-size:58px;line-height:1.05;letter-spacing:-.03em}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="ph" src="/_blob/a5d556e3904ad3660587c191ff3898c6" style="object-position:50% 25%" alt="Editorial photo (AI-generated)"><div class="sh"></div><div class="band"><span>Vol. 01 · Winter 2027</span><span>The worth issue</span></div>
+<div class="it">I am worthy of love, respect, and everything I desire</div><img class="logo w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="folio" style="color:#fff">P. 68</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

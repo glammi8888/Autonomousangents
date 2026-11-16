@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 28 · type specimen poster</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#FF5A36}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.18) 1px,transparent 1px);background-size:100px 100px}
+.top{position:absolute;left:52px;right:52px;top:60px;display:flex;justify-content:space-between;color:#FFE7DE;font-weight:700;font-size:20px;letter-spacing:.2em;text-transform:uppercase}
+.Aa{position:absolute;right:30px;top:90px;color:#FFE7DE;font-weight:900;font-size:300px;letter-spacing:-.08em;line-height:1;opacity:.95}
+.q{position:absolute;left:52px;right:52px;top:500px;color:#2A0D05;font-weight:900;font-size:112px;line-height:.9;letter-spacing:-.05em}
+.q span{display:block;color:#FFE7DE}
+.rule{position:absolute;left:52px;right:52px;top:448px;border-top:2px dashed #FFE7DE}
+.meas{position:absolute;left:52px;top:410px;color:#FFE7DE;font-weight:700;font-size:18px;letter-spacing:.14em}
+.crop{position:absolute;width:40px;height:40px;border-color:#2A0D05;border-style:solid}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="grid"></div><div class="top"><span>Specimen 11</span><span>Black 900 · 100 pt</span></div><div class="Aa">Aa</div>
+<div class="meas">↔ BASELINE / CAP HEIGHT</div><div class="rule"></div>
+<div class="q">I'm the art director of my life. <span>I create it page by page.</span> I make my own opportunities.</div>
+<div class="crop" style="left:20px;top:20px;border-width:3px 0 0 3px"></div><div class="crop" style="right:20px;top:20px;border-width:3px 3px 0 0"></div>
+<div class="crop" style="right:20px;bottom:20px;border-width:0 3px 3px 0"></div>
+<img class="logo" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

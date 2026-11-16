@@ -130,3 +130,9 @@ Assumes tracking, boards and the kit layout get done the week of Nov 16, and ste
 | Aug–Nov 2027 | ~100,000+ |
 - Email sign-ups: ~1–5% of visitors.
 - Paying subscribers/month, counted from launch (L) after the Dec 11 beta: launch month = one-off from the list · L+3 ~6–300 · L+6 ~18–600 · L+9 to 12 ~60–1,000.
+- Checkpoints if it doesn't work (shared with Megan Nov 16):
+  - **Dec 1:** indexing + Instagram test.
+  - **Jan 15:** pin clicks after the New Year peak.
+  - **Mar 1:** around 10k+ visits.
+  - **Every Monday:** below the range 3 weeks running = change something that week.
+  - Plan B per channel is in the chat summary: new pin formats/promoted winners · refresh + links for Google · switch video format · fix pages before traffic · app numbers to Megan.

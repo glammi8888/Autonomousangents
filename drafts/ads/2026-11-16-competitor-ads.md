@@ -24,3 +24,6 @@ Megan or the Media Buyer opens the snapshots and notes each ad's format (video/s
 - **Mindvalley** (mindvalley-page.png): talking-head videos of real teachers (Jeffrey Allen, Paul McKenna) with bold yellow or white subtitles, long story-style captions ("What if you could…", "Nope. ❌ Science says…") and a free masterclass offer with a "Learn More" button. One of their ads was removed for breaking Meta's advertising standards.
 - **Richfest:** its ads are too new to show yet (no impressions). Check again in 1–2 days.
 - **The gap for ISSUE11:** nobody shows a fashion-magazine look or a real product. Megan's own photos plus the printed magazine would stand out against the generic sky footage.
+
+## Weekly watch log
+- Nov 16 (weekly routine, 18:47 UTC): skipped on purpose. This file (16:36 UTC same day) is the baseline. Next weekly watch compares against it.

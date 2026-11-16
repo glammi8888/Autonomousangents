@@ -117,3 +117,22 @@ The calendar is set by the launch date. Megan sets that after the beta, so the m
 | L+6 | ~30k–60k visits/mo | ~18–600 |
 | L+9 to L+12 | 100k+ visits/mo | ~60–1,000 → **500 goal in range** |
 The visits column follows the 6–12 month path in section 0. Each month we replace one assumed rate with a real one and redo this table.
+
+## 7. Results timeline shared with Megan (Nov 16, 2026; estimates, not measured)
+Assumes tracking, boards and the kit layout get done the week of Nov 16, and steady posting after that. Every Monday, compare real numbers to these ranges and tell Megan whether we're ahead or behind.
+| Month | Visits/month (est.) |
+|---|---|
+| Nov 2026 | under 1,000 |
+| Dec 2026 | ~1,000–8,000 |
+| Jan 2027 | ~3,000–20,000 |
+| Mar 2027 | ~10,000–30,000 |
+| May 2027 | ~30,000–60,000 |
+| Aug–Nov 2027 | ~100,000+ |
+- Email sign-ups: ~1–5% of visitors.
+- Paying subscribers/month, counted from launch (L) after the Dec 11 beta: launch month = one-off from the list · L+3 ~6–300 · L+6 ~18–600 · L+9 to 12 ~60–1,000.
+- Checkpoints if it doesn't work (shared with Megan Nov 16):
+  - **Dec 1:** indexing + Instagram test.
+  - **Jan 15:** pin clicks after the New Year peak.
+  - **Mar 1:** around 10k+ visits.
+  - **Every Monday:** below the range 3 weeks running = change something that week.
+  - Plan B per channel is in the chat summary: new pin formats/promoted winners · refresh + links for Google · switch video format · fix pages before traffic · app numbers to Megan.

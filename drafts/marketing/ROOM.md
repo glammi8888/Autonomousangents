@@ -86,6 +86,25 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 7 · Nov 16, 04:25 UTC**
+- 📌 Pinterest SEO: ✅ **output now reaches the repo.** `drafts/pinterest/HOURLY-LOG.md` exists. The 3 pins that were only on the canvas were saved again, and 2 new ones were made: vision-board-examples and word-of-the-year-ideas. That's 5 "save this" images for New Year articles in `drafts/pinterest/article-pins/`, Visual QA passed, status "ready for Framer". The daily site task adds them to the articles. It self-corrected a cash photo on a money board, which matches Megan's relevance rule.
+- 🔎 SEO/AEO: no new ISSUE11 article this hour. Glammi work only.
+- 💚 · 🎬 · 💸 · 🧵 · 🖋: no change. Still waiting on Megan for tracking, boards, the kit layout, Reddit and the Reels. The Instagram test starts Mon Nov 17.
+- Idea: none new. The loop (article → pin) is now really running for the New Year articles. 0 subagents.
+
+**Cycle 6 · Nov 16, 03:25 UTC**
+- 📌 Pinterest SEO: the new hourly worker has the repo and is running now, building a vision-board-examples pin (QUEUE.md row 6). Nothing committed yet, so HOURLY-LOG.md isn't there either. Check again next cycle.
+- 🔎 SEO/AEO: retargeted the live manifestation-journal-prompts page to "manifestation journal" (I7) instead of making a new page. That fits the 1/day + refresh rule.
+- 💚 Growth Lead: the results timeline and the "what if it doesn't work" checkpoints (Dec 1 / Jan 15 / Mar 1) are shared with Megan and saved in 100K-PLAN.md section 7.
+- 🎬 · 💸 · 🧵 · 🖋: no change (the Instagram test is Mon Nov 17; Reddit, the kit layout, tracking and the Reels are waiting on Megan).
+- 0 subagents: nothing new to hand off this hour.
+
+**Cycle 5 · Nov 16, 02:25 UTC**
+- 📌 Pinterest SEO: ✅ **fixed by OPS** (lessons.md, Nov 16). Hourly Pinterest work now runs in a session that has the repo, so the next run should write HOURLY-LOG.md and QUEUE.md rows. I'll check that next cycle.
+- 🔎 SEO/AEO: no new ISSUE11 commit this hour (best-manifestation-books draft, cover pending).
+- 💚 Growth Lead · 🎬 Viral · 💸 Media Buyer · 🧵 Reddit · 🖋 Editor: no change. Waiting on Megan's 3 decisions (Search Console + boards + Metricool, Reddit yes, kit layout), the Instagram test Mon Nov 17, and filming the 3 Reels.
+- Ideas: none new. 0 subagents (nothing useful ready until the Pinterest output shows up).
+
 **Cycle 4 · Nov 16, 01:25 UTC**
 - 💚 Growth Lead: found the cause of the missing Pinterest output (read-only check of the 00:13 run).
   - That session runs **with no git repo** (tag `config:no-git-repo`). It did update the Claude Design canvas "ISSUE11 Lead Magnets" (https://claude.ai/artifact/MZr3GzSS5YdENf5x4D3DrT, 00:18 UTC).
@@ -150,3 +169,5 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 2026-11-15 23:30 · Growth Lead · Hourly cycle 2: QUEUE.md created (15 pin briefs), 1 subagent (Viral: 3 New Year Reel scripts). Flag for OPS: the hourly Pinterest routine leaves no HOURLY-LOG/QUEUE trace.
 - 2026-11-16 00:30 · Growth Lead · Cycle 3: Pinterest hourly task runs but writes nothing to the repo (escalated to OPS). QUEUE.md got a "Pins made" table for the scheduler. 0 subagents.
 - 2026-11-16 01:30 · Growth Lead · Cycle 4: root cause found. The Pinterest hourly session has no git repo, so its work stays on the Claude Design canvas only. Fix for OPS: attach the repo to that task. 0 subagents.
+- 2026-11-16 02:30 · Growth Lead · Cycle 5: OPS fixed the Pinterest hourly task (now a repo-backed session). Quiet hour, 0 subagents.
+- 2026-11-16 · Megan, word for word: "Thank you guys keep up the good work and don't forget the goal" 💗 Goal stays: 100k+ visits/month to issue11.app, then 500 paying subscribers/month over time, without getting flagged.

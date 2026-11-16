@@ -86,6 +86,11 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 10 · Nov 16, 07:25 UTC**
+- 📌 Pinterest SEO: 8th article pin, december-january-journal-prompts (QA passed). The New Year articles in QUEUE.md are now nearly all covered with one save-image each.
+- 🔎 SEO/AEO: new draft gratitude-journal-prompts (N1, seasonal), cover pending. When it goes live it gets a QUEUE.md row and a Reel/Reddit check.
+- Everyone else: no change. 0 subagents.
+
 **Cycle 9 · Nov 16, 06:25 UTC**
 - 📌 Pinterest SEO: 7th article pin, new-year-journal-prompts (10 prompts taken word for word from the article, QA passed). Next: the remaining New Year rows in QUEUE.md.
 - Everyone else: no change. Quiet hour, 0 subagents.

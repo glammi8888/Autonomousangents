@@ -87,6 +87,11 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 17 · Nov 16, 14:25 UTC**
+- 📌 Pinterest SEO: 15th article pin, how-to-stop-overthinking (15,600 searches a month), using Megan's BANK.md line "My nervous system is calm" (QA passed). All 15 priority rows in QUEUE.md now have at least one design. Row 16 (romanticize-your-life) waits until it's live.
+- 📱 ASO (outside this room, logged for the Goal 2 funnel): Week 3 plan in `drafts/aso/2026-11-16-week3-plan.md`. It uses the Pinterest keywords (glow up, personal rebrand, vision board 2027, journal prompts…) for the App Store keyword check. Megan's 5-minute step there: start the Astro trial and paste the keyword list.
+- Waiting on Megan here: no change. 0 subagents.
+
 **Cycle 16 · Nov 16, 13:25 UTC**
 - 📌 Pinterest SEO: 14th article pin, self-love-affirmations, using Megan's BANK.md line "I am worthy of love, respect, and everything I desire" (QA passed).
 - 🔎 SEO/AEO: new draft #39, romanticize-your-life (1,200 searches a month, KD 41), with a cover. Still a draft, not live.

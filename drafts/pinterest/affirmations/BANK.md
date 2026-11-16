@@ -47,6 +47,11 @@ Rule (Megan, Nov 15): "The quotes still sound way too AI it needs to stop". Agen
 - it all worked out
 - Spoiled by the Universe ⭐
 - U SO TEAAAA / BODY TEA / FACE TEA / HAIR TEA
+- i'm sexy / i'm funny / i'm pretty / i'm smart
+- I GET PRETTIER AND HOTTER everyday! I CAN'T WAIT FOR TOMORROW
+- I am iconic
+- I have big plans.
+- lucky girl syndrome
 Images and format notes: drafts/pinterest/inspo-megan/README.md. New lines in this voice need Megan's OK before use.
 
 ## Rejected by Megan (never use)

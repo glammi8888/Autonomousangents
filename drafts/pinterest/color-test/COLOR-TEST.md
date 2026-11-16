@@ -106,3 +106,5 @@ APPROVED TEMPLATE (Megan, Nov 16): the magazine cover (CT21, CT51–CT53, CT64�
 
 Round 9 copies her inspo spreads (`design/magazine/inspo/`, library in `design/magazine/MISE-EN-PAGE.md`), `gen10.py`:
 88 overprint type on cash photo (editorial-25 "Happy Victims") · 89 star windows (editorial-12 "trust the process") · 90 repeated name + ID list (editorial-30) · 91 outline type + mint bubble note (editorial-15) · 92 vertical stacked words + columns (editorial-21 "Not the icing on the cake") · 93 giant translucent word, off the face (editorial-22 "BAD") · 94 bleed word + text column (editorial-27 "CO2MO") · 95 giant lowercase word + 4 photo specimens (editorial-33 "gaijin") · 96 giant letters over columns (editorial-20 "WASHINGTON") · 97 headline over photo + repeated vertical word + bar (editorial-08). Each photo matches its BANK line.
+
+Megan on round 9 (Nov 16, word for word): "Okayyy those are really cool to test out !" → CT88–CT97 join the test set (status: approved to test, not scheduled; the Manager schedules after Megan's go).

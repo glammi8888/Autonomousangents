@@ -129,4 +129,4 @@ Megan on round 10 (Nov 16, word for word): "Ok those are all winners !!!" → CT
 Source: ../viral/2026-11-16-viral-manifest2.json + viral-vb-manifest (364 manifestation pins ranked by saves). Megan: "Ohhh we can do angel numbers too !!!" BANK lines only.
 - 132 · 8888 save-to-affirm card (viral 1,532) · 133 · 111 over sky photo · 134 · 777 photo + red band · 135 · angel numbers sheet (111/222/333/777/888)
 - 136 · repeated pink line over money photo · 137 · big pink spaced text · 138 · spaced caps on cream · 139 · bold italic over money photo · 140 · sticker over photo · 141 · old paper save card · 142 · pink 369 method
-- ⏳ Angel number pins (132–135) pair each number with a BANK line for now. Megan is sending her meaning for each number ("let me tell you"); swap in her words word for word.
+- Angel number pins (132–135) now use Megan's meanings reframed in lexicon voice: ../affirmations/ANGEL-NUMBERS.md (draft until her OK).

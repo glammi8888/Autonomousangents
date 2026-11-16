@@ -8,23 +8,23 @@ P={}
 P['CT132']=doc('Color test 132 · viral 8888 save to affirm',S+"""
 .pin{background:#fff;color:#111}
 .n{position:absolute;left:0;right:0;top:330px;text-align:center;font-weight:800;font-size:250px;letter-spacing:-.04em;line-height:1}
-.q{position:absolute;left:90px;right:90px;top:660px;text-align:center;font-weight:500;font-size:68px;line-height:1.2;letter-spacing:-.02em}
+.q{position:absolute;left:90px;right:90px;top:640px;text-align:center;font-weight:500;font-size:64px;line-height:1.3;letter-spacing:-.02em}
 .cta{position:absolute;left:0;right:0;top:1180px;text-align:center;font-weight:700;font-size:34px}
-""",f"""{T()}<div class="n">8888</div><div class="q">I make way more money than what I'm able to spend</div><div class="cta">save this pin to affirm !</div>{U('#111')}""")
+""",f"""{T()}<div class="n">8888</div><div class="q">money is coming<br>new home is coming<br>new car is coming<br>better life is coming</div><div class="cta">save this pin to affirm !</div>{U('#111')}""")
 # 133 · angel number over sky photo
 P['CT133']=doc('Color test 133 · angel number 111 over photo',S+"""
 .pin{background:#1D47B8}
 .n{position:absolute;left:0;right:0;top:860px;text-align:center;color:#fff;font-weight:800;font-size:330px;letter-spacing:-.06em;line-height:1;text-shadow:0 6px 40px rgba(0,0,0,.35)}
-.c{position:absolute;left:0;right:0;top:1210px;text-align:center;color:#fff;font-style:italic;font-weight:400;font-size:52px;text-shadow:0 2px 16px rgba(0,0,0,.5)}
-""",f"""<img class="f full" src="{s('sky')}" style="object-position:50% 20%" {A}><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 50%,rgba(10,20,60,.55) 85%)"></div>{T('w')}<div class="n">111</div><div class="c">Dream life is on its way.</div>{U('#fff')}""")
+.c{position:absolute;left:0;right:0;top:1190px;text-align:center;color:#fff;font-style:italic;font-weight:400;font-size:46px;line-height:1.25;text-shadow:0 2px 16px rgba(0,0,0,.5)}
+""",f"""<img class="f full" src="{s('sky')}" style="object-position:50% 20%" {A}><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 50%,rgba(10,20,60,.55) 85%)"></div>{T('w')}<div class="n">111</div><div class="c">new beginnings<br>REMEMBER YOUR FUTURE ✨</div>{U('#fff')}""")
 # 134 · 777 lucky
 P['CT134']=doc('Color test 134 · angel number 777 lucky',S+"""
 .pin{background:#C8102E}
 .n{position:absolute;left:0;right:0;top:960px;text-align:center;color:#FFE14D;font-weight:800;font-size:250px;letter-spacing:-.06em;line-height:1}
 .c{position:absolute;left:60px;right:60px;top:1230px;text-align:center;color:#fff;font-weight:700;font-size:60px;letter-spacing:-.02em;line-height:1.1}
-""",f"""<img class="f" src="{s('red')}" style="left:0;top:0;width:100%;height:930px;object-position:50% 20%" {A}>{T('w')}<div class="n">777</div><div class="c">I'm the luckiest girl on the planet</div>{U('#fff')}""")
+""",f"""<img class="f" src="{s('red')}" style="left:0;top:0;width:100%;height:930px;object-position:50% 20%" {A}>{T('w')}<div class="n">777</div><div class="c">i know what is inevitable for me ✨</div>{U('#fff')}""")
 # 135 · angel numbers cheat sheet (BANK lines only)
-rows=[('111','Dream life is on its way'),('222','The right people, places, and moments find me'),('333','My nervous system is calm'),('777',"I'm the luckiest girl on the planet"),('888',"I make way more money than what I'm able to spend")]
+rows=[('111','new beginnings<br>REMEMBER YOUR FUTURE ✨'),('222','what is meant for you<br>will never miss you'),('333','same girl, bigger dreams'),('777','i know what is inevitable for me'),('888','money is coming<br>you\'re receiving what you built')]
 P['CT135']=doc('Color test 135 · angel numbers affirmations sheet',S+"""
 .pin{background:#F6D8E4;color:#2A1020}
 h1{position:absolute;left:0;right:0;top:170px;margin:0;text-align:center;font-weight:800;font-size:96px;letter-spacing:-.04em;color:#C2207E}

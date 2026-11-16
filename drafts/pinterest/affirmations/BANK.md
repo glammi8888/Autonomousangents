@@ -87,3 +87,6 @@ Megan picked and rewrote (Nov 15), now Megan's lines:
 - Get up girl, you got people to prove wrong (from 4)
 The other 15 candidates are rejected.
 - Imagine what your bullies will feel when they see you succeed (Megan, Nov 15)
+
+## Angel numbers
+See ANGEL-NUMBERS.md (Megan's meanings reframed in lexicon voice, Nov 16; draft until her OK).

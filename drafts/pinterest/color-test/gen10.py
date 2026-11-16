@@ -70,13 +70,13 @@ img.f{left:380px;top:860px;width:270px;height:340px}
 <img class="f" src="{s('blueclose')}" style="object-position:50% 30%" {A}><div class="cap">I am the prize, always</div>
 <img class="logo" src="{LOGO}" alt="ISSUE11">""")
 # 93 · BAD giant translucent type (editorial-22) → over the back/shoulder, never the face
-P['CT93']=doc('Color test 93 · inspo giant translucent word',S+"""
+P['CT93']=doc('Color test 93 · inspo giant translucent word · long hair',S+"""
 .pin{background:#7A4A30}
-.big{position:absolute;left:10px;right:10px;top:820px;text-align:center;font-weight:900;font-size:360px;line-height:.8;letter-spacing:-.07em;color:rgba(255,120,90,.62);mix-blend-mode:multiply;text-transform:uppercase}
+.big{position:absolute;left:10px;right:10px;top:700px;text-align:center;font-weight:900;font-size:330px;line-height:.8;letter-spacing:-.07em;color:rgba(255,120,90,.62);mix-blend-mode:multiply;text-transform:uppercase}
 .top{position:absolute;left:0;right:0;top:50px;text-align:center;color:#fff;font-weight:800;font-size:30px;letter-spacing:.06em;text-transform:uppercase}
 .line{position:absolute;left:52px;right:52px;bottom:170px;color:#fff;font-weight:600;font-size:44px;letter-spacing:-.02em;text-shadow:0 2px 16px rgba(0,0,0,.4)}
-""",f"""<img class="f full" src="{s('shoulder')}" style="object-position:100% 20%" {A}><div class="top">Body issue</div><div class="big">Hot<br>bod</div>
-<div class="line">I love my hot bod</div><img class="logo w" src="{LOGO}" alt="ISSUE11">""")
+""",f"""<img class="f full" src="{s('shoulder')}" style="object-position:20% 20%" {A}><div class="top">Hair issue</div><div class="big">Long<br>hair</div>
+<div class="line">I love my long hair</div><img class="logo w" src="{LOGO}" alt="ISSUE11">""")
 # 94 · CO2MO (editorial-27) → giant word bleeding at top + dense text column of money lines
 lines=["I wake up to money","I'm making money in my sleep","My business is bringing sooooo much money","I make way more money than what I'm able to spend","I make $10,000 a month with ease","I wake up to Stripe notifications","A healthy mind, a fit body, and lots of money $$$"]
 P['CT94']=doc('Color test 94 · inspo bleed word + text column',S+"""

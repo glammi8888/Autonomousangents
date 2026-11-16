@@ -52,6 +52,10 @@ Rule (Megan, Nov 15): "The quotes still sound way too AI it needs to stop". Agen
 - I am iconic
 - I have big plans.
 - lucky girl syndrome
+- BRAINS, BEAUTY & BOOTY.
+- muse n. A woman, or a force personified as a woman, who is the source of inspiration for a creative artist.
+- babe, you're a big deal. act like it.
+- Never let a loser make you question your worth
 Images and format notes: drafts/pinterest/inspo-megan/README.md. New lines in this voice need Megan's OK before use.
 
 ## Rejected by Megan (never use)

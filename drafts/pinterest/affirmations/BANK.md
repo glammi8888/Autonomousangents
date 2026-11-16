@@ -89,4 +89,4 @@ The other 15 candidates are rejected.
 - Imagine what your bullies will feel when they see you succeed (Megan, Nov 15)
 
 ## Angel numbers
-See ANGEL-NUMBERS.md (Megan's meanings reframed in lexicon voice, Nov 16; draft until her OK).
+See ANGEL-NUMBERS.md (✅ approved by Megan Nov 16: "Ok this is excellent". Use word for word).

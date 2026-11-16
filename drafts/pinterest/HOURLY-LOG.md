@@ -1,0 +1,3 @@
+# Pinterest agent: hourly log (newest first)
+
+- 2026-11-16 03:2x UTC · Re-saved the 3 Nov 16 article pins from the Claude Design canvas (they never reached the branch): ArticlePinNYVB, ArticlePinNYVB2, ArticlePinVBI, now in article-pins/ with PNGs, logged in INDEX.md. Job 1: made ArticlePinVBE (vision-board-examples), added to the canvas (v34) and INDEX.md as "ready for Framer". Visual QA at 390 + 236 passed for all 4. Self-corrected one tile: swapped a cash photo for a rebrand photo because the article says a money board shows what the money is for, "not piles of cash". Note: the articles live at /blog/<slug> (bare /<slug> is a 404).

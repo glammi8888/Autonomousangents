@@ -1,34 +1,34 @@
 # Angel numbers · ISSUE11 voice (Nov 16, 2026)
 Megan sent the meanings (common angel-number/numerology associations) and asked: "Now make sure you use the lexicon to reframe all of these sentences".
 Reframes follow `design/editorial/LEXICON.md`: lowercase = soft/private, line break = period, 3–7 words per line, she claims (no "??"), emojis only ✨ 🌸 🧿, never "unlock your abundance", "raise your vibration", "step into your power", "attract" (she says "assume"), no promised amounts or dates.
-⭐ = phrase copied word for word from the lexicon. Status: draft until Megan OKs; pins CT132–CT135 use them.
+Lexicon phrases are worked into the sentences (e.g. "what is meant for you will never miss you", "money loves me", "I'm too grown to be shrinking myself", "tend to YOUR garden"). v2 (Megan: "I am not a fan of what you wrote" → "Reframe the meaning of the sheet's wording using the lexicon and do not make it sound AI. If you need inspiration for quotes you can also refer to Pinterest trends"). Format copied from viral angel-number pins (../viral/2026-11-16-viral-angel.json, 256 pins): big number + one-word KEYWORD + one plain sentence to "you". No slashes, no stacked fragments. Draft until Megan OKs; pins CT132–CT135 use them.
 
-| # | Meaning (Megan's sheet) | ISSUE11 reframe (one line per "/") |
+| # | Keyword | Line |
 |---|---|---|
-| 11 | Intuition, spiritual insight, trusting what you sense | you already know / trust it 🌸 |
-| 22 | Master Builder: big vision → tangible through action | big dreams, built page by page / ⭐one small action |
-| 33 | Master Teacher: compassion, guidance, sharing | share what you learned / someone needs your story |
-| 44 | Stability, discipline, solid foundation | ⭐protect my peace / build it slow, build it solid |
-| 55 | Change, freedom, letting go of limiting patterns | ⭐let go to level up / ⭐unlearning what kept me small |
-| 66 | Love, care, harmony at home and in relationships | ⭐soft life / love lives here |
-| 77 | Inner wisdom, reflection, spiritual growth | ⭐quiet moments big plans / my inner voice is right |
-| 88 | Material abundance, financial opportunity, rewards of effort | ⭐money loves me / it's paying off |
-| 99 | Completion, compassion, service | that chapter is done / ⭐i'm too grown to go back |
-| 111 | New beginnings, focused intention | new beginnings / ⭐REMEMBER YOUR FUTURE ✨ |
-| 222 | Balance, patience, trusting what's still taking shape | it's still taking shape / ⭐what is meant for you will never miss you |
-| 333 | Creativity, self-expression, gifts in the open | ⭐same girl, bigger dreams / show them what you can do |
-| 444 | Support, protection, grounded | you're protected 🧿 / keep building |
-| 555 | Significant transition, room for growth | big change is here / ⭐i'm not starting over, i'm starting again with experience |
-| 666 | Rebalancing priorities, back to what matters | come back to what matters / ⭐protect my time |
-| 777 | Spiritual alignment, inner guidance | ⭐i know what is inevitable for me ✨ |
-| 888 | Prosperity, receiving, returns of what you set in motion | ⭐money is coming / you're receiving what you built |
-| 999 | Closure, release, new chapter | let that chapter close / ⭐my old self feels like a past life |
-| 1111 | Awakening, new possibility | ⭐this is not a coincidence, you're close ✨ |
-| 2222 | Harmony, cooperation, trust in relationships and timing | ⭐what you desire wants you even more / right on time 🌸 |
-| 3333 | Creative expansion, confident expression | say it louder / ⭐you are the brand. act like it |
-| 4444 | Lasting stability, foundations to grow on | ⭐i'm in my building era / it's built to last |
-| 5555 | Far-reaching transformation, freedom from old patterns | ⭐i'm not that girl anymore, and thank god |
-| 6666 | Harmony across work, home, love, personal needs | work, home, love, me / ⭐tend to YOUR garden |
-| 7777 | Deep inner knowing and confidence to follow it | ⭐i don't need the proof / i know |
-| 8888 | Amplified abundance, financial overflow | ⭐money is coming. new home is coming. new car is coming. better life is coming. |
-| 9999 | Full-circle completion, releasing a cycle | full circle / ⭐i'm not behind, i'm becoming |
+| 11 | INTUITION | you already knew. trust your gut on this one 🌸 |
+| 22 | BUILDER | the big dream is real. keep building it, one small action at a time |
+| 33 | TEACHER | what you went through is going to help someone. share it |
+| 44 | FOUNDATION | slow is fine. what you're building is solid |
+| 55 | FREEDOM | let it go. you outgrew it |
+| 66 | HOME | make time for the people who feel like home |
+| 77 | WISDOM | get quiet. you already know the answer |
+| 88 | REWARD | your effort is about to pay off. money loves you |
+| 99 | COMPLETION | that chapter is done. you're too grown to go back |
+| 111 | NEW BEGINNINGS | whatever you've been thinking about lately, start it |
+| 222 | ALIGNMENT | it's still coming together. what is meant for you will never miss you |
+| 333 | EXPRESSION | you're too grown to be shrinking yourself. show them what you can do |
+| 444 | PROTECTION | you're protected 🧿 keep going |
+| 555 | CHANGE | big change is coming. you're not starting over, you're starting again with experience |
+| 666 | BALANCE | come back to what matters. protect your time |
+| 777 | INNER KNOWING | trust yourself. you know what is inevitable for you ✨ |
+| 888 | PROSPERITY | everything you put in motion is coming back to you. money is coming |
+| 999 | RELEASE | let that chapter close. your old self feels like a past life now |
+| 1111 | AWAKENING | this is not a coincidence. you're close ✨ |
+| 2222 | TIMING | right person, right time. what you desire wants you EVEN MORE |
+| 3333 | EXPANSION | say it louder. you are the brand, act like it |
+| 4444 | STABILITY | you're in your building era, and it's going to last |
+| 5555 | TRANSFORMATION | you're not that girl anymore, and thank god |
+| 6666 | HARMONY | tend to YOUR garden. everything else can wait |
+| 7777 | KNOWING | you don't need the proof. you know |
+| 8888 | OVERFLOW | money is coming. new home is coming. new car is coming. better life is coming. |
+| 9999 | FULL CIRCLE | you're not behind, you're becoming |

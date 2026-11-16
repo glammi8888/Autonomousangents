@@ -35,3 +35,8 @@ Goal (Megan, Nov 11): "Okay !! Great 25% then" · "Seriously we need to speed th
 - Before Dec 11: App Store listing text, launch-day pitches to the manifestation app list sites (thevisionboard.app, manifestive.app, plannedo.com, appshunter.io).
 - Mondays: rank + AI numbers, what moved, what to fix.
 - Legiit order: check each article before it goes live (real facts, right links, no reviews).
+
+### Legiit research (Glammi worker, Nov 16)
+- RECOMMENDED for Glammi: citationexpert "High Quality Local Citations For Any Country" (https://legiit.com/citationexpert/i-will-create-high-quality-local-citations-for-any-country): 5.0 from 2,018 reviews, Legiit Checked, manual, duplicate checks, niche (beauty/medical/marketing) directories, report with every link + login. Basic $25 = 50 citations / 4 days; Premium $75 = 150 (per a buyer). Coupon Citation2026 = 20% off. Pick Basic. Before ordering, message the seller: service-area business with hidden address; already on GBP + Bing Places; beauty + marketing niche + US directories. NAP must match the Google Business Profile exactly.
+- SKIP: guest posts, PBNs, "10,000 backlinks", "brand mentions for LLMs", parasite SEO (paid links that pass ranking credit = link spam; risky for a new, unindexed domain). HARO category on Legiit is mostly PBN gigs.
+- ISSUE11: nothing worth buying pre-launch (no App Store page until after the Dec 11 beta). Use free BetaList / Product Hunt / AlternativeTo / Indie Hackers (items 13 to 15). Re-check at launch.

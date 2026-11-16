@@ -71,3 +71,10 @@ After the edits, "behavior-change psychology" appears once on the page (in the "
 1. **What "approved" means.** The FAQ still says "Approved guests lock in their founding rate". I didn't define it, because she hasn't decided.
 2. **Does the 7-day trial apply to the $39.99 founding year?** The new line only says the yearly plan has the trial.
 3. **Cancel line.** I didn't add one, because the site never says billing goes through the App Store. If she confirms it does, add "Cancel anytime in your iPhone settings."
+
+## Fix 9 · Cancel line (Nov 16, after Megan's "Yes" on App Store billing + trial on founding year)
+| Where | Before | After |
+|---|---|---|
+| Hero trust line, 2nd line (node SQh312SI4, all 3 breakpoints inherit) | "The yearly plan includes a 7-day free trial. Skip any week, no streaks. iPhone only." | "The yearly plan includes a 7-day free trial. Skip any week, no streaks. Cancel anytime in your iPhone settings. iPhone only." |
+
+Status: edited on Framer branch **supple-thread** (o7o9ec30v), same style (same TextRun, preset xsr72_YuQ). Canvas screenshots checked at Desktop, Tablet and Phone: readable, no overlap, wraps to 6 lines on phone. **NOT live yet:** merging the branch to main and publishing were blocked by this session's permission check. Megan: open the branch link, Merge, then Publish (or allow the Framer merge/publish action here). Live check at 390px and 1440px still to do after publish.

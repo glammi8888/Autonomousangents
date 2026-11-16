@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 25 · riso duotone print</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:48px;height:66px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#FFF4DC}
+.duo{position:absolute;left:60px;right:60px;top:60px;height:860px;overflow:hidden;background:#FF4F9A}
+.duo img{width:100%;height:100%;object-fit:cover;object-position:50% 30%;filter:grayscale(1) contrast(1.25);mix-blend-mode:multiply}
+.duo::after{content:'';position:absolute;inset:0;background:#00A6A6;mix-blend-mode:screen;opacity:.45}
+.grain{position:absolute;inset:0;background-image:radial-gradient(rgba(0,0,0,.18) 1px,transparent 1.2px);background-size:6px 6px;mix-blend-mode:multiply}
+.t1,.t2{position:absolute;left:56px;right:56px;top:960px;font-weight:900;font-size:92px;line-height:.9;letter-spacing:-.05em;text-transform:uppercase}
+.t1{color:#00A6A6}.t2{color:#FF4F9A;mix-blend-mode:multiply;transform:translate(6px,5px)}
+.stamp{position:absolute;right:60px;bottom:60px;border:3px solid #FF4F9A;color:#FF4F9A;font-weight:800;font-size:22px;letter-spacing:.18em;padding:10px 14px;transform:rotate(-6deg)}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="duo"><img src="/_blob/a9ca26df86b2661f5b04462f82740107" alt="Editorial photo (AI-generated)"><div class="grain"></div></div>
+<div class="t1">I make way more money than what I'm able to spend</div><div class="t2">I make way more money than what I'm able to spend</div>
+<img class="logo" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="stamp">RISO · 2 COLOUR</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 27 · gallery wall + label</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:48px;height:66px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#7A1631}
+.wall{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(255,255,255,.18),rgba(0,0,0,0) 60%)}
+.frame{position:absolute;left:150px;right:150px;top:110px;height:820px;background:#E9D3A3;padding:22px;box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.mat{width:100%;height:100%;background:#FFF8EC;padding:34px;box-sizing:border-box}
+.mat img{width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.label{position:absolute;left:290px;right:290px;top:1010px;background:#FFF8EC;padding:26px 28px;box-shadow:0 8px 20px rgba(0,0,0,.3)}
+.label b{display:block;font-weight:900;font-size:42px;line-height:1;letter-spacing:-.03em;color:#2A0A12}
+.label span{display:block;margin-top:12px;font-style:italic;font-weight:500;font-size:22px;color:#7A1631}
+.label small{display:block;margin-top:8px;font-weight:700;font-size:16px;letter-spacing:.18em;color:#7A1631}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="wall"></div><div class="frame"><div class="mat"><img src="/_blob/f9aebbe835f6f14787a79bcfba5c4f11" alt="Editorial photo (AI-generated)"></div></div>
+<div class="label"><b>The love of my life is coming to me</b><span>Manifestation, 2027</span><small>ISSUE11 · ROOM 11</small></div>
+<img class="logo w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

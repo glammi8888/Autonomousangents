@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 23 · contact sheet</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:48px;height:66px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#F4F1EA}
+.sheet{position:absolute;left:52px;right:52px;top:70px;background:#1C1A17;padding:26px 22px;display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.f{position:relative;height:300px;overflow:hidden;border:6px solid #1C1A17}
+.f img{width:100%;height:100%;object-fit:cover}
+.f span{position:absolute;left:8px;bottom:6px;color:#F5A623;font-weight:800;font-size:20px;letter-spacing:.1em}
+.pick::after{content:'';position:absolute;inset:-4px;border:7px solid #FF2D3F;border-radius:48% 52% 45% 55%;transform:rotate(-4deg)}
+.mark{position:absolute;left:52px;right:52px;top:1120px;color:#FF2D3F;font-weight:900;font-style:italic;font-size:84px;line-height:.92;letter-spacing:-.04em;transform:rotate(-2deg)}
+.arrow{position:absolute;left:640px;top:1060px;color:#FF2D3F;font-size:70px;font-weight:900;transform:rotate(-40deg)}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="sheet"><div class="f"><img src="/_blob/48584939a34a6e613eb4e2f11f2ad13e" style="object-position:50% 10%;transform:scale(1.0)" alt="Editorial photo (AI-generated)"><span>11A</span></div><div class="f"><img src="/_blob/48584939a34a6e613eb4e2f11f2ad13e" style="object-position:40% 22%;transform:scale(1.12)" alt="Editorial photo (AI-generated)"><span>12A</span></div><div class="f"><img src="/_blob/48584939a34a6e613eb4e2f11f2ad13e" style="object-position:60% 15%;transform:scale(1.24)" alt="Editorial photo (AI-generated)"><span>13A</span></div><div class="f"><img src="/_blob/48584939a34a6e613eb4e2f11f2ad13e" style="object-position:50% 28%;transform:scale(1.0)" alt="Editorial photo (AI-generated)"><span>14A</span></div><div class="f pick"><img src="/_blob/48584939a34a6e613eb4e2f11f2ad13e" style="object-position:45% 12%;transform:scale(1.12)" alt="Editorial photo (AI-generated)"><span>15A</span></div><div class="f"><img src="/_blob/48584939a34a6e613eb4e2f11f2ad13e" style="object-position:55% 20%;transform:scale(1.24)" alt="Editorial photo (AI-generated)"><span>16A</span></div></div><div class="arrow">↑</div>
+<div class="mark">My face card is absolutely lethal</div>
+<img class="logo" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

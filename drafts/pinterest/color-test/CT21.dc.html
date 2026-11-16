@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 21 · magazine cover</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:48px;height:66px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#F7C6D9}
+.ph{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 18%}
+.dg{position:absolute;left:36px;right:36px;top:40px;color:#FF2E7E;font-weight:900;font-size:150px;white-space:nowrap;line-height:.78;letter-spacing:-.07em;text-transform:uppercase;mix-blend-mode:multiply}
+.date{position:absolute;right:44px;top:300px;writing-mode:vertical-rl;color:#fff;font-weight:800;font-size:22px;letter-spacing:.3em;text-transform:uppercase}
+.story{position:absolute;left:52px;bottom:300px;color:#fff;font-weight:900;font-size:76px;line-height:.92;letter-spacing:-.045em;max-width:620px;text-shadow:0 4px 24px rgba(0,0,0,.35)}
+.story i{display:block;font-weight:500;font-size:30px;letter-spacing:.12em;text-transform:uppercase;font-style:normal;color:#FFD1E3;margin-bottom:12px;text-shadow:none}
+.lines{position:absolute;right:48px;bottom:150px;text-align:right;color:#fff;font-weight:800;font-size:30px;line-height:1.25;text-shadow:0 2px 14px rgba(0,0,0,.45)}
+.lines b{color:#FFD1E3;font-weight:900}
+.bar{position:absolute;right:48px;bottom:48px;width:150px;height:64px;background:repeating-linear-gradient(90deg,#fff 0 3px,transparent 3px 6px,#fff 6px 7px,transparent 7px 11px);opacity:.9}
+.shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 55%,rgba(60,0,30,.55) 100%)}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="ph" src="/_blob/61c13ba5e0a9205473641aaca015e7c7" alt="Editorial photo (AI-generated)"><div class="shade"></div>
+<div class="dg">Dream girl</div>
+<div class="date">The 2027 issue</div>
+<div class="story"><i>Cover story</i>I am my own dream girl</div>
+<div class="lines"><b>60</b> self love affirmations<br><b>9</b> ways to stop overthinking<br><b>120</b> words of the year</div>
+<img class="logo w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="bar"></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

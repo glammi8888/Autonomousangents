@@ -39,3 +39,24 @@ Source: `python3 gen2.py` (reuses gen.py's template). Canvas: section "More colo
 | 20 | Sky blue gradient + sparkles | Type card | "Thank you universe for all the blessings" | Quote (BANK) | Gratitude affirmations | – | Gratitude lines are saved daily; airy sky palette |
 
 Visual QA (390 + 236): passed after fixes. 12's last word sat on the logo (smaller type, moved up). 15's white logo vanished on the white rug (switched to the black logo). 19 and 20 had empty lower halves (text centred). 13's type was enlarged.
+
+## Round 3 · CT21–CT30 (Megan: "more magazine-like, art studio-like and I want some innovative aspects to it")
+
+Source: `python3 gen3.py`. Canvas: section "Magazine + art studio examples · round 3", boards CT21–CT30 under round 2 (y 52480). Same rules: BANK.md lines word for word, article facts from the live articles, AI library photos matched to each line, logo bottom-left. Studio furniture (cover date, page folio, swatch names, "Specimen 11", "Room 11", riso stamp) is decoration, not a claim.
+
+| # | Format (the innovative bit) | Palette | Line / article | Photo ↔ text | Keyword title |
+|---|---|---|---|---|---|
+| 21 | Magazine cover: masthead, cover story, cover lines = real ISSUE11 articles, barcode | Blush + hot pink | "I am my own dream girl" (BANK) | n17: a confident portrait | Dream girl quotes |
+| 22 | Editorial spread: full-page photo, gutter shadow, pull quote, body copy as bars, folio | Sage + cream | "I have all the time in the world" (BANK) | e27: a woman reading calmly | Calm affirmations |
+| 23 | Contact sheet with a grease-pencil circle and note | Light table + red marker | "My face card is absolutely lethal" (BANK) | e24: six crops of a beauty portrait | That girl quotes |
+| 24 | Paint swatch card (colour chips + punch hole) | Pinks | "Dream life is on its way" (BANK) | e20: a dream closet as the third chip | Dream life aesthetic quotes |
+| 25 | Riso 2-colour print: duotone photo, halftone grain, misregistered type | Pink + teal on cream | "I make way more money than what I'm able to spend" (BANK) | m26: a woman lying in cash | Money affirmation quotes |
+| 26 | Taped collage with polaroids and highlighted steps | Kraft + rust | how-to-make-a-vision-board, its 5 steps | Closet, home, weekend photos = what goes on a board | How to make a vision board |
+| 27 | Gallery wall: framed photo + museum label | Oxblood + gold frame | "The love of my life is coming to me" (BANK) | l23: a couple kissing | Love manifestation quotes |
+| 28 | Type specimen poster: grid, crop marks, baseline rule, "Aa" | Tomato + cream | "I'm the art director of my life. I create it page by page. I make my own opportunities." (BANK) | – (type is the art) | I'm the art director of my life |
+| 29 | Contents page: the 8 checklist items as a table of contents | Chartreuse + violet | how-to-glow-up checklist | e36: a glam editorial look | Glow up checklist |
+| 30 | Polaroid board, each polaroid captioned with a word of the line | Sky blue + pink pins | "The right people, places, and moments find me" (BANK) | n18 = people, e21 = places, e35 = moments | Manifestation quotes aesthetic |
+
+Links: 26 → https://issue11.app/blog/how-to-make-a-vision-board?utm_source=pinterest&utm_medium=organic&utm_campaign=how-to-make-a-vision-board · 29 → https://issue11.app/blog/how-to-glow-up?utm_source=pinterest&utm_medium=organic&utm_campaign=how-to-glow-up · 21 → https://issue11.app/blog/self-love-affirmations?utm_source=pinterest&utm_medium=organic&utm_campaign=self-love-affirmations
+
+Visual QA (390 + 236): passed after fixes. 21's masthead covered the face (now one line above the head). 26 and 30 had polaroids hiding each other's captions (re-laid out). 24's name and 28's specimen text were enlarged.

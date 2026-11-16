@@ -41,6 +41,14 @@ Rule (Megan, Nov 15): "The quotes still sound way too AI it needs to stop". Agen
 - I am worthy of love, respect, and everything I desire
 - I love my long hair (Megan, Nov 16, for pin CT93)
 
+
+## Megan's inspiration lines (Nov 16; she sent these pins: "keep those as inspiration (the text in particular) for future pins")
+- i only get richer and prettier
+- it all worked out
+- Spoiled by the Universe ⭐
+- U SO TEAAAA / BODY TEA / FACE TEA / HAIR TEA
+Images and format notes: drafts/pinterest/inspo-megan/README.md. New lines in this voice need Megan's OK before use.
+
 ## Rejected by Megan (never use)
 I sent the text and forgot about it · I don't have to earn my rest anymore · Nothing I want has an expiry date · Rich women rest. I'm a rich woman. · Hard work is overrated. Alignment pays better. · Everyone who doubted me gets a front row seat. (meh) · I can relax. It's handled. · Good news is looking for me. · It's already mine. · The universe is obsessed with me. · Doors and opportunities always come for me (cut Nov 15)
 

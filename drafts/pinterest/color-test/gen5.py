@@ -68,11 +68,11 @@ P['CT50']=doc('Color test 50 · full-bleed hair · white stack',S+"""
 .big{top:940px;color:#fff;font-size:112px}
 """,f"""{bg('hair','50% 18%')}<div class="shade"></div>{TOP('w')}<div class="big">I glowed up so hard <i>now my ex is crying</i></div>{URL('#fff')}""")
 
-def cover(pid,k,pos,mast,mcol,story,lines,shade):
+def cover(pid,k,pos,mast,mcol,story,lines,shade,date=True):
     ls='<br>'.join(f'<b>{n}</b> {x}' for n,x in lines)
     return doc(f'Color test {pid[2:]} · magazine cover · {mast.lower()}',"""
 .pin{background:#222}
-.dg{position:absolute;left:36px;right:36px;top:40px;font-weight:900;font-size:150px;line-height:.78;letter-spacing:-.07em;text-transform:uppercase;white-space:nowrap;text-shadow:0 4px 30px rgba(0,0,0,.3)}
+.dg{position:absolute;left:36px;right:36px;top:40px;font-weight:900;font-size:150px;line-height:.78;letter-spacing:-.07em;text-transform:uppercase;white-space:nowrap;word-spacing:.12em;text-shadow:0 4px 30px rgba(0,0,0,.3)}
 .date{position:absolute;right:44px;top:300px;writing-mode:vertical-rl;color:#fff;font-weight:800;font-size:22px;letter-spacing:.3em;text-transform:uppercase}
 .story{position:absolute;left:52px;bottom:300px;color:#fff;font-weight:900;font-size:76px;line-height:.92;letter-spacing:-.045em;max-width:640px;text-shadow:0 4px 24px rgba(0,0,0,.35)}
 .story i{display:block;font-weight:600;font-size:30px;letter-spacing:.12em;text-transform:uppercase;font-style:normal;margin-bottom:12px;text-shadow:none}
@@ -80,7 +80,7 @@ def cover(pid,k,pos,mast,mcol,story,lines,shade):
 .bar{position:absolute;right:48px;bottom:48px;width:150px;height:64px;background:repeating-linear-gradient(90deg,#fff 0 3px,transparent 3px 6px,#fff 6px 7px,transparent 7px 11px);opacity:.9}
 .shade{position:absolute;inset:0}
 """,f'''{bg(k,pos)}<div class="shade" style="background:{shade}"></div>
-<div class="dg" style="color:{mcol}">{mast}</div><div class="date">The 2027 issue</div>
+<div class="dg" style="color:{mcol}">{mast}</div>{'<div class="date">The 2027 issue</div>' if date else ''}
 <div class="story"><i style="color:{mcol}">Cover story</i>{story}</div>
 <div class="lines">{ls.replace('<b>',f'<b style="color:{mcol}">')}</div>
 <img class="logo w" src="{LOGO}" alt="ISSUE11"><div class="bar"></div>''')

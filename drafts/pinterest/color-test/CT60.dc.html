@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 60 · blur backdrop + polaroid</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:48px;height:66px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.tl{position:absolute;left:50%;top:48px;height:52px;transform:translateX(-50%);z-index:5}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
+.it{position:absolute;left:0;right:0;text-align:center;font-style:italic;font-weight:400;letter-spacing:-.03em}
+img.f{position:absolute;object-fit:cover;display:block}
+
+.pin{background:#2A2622;overflow:hidden}
+.blur{position:absolute;inset:-60px;width:calc(100% + 120px);height:calc(100% + 120px);object-fit:cover;filter:blur(36px) saturate(1.2) brightness(.8)}
+.po{position:absolute;left:170px;top:200px;width:660px;background:#fff;padding:24px 24px 120px;transform:rotate(-3deg);box-shadow:0 30px 60px rgba(0,0,0,.45)}
+.po img{display:block;width:100%;height:760px;object-fit:cover;object-position:50% 20%}
+.po span{position:absolute;left:0;right:0;bottom:30px;text-align:center;font-style:italic;font-weight:500;font-size:46px;color:#2A2622;letter-spacing:-.03em}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="blur" src="/_blob/7feef729a80262f2d7e85c6834638c97" alt="Editorial photo (AI-generated)"><img class="tl w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="po"><img src="/_blob/7feef729a80262f2d7e85c6834638c97" alt="Editorial photo (AI-generated)"><span>I'm the luckiest girl on the planet</span></div><div class="url" style="color:#fff">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

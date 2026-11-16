@@ -60,3 +60,16 @@ Source: `python3 gen3.py`. Canvas: section "Magazine + art studio examples · ro
 Links: 26 → https://issue11.app/blog/how-to-make-a-vision-board?utm_source=pinterest&utm_medium=organic&utm_campaign=how-to-make-a-vision-board · 29 → https://issue11.app/blog/how-to-glow-up?utm_source=pinterest&utm_medium=organic&utm_campaign=how-to-glow-up · 21 → https://issue11.app/blog/self-love-affirmations?utm_source=pinterest&utm_medium=organic&utm_campaign=self-love-affirmations
 
 Visual QA (390 + 236): passed after fixes. 21's masthead covered the face (now one line above the head). 26 and 30 had polaroids hiding each other's captions (re-laid out). 24's name and 28's specimen text were enlarged.
+
+## Rounds 4–6 · CT31–CT67 (Megan, Nov 16: "Can you use more images that are in the file ?" · "It's in google drive" · "Make the pins look like an Indie magazine" · "But I want more options with photos in it" · "I like when the images are full bleed" · "keep generating I want to see different styles" · "ohhh the magazine covers are amazing")
+
+Photos: 14 from Megan's Google Drive folder "ISSUE11 Images" (AI-generated beauty + money editorials), saved as JPGs in `drive/` and uploaded to the canvas assets. Skipped one with a car-maker logo on the seat (Visual QA rule 3). Every line is from BANK.md word for word (approved section only); cover lines are real ISSUE11 articles with their real counts.
+
+Megan's likes so far (her screenshots, Nov 16): the existing type cards (black + lilac uppercase, lavender italic, "me 🤝 2027", white roman + italic "I love my hot bod"), CT03 (magazine cover with photo), CT21 (DREAM GIRL cover), CT42 (lavender + inset photo + italic line), CT45 (full-bleed red + I AM THE PRIZE, ALWAYS), and the covers CT51–CT53. Common thread: one line, huge clean type (roman + italic), small logo on top, issue11.app at the bottom, full-bleed photos, magazine covers.
+
+- Round 4 (CT31–CT40, `gen4.py`): indie-magazine pages: paper stocks, running header, folio, figure captions, photo inset.
+- Round 5 (CT41–CT53, `gen5.py`): Megan's liked style with photos, mostly full bleed; CT51–CT53 = magazine covers (THE PRIZE, GLOW UP, MONEY).
+- Round 6 (CT54–CT63, `gen6.py`): split screen, triptych, circular text around a round photo, photo-filled knockout type (DREAM GIRL, $10,000), four-photo grid, price-tag sticker, blurred backdrop + polaroid, quiet corner caption, arch window.
+- More covers (CT64–CT67, `gen7.py`): SELF LOVE, SLEEP, BUSINESS, WORTHY.
+
+Visual QA (390 + 236): passed after fixes: type moved off mouths and chins (31, 40, 45, 46, 49), full-bleed versions of 41/44/46/47/48, readable mastheads, overlapping circle text, cut-off knockout words, vertical cover date moved off faces (64, 66), lilac label contrast (67).

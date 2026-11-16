@@ -106,3 +106,31 @@ APPROVED TEMPLATE (Megan, Nov 16): the magazine cover (CT21, CT51–CT53, CT64�
 
 Round 9 copies her inspo spreads (`design/magazine/inspo/`, library in `design/magazine/MISE-EN-PAGE.md`), `gen10.py`:
 88 overprint type on cash photo (editorial-25 "Happy Victims") · 89 star windows (editorial-12 "trust the process") · 90 repeated name + ID list (editorial-30) · 91 outline type + mint bubble note (editorial-15) · 92 vertical stacked words + columns (editorial-21 "Not the icing on the cake") · 93 giant translucent word, off the face (editorial-22 "BAD") · 94 bleed word + text column (editorial-27 "CO2MO") · 95 giant lowercase word + 4 photo specimens (editorial-33 "gaijin") · 96 giant letters over columns (editorial-20 "WASHINGTON") · 97 headline over photo + repeated vertical word + bar (editorial-08). Each photo matches its BANK line.
+
+Megan on round 9 (Nov 16, word for word): "Okayyy those are really cool to test out !" → CT88–CT97 join the test set (status: approved to test, not scheduled; the Manager schedules after Megan's go).
+
+Megan's picks from round 9 (Nov 16, word for word): "91, 90, 89, 95, 93 except the image is more hair focused so we can say "I love my long hair"". LOVED TEMPLATES added: CT89 star windows · CT90 repeated name + ID list · CT91 outline type + bubble note · CT93 giant translucent word (now "LONG HAIR" / "I love my long hair", line added to BANK.md as Megan's) · CT95 giant lowercase word + specimens. Not picked: 88, 92, 94, 96, 97.
+
+## Round 10 · CT98–CT109 (Megan: "now give me a few more pins and then we can switch styles")
+Pins in her inspiration formats with her inspiration lines (`gen11.py`, `../inspo-megan/README.md`): 98 soft lowercase on photo (richer and prettier) · 99 message bubbles (tea) · 100 loop with arrows (i'm sexy) · 101 loud poster type (prettier and hotter) · 102 subtitle line on photo (I am iconic) · 103 plain lowercase card (lucky girl syndrome) · 104 dictionary card (muse) · 105 huge lowercase white on black (big deal) · 106 pink card + emoji (Spoiled by the Universe) · 107 pink text over photo (never let a loser) · 108 cosy after photo (it all worked out) · 109 big caps three beats (brains, beauty & booty). All Inter Tight. Visual QA 390 + 236 passed after fixes (hidden words on 100/104, contrast on 102/107).
+
+Megan on round 10 (Nov 16, word for word): "Ok those are all winners !!!" → CT98–CT109 all join the LOVED templates.
+
+## Template set (as of Nov 16)
+- APPROVED: magazine cover (CT21, CT51–CT53, CT64–CT67, CT86, CT87)
+- LOVED: CT03, CT42, CT45, CT55, CT61, CT89, CT90, CT91, CT93, CT95, CT98–CT109, plus the earlier type cards (black + lilac, lavender italic, "me 🤝 2027", white roman + italic)
+- To test: CT88, CT92, CT94, CT96, CT97 (not picked)
+
+## Rounds 11–12 · viral copies (Nov 16) · research in ../viral/README.md
+- CT110–CT121 (`gen12.py`): letter + "Send this to yourself" · orange + blue italic · photo + small caption · stacked "I am the prize" · pink centred quote · spaced words · money photo + italic · note on the wall · repeated line with one highlighted · olive + italic · black + pink 2027 · dark celestial. Megan: "also the last pins you made were perfection" → LOVED.
+- CT122–CT131 (`gen13.py`, manifestation + vision board, "all year long" trend): big pink "manifesting" over photo · TONIGHT save-to-affirm card · repeated blocks · aura gradient · Notes-app manifestation journal prompts (article) · 369 method page · 2027 vision board photo grid · film caption · dreamy photo + italic · torn paper note.
+
+## Round 13 · CT132–CT142 (Nov 16) · more viral manifestation formats + angel numbers
+Source: ../viral/2026-11-16-viral-manifest2.json + viral-vb-manifest (364 manifestation pins ranked by saves). Megan: "Ohhh we can do angel numbers too !!!" BANK lines only.
+- 132 · 8888 save-to-affirm card (viral 1,532) · 133 · 111 over sky photo · 134 · 777 photo + red band · 135 · angel numbers sheet (111/222/333/777/888)
+- 136 · repeated pink line over money photo · 137 · big pink spaced text · 138 · spaced caps on cream · 139 · bold italic over money photo · 140 · sticker over photo · 141 · old paper save card · 142 · pink 369 method
+- Angel number pins (132–135): v2 lines after Megan "I am not a fan of what you wrote": viral format (number + KEYWORD + one plain line to "you"), lexicon phrases inside sentences. 135 is now the viral 3×3 chart. See ../affirmations/ANGEL-NUMBERS.md.
+
+## Angel number format test · CT143–CT146 (Nov 16)
+Megan: "I think we should do them all but we need to decide on the pin aesthetic format". Same 888 in A aura gradient · B full-bleed photo · C photo + colour band · D minimal cream card. Waiting for her pick.
+Megan also noted (Nov 16): "there are also carousels we can repurpose from Instagram to TikTok to Pinterest" → angel numbers can become a carousel (cover + one number per slide).

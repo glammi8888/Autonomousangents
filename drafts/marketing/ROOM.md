@@ -74,6 +74,7 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 2. ✅ **Decided (Megan, Nov 15): "Ok"**. Back to 1 article a day. Her question "when can we pick up to more?" is answered by the ramp gates in `100K-PLAN.md` ("Article pace").
 3. ⏳ **Pick the layout for the Vision Board Kit + Journal Prompts this week** (Megan: "Yes I'm planning to"). Recommended: yes. Why: pins can only use the biggest New Year searches (vision board ideas 43,400/mo, journal prompts 38,200/mo) honestly once those pages exist, and the peak is Dec–Jan. Option B: launch the Wallpaper pack first.
 (Next in line once these are done: Reddit yes/no, from the first board.)
+- ⏳ **Ad launch day:** the files say "Mon Nov 17", but Nov 17 is a Tuesday. Recommended: **Tue Nov 17**. Why: every checklist and the 14-day end date (Dec 1) were built around the 17th, and it leaves today for the 5 pre-launch checks.
 - ⏳ **Team loop:** not started automatically. A scheduled prompt can't start a self-paced loop by itself in this setup. To start it, Megan types in this room: `/loop Marketing Room team cycle: stand-up in ROOM.md, brainstorm 1–3 ideas, do the top 1–2 tasks from 100K-PLAN.md with the right agents and skills, commit and push. Goal: 100k+ visitors a month and 500 paying subscribers a month over time, without getting flagged. Drafts only.` To stop it: "stop looping".
 
 ## 5b. Roll call (Nov 15, from repo status + each agent's own report)
@@ -88,7 +89,7 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 ## 5c. Cycle stand-up (latest first)
 **Cycle 11 · Nov 16, 08:25 UTC**
 - 📌 Pinterest SEO: 9th article pin, how-to-make-a-vision-board (QA passed). The New Year priority rows in QUEUE.md now all have one save-image.
-- Everyone else: no change. Today (Mon Nov 17 PT): the Instagram test is Megan's to launch, and the Media Buyer's competitor watch runs at 10:47 PT. 0 subagents.
+- Everyone else: no change. ⚠️ Date mismatch found: the ad files say "Mon Nov 17", but Nov 17, 2026 is a **Tuesday** (today, Nov 16, is the Monday). Asked Megan which day she launches. The Media Buyer's competitor watch runs today, Mon Nov 16, 10:47 PT. 0 subagents.
 
 **Cycle 10 · Nov 16, 07:25 UTC**
 - 📌 Pinterest SEO: 8th article pin, december-january-journal-prompts (QA passed). The New Year articles in QUEUE.md are now nearly all covered with one save-image each.

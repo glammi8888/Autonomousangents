@@ -34,6 +34,7 @@ Volumes: Google US monthly searches, Mangools Nov 14, from `drafts/lead-magnets/
 | 13 | money-affirmations | "Money affirmations" (BANK.md lines only) | — | Money Affirmations (to create) | 0/5 |
 | 14 | self-love-affirmations | "Self love affirmations" (BANK.md lines only) | — | Self Love Affirmations (to create) | 0/5 |
 | 15 | personal-rebrand | "How to rebrand yourself" | 280 | How to Rebrand Yourself | 0/5 |
+| 16 | romanticize-your-life (**DRAFT, pin only once live**) | "Romanticize your life: small ways to start today" · "Ways to romanticize your life this winter" | 1,200 (+160 "ways to…") | — (pick nearest) | 0/5 |
 
 The other live slugs are in UTM-MAP.md. Add them after these 15.
 

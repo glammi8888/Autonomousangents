@@ -74,6 +74,7 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 2. ✅ **Decided (Megan, Nov 15): "Ok"**. Back to 1 article a day. Her question "when can we pick up to more?" is answered by the ramp gates in `100K-PLAN.md` ("Article pace").
 3. ⏳ **Pick the layout for the Vision Board Kit + Journal Prompts this week** (Megan: "Yes I'm planning to"). Recommended: yes. Why: pins can only use the biggest New Year searches (vision board ideas 43,400/mo, journal prompts 38,200/mo) honestly once those pages exist, and the peak is Dec–Jan. Option B: launch the Wallpaper pack first.
 (Next in line once these are done: Reddit yes/no, from the first board.)
+- ⏳ **Ad launch day:** the files say "Mon Nov 17", but Nov 17 is a Tuesday. Recommended: **Tue Nov 17**. Why: every checklist and the 14-day end date (Dec 1) were built around the 17th, and it leaves today for the 5 pre-launch checks.
 - ⏳ **Team loop:** not started automatically. A scheduled prompt can't start a self-paced loop by itself in this setup. To start it, Megan types in this room: `/loop Marketing Room team cycle: stand-up in ROOM.md, brainstorm 1–3 ideas, do the top 1–2 tasks from 100K-PLAN.md with the right agents and skills, commit and push. Goal: 100k+ visitors a month and 500 paying subscribers a month over time, without getting flagged. Drafts only.` To stop it: "stop looping".
 
 ## 5b. Roll call (Nov 15, from repo status + each agent's own report)
@@ -86,6 +87,50 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 16 · Nov 16, 13:25 UTC**
+- 📌 Pinterest SEO: 14th article pin, self-love-affirmations, using Megan's BANK.md line "I am worthy of love, respect, and everything I desire" (QA passed).
+- 🔎 SEO/AEO: new draft #39, romanticize-your-life (1,200 searches a month, KD 41), with a cover. Still a draft, not live.
+- 💚 Growth Lead: added it to QUEUE.md as row 16, marked "pin only once live", so the Pinterest agent has the brief ready on the day it goes live. Reel and Reddit checks wait until it's live too.
+- Waiting on Megan: no change. 0 subagents.
+
+**Cycle 15 · Nov 16, 12:25 UTC**
+- 📌 Pinterest SEO: 13th article pin, money-affirmations, using Megan's BANK.md line "I'm making money in my sleep" (QA passed). The article's own affirmations stayed off the pin because they aren't in BANK.md (same as the New Year affirmations pin). Next on its list: self-love-affirmations.
+- Everyone else: no change. Waiting on Megan: no change. 0 subagents.
+
+**Cycle 14 · Nov 16, 11:25 UTC**
+- 📌 Pinterest SEO: 12th article pin, how-to-glow-up (9,300 searches a month), a checklist + 30-day pin (QA passed).
+- 🔎 SEO/AEO: Google results checked for 2 big keywords. Pinterest pins rank at #5 and #6 for "positive affirmations for women" (8,400) and a Pinterest board is #1 for "vision board examples" (11,000). Our titles already match the pattern, so what's missing is indexing (Search Console, D1) and pins being live. The pin targets went to OPS for the Pinterest agent.
+- 💡 Idea: put the vision-board-examples pins (VBE is designed) on the 2027 Visionboard Ideas board first when Megan says go. Traffic: missing (we have no Pinterest data yet). Speed: days after go. Cost: $0. Flag risk: low (1 pin per URL, 72h apart). Megan must: say go on the "Pins made" list.
+- Waiting on Megan: no change. 0 subagents.
+
+**Cycle 13 · Nov 16, 10:25 UTC**
+- 📌 Pinterest SEO: 11th article pin, personal-rebrand, using Megan's "art director" line from BANK.md (QA passed). Now working through the evergreen articles.
+- Everyone else: no change. Still waiting on Megan for the ad launch day and the 3 decisions. 0 subagents.
+
+**Cycle 12 · Nov 16, 09:25 UTC**
+- 📌 Pinterest SEO: 10th article pin, journaling-prompts. **The New Year set is complete.** Next, by its own job order: evergreen articles, then the 3-fresh-pins job.
+- 🔎 SEO/AEO: the how-to-stop-overthinking title now matches the winning angle in Google results (a refresh, not a new page).
+- Waiting on Megan: the ad launch day (Tue Nov 17 recommended), plus the 3 decisions. 0 subagents.
+
+**Cycle 11 · Nov 16, 08:25 UTC**
+- 📌 Pinterest SEO: 9th article pin, how-to-make-a-vision-board (QA passed). The New Year priority rows in QUEUE.md now all have one save-image.
+- Everyone else: no change. ⚠️ Date mismatch found: the ad files say "Mon Nov 17", but Nov 17, 2026 is a **Tuesday** (today, Nov 16, is the Monday). Asked Megan which day she launches. The Media Buyer's competitor watch runs today, Mon Nov 16, 10:47 PT. 0 subagents.
+
+**Cycle 10 · Nov 16, 07:25 UTC**
+- 📌 Pinterest SEO: 8th article pin, december-january-journal-prompts (QA passed). The New Year articles in QUEUE.md are now nearly all covered with one save-image each.
+- 🔎 SEO/AEO: new draft gratitude-journal-prompts (N1, seasonal), cover pending. When it goes live it gets a QUEUE.md row and a Reel/Reddit check.
+- Everyone else: no change. 0 subagents.
+
+**Cycle 9 · Nov 16, 06:25 UTC**
+- 📌 Pinterest SEO: 7th article pin, new-year-journal-prompts (10 prompts taken word for word from the article, QA passed). Next: the remaining New Year rows in QUEUE.md.
+- Everyone else: no change. Quiet hour, 0 subagents.
+
+**Cycle 8 · Nov 16, 05:25 UTC**
+- 📌 Pinterest SEO: 6th article pin, new-year-affirmations (QA passed, "ready for Framer"). It followed the quote rule: the article's 50 affirmations aren't in BANK.md, so the pin uses only Megan's line "Dream life is on its way".
+- 🔎 SEO/AEO: folded I13 into manifestation-examples (refresh, not a new page) and added new bank rows, with gratitude prompts NEXT. That's in line with the 1/day + refresh rule.
+- New in the repo (OPS): a Customer Panel agent ran an AI-persona test of the issue11.app homepage ("signal only"). Use it as a hint, not as data.
+- 💚 · 🎬 · 💸 · 🧵 · 🖋: no change. 0 subagents.
+
 **Cycle 7 · Nov 16, 04:25 UTC**
 - 📌 Pinterest SEO: ✅ **output now reaches the repo.** `drafts/pinterest/HOURLY-LOG.md` exists. The 3 pins that were only on the canvas were saved again, and 2 new ones were made: vision-board-examples and word-of-the-year-ideas. That's 5 "save this" images for New Year articles in `drafts/pinterest/article-pins/`, Visual QA passed, status "ready for Framer". The daily site task adds them to the articles. It self-corrected a cash photo on a money board, which matches Megan's relevance rule.
 - 🔎 SEO/AEO: no new ISSUE11 article this hour. Glammi work only.

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 37 · indie night page</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:48px;height:66px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.run{position:absolute;left:52px;right:52px;top:44px;display:flex;justify-content:space-between;font-weight:500;font-size:17px;letter-spacing:.26em;text-transform:uppercase}
+.folio{position:absolute;right:52px;bottom:60px;font-weight:500;font-size:18px;letter-spacing:.2em}
+.cap{font-weight:400;font-size:19px;letter-spacing:.02em;line-height:1.4}
+.cap b{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:15px;margin-right:10px}
+img.ph{position:absolute;object-fit:cover;display:block}
+
+.pin{background:#1F1A16;color:#F2E6D0}
+img.ph{left:52px;top:110px;width:700px;height:1220px}
+.v{position:absolute;right:40px;top:110px;height:1220px;writing-mode:vertical-rl;font-weight:800;font-size:96px;letter-spacing:-.04em;line-height:1;text-align:right}
+.v i{font-weight:300}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="run" style="color:#F2E6D0"><span>Vol. 01 — Winter 2027</span><span>After hours</span></div><img class="ph" src="/_blob/bb6331704485e735630ba2d0f3bcaec4" style="object-position:45% 30%" alt="Editorial photo (AI-generated)">
+<div class="v">I'm making money <i>in my sleep</i></div>
+<img class="logo w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="folio" style="color:#F2E6D0">P. 37</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

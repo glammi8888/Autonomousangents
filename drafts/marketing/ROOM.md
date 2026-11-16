@@ -87,6 +87,12 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 14 · Nov 16, 11:25 UTC**
+- 📌 Pinterest SEO: 12th article pin, how-to-glow-up (9,300 searches a month), a checklist + 30-day pin (QA passed).
+- 🔎 SEO/AEO: Google results checked for 2 big keywords. Pinterest pins rank at #5 and #6 for "positive affirmations for women" (8,400) and a Pinterest board is #1 for "vision board examples" (11,000). Our titles already match the pattern, so what's missing is indexing (Search Console, D1) and pins being live. The pin targets went to OPS for the Pinterest agent.
+- 💡 Idea: put the vision-board-examples pins (VBE is designed) on the 2027 Visionboard Ideas board first when Megan says go. Traffic: missing (we have no Pinterest data yet). Speed: days after go. Cost: $0. Flag risk: low (1 pin per URL, 72h apart). Megan must: say go on the "Pins made" list.
+- Waiting on Megan: no change. 0 subagents.
+
 **Cycle 13 · Nov 16, 10:25 UTC**
 - 📌 Pinterest SEO: 11th article pin, personal-rebrand, using Megan's "art director" line from BANK.md (QA passed). Now working through the evergreen articles.
 - Everyone else: no change. Still waiting on Megan for the ad launch day and the 3 decisions. 0 subagents.

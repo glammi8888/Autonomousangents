@@ -113,3 +113,10 @@ Megan's picks from round 9 (Nov 16, word for word): "91, 90, 89, 95, 93 except t
 
 ## Round 10 · CT98–CT109 (Megan: "now give me a few more pins and then we can switch styles")
 Pins in her inspiration formats with her inspiration lines (`gen11.py`, `../inspo-megan/README.md`): 98 soft lowercase on photo (richer and prettier) · 99 message bubbles (tea) · 100 loop with arrows (i'm sexy) · 101 loud poster type (prettier and hotter) · 102 subtitle line on photo (I am iconic) · 103 plain lowercase card (lucky girl syndrome) · 104 dictionary card (muse) · 105 huge lowercase white on black (big deal) · 106 pink card + emoji (Spoiled by the Universe) · 107 pink text over photo (never let a loser) · 108 cosy after photo (it all worked out) · 109 big caps three beats (brains, beauty & booty). All Inter Tight. Visual QA 390 + 236 passed after fixes (hidden words on 100/104, contrast on 102/107).
+
+Megan on round 10 (Nov 16, word for word): "Ok those are all winners !!!" → CT98–CT109 all join the LOVED templates.
+
+## Template set (as of Nov 16)
+- APPROVED: magazine cover (CT21, CT51–CT53, CT64–CT67, CT86, CT87)
+- LOVED: CT03, CT42, CT45, CT55, CT61, CT89, CT90, CT91, CT93, CT95, CT98–CT109, plus the earlier type cards (black + lilac, lavender italic, "me 🤝 2027", white roman + italic)
+- To test: CT88, CT92, CT94, CT96, CT97 (not picked)

@@ -36,3 +36,8 @@ Volumes: Google US monthly searches, Mangools Nov 14, from `drafts/lead-magnets/
 | 15 | personal-rebrand | "How to rebrand yourself" | 280 | How to Rebrand Yourself | 0/5 |
 
 The other live slugs are in UTM-MAP.md. Add them after these 15.
+
+## Pins made (the hourly Pinterest agent adds rows here; the scheduler reads the Status column)
+Status values: `waiting for Megan's go` → `go` (only once Megan says so in chat, logged here) → `scheduled <date> · <id>`.
+| Pin id | PNG path | Title | Description | Board | Link (with UTM) | AI label | Status |
+|---|---|---|---|---|---|---|---|

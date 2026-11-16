@@ -210,3 +210,15 @@ Kept but flagged (vendor plugs, disclosed in the text): Converly, Attributer, Pl
 - First-pass checks: no hidden Unicode, no subprocess, eval or exec, no deletes, and it writes only to its own outputs/ folder. .env.example was not read (deny rule).
 - Not yet done: a full line-by-line read of all ~10k lines. Needed before any install.
 - Megan's choice is pending: it needs a paid OpenRouter account and key. The free alternative is synthetic-crowd or claude-persona, which run on her Claude plan.
+
+## Nov 16, 2026: customer panel skills (Megan: "Try all 3 and put into 1 agent or something no?")
+- synthetic-crowd · github.com/Matthew-Klette/synthetic-crowd @ 5097e34 · MIT · INSTALLED.
+  - Scan: SAFE. All 6 files read in full.
+  - What it does: crowd.py runs one `claude -p --safe-mode --tools "" --no-session-persistence` call per persona from a temp folder, using the local Claude CLI on Megan's plan. Default model haiku; the author reports about $0.33 API-equivalent for 24 calls.
+  - It reads and writes only the files you pass it. No other hosts, keys, installs or persistence.
+  - What it sends online: the asset text, to Anthropic through the Claude CLI.
+- synthetic-user-feedback · github.com/travisseh/synthetic-user-feedback @ db39ed1 · MIT (stated in its README; it has no LICENSE file, so we added a note) · INSTALLED.
+  - Scan: SAFE. 3 files, all read (SKILL.md, README, a persona template).
+  - Instructions only, no code. It uses a browser (Chrome extension or Playwright) to browse the target site, may run web searches as the persona, and saves its report.
+- claude-persona: being scanned, not installed yet.
+- New agent: .claude/agents/customer-panel.md (🧪 GROWTH — Customer Panel).

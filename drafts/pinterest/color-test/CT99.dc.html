@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 99 · message bubbles · tea</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+img.f{position:absolute;object-fit:cover;display:block}
+.full{inset:0;width:100%;height:100%}
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%);z-index:5}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
+.c{position:absolute;left:60px;right:60px;text-align:center}
+
+.pin{background:#000}
+.bs{position:absolute;left:70px;top:330px;display:flex;flex-direction:column;gap:22px;align-items:flex-start}
+.b{background:#2B2B2D;color:#fff;font-weight:500;font-size:84px;letter-spacing:-.01em;padding:30px 56px;border-radius:90px}
+.b:last-child{border-bottom-left-radius:16px}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="tl w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="bs"><div class="b">U SO TEAAAA</div><div class="b">BODY TEA</div><div class="b">FACE TEA</div><div class="b">HAIR TEA</div></div><div class="url" style="color:#fff">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

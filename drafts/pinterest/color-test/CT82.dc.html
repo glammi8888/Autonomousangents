@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 82 · zoom loupe on the eye</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%);z-index:5}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
+img.f{position:absolute;object-fit:cover;display:block}
+.full{inset:0;width:100%;height:100%}
+
+.pin{background:#F6EFEA}
+img.f{left:0;top:0;width:1000px;height:1000px}
+.zoom{position:absolute;right:50px;top:760px;width:340px;height:340px;border-radius:50%;overflow:hidden;border:10px solid #fff;box-shadow:0 20px 40px rgba(0,0,0,.3)}
+.zoom img{position:absolute;width:1400px;height:1860px;left:-810px;top:-430px;object-fit:cover}
+.q{position:absolute;left:52px;width:520px;top:1060px;font-weight:300;font-size:84px;line-height:.92;letter-spacing:-.05em;color:#C4141C}
+.q b{font-weight:900}
+.url{text-align:left;left:52px;color:#C4141C}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="f" src="/_blob/bda9f11616ec354e2208907843aace41" style="object-position:50% 30%" alt="Editorial photo (AI-generated)"><img class="tl w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11">
+<div class="zoom"><img src="/_blob/bda9f11616ec354e2208907843aace41" alt="Editorial photo (AI-generated)"></div><div class="q">My <b>face card</b> is absolutely <b>lethal</b></div><div class="url" style="color:#C4141C">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

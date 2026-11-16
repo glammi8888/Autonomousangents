@@ -81,3 +81,21 @@ Megan, word for word: "Keep up Indie magazine style pins please I want to see mo
 Done: the logo is bigger on all 77 CT pins (bottom logo 66 → 92px, top logo 52 → 76px). Round 7 (`gen8.py`, Drive photos): band masthead + full bleed (68), spread with type stack (69), "Money, an index" page listing Megan's money lines (70), giant $ + tall photo (71), two looks with credits (72), framed full bleed (73), square portrait + two-column credits (74), letter page + polaroid (75), three-panel gatefold (76), broadsheet front page (77).
 
 LOVED so far (template candidates): magazine covers CT21, CT51–CT53, CT64–CT67 · CT61 quiet full-bleed · CT55 triptych · CT42 lavender inset + italic · CT45 full-bleed huge type · CT03 · the type cards (black + lilac, lavender italic, "me 🤝 2027", white roman + italic).
+
+## Round 8 · CT78–CT87 (Megan: "Can you create some more pins with different images too ?? And different layouts" · "I also want the text on the pins to correlate to the images")
+
+8 new Drive photos (`gen9.py`), each paired with the BANK line it literally shows:
+| # | Photo | Line | Layout |
+|---|---|---|---|
+| 78 | in bed on a pile of cash | I wake up to money | full bleed + hotel door-hanger tag |
+| 79 | lounging on cash in a blue suit | I make way more money than what I'm able to spend | full bleed + outline type |
+| 80 | glowing skin, pink coat, wall of pink money | A healthy mind, a fit body, and lots of money $$$ | photo + three colour bands, one phrase each |
+| 81 | money raining down | My business is bringing sooooo much money | full bleed + words on falling bill tags |
+| 82 | red liner close-up | My face card is absolutely lethal | photo + zoom loupe on the eye |
+| 83 | blue liner, direct stare | I am the prize, always | huge cropped type THE PRIZE |
+| 84 | pink liner, gloss | I am my own dream girl | split seam, type across the edge |
+| 85 | big hair, cream knit | I glowed up so hard now my enemies are crying | indie cover B: vertical title + issue number |
+| 86 | pink money wall | A healthy mind, a fit body, and lots of money $$$ | magazine cover (HEALTHY) |
+| 87 | bed of cash | I wake up to money | magazine cover (WAKE UP) |
+
+Visual QA (390 + 236): passed after fixes: top logo moved off faces (79, 81, 83, 84), zoom loupe re-aimed at the eye (82), cropped type made readable (83), title moved off the chin (84).

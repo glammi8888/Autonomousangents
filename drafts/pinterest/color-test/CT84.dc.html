@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 84 · split seam</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%);z-index:5}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
+img.f{position:absolute;object-fit:cover;display:block}
+.full{inset:0;width:100%;height:100%}
+
+.pin{background:#F9D7E2}
+img.f{left:0;top:0;width:1000px;height:960px}
+.url{color:#7A0F3A}
+.q{position:absolute;left:52px;right:52px;top:1000px;font-weight:900;font-size:120px;line-height:.86;letter-spacing:-.055em;color:#C2185B}
+.q i{display:block;font-weight:300;color:#7A0F3A}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="f" src="/_blob/4e778283bc9ea80ceaef2cab845c3108" style="object-position:50% 25%" alt="Editorial photo (AI-generated)"><img class="tl" style="left:52px;transform:none" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="q">Dream girl <i>I am my own dream girl</i></div><div class="url" style="color:#7A0F3A">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

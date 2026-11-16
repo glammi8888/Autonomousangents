@@ -120,3 +120,7 @@ Megan on round 10 (Nov 16, word for word): "Ok those are all winners !!!" → CT
 - APPROVED: magazine cover (CT21, CT51–CT53, CT64–CT67, CT86, CT87)
 - LOVED: CT03, CT42, CT45, CT55, CT61, CT89, CT90, CT91, CT93, CT95, CT98–CT109, plus the earlier type cards (black + lilac, lavender italic, "me 🤝 2027", white roman + italic)
 - To test: CT88, CT92, CT94, CT96, CT97 (not picked)
+
+## Rounds 11–12 · viral copies (Nov 16) · research in ../viral/README.md
+- CT110–CT121 (`gen12.py`): letter + "Send this to yourself" · orange + blue italic · photo + small caption · stacked "I am the prize" · pink centred quote · spaced words · money photo + italic · note on the wall · repeated line with one highlighted · olive + italic · black + pink 2027 · dark celestial. Megan: "also the last pins you made were perfection" → LOVED.
+- CT122–CT131 (`gen13.py`, manifestation + vision board, "all year long" trend): big pink "manifesting" over photo · TONIGHT save-to-affirm card · repeated blocks · aura gradient · Notes-app manifestation journal prompts (article) · 369 method page · 2027 vision board photo grid · film caption · dreamy photo + italic · torn paper note.

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 92 · inspo vertical stacks + columns</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+img.f{position:absolute;object-fit:cover;display:block}
+.full{inset:0;width:100%;height:100%}
+.lab{position:absolute;font-weight:600;font-size:17px;letter-spacing:.24em;text-transform:uppercase}
+.url{position:absolute;font-weight:700;font-size:26px}
+.bars i{display:block;height:9px;margin:0 0 12px;border-radius:1px}
+
+.pin{background:#F6F3EE;color:#0D0D0D}
+.v{position:absolute;top:60px;writing-mode:vertical-rl;transform:rotate(180deg);font-weight:900;font-size:150px;line-height:.86;letter-spacing:-.04em;text-transform:uppercase}
+.col{position:absolute;top:120px}
+img.f{left:380px;top:860px;width:270px;height:340px}
+.cap{position:absolute;left:380px;top:1215px;font-size:22px;font-weight:600;width:270px}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="v" style="left:40px;height:1000px">I am</div><div class="v" style="left:190px;height:1000px">the</div>
+<div class="col" style="left:380px;width:270px"><div class="bars"><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:96%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:92%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:98%"></i><i style="background:#C9C3B9;width:88%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:94%"></i><i style="background:#C9C3B9;width:72%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:96%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:92%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:98%"></i><i style="background:#C9C3B9;width:88%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:94%"></i><i style="background:#C9C3B9;width:72%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:96%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:92%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:98%"></i><i style="background:#C9C3B9;width:88%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:94%"></i><i style="background:#C9C3B9;width:72%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:96%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:92%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:98%"></i><i style="background:#C9C3B9;width:88%"></i><i style="background:#C9C3B9;width:100%"></i><i style="background:#C9C3B9;width:94%"></i><i style="background:#C9C3B9;width:72%"></i></div></div>
+<div class="v" style="left:680px;height:1000px">prize,</div><div class="v" style="left:830px;height:1000px;color:#3E63C9">always</div>
+<img class="f" src="/_blob/e6e124f1aad6d754069c4e38a30a8a09" style="object-position:50% 30%" alt="Editorial photo (AI-generated)"><div class="cap">I am the prize, always</div>
+<img class="logo" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11">
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

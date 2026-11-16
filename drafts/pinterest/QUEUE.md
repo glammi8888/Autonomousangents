@@ -36,6 +36,9 @@ Volumes: Google US monthly searches, Mangools Nov 14, from `drafts/lead-magnets/
 | 15 | personal-rebrand | "How to rebrand yourself" | 280 | How to Rebrand Yourself | 0/5 |
 | 16 | romanticize-your-life (**DRAFT, pin only once live**) | "Romanticize your life: small ways to start today" · "Ways to romanticize your life this winter" | 1,200 (+160 "ways to…") | — (pick nearest) | 0/5 |
 | 17 | shadow-work-journaling (**DRAFT, pin only once live**) | "Shadow work journaling: prompts for beginners" | 970 (+160 "…for beginners") | Journal Prompts | 0/5 |
+| 18 | vision-board-quotes | "Vision board quotes" (BANK.md lines only on the pin) | — | 2027 Visionboard Ideas | 0/5 |
+| 19 | journal-prompts-for-self-discovery | "Journal prompts for self discovery" | — | Journal Prompts | 0/5 |
+| 20 | journaling-for-self-love | "Journaling for self love" | — | Journal Prompts | 0/5 |
 
 The other live slugs are in UTM-MAP.md. Add them after these 15.
 

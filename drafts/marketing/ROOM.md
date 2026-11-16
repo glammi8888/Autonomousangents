@@ -87,6 +87,10 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 13 · Nov 16, 10:25 UTC**
+- 📌 Pinterest SEO: 11th article pin, personal-rebrand, using Megan's "art director" line from BANK.md (QA passed). Now working through the evergreen articles.
+- Everyone else: no change. Still waiting on Megan for the ad launch day and the 3 decisions. 0 subagents.
+
 **Cycle 12 · Nov 16, 09:25 UTC**
 - 📌 Pinterest SEO: 10th article pin, journaling-prompts. **The New Year set is complete.** Next, by its own job order: evergreen articles, then the 3-fresh-pins job.
 - 🔎 SEO/AEO: the how-to-stop-overthinking title now matches the winning angle in Google results (a refresh, not a new page).

@@ -73,3 +73,11 @@ Megan's likes so far (her screenshots, Nov 16): the existing type cards (black +
 - More covers (CT64–CT67, `gen7.py`): SELF LOVE, SLEEP, BUSINESS, WORTHY.
 
 Visual QA (390 + 236): passed after fixes: type moved off mouths and chins (31, 40, 45, 46, 49), full-bleed versions of 41/44/46/47/48, readable mastheads, overlapping circle text, cut-off knockout words, vertical cover date moved off faces (64, 66), lilac label contrast (67).
+
+## Round 7 · CT68–CT77 + Megan's loves (Nov 16)
+
+Megan, word for word: "Keep up Indie magazine style pins please I want to see more options !" · "these I absolutely love" (CT61 quiet full-bleed + corner caption; covers CT64 SELF LOVE, CT65 SLEEP, CT66 BUSINESS, CT67 WORTHY) · "This one is pretty cool too" (CT55 triptych) · "You can do the ISSUE11 logo a bit bigger on each but it's excellent" / "and the issue11 logo can be a bit bigger too".
+
+Done: the logo is bigger on all 77 CT pins (bottom logo 66 → 92px, top logo 52 → 76px). Round 7 (`gen8.py`, Drive photos): band masthead + full bleed (68), spread with type stack (69), "Money, an index" page listing Megan's money lines (70), giant $ + tall photo (71), two looks with credits (72), framed full bleed (73), square portrait + two-column credits (74), letter page + polaroid (75), three-panel gatefold (76), broadsheet front page (77).
+
+LOVED so far (template candidates): magazine covers CT21, CT51–CT53, CT64–CT67 · CT61 quiet full-bleed · CT55 triptych · CT42 lavender inset + italic · CT45 full-bleed huge type · CT03 · the type cards (black + lilac, lavender italic, "me 🤝 2027", white roman + italic).

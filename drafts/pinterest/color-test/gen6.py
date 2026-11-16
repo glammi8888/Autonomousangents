@@ -5,7 +5,7 @@ from gen4 import B
 def src(k): return f'/_blob/{B[k]}'
 A='alt="Editorial photo (AI-generated)"'
 S="""
-.tl{position:absolute;left:50%;top:48px;height:52px;transform:translateX(-50%);z-index:5}
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%);z-index:5}
 .url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
 .it{position:absolute;left:0;right:0;text-align:center;font-style:italic;font-weight:400;letter-spacing:-.03em}
 img.f{position:absolute;object-fit:cover;display:block}

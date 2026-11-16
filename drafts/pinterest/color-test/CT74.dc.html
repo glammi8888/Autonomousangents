@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 74 · indie square + columns</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.run{position:absolute;left:52px;right:52px;top:44px;display:flex;justify-content:space-between;font-weight:500;font-size:17px;letter-spacing:.26em;text-transform:uppercase}
+.folio{position:absolute;right:52px;bottom:60px;font-weight:500;font-size:18px;letter-spacing:.2em}
+.cap{font-weight:400;font-size:19px;letter-spacing:.02em;line-height:1.4}
+.cap b{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:15px;margin-right:10px}
+img.ph{position:absolute;object-fit:cover;display:block}
+
+.pin{background:#F1EBFF;color:#24124A}
+img.ph{left:150px;top:150px;width:700px;height:760px}
+.q{position:absolute;left:52px;right:52px;top:960px;text-align:center;font-style:italic;font-weight:400;font-size:70px;letter-spacing:-.03em}
+.cols{position:absolute;left:150px;right:150px;top:1090px;display:grid;grid-template-columns:1fr 1fr;gap:40px;border-top:1px solid #24124A;padding-top:16px}
+
+</style>
+</helmet>
+<div class="pin">
+<div class="run" style="color:#24124A"><span>Vol. 01 — Winter 2027</span><span>Portrait</span></div><img class="ph" src="/_blob/2f1673a637c73371ea14b83819994320" style="object-position:55% 25%" alt="Editorial photo (AI-generated)">
+<div class="q">I am my own dream girl</div><div class="cols"><div class="cap"><b>Hair</b>Long curls, worn loud.</div><div class="cap"><b>Skin</b>Gloss, freckles, nothing to hide.</div></div>
+<img class="logo" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="folio">P. 74</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -4,7 +4,7 @@ PH={'m28':'1c5357936c0f3bb41b01c25d9f8b01a9','e20':'e0b2acd5fe4e7845cf15c0a2d79a
 BASE="""body{margin:0}
 .pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
 .bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.logo{position:absolute;left:52px;bottom:48px;height:66px}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
 .w{filter:invert(1)}
 .tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
 """

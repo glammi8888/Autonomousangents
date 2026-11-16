@@ -7,7 +7,7 @@ def ph(k,pos,css): return f'<img src="/_blob/{B[k]}" style="position:absolute;ob
 TOP=lambda inv='': f'<img class="tl {inv}" src="{LOGO}" alt="ISSUE11">'
 URL=lambda c: f'<div class="url" style="color:{c}">issue11.app</div>'
 S="""
-.tl{position:absolute;left:50%;top:48px;height:52px;transform:translateX(-50%)}
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%)}
 .url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;letter-spacing:-.01em}
 .big{position:absolute;left:44px;right:44px;font-weight:900;letter-spacing:-.055em;line-height:.86}
 .big i{font-weight:300;letter-spacing:-.04em}

@@ -12,6 +12,7 @@ Source boards: Claude Design Lead Magnets canvas (https://claude.ai/artifact/MZr
 | ArticlePinWOTY | issue11.app/blog/word-of-the-year-ideas | png/ArticlePinWOTY.png | Word of the Year Ideas 2027: 120 Words + How to Choose Yours | Text-only pin: "Word of the year ideas" over eight boxes of word ideas grouped by what you want more of, from confidence to boundaries | Pass 390 + 236 (Nov 16) | ready for Framer |
 | ArticlePinNYA | issue11.app/blog/new-year-affirmations | png/ArticlePinNYA.png | New Year Affirmations 2027: 50 Short Affirmations for Money, Love + a Fresh Start | A crystal walk-in closet (no people) with the line "Dream life is on its way", the title "New year affirmations" and five topic tags: fresh start, confidence, money + work, love, calm | Pass 390 + 236 (Nov 16) | ready for Framer |
 | ArticlePinNYJ | issue11.app/blog/new-year-journal-prompts | png/ArticlePinNYJ.png | New Year Journal Prompts 2027: 40 Reflection + Goal Setting Questions for One Evening | Text-only pin: "New year journal prompts" in a black band over two columns, "Look back" and "Look ahead", each with five prompts from the article | Pass 390 + 236 (Nov 16) | ready for Framer |
+| ArticlePinDJ | issue11.app/blog/december-january-journal-prompts | png/ArticlePinDJ.png | December Journal Prompts + January Journal Prompts: 62 Daily Prompts for Adults, One a Day | Text-only pin: "December + January journal prompts" with two month calendars, one black and one white, each with four weekly themes and one prompt per week from the article | Pass 390 + 236 (Nov 16) | ready for Framer |
 
 Keyword check for ArticlePinVBE: Pinterest autocomplete (Apify, Nov 16) suggests "vision board examples" with "inspiration", "aesthetic", "life", "career" and "manifestation" variants. Raw: `../2026-11-16-vision-board-examples-keywords.json`. No volume figure from Pinterest; Google US 11,000/mo per QUEUE.md.
 
@@ -21,4 +22,6 @@ Keyword check for ArticlePinNYA: Pinterest autocomplete (Apify, Nov 16) suggests
 
 Keyword check for ArticlePinNYJ: Pinterest autocomplete (Apify, Nov 16) suggests "new year journal prompts" with "goal settings", "reflection", "simple" and "short" variants. Raw: `../2026-11-16-new-year-journal-prompts-keywords.json`. The 10 prompts on the pin are copied word for word from the article. Text-only, so no AI label needed.
 
-Next articles without a pin (New Year first): december-january-journal-prompts · how-to-make-a-vision-board · journaling-prompts.
+Keyword check for ArticlePinDJ: Pinterest autocomplete (Apify, Nov 16) suggests "december journal prompts for adults", "31 december journal prompts", "december month journal prompts", "daily january journal prompts" and "january journal writing prompts". Raw: `../2026-11-16-december-january-journal-keywords.json`. The 8 prompts and week themes come from the article ("Give and receive" shortened to "Give + receive"). Text-only, so no AI label needed. Pin it from late November so it is up before Dec 1.
+
+Next articles without a pin (New Year first): how-to-make-a-vision-board · journaling-prompts.

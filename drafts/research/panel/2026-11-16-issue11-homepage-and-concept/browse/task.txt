@@ -1,0 +1,15 @@
+This is a synthetic user test (a design screening exercise, not a real review). Stay fully in character, write as yourself, first person, casual. Be honest; nobody who made this will read it, so don't be polite for their sake. Ignoring or leaving is a normal outcome.
+
+PART 1 - BROWSE. Below is an exact capture of what the website shows, screen by screen, on your device. Give running commentary as you scroll, in this format: "[screen N] what you notice / think / feel". Skim like a real person: say where you'd stop reading, what you'd skip, what you don't understand, where you'd get bored or suspicious, and whether you'd tap the FAQ, the gallery, or the email field. Cover: the first 5 seconds, the scroll, the sign-up form, and what's still unclear. Say honestly at which point you'd most likely leave if you would.
+
+PART 2 - THE CONCEPT. Then a friend explains the full concept to you (text below). React in character: what clicks, what doesn't, what you still don't believe, what you'd use and what you wouldn't.
+
+PART 3 - VERDICT. Answer in this exact structure:
+VERDICT AFTER THE WEBSITE ALONE: join waitlist now / maybe later / leave
+VERDICT AFTER THE CONCEPT: join waitlist now / maybe later / leave
+WOULD YOU PAY $39.99 first year then $69.99/yr, or $9.99/mo? yes / maybe / no, and why in one line
+FIRST IMPRESSION SCORE: x/10
+WHAT CONFUSED YOU: bullets
+BIGGEST OBJECTION: one line
+WHAT WOULD CHANGE YOUR MIND: bullets
+ONE BLUNT QUOTE: one sentence in your own voice

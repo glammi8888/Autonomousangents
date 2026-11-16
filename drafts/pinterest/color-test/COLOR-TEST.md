@@ -134,3 +134,8 @@ Source: ../viral/2026-11-16-viral-manifest2.json + viral-vb-manifest (364 manife
 ## Angel number format test · CT143–CT146 (Nov 16)
 Megan: "I think we should do them all but we need to decide on the pin aesthetic format". Same 888 in A aura gradient · B full-bleed photo · C photo + colour band · D minimal cream card. Waiting for her pick.
 Megan also noted (Nov 16): "there are also carousels we can repurpose from Instagram to TikTok to Pinterest" → angel numbers can become a carousel (cover + one number per slide).
+
+## ❤️ Megan's loved formats (Nov 16, word for word: "Ok so let me tell you the formats I like")
+CT110–116, 118–122, 124–126, 129, 132, 133, 135–139, 142, 143, 144, 146 · plus CT147 (128 redo: "I do like 128 but the visionboard is cut off").
+Angel numbers: formats A (143 aura), B (144 photo) and D (146 cream card) are all liked. C (145) is not.
+Megan, Nov 16: "Ok I think we have enough formats". Stop making new format rounds. Next is pins in these formats, then a Barbie series from her Drive upload.

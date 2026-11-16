@@ -203,3 +203,10 @@ Kept but flagged (vendor plugs, disclosed in the text): Converly, Attributer, Pl
 - Notes:
   - The skills assume WoopSocial for publishing. We use Metricool (see the override).
   - The pgm README suggests a `curl | bash` installer. We did NOT use it; we copied the skill folder by hand.
+
+## Nov 16, 2026: synthetic-consumer-research (github.com/bluzername/synthetic-consumer-research @ fb09c58, MIT): SCANNED (first pass), NOT INSTALLED
+- What it is: a Python app (LangGraph), not a Claude skill. It needs Python 3.13, uv and a paid OPENROUTER_API_KEY. Every AI call goes to openrouter.ai using Gemini 2.5 Flash plus its image model.
+- What it sends online: the concept text and persona prompts go to OpenRouter. It also downloads the generated images, a sentence-transformers model from Hugging Face, and the pymc-labs semantic-similarity-rating git dependency.
+- First-pass checks: no hidden Unicode, no subprocess, eval or exec, no deletes, and it writes only to its own outputs/ folder. .env.example was not read (deny rule).
+- Not yet done: a full line-by-line read of all ~10k lines. Needed before any install.
+- Megan's choice is pending: it needs a paid OpenRouter account and key. The free alternative is synthetic-crowd or claude-persona, which run on her Claude plan.

@@ -87,6 +87,11 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 12 · Nov 16, 09:25 UTC**
+- 📌 Pinterest SEO: 10th article pin, journaling-prompts. **The New Year set is complete.** Next, by its own job order: evergreen articles, then the 3-fresh-pins job.
+- 🔎 SEO/AEO: the how-to-stop-overthinking title now matches the winning angle in Google results (a refresh, not a new page).
+- Waiting on Megan: the ad launch day (Tue Nov 17 recommended), plus the 3 decisions. 0 subagents.
+
 **Cycle 11 · Nov 16, 08:25 UTC**
 - 📌 Pinterest SEO: 9th article pin, how-to-make-a-vision-board (QA passed). The New Year priority rows in QUEUE.md now all have one save-image.
 - Everyone else: no change. ⚠️ Date mismatch found: the ad files say "Mon Nov 17", but Nov 17, 2026 is a **Tuesday** (today, Nov 16, is the Monday). Asked Megan which day she launches. The Media Buyer's competitor watch runs today, Mon Nov 16, 10:47 PT. 0 subagents.

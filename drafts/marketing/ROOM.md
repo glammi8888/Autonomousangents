@@ -86,6 +86,10 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 9 · Nov 16, 06:25 UTC**
+- 📌 Pinterest SEO: 7th article pin, new-year-journal-prompts (10 prompts taken word for word from the article, QA passed). Next: the remaining New Year rows in QUEUE.md.
+- Everyone else: no change. Quiet hour, 0 subagents.
+
 **Cycle 8 · Nov 16, 05:25 UTC**
 - 📌 Pinterest SEO: 6th article pin, new-year-affirmations (QA passed, "ready for Framer"). It followed the quote rule: the article's 50 affirmations aren't in BANK.md, so the pin uses only Megan's line "Dream life is on its way".
 - 🔎 SEO/AEO: folded I13 into manifestation-examples (refresh, not a new page) and added new bank rows, with gratitude prompts NEXT. That's in line with the 1/day + refresh rule.

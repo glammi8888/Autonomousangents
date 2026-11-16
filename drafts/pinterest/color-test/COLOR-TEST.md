@@ -20,3 +20,22 @@ Viral inspiration (`../2026-11-15-viral-quote-pins.json`, 151 top quote pins): t
 | 10 | Blush #FCD4DA + raspberry #C2185B | One-line type card (viral 2027 style) | "2027 is the year I lifemaxx" | Quote (BANK) | 2027 vision board quotes | – | Same format as the most-saved 2027 pins: one line, big type, pink |
 
 Visual QA (390 + 236, Nov 16): passed after fixes. Pin 3's title broke as "AFFIRM-ATIONS" and covered its tags (set on two lines). Pin 10 ran off the edge (smaller type, centred). Pins 5 and 6 had empty space (bigger type, tighter card). The first pin 10 was a black-and-white control; Megan asked for less black and white, so it became the blush card, and pins 8 and 9 lost their black text. No faces cut off, no stray logos or readable signs, ISSUE11 logo fully visible bottom-left.
+
+## Round 2 · CT11–CT20 (Megan: "show me more")
+
+Source: `python3 gen2.py` (reuses gen.py's template). Canvas: section "More color examples · round 2", boards CT11–CT20 below round 1. Same rules: BANK.md lines word for word, article facts from the live articles, AI library photos matched to each line, logo bottom-left.
+
+| # | Palette | Layout | Hook | Type · link | Keyword title | Photo ↔ text | Why it should get saved |
+|---|---|---|---|---|---|---|---|
+| 11 | Lavender #D9C8FF on deep violet | Full-bleed photo + checklist chips | "Glow up checklist" | Article · https://issue11.app/blog/how-to-glow-up?utm_source=pinterest&utm_medium=organic&utm_campaign=how-to-glow-up | Glow up checklist 30 day | e36: a glam editorial look | A tickable list people save to follow |
+| 12 | Fire red #FF2D3F | Full-bleed portrait, giant type | "My face card is absolutely lethal" | Quote (BANK) | That girl quotes red | e24: a sharp beauty portrait | Beauty line on a beauty face; bold red type |
+| 13 | Rose #FF9EC0 on wine | Full-bleed photo, roman + italic mix | "The love of my life is coming to me" | Quote (BANK) | Love manifestation quotes | l23: a couple kissing | Love manifestation is a top search; the photo shows it |
+| 14 | Champagne gold #F2C14E | Full-bleed photo + tilted sticker | "I'm the luckiest girl on the planet" | Quote (BANK) | Lucky girl syndrome affirmations | n16: a glam night-out portrait | Lucky-girl lines are widely saved; sticker pops in the feed |
+| 15 | Baby blue + cream | Full-bleed photo, text on top | "I only attract the best of the best" | Quote (BANK) | Affirmation quotes aesthetic | e22: a dream dressing room | "The best" shown as a dream room |
+| 16 | Sage #DDF2C9 on forest | Full-bleed photo, fade | "I have all the time in the world" | Quote (BANK) | Calm affirmations | e27: a woman sitting calmly | Slow, calm line on a calm photo |
+| 17 | Bubblegum #FF7EB6 + money green | Photo top, colour band, giant type | "I wake up to money" | Quote (BANK) | Money affirmation quotes | m24: a woman lying on a bed of cash | One short money line, huge type |
+| 18 | Teal #06403F + gold #FFD23F | Full-bleed article cover, big number | "40 money affirmations" | Article · https://issue11.app/blog/money-affirmations?utm_source=pinterest&utm_medium=organic&utm_campaign=money-affirmations | Money affirmations that feel true | m26: a woman lying in cash | Number + promise ("that actually feel true") |
+| 19 | Peach → pink gradient | Type card, italic + roman | "I am my own dream girl" | Quote (BANK) | Dream girl quotes | – | Viral "dream girl" line in the soft pinks the top pins use |
+| 20 | Sky blue gradient + sparkles | Type card | "Thank you universe for all the blessings" | Quote (BANK) | Gratitude affirmations | – | Gratitude lines are saved daily; airy sky palette |
+
+Visual QA (390 + 236): passed after fixes. 12's last word sat on the logo (smaller type, moved up). 15's white logo vanished on the white rug (switched to the black logo). 19 and 20 had empty lower halves (text centred). 13's type was enlarged.

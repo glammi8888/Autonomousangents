@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Color test 12 · fire red · full-bleed quote</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:48px;height:66px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.pin{background:#111}
+.q{position:absolute;left:44px;right:40px;top:860px;color:#FF2D3F;font-weight:900;font-size:132px;line-height:.82;letter-spacing:-.055em;text-transform:uppercase}
+.tag{right:52px;bottom:52px;background:#FF2D3F;color:#fff}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="bg" src="/_blob/48584939a34a6e613eb4e2f11f2ad13e" style="object-position:50% 18%" alt="Editorial photo (AI-generated)"><div style="position:absolute;inset:0;background:linear-gradient(180deg,#120A0A00 40%,#120A0AE6 62%,#120A0A 92%)"></div>
+<div class="q">My face card is absolutely lethal</div>
+<img class="logo w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="tag">Save this</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

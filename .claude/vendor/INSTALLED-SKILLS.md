@@ -222,3 +222,10 @@ Kept but flagged (vendor plugs, disclosed in the text): Converly, Attributer, Pl
   - Instructions only, no code. It uses a browser (Chrome extension or Playwright) to browse the target site, may run web searches as the persona, and saves its report.
 - claude-persona: being scanned, not installed yet.
 - New agent: .claude/agents/customer-panel.md (🧪 GROWTH — Customer Panel).
+- claude-persona · github.com/takechanman1228/claude-persona @ b4be6e6 · MIT · INSTALLED by hand (Nov 16) as `.claude/skills/persona` (SKILL.md, scripts/, references/, templates/, LICENSE). Demo data and the install scripts were not copied.
+  - Scan: SAFE WITH NOTES. 256 files; all code and instructions read in full, bulk demo data grep-scanned.
+  - No network code of its own; model calls go through the `claude -p` CLI with tools off. No key reads, hooks or persistence.
+  - Notes:
+    - It has a codex fallback if `claude` is missing; the override forces claude-cli.
+    - The official installer auto-runs `pip install pandas matplotlib seaborn` and can clone the unpinned main branch. Neither was used.
+    - Demo runs cost about $0.7–1 per 10 personas on sonnet, API-equivalent; on Megan's plan this counts against usage limits.

@@ -15,7 +15,7 @@ Read first:
 Skills to load, picking the one that fits the job:
 - `synthetic-crowd`: quick verdicts (buy / consider / ignore), price reaction and objections from 8–20 separate AI customers. Best for A vs B on pins, ads, headlines, emails and prices. Script: `python3 .claude/skills/synthetic-crowd/scripts/crowd.py`. Each persona is its own isolated `claude -p --safe-mode` call on Megan's Claude plan. Default model is haiku; use sonnet only when needed.
 - `synthetic-user-feedback`: 2–4 detailed personas browse issue11.app or the app with a browser (Playwright) and narrate where they get stuck. Best for landing page, sign-up and app flow checks.
-- `persona`, from claude-persona, once it is installed after its scan: deeper persona panels and concept tests.
+- `persona` (claude-persona): deeper persona panels, surveys and concept tests with charts. Use backend claude-cli. Its chart libraries are not installed yet.
 - `customer-research`: to ground personas in real quotes (Reddit and App Store lines in the ICP docs).
 
 How to run a test:

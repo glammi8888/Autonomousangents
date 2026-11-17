@@ -164,3 +164,6 @@ Shopping series (Megan, Nov 17): 5 lines in BANK. Waiting for her to show which 
 ## Shopping series · CT185–CT190 (Nov 17)
 Megan's fur-coat shopping photos (pasted in chat, saved in shop/*-full.jpg) + her 6 lines from BANK. Megan: "the logos don't need to be cropped out", so the full photos are used with the Dior/Chanel bags visible (Megan's call after the trademark flag). The text sits on the coat between the face and the bags.
 - Variants: 173, 174, 177–184 · Shopping series: 185–190 (Megan, Nov 17, moved to favourites)
+
+## Magazine covers · batch 2 · CT191–CT200 (Nov 17)
+Megan: "I think we should do magazine cover styles like 87, 86, 51, 52m etc 64". Approved cover() template with the shopping, Drive and doll photos + BANK lines. The cover lines use real article counts.

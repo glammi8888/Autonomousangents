@@ -1,1 +1,14 @@
-/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md
+/home/user/Autonomousangents/drafts/marketing/ROOM.md
+/home/user/Autonomousangents/drafts/marketing/UTM-MAP.md
+/home/user/Autonomousangents/drafts/pinterest/KEYWORD-PIN-MAP.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-16-homepage-fixes/CHANGES.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/hero-A-current.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/hero-B1-button.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/hero-B2-offer.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/hero-B3-offer-free.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/hero-b3-tally.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/hero-tally.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/thankyou-A-current.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/thankyou-B-next-step-share.md
+/home/user/Autonomousangents/drafts/research/panel/2026-11-17-waitlist-page-review/crowd/ty-tally.md

@@ -1,0 +1,2 @@
+/home/user/Autonomousangents/.pipeline/lessons.md
+/home/user/Autonomousangents/CLAUDE.md

@@ -116,3 +116,22 @@ Both docs read in full: design/editorial/MARKETING-PLAYBOOK.md + marketing/PSYCH
 
 **Polarizing, inside the Playbook's guardrail:** Psychological Reactance warns that "everything you believed was wrong" makes people defensive, so C3 attacks one rule ("you're blocking it") and gives her a question to try, never "manifestation is fake". This fits the ICP: the disappointed manifester who still believes (ICP.md, Nov 9).
 **Psychology Framework check (its 3 questions):** feels understood (slides 1–3) · learns something useful (slides 4–5) · ISSUE11 relevant without a pitch (small issue11.app + article CTA).
+
+---
+
+## C3 v3 · rewritten to the Brand Voice Guide (Megan, Nov 17: "None of it sound like my brand voice")
+Source: ISSUE11 Brand Voice Guide (claude.ai/artifact/92WZYpLvRUwjLLNtQmyEPp), read in full Nov 17.
+What was wrong in v1/v2 (checked against the guide's AI-giveaways table): explaining instead of saying ("that advice turns every slow month into your fault"), a list of three on slide 2, a contrast turn ("the line they sell you vs the line most of us live"), long Bible sentences on a slide, a tidy moral ending. Fixed below: cover in ALL CAPS, one thought per slide, 3–7 words, their words used exactly as they say them, registry lines as written, end on the next step.
+
+| # | Slide (as it would appear) | Source |
+|---|---|---|
+| 1 | **"HAS NOT WORKED YET ITS BEEN A MONTH"** | theirs, word for word (Lexicon, skeptic comments) |
+| 2 | they told you not to react to the 3D | "the 3D" = theirs, quoted to question it |
+| 3 | so you stopped opening the bank app | one specific detail |
+| 4 | your mind is powerful. it is not the entire universe. | registry / Voice Guide |
+| 5 | diagram: the month you pictured · the month you had (conceptual model) | Bible §15 curve |
+| 6 | A SETBACK IS NOT A VERDICT. keep going. adjust. pause. stop. your call | Bible + Voice Guide's own setback screen |
+| 7 | you can be manifesting something long before you possess it · save this for month two · issue11.app | registry + next step |
+Pinterest cut (5): 1 · 2 · 4 · 6 · 7.
+Caption: "a month in and nothing moved. that doesn't mean you blocked it. pick one thing you can do before bed. ✨"
+Polarizing point: it questions "don't react to the 3D" in the believers' own words, and takes the skeptic's comment seriously instead of telling her to stay positive.

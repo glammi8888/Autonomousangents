@@ -229,3 +229,4 @@ Slide 1: "If you ever feel like people are hating on your level up..."
 Slide 2: "Remember that mermaids don't lose sleep over the opinions of a shrimp. - Paris Hilton"
 Fact check (web search, Nov 17): no source found linking this line to Paris Hilton. It circulates as an anonymous mermaid quote; one quote blog credits "Mermaid from Peter Pan", also unverified. Waiting on Megan: where she saw it, and whether to drop the name or credit "unknown".
 Fits: her spite/confidence lines in BANK.md ("Get up girl, you got people to prove wrong") and the Lexicon ("I outgrew people to level up"). Shareable, more awareness than MOFU.
+**Decision (Megan, Nov 17, word for word): "yes but the quote is from Paris Hilton lol let's mention her"** → slide 2 keeps "- Paris Hilton". Megan's call, after the attribution flag.

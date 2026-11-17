@@ -29,7 +29,7 @@
 | I7 | manifestation journals · manifestation journaling · best manifestation journal app | 3,100 + 3,100 | 16 to 20 | DONE Nov 16 by strengthening LIVE manifestation-journal-prompts (no new page, avoids cannibalizing it): SEO title 'Manifestation Journal: How to Start + 11 Prompts', new H2s 'What to Write in a Manifestation Journal' + 'Paper Journal or Manifestation Journal App?', +1 FAQ |
 | I8 | book on manifestation · best manifestation books | 4,600 | 18 | DONE Nov 16 best-manifestation-books (DRAFT dated Nov 20, NO COVER yet; 10 real books, titles+authors verified on Open Library, no years quoted) |
 | I9 | self care ideas · self care ideas for women · self care activities · beauty self care ideas · self care sunday ideas | 8,000 + 710 + 10,600 | 14 to 32 | DONE Nov 14: draft self-care-ideas (60 ideas by time + Sunday plan; cover megan-editorial-22, dated Nov 17) |
-| I10 | list of affirmations · list of positive affirmations · funny affirmations | 1,300 + 1,300 + 1,200 | 9 to 19 | NEXT (now 8 affirmation articles: only do as a hub linking them + funny affirmations section; keep under 15% overlap) |
+| I10 | list of affirmations · list of positive affirmations · funny affirmations | 1,300 + 1,300 + 1,200 | 9 to 19 | DONE Nov 17 list-of-affirmations (DRAFT dated Nov 22, NO COVER yet; hub: 10 topics x 8 + 20 funny = 100 new lines, links 7 live articles + Rebrand Kit; fuzzy overlap 3/100 after rewriting 24 near-duplicates). Was: NEXT (now 8 affirmation articles: only do as a hub linking them + funny affirmations section; keep under 15% overlap) |
 | I11 | manifesting love · love affirmations · how to manifest love | 1,000 + 2,000 + 520 | 14 to 18 | DONE Nov 15 love-affirmations (DRAFT dated Nov 19; 50 lines + manifest-love steps; cover Drive love-kiss-89ce60c0) |
 | I12 | positive affirmations for work · work affirmations | 1,500 + 1,200 | 19 to 20 | DONE Nov 15 positive-affirmations-for-work (DRAFT dated Nov 18; 50 lines, 3 near-dupes rewritten; cover Drive office-glasses). On publish: link it from positive-affirmations-for-women work section |
 | I13 | manifestation affirmations | 1,400 | 23 | DONE Nov 16: folded into draft manifestation-examples as H2 '12 Manifestation Affirmations' + FAQ (too thin + overlap risk for its own page) |
@@ -39,7 +39,7 @@
 | I14 | how to stop overthinking | 15,600 | 19 | DONE Nov 14: draft how-to-stop-overthinking (9 ways + night + decisions, Nolen-Hoeksema 2008, 988; cover megan-editorial-17) |
 | I15 | how to stop people pleasing | 1,700 | 21 | DONE Nov 15 how-to-stop-people-pleasing (DRAFT dated Nov 19, NO COVER yet: needs a calm 'saying no' image, asked OPS; won't publish until covered) |
 | I16 | vision board quotes · vision board words | 2,700 + 1,100 | 25 to 37 | DONE Nov 15 vision-board-quotes (DRAFT dated Nov 15 so it publishes first: seasonal; 80 ORIGINAL quotes, no misattribution; cover megan-editorial-12 on black frame) |
-| I17 | pinterest vision boards · aesthetic vision board | 5,300 + 1,400 | 14 | strengthen live pinterest-vision-board first (cheaper than a new page) |
+| I17 | pinterest vision boards · aesthetic vision board | 5,300 + 1,400 | 14 | NEXT: strengthen live pinterest-vision-board first (cheaper than a new page) |
 | skip | words of affirmation (48,300) | love-language intent, off brand | 20 | skip |
 | skip | affirmations for anxiety (1,700) | mental-health risk | 26 | skip for now |
 | skip | glow up makeup terms | product intent, off brand | n/a | skip (how-to-glow-up is live) |

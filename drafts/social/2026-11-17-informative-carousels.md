@@ -202,3 +202,22 @@ Educational. Every slide line below is word for word from an approved source (na
 Pinterest cut (5): 1 · 3 · 4 · 5 · 7. Link: issue11.app/blog/does-manifestation-work.
 Caption sources to cite under the post: Oettingen (2012) European Review of Social Psychology; Gollwitzer (1999) American Psychologist (if-then plans). Check both before posting.
 Why it should work: Megan's own polarizing hook, a proven educational shape (step slides + one diagram, like the 114k "Manifestation is" carousel), and a template people can copy into their notes (slide 5).
+
+---
+
+## E4 · Megan's 2 loved hooks + educational (Nov 17: "Although I do love these 2 hooks": "Dumb Things I Do / To attract anything I want / Part 3" and "10 Delulu Tips So Powerful They Should Be Illegal 💋 Part 3")
+Idea: the hook sounds delulu, every tip is real psychology. Funny cover, educational inside. Format from the two loved carousels (numbered tips, white label boxes on photos, series). Tip and "why" lines are word for word from our sources; source names go in the caption, not on the slides.
+Hook options (format borrowed, Megan picks or rewrites): A "Dumb Things I Do To Manifest Anything I Want · Part 1" · B "7 Delulu Tips So Powerful They Should Be Illegal 💋 Part 1"
+
+| # | Tip (label box) | Why (small text) | Source |
+|---|---|---|---|
+| 1 | "Before you reach for your phone, reach for a pen" | "What is more possible now than before?" | Lexicon · Bible §06 |
+| 2 | "If it is Sunday at 5, I will choose one action for the week." | if-then plans | Playbook #29 · Gollwitzer (1999) |
+| 3 | "Remove ONE Thing (Yes, Just One)" | "gently reducing a draining habit, situation, or limiting thought" | Lexicon (both) |
+| 4 | "Picture the life you want. Now think about what's most likely to get in your way." | mental contrasting | Psychology Framework · Oettingen (2012) |
+| 5 | "keep small promises to yourself" | "Confidence doesn't always come before action. Sometimes it comes from having proof that you can follow through." | Lexicon · Psychology Framework pillar 2 (Bandura) |
+| 6 | "Art direct your morning" | "Light. Sound. Smell. Pace." | Lexicon (both) |
+| 7 | THE HONEST PART | "Transformation is not the absence of interruption. It is the capacity to resume." | Bible registry |
+| 8 | issue11.app · "Part 2" teaser | | |
+Photos: Megan's own, like the delulu-tips creator (her real photos made it feel real). Series: Part 2 can be E0 "wishful thinking".
+Pinterest cut (5): cover · 2 · 4 · 5 · 7+CTA.

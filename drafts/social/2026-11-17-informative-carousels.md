@@ -3,6 +3,7 @@ Nov 17, 2026 · 🎨 Brand + 💚 Viral Content Formats + 📱 Social Strategist
 
 **Built from:** Megan's carousel rules in `.pipeline/lessons.md` (Nov 17): teach first, no product pitch on the slides, small issue11.app, one diagram per carousel labelled "conceptual model", no invented numbers, frameworks from `design/editorial/` run through DESIRE → IMAGINE → ACT → EVOLVE, slide styles = her loved pins 101 · 103 · 42 · 95 · 100. Bible §15 four-step shape (Provocation → Revelation → Visualization → Empowerment). Pain points from `design/POSITIONING.md`. Words from `LEXICON.md` (30s millennial: "becoming YOU", no coach-speak).
 **Skills used:** content-writing-thought-leadership (structure only; its B2B examples are ignored).
+**Primed Nov 17 (OPS):** after reading the Bible, Playbook, Attraction vs Devotion, Lexicon, ICP, BANK, content guidelines and Visual QA in full, these rules apply at design: slides use her carousel voice (one thought per line, 3–7 words, no periods, lowercase for soft lines), no em dashes, no banned words, canonical lines from the Bible copy registry used word for word.
 **Not repeating:** CAR1 (vision board as a magazine) and CAR3–CAR5 (Manifestation 101), which are still waiting for Megan's review.
 
 ## Formats and sizes (Strategist)
@@ -30,9 +31,10 @@ So: one 4:5 master for Instagram + TikTok, one 2:3 resize for Pinterest. Text st
 | 3 ✂ | 42 pastel + framed photo + italic | the usual board = only the finish line: the house, the trip, the bank balance. *add the ordinary day too: the morning walk, the clean inbox, the coffee you drink slowly.* |
 | 4 | 100 arrow loop · "conceptual model" | **DESIRE** pin the picture → **IMAGINE** picture a normal tuesday in that life → **ACT** one small move this week → **EVOLVE** swap a picture when you change |
 | 5 | 95 giant word "one" + specimen photos | one move a week, in notes voice: "book the viewing" · "open the savings account" · "walk after lunch" |
-| 6 ✂ | 103 plain card | keep the board. give it a tuesday. |
+| 6 ✂ | 103 plain card | keep the board. give it a tuesday. *(alt, Bible copy registry: "you can be manifesting something long before you possess it")* |
 | 7 | CTA (small issue11.app) | save this for your january board · how to make a vision board that works with you → issue11.app |
 **Pinterest link:** issue11.app/blog/vision-board-for-manifestation (CAR1 already uses /new-year-vision-board).
+**Optional research card (Playbook recipe, slide 3 or caption):** Oettingen's mental contrasting work (pairing the picture with the obstacle) cited in the caption with its limits, never as proof that boards fail. This is the Playbook's own campaign example ("Your vision board needs a feedback loop").
 **Why it gets saved:** vision board searches peak Dec–Jan (lessons.md, Nov 16); it's a checklist people come back to when they actually make their board. Reuses the C1 idea from viral-formats-library.md that was never designed.
 
 ## C2 · Affirmations that don't feel fake
@@ -61,15 +63,15 @@ So: one 4:5 master for Instagram + TikTok, one 2:3 resize for Pinterest. Text st
 | # | Style | Slide |
 |---|---|---|
 | 1 | 101 loud poster | **it didn't manifest. now what?** |
-| 2 | 103 plain card | a slow month is information. nothing more. |
+| 2 | 103 plain card | "i feel like i'm never going to leave the parking lot" (her words, Lexicon) · a slow month is information |
 | 3 | curve · "conceptual model" | the line you expect (straight up) vs the line most of us live (up, flat, dip, up). No numbers, no axes values. |
 | 4 | 100 decision loop | ask one question: is this still mine? → **keep going** · **adjust the move** · **pause** · **let it go** (all four are allowed) |
 | 5 ✂ | 42 pastel + framed photo | look for proof in you, not just the result: "i said no without explaining" · "i opened the email i was scared of" |
-| 6 ✂ | 103 plain card | you don't have to see it to believe it. but you have to participate to create it. (Bible core line) |
+| 6 ✂ | 103 plain card | the path to your desired life is not obligated to resemble your desired life (Bible adversity thesis, word for word) |
 | 7 | CTA | save this for the next slow month · journal prompts for when it feels stuck → issue11.app |
 **Pinterest link:** issue11.app/blog/does-manifestation-work.
 **Why it gets saved and shared:** it answers the question people search after trying ("does manifestation work", "why isn't it working") with kindness instead of blame, so it gets sent to a friend. Most manifestation content skips this moment.
-**Brand check:** no "the universe will deliver", no blaming her mindset, no promised outcome. "Letting it go" is shown as a valid choice, not a failure.
+**Brand check (Bible §07–08):** "let it go" also covers harmful situations: suffering is never an obligation. No "the universe will deliver", no blaming her mindset, no promised outcome. "Letting it go" is shown as a valid choice, not a failure.
 
 ---
 

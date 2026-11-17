@@ -1,7 +1,10 @@
 # Carousel framework references (Megan, Nov 17, 2026)
 Megan, word for word: "here are some graphic ideas that can be added to the carousels". She shared 11 reference images in the old Manager chat. This is the exact description written there (the images themselves aren't in the repo).
 
-## Style (all 11)
+## ⚠️ Style NOT used (Megan, Nov 17: "No I want those graphs to be added to our slides, you can change the style because I don't like the style")
+Use the diagrams below as CONTENT only. Build them in ISSUE11's own style (her CAR2–CAR4, MAGAZINE-STYLE-GUIDE, AESTHETICS). The reference style is kept here for the record only:
+
+### Reference style (do not copy)
 - Square-ish slides alternating BLACK and warm CREAM backgrounds.
 - Blush pink accents: rounded boxes, circles, thin pink lines and arrows, soft pink fills.
 - Bold uppercase condensed sans-serif titles (Inter Tight Bold/Black works).

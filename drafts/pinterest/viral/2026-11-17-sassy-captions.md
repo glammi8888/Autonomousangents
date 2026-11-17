@@ -17,7 +17,7 @@ Status: candidates only. They go into BANK.md only after Megan picks them.
 11. Hating me only boosts my ego ("barbie quotes"/pink)
 12. Me after saying "who would I even tell?" Knowing exactly who I'm gonna tell (892)
 13. I'm not rude, I'm selectively nice. You weren't selected. (888)
-14. I am healthy I am wealthy I am rich I am that bitch ("funny affirmations")
+14. I am healthy I am wealthy I am rich I am that bitch ("funny affirmations") ✅ Megan: "this is gold" → in BANK
 15. Chin up princess or the crown slips (964)
 16. swag ain't your fit, its your soul (1,033)
 17. Poof! u are now untired and very happy (1,023)

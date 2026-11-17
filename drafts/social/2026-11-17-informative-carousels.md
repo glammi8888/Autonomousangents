@@ -81,3 +81,24 @@ So: one 4:5 master for Instagram + TikTok, one 2:3 resize for Pinterest. Text st
 ## Open for Megan
 1. OK to start designing C1 (4:5 master + 5-slide Pinterest cut, in styles 101 · 103 · 42 · 100 · 95)?
 2. For the CTA slide: link to the article (recommended: teaches first, follows your "no salesy" rule) or to the waitlist?
+
+---
+
+## C3 v2 · polarizing (Megan, Nov 17: "Ok I like C3" · "Content needs to be polarizing")
+**Where the polarizing line sits:** we pick a side against a popular doctrine ("you're blocking it", "your vibration is low", "don't react to the 3D"), never against the women who believe it (Bible: challenge the belief, nurture the believer; never imply people cause their own hardship). Half the niche will argue in the comments, the other half will feel defended and share it.
+**Hook (recommended):** "it didn't manifest. and no, you didn't block it"
+Backup hook (Megan's own ICP angle, Nov 9): "manifestation doesn't work. at least not the way you've been doing it"
+
+| # | Style | Slide |
+|---|---|---|
+| 1 | 101 loud poster | **it didn't manifest. and no, you didn't block it** |
+| 2 | 103 plain card | "you're blocking it" · "your vibration is low" · "just keep assuming" · the advice you got |
+| 3 | 103 plain card | that advice turns every slow month into your fault |
+| 4 | curve · "conceptual model" | the line they sell you (straight up) vs the line most of us live (up, flat, dip, up). No numbers |
+| 5 | 100 decision loop | ask one question: is this still mine? → keep going · adjust the move · pause · let it go. all four are allowed |
+| 6 ✂ | 42 pastel + framed photo + italic | the path to your desired life is not obligated to resemble your desired life (Bible, word for word) |
+| 7 | CTA (small issue11.app) | save this for the next slow month · does manifestation work? the honest answer → issue11.app |
+Pinterest cut (5): 1 · 3 · 4 · 5 · 7. Pinterest link: issue11.app/blog/does-manifestation-work.
+**Caption (IG/TikTok):** "if someone told you a slow month means you blocked it, this one's for you" · Pinterest title: "Manifestation Not Working? Why You Didn't Block It".
+**Expected pushback + pinned-comment draft:** "you can believe in manifestation and still question that rule. we do." (Megan posts; agents never reply for her.)
+**Guardrails kept:** no named teacher on the slides, no mocking believers, no promised outcome, "let it go" includes leaving what hurts you.

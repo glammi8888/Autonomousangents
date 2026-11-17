@@ -172,3 +172,15 @@ Hook options (format-based, Megan picks or rewrites): A "delulu things i do that
 | 9 | issue11.app · comment-keyword CTA to test later (needs a DM flow first) |
 Why polarizing: the delulu framing invites "this is not how manifesting works" comments from the Law of Assumption crowd, while each tip is a real, small action (ISSUE11's whole point). Series-ready: part 2, part 3.
 Photos: Megan's own (like amoyashante, her own photos made that one feel real).
+
+---
+
+## Educational series v2 (Megan, Nov 17: "I'd like our carousels to be more educational believe it or not")
+Rule kept: no invented slide lines. Teaching text comes from our own approved sources, word for word: the Editorial Bible, the Psychology Framework and Megan's live issue11.app articles. Hooks/formats come from the viral bank (carousel-research/HOOKS.md). One diagram each, labelled "conceptual model"; research named with its source.
+
+| # | Proven format (likes) | ISSUE11 teaching version | Slide text source | Link |
+|---|---|---|---|---|
+| E1 ⭐ | "Manifestation is" + 7 branches (114.3k) | "Manifestation is" → DESIRE · IMAGINE · ACT · EVOLVE, one slide per step, last slide "you don't have to see it to believe it. but you have to participate to create it." | Bible §09 definitions of each step + §02 manifesto, word for word | issue11.app/blog/how-to-manifest |
+| E2 | "how to create your (2026) Vision board · fool proof edition" (42.4k) | the steps of our vision board guide, one per slide, plus one "what to do this week" slide | Megan's live article, word for word | issue11.app/blog/how-to-make-a-vision-board |
+| E3 | "Vision Board V/S Action Board" comparison (15.5k) | "visualizing the outcome vs rehearsing the process" (the ISSUE11 USP), with one research card: mental contrasting (Oettingen) and its limits | POSITIONING.md USP + Psychology Framework pillar 6 | issue11.app/blog/vision-board-for-manifestation |
+Formats in Megan's loved styles: E1 = diagram cover (100 arrow loop) + 103 plain cards; E2 = 95 / 42 with photos; E3 = comparison card.

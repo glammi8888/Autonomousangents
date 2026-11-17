@@ -26,6 +26,7 @@ Source boards: Claude Design Lead Magnets canvas (https://claude.ai/artifact/MZr
 | ArticlePinMVB | issue11.app/blog/magazines-for-vision-board | png/ArticlePinMVB.png | Best Magazines for Vision Boards: Which to Pick for Each Goal + Where to Get Them Free | "Best magazines for vision boards" over a crystal walk-in closet photo, a list of magazines by goal (home, style, travel, work + money, body, food) and where to get them free | Pass 390 + 236 (Nov 17) | ready for Framer |
 | ArticlePinPAW | issue11.app/blog/positive-affirmations-for-women | png/ArticlePinPAW.png | Positive Affirmations for Women: 50 Short Daily Affirmations (Morning to Bedtime) | "Positive affirmations for women" over a crystal walk-in closet photo with the line "I am worthy of love, respect, and everything I desire", five topic tags and the 60-second routine | Pass 390 + 236 (Nov 17) | ready for Framer |
 | ArticlePinSCI | issue11.app/blog/self-care-ideas | png/ArticlePinSCI.png | Self Care Ideas: 5-Minute, Free + Life Self Care Ideas for Women | Dark iPhone Notes screenshot titled "self care ideas" with five of the article's ideas, rewritten in the live notes voice, under "5 minutes", "free" and "for your life" | Pass 390 + 236 (Nov 17) | ready for Framer |
+| ArticlePinHTM | issue11.app/blog/how-to-manifest | png/ArticlePinHTM.png | How to Manifest What You Want: 4 Steps That Actually Work | Dark iPhone Notes screenshot titled "how to manifest what you want" with the article's 4 steps in the live notes voice and a "stop" line | Pass 390 + 236 (Nov 17) | ready for Framer |
 
 Keyword check for ArticlePinVBE: Pinterest autocomplete (Apify, Nov 16) suggests "vision board examples" with "inspiration", "aesthetic", "life", "career" and "manifestation" variants. Raw: `../2026-11-16-vision-board-examples-keywords.json`. No volume figure from Pinterest; Google US 11,000/mo per QUEUE.md.
 
@@ -57,7 +58,7 @@ Keyword check for ArticlePinVM: Pinterest autocomplete (Apify, Nov 16) suggests 
 
 Keyword check for ArticlePinPV: Pinterest autocomplete (Apify, Nov 16) suggests "pinterest vision board ideas", "pinterest vision board aesthetic", "pinterest vision board examples" and "pinterest vision board template". Raw: `../2026-11-16-pinterest-vision-board-keywords.json`. Cover lines are the article's 4 step headings (shortened). First article pin in the approved magazine-cover template. The photo is an AI-generated library image (AI label applies if ever posted as a pin).
 
-Next articles without a pin (STRATEGY.md order, then the rest of the sitemap): how-to-manifest · does-manifestation-work · law-of-assumption · scripting-manifestation · mirror-work · best-manifestation-apps · becoming-her.
+Next articles without a pin (STRATEGY.md order, then the rest of the sitemap): does-manifestation-work · law-of-assumption · scripting-manifestation · mirror-work · best-manifestation-apps · becoming-her.
 
 ## Nov 17 publish note
 - All 18 images were added to their articles' Content, as the first block after the intro paragraph. NYVB2 sits before "How to Host a Vision Board Party". Published as Framer version 699f2d432.
@@ -70,3 +71,5 @@ Keyword check for ArticlePinMVB: Pinterest autocomplete (Apify, Nov 17) suggests
 Keyword check for ArticlePinPAW: Pinterest autocomplete (Apify, Nov 17) suggests "positive affirmation for women" with "list", "quotes", "motivation", "strength", "wallpaper" and "daily affirmations for women confidence". Raw: `../2026-11-17-positive-affirmations-for-women-keywords.json`. The article's 50 affirmations are not in BANK.md, so the pin quotes only Megan's BANK line and shows the 5 category names + the article's 60-second routine.
 
 Keyword check for ArticlePinSCI: Pinterest autocomplete (Apify, Nov 17) suggests "self-care ideas", "self-care ideas for women", "simple", "easy", "free" and "winter self care ideas". Raw: `../2026-11-17-self-care-ideas-keywords.json`. Made in the phone-notes format (Megan, Nov 17: "the phone notes format works"). The 5 ideas are copied word for word from the article. Text only, so no AI label is needed.
+
+Keyword check for ArticlePinHTM: Pinterest autocomplete (Apify, Nov 17): "how to manifest what you want" is the top suggestion (also money, love, a job, journal; skipped the specific-person ones per the copy rules). Raw: `../2026-11-17-how-to-manifest-keywords.json`. The 4 steps come from the article, rewritten in the notes voice (lesson Nov 17). The "stop" line is Megan's own words (from CT211).

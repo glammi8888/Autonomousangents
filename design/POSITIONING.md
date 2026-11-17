@@ -125,3 +125,26 @@ Manager notes (trust): before launch there's no outcome data, so in applications
 ## Brand line (Megan, Oct 22, 2026, word for word)
 "A creative studio for the life you want." · "The Editor turns your dreams into a personal magazine." · "Create the life of your dreams" brings the emotion; showing what she actually gets makes it compelling.
 ASO fit (Manager, from drafts/aso/aso-recheck-2026-10-04.md): use these lines in screenshots, promo text, description, landing page and social. Keep the store title/subtitle on searched words: `ISSUE11: Manifestation Journal` + `Manifest with a Vision Board`. "dream life/dream journal" = wrong search intent (sleep and life-sim apps); "creative studio" is unmeasured. Test "creative"/"studio" in ASO Round 2 if wanted.
+
+## The New Way of Manifestation: what ISSUE11 becomes known for (Megan, Nov 17, 2026, word for word)
+| Typical manifestation brand | ISSUE11 |
+|---|---|
+| Inspirational quotes | Intellectual provocations |
+| Manifest your dream life | Art direct your life |
+| Visualize the outcome | Imagine the entire process |
+| Maintain alignment | Experiment and adapt |
+| Become her | Become YOU |
+| Vision boards | An evolving personal magazine |
+| Consume inspiration | Participate in your evolution |
+| Trust the universe | Trust your capacity to create |
+
+Five things I want ISSUE11 to become known for
+01. A recognizable philosophy. THE NEW WAY OF MANIFESTATION. People should eventually be able to explain our philosophy to someone else.
+02. A recognizable visual language. Our minimalist diagrams. Our typography. Our black, cream, pink and red. Intellectual content that looks like a fashion editorial.
+03. A recognizable vocabulary. Art direct your life. Future you. The Editor. Your future, in print. A new issue. These become part of our community's language.
+04. A recognizable intellectual position. We believe in imagination, but we also believe in experimentation, participation and continuous evolution. We don't shame people when manifestation doesn't work.
+05. A product nobody else offers in quite the same way. An evolving magazine about your own future, informed by your imagination, journal and personal journey.
+
+The ultimate positioning test: I don't want someone to discover ISSUE11 and think: "Oh, another manifestation app." I want them to think: "Finally, someone is talking about manifestation the way I've always felt about it." That's the emotional reaction we're after.
+And I would resist the temptation to dilute this positioning with generic viral manifestation content, even if it generates more views. We need to attract people who resonate with our particular worldview, not just people who like manifestation.
+ISSUE11 should feel like a new intellectual and cultural movement that happens to have an app.

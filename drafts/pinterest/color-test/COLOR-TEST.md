@@ -147,3 +147,12 @@ Keyword (Megan): "funny quotes humor". Pinterest check: the top 5 pins have 1.6k
 
 ## Doll series · round 2 · CT163–CT172 (Nov 17)
 ❤️ Megan liked 156, 158, 160, 161, 162 (quote over a full-bleed photo). "157 is good for messaging but i don't like that style of pin" → the pink meme band is out. 163–170 redo the meme captions in the liked style, with text moved below the chin on the square photos. 171 "WHY BE MOODY…" and 172 "Are you free tomorrow?…" use the 2 lines Megan sent (BANK).
+
+## ❤️ Favourites section on the canvas (Nov 17)
+Megan: "put aside on a different work design board all the numbers I saved and liked ... You can also keep them on the same board but separated from the rest". The boards were moved to a "❤️ Megan's favourites" section at the far right of the canvas (x ≥ 22360):
+- Covers (approved): 21, 51–53, 64–67, 86, 87
+- Loved templates: 03, 42, 45, 55, 61, 89–91, 93, 95, 98–109
+- Viral formats: 110–116, 118–122, 124–126, 129
+- Manifestation + angel numbers: 132, 133, 135–139, 142–144, 146
+- Vision board grid: 147, 148
+- Doll series: 156, 158, 160–162, 165, 166, 169, 170, 172 (Megan, Nov 17: "165 is good 166 / 169 / 170 / 172")

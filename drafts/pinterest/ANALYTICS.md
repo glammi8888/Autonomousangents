@@ -7,7 +7,7 @@ Numbers come only from Megan's screenshots or Pinterest/Metricool exports. Never
 | Glow up tips: can't talk rn, I'm rebranding | 17 (was 4) | 2 (was 1) | 7 (was 2) |
 | How to glow up in 2027: my glow up list | 16 (was 9) | 2 (was 1) | 7 (was 3) |
 | Project: Personal Rebrand | 26 (was 17) | 2 (was 1) | 9 (was 6) |
-All three roughly doubled within the day. Notes-app list format, black, no photo, keyword-first title.
+All three roughly doubled within the day. ⚠️ Megan: "the saves are me, in my accounts". So organic saves = 0 so far. Judge on views (and the 3rd icon) until outside saves appear. Notes-app list format, black, no photo, keyword-first title.
 
 ## 2026-11-17 · first live pins (Megan's screenshot, ~3 days after posting on Nov 14)
 | Pin (Notes-app style, posted Nov 14) | 👁 views | 📌 saves | 3rd icon (arrow, as shown) |

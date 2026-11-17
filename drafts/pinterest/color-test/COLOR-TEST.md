@@ -171,3 +171,4 @@ Megan: "I think we should do magazine cover styles like 87, 86, 51, 52m etc 64".
 
 ## Variations batch 1 · CT201–CT210 + phone notes · CT211–CT215 (Nov 17)
 Megan: "now you can simply reproduce and create varieties of the ones we have approved" and "the pin format we posted is working so we can use that as well, phone notes / Let's add that in the pin formats". Phone notes (batch1 notes(), live Pin01/02/06) are now part of the loved format set. 211–215 cover searched topics: beginners, scripting, 369, money, dream life prompts.
+- Variations batch 1: 201–210 all validated (Megan, Nov 17: "all of them from 201 to 210 are validated"), moved to favourites

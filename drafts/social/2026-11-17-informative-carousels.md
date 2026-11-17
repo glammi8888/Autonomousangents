@@ -172,3 +172,52 @@ Hook options (format-based, Megan picks or rewrites): A "delulu things i do that
 | 9 | issue11.app · comment-keyword CTA to test later (needs a DM flow first) |
 Why polarizing: the delulu framing invites "this is not how manifesting works" comments from the Law of Assumption crowd, while each tip is a real, small action (ISSUE11's whole point). Series-ready: part 2, part 3.
 Photos: Megan's own (like amoyashante, her own photos made that one feel real).
+
+---
+
+## Educational series v2 (Megan, Nov 17: "I'd like our carousels to be more educational believe it or not")
+Rule kept: no invented slide lines. Teaching text comes from our own approved sources, word for word: the Editorial Bible, the Psychology Framework and Megan's live issue11.app articles. Hooks/formats come from the viral bank (carousel-research/HOOKS.md). One diagram each, labelled "conceptual model"; research named with its source.
+
+| # | Proven format (likes) | ISSUE11 teaching version | Slide text source | Link |
+|---|---|---|---|---|
+| E1 ⭐ | "Manifestation is" + 7 branches (114.3k) | "Manifestation is" → DESIRE · IMAGINE · ACT · EVOLVE, one slide per step, last slide "you don't have to see it to believe it. but you have to participate to create it." | Bible §09 definitions of each step + §02 manifesto, word for word | issue11.app/blog/how-to-manifest |
+| E2 | "how to create your (2026) Vision board · fool proof edition" (42.4k) | the steps of our vision board guide, one per slide, plus one "what to do this week" slide | Megan's live article, word for word | issue11.app/blog/how-to-make-a-vision-board |
+| E3 | "Vision Board V/S Action Board" comparison (15.5k) | "visualizing the outcome vs rehearsing the process" (the ISSUE11 USP), with one research card: mental contrasting (Oettingen) and its limits | POSITIONING.md USP + Psychology Framework pillar 6 | issue11.app/blog/vision-board-for-manifestation |
+Formats in Megan's loved styles: E1 = diagram cover (100 arrow loop) + 103 plain cards; E2 = 95 / 42 with photos; E3 = comparison card.
+
+---
+
+## E0 · Megan's hook: "How to not fall for "wishful thinking" when manifesting" (Nov 17) ⭐ build first
+Educational. Every slide line below is word for word from an approved source (named). Nothing newly written.
+
+| # | Style | Slide | Source (word for word) |
+|---|---|---|---|
+| 1 | 101 loud poster | **HOW TO NOT FALL FOR "WISHFUL THINKING" WHEN MANIFESTING** | Megan |
+| 2 | 103 plain card | "Feeling like you've arrived is not the same as moving forward." | Bible §04 |
+| 3 | research card | "research on positive fantasies and mental contrasting suggests that idealized thinking alone is not necessarily enough to support goal achievement" · source: Gabriele Oettingen, "Future thought and behaviour change" (2012) · limit: this doesn't mean visualizing is bad | Psychology Framework Part I + Playbook sources |
+| 4 | 100 arrow loop · "conceptual model" | WISH → OUTCOME → OBSTACLE → PLAN (WOOP, Gabriele Oettingen) | Psychology Framework pillar 6 |
+| 5 | 42 pastel + photo | Goal: "Exercise three times this week." · Obstacle: "Feeling tired after work." · Plan: "If I'm too tired for my usual workout, I'll do ten minutes of movement at home." | Psychology Framework pillar 6 |
+| 6 | 103 plain card | "The universe can remain mysterious. Your next move shouldn't have to." | Bible §04 |
+| 7 | CTA (small issue11.app) | "Picture the life you want. Now think about what's most likely to get in your way." · save this · issue11.app | Psychology Framework pillar 6 |
+Pinterest cut (5): 1 · 3 · 4 · 5 · 7. Link: issue11.app/blog/does-manifestation-work.
+Caption sources to cite under the post: Oettingen (2012) European Review of Social Psychology; Gollwitzer (1999) American Psychologist (if-then plans). Check both before posting.
+Why it should work: Megan's own polarizing hook, a proven educational shape (step slides + one diagram, like the 114k "Manifestation is" carousel), and a template people can copy into their notes (slide 5).
+
+---
+
+## E4 · Megan's 2 loved hooks + educational (Nov 17: "Although I do love these 2 hooks": "Dumb Things I Do / To attract anything I want / Part 3" and "10 Delulu Tips So Powerful They Should Be Illegal 💋 Part 3")
+Idea: the hook sounds delulu, every tip is real psychology. Funny cover, educational inside. Format from the two loved carousels (numbered tips, white label boxes on photos, series). Tip and "why" lines are word for word from our sources; source names go in the caption, not on the slides.
+Hook options (format borrowed, Megan picks or rewrites): A "Dumb Things I Do To Manifest Anything I Want · Part 1" · B "7 Delulu Tips So Powerful They Should Be Illegal 💋 Part 1"
+
+| # | Tip (label box) | Why (small text) | Source |
+|---|---|---|---|
+| 1 | "Before you reach for your phone, reach for a pen" | "What is more possible now than before?" | Lexicon · Bible §06 |
+| 2 | "If it is Sunday at 5, I will choose one action for the week." | if-then plans | Playbook #29 · Gollwitzer (1999) |
+| 3 | "Remove ONE Thing (Yes, Just One)" | "gently reducing a draining habit, situation, or limiting thought" | Lexicon (both) |
+| 4 | "Picture the life you want. Now think about what's most likely to get in your way." | mental contrasting | Psychology Framework · Oettingen (2012) |
+| 5 | "keep small promises to yourself" | "Confidence doesn't always come before action. Sometimes it comes from having proof that you can follow through." | Lexicon · Psychology Framework pillar 2 (Bandura) |
+| 6 | "Art direct your morning" | "Light. Sound. Smell. Pace." | Lexicon (both) |
+| 7 | THE HONEST PART | "Transformation is not the absence of interruption. It is the capacity to resume." | Bible registry |
+| 8 | issue11.app · "Part 2" teaser | | |
+Photos: Megan's own, like the delulu-tips creator (her real photos made it feel real). Series: Part 2 can be E0 "wishful thinking".
+Pinterest cut (5): cover · 2 · 4 · 5 · 7+CTA.

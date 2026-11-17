@@ -1,0 +1,6 @@
+{
+ "app": {"code": ["issue11/**/*", "tools/**/*"], "docs": ["issue11/**/*.md", "tools/**/*.md"]},
+ "team": {"docs": ["CLAUDE.md", ".claude/agents/customer-panel.md", ".claude/agents/growth-*.md", ".claude/agents/pipeline-*.md", ".claude/agents/the-editor.md", ".claude/commands/*.md", ".pipeline/*.md", ".claude/vendor/INSTALLED-SKILLS.md"]},
+ "product": {"docs": ["design/*.md", "design/editorial/*.md", "design/brand-revamp/**/*.md", "design/landing/**/*.md", "design/magazine/**/*.md", "brand/**/*.md"]},
+ "marketing": {"docs": ["drafts/marketing/**/*.md", "drafts/social/**/*.md", "drafts/ads/**/*.md", "drafts/lead-magnets/**/*.md", "drafts/research/**/*.md", "drafts/pinterest/*.md", "drafts/pinterest/carousels/*.md", "drafts/ops/*.md"]}
+}

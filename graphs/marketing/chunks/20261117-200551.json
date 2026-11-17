@@ -1,0 +1,1074 @@
+{
+ "nodes": [
+  {
+   "id": "drafts_pinterest_carousels_readme_doc",
+   "label": "Pinterest carousels (README)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L1",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Megan Nov 17: Pinterest is pushing carousels; reuse Instagram/TikTok carousels and make them educative/informative."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_pinterest_carousel_spec",
+   "label": "Pinterest carousel spec (2-5 slides, 2:3 1000x1500, same ratio, <=20MB, PNG/JPEG)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L2",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car1_vision_board_magazine",
+   "label": "CAR1 Your 2027 vision board as a magazine (rejected)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L7",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Rejected by Megan Nov 17 ('No I don't like any of these'); new carousels paused until she said what was wrong."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car2_blueprint_copy",
+   "label": "CAR2 blueprint copy (too AI, not sharp)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L10",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car3_manifest_dream_life_101",
+   "label": "CAR3 How to manifest your dream life 101 (4 lessons)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L10",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car4_manifestation_101_car1_look",
+   "label": "CAR4 Manifestation 101 in CAR1's look",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L11",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car5_approved_template",
+   "label": "CAR5 approved carousel template",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L12",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Built in Megan's picked styles (pins 100, 101, 95, 42, 103); Megan: 'literally PERFECT'. Became the base style family for later carousels."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car6_car8_templates",
+   "label": "CAR6-CAR8 templates A/B/C (phone notes, viral quote pack, photo story)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L13-L14",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Megan asked for more templates to pick from, reusing approved pin layouts; fade removed ('no fade'). CAR6 approved into favourites with CAR5."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car9_car15_options",
+   "label": "CAR9-CAR15 carousel options in the CAR5 family",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L15-L17",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "CAR12/13 superseded after Megan asked for diversity with a similar style, not the same carousel with new pictures; CAR14/15 use 10 new slide layouts."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_framework_graphs_g01_g11",
+   "label": "G01-G11 framework graphs (Megan's 11 ISSUE11 graphs redrawn)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L18, L29-L30",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Her wording word for word; one graph per carousel as its diagram slide. Later replaced in the LG9/LG10 look, with v1 kept in brand colours."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car16_manifestation_loop",
+   "label": "CAR16 The manifestation loop (Desire-Imagine-Embody-Become)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L20",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Reference words were Act/Evolve; app words Embody/Become used instead."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_car17_old_way_vs_issue11_way",
+   "label": "CAR17 The old way vs. the ISSUE11 way",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L21",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_adapting_1080x1350",
+   "label": "Adapting 1080x1350 carousels to TikTok 1080x1920 and Pinterest 1000x1500",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L23-L25",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Keep text in the centre 4:5 because TikTok UI covers the bottom ~400px and right edge; Pinterest caps at 5 slides so CAR16/CAR17 are cut."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_loop_pin_styles_lp1_lp9",
+   "label": "LP1-LP9 manifestation loop in 9 pin styles (#100 look)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L26",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_graph_mix_lg1_lg10",
+   "label": "LG1-LG10 graphs mixed with pin styles",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L27",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_graph_redo_ng1_ng8",
+   "label": "NG1-NG8 graphs redone in LG9/LG10 look",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L28",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Megan: font did not fit the graphs (esp. 3,4,6,8)."
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_graph_styles_gs01_gs11",
+   "label": "GS01-GS11 graph theme variants (6 new themes)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L31",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_color_test_generators",
+   "label": "../color-test generator scripts (gen21-gen34, graph generators)",
+   "file_type": "code",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L7-L31",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_carousels_readme_qa_checks_390_236",
+   "label": "QA checks 390 + 236",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L7-L31",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_doc",
+   "label": "Hooks reframed in the audience's words (Nov 17)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L1",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Megan asked to reframe the ChatGPT doc's hooks to the audience lexicon so they don't sound ChatGPT-written; every reframe needs Megan's OK."
+  },
+  {
+   "id": "drafts_social_hooks_reframed_editorial_hooks_visual_philosophy_source",
+   "label": "ISSUE11 Editorial Hooks & Visual Philosophy (Megan's 27-page ChatGPT doc)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L2",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_reframe_method",
+   "label": "Reframe method: Lexicon phrases verbatim, strip AI giveaways",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L4",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Removes Voice Guide AI giveaways: 'not X, Y' contrast turns, lists of three, 'you don't need X, you need Y'; first-person hooks only if true for the poster."
+  },
+  {
+   "id": "drafts_social_hooks_reframed_ai_giveaways",
+   "label": "AI giveaways (contrast turns, lists of three, 'you don't need X, you need Y')",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L4",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_audience_lexicon",
+   "label": "Audience Lexicon (their exact phrases)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L4",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_voice_guide",
+   "label": "Voice Guide",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L4, L40",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_keep_hooks_k1_k10",
+   "label": "Keep-as-is hooks K1-K10",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L6-L18",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "label": "Reframed hooks R1-R15",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L20-L37",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_k6_visualize_hard_parts",
+   "label": "K6 what if we started visualizing the hard parts, too",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L14",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_r3_stuck_between_vision_and_todo",
+   "label": "R3 STUCK BETWEEN MY VISION AND MY TO-DO LIST",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L25",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_r4_burnt_out_regulated_nervous_system",
+   "label": "R4 burnt out from maintaining a regulated nervous system for manifestation",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L26",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_r5_manifestation_giving_full_time_job",
+   "label": "R5 manifestation is giving full-time job",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L27",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_r13_five_questions_not_worked_yet",
+   "label": "R13 5 questions for when it has not worked yet",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L35",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_r15_manifestation_is_a_loop",
+   "label": "R15 manifestation is a loop (flagship, DESIRE-IMAGINE-ACT-EVOLVE)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L37",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Drops the 'not a law' contrast turn."
+  },
+  {
+   "id": "drafts_social_hooks_reframed_visual_fixes_i_am_her",
+   "label": "Must-fix visuals: replace 'I AM HER'/'BECOME HER' with 'I am becoming me'/'Become YOU'",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L39-L40",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Voice Guide bans 'I am her'/'become her'."
+  },
+  {
+   "id": "drafts_social_hooks_reframed_niche_manifestation_not_beauty",
+   "label": "ISSUE11 niche is manifestation, never beauty (8 Worlds note)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L41",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_psychology_hooks_need_source",
+   "label": "Psychology hooks need a source before posting",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L42",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_reframed_mofu_first_five",
+   "label": "Recommended first 5 for MOFU: R3, R5, K6, R4, R13",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L44-L45",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Chosen as informative + fun for middle-of-funnel."
+  }
+ ],
+ "edges": [
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_car1_vision_board_magazine",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_car3_manifest_dream_life_101",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_car4_manifestation_101_car1_look",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_car5_approved_template",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_car6_car8_templates",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_car9_car15_options",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_car16_manifestation_loop",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_car17_old_way_vs_issue11_way",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_framework_graphs_g01_g11",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_adapting_1080x1350",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_pinterest_carousel_spec",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_loop_pin_styles_lp1_lp9",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_graph_mix_lg1_lg10",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_graph_redo_ng1_ng8",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_doc",
+   "target": "drafts_pinterest_carousels_readme_graph_styles_gs01_gs11",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_car4_manifestation_101_car1_look",
+   "target": "drafts_pinterest_carousels_readme_car1_vision_board_magazine",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L11",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_car9_car15_options",
+   "target": "drafts_pinterest_carousels_readme_car5_approved_template",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L15-L17",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_car16_manifestation_loop",
+   "target": "drafts_pinterest_carousels_readme_framework_graphs_g01_g11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L18-L20",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_car16_manifestation_loop",
+   "target": "drafts_social_carousel_framework_refs_manifestation_loop_diagram",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L19-L20",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_car17_old_way_vs_issue11_way",
+   "target": "drafts_social_carousel_framework_refs_old_way_vs_issue11_way_diagram",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L19-L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_framework_graphs_g01_g11",
+   "target": "drafts_social_carousel_framework_refs_doc",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L19",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_car1_vision_board_magazine",
+   "target": "drafts_social_2026_11_week1_issue11_vision_board_as_magazine",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L7",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_adapting_1080x1350",
+   "target": "drafts_pinterest_carousels_readme_pinterest_carousel_spec",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L25",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_adapting_1080x1350",
+   "target": "drafts_pinterest_carousels_readme_car16_manifestation_loop",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L25",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_adapting_1080x1350",
+   "target": "drafts_pinterest_carousels_readme_car17_old_way_vs_issue11_way",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L25",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_graph_redo_ng1_ng8",
+   "target": "drafts_pinterest_carousels_readme_graph_mix_lg1_lg10",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L28",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_framework_graphs_g01_g11",
+   "target": "drafts_pinterest_carousels_readme_graph_redo_ng1_ng8",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L29",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_graph_styles_gs01_gs11",
+   "target": "drafts_pinterest_carousels_readme_framework_graphs_g01_g11",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L31",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_loop_pin_styles_lp1_lp9",
+   "target": "drafts_pinterest_carousels_readme_car16_manifestation_loop",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L26",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_color_test_generators",
+   "target": "drafts_pinterest_carousels_readme_doc",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": "L7-L31",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_carousels_readme_qa_checks_390_236",
+   "target": "drafts_pinterest_carousels_readme_color_test_generators",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_doc",
+   "target": "drafts_social_hooks_reframed_editorial_hooks_visual_philosophy_source",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_doc",
+   "target": "drafts_social_hooks_reframed_reframe_method",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_doc",
+   "target": "drafts_social_hooks_reframed_keep_hooks_k1_k10",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_doc",
+   "target": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_doc",
+   "target": "drafts_social_hooks_reframed_visual_fixes_i_am_her",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_doc",
+   "target": "drafts_social_hooks_reframed_niche_manifestation_not_beauty",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_doc",
+   "target": "drafts_social_hooks_reframed_psychology_hooks_need_source",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_doc",
+   "target": "drafts_social_hooks_reframed_mofu_first_five",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "target": "drafts_social_hooks_reframed_editorial_hooks_visual_philosophy_source",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L20-L22",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_keep_hooks_k1_k10",
+   "target": "drafts_social_hooks_reframed_editorial_hooks_visual_philosophy_source",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L6",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframe_method",
+   "target": "drafts_social_hooks_reframed_audience_lexicon",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L4",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframe_method",
+   "target": "drafts_social_hooks_reframed_ai_giveaways",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L4",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_ai_giveaways",
+   "target": "drafts_social_hooks_reframed_voice_guide",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L4",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframe_method",
+   "target": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L4",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_visual_fixes_i_am_her",
+   "target": "drafts_social_hooks_reframed_voice_guide",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L40",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "target": "drafts_social_hooks_reframed_r3_stuck_between_vision_and_todo",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "target": "drafts_social_hooks_reframed_r4_burnt_out_regulated_nervous_system",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "target": "drafts_social_hooks_reframed_r5_manifestation_giving_full_time_job",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "target": "drafts_social_hooks_reframed_r13_five_questions_not_worked_yet",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_reframed_hooks_r1_r15",
+   "target": "drafts_social_hooks_reframed_r15_manifestation_is_a_loop",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_keep_hooks_k1_k10",
+   "target": "drafts_social_hooks_reframed_k6_visualize_hard_parts",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_mofu_first_five",
+   "target": "drafts_social_hooks_reframed_r3_stuck_between_vision_and_todo",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L45",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_mofu_first_five",
+   "target": "drafts_social_hooks_reframed_r5_manifestation_giving_full_time_job",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L45",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_mofu_first_five",
+   "target": "drafts_social_hooks_reframed_k6_visualize_hard_parts",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L45",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_mofu_first_five",
+   "target": "drafts_social_hooks_reframed_r4_burnt_out_regulated_nervous_system",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L45",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_mofu_first_five",
+   "target": "drafts_social_hooks_reframed_r13_five_questions_not_worked_yet",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L45",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_r15_manifestation_is_a_loop",
+   "target": "drafts_social_carousel_framework_refs_manifestation_loop_diagram",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": "L37",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_audience_lexicon",
+   "target": "drafts_social_hooks_mofu_lexicon_covers",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_voice_guide",
+   "target": "drafts_marketing_content_guidelines_voice_witty_sharp_human",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_reframed_r15_manifestation_is_a_loop",
+   "target": "drafts_pinterest_carousels_readme_car16_manifestation_loop",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [
+  {
+   "id": "carousel_car5_design_family",
+   "label": "CAR5 design family iterations",
+   "nodes": [
+    "drafts_pinterest_carousels_readme_car5_approved_template",
+    "drafts_pinterest_carousels_readme_car9_car15_options",
+    "drafts_pinterest_carousels_readme_framework_graphs_g01_g11",
+    "drafts_pinterest_carousels_readme_graph_redo_ng1_ng8"
+   ],
+   "relation": "form",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md"
+  },
+  {
+   "id": "mofu_first_five_hooks",
+   "label": "Recommended first 5 MOFU hooks",
+   "nodes": [
+    "drafts_social_hooks_reframed_r3_stuck_between_vision_and_todo",
+    "drafts_social_hooks_reframed_r5_manifestation_giving_full_time_job",
+    "drafts_social_hooks_reframed_k6_visualize_hard_parts",
+    "drafts_social_hooks_reframed_r4_burnt_out_regulated_nervous_system",
+    "drafts_social_hooks_reframed_r13_five_questions_not_worked_yet"
+   ],
+   "relation": "participate_in",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md"
+  }
+ ],
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "coverage": {
+  "/home/user/Autonomousangents/drafts/pinterest/carousels/README.md": 31,
+  "/home/user/Autonomousangents/drafts/social/HOOKS-REFRAMED.md": 45
+ }
+}

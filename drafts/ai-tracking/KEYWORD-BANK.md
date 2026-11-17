@@ -48,6 +48,7 @@
 
 | # | Main keyword · variants | US/mo | KD | Status |
 |---|---|---|---|---|
+| G0 | generative engine optimization · geo services · generative engine optimization agency · generative engine optimization services | 4,200 + 830 + 430 + 730 | 18 to 54 | PRIORITY (Megan Nov 17: "We should look if we could rank for GEO too"). Glammi already has what-is-generative-engine-optimization + geo-vs-seo. Do: (1) strengthen what-is-generative-engine-optimization for the 4,200 head term (KD 25), (2) add "AEO and GEO" wording to the /aeo-for-* service pages + a GEO services FAQ (service page edits need Megan OK on visible copy), (3) later a "GEO agency" page. Skip "geo group" (prison company) and GEO tools terms (KD 41 to 100). |
 | G1 | local seo for small businesses · seo local business · local seo services for small business · local search engine | 1,100 + 1,400 + 710 + 1,000 | 17 to 26 | NEXT (link seo-for-small-business) |
 | G2 | gmb profile · google business profile optimization · optimizing google my business · set up google business profile | 680 + 570 + 570 + 970 | 17 to 49 | NEXT after G1 ("Google Business Profile checklist for salons, med spas and boutiques") |
 | G3 | local seo experts · best local seo agency · local seo agency near me | 1,200 + 740 + 2,300 | 13 to 16 | queued, only as an honest "how to choose a local SEO or AEO agency" guide (no fake rankings) |

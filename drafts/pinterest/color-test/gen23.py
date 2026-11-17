@@ -15,7 +15,8 @@ PS={'CT211':'i keep my list on issue11.app so i actually see it','CT212':'my scr
 for k,(t,(bg,inner)) in list(P.items()):
     inner=inner[:inner.index('<div style="position:absolute; left:0; right:0; bottom:0')]
     fs=int(re.search(r'padding-left:30px; font-size:(\d+)px',inner).group(1))
-    ps=f'<p style="margin:{int(fs*0.9)}px 0 6px; font-weight:700; font-size:{fs+2}px">ps.</p><div style="padding-left:30px; font-size:{fs}px; line-height:1.3"><div style="display:flex; gap:26px; margin:8px 0"><span>–</span><span>{PS[k]}</span></div></div>'
+    # Megan, Nov 17: "could also just be  issue11.app"
+    ps=f'<p style="margin:{int(fs*1.1)}px 0 0; font-size:{fs}px; line-height:1.3">issue11.app</p>'
     inner=inner.rstrip()
     assert inner.endswith('</div>')
     P[k]=(t,(bg,inner[:-6]+ps+'</div>'))

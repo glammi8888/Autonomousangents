@@ -114,3 +114,10 @@ See ANGEL-NUMBERS.md (✅ approved by Megan Nov 16: "Ok this is excellent". Use 
 - I am both dumber and smarter than you think. do not estimate me
 - WHY BE MOODY WHEN YOU CAN SHAKE YO BOOTY (Megan sent it, Nov 17)
 - "Are you free tomorrow?" "No, I'm expensive every day." (Megan sent it, Nov 17)
+
+## Shopping series · Megan's lines (Nov 17), word for word
+- I can afford anything
+- I can give myself the soft life
+- Nothing feels better than having money
+- Unlimited shopping budget for meeee babyyyy
+- I deserve luxury

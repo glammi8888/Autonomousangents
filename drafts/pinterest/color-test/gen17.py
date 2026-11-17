@@ -4,7 +4,7 @@
 import gen9, gen8, gen13
 from gen import doc, LOGO
 from gen13 import S, A
-D={'b01':'664d8387c676702cb5a15943ef0b7d10','b02':'911861befb1c376b5f6056218d090277','b03':'19a1c64e03796c962e2254a7da9e19eb','b04':'3ff6f7314e4ea254936e23072d93b81d','b05':'ac522a12f3d1282f26baad8eeaa5b423','b06':'03675ff91760e5ac37d6db3ed67ff8b0','b07':'6deebe525e257a8e87c6983eb6e7e9a5','b08':'77dfa097898e0f171145dbd128cfde65','b09':'f83e2683cf569ebed8b9dc9f5a0f3a4c','b10':'cda49a9bed2fee480707205f1f8b9657','b11':'9133bd21c0c7d450c6b0cee835de9186','b12':'cd3d36c640dc5e010d8a04eebab0200d','b13':'7a3aba3d4df516025cc7bfe31ed4fa09','b14':'2fd6cd5538605728a6e040cccbbfdedb'}
+D={'b15':'83f52cdb0c7e3602899a01127ab1cd62','b16':'07de0119253b740f54683d2de63f75c2','b01':'664d8387c676702cb5a15943ef0b7d10','b02':'911861befb1c376b5f6056218d090277','b03':'19a1c64e03796c962e2254a7da9e19eb','b04':'3ff6f7314e4ea254936e23072d93b81d','b05':'ac522a12f3d1282f26baad8eeaa5b423','b06':'03675ff91760e5ac37d6db3ed67ff8b0','b07':'6deebe525e257a8e87c6983eb6e7e9a5','b08':'77dfa097898e0f171145dbd128cfde65','b09':'f83e2683cf569ebed8b9dc9f5a0f3a4c','b10':'cda49a9bed2fee480707205f1f8b9657','b11':'9133bd21c0c7d450c6b0cee835de9186','b12':'cd3d36c640dc5e010d8a04eebab0200d','b13':'7a3aba3d4df516025cc7bfe31ed4fa09','b14':'2fd6cd5538605728a6e040cccbbfdedb'}
 def s(k): return f'/_blob/{D[k]}'
 T=lambda w='': f'<img class="tl {w}" src="{LOGO}" alt="ISSUE11">'
 U=lambda c: f'<div class="url" style="color:{c}">issue11.app</div>'
@@ -40,3 +40,18 @@ quote('CT161','b13',['Hating me only','boosts my ego'],top=1130,fs=84)          
 quote('CT162','b14',["Me, weird?","Bitch, I'm limited edition."],top=1150,fs=74,pos='50% 20%')                             # hand on hip, black gown
 for k,v in P.items(): open(f'{k}.dc.html','w').write(v)
 print(len(P))
+# Round 2 (CT163–CT170): Megan liked 156, 158, 160, 161, 162 (quote over full-bleed photo); "157 is good for messaging but i don't like that style of pin". So the meme-band captions are redone in the quote style.
+P2={}
+_P=P; P={}
+quote('CT163','b04',["My toxic trait is knowing the truth before I ask","because I wanna see how good you lie"],top=1205,fs=50,pos='50% 35%')
+quote('CT164','b01',["i swear i'm such a sweet girl","but y'all be testing my patience all the time"],top=1205,fs=45,pos='50% 25%')
+quote('CT165','b03',['me fighting the urge to say "move bitch"','to the slow walkers in front of me'],top=1205,fs=50,pos='50% 40%')
+quote('CT166','b02',["Me when someone is better than me","at the only thing I'm good at"],top=1205,fs=50,pos='50% 35%')
+quote('CT167','b05',['Me when I say something with confidence','but it was wrong'],top=1205,fs=50,pos='55% 40%')
+quote('CT168','b06',["YOU DON'T HAVE TO BE EVERYONE'S CUP OF TEA.","BE GASOLINE. SET THAT SHIT ON FIRE."],top=1205,fs=50,pos='50% 40%')
+quote('CT169','b07',['I am both dumber and smarter than you think.','do not estimate me'],top=1110,fs=58,pos='50% 20%')
+quote('CT170','b09',['Me after saying "who would I even tell?"',"Knowing exactly who I'm gonna tell"],top=1100,fs=58,pos='50% 25%')
+quote('CT171','b15',['WHY BE MOODY','WHEN YOU CAN','SHAKE YO BOOTY'],top=1080,fs=80,pos='50% 20%')
+quote('CT172','b16',['"Are you free tomorrow?"','"No, I\'m expensive every day."'],top=1130,fs=62,pos='50% 20%')
+for k,v in P.items(): open(f'{k}.dc.html','w').write(v)
+P.update(_P)

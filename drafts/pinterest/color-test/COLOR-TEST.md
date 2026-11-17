@@ -144,3 +144,6 @@ Megan, Nov 16: "Ok I think we have enough formats". Stop making new format round
 Megan's AI doll photos (Drive "glammi_barbie_doll…", drive-barbie/b01–b14) + her 18 viral caption picks (BANK). Megan: "Make sure every facial expression matches with the quote". Memes (pink band on top + photo, the top "barbie quotes" format): 149–155, 157. Quotes over a full-bleed photo: 156, 158–162.
 Skipped photos: readable Chanel logos, a stock "PNG" watermark, a Google Lens screenshot icon, cigarettes (3).
 Keyword (Megan): "funny quotes humor". Pinterest check: the top 5 pins have 1.6k–5k saves, but the median of the top 40 is 76 and 22 of 40 have <100, so it's winnable. Long-tail: funny quotes humor about life / hilarious / short / memes / jokes / work / wallpaper.
+
+## Doll series · round 2 · CT163–CT172 (Nov 17)
+❤️ Megan liked 156, 158, 160, 161, 162 (quote over a full-bleed photo). "157 is good for messaging but i don't like that style of pin" → the pink meme band is out. 163–170 redo the meme captions in the liked style, with text moved below the chin on the square photos. 171 "WHY BE MOODY…" and 172 "Are you free tomorrow?…" use the 2 lines Megan sent (BANK).

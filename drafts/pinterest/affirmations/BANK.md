@@ -112,3 +112,5 @@ See ANGEL-NUMBERS.md (✅ approved by Megan Nov 16: "Ok this is excellent". Use 
 - Me when someone is better than me at the only thing I'm good at
 - YOU DON'T HAVE TO BE EVERYONE'S CUP OF TEA. BE GASOLINE. SET THAT SHIT ON FIRE.
 - I am both dumber and smarter than you think. do not estimate me
+- WHY BE MOODY WHEN YOU CAN SHAKE YO BOOTY (Megan sent it, Nov 17)
+- "Are you free tomorrow?" "No, I'm expensive every day." (Megan sent it, Nov 17)

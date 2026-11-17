@@ -1,0 +1,22 @@
+{
+".claude/agents/customer-panel.md": "6cbacedf6cfc5efa2260346e2c91f89678976263",
+".claude/agents/growth-media-buyer.md": "770194ffc17dd5926e4ca8b4e093f1678c5379ca",
+".claude/agents/growth-pinterest-seo.md": "0a14f355f327d9d7d52dc1a0eea115f1dc07780b",
+".claude/agents/growth-reddit-specialist.md": "f77b272f1023f99c7c97b8bb8104621f51829ce2",
+".claude/agents/pipeline-builder.md": "3e29f208f4c2621c9348aab258327402fed0a3c0",
+".claude/agents/pipeline-planner.md": "5f8c9919cffd6ca089f1143612ba96eed03466ff",
+".claude/agents/pipeline-qa.md": "f3c4680b6cbf12aff34efee7afd4cebb3564cb4e",
+".claude/agents/pipeline-reviewer.md": "c6fdc7dee16801b37cb5616a7cc6c60d999c0743",
+".claude/agents/the-editor.md": "d362c94965a3905ab7650f056f325d6243078303",
+".claude/commands/decision-brief.md": "28dfac169b07aa464536c0bd1de44c229fa1fcaf",
+".claude/commands/pipeline.md": "be0d5c8091e81b1a401e32a2589fbc5b94d3baa4",
+".claude/vendor/INSTALLED-SKILLS.md": "58e3a4c21136ea4fe2e82e576971549a159ea662",
+".pipeline/ANTI-SLOP.md": "c5081e91888cbd112285e89c5a38ad849988af26",
+".pipeline/README.md": "81a64e0172f26deaddca38446c40cd11cf91ce17",
+".pipeline/acceptance-criteria.md": "d8968e966e5d796c52c48e6f5d32102fa2bb8e0c",
+".pipeline/app-store-checklist.md": "76fa3b64a26f50922497c13710e4b8e4070b2cfa",
+".pipeline/lessons.md": "c8bbebb168c8f123b7add03bb0201e9cea1f0f70",
+".pipeline/request.md": "f42af7ca63439d061a657830b7f4788f7e30bd91",
+".pipeline/spec.md": "578790698bbeea7fb0bf806f059c22eeeb483cfc",
+"CLAUDE.md": "45f8f4be8e33b439ca3802ba83302f54c38d71a1"
+}

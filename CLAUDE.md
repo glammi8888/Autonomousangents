@@ -57,6 +57,9 @@ Autonomy without waste. Delegating is not finishing: the Manager owns a task unt
 ## 🖼 Visual QA (Megan, Nov 15, 2026)
 Before anything visual is called done, run `design/VISUAL-QA.md`: screenshot and look on desktop and phone · no cut-off faces · no stray logos, badges or readable signs, and our logo fully visible · readable on a phone · the image fits the topic · on-brand · compare to the ask or reference · re-check after publishing. Megan: "Give these instructions to any agent doing visual work please, and always ask it to self-improve and self-correct if things seem odd, cropped, or not relevant (example of non relevant content: A money picture for a beauty prompt)". Every brief for visual work names this file.
 
+## 🗺 Knowledge maps (Megan, Nov 17, 2026)
+Megan: "please have every agent use it" and "just break it off in pieces that will make everything work". Before searching the repo, read your area's map in `graphs/` (team · product · marketing · app; see `graphs/README.md`): start with its `GRAPH_REPORT.md`, then open the real files it points to. The map shows where to look; quote the file itself. Every brief to an agent names its map piece, next to its skills.
+
 ## 📈 Self-improvement (set by Megan)
 - Before working, read `.pipeline/lessons.md`. After working, add max 2 dated lessons there (what worked, what to do differently).
 - Megan's corrections are logged word for word as rules.

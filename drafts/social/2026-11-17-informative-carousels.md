@@ -164,7 +164,7 @@ Hook options (format-based, Megan picks or rewrites): A "delulu things i do that
 | 1 | "Art direct your morning" |
 | 2 | "Remove ONE Thing (Yes, Just One)" |
 | 3 | "dress like it" |
-| 4 | "Before you reach for your phone, reach for a pen" |
+| 4 | ~~"Before you reach for your phone, reach for a pen"~~ cut (Megan Nov 17) → "protect your first hour" |
 | 5 | "keep small promises to yourself" |
 | 6 | "One corner. Make it feel like you." |
 | 7 | "flowers on a Tuesday" ("they'll call you dramatic") |
@@ -211,7 +211,7 @@ Hook options (format borrowed, Megan picks or rewrites): A "Dumb Things I Do To 
 
 | # | Tip (label box) | Why (small text) | Source |
 |---|---|---|---|
-| 1 | "Before you reach for your phone, reach for a pen" | "What is more possible now than before?" | Lexicon · Bible §06 |
+| 1 | "What would future you do?" | "What is more possible now than before?" | Lexicon · Bible §06 · (was "reach for a pen": cut, Megan Nov 17, it works against using ISSUE11) |
 | 2 | "If it is Sunday at 5, I will choose one action for the week." | if-then plans | Playbook #29 · Gollwitzer (1999) |
 | 3 | "Remove ONE Thing (Yes, Just One)" | "gently reducing a draining habit, situation, or limiting thought" | Lexicon (both) |
 | 4 | "Picture the life you want. Now think about what's most likely to get in your way." | mental contrasting | Psychology Framework · Oettingen (2012) |

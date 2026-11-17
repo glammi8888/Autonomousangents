@@ -16,8 +16,15 @@ Voice = the live notes pins + Megan's own lines (lowercase-casual, concrete, no 
 | 10 | Mind list | "Say out loud what you need, even if only to yourself." | "Say what you need out loud. Even if it's just to you." |
 | 11 | Mind list | "Set a \"worry window\" of 15 minutes, then stop." | "Give your worries 15 minutes. Then you're done for the day." |
 | 12 | Life list | "Make your space feel like the life you want: one change." | "Change one thing in your room so it feels like the life you want." |
-| 13 | Sunday rule | "Self care that turns into a 12-step checklist is just another job." | ✅M "if your self care has 12+ steps that means you are THAT girl" (Megan, Nov 17) ⚠️ flips the article's "pick one or two" rule — confirm |
+| 13 | Sunday rule | "Self care that turns into a 12-step checklist is just another job." | ✅M Megan chose option 1 (Nov 17): keep her line, change the advice around it → "Do one, two, or all of them. If your self care has 12+ steps that means you are THAT girl." |
 | 14 | FAQ "why" | "Small, regular self care helps you feel rested, steady and more in control of your life. It works best as a few simple habits rather than an occasional big treat." | ✅M "Consistent self Care will always beat one spa day a year" (Megan, Nov 17) |
 | 15 | FAQ "for women" | "Popular self care ideas for women include…" | "Self care ideas for women we love: …" |
 
 Keep as is (SEO + fine voice): the list headings, the table, "You've saved enough. Do something with it." (brand line).
+
+## Follow-on edits from Megan's option 1 (Nov 17)
+| Where | Now | Suggested |
+|---|---|---|
+| Sunday rule paragraph | "The rule: pick one or two, not all of them." | "Do one, two, or all of them." (+ Megan's THAT girl line above) |
+| Intro | "…and one rule that keeps self care from turning into another to-do list." | "…plus a self care Sunday plan you can do all of, or just one part of." |
+| FAQ "self care Sunday" | "Pick one or two rather than doing everything." | "Do as much or as little as you want." |

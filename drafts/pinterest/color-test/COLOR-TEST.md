@@ -136,6 +136,6 @@ Megan: "I think we should do them all but we need to decide on the pin aesthetic
 Megan also noted (Nov 16): "there are also carousels we can repurpose from Instagram to TikTok to Pinterest" → angel numbers can become a carousel (cover + one number per slide).
 
 ## ❤️ Megan's loved formats (Nov 16, word for word: "Ok so let me tell you the formats I like")
-CT110–116, 118–122, 124–126, 129, 132, 133, 135–139, 142, 143, 144, 146 · plus CT147 (128 redo: "I do like 128 but the visionboard is cut off").
+CT110–116, 118–122, 124–126, 129, 132, 133, 135–139, 142, 143, 144, 146 · plus CT147, the 128 redo (Megan, Nov 17: "yes 147 is cute too! Save it").
 Angel numbers: formats A (143 aura), B (144 photo) and D (146 cream card) are all liked. C (145) is not.
 Megan, Nov 16: "Ok I think we have enough formats". Stop making new format rounds. Next is pins in these formats, then a Barbie series from her Drive upload.

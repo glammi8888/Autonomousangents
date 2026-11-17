@@ -1,0 +1,862 @@
+{
+ "nodes": [
+  {
+   "id": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "label": "Hooks from the Positioning Strategy (Nov 17, 2026)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L1",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Megan asked for hooks based on the positioning strategy; MOFU, informative + a bit fun; needs Megan's OK."
+  },
+  {
+   "id": "design_editorial_positioning_strategy_2026_11",
+   "label": "POSITIONING-STRATEGY-2026-11",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L2",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_typical_brand_vs_issue11_table",
+   "label": "Typical brand vs ISSUE11 table",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L2",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_voice_guide",
+   "label": "Voice Guide giveaways check",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "No 'not X, it's Y', no lists of three, no tidy endings, one slang max."
+  },
+  {
+   "id": "drafts_social_hooks_positioning_lexicon",
+   "label": "Lexicon words (bold)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_experienced_disillusioned_manifestor",
+   "label": "Experienced but disillusioned manifestor",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_mofu",
+   "label": "MOFU (middle of funnel)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_recommended_first_3",
+   "label": "Recommended first 3 hooks (P1, P6, P3)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L21",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_campaign_line",
+   "label": "Campaign line (manifesting wrong)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7-L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_experimental_mind",
+   "label": "Experimental mind (committed to possibility, experimental about process)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7-L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_feedback_loop",
+   "label": "Feedback loop (imagine, try, observe, learn, change approach)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7-L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_close_the_gap",
+   "label": "Close the gap (customer value)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7-L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_art_direct_your_life",
+   "label": "Art direct your life (brand invitation)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7-L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_purchase_test",
+   "label": "Purchase test (Pinterest vs ISSUE11)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7-L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_no_shame",
+   "label": "We don't shame people when manifestation doesn't work",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7-L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_trust_your_capacity",
+   "label": "Trust your capacity to create",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7-L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p1",
+   "label": "Hook P1 (starred): what if we've been manifesting wrong this entire time",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p2",
+   "label": "Hook P2 (starred): YOUR VISION CAN REMAIN THE SAME. YOUR APPROACH DOESN'T HAVE TO.",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L8",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p3",
+   "label": "Hook P3 (starred): manifest like a scientist (a very well-dressed one)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L9",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p4",
+   "label": "Hook P4: for the girl who has been scripting the same dream life for three years",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L10",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p5",
+   "label": "Hook P5: you've tried every manifestation method. here's the part they skip",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L11",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p6",
+   "label": "Hook P6 (starred): the 3D is allowed to give you feedback",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L12",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p7",
+   "label": "Hook P7: is it alignment, or are you just waiting",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L13",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p8",
+   "label": "Hook P8: you're allowed to have a bad day and still be manifesting",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L14",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p9",
+   "label": "Hook P9: how to close the gap between the life you keep imagining and the one you're living",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L15",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p10",
+   "label": "Hook P10: your vision board is a year old and your life looks the same",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L16",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p11",
+   "label": "Hook P11: art direct your life: a beginner's guide",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L17",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p12",
+   "label": "Hook P12: trust the universe. also, trust yourself to send the email",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L18",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_social_hooks_positioning_hook_p13",
+   "label": "Hook P13: Pinterest is free. here's why I still turned my dream life into a magazine",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "First person: only if true for Megan (her coffee-table magazine story)."
+  }
+ ],
+ "edges": [
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L1-L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_typical_brand_vs_issue11_table",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L1-L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_voice_guide",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L1-L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_lexicon",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L1-L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_experienced_disillusioned_manifestor",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L1-L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_mofu",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L1-L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_recommended_first_3",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L1-L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_typical_brand_vs_issue11_table",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L2",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_campaign_line",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_experimental_mind",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_feedback_loop",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_close_the_gap",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_art_direct_your_life",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_purchase_test",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_no_shame",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_trust_your_capacity",
+   "target": "design_editorial_positioning_strategy_2026_11",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p1",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p1",
+   "target": "drafts_social_hooks_positioning_campaign_line",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p1",
+   "target": "drafts_social_hooks_positioning_typical_brand_vs_issue11_table",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L7",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_recommended_first_3",
+   "target": "drafts_social_hooks_positioning_hook_p1",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p2",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L8",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p2",
+   "target": "drafts_social_hooks_positioning_experimental_mind",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L8",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p3",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L9",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p3",
+   "target": "drafts_social_hooks_positioning_experimental_mind",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L9",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_recommended_first_3",
+   "target": "drafts_social_hooks_positioning_hook_p3",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p4",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L10",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p4",
+   "target": "drafts_social_hooks_positioning_experienced_disillusioned_manifestor",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L10",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p4",
+   "target": "drafts_social_hooks_positioning_lexicon",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L10",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p5",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L11",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p5",
+   "target": "drafts_social_hooks_positioning_experimental_mind",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L11",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p6",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L12",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p6",
+   "target": "drafts_social_hooks_positioning_feedback_loop",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L12",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p6",
+   "target": "drafts_social_hooks_positioning_lexicon",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L12",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_recommended_first_3",
+   "target": "drafts_social_hooks_positioning_hook_p6",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L21",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p7",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L13",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p8",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L14",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p8",
+   "target": "drafts_social_hooks_positioning_no_shame",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L14",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p9",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L15",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p9",
+   "target": "drafts_social_hooks_positioning_close_the_gap",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L15",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p10",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L16",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p11",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L17",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p11",
+   "target": "drafts_social_hooks_positioning_art_direct_your_life",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L17",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p12",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L18",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p12",
+   "target": "drafts_social_hooks_positioning_trust_your_capacity",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L18",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hooks_from_the_positioning_strategy",
+   "target": "drafts_social_hooks_positioning_hook_p13",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L19",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p13",
+   "target": "drafts_social_hooks_positioning_purchase_test",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L19",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p3",
+   "target": "drafts_social_hooks_positioning_feedback_loop",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L9",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p10",
+   "target": "drafts_social_hooks_positioning_experimental_mind",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.65,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L16",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_hook_p7",
+   "target": "drafts_social_hooks_positioning_experimental_mind",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.65,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": "L13",
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_social_hooks_positioning_experimental_mind",
+   "target": "drafts_social_hooks_positioning_feedback_loop",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [
+  {
+   "id": "drafts_social_hooks_positioning_recommended_launch_set",
+   "label": "Recommended first 3 hooks",
+   "nodes": [
+    "drafts_social_hooks_positioning_hook_p1",
+    "drafts_social_hooks_positioning_hook_p6",
+    "drafts_social_hooks_positioning_hook_p3"
+   ],
+   "relation": "form",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md"
+  },
+  {
+   "id": "drafts_social_hooks_positioning_experimental_approach_hooks",
+   "label": "Hooks teaching the experimental approach",
+   "nodes": [
+    "drafts_social_hooks_positioning_hook_p2",
+    "drafts_social_hooks_positioning_hook_p3",
+    "drafts_social_hooks_positioning_hook_p5",
+    "drafts_social_hooks_positioning_hook_p6"
+   ],
+   "relation": "participate_in",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md"
+  }
+ ],
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "coverage": {
+  "/home/user/Autonomousangents/drafts/social/HOOKS-POSITIONING.md": 21
+ }
+}

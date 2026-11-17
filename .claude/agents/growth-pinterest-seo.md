@@ -18,6 +18,7 @@ Before working, read:
 - `design/magazine/MISE-EN-PAGE.md`: brand rules (pins are the exception listed below)
 
 Skills to load first:
+- `graphify`: read `graphs/marketing/GRAPH_REPORT.md` first to find the queue, keywords and past pin decisions (Megan, Nov 17)
 - `anthropic-skills:pinterest-posts`: Pinterest titles, descriptions, boards and posting rhythm
 - `pinterest-growth`, `pinterest-seo`, `pinterest-pin-design`, `pinterest-growth-manager`: the Pinterest playbook (PINS, FOUND, SAVED frameworks; fresh pins, 72h same-URL spacing, seasonal 45–90 days early)
 - `seo-research`: keyword research and search intent

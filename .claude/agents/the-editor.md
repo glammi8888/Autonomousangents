@@ -15,6 +15,7 @@ Before working, read:
 - the inspo spreads in `design/magazine/inspo/`
 
 Skills to load first:
+- `graphify`: read `graphs/product/GRAPH_REPORT.md` first to find the brand, magazine and layout decisions (Megan, Nov 17)
 - `artifact-design`: page contract for Claude Design artifacts
 - `copywriting`: for headlines, pull quotes and cover lines in the customer's words
 - `marketing-psychology`: ethical persuasion for pins, covers and CTAs (Megan, Nov 14)

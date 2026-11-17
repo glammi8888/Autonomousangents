@@ -40,6 +40,7 @@
 | I15 | how to stop people pleasing | 1,700 | 21 | DONE Nov 15 how-to-stop-people-pleasing (DRAFT dated Nov 19, NO COVER yet: needs a calm 'saying no' image, asked OPS; won't publish until covered) |
 | I16 | vision board quotes · vision board words | 2,700 + 1,100 | 25 to 37 | DONE Nov 15 vision-board-quotes (DRAFT dated Nov 15 so it publishes first: seasonal; 80 ORIGINAL quotes, no misattribution; cover megan-editorial-12 on black frame) |
 | I17 | pinterest vision boards · aesthetic vision board | 5,300 + 1,400 | 14 | DONE Nov 17: strengthened LIVE pinterest-vision-board (SEO title 'Pinterest Vision Board: 12 Aesthetic Ideas', new meta, H2 '12 Aesthetic Vision Board Ideas for Pinterest' with one move each, FAQ + schema 'What is an aesthetic vision board?', link to vision-board-examples). NEXT: pick a new ISSUE11 cluster via keyword research. Was: strengthen live pinterest-vision-board first (cheaper than a new page) |
+| W1 | 🎄 winter arc | 11,800 | 19 | DONE Nov 17 winter-arc (DRAFT dated Nov 17 so it publishes first; whole-life 90-day plan for women; SERP is gym-only: Reddit, Gymshark, Under Armour). NEXT: more Dec/Jan seasonal research (Thanksgiving terms checked: ~150/mo, too small) |
 | skip | words of affirmation (48,300) | love-language intent, off brand | 20 | skip |
 | skip | affirmations for anxiety (1,700) | mental-health risk | 26 | skip for now |
 | skip | glow up makeup terms | product intent, off brand | n/a | skip (how-to-glow-up is live) |

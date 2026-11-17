@@ -7,9 +7,9 @@ Rules: hook wording is either Megan's, a format she loved, a proven viral format
 |---|---|---|---|
 | 1 ⭐ | Dumb Things I Do To Manifest Anything I Want (Part 1) | if-then plans, one small action, picturing obstacles | Megan's loved format |
 | 2 ⭐ | 7 Delulu Tips So Powerful They Should Be Illegal 💋 | psychology-backed habits (E4) | Megan's loved format |
-| 3 | Dumb Things I Do So My Vision Board Actually Works | vision board + one move a week (Dec–Jan season) | loved format |
-| 4 | Delulu Journal Prompts So Specific They Should Be Illegal | Bible journaling prompts ("What did your most recent attempt teach you?") | loved format |
-| 5 | Dumb Things I Stopped Doing When Manifesting | e.g. affirmations I didn't believe, starting over every Monday | loved format + viral library R5 |
+| 3 | Dumb Things I Do So My Vision Board Actually Works (adapted by us, needs Megan's OK) | vision board + one move a week (Dec–Jan season) | loved format, our wording |
+| 4 | Delulu Journal Prompts So Specific They Should Be Illegal (adapted by us, needs Megan's OK) | Bible journaling prompts ("What did your most recent attempt teach you?") | loved format, our wording |
+| 5 | Dumb Things I Stopped Doing When Manifesting (adapted by us, needs Megan's OK) | e.g. affirmations I didn't believe, starting over every Monday | loved format + viral library R5, our wording |
 
 ## B · Proven viral formats, ISSUE11 teaching inside
 | # | Hook | Teaches | Wording source |

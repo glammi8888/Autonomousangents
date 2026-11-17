@@ -48,3 +48,4 @@ Status values: `waiting for Megan's go` → `go` (only once Megan says so in cha
 |---|---|---|---|---|---|---|---|
 
 - 2026-11-16 FAVOURITES = APPROVED (Megan: "Only the pins I selected so far" + "Yesssd"): every pin in the "❤️ Megan's favourites" section of the canvas (list in drafts/pinterest/color-test/COLOR-TEST.md, section "Favourites") counts as "go" for scheduling, 3/day, 7 days ahead. Week 1 is in drafts/pinterest/WEEK-NOV18.md. CT216–225 are NOT included until she moves them into favourites.
+- Nov 17: ALL favourites scheduled through Dec 24 (89 pins, FAVOURITES-SCHEDULE.md). The queue is empty until Megan adds new favourites.

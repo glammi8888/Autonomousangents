@@ -1,7 +1,8 @@
 # Graph Report - Autonomousangents  (2026-11-17)
 
 ## Corpus Check
-- Piece of the repo (see graphs/README.md). Images and vendored skills not mapped.
+- 53 files · ~0 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 - 335 nodes · 517 edges · 10 communities

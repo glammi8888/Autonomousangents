@@ -16,5 +16,16 @@ Not mapped on purpose: images (too costly to read one by one), vendored skills, 
 2. Then open the source files it points to. The map shows where to look; it doesn't replace the file. Always quote the real file.
 3. If `graphify` is installed (0.9.111, the scanned version only): `graphify query "<question>" --graph graphs/<piece>/graph.json` (run `export GRAPHIFY_BACKEND=none GRAPHIFY_NO_CTA=1` first).
 
-## Keeping it fresh
+## Keeping it fresh (every chat, every agent: Megan, Nov 17: "keep doing /graphify in all chats please" + "and for all agents")
+```
+export GRAPHIFY_BACKEND=none GRAPHIFY_NO_CTA=1
+PY=$(head -1 $(which graphify) | tr -d '#!')   # graphify's python
+$PY tools/graphs/graphs.py status            # what changed since each map was built
+$PY tools/graphs/graphs.py build app         # code changes: free, no AI
+$PY tools/graphs/graphs.py todo product      # changed docs: prints the brief for ONE extraction helper
+$PY tools/graphs/graphs.py build product     # after the helper wrote its chunk
+```
+Pieces and their file globs: `graphs/pieces.json`. Raw extractions: `graphs/<piece>/chunks/` (newest chunk wins per file). Add a new area by adding globs there.
+
+### Old note
 A map is a snapshot. If you changed a mapped file in a big way, say so in your report; OPS rebuilds the piece (the app piece is free; doc pieces use 1–2 helper runs). Never set a Gemini/Google key, and never run `graphify install` or hook commands (see `.claude/skills/graphify/SKILL.md` → ISSUE11 overrides).

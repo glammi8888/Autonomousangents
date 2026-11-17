@@ -1,0 +1,6 @@
+/home/user/Autonomousangents/design/editorial/ATTRACTION-VS-DEVOTION.md
+/home/user/Autonomousangents/design/editorial/EDITORIAL-BIBLE.md
+/home/user/Autonomousangents/design/editorial/LEXICON.md
+/home/user/Autonomousangents/design/editorial/MARKETING-PLAYBOOK.md
+/home/user/Autonomousangents/design/editorial/POINT-OF-VIEW.md
+/home/user/Autonomousangents/design/editorial/README.md

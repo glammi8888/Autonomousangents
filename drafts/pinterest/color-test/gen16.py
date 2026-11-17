@@ -3,7 +3,7 @@ import gen9, gen8, gen13
 from gen import doc
 from gen13 import S, T, U, A, s
 ks=['hair','cashpile','sky','suit',None,'pinkgloss','flying','earring','bedcash']
-cells=''.join(f'<img src="{s(k)}" {A}>' if k else '<div class="tc"><div>2027</div><span>vision board</span></div>' for k in ks)
+cells=''.join(f'<img src="{s(k)}" {A}>' if k else '<div class="tc"><em>Rich &amp; Stylish</em><div>2027</div><span>vision board</span></div>' for k in ks)
 P={'CT147':doc('Color test 147 · vision board grid, full photos (128 redo)',S+"""
 .pin{background:#F7F2EA}
 .tl{top:14px;height:58px}
@@ -11,7 +11,8 @@ P={'CT147':doc('Color test 147 · vision board grid, full photos (128 redo)',S+"
 .g img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
 .tc{aspect-ratio:3/4;background:#F7F2EA;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#1A1A1A}
 .tc div{font-weight:800;font-size:110px;letter-spacing:-.05em;line-height:1}
-.tc span{font-style:italic;font-weight:400;font-size:46px;letter-spacing:-.02em}
+.tc em{font-style:italic;font-weight:600;font-size:44px;letter-spacing:-.02em;margin-bottom:6px}
+.tc span{font-size:34px !important;margin-top:6px;font-style:italic;font-weight:400;font-size:46px;letter-spacing:-.02em}
 .url{bottom:22px}
 """,f"""{T()}<div class="g">{cells}</div>{U('#1A1A1A')}""")}
 for k,v in P.items(): open(f'{k}.dc.html','w').write(v)

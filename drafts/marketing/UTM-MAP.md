@@ -34,5 +34,6 @@ Source: issue11.app/sitemap.xml, fetched Nov 15, 2026 (28 pages: the blog posts 
 | money-affirmations | https://issue11.app/blog/money-affirmations?utm_source=pinterest&utm_medium=organic&utm_campaign=money-affirmations | https://issue11.app/blog/money-affirmations?utm_source=reddit&utm_medium=organic&utm_campaign=money-affirmations |
 | how-to-stop-overthinking | https://issue11.app/blog/how-to-stop-overthinking?utm_source=pinterest&utm_medium=organic&utm_campaign=how-to-stop-overthinking | https://issue11.app/blog/how-to-stop-overthinking?utm_source=reddit&utm_medium=organic&utm_campaign=how-to-stop-overthinking |
 | december-january-journal-prompts | https://issue11.app/blog/december-january-journal-prompts?utm_source=pinterest&utm_medium=organic&utm_campaign=december-january-journal-prompts | https://issue11.app/blog/december-january-journal-prompts?utm_source=reddit&utm_medium=organic&utm_campaign=december-january-journal-prompts |
+| winter-arc | https://issue11.app/blog/winter-arc?utm_source=pinterest&utm_medium=organic&utm_campaign=winter-arc | https://issue11.app/blog/winter-arc?utm_source=reddit&utm_medium=organic&utm_campaign=winter-arc |
 
 For Reels/TikTok, the bio link uses `utm_source=instagram` or `tiktok`, `utm_medium=organic` and `utm_campaign=bio`.

@@ -51,3 +51,7 @@ Google US: lifemaxxing 1,200/mo, lifemaxx 70/mo (Mangools). Pinterest autocomple
 - Wallpaper maker pins: "lifemaxxing wallpaper", "lifemaxxing affirmations", "lifemaxxing quotes"
 - ISSUE11 itself: "lifemaxxing magazine". The app is literally a magazine about your life, so it's a strong fit for the landing page and App Store keywords (ASO room).
 Write "lifemaxxing" in titles (the searched form); "lifemaxx" is fine as a verb on the image.
+
+## Winter arc (Nov 17) · pins WA1–WA6 in winter-arc/PINS.md (waiting for Megan's OK)
+Google US: winter arc 11,800/mo, KD 19 (Mangools). Pinterest autocomplete (Apify, Nov 17): winter arc rules, checklist, plan, routine, tracker, challenge, motivation, aesthetic, wallpaper, women; "winter arc for women" routine / list / motivation. Pinterest interest peaked Oct 7 and fades by mid-January, so post by early December.
+- issue11.app/blog/winter-arc: "winter arc rules" (WA1), "winter arc" + "winter arc ideas" (WA2), "winter arc for women" (WA3), "winter arc aesthetic" (WA4), "winter arc motivation" (WA5), "winter arc plan" (WA6)

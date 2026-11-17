@@ -168,3 +168,6 @@ Megan's fur-coat shopping photos (pasted in chat, saved in shop/*-full.jpg) + he
 ## Magazine covers · batch 2 · CT191–CT200 (Nov 17)
 Megan: "I think we should do magazine cover styles like 87, 86, 51, 52m etc 64". Approved cover() template with the shopping, Drive and doll photos + BANK lines. The cover lines use real article counts.
 - Magazine covers batch 2: 195–200 (Megan, Nov 17: "all of them in the new batch except for 191, 192, 193, 194"), moved to favourites
+
+## Variations batch 1 · CT201–CT210 + phone notes · CT211–CT215 (Nov 17)
+Megan: "now you can simply reproduce and create varieties of the ones we have approved" and "the pin format we posted is working so we can use that as well, phone notes / Let's add that in the pin formats". Phone notes (batch1 notes(), live Pin01/02/06) are now part of the loved format set. 211–215 cover searched topics: beginners, scripting, 369, money, dream life prompts.

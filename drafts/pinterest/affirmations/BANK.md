@@ -121,3 +121,4 @@ See ANGEL-NUMBERS.md (✅ approved by Megan Nov 16: "Ok this is excellent". Use 
 - Nothing feels better than having money
 - Unlimited shopping budget for meeee babyyyy
 - I deserve luxury
+- Later = Never so act now (Megan, Nov 17)

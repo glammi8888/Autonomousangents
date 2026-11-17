@@ -25,7 +25,7 @@ $PY tools/graphs/graphs.py build app         # code changes: free, no AI
 $PY tools/graphs/graphs.py todo product      # changed docs: prints the brief for ONE extraction helper
 $PY tools/graphs/graphs.py build product     # after the helper wrote its chunk
 ```
-Pieces and their file globs: `graphs/pieces.json`. Raw extractions: `graphs/<piece>/chunks/` (newest chunk wins per file). Add a new area by adding globs there.
+Pieces and their file globs: `graphs/pieces.json`. Raw extractions: `graphs/<piece>/chunks/` (newest chunk wins per file: chunk names must start with YYYYMMDD-HHMMSS, the `todo` command prints one). Add a new area by adding globs there.
 
 ### Old note
 A map is a snapshot. If you changed a mapped file in a big way, say so in your report; OPS rebuilds the piece (the app piece is free; doc pieces use 1–2 helper runs). Never set a Gemini/Google key, and never run `graphify install` or hook commands (see `.claude/skills/graphify/SKILL.md` → ISSUE11 overrides).

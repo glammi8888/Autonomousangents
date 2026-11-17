@@ -31,7 +31,7 @@ def pin(k,title,dark,body,photo=None,pos='50% 25%',box=(360,560,280,400)):
 TL=lambda t,ink,y=230: w(50,y,t,ink,800,72,'center',width=900)
 # NG1 · old way → ISSUE11 way · black
 old=["visualize &amp; wait","all or nothing","“be in alignment”","perfect mindset","one-time manifestation"]; new=["imagine + participate","iterative &amp; adaptive","aligned action","human &amp; strategic","a continuous loop"]
-b=w(50,220,'the old way →<br>the ISSUE11 way',WH,800,66,'center',width=900); g=''
+b=w(50,210,'old way of manifestation<br>vs the new way',WH,800,64,'center',width=900); g=''  # Megan: "Old way of Manifestation vs the new way"
 for i,(o,n) in enumerate(zip(old,new)):
     y=480+i*180
     b+=w(60,y,o,'#8C8C8C',700,36,width=330,extra='text-decoration:line-through;text-decoration-thickness:3px')+w(560,y,n,WH,800,44,width=400)

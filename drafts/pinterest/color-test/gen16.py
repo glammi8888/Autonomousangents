@@ -16,3 +16,6 @@ P={'CT147':doc('Color test 147 · vision board grid, full photos (128 redo)',S+"
 .url{bottom:22px}
 """,f"""{T()}<div class="g">{cells}</div>{U('#1A1A1A')}""")}
 for k,v in P.items(): open(f'{k}.dc.html','w').write(v)
+# CT148 · same grid, Megan's alternative line (Nov 17: "or Hot and Rich all 2027")
+h=P['CT147'].replace('<em>Rich &amp; Stylish</em>','<em>Hot and Rich all</em>').replace('Color test 147 · vision board grid, full photos (128 redo)','Color test 148 · vision board grid · Hot and Rich all 2027')
+open('CT148.dc.html','w').write(h)

@@ -1,0 +1,81 @@
+# Informative carousel series · logic only (no designs yet)
+Nov 17, 2026 · 🎨 Brand + 💚 Viral Content Formats + 📱 Social Strategist room · DRAFT for Megan's OK
+
+**Built from:** Megan's carousel rules in `.pipeline/lessons.md` (Nov 17): teach first, no product pitch on the slides, small issue11.app, one diagram per carousel labelled "conceptual model", no invented numbers, frameworks from `design/editorial/` run through DESIRE → IMAGINE → ACT → EVOLVE, slide styles = her loved pins 101 · 103 · 42 · 95 · 100. Bible §15 four-step shape (Provocation → Revelation → Visualization → Empowerment). Pain points from `design/POSITIONING.md`. Words from `LEXICON.md` (30s millennial: "becoming YOU", no coach-speak).
+**Skills used:** content-writing-thought-leadership (structure only; its B2B examples are ignored).
+**Not repeating:** CAR1 (vision board as a magazine) and CAR3–CAR5 (Manifestation 101), which are still waiting for Megan's review.
+
+## Formats and sizes (Strategist)
+| Platform | Format | Size | Slides |
+|---|---|---|---|
+| Instagram | carousel post | 1080×1350 (4:5) | 7 |
+| TikTok | photo mode + trending sound | same 4:5 files (TikTok shows them fine; 9:16 only if a slide looks small) | 7 |
+| Pinterest | carousel pin | 1000×1500 (2:3) | **5 max** (Pinterest limit 2–5), so slides 3 + 5 merge or drop; marked ✂ below |
+So: one 4:5 master for Instagram + TikTok, one 2:3 resize for Pinterest. Text stays in the centre 80% so nothing gets cut.
+
+**Timing:** carousels on the Tue + Thu slots of the content week (content-pillars-formats.md). Same carousel goes to all 3 platforms the same day. Pinterest version links to a matching article (tagged link, never the homepage; same URL max once per 72h). No posting time is set yet: we use Metricool's best-time data once the account has 2 weeks of numbers, rather than guessing.
+**Captions:** keyword-first on Pinterest + TikTok (searchable); Instagram caption = one line + "save this for when you redo your board".
+
+---
+
+## C1 · Your vision board needs a Tuesday ⭐ recommended first
+**The one idea:** a vision board shows the destination but never what to do this week, so it turns into wallpaper. Add the ordinary day and one small move.
+**Framework:** Missing Piece + Myth vs Reality → loop. Pain points 6 ("inspires me for 5 minutes, then I forget it") and 3.
+**Hook (slide 1):** "why your vision board stops working after the first week"
+
+| # | Style | Slide |
+|---|---|---|
+| 1 | 101 loud poster | **why your vision board stops working after the first week** |
+| 2 | 103 plain card | it shows where you want to go. it never tells you what to do on tuesday. |
+| 3 ✂ | 42 pastel + framed photo + italic | the usual board = only the finish line: the house, the trip, the bank balance. *add the ordinary day too: the morning walk, the clean inbox, the coffee you drink slowly.* |
+| 4 | 100 arrow loop · "conceptual model" | **DESIRE** pin the picture → **IMAGINE** picture a normal tuesday in that life → **ACT** one small move this week → **EVOLVE** swap a picture when you change |
+| 5 | 95 giant word "one" + specimen photos | one move a week, in notes voice: "book the viewing" · "open the savings account" · "walk after lunch" |
+| 6 ✂ | 103 plain card | keep the board. give it a tuesday. |
+| 7 | CTA (small issue11.app) | save this for your january board · how to make a vision board that works with you → issue11.app |
+**Pinterest link:** issue11.app/blog/vision-board-for-manifestation (CAR1 already uses /new-year-vision-board).
+**Why it gets saved:** vision board searches peak Dec–Jan (lessons.md, Nov 16); it's a checklist people come back to when they actually make their board. Reuses the C1 idea from viral-formats-library.md that was never designed.
+
+## C2 · Affirmations that don't feel fake
+**The one idea:** if "i am a millionaire" makes you cringe, it's because the sentence fights your reality. Process affirmations describe what future you *does*, so you can believe them today.
+**Framework:** Old vs New (comparison). Pain points 5 ("makes me feel delusional") and 7.
+**Hook (slide 1):** "if 'i am a millionaire' makes you cringe, read this"
+
+| # | Style | Slide |
+|---|---|---|
+| 1 | 101 loud poster | **if "i am a millionaire" makes you cringe, read this** |
+| 2 | 103 plain card | that's normal. when a sentence argues with your bank app, you stop saying it. |
+| 3 | comparison · "conceptual model" | outcome affirmation (the finish line) vs process affirmation (what you do on the way). Left: "i am rich". Right: "i check my balance without flinching" |
+| 4 | 42 pastel + framed photo | money: "i'm someone who saves something every friday" |
+| 5 ✂ | 42 pastel + framed photo | love: "i stopped shrinking to keep people" · body: "i keep the promises i make to my body" |
+| 6 | 95 giant word "you" | write your own: "i'm becoming someone who ___" (fill it with a habit, not a result) |
+| 7 | CTA | save this and rewrite one affirmation tonight · more process affirmations → issue11.app |
+**Pinterest link:** issue11.app/blog/money-affirmations (or /positive-affirmations-for-women).
+**Why it gets saved:** affirmations are a big search topic (we already have 5 affirmation articles to link), and this gives ready-to-copy lines plus a fill-in formula (people save templates). It is also the clearest picture of the ISSUE11 USP ("becoming, not wishing") without a single product word.
+**Brand check:** we never mock other methods or say "affirmations don't work"; we say some feel fake and offer another kind. Lines 4–5 must be rewritten in Megan's live notes-pin voice before design.
+
+## C3 · It didn't manifest. Now what?
+**The one idea:** a setback is not a verdict. Real progress isn't a straight line, and you have 4 honest choices: keep going, adjust, pause or let it go.
+**Framework:** Contrarian + Bible card 04 ("A setback is not a verdict") → curve + decision tree. Pain points 4 and 8.
+**Hook (slide 1):** "it didn't manifest. now what?"
+
+| # | Style | Slide |
+|---|---|---|
+| 1 | 101 loud poster | **it didn't manifest. now what?** |
+| 2 | 103 plain card | a slow month is information. nothing more. |
+| 3 | curve · "conceptual model" | the line you expect (straight up) vs the line most of us live (up, flat, dip, up). No numbers, no axes values. |
+| 4 | 100 decision loop | ask one question: is this still mine? → **keep going** · **adjust the move** · **pause** · **let it go** (all four are allowed) |
+| 5 ✂ | 42 pastel + framed photo | look for proof in you, not just the result: "i said no without explaining" · "i opened the email i was scared of" |
+| 6 ✂ | 103 plain card | you don't have to see it to believe it. but you have to participate to create it. (Bible core line) |
+| 7 | CTA | save this for the next slow month · journal prompts for when it feels stuck → issue11.app |
+**Pinterest link:** issue11.app/blog/does-manifestation-work.
+**Why it gets saved and shared:** it answers the question people search after trying ("does manifestation work", "why isn't it working") with kindness instead of blame, so it gets sent to a friend. Most manifestation content skips this moment.
+**Brand check:** no "the universe will deliver", no blaming her mindset, no promised outcome. "Letting it go" is shown as a valid choice, not a failure.
+
+---
+
+## Recommendation
+**Start with C1.** It's the most searched topic right now (vision board season runs Dec–Jan), it links to an article that already exists, and it reuses an idea we already wrote (C1 in the viral formats library). C2 is next because it shows the "becoming, not wishing" idea most clearly. C3 is the most shareable, and January is when people feel "it didn't work".
+
+## Open for Megan
+1. OK to start designing C1 (4:5 master + 5-slide Pinterest cut, in styles 101 · 103 · 42 · 100 · 95)?
+2. For the CTA slide: link to the article (recommended: teaches first, follows your "no salesy" rule) or to the waitlist?

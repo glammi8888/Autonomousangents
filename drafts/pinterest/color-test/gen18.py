@@ -6,8 +6,8 @@ P={}
 def f42(n,bg,k,pos,line,col='#111'):   # pastel + framed photo + italic line
     P[n]=doc(f'Color test {n[2:]} · like 42 · {line[:30]}',S+f".pin{{background:{bg}}}\n.it{{position:absolute;left:60px;right:60px;top:1050px;text-align:center;font-style:italic;font-weight:400;font-size:64px;letter-spacing:-.03em;color:{col}}}",
       f"""<img class="f" src="{s(k)}" style="left:250px;top:200px;width:500px;height:760px;object-position:{pos}" {A}>{T()}<div class="it">{line}</div>{U(col)}""")
-def f45(n,k,pos,html,shade,top=1230):           # full-bleed colour photo + huge caps + italic
-    P[n]=doc(f'Color test {n[2:]} · like 45 · huge type',S+f""".big{{position:absolute;left:50px;right:50px;top:{top}px;color:#fff;font-weight:900;font-size:118px;line-height:.9;letter-spacing:-.05em;text-transform:uppercase;text-align:center}}
+def f45(n,k,pos,html,shade,top=1230,fs=118):           # full-bleed colour photo + huge caps + italic
+    P[n]=doc(f'Color test {n[2:]} · like 45 · huge type',S+f""".big{{position:absolute;left:50px;right:50px;top:{top}px;color:#fff;font-weight:900;font-size:{fs}px;line-height:.9;letter-spacing:-.05em;text-transform:uppercase;text-align:center}}
 .big i{{font-weight:300}}""",f"""<img class="f full" src="{s(k)}" style="object-position:{pos}" {A}><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,0) 20%,rgba(0,0,0,0) 70%,{shade} 88%)"></div>{T('w')}<div class="big">{html}</div>{U('#fff')}""")
 def f62(n,k,ko,html,col):              # photo-texture knockout number + caps line
     P[n]=doc(f'Color test {n[2:]} · like 62 · knockout {ko}',S+f""".pin{{background:#0E0E0E}}

@@ -5,9 +5,9 @@ from gen18 import f45, P as P18
 from gen import doc
 from gen13 import S, T, U
 P18.clear()
-f45('CT216','orange','50% 0%','Later = Never <i>so act now</i>','rgba(120,45,0,.9)',top=1120)
+f45('CT216','orange','50% 0%','When manifesting<br>Later = Never<br><i>so act now</i>','rgba(120,45,0,.9)',top=1050,fs=92)
 P18['CT217']=doc('Color test 217 · spaced caps on cream · Later = Never',S+""".pin{background:#FAF6EE;color:#1A1A1A}
-.q{position:absolute;left:0;right:0;top:470px;text-align:center;font-weight:300;font-size:72px;line-height:1.9;letter-spacing:.3em}
-.q b{font-weight:800}""",f"""{T()}<div class="q"><b>LATER</b><br>=<br><b>NEVER</b><br>SO ACT NOW</div>{U('#1A1A1A')}""")
+.q{position:absolute;left:0;right:0;top:400px;text-align:center;font-weight:300;font-size:72px;line-height:1.9;letter-spacing:.3em}
+.q b{font-weight:800}""",f"""{T()}<div class="q"><span style="font-size:44px">WHEN MANIFESTING</span><br><b>LATER</b><br>=<br><b>NEVER</b><br>SO ACT NOW</div>{U('#1A1A1A')}""")
 for k,v in P18.items(): open(f'{k}.dc.html','w').write(v)
 print(list(P18))

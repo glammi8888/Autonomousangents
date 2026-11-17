@@ -221,3 +221,12 @@ Hook options (format borrowed, Megan picks or rewrites): A "Dumb Things I Do To 
 | 8 | issue11.app · "Part 2" teaser | | |
 Photos: Megan's own, like the delulu-tips creator (her real photos made it feel real). Series: Part 2 can be E0 "wishful thinking".
 Pinterest cut (5): cover · 2 · 4 · 5 · 7+CTA.
+
+---
+
+## M1 · Megan's mini carousel idea (Nov 17, word for word)
+Slide 1: "If you ever feel like people are hating on your level up..."
+Slide 2: "Remember that mermaids don't lose sleep over the opinions of a shrimp. - Paris Hilton"
+Fact check (web search, Nov 17): no source found linking this line to Paris Hilton. It circulates as an anonymous mermaid quote; one quote blog credits "Mermaid from Peter Pan", also unverified. Waiting on Megan: where she saw it, and whether to drop the name or credit "unknown".
+Fits: her spite/confidence lines in BANK.md ("Get up girl, you got people to prove wrong") and the Lexicon ("I outgrew people to level up"). Shareable, more awareness than MOFU.
+**Decision (Megan, Nov 17, word for word): "yes but the quote is from Paris Hilton lol let's mention her"** → slide 2 keeps "- Paris Hilton". Megan's call, after the attribution flag.

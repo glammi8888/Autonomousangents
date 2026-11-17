@@ -1,6 +1,15 @@
 # Pinterest analytics (newest first)
 Numbers come only from Megan's screenshots or Pinterest/Metricool exports. Never estimate.
 
+## 2026-11-17 (4th snapshot) · Megan's screenshot
+| Pin | 👁 views | 📌 saves* | 3rd icon |
+|---|---|---|---|
+| Project: Personal Rebrand | 51 (was 44) | 2 | 11 |
+| can't talk rn. i'm rebranding | 39 (was 32) | 2 | 9 |
+| 2027 glow up · the list | 39 (was 33) | 2 | 10 |
+| rebranding my entire life at 11pm | 21 (was 13) | 2 | 4 |
+*saves are Megan's own. All 4 = 150 views, still climbing on day 3 with no new posts.
+
 ## 2026-11-17 (3rd snapshot) · Megan's screenshot
 | Pin | 👁 views | 📌 saves* | 3rd icon |
 |---|---|---|---|

@@ -13,6 +13,7 @@ Read first:
 - The audience, using real words only: `design/editorial/LEXICON.md`, `design/POSITIONING.md`, and the ICP notes in lessons.md (women about 30–38, millennial; manifestation, glow up, vision boards, personal rebrand)
 
 Skills to load, picking the one that fits the job:
+- `graphify`: read `graphs/marketing/GRAPH_REPORT.md` (and `graphs/product/`) first to find past research and decisions (Megan, Nov 17)
 - `synthetic-crowd`: quick verdicts (buy / consider / ignore), price reaction and objections from 8–20 separate AI customers. Best for A vs B on pins, ads, headlines, emails and prices. Script: `python3 .claude/skills/synthetic-crowd/scripts/crowd.py`. Each persona is its own isolated `claude -p --safe-mode` call on Megan's Claude plan. Default model is haiku; use sonnet only when needed.
 - `synthetic-user-feedback`: 2–4 detailed personas browse issue11.app or the app with a browser (Playwright) and narrate where they get stuck. Best for landing page, sign-up and app flow checks.
 - `persona` (claude-persona): deeper persona panels, surveys and concept tests with charts. Use backend claude-cli. Its chart libraries are not installed yet.

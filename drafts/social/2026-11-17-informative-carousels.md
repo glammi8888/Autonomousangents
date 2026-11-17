@@ -184,3 +184,21 @@ Rule kept: no invented slide lines. Teaching text comes from our own approved so
 | E2 | "how to create your (2026) Vision board · fool proof edition" (42.4k) | the steps of our vision board guide, one per slide, plus one "what to do this week" slide | Megan's live article, word for word | issue11.app/blog/how-to-make-a-vision-board |
 | E3 | "Vision Board V/S Action Board" comparison (15.5k) | "visualizing the outcome vs rehearsing the process" (the ISSUE11 USP), with one research card: mental contrasting (Oettingen) and its limits | POSITIONING.md USP + Psychology Framework pillar 6 | issue11.app/blog/vision-board-for-manifestation |
 Formats in Megan's loved styles: E1 = diagram cover (100 arrow loop) + 103 plain cards; E2 = 95 / 42 with photos; E3 = comparison card.
+
+---
+
+## E0 · Megan's hook: "How to not fall for "wishful thinking" when manifesting" (Nov 17) ⭐ build first
+Educational. Every slide line below is word for word from an approved source (named). Nothing newly written.
+
+| # | Style | Slide | Source (word for word) |
+|---|---|---|---|
+| 1 | 101 loud poster | **HOW TO NOT FALL FOR "WISHFUL THINKING" WHEN MANIFESTING** | Megan |
+| 2 | 103 plain card | "Feeling like you've arrived is not the same as moving forward." | Bible §04 |
+| 3 | research card | "research on positive fantasies and mental contrasting suggests that idealized thinking alone is not necessarily enough to support goal achievement" · source: Gabriele Oettingen, "Future thought and behaviour change" (2012) · limit: this doesn't mean visualizing is bad | Psychology Framework Part I + Playbook sources |
+| 4 | 100 arrow loop · "conceptual model" | WISH → OUTCOME → OBSTACLE → PLAN (WOOP, Gabriele Oettingen) | Psychology Framework pillar 6 |
+| 5 | 42 pastel + photo | Goal: "Exercise three times this week." · Obstacle: "Feeling tired after work." · Plan: "If I'm too tired for my usual workout, I'll do ten minutes of movement at home." | Psychology Framework pillar 6 |
+| 6 | 103 plain card | "The universe can remain mysterious. Your next move shouldn't have to." | Bible §04 |
+| 7 | CTA (small issue11.app) | "Picture the life you want. Now think about what's most likely to get in your way." · save this · issue11.app | Psychology Framework pillar 6 |
+Pinterest cut (5): 1 · 3 · 4 · 5 · 7. Link: issue11.app/blog/does-manifestation-work.
+Caption sources to cite under the post: Oettingen (2012) European Review of Social Psychology; Gollwitzer (1999) American Psychologist (if-then plans). Check both before posting.
+Why it should work: Megan's own polarizing hook, a proven educational shape (step slides + one diagram, like the 114k "Manifestation is" carousel), and a template people can copy into their notes (slide 5).

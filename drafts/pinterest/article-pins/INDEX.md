@@ -28,6 +28,7 @@ Source boards: Claude Design Lead Magnets canvas (https://claude.ai/artifact/MZr
 | ArticlePinSCI | issue11.app/blog/self-care-ideas | png/ArticlePinSCI.png | Self Care Ideas: 5-Minute, Free + Life Self Care Ideas for Women | Dark iPhone Notes screenshot titled "self care ideas" with five of the article's ideas, rewritten in the live notes voice, under "5 minutes", "free" and "for your life" | Pass 390 + 236 (Nov 17) | ready for Framer |
 | ArticlePinHTM | issue11.app/blog/how-to-manifest | png/ArticlePinHTM.png | How to Manifest What You Want: 4 Steps That Actually Work | Dark iPhone Notes screenshot titled "how to manifest what you want" with the article's 4 steps in the live notes voice and a "stop" line | Pass 390 + 236 (Nov 17) | ready for Framer |
 | ArticlePinDMW | issue11.app/blog/does-manifestation-work | png/ArticlePinDMW.png | Does Manifestation Really Work? What Holds Up + What Backfires | Dark iPhone Notes screenshot titled "does manifestation actually work?" listing what works and what doesn't, from the article, in the live notes voice | Pass 390 + 236 (Nov 17) | ready for Framer |
+| ArticlePinLOA | issue11.app/blog/law-of-assumption | png/ArticlePinLOA.png | Law of Assumption: How to Use It This Week (Without Waiting) | Dark iPhone Notes screenshot titled "law of assumption, the part that works" with the article's 5 weekly steps and 2 assumption → move examples, in the live notes voice | Pass 390 + 236 (Nov 17) | ready for Framer |
 
 Keyword check for ArticlePinVBE: Pinterest autocomplete (Apify, Nov 16) suggests "vision board examples" with "inspiration", "aesthetic", "life", "career" and "manifestation" variants. Raw: `../2026-11-16-vision-board-examples-keywords.json`. No volume figure from Pinterest; Google US 11,000/mo per QUEUE.md.
 
@@ -59,7 +60,7 @@ Keyword check for ArticlePinVM: Pinterest autocomplete (Apify, Nov 16) suggests 
 
 Keyword check for ArticlePinPV: Pinterest autocomplete (Apify, Nov 16) suggests "pinterest vision board ideas", "pinterest vision board aesthetic", "pinterest vision board examples" and "pinterest vision board template". Raw: `../2026-11-16-pinterest-vision-board-keywords.json`. Cover lines are the article's 4 step headings (shortened). First article pin in the approved magazine-cover template. The photo is an AI-generated library image (AI label applies if ever posted as a pin).
 
-Next articles without a pin (STRATEGY.md order, then the rest of the sitemap): law-of-assumption · scripting-manifestation · mirror-work · best-manifestation-apps · becoming-her.
+Next articles without a pin (STRATEGY.md order, then the rest of the sitemap): scripting-manifestation · mirror-work · best-manifestation-apps · becoming-her.
 
 ## Nov 17 publish note
 - All 18 images were added to their articles' Content, as the first block after the intro paragraph. NYVB2 sits before "How to Host a Vision Board Party". Published as Framer version 699f2d432.
@@ -76,3 +77,5 @@ Keyword check for ArticlePinSCI: Pinterest autocomplete (Apify, Nov 17) suggests
 Keyword check for ArticlePinHTM: Pinterest autocomplete (Apify, Nov 17): "how to manifest what you want" is the top suggestion (also money, love, a job, journal; skipped the specific-person ones per the copy rules). Raw: `../2026-11-17-how-to-manifest-keywords.json`. The 4 steps come from the article, rewritten in the notes voice (lesson Nov 17). The "stop" line is Megan's own words (from CT211).
 
 Keyword check for ArticlePinDMW: Pinterest autocomplete (Apify, Nov 17) suggests "does manifestation really work", "how does manifestation work" and "manifestation methods that actually work". Raw: `../2026-11-17-does-manifestation-work-keywords.json`. The items are taken from the article's "The Parts That Hold Up" and "Where Manifesting Can Backfire" sections, rewritten in the notes voice. No claims beyond the article's sourced ones.
+
+Keyword check for ArticlePinLOA: Pinterest autocomplete (Apify, Nov 17) suggests "law of assumption success stories", "law of assumption affirmations", "law of assumption quotes", "law of assumption neville goddard" and "law of assumption money". Raw: `../2026-11-17-law-of-assumption-keywords.json`. Steps and examples are from the article's "How to Use It This Week" and "Assumptions That Turn Into Moves" sections; the $20 and 15 min / Saturday 8am details are the article's own. No BANK quote on this pin.

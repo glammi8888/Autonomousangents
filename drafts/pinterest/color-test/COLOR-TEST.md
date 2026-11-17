@@ -167,3 +167,4 @@ Megan's fur-coat shopping photos (pasted in chat, saved in shop/*-full.jpg) + he
 
 ## Magazine covers · batch 2 · CT191–CT200 (Nov 17)
 Megan: "I think we should do magazine cover styles like 87, 86, 51, 52m etc 64". Approved cover() template with the shopping, Drive and doll photos + BANK lines. The cover lines use real article counts.
+- Magazine covers batch 2: 195–200 (Megan, Nov 17: "all of them in the new batch except for 191, 192, 193, 194"), moved to favourites

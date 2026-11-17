@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Carousel 15 · 3 · diptych</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+img.f{position:absolute;object-fit:cover;display:block}
+.full{inset:0;width:100%;height:100%}
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%);z-index:5}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
+.c{position:absolute;left:60px;right:60px;text-align:center}
+.pin{background:#F1EBFF;color:#111}
+.cp{position:absolute;top:900px;font-weight:700;font-size:26px;letter-spacing:.18em;text-transform:uppercase}
+.q{position:absolute;left:70px;right:70px;top:1010px;text-align:center;font-style:italic;font-weight:300;font-size:66px;letter-spacing:-.035em;line-height:1.08}
+.sm{position:absolute;left:70px;right:70px;top:1250px;text-align:center;font-size:32px;font-weight:500}
+</style>
+</helmet>
+<div class="pin">
+<img class="tl " src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div style="position:absolute;right:60px;top:64px;font-weight:700;font-size:24px;letter-spacing:.16em;color:#111;z-index:6">3 / 5</div><img class="f" src="/_blob/7aaf709ad270b109bdee2b20f48353e5" style="left:70px;top:200px;width:420px;height:680px;object-position:50% 25%" alt="Editorial photo (AI-generated)"><img class="f" src="/_blob/03c9af09041b7d2d6efd614e68331dea" style="left:510px;top:200px;width:420px;height:680px;object-position:50% 30%" alt="Editorial photo (AI-generated)">
+<div class="cp" style="left:70px">7am</div><div class="cp" style="left:510px">9pm</div>
+<div class="q">write one full day in 2027.<br>morning to night.</div><div class="sm">what are you wearing? who texts you first?</div><div class="url" style="color:#111">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

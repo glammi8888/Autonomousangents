@@ -34,7 +34,7 @@ How: kept hooks that already sound like her; reframed the rest with Lexicon phra
 | R12 | You've scripted it. You've visualized it. You've believed it. Now what? | you **scripted** it. now what | list of three → one |
 | R13 | Five questions to ask when your manifestation isn't moving. | 5 questions for when "**has not worked yet its been a month**" | real comment, educational |
 | R14 | You've spent years preparing for your next chapter. When does it begin? | **I'm starting over at 35** | 30s Lexicon |
-| R15 | What if manifestation is a loop, not a law? (flagship) | **the loop** isn't the problem. you're in the wrong one → or plain: "manifestation is a loop" + the DESIRE · IMAGINE · ACT · EVOLVE diagram | Megan picks; plain version has no contrast turn |
+| R15 | What if manifestation is a loop, not a law? (flagship) | manifestation is a loop (+ the DESIRE · IMAGINE · ACT · EVOLVE diagram) | drops the "not X" contrast turn |
 
 ## Must fix in the doc's visuals before any are used
 - "IDENTITY (I AM HER)" in the Reality Shift Venn and "IDENTITY (BECOME HER)" in the Reality Triangle → Voice Guide: never "I am her"/"become her". Use "I am becoming me" (her line) or "Become YOU". The doc flags this itself.

@@ -1,0 +1,134 @@
+[
+  {
+    "pid": 0,
+    "traits": {
+      "age": "28-31",
+      "manifestation_stage": "daily journaler: scripts and does gratitude most mornings, believes in manifesting",
+      "budget": "already pays for 1-3 apps and is picky about adding one",
+      "life_moment": "turning a new decade, feels behind",
+      "how_she_arrived": "Instagram ad mid-scroll",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 1,
+    "traits": {
+      "age": "36-40",
+      "manifestation_stage": "personal rebrand / glow up era after a breakup or a move, lives on Pinterest",
+      "budget": "tight: cancels subscriptions to save money",
+      "life_moment": "mom of a young kid, very little free time",
+      "how_she_arrived": "Google search for a manifestation journal app",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 2,
+    "traits": {
+      "age": "32-35",
+      "manifestation_stage": "still believes but stuck in the loop: plans goals, starts, quits after a few days",
+      "budget": "spends freely on wellness, beauty and self-development",
+      "life_moment": "post-breakup",
+      "how_she_arrived": "tapped a Pinterest pin",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 3,
+    "traits": {
+      "age": "36-40",
+      "manifestation_stage": "disappointed manifester: did affirmations, vision boards and meditations, nothing changed, now thinks manifestation doesn't work",
+      "budget": "already pays for 1-3 apps and is picky about adding one",
+      "life_moment": "new city, new job",
+      "how_she_arrived": "a friend sent her the link",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 4,
+    "traits": {
+      "age": "28-31",
+      "manifestation_stage": "skeptic burned by manifestation apps and coaches: thinks most of it is grifters who want you to pay",
+      "budget": "tight: cancels subscriptions to save money",
+      "life_moment": "post-breakup",
+      "how_she_arrived": "tapped a Pinterest pin",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 5,
+    "traits": {
+      "age": "32-35",
+      "manifestation_stage": "curious newcomer: saves vision board and glow up pins, never stuck with a practice",
+      "budget": "spends freely on wellness, beauty and self-development",
+      "life_moment": "new city, new job",
+      "how_she_arrived": "Instagram ad mid-scroll",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 6,
+    "traits": {
+      "age": "36-40",
+      "manifestation_stage": "disappointed manifester: did affirmations, vision boards and meditations, nothing changed, now thinks manifestation doesn't work",
+      "budget": "already pays for 1-3 apps and is picky about adding one",
+      "life_moment": "mom of a young kid, very little free time",
+      "how_she_arrived": "Google search for a manifestation journal app",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 7,
+    "traits": {
+      "age": "32-35",
+      "manifestation_stage": "still believes but stuck in the loop: plans goals, starts, quits after a few days",
+      "budget": "spends freely on wellness, beauty and self-development",
+      "life_moment": "turning a new decade, feels behind",
+      "how_she_arrived": "a friend sent her the link",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 8,
+    "traits": {
+      "age": "28-31",
+      "manifestation_stage": "daily journaler: scripts and does gratitude most mornings, believes in manifesting",
+      "budget": "tight: cancels subscriptions to save money",
+      "life_moment": "new city, new job",
+      "how_she_arrived": "Instagram ad mid-scroll",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 9,
+    "traits": {
+      "age": "32-35",
+      "manifestation_stage": "skeptic burned by manifestation apps and coaches: thinks most of it is grifters who want you to pay",
+      "budget": "already pays for 1-3 apps and is picky about adding one",
+      "life_moment": "turning a new decade, feels behind",
+      "how_she_arrived": "tapped a Pinterest pin",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 10,
+    "traits": {
+      "age": "28-31",
+      "manifestation_stage": "curious newcomer: saves vision board and glow up pins, never stuck with a practice",
+      "budget": "spends freely on wellness, beauty and self-development",
+      "life_moment": "mom of a young kid, very little free time",
+      "how_she_arrived": "Google search for a manifestation journal app",
+      "who": "millennial woman, in the US"
+    }
+  },
+  {
+    "pid": 11,
+    "traits": {
+      "age": "36-40",
+      "manifestation_stage": "personal rebrand / glow up era after a breakup or a move, lives on Pinterest",
+      "budget": "tight: cancels subscriptions to save money",
+      "life_moment": "post-breakup",
+      "how_she_arrived": "a friend sent her the link",
+      "who": "millennial woman, in the US"
+    }
+  }
+]

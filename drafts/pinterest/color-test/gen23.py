@@ -16,7 +16,8 @@ for k,(t,(bg,inner)) in list(P.items()):
     inner=inner[:inner.index('<div style="position:absolute; left:0; right:0; bottom:0')]
     fs=int(re.search(r'padding-left:30px; font-size:(\d+)px',inner).group(1))
     # Megan, Nov 17: "could also just be  issue11.app"
-    ps=f'<p style="margin:{int(fs*1.1)}px 0 0; font-size:{fs}px; line-height:1.3">issue11.app</p>'
+    # Megan, Nov 17: "the issue11.app should be at the bottom of the pin"
+    ps=f'<p style="position:absolute; left:64px; bottom:60px; margin:0; font-size:{fs}px; line-height:1.3">issue11.app</p>'
     inner=inner.rstrip()
     assert inner.endswith('</div>')
     P[k]=(t,(bg,inner[:-6]+ps+'</div>'))

@@ -102,3 +102,17 @@ Pinterest cut (5): 1 · 3 · 4 · 5 · 7. Pinterest link: issue11.app/blog/does-
 **Caption (IG/TikTok):** "if someone told you a slow month means you blocked it, this one's for you" · Pinterest title: "Manifestation Not Working? Why You Didn't Block It".
 **Expected pushback + pinned-comment draft:** "you can believe in manifestation and still question that rule. we do." (Megan posts; agents never reply for her.)
 **Guardrails kept:** no named teacher on the slides, no mocking believers, no promised outcome, "let it go" includes leaving what hurts you.
+
+---
+
+## Frameworks used (OPS, Nov 17: "name the framework you used from the Playbook")
+Both docs read in full: design/editorial/MARKETING-PLAYBOOK.md + marketing/PSYCHOLOGY-FRAMEWORK.md.
+
+| Carousel | Playbook framework(s) | Psychology Framework | Diagram (Bible §15) |
+|---|---|---|---|
+| **C3 v2 · "you didn't block it"** ⭐ Megan's pick | **#04 Contrarian Take** (lead) + **#02 The Enemy** (the enemy is the "you're blocking it" idea, never a group of people) · supported by Two-Sided Messaging and Inoculation Theory (we name the objection before the comments do) · Selection matrix row "Shift a belief" → 5–7 slide argument | Pillar 5 Self-regulation (adjusting the plan is part of the process) + self-compassion · Angle B "Behavioral explanation" · sequence Recognition → Insight → Possibility → Action | Curve (idealized vs nonlinear) + decision tree (keep going · adjust · pause · let it go), both labelled "conceptual model" |
+| C1 · vision board needs a Tuesday | **#05 Missing Piece** + **#13 Transformation Mechanism** · it is the Playbook's own campaign example ("Your vision board needs a feedback loop") | Pillar 6 Mental contrasting + implementation intentions · Angle A "Uncomfortable observation" | Loop DESIRE → IMAGINE → ACT → EVOLVE |
+| C2 · affirmations that don't feel fake | **#01 Old Way vs New Way** + **#30 Identity-Based Narrative** | Pillar 2 Self-efficacy (believable steps over outcome claims) · Angle D "Attainable future" | Comparison (outcome line vs process line) |
+
+**Polarizing, inside the Playbook's guardrail:** Psychological Reactance warns that "everything you believed was wrong" makes people defensive, so C3 attacks one rule ("you're blocking it") and gives her a question to try, never "manifestation is fake". This fits the ICP: the disappointed manifester who still believes (ICP.md, Nov 9).
+**Psychology Framework check (its 3 questions):** feels understood (slides 1–3) · learns something useful (slides 4–5) · ISSUE11 relevant without a pitch (small issue11.app + article CTA).

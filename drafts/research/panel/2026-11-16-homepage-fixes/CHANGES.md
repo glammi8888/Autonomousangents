@@ -78,3 +78,36 @@ After the edits, "behavior-change psychology" appears once on the page (in the "
 | Hero trust line, 2nd line (node SQh312SI4, all 3 breakpoints inherit) | "The yearly plan includes a 7-day free trial. Skip any week, no streaks. iPhone only." | "The yearly plan includes a 7-day free trial. Skip any week, no streaks. Cancel anytime in your iPhone settings. iPhone only." |
 
 Status: **LIVE.** Megan OK'd merge + publish ("1. You can do that"). Branch supple-thread merged into main (1 change: Home) and published to production, version `bd56af953`. Live check with Playwright: phrase count 1 at 390x844 and 1440x900, no horizontal scroll, logo fully visible, text readable, nothing cropped. Screenshots: `after-390-cancel.png`, `after-1440-cancel.png`.
+
+## Nov 17 · waitlist-page fixes
+
+Source: `../2026-11-17-waitlist-page-review.md` section 3 (rows 1a–5). Megan approved: "i want it to do all the fixes or tell you thefixes and you do the mods". Standing rule: always publish issue11.app.
+Status: **LIVE.** Framer branch `matte-meadow` merged into main (9 changes) and published to production, version **`1f9201075`**. Checked live with Playwright on Nov 17. No form was submitted.
+
+| # | Where | Before | After |
+|---|---|---|---|
+| 1a | `Early Access Submit` component (the hero form button on Desktop, Tablet and Phone, plus the blog article form) | White fill, black "Request access" | Black fill (`Primary` token), white label (`100` token), **"Request my invite"**, pointer cursor. The Success state is also black/white now. The arrow icon was skipped (optional). |
+| 1b | Same button: new Hover gesture variant | No hover state | Opacity 0.85 on hover. Live: opacity goes from 1 to 0.85. |
+| 2a | /thank-you paragraph (all breakpoints) | "Your request is in. The first Issue is invite-only, and invitations go out in waves. We're saving you a spot. Future you is already in print." | "Your request is in. The first Issue is invite-only, so our emails go out in waves before the Dec 11 beta. Keep an eye on your inbox (and your spam folder, just in case). Future you is already in print." |
+| 2b | /thank-you: new "Share block" under the paragraph | (none) | Thin divider · "KNOW SOMEONE WITH A BOARD FULL OF PLANS?" (Section Label style) · "Send her ISSUE11. She can request her own invite." · black **"Share ISSUE11"** button. This is a new code component, `ShareButton.tsx`. It calls `navigator.share({title:'ISSUE11', url:'https://issue11.app'})` and falls back to copying the link, after which the label shows "Link copied" for 2.5s. It has no tracking, no reward and makes no network calls. Live test in a desktop browser without share support: the fallback copied `https://issue11.app`, the label changed to "Link copied" and 0 requests were sent. |
+| 2c | /thank-you "Back to home" | The only action | Unchanged, now under the share button |
+| 3 | Hero small print (all breakpoints) | One grey Metadata line: "Private beta opens Dec 11, with invites for the waitlist. Founding members pay $39.99 for the first year (then $69.99/yr). Invite-only." + "The yearly plan includes a 7-day free trial. Skip any week, no streaks. Cancel anytime in your iPhone settings. iPhone only." | New dark line, "Offer Line" (new text style **Body - Medium**: Inter Tight 500, 18/17/16px, Primary colour): **"Free to join, no card needed. Founding rate: $39.99 for your first year (then $69.99/yr). Private beta opens Dec 11."** The grey line SQh312SI4 keeps its style and now reads: **"Invite-only. 7-day free trial on the yearly plan. Skip any week, no streaks. Cancel anytime in your iPhone settings. iPhone only."** Both lines sit in a new "Small print" stack with an 8px gap. Width is 500px on Desktop (keeps the hero from overflowing at 768px tall), 260px on Tablet (keeps it clear of the phone mockup) and 300px on Phone. |
+| 4 | Hero, Phone only | Top padding 48px; H1 46px; form bottom at 704px on a 375x667 screen | Hero/Content top padding 48 → 24px. Hero H1 uses a new phone-only style **H1 - Hero Phone** at 40px (−13%); the H1 is unchanged everywhere else. The small mockup moved up from 274 → 213px so it stays beside the description, and the hero is 1100 → 1140px tall so the second mockup stays clear of the small print. The headline words, kicker and "Manifestation doesn't work." were not touched. |
+| 5 | CTA labels | Header: "Request access" (Desktop) and "Get early access" (Tablet, Desktop-Scroll, Mobile, Mobile Open; the /thank-you header uses the same component). Closing button: "Request access" (all 3 breakpoints) | All now read **"Request my invite"**. The closing line "Get your invite before the Dec 11 beta and lock in $39.99 for your first year." is unchanged. |
+
+Copy change after the table was approved (row 2a): Megan first answered "Yes they do but not immediately" about the confirmation email, then clarified "Since its invite only they go by waves". So the paragraph doesn't promise a confirmation email. It says emails go out in waves and asks her to watch her inbox and spam folder.
+
+### Live checks (Playwright, deviceScaleFactor 1, Nov 17, after publish)
+- **Fix 4 acceptance:** at 375x667 the hero form spans 513–617px, so the bottom is at **617px**, under the 655px target and fully above the fold. At 390x844 the form bottom is at 591px and the small "Freedom Issue" mockup is fully visible and uncropped.
+- No horizontal scroll: scrollWidth equals viewport width at 390, 375 and 1440, on both the home page and /thank-you.
+- Phrase counts on the live home page: "Request access" 0 and "Get early access" 0 at every width. "Request my invite" appears 4× on phone (header, mobile menu, hero, closing) and 3× on desktop. "Free to join, no card needed" 1 and "Invite-only. 7-day free trial" 1.
+- Phrase counts on /thank-you (opened directly, status 200): new paragraph 1, "KNOW SOMEONE…" 1, "Share ISSUE11" 1, "Back to home" 1.
+- Hero button: computed background rgb(12, 14, 13) with a white label.
+- Visual QA (design/VISUAL-QA.md): I looked at every screenshot below. The logo is fully visible, nothing overlaps or is cut off, the text is readable on phone, and it stays on-brand (existing fonts and tokens). On Tablet (checked in the Framer canvas only), the phone mockup slightly overlaps the right end of the hero form. That overlap was there before this change (form width untouched).
+
+Screenshots (this folder):
+- Hero (fixes 1, 3, 4, 5): `after-1-3-4-5-hero-390-fold.png`, `after-4-hero-375x667-fold.png`, `after-1-3-4-5-hero-1440-fold.png`, `after-1-3-4-5-home-390-full.png`, `after-1-3-4-5-home-1440-full.png`
+- Hover (1b): `after-1a-hover-1440.png`
+- Thank-you (fix 2): `after-2-thankyou-390-fold.png`, `after-2-thankyou-375x667-fold.png`, `after-2-thankyou-1440-fold.png`, `after-2-thankyou-390-full.png`, `after-2-thankyou-1440-full.png`, `after-2b-share-copied-1440.png`
+
+Not changed: the blog article heading "Get early access to ISSUE11" (it's a heading, not a button) and the Rebrand Kit page's "Start your issue" button (it isn't part of the waitlist page).

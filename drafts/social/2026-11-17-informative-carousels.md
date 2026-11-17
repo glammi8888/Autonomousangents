@@ -153,3 +153,22 @@ Every slide line is copied word for word from design/editorial/LEXICON.md (their
 Pinterest cut (5): 1 · 3 · 4 · 6 · 7.
 Polarizing: slide 3 openly strikes a popular Law of Assumption line; believers will argue, skeptics (slide 1) feel heard.
 Flag for Megan: striking "I don't need the proof" could read as mocking believers (Bible: challenge the belief, nurture the believer). Softer option: no strike, just the line, then slide 4 answers it.
+
+---
+
+## C4 · proposed from the Instagram research (replaces C3 if Megan likes it)
+Format copied from the top carousels (numbered list of small, slightly delulu actions, honest slide near the end, series), not their words. Every tip is a Lexicon phrase word for word. Hook and the one-line body under each tip still need Megan's voice (she writes or picks; agents don't invent them).
+Hook options (format-based, Megan picks or rewrites): A "delulu things i do that actually work (part 1)" · B "you can manifest by:" (TikTok top-saved format)
+| # | Tip (Lexicon, word for word) |
+|---|---|
+| 1 | "Art direct your morning" |
+| 2 | "Remove ONE Thing (Yes, Just One)" |
+| 3 | "dress like it" |
+| 4 | "Before you reach for your phone, reach for a pen" |
+| 5 | "keep small promises to yourself" |
+| 6 | "One corner. Make it feel like you." |
+| 7 | "flowers on a Tuesday" ("they'll call you dramatic") |
+| 8 | THE HONEST PART: "Transformation is not the absence of interruption. It is the capacity to resume." (Bible registry) |
+| 9 | issue11.app · comment-keyword CTA to test later (needs a DM flow first) |
+Why polarizing: the delulu framing invites "this is not how manifesting works" comments from the Law of Assumption crowd, while each tip is a real, small action (ISSUE11's whole point). Series-ready: part 2, part 3.
+Photos: Megan's own (like amoyashante, her own photos made that one feel real).

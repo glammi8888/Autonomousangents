@@ -156,3 +156,10 @@ Megan: "put aside on a different work design board all the numbers I saved and l
 - Manifestation + angel numbers: 132, 133, 135–139, 142–144, 146
 - Vision board grid: 147, 148
 - Doll series: 156, 158, 160–162, 165, 166, 169, 170, 172 (Megan, Nov 17: "165 is good 166 / 169 / 170 / 172")
+
+## Variants · CT173–CT184 (Nov 17)
+Megan: "Do you think we have a good variety of pins to test now ? You can mix and match images too / Especially with pins similar to 42, 95, 45, 122, 133, 144, 62". There are 2 new photo + line pairs per format. CT62 was added to the favourites section.
+Shopping series (Megan, Nov 17): 5 lines in BANK. Waiting for her to show which "slavic girl with fur coat" photo she means.
+
+## Shopping series · CT185–CT190 (Nov 17)
+Megan's fur-coat shopping photos (pasted in chat, saved in shop/*-full.jpg) + her 6 lines from BANK. Megan: "the logos don't need to be cropped out", so the full photos are used with the Dior/Chanel bags visible (Megan's call after the trademark flag). The text sits on the coat between the face and the bags.

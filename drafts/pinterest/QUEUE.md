@@ -46,3 +46,5 @@ The other live slugs are in UTM-MAP.md. Add them after these 15.
 Status values: `waiting for Megan's go` → `go` (only once Megan says so in chat, logged here) → `scheduled <date> · <id>`.
 | Pin id | PNG path | Title | Description | Board | Link (with UTM) | AI label | Status |
 |---|---|---|---|---|---|---|---|
+
+- 2026-11-16 FAVOURITES = APPROVED (Megan: "Only the pins I selected so far" + "Yesssd"): every pin in the "❤️ Megan's favourites" section of the canvas (list in drafts/pinterest/color-test/COLOR-TEST.md, section "Favourites") counts as "go" for scheduling, 3/day, 7 days ahead. Week 1 is in drafts/pinterest/WEEK-NOV18.md. CT216–225 are NOT included until she moves them into favourites.

@@ -1,4 +1,4 @@
-# Favourites week 1: Nov 18–24 (draft, waiting on Megan's OK)
+# Favourites week 1: Nov 18–24 · SCHEDULED in Metricool (Megan OK, Nov 16)
 Megan, Nov 16: "Only the pins I selected so far" + "Yesssd" = favourites section only, 3 a day, 7 days ahead.
 Rules: no line repeats within the week · same link ≥72h apart · /rebrand-kit is free again from Nov 21 (the Notes pins use it until Nov 18).
 Boards (IDs from the live Notes pins): 940 glow up · 941 personal rebrand · 942 2027 vision board · 943 journal prompts · 944 lifemaxx.
@@ -28,3 +28,10 @@ Boards (IDs from the live Notes pins): 940 glow up · 941 personal rebrand · 94
 
 Descriptions: 1–2 keyword-first sentences per pin, written from the line + the linked article (no promised results).
 Left for later weeks: the other ~89 favourites.
+
+## Status (Nov 16, ~8pm PT)
+- All 20 were scheduled in Metricool (blog 7995906) with autoPublish on. Images are hosted on framerusercontent.com, and each pin has its title, description, alt text, link and board.
+- Metricool post IDs, in table order: 430971835, 430971863, 430971893, 430971931, 430971997, 430972031, 430972049, 430972072, 430972096, 430972118, 430972150, 430972189, 430972223, 430972256, 430972301, 430972323, 430972348, 430972373, 430972398, 430972409.
+- No AI label on any pin (Megan: "Don't label them").
+- Also: the Notes pin "rebranding my entire life at 11pm" was moved to 7:41pm Nov 16 (Megan: "We can post it now") and is PUBLISHED: https://www.pinterest.es/pin/253327547786561397
+- Next: week 2 (Nov 25–Dec 1) from the remaining ~89 favourites, at the same pace. The 4:13pm scheduler routine fills it.

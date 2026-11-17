@@ -39,10 +39,10 @@ P['CAR7-5']=doc('Carousel 7 · slide 5 · repeated line (118)',S+""".pin{backgro
 .rep{position:absolute;left:90px;top:220px;color:#6A625A;font-weight:300;font-size:56px;line-height:1.28;letter-spacing:-.02em}
 .rep .hi{color:#C2207E;font-weight:700}""",f"""{T()}{CNT(5,'#6A625A')}<div class="rep">{rep}</div>{U('#6A625A')}""")
 # ---- C · photo story · how to manifest money (full-bleed quote style, 156/158/185) ----
-SH='<div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.3) 0%,rgba(0,0,0,0) 15%,rgba(0,0,0,0) 52%,rgba(0,0,0,.75) 90%)"></div>'
+SH=''  # no fade (Megan Nov 17: 'the images are already good on their own', 'no fade')
 def ph(k,i,key,pos,html,fs=84,small=''):
-    P[k]=doc(f'Carousel 8 · photo · slide {i}',S+f""".q{{position:absolute;left:60px;right:60px;top:1060px;text-align:center;color:#fff;font-weight:800;font-size:{fs}px;letter-spacing:-.04em;line-height:1.02;text-shadow:0 4px 24px rgba(0,0,0,.6);text-wrap:balance}}
-.q i{{font-weight:300}}.s{{position:absolute;left:80px;right:80px;top:1320px;text-align:center;color:#fff;font-size:30px;font-weight:500}}""",
+    P[k]=doc(f'Carousel 8 · photo · slide {i}',S+f""".q{{position:absolute;left:60px;right:60px;top:1060px;text-align:center;color:#fff;font-weight:800;font-size:{fs}px;letter-spacing:-.04em;line-height:1.02;text-shadow:0 2px 10px rgba(0,0,0,.55),0 4px 30px rgba(0,0,0,.45);text-wrap:balance}}
+.q i{{font-weight:300}}.s{{position:absolute;left:80px;right:80px;top:1320px;text-align:center;color:#fff;font-size:30px;font-weight:500;text-shadow:0 2px 10px rgba(0,0,0,.6)}}""",
       f"""<img class="f full" src="{s(key)}" style="object-position:{pos}" {A}>{SH}{T('w')}{CNT(i,'#fff')}<div class="q">{html}</div>{f'<div class="s">{small}</div>' if small else ''}<div class="url" style="color:#fff;bottom:40px">issue11.app</div>""")
 ph('CAR8-1',1,'cashface','50% 25%','how to manifest money <i>(realistic)</i>')
 ph('CAR8-2',2,'cashpile','50% 50%','say your number out loud',small='know your rich af number')

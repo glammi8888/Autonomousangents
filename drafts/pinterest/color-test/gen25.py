@@ -18,7 +18,7 @@ P['CT222']=doc('Color test 222 · like 115 · spaced words',S+""".pin{background
 .q{position:absolute;left:70px;right:70px;top:480px;color:#111;font-weight:400;font-size:120px;line-height:1.08;letter-spacing:-.03em;text-align:justify;text-align-last:justify;word-spacing:.2em}""",f"""{T()}<div class="q">later = never<br>so act now</div>{U('#111')}""")
 rep=''.join('<div>Later = Never so act now.</div>' for _ in range(7))+'<div class="hi">Later = Never so act now.</div>'+''.join('<div>Later = Never so act now.</div>' for _ in range(7))
 P['CT223']=doc('Color test 223 · like 118 · repeated line',S+""".pin{background:#FEFBF4}
-.rep{position:absolute;left:90px;top:200px;color:#6A625A;font-weight:300;font-size:56px;line-height:1.28;letter-spacing:-.02em}
+.rep{position:absolute;left:90px;top:225px;color:#6A625A;font-weight:300;font-size:56px;line-height:1.28;letter-spacing:-.02em}
 .rep .hi{color:#C2207E;font-weight:700}""",f"""{T()}<div class="rep">{rep}</div>{U('#6A625A')}""")
 P['CT224']=doc('Color test 224 · like 125 · aura gradient',S+""".pin{background:radial-gradient(circle at 50% 52%,#FFE2C2 0%,#FFC7A8 18%,#F7A38C 38%,#E9877A 60%,#C9686A 100%)}
 .q{position:absolute;left:150px;right:150px;top:700px;text-align:center;color:#3A1815;font-weight:400;font-size:52px;letter-spacing:-.01em;line-height:1.2}""",f"""{T()}<div class="q">later = never so act now</div>{U('#3A1815')}""")

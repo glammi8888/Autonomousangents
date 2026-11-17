@@ -175,3 +175,4 @@ Megan: "now you can simply reproduce and create varieties of the ones we have ap
 
 ## "Later = Never so act now" · CT216–CT225 (Nov 17)
 Megan's line in her picked styles: 45, 138, 110, 111, 113, 114, 115, 118, 125, 137.
+- Phone notes 211–215 validated (Megan, Nov 17: "the notes can go towards the winners"), moved to favourites

@@ -135,3 +135,21 @@ What was wrong in v1/v2 (checked against the guide's AI-giveaways table): explai
 Pinterest cut (5): 1 · 2 · 4 · 6 · 7.
 Caption: "a month in and nothing moved. that doesn't mean you blocked it. pick one thing you can do before bed. ✨"
 Polarizing point: it questions "don't react to the 3D" in the believers' own words, and takes the skeptic's comment seriously instead of telling her to stay positive.
+
+---
+
+## C3 v4 · lexicon only (Megan, Nov 17: "Sounds too much like AI" + "Also using terms from our lexicon is important too")
+Every slide line is copied word for word from design/editorial/LEXICON.md (their words) or the Bible copy registry. No sentence on a slide was written by an agent.
+
+| # | Slide | Source (word for word) |
+|---|---|---|
+| 1 | **"HAS NOT WORKED YET ITS BEEN A MONTH"** | Lexicon · skeptic comments (their spelling kept) |
+| 2 | "stuck in the what if phase" | Lexicon · TikTok, feeling stuck |
+| 3 | "I don't need the proof" with a hand-drawn strike through it | Lexicon · Law of Assumption mindset (the doctrine we question; the strike is design, no added words) |
+| 4 | "Is This Building Me... Or Blocking Me?" | Lexicon · rebrand audit question |
+| 5 | diagram (conceptual model): a bumpy line from "manifestation rut" to "it finally clicked" | Lexicon · stuck + proof words |
+| 6 | "Remove ONE Thing (Yes, Just One)" | Lexicon · rising phrases |
+| 7 | "It's not too late" · issue11.app | Lexicon · 30s, "she needs to hear this" |
+Pinterest cut (5): 1 · 3 · 4 · 6 · 7.
+Polarizing: slide 3 openly strikes a popular Law of Assumption line; believers will argue, skeptics (slide 1) feel heard.
+Flag for Megan: striking "I don't need the proof" could read as mocking believers (Bible: challenge the belief, nurture the believer). Softer option: no strike, just the line, then slide 4 answers it.

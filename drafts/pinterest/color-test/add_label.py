@@ -1,3 +1,4 @@
+# RETIRED Nov 17 (Megan: "ah no eyebrow please"). Do not run.
 # Megan, Nov 17 ("I hope people understand it is the meaning of manifestation lol" → "yes let's do that"): small "manifestation tip" label under the logo on the Later = Never pins (CT216–CT225). Idempotent; run after gen24.py/gen25.py.
 import re
 for n in range(216,226):

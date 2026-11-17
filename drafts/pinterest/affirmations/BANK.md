@@ -93,3 +93,22 @@ See ANGEL-NUMBERS.md (✅ approved by Megan Nov 16: "Ok this is excellent". Use 
 - Rich & Stylish 2027 (Megan, Nov 17, for pin CT147)
 - Hot and Rich all 2027 (Megan, Nov 17, for pin CT148)
 - I am healthy I am wealthy I am rich I am that bitch (viral "funny affirmations"; Megan, Nov 17: "this is gold")
+
+## Barbie / pink series · Megan's picks from viral sassy + funny captions (Nov 17), word for word
+- My toxic trait is knowing the truth before I ask because I wanna see how good you lie
+- if u lock in like a delusional psychopath u can actually get what u want sooner
+- I'm a little too self-aware to enjoy life and a little too delusional to give up
+- when someone says "you're right" but i already knew that
+- i swear i'm such a sweet girl but y'all be testing my patience all the time
+- Me, weird? Bitch, I'm limited edition.
+- Me when I say something with confidence but it was wrong
+- me fighting the urge to say "move bitch" to the slow walkers in front of me
+- Hating me only boosts my ego
+- Me after saying "who would I even tell?" Knowing exactly who I'm gonna tell
+- Chin up princess or the crown slips
+- I love being me. it pisses off all the right people
+- What a boring world. No fairies. No mermaids. No unicorns. Just bills and dickheads.
+- when your fake scenarios are so good, you get excited to go to bed>>>
+- Me when someone is better than me at the only thing I'm good at
+- YOU DON'T HAVE TO BE EVERYONE'S CUP OF TEA. BE GASOLINE. SET THAT SHIT ON FIRE.
+- I am both dumber and smarter than you think. do not estimate me

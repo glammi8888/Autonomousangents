@@ -50,3 +50,6 @@ Optional, beta, premium, immutable, unavailable, or ineligible features remain
 unscored opportunities. Do not turn broad benchmarks or fixed CPA or budget
 ratios into universal rules. Any account mutation remains a draft unless the
 conductor's mutation gate passes.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/marketing/GRAPH_REPORT.md first (and graphs/product/ for brand and voice) to find past ad plans, research and decisions, then open the real files it points to (Megan, Nov 17: "I said install it and have every agent use it").

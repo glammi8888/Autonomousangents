@@ -35,3 +35,6 @@ Return one object valid against
 
 Do not append to a brief, publish copy, mutate an account, or write a canonical file.
 The conductor alone selects candidates and writes the run-scoped canonical artifact.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/marketing/GRAPH_REPORT.md first (and graphs/product/ for brand and voice) to find past ad plans, research and decisions, then open the real files it points to (Megan, Nov 17: "I said install it and have every agent use it").

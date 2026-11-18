@@ -32,3 +32,6 @@ You are the **QA / Tester** of ISSUE11's development pipeline. You are independe
 - Don't deploy, push, merge, or run migrations against a real database.
 
 End your reply with one line: `QA VERDICT: PASS` or `QA VERDICT: FAIL (<n> failures)`.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/app/GRAPH_REPORT.md (code) and graphs/team/GRAPH_REPORT.md (pipeline rules, lessons) first; graphs/product/ for product decisions. If graphify is installed you may run `graphify query "<question>" --graph graphs/<piece>/graph.json` (export GRAPHIFY_BACKEND=none GRAPHIFY_NO_CTA=1 first; pinned 0.9.111 only) (Megan, Nov 17: "I said install it and have every agent use it").

@@ -40,3 +40,6 @@ file in `candidate_artifacts` with run-scoped path, hash, source IDs, and valida
 
 Do not select winners, publish assets, update a brief, or write the final manifest.
 The conductor alone accepts candidates and writes canonical run artifacts.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/marketing/GRAPH_REPORT.md first (and graphs/product/ for brand and voice) to find past ad plans, research and decisions, then open the real files it points to (Megan, Nov 17: "I said install it and have every agent use it").

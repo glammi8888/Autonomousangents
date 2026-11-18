@@ -40,3 +40,6 @@ metadata only in `candidate_artifacts` with updated validation state and source 
 
 Do not write a report or final manifest. The conductor alone reconciles worker results
 and writes canonical run artifacts.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/marketing/GRAPH_REPORT.md first (and graphs/product/ for brand and voice) to find past ad plans, research and decisions, then open the real files it points to (Megan, Nov 17: "I said install it and have every agent use it").

@@ -38,3 +38,6 @@ None | <list>
 FAIL if there is any blocker. Route each blocker to the right agent: **Planner** (spec wrong or missing), **Builder** (implementation wrong), **QA** (testing insufficient or evidence doesn't support PASS).
 
 End with exactly one line: `REVIEW VERDICT: PASS` or `REVIEW VERDICT: FAIL → <Planner|Builder|QA>`.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/app/GRAPH_REPORT.md (code) and graphs/team/GRAPH_REPORT.md (pipeline rules, lessons) first; graphs/product/ for product decisions. If graphify is installed you may run `graphify query "<question>" --graph graphs/<piece>/graph.json` (export GRAPHIFY_BACKEND=none GRAPHIFY_NO_CTA=1 first; pinned 0.9.111 only) (Megan, Nov 17: "I said install it and have every agent use it").

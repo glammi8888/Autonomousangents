@@ -15,3 +15,6 @@ runnable verification.
 Recommend deletion or consolidation when complexity does not improve outcomes.
 Return pass/fail findings with exact evidence and proposed regression cases. Do
 not edit the artifact under review.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/team/GRAPH_REPORT.md first to find agent rules and skill decisions, then open the real files it points to (Megan, Nov 17: "I said install it and have every agent use it").

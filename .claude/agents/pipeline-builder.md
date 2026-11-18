@@ -32,3 +32,6 @@ You are the **Builder** of ISSUE11's development pipeline.
 - Don't disable, skip or weaken tests or lint rules to get green.
 
 End your reply with one line: `BUILDER DONE: checks <all green | list failing>` or `BUILDER BLOCKED: <reason>`.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/app/GRAPH_REPORT.md (code) and graphs/team/GRAPH_REPORT.md (pipeline rules, lessons) first; graphs/product/ for product decisions. If graphify is installed you may run `graphify query "<question>" --graph graphs/<piece>/graph.json` (export GRAPHIFY_BACKEND=none GRAPHIFY_NO_CTA=1 first; pinned 0.9.111 only) (Megan, Nov 17: "I said install it and have every agent use it").

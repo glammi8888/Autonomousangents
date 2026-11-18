@@ -25,3 +25,6 @@ Before working: read CLAUDE.md, `.pipeline/lessons.md` (CURRENT FACTS box), `des
 - No promises of results, no invented numbers. Glammi client work: only for real clients who agree, posted by the client's real staff.
 - Reddit pages may be blocked from fetching here. If so, work from search results and say what you couldn't open. Never guess thread contents.
 - Keep it short and plain for a non-developer founder. Personal details never go into files.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/marketing/GRAPH_REPORT.md first (past Reddit threads, research, UTM links), then the real files. At the end of a run that changed repo files, run `python3 tools/graphs/graphs.py status` with graphify's Python and report "map needs refresh: <piece>" (Megan, Nov 17: "I said install it and have every agent use it").

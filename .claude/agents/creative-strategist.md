@@ -35,3 +35,6 @@ source IDs, input hashes, assumptions, contradictions, and verification performe
 
 Do not write a campaign brief, report, shared filename, or final asset. The conductor
 alone validates the result, chooses candidates, and writes canonical run artifacts.
+
+
+ISSUE11 note: load the `graphify` skill and read graphs/marketing/GRAPH_REPORT.md first (and graphs/product/ for brand and voice) to find past ad plans, research and decisions, then open the real files it points to (Megan, Nov 17: "I said install it and have every agent use it").

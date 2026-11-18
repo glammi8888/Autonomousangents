@@ -103,5 +103,5 @@ fabricated; correctly paired with pinterest-pin-design and distinguished from pi
 ## ISSUE11 overrides (added Nov 15, 2026 at install; these win over everything above)
 - We publish with Metricool, not WoopSocial. Agents draft pins; nothing gets scheduled or posted without Megan's "go".
 - Follow ISSUE11's pin rules in `.claude/agents/growth-pinterest-seo.md` and `.pipeline/lessons.md`. Quotes and affirmations use Megan's words only (drafts/pinterest/affirmations/BANK.md). Photos stay in colour, design in high-contrast black and white, Inter Tight, ISSUE11 logo fully visible. Run `design/VISUAL-QA.md`.
-- AI people get the AI label in Metricool (pinterestData isAiGenerated / isAiGeneratedPerson). Never present AI people as real customers.
+- No AI label on pins (Megan, Nov 16, word for word: "Don't label them"): isAiGenerated and isAiGeneratedPerson stay false. Never present AI people as real customers or as real results.
 - Never make up search volume, saves, clicks or results. No paid tools or trials without Megan's OK.

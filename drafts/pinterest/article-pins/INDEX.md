@@ -29,6 +29,7 @@ Source boards: Claude Design Lead Magnets canvas (https://claude.ai/artifact/MZr
 | ArticlePinHTM | issue11.app/blog/how-to-manifest | png/ArticlePinHTM.png | How to Manifest What You Want: 4 Steps That Actually Work | Dark iPhone Notes screenshot titled "how to manifest what you want" with the article's 4 steps in the live notes voice and a "stop" line | Pass 390 + 236 (Nov 17) | live Nov 17 (Framer babf6a18c, 390px check pass) |
 | ArticlePinDMW | issue11.app/blog/does-manifestation-work | png/ArticlePinDMW.png | Does Manifestation Really Work? What Holds Up + What Backfires | Dark iPhone Notes screenshot titled "does manifestation actually work?" listing what works and what doesn't, from the article, in the live notes voice | Pass 390 + 236 (Nov 17) | live Nov 17 (Framer babf6a18c, 390px check pass) |
 | ArticlePinLOA | issue11.app/blog/law-of-assumption | png/ArticlePinLOA.png | Law of Assumption: How to Use It This Week (Without Waiting) | Dark iPhone Notes screenshot titled "law of assumption, the part that works" with the article's 5 weekly steps and 2 assumption → move examples, in the live notes voice | Pass 390 + 236 (Nov 17) | live Nov 17 (Framer babf6a18c, 390px check pass) |
+| ArticlePinSM | issue11.app/blog/scripting-manifestation | png/ArticlePinSM.png | Scripting Manifestation Examples: My 5-Line Method (+ Journal Example) | Dark iPhone Notes screenshot titled "scripting manifestation, my 5-line method" with the article's 5 lines and its Money example, in the live notes voice | Pass 390 + 236 (Nov 18) | ready for Framer · NOT on the canvas yet (canvas full at 512 files) |
 
 Keyword check for ArticlePinVBE: Pinterest autocomplete (Apify, Nov 16) suggests "vision board examples" with "inspiration", "aesthetic", "life", "career" and "manifestation" variants. Raw: `../2026-11-16-vision-board-examples-keywords.json`. No volume figure from Pinterest; Google US 11,000/mo per QUEUE.md.
 
@@ -66,7 +67,7 @@ Keyword check for ArticlePinPV: Pinterest autocomplete (Apify, Nov 16) suggests 
 - Alt text on the live site drops the internal "in the live notes voice" / "rewritten in the live notes voice" notes from SCI, HTM, DMW and LOA. The rest is word for word.
 - Pinterest Save button: still NOT added (waiting on Megan).
 
-Next articles without a pin (STRATEGY.md order, then the rest of the sitemap): scripting-manifestation · mirror-work · best-manifestation-apps · becoming-her.
+Next articles without a pin (STRATEGY.md order, then the rest of the sitemap): mirror-work · best-manifestation-apps · becoming-her.
 
 ## Nov 17 publish note
 - All 18 images were added to their articles' Content, as the first block after the intro paragraph. NYVB2 sits before "How to Host a Vision Board Party". Published as Framer version 699f2d432.
@@ -85,3 +86,5 @@ Keyword check for ArticlePinHTM: Pinterest autocomplete (Apify, Nov 17): "how to
 Keyword check for ArticlePinDMW: Pinterest autocomplete (Apify, Nov 17) suggests "does manifestation really work", "how does manifestation work" and "manifestation methods that actually work". Raw: `../2026-11-17-does-manifestation-work-keywords.json`. The items are taken from the article's "The Parts That Hold Up" and "Where Manifesting Can Backfire" sections, rewritten in the notes voice. No claims beyond the article's sourced ones.
 
 Keyword check for ArticlePinLOA: Pinterest autocomplete (Apify, Nov 17) suggests "law of assumption success stories", "law of assumption affirmations", "law of assumption quotes", "law of assumption neville goddard" and "law of assumption money". Raw: `../2026-11-17-law-of-assumption-keywords.json`. Steps and examples are from the article's "How to Use It This Week" and "Assumptions That Turn Into Moves" sections; the $20 and 15 min / Saturday 8am details are the article's own. No BANK quote on this pin.
+
+Keyword check for ArticlePinSM: Pinterest autocomplete (Apify, Nov 18) suggests "scripting manifestation journal", "scripting manifestation examples", "scripting manifestation journal example", "scripting manifestation prompts" and "scripting manifestation notes app". Raw: `../2026-11-18-scripting-manifestation-keywords.json`. The 5 lines and the example are from the article's "The 5-Line Scripting Method" and its Money script. No BANK quote.

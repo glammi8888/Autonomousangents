@@ -35,3 +35,8 @@ Left for later weeks: the other ~89 favourites.
 - No AI label on any pin (Megan: "Don't label them").
 - Also: the Notes pin "rebranding my entire life at 11pm" was moved to 7:41pm Nov 16 (Megan: "We can post it now") and is PUBLISHED: https://www.pinterest.es/pin/253327547786561397
 - Next: week 2 (Nov 25–Dec 1) from the remaining ~89 favourites, at the same pace. The 4:13pm scheduler routine fills it.
+
+## UTM fix (Nov 17, ~6:40pm PT)
+All 20 pins were still PENDING, so each was updated in Metricool with only the pin link changed to `<same URL>?utm_source=pinterest&utm_medium=organic&utm_campaign=<slug>` (per drafts/marketing/UTM-MAP.md; /rebrand-kit → `rebrand-kit`). Title, description, image, alt text, board, time and the "no AI label" setting are unchanged (checked in each update response). None skipped. Updating gave each post a new id (uuid unchanged). New ids, in table order:
+CT110 432297549 · CT211 432297603 · CT62 432297636 · CT89 432297668 · CT21 432297700 · CT147 432297719 · CT133 432297757 · CT205 432297783 · CT122 432297807 · CT95 432297841 · CT213 432297867 · CT185 432297931 · CT201 432297976 · CT45 432298015 · CT156 432298048 · CT195 432298093 · CT42 432298157 · CT144 432298203 · CT165 432298250 · CT212 432298282.
+Not touched (not one of the 20): the Notes pin "How to lifemaxx 2027" (id 428566034, Nov 18 11:14am) still links https://issue11.app/rebrand-kit without UTM.

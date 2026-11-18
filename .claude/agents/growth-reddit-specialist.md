@@ -27,4 +27,4 @@ Before working: read CLAUDE.md, `.pipeline/lessons.md` (CURRENT FACTS box), `des
 - Keep it short and plain for a non-developer founder. Personal details never go into files.
 
 
-ISSUE11 note: load the `graphify` skill and read graphs/marketing/GRAPH_REPORT.md first (past Reddit threads, research, UTM links), then the real files. At the end of a run that changed repo files, run `python3 tools/graphs/graphs.py status` with graphify's Python and report "map needs refresh: <piece>" (Megan, Nov 17: "I said install it and have every agent use it").
+ISSUE11 note: load the `graphify` skill and read graphs/marketing/GRAPH_REPORT.md first (past Reddit threads, research, UTM links), then the real files. The maps are refreshed once a day by OPS (Megan, Nov 17: "I said install it and have every agent use it").

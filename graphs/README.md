@@ -16,7 +16,7 @@ Not mapped on purpose: images (too costly to read one by one), vendored skills, 
 2. Then open the source files it points to. The map shows where to look; it doesn't replace the file. Always quote the real file.
 3. If `graphify` is installed (0.9.111, the scanned version only): `graphify query "<question>" --graph graphs/<piece>/graph.json` (run `export GRAPHIFY_BACKEND=none GRAPHIFY_NO_CTA=1` first).
 
-## Keeping it fresh (every chat, every agent: Megan, Nov 17: "keep doing /graphify in all chats please" + "and for all agents")
+## Keeping it fresh (Nov 18: doc refreshes are batched once a day by the 6pm OPS run; chats only rebuild code for free) (every chat, every agent: Megan, Nov 17: "keep doing /graphify in all chats please" + "and for all agents")
 ```
 export GRAPHIFY_BACKEND=none GRAPHIFY_NO_CTA=1
 PY=$(head -1 $(which graphify) | tr -d '#!')   # graphify's python

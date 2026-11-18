@@ -13,9 +13,9 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 ## 2. This week's numbers (week of Nov 15, 2026)
 | Metric | Number | Source / date |
 |---|---|---|
-| issue11.app visits / month | **missing** | Framer analytics, not read yet |
+| issue11.app visits | **6–8 a day** (≈180–240/month), source not confirmed | Megan, Nov 18 (Framer). Waiting for a Framer Analytics → Sources screenshot |
 | Pinterest impressions (pin views) / month | **missing** | Pinterest Analytics / Metricool, not read yet |
-| Pinterest outbound clicks | **missing** | same |
+| Pinterest outbound clicks | not available: Pinterest doesn't show outbound clicks (Megan, Nov 18) | use Framer Sources + utm_source=pinterest instead |
 | Email/waitlist sign-ups this month (leading indicator) | **missing** | Waitlist Sheet + freebie forms, not counted yet |
 | New paying app subscribers (goal 500/mo, after launch) | 0 (app not launched; beta Dec 11) | App Store Connect / RevenueCat after launch |
 | Visitor → sign-up conversion | **missing** (needs both visits and sign-ups) | sign-ups ÷ visits, same period |
@@ -87,6 +87,16 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 22 · Nov 18, 22:25 UTC (daily)**
+- 📊 **First real number:** issue11.app gets **6–8 visitors a day** (Megan, Nov 18). The source isn't confirmed yet. Megan's correction: "No because Pinterest doesn't show outbound clicks", so no visits get credited to Pinterest. We'll use Framer Analytics → Sources and the UTM tags. (This replaces yesterday's idea of reading "outbound clicks" from Metricool.)
+- 📌 Pinterest: Megan rejected the 7 new phone-notes article pins ("No the pins are so bad" + "What about the ones we already approved ?"). Rule now: build only from her approved favourites. Separate issue: "becoming her" (banned wording) appeared in 1 pin and 5 scheduled captions; a fix list went to the Manager. The 89 favourites (Nov 25–Dec 24) stay scheduled.
+- 🔎 SEO/AEO: Google limits indexing requests to 10 a day, so Megan sends one batch of 10 every 24 h (list in the repo). 2 AI-prompt FAQs added to how-to-make-a-vision-board. ⚠️ The daily run published 3 ISSUE11 articles again on Nov 18 (3rd day over Megan's 1/day). The fix needs her OK to edit that task's instructions (asked Nov 17, no answer yet).
+- 📱 ASO Scout: listing v15 drafted from Applyra + ASOMobile. Megan: "ok I like Applyra" + "Let me go unlimited" ($9.99/mo).
+- 💸 Media Buyer: ads setup "Not yet" (Megan, Nov 18), so the $300 test hasn't started.
+- 🧵 Reddit · 🎬 Viral · 🖋 Editor: no change.
+- 💡 Idea: at 6–8 visits a day, the fastest way to learn what works is where the visits come from. Once Megan shares Framer Sources, the room logs it weekly next to the pin schedule (pins start Nov 25) and the indexing batches. Traffic: measures, doesn't add. Cost: $0. Flag risk: none. Megan must: one screenshot of Framer Analytics → Sources a week.
+- 0 subagents.
+
 **Cycle 21 · Nov 17, 22:25 UTC (daily)**
 - 📌 Pinterest: **89 of Megan's favourite pins scheduled in Metricool, 3/day, Nov 25 → Dec 24** (Megan: "Yes you can schedule all my favourites into metricool"), each linking to an article with UTM tags (`drafts/pinterest/FAVOURITES-SCHEDULE.md`). ⚠️ The last 5 (Dec 23–24) show Dior/Chanel logos; they're at the end so Megan can pull them. New article pins in the phone-notes format: self-care-ideas, how-to-manifest, does-manifestation-work, law-of-assumption. Carousels paused (Megan).
 - 🔎 SEO/AEO: Megan sent 30 indexing requests ✅. 34 ISSUE11 articles live, still 0/101 keywords in the top 100 (expected until Google indexes them; check Nov 19–21). ⚠️ **4 new ISSUE11 articles published Nov 17** (gratitude-journal-prompts, how-to-manifest-someone, how-to-manifest-a-job, manifestation-examples), although Megan confirmed 1/day on Nov 16. Cause: the daily article task's own instructions still say "THREE ISSUE11 articles". The lessons.md rule doesn't override them. Asked Megan to OK fixing those instructions.

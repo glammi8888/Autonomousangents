@@ -246,3 +246,10 @@ Sends online: B, C, D send nothing. Graphify sends nothing by default; with a Ge
 - apidojo/tiktok-scraper (2.5k users): inputs keywords, sort, date, country; no login. $0.0003/item.
 - apidojo/instagram-hashtag-scraper (521 users): inputs hashtag URLs, posts/reels toggle, max items; no login. $0.0004/item.
 - Sends online: only search terms/hashtags. Our Apify token is injected by the proxy, never in the repo or chat. Every run capped with maxTotalChargeUsd. Total spent Nov 17: $0.30.
+
+## Nov 18, 2026 · Applyra (claude.ai connector, remote MCP) · scan PASSED with notes
+Megan, word for word: "ok I like Applyra" + "Let me go unlimited". Plan: Unlimited, $9.99/mo billed monthly (or $99.99/yr), includes MCP (10,000 requests/mo). No trial, cancel anytime, refund policy not stated.
+- Source checked: applyra.io/features/mcp-server, /pricing, /privacy (privacy "Last updated: November 17, 2026"). Vendor: Krnel Studio (Aurélien Weiss), France.
+- Tools (30): mostly read. Write tools only touch the Applyra account (add app/keywords/competitors, notes, metadata drafts). The vendor says it "never touches your store listing". No App Store Connect or Google Play login needed: apps are added by public bundle ID. Rule: never connect App Store Connect to it.
+- Data it sends online: your Applyra account data (tracked apps, keywords, notes, drafts); AI features send app data + keywords to AI providers (OpenAI, Groq, NVIDIA, Cerebras), "not your name, your email address or your payment details". On sign-up/subscription, hashed email + IP go to ad partners (Google, X, OpenAI via PostHog). "We do not sell your personal data." Usage data kept up to 24 months; account data deleted within 30 days of account deletion. AI training: not stated.
+- No local install, no keys in the repo, no persistence on our machines. Connect via claude.ai → Settings → Connectors → Browse → Applyra → Connect (OAuth sign-in). Agents use it read-first; drafts only, Megan approves listings and pastes them into App Store Connect herself.

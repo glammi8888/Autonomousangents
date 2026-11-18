@@ -1,2 +1,7 @@
+/home/user/Autonomousangents/.claude/agents/growth-reddit-specialist.md
+/home/user/Autonomousangents/.claude/agents/pipeline-builder.md
+/home/user/Autonomousangents/.claude/agents/pipeline-planner.md
+/home/user/Autonomousangents/.claude/agents/pipeline-qa.md
+/home/user/Autonomousangents/.claude/agents/pipeline-reviewer.md
 /home/user/Autonomousangents/.pipeline/lessons.md
 /home/user/Autonomousangents/CLAUDE.md

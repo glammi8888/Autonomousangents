@@ -240,3 +240,4 @@ Megan, Nov 13: "I also would like you to give me a projection daily" · "Time pr
 - 2026-11-18 · (Glammi worker, 01:09Z block) Light block: no site change (3 drafts need covers). Read graphs/marketing/GRAPH_REPORT.md per the new map rule: it covers ads, Pinterest, Marketing Room and ISSUE11 plans; the Glammi SEO/AEO working files (drafts/ai-tracking, drafts/glammi-blog) aren't in it, so keep using them directly. The Nov 18 'AI score drop' was ISSUE11's (prompt set went 6 to 20); Glammi stayed flat at 1.59% on Nov 17.
 - 2026-11-18 · (Glammi worker, 07:10Z block) Light block: no site change (3 drafts need covers). Two indexing lists exist (mine + the Manager's); added a cross-note so Megan doesn't spend the daily quota twice.
 - 2026-11-18 · (Glammi worker, 13:09Z block) Light block: no change.
+- 2026-11-18 · (Glammi worker, 19:10Z block) Light block: no change (dental-seo, dental-marketing, fashion-marketing-agency still drafts without covers).

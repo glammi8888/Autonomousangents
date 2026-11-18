@@ -1,0 +1,188 @@
+[{
+  "type": "keyword",
+  "keyword": "best apps for manifestation",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "autocomplete",
+  "sources": [
+    "autocomplete"
+  ],
+  "rank": 1,
+  "wordCount": 4,
+  "addedWords": "best for",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=best%20apps%20for%20manifestation",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 1,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "keyword",
+  "keyword": "best manifestation apps",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "autocomplete",
+  "sources": [
+    "autocomplete",
+    "refinement"
+  ],
+  "rank": 2,
+  "refinementLabel": "Best",
+  "relevanceScore": 2.607,
+  "wordCount": 3,
+  "addedWords": "best",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=best%20manifestation%20apps",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 2,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "keyword",
+  "keyword": "free manifestation apps",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "autocomplete",
+  "sources": [
+    "autocomplete"
+  ],
+  "rank": 3,
+  "wordCount": 3,
+  "addedWords": "free",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=free%20manifestation%20apps",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 3,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "keyword",
+  "keyword": "apps for manifestation",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "autocomplete",
+  "sources": [
+    "autocomplete"
+  ],
+  "rank": 4,
+  "wordCount": 3,
+  "addedWords": "for",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=apps%20for%20manifestation",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 4,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "keyword",
+  "keyword": "manifestation app design",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "refinement",
+  "sources": [
+    "refinement"
+  ],
+  "rank": 1,
+  "refinementLabel": "Design",
+  "relevanceScore": 3.367,
+  "wordCount": 3,
+  "addedWords": "app design",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=manifestation%20app%20design",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 5,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "keyword",
+  "keyword": "manifestation app icons",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "refinement",
+  "sources": [
+    "refinement"
+  ],
+  "rank": 2,
+  "refinementLabel": "Icons",
+  "relevanceScore": 2.9,
+  "wordCount": 3,
+  "addedWords": "app icons",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=manifestation%20app%20icons",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 6,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "keyword",
+  "keyword": "pinterest is a manifestation app",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "refinement",
+  "sources": [
+    "refinement"
+  ],
+  "rank": 3,
+  "refinementLabel": "Pinterest is",
+  "relevanceScore": 2.74,
+  "wordCount": 5,
+  "addedWords": "pinterest is a app",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=pinterest%20is%20a%20manifestation%20app",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 7,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "keyword",
+  "keyword": "free manifestation app",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "refinement",
+  "sources": [
+    "refinement"
+  ],
+  "rank": 5,
+  "refinementLabel": "Free",
+  "relevanceScore": 2.525,
+  "wordCount": 3,
+  "addedWords": "free app",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=free%20manifestation%20app",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 8,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "keyword",
+  "keyword": "stella manifest app",
+  "seed": "manifestation apps",
+  "parentKeyword": "manifestation apps",
+  "depth": 1,
+  "source": "refinement",
+  "sources": [
+    "refinement"
+  ],
+  "rank": 6,
+  "refinementLabel": "Stella",
+  "relevanceScore": 1.701,
+  "wordCount": 3,
+  "addedWords": "stella manifest app",
+  "searchUrl": "https://www.pinterest.com/search/pins/?q=stella%20manifest%20app",
+  "query": "manifestation apps",
+  "searchType": "keywords",
+  "position": 9,
+  "scrapedAt": "2026-11-18T08:20:12.252Z"
+},
+{
+  "type": "notice",
+  "notice": "Run summary: 9 row(s) delivered, 0 free; nothing charged. This row is free and is not part of your data — filter it out with type != \"notice\"."
+}]

@@ -2,11 +2,11 @@
 ".claude/agents/customer-panel.md": "6cbacedf6cfc5efa2260346e2c91f89678976263",
 ".claude/agents/growth-media-buyer.md": "770194ffc17dd5926e4ca8b4e093f1678c5379ca",
 ".claude/agents/growth-pinterest-seo.md": "0a14f355f327d9d7d52dc1a0eea115f1dc07780b",
-".claude/agents/growth-reddit-specialist.md": "f77b272f1023f99c7c97b8bb8104621f51829ce2",
-".claude/agents/pipeline-builder.md": "3e29f208f4c2621c9348aab258327402fed0a3c0",
-".claude/agents/pipeline-planner.md": "5f8c9919cffd6ca089f1143612ba96eed03466ff",
-".claude/agents/pipeline-qa.md": "f3c4680b6cbf12aff34efee7afd4cebb3564cb4e",
-".claude/agents/pipeline-reviewer.md": "c6fdc7dee16801b37cb5616a7cc6c60d999c0743",
+".claude/agents/growth-reddit-specialist.md": "4daf17705a43bd2b1972d2080a6d4faff1a78df9",
+".claude/agents/pipeline-builder.md": "b384acd5e0a0f71801333bd6ee76b8cc2927b363",
+".claude/agents/pipeline-planner.md": "27b29673b3b74deca49bf0675dedb793e36898cb",
+".claude/agents/pipeline-qa.md": "f6e74b090e64d2b84af2a7241cb59536e9a5ceae",
+".claude/agents/pipeline-reviewer.md": "562ea3cb1eca63fe393fa90d18bea365a6abba0a",
 ".claude/agents/the-editor.md": "d362c94965a3905ab7650f056f325d6243078303",
 ".claude/commands/decision-brief.md": "28dfac169b07aa464536c0bd1de44c229fa1fcaf",
 ".claude/commands/pipeline.md": "be0d5c8091e81b1a401e32a2589fbc5b94d3baa4",
@@ -15,8 +15,8 @@
 ".pipeline/README.md": "81a64e0172f26deaddca38446c40cd11cf91ce17",
 ".pipeline/acceptance-criteria.md": "d8968e966e5d796c52c48e6f5d32102fa2bb8e0c",
 ".pipeline/app-store-checklist.md": "76fa3b64a26f50922497c13710e4b8e4070b2cfa",
-".pipeline/lessons.md": "3b584faee2657ec2c0ea925e28be0281dd4f3cd4",
+".pipeline/lessons.md": "a0fb47715e35a1c7a9ebdf750c878124f9037fc6",
 ".pipeline/request.md": "f42af7ca63439d061a657830b7f4788f7e30bd91",
 ".pipeline/spec.md": "578790698bbeea7fb0bf806f059c22eeeb483cfc",
-"CLAUDE.md": "c66457a809addf53dbea511c989096b4a7c0dd9c"
+"CLAUDE.md": "def1766e76fdd10ca5244ee02aaac7da3ad0e132"
 }

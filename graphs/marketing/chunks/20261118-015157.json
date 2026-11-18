@@ -1,0 +1,1347 @@
+{
+ "nodes": [
+  {
+   "id": "drafts_pinterest_hourly_log_hourly_log",
+   "label": "Pinterest agent hourly log",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L1",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_article_pins",
+   "label": "Article pins (ready for Framer)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_color_test_pins",
+   "label": "Colour test pins CT01-CT77",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L11",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "label": "Visual QA at 390 + 236 px",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Every pin is checked at phone (390) and thumbnail (236) widths and self-corrected before logging."
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_phone_notes_format",
+   "label": "Phone-notes pin format (getting views)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_magazine_cover_template",
+   "label": "Megan's approved magazine-cover template",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L10",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_canvas_512_file_cap",
+   "label": "Claude Design canvas at 512-file cap",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_claude_design_canvas",
+   "label": "Claude Design canvas (ISSUE11 Lead Magnets)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_index_md_ready_for_framer",
+   "label": "INDEX.md \"ready for Framer\" status",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_blog_slug_paths",
+   "label": "Articles live at /blog/<slug> (bare /<slug> 404s)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L29",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_canvas_full_blocked",
+   "label": "BLOCKED: canvas full; Megan to choose clear rejected rows or a second canvas",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_bank_md_lines",
+   "label": "Megan's BANK.md lines (only quote source on pins)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L8",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Article affirmations not in BANK.md are left off pins."
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_photo_matches_article",
+   "label": "Photo must match the article (no cash photo for a money board)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L29",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_megan_live_ct_feedback",
+   "label": "Megan live CT feedback: bigger logo on all CT pins, more indie options",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L11",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_google_drive_issue11_images",
+   "label": "Google Drive \"ISSUE11 Images\" (14 photos) used for CT rounds",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L12",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinsm",
+   "label": "ArticlePinSM (scripting-manifestation)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L3",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinloa",
+   "label": "ArticlePinLOA (law-of-assumption)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L4",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepindmw",
+   "label": "ArticlePinDMW (does-manifestation-work)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L5",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinhtm",
+   "label": "ArticlePinHTM (how-to-manifest)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L6",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinsci",
+   "label": "ArticlePinSCI (self-care-ideas)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L7",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinpaw",
+   "label": "ArticlePinPAW (positive-affirmations-for-women)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L8",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinmvb",
+   "label": "ArticlePinMVB (magazines-for-vision-board)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L9",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinpv",
+   "label": "ArticlePinPV (pinterest-vision-board)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L10",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinvm",
+   "label": "ArticlePinVM (vision-board-for-manifestation)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L16",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinmj",
+   "label": "ArticlePinMJ (manifestation-journal-prompts)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L17",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinso",
+   "label": "ArticlePinSO (how-to-stop-overthinking)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L18",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinsl",
+   "label": "ArticlePinSL (self-love-affirmations)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L19",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinma",
+   "label": "ArticlePinMA (money-affirmations)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L20",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepingu",
+   "label": "ArticlePinGU (how-to-glow-up)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L21",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinpr",
+   "label": "ArticlePinPR (personal-rebrand)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L22",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinjp",
+   "label": "ArticlePinJP (journaling-prompts)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L23",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinhvb",
+   "label": "ArticlePinHVB (how-to-make-a-vision-board)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L24",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepindj",
+   "label": "ArticlePinDJ (december-january-journal-prompts)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L25",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinnyj",
+   "label": "ArticlePinNYJ (new-year-journal-prompts)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L26",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinnya",
+   "label": "ArticlePinNYA (new-year-affirmations)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L27",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinwoty",
+   "label": "ArticlePinWOTY (word-of-the-year-ideas)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L28",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinvbe",
+   "label": "ArticlePinVBE (vision-board-examples)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L29",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_hourly_log_articlepinnyvb",
+   "label": "ArticlePinNYVB / NYVB2 / VBI (re-saved from canvas)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": "L29",
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  }
+ ],
+ "edges": [
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinsm",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinsm",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinsm",
+   "target": "drafts_pinterest_hourly_log_phone_notes_format",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinloa",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinloa",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinloa",
+   "target": "drafts_pinterest_hourly_log_phone_notes_format",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepindmw",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepindmw",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepindmw",
+   "target": "drafts_pinterest_hourly_log_phone_notes_format",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinhtm",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinhtm",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinhtm",
+   "target": "drafts_pinterest_hourly_log_phone_notes_format",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinsci",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinsci",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinsci",
+   "target": "drafts_pinterest_hourly_log_phone_notes_format",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinpaw",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinpaw",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinmvb",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinmvb",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinpv",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinpv",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinpv",
+   "target": "drafts_pinterest_hourly_log_magazine_cover_template",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinvm",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinvm",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinmj",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinmj",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinso",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinso",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinsl",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinsl",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinma",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinma",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepingu",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepingu",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinpr",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinpr",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinjp",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinjp",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinhvb",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinhvb",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepindj",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepindj",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinnyj",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinnyj",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinnya",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinnya",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinwoty",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinwoty",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinvbe",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinvbe",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_articlepinnyvb",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinnyvb",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinpaw",
+   "target": "drafts_pinterest_hourly_log_bank_md_lines",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinvm",
+   "target": "drafts_pinterest_hourly_log_bank_md_lines",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinmj",
+   "target": "drafts_pinterest_hourly_log_bank_md_lines",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinso",
+   "target": "drafts_pinterest_hourly_log_bank_md_lines",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinsl",
+   "target": "drafts_pinterest_hourly_log_bank_md_lines",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinma",
+   "target": "drafts_pinterest_hourly_log_bank_md_lines",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinpr",
+   "target": "drafts_pinterest_hourly_log_bank_md_lines",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinnya",
+   "target": "drafts_pinterest_hourly_log_bank_md_lines",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_article_pins",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_color_test_pins",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_canvas_512_file_cap",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_index_md_ready_for_framer",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_blog_slug_paths",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_magazine_cover_template",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_phone_notes_format",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_canvas_full_blocked",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_hourly_log",
+   "target": "drafts_pinterest_hourly_log_megan_live_ct_feedback",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_index_md_ready_for_framer",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_pinterest_hourly_log_claude_design_canvas",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_canvas_512_file_cap",
+   "target": "drafts_pinterest_hourly_log_claude_design_canvas",
+   "relation": "conceptually_related_to",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_canvas_full_blocked",
+   "target": "drafts_pinterest_hourly_log_canvas_512_file_cap",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinsm",
+   "target": "drafts_pinterest_hourly_log_canvas_full_blocked",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinvbe",
+   "target": "drafts_pinterest_hourly_log_blog_slug_paths",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinvbe",
+   "target": "drafts_pinterest_hourly_log_photo_matches_article",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinma",
+   "target": "drafts_pinterest_hourly_log_photo_matches_article",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_color_test_pins",
+   "target": "drafts_pinterest_hourly_log_magazine_cover_template",
+   "relation": "conceptually_related_to",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_megan_live_ct_feedback",
+   "target": "drafts_pinterest_hourly_log_color_test_pins",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_google_drive_issue11_images",
+   "target": "drafts_pinterest_hourly_log_color_test_pins",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_article_pins",
+   "target": "drafts_marketing_room_pinterest_queue_md",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinpaw",
+   "target": "drafts_marketing_room_bank_md_quote_rule",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_articlepinma",
+   "target": "drafts_marketing_room_bank_md_quote_rule",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_bank_md_lines",
+   "target": "drafts_marketing_room_bank_md_quote_rule",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_visual_qa_390_236",
+   "target": "design_visual_qa_eight_checks",
+   "relation": "implements",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_photo_matches_article",
+   "target": "design_visual_qa_self_correct",
+   "relation": "implements",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_canvas_512_file_cap",
+   "target": "_pipeline_lessons_canvas_512_limit",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_phone_notes_format",
+   "target": "_pipeline_lessons_phone_notes_pins",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_hourly_log_google_drive_issue11_images",
+   "target": "_pipeline_lessons_google_drive_issue11_images",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [
+  {
+   "id": "pinterest_article_pin_pipeline",
+   "label": "Article pin pipeline (make pin → Visual QA 390/236 → canvas → INDEX.md ready for Framer)",
+   "nodes": [
+    "drafts_pinterest_hourly_log_article_pins",
+    "drafts_pinterest_hourly_log_visual_qa_390_236",
+    "drafts_pinterest_hourly_log_claude_design_canvas",
+    "drafts_pinterest_hourly_log_index_md_ready_for_framer"
+   ],
+   "relation": "participate_in",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md"
+  }
+ ],
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "coverage": {
+  "/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md": 29
+ }
+}

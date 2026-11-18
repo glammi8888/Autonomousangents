@@ -1,5 +1,6 @@
 # Pinterest agent: hourly log (newest first)
 
+- 2026-11-18 20:2x UTC · Job 1: made ArticlePinMEX (manifestation-examples) in the phone-notes format, 4 want → first move pairs from the article. Canvas v164 next to VBQ, INDEX.md "ready for Framer". Visual QA 390 + 236 passed after one fix (5 long items ran into issue11.app, so I cut to 4 and shortened them).
 - 2026-11-18 16:2x UTC · Job 1: made ArticlePinVBQ (vision-board-quotes) in the phone-notes format with 6 BANK lines (the article's own quotes aren't in BANK, flagged in INDEX.md). Canvas v162 next to BH, INDEX.md "ready for Framer". Visual QA 390 + 236 passed after one fix (title shortened so the emoji didn't sit alone).
 - 2026-11-18 12:2x UTC · Job 1: made ArticlePinBH (becoming-her) in the phone-notes format with the article's 6 moves. Canvas v161 next to BMA, INDEX.md "ready for Framer". Visual QA 390 + 236 passed. Refreshed the "next articles" list from the live sitemap (7 left).
 - 2026-11-18 08:2x UTC · Job 1: made ArticlePinBMA (best-manifestation-apps) in the phone-notes format, apps grouped by job as in the article, ISSUE11 marked "(ours)". Canvas v160 next to MW, INDEX.md "ready for Framer". Visual QA 390 + 236 passed after one fix (a 4th section ran into issue11.app, so I cut it).

@@ -101,3 +101,6 @@ Full copy (title, description, alt, link): `favourites-plan.json` next to this f
 - All 89 were scheduled in Metricool (autoPublish on, PENDING, isAiGenerated false). Images were uploaded via Framer, and Metricool copies them to its own storage. Spot check: the Dec 24 posts were re-fetched and match.
 - Three lines appear twice on different images, spaced apart: CT120/178, CT67/114, CT107/209.
 - Favourites section is now fully scheduled. New pins go out only after Megan moves them into favourites.
+
+## Nov 17 evening
+- CT186–190 (Dec 23–24, Dior/Chanel logos) PULLED: switched to drafts in Metricool, not deleted (Megan: "3. Yes it's fine" to "pull them?"). New draft ids 432295795, 432295831, 432295864, 432295897, 432295937.

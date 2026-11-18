@@ -7,3 +7,5 @@ Day 3: /blog/geo-vs-seo · /blog/ai-search-optimization · /blog/how-to-rank-in-
 
 Also asked Megan: confirm the sitemap shows "Success", and share the Pages report numbers (Indexed / Not indexed + top reason).
 Note: /geo-services is a new live page (not built by the Glammi worker); it's in the sitemap.
+
+NOTE (Nov 18): the Manager made a parallel list (drafts/ai-tracking/2026-11-17-request-indexing.md, 10 per site). Both cover the same pages in a different order. Requesting a URL twice does no harm but wastes the ~10/day quota, so whichever list Megan used first, skip URLs already requested.

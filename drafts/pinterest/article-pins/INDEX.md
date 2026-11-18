@@ -32,6 +32,7 @@ Source boards: Claude Design Lead Magnets canvas (https://claude.ai/artifact/MZr
 | ArticlePinSM | issue11.app/blog/scripting-manifestation | png/ArticlePinSM.png | Scripting Manifestation Examples: My 5-Line Method (+ Journal Example) | Dark iPhone Notes screenshot titled "scripting manifestation, my 5-line method" with the article's 5 lines and its Money example, in the live notes voice | Pass 390 + 236 (Nov 18) | ready for Framer · NOT on the canvas yet (canvas full at 512 files) · pin scheduled Dec 12 5:23pm PT · 432301465 |
 | ArticlePinMW | issue11.app/blog/mirror-work | png/ArticlePinMW.png | Mirror Work Affirmations: How to Do It in 2 Minutes (+ What to Say) | Dark iPhone Notes screenshot titled "mirror work affirmations, the 2 minute version" with the article's steps and 2 of its sentences for when affirmations feel fake | Pass 390 + 236 (Nov 18) | ready for Framer |
 | ArticlePinBMA | issue11.app/blog/best-manifestation-apps | png/ArticlePinBMA.png | Best Manifestation Apps: An Honest Comparison by What You Want | Dark iPhone Notes screenshot titled "best manifestation apps, by what i actually want" listing the article's apps by job (affirmations / vision board / actually move), ISSUE11 marked "ours" | Pass 390 + 236 (Nov 18) | ready for Framer |
+| ArticlePinBH | issue11.app/blog/becoming-her | png/ArticlePinBH.png | Becoming Her Checklist: 6 Small Moves This Week (Without Losing You) | Dark iPhone Notes screenshot titled "becoming her, 6 small moves this week" with the article's 6 moves and its 7am old-you-vs-her row | Pass 390 + 236 (Nov 18) | ready for Framer |
 
 Keyword check for ArticlePinVBE: Pinterest autocomplete (Apify, Nov 16) suggests "vision board examples" with "inspiration", "aesthetic", "life", "career" and "manifestation" variants. Raw: `../2026-11-16-vision-board-examples-keywords.json`. No volume figure from Pinterest; Google US 11,000/mo per QUEUE.md.
 
@@ -69,7 +70,7 @@ Keyword check for ArticlePinPV: Pinterest autocomplete (Apify, Nov 16) suggests 
 - Alt text on the live site drops the internal "in the live notes voice" / "rewritten in the live notes voice" notes from SCI, HTM, DMW and LOA. The rest is word for word.
 - Pinterest Save button: still NOT added (waiting on Megan).
 
-Next articles without a pin (STRATEGY.md order, then the rest of the sitemap): becoming-her.
+Next articles without a pin (STRATEGY.md order, then the rest of the sitemap): vision-board-quotes · manifestation-examples · how-to-manifest-a-job · gratitude-journal-prompts · journal-prompts-for-self-discovery · journaling-for-self-love · how-to-manifest-someone (last: the "specific person" angle needs care, rule: no specific people).
 
 ## Nov 17 publish note
 - All 18 images were added to their articles' Content, as the first block after the intro paragraph. NYVB2 sits before "How to Host a Vision Board Party". Published as Framer version 699f2d432.
@@ -94,3 +95,5 @@ Keyword check for ArticlePinSM: Pinterest autocomplete (Apify, Nov 18) suggests 
 Keyword check for ArticlePinMW: plain "mirror work" on Pinterest means embroidery (autocomplete: blouse, lehenga, kurti; raw `../2026-11-18-mirror-work-keywords.json`), so the pin leads with "mirror work affirmations" (autocomplete: "mirror work affirmations beauty", "mirror work louise hay positive affirmations", "morning mirror affirmations", "mirror affirmations sticky notes"; raw `../2026-11-18-mirror-work-keywords-2.json`). Steps and both sentences are copied from the article. No BANK quote.
 
 Keyword check for ArticlePinBMA: Pinterest autocomplete (Apify, Nov 18) suggests "best apps for manifestation", "best manifestation apps", "free manifestation apps" and "apps for manifestation". Raw: `../2026-11-18-manifestation-apps-keywords.json`. App names and their one-line strengths are from the article; ISSUE11 is labelled "(ours)" as the article does. Third-party names are used only to describe the apps (no logos).
+
+Keyword check for ArticlePinBH: Pinterest autocomplete (Apify, Nov 18) suggests "becoming her checklist", "becoming her journal prompts", "becoming her vision board", "becoming her challenge" and "becoming her mindset". Raw: `../2026-11-18-becoming-her-keywords.json`. All 6 moves and the 7am row are from the article. No BANK quote.

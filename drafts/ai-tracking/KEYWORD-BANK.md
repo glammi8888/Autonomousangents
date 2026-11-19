@@ -43,9 +43,9 @@
 | W1 | 🎄 winter arc | 11,800 | 19 | DONE Nov 17 winter-arc (DRAFT dated Nov 17 so it publishes first; whole-life 90-day plan for women; SERP is gym-only: Reddit, Gymshark, Under Armour). NEXT: more Dec/Jan seasonal research (Thanksgiving terms checked: ~150/mo, too small) |
 | W2 | 🎄 vision board party | 1,400 | 9 | DONE Nov 18 vision-board-party (DRAFT dated Nov 18, cover = pink glitter journal + candles; agenda, invitation wording, 15 ideas, virtual version, 8 internal links + Glow Up Kit) |
 | W3 | 🎄 new year resolution ideas · new year new me | 7,100 + 3,100 | 27 to 31 | DONE Nov 18 new-year-resolution-ideas (DRAFT dated Nov 19, cover = crystal pen + rings writing; 60 ideas in 8 areas, Norcross 2002 + Gollwitzer 1999 verified, 11 near-duplicates of winter-arc rewritten, links 9 articles + Glow Up Kit) |
-| W1a | 🎄 winter arc money and mind edition (Megan Nov 19 series idea) | sub-kw volumes TBD (Mangools timeout) | ~19 | DONE Nov 19 winter-arc-money-and-mind (DRAFT dated Nov 17, cover office-silver-desk) |
-| W1b | 🎄 winter arc glow up edition | TBD | ~19 | DONE Nov 19 winter-arc-glow-up (DRAFT dated Nov 17, cover longhair-back) |
-| W1c | 🎄 winter arc hot bod edition | TBD | ~19 | NEXT, needs a cover: Megan to send/generate a fitness or body-confidence photo |
+| W1a | 🎄 winter arc money and mind edition (Megan Nov 19 series idea) | sub-kw volumes TBD (Mangools timeout) | ~19 | DONE Nov 19 winter-arc-money-and-mind (DRAFT dated Nov 17, cover office-silver-desk; switched to a 30-day plan per Megan Nov 19: "Do it a 30 day plan") |
+| W1b | 🎄 winter arc glow up edition | TBD | ~19 | DONE Nov 19 winter-arc-glow-up (DRAFT dated Nov 17, cover longhair-back; 30-day plan) |
+| W1c | 🎄 winter arc hot bod edition (30-day plan, Megan Nov 19: "Do it a 30 day plan") | TBD | ~19 | NEXT, needs a cover: Megan to send/generate a fitness or body-confidence photo |
 | W4 | sunday reset · sunday reset routine | 2,000 | 28 | NEXT (weekly reset checklist; link self-care-ideas, winter-arc, romanticize-your-life) |
 | skip | words of affirmation (48,300) | love-language intent, off brand | 20 | skip |
 | skip | affirmations for anxiety (1,700) | mental-health risk | 26 | skip for now |

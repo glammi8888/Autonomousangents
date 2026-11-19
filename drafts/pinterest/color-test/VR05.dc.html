@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Viral look 05 · tweet card</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=Oswald:wght@400;500;600&amp;family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+img.f{position:absolute;object-fit:cover;display:block}
+.full{inset:0;width:100%;height:100%}
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%);z-index:5}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
+.c{position:absolute;left:60px;right:60px;text-align:center}
+.pin{background:#F7C6D9}
+.av{position:absolute;left:90px;top:330px;width:96px;height:96px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center} .av img{height:46px}
+.nm{position:absolute;left:210px;top:332px;font-weight:700;font-size:40px;color:#111} .hd{position:absolute;left:210px;top:384px;font-size:30px;color:#555}
+.q{position:absolute;left:90px;right:90px;top:520px;font-family:'Oswald',sans-serif;font-weight:500;font-size:112px;line-height:1.08;color:#111}
+</style>
+</helmet>
+<div class="pin">
+<div class="av"><img src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"></div><div class="nm">ISSUE11</div><div class="hd">@issue11.app</div><div class="q">I wake up to money</div><div class="url" style="color:#111">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

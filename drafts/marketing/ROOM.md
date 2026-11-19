@@ -7,7 +7,7 @@ Rules: drafts only, so nothing is posted, sent, scheduled, published or paid for
 ## 1. The goal
 Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin views and traffic in the 100 thousands for issue11". Then users on the app.
 - North star: **at least 100,000 visits a month to issue11.app**. Megan, Nov 15: "100k minimum of course". 100k is the floor, not the ceiling: plan moves that can go beyond it, never anything that gets us flagged. Deadline: not set by Megan yet.
-- **Goal 2: 500 NEW PAYING app subscribers a month, reached over time after launch.** Megan, Nov 15: "Ideally I'd want 500 new subscribers per month to issue11" · "Paying app subscribers" · "Obviously over time I don't expect having that much from the get go". The Dec 11 beta comes first. **Before launch, the leading indicator is email/waitlist sign-ups.** Funnel + ramp: `100K-PLAN.md` section 6.
+- **Goal 2 (north star): 660 NEW PAYING app subscribers a month, ramping after launch.** Megan, Nov 18: "Let's remember that my goal is to get 500 new users on the app per month so we need to do whatever it takes to get there", then "Actually no 660 subscribers per month". Plan: `drafts/marketing/660-SUBSCRIBERS-PLAN.md`.
 - Supporting: Pinterest impressions in the millions per month → outbound clicks → visits → waitlist sign-ups → beta users (private beta Dec 11, 2026).
 
 ## 2. This week's numbers (week of Nov 15, 2026)
@@ -17,7 +17,7 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 | Pinterest impressions (pin views) / month | **missing** | Pinterest Analytics / Metricool, not read yet |
 | Pinterest outbound clicks | not available: Pinterest doesn't show outbound clicks (Megan, Nov 18) | use Framer Sources + utm_source=pinterest instead |
 | Email/waitlist sign-ups this month (leading indicator) | **missing** | Waitlist Sheet + freebie forms, not counted yet |
-| New paying app subscribers (goal 500/mo, after launch) | 0 (app not launched; beta Dec 11) | App Store Connect / RevenueCat after launch |
+| New paying app subscribers (goal 660/mo, after launch) | 0 (app not launched; beta Dec 11) | App Store Connect / RevenueCat after launch |
 | Visitor → sign-up conversion | **missing** (needs both visits and sign-ups) | sign-ups ÷ visits, same period |
 | Waitlist sign-ups (real) | **missing** (last count: 0 real on Nov 7, before any promotion) | Waitlist Google Sheet |
 | Live pages in sitemap | 32 URLs | issue11.app/sitemap.xml, fetched Nov 15 |
@@ -266,3 +266,4 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 2026-11-16 ~16:40 · Megan, word for word: "what about 2 a day ?" → "ok let's do 1 then". ✅ ISSUE11 stays at 1 new article a day. 2/day gets re-checked once Search Console shows most pages indexed with no warnings (~2–3 weeks). Logged in lessons.md for the AEO workers and OPS. The 3 articles published today stay live; they join QUEUE.md as normal.
 - 2026-11-16 22:25 · Growth Lead · Cycle 20 (first daily cycle): 0/30 articles indexed is now D1. Asked the Pinterest worker to fill the "Pins made" go-list. 0 subagents.
 - 2026-11-17 20:07 · OPS → Marketing Room: Megan, word for word: "keep doing /graphify in all chats please" + "and for all agents". From the next cycle: read graphs/marketing/GRAPH_REPORT.md first, name the map piece in every agent brief, refresh the marketing piece after runs that change files (graphify 0.9.111 pinned, GRAPHIFY_BACKEND=none; not yet installed in this container).
+- 2026-11-19 03:20 · Growth Lead · Goal 2 is now 660 paying/month (Megan, Nov 18). Wrote 660-SUBSCRIBERS-PLAN.md: 22,800 downloads/month at 2.9%, realistic window May–Jul 2027, top moves = ASO v15, waitlist to ~1,000 by launch, featuring nomination by ~Dec 21. 0 subagents.

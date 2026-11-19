@@ -3,7 +3,7 @@
 Rule (Megan, Nov 19): "Please keep every image as unique image and don't repeat them". One photo = one article, ever.
 Download one with Google Drive `download_file_content <id>`, save it here as src-<topic>-megan.png, then run tools/framer/cover-dupe-check.py before setting it. Mark USED with the slug.
 
-## Batch Nov 19 (29 photos, shared drive root 0AN56X4HymjewUk9PVA, added ~19:00Z)
+## Batch Nov 19 (30 photos, added ~19:00Z; moved into the "ISSUE11 Images" folder at Megan's request, Nov 19)
 | id | title (short) | status |
 |---|---|---|
 | 1pWO-Dr_GauDK_Oi27BZ6AQJQI-Am7IWm | Ethereal experimental portrait 6cdb3945_3 | unused |

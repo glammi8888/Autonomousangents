@@ -14,7 +14,7 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 | Metric | Number | Source / date |
 |---|---|---|
 | issue11.app visits | **6–8 a day** (≈180–240/month), source not confirmed | Megan, Nov 18 (Framer). Waiting for a Framer Analytics → Sources screenshot |
-| Pinterest impressions (pin views) / month | **missing** | Pinterest Analytics / Metricool, not read yet |
+| Pinterest pin views | **150 views across the 4 Notes pins** (Nov 17, day 3, still climbing). Pinterest Analytics + Metricool show 0 since the site was claimed (Nov 16–17) | Megan's screenshots + drafts/pinterest/ANALYTICS.md |
 | Pinterest outbound clicks | not available: Pinterest doesn't show outbound clicks (Megan, Nov 18) | use Framer Sources + utm_source=pinterest instead |
 | Email/waitlist sign-ups this month (leading indicator) | **missing** | Waitlist Sheet + freebie forms, not counted yet |
 | New paying app subscribers (goal 660/mo, after launch) | 0 (app not launched; beta Dec 11) | App Store Connect / RevenueCat after launch |
@@ -87,6 +87,16 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 23 · Nov 19, 22:25 UTC (daily)**
+- ✅ **ISSUE11 pace fixed:** Megan: "I think we decided to reduce the amount of articles to keep things safe 1-2 per day no ?". The routine prompts now say 1/day (SEO, Nov 19 18:15). The Nov 19 daily run had already published 3 (40 live now). 7 covered drafts are queued, so no new drafts for a few days. Removed from Waiting on Megan.
+- 🔎 SEO/AEO: still 0/108 keywords in the top 100 (Nov 18). Lever this week: exact answers to AI prompts (FAQ blocks on best-manifestation-apps, how-to-manifest and more) plus a winter-arc cluster (11,800/mo, Megan's favourite). Megan: "Please keep every image as unique image and don't repeat them". 8 repeated covers replaced, and a duplicate check was added.
+- 📌 Pinterest: Megan: "I think we need to replicate viral pins" + "aesthetically". First set VR01–VR10 copies the look of the most-reacted pins, using BANK lines and our own photos. Real numbers: 150 views on the 4 Notes pins by Nov 17. Pinterest's own analytics went to 0 after the site was claimed, and Metricool now only gets follower counts (ANALYTICS.md). The 89 favourites start Nov 25.
+- 📱 ASO Scout: **listing v15 approved by Megan (Nov 19)**. That's move #1 of the 660 plan.
+- 📊 Sources baseline logged (Framer, from Oct 19): about 9 referred visits (glammi.ai 2, Instagram 2, Pinterest 2, Bing 1, Facebook 1, Events Manager 1), Google 0. Bing comes in first because of IndexNow. Suggested Bing Webmaster Tools to Megan (import from Search Console, about 5 min).
+- 💸 Media Buyer · 🧵 Reddit · 🎬 Viral · 🖋 Editor: no change. Ads not started; the 660-plan decisions (launch date + nomination, $300 test to the waitlist, paywall test) are waiting on Megan.
+- 💡 Idea: Pinterest's own numbers are broken, so use Framer's pinterest.com referrer count as our Pinterest scoreboard from Nov 25 (it already shows 2). Traffic: measures. Cost: $0. Flag risk: none. Megan must: the weekly Sources screenshot.
+- 0 subagents.
+
 **Cycle 22 · Nov 18, 22:25 UTC (daily)**
 - 📊 **First real number:** issue11.app gets **6–8 visitors a day** (Megan, Nov 18). The source isn't confirmed yet. Megan's correction: "No because Pinterest doesn't show outbound clicks", so no visits get credited to Pinterest. We'll use Framer Analytics → Sources and the UTM tags. (This replaces yesterday's idea of reading "outbound clicks" from Metricool.)
 - 📌 Pinterest: Megan rejected the 7 new phone-notes article pins ("No the pins are so bad" + "What about the ones we already approved ?"). Rule now: build only from her approved favourites. Separate issue: "becoming her" (banned wording) appeared in 1 pin and 5 scheduled captions; a fix list went to the Manager. The 89 favourites (Nov 25–Dec 24) stay scheduled.

@@ -246,3 +246,4 @@ Megan, Nov 13: "I also would like you to give me a projection daily" · "Time pr
 - 2026-11-18 · (Glammi worker, 13:09Z block) Light block: no change.
 - 2026-11-18 · (Glammi worker, 19:10Z block) Light block: no change (dental-seo, dental-marketing, fashion-marketing-agency still drafts without covers).
 - 2026-11-19 · (Glammi worker, 01:09Z block) Light block: no site change (3 drafts still without covers). SERPWatcher Nov 18: 0 of 71 keywords in the top 100, flat all week; indexing and backlinks remain the blocker, not content.
+- 2026-11-19 · (Glammi worker, 07:09Z block) No site change (3 drafts still without covers). Megan's Nov 19 indexing batch included 10 Glammi URLs; marked them in drafts/glammi/INDEXING-REQUESTS-2026-11-18.md and listed the next 10 so the daily quota isn't spent twice.

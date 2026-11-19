@@ -1,6 +1,21 @@
 # Pinterest analytics (newest first)
 Numbers come only from Megan's screenshots or Pinterest/Metricool exports. Never estimate.
 
+## Metricool running record (brand 7995906, pulled 2026-11-19 by OPS)
+Megan, Nov 17: Pinterest's own Analytics went to 0 right after claiming issue11.app / adding the Pinterest Tag ("well now it's all 0" · "not cool"). This table is our independent record. Labels for PIEV01/02/05/07 match the Nov 15 numbers logged earlier (4 impressions, 1 follower, 3 pin clicks, 1 save); PIEV06/PIEV09 are kept by ID. "–" = Metricool returned no value for that day.
+| Day | PIEV01 impressions | PIEV02 followers | PIEV05 pin clicks | PIEV06 | PIEV07 saves | PIEV09 |
+|---|---|---|---|---|---|---|
+| Nov 19 | – | 0 | – | – | – | – |
+| Nov 18 | – | 0 | – | – | – | – |
+| Nov 17 | – | 1 | – | – | – | – |
+| Nov 16 | – | 2 | – | – | – | 1 |
+| Nov 15 | 4 | 1 | 3 | 0 | 1 | – |
+| Nov 14 | 0 | – | 0 | 0 | 0 | – |
+| Nov 13 | 0 | – | 0 | 0 | 0 | – |
+| Nov 12 | 0 | – | 0 | 0 | 0 | – |
+| Nov 11 | 0 | – | 0 | 0 | 0 | – |
+Reading: since Nov 16 Metricool gets only follower numbers, no impressions/clicks/saves, so the drop shows on Metricool's side too (same Pinterest API). Megan's own pin screenshots on Nov 17 still showed views climbing (150 across 4 pins), so the pins are being seen; the reporting is what broke. Add one row per day.
+
 ## 2026-11-17 (4th snapshot) · Megan's screenshot
 | Pin | 👁 views | 📌 saves* | 3rd icon |
 |---|---|---|---|

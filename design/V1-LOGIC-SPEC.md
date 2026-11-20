@@ -1,10 +1,10 @@
-# ISSUE11 v1 · logic per tab (for Megan's OK, Nov 20, 2026)
+# ISSUE11 v1 · logic per tab (APPROVED by Megan, Nov 20, 2026: "ok" · Q2 "ok" · Q3 "No")
 
 Source: "ISSUE11 — Design Handoff v1" (taps + copy) + what Replit already has (audit Oct 21). This is the behavior *underneath* the screens. Nothing here goes to Replit until Megan says OK.
 
 ## Ground rules
 - **Data stays on the phone** (the app's existing local storage). No cloud database, no sign-in, no payments, no backend changes in this round. Those need their own spec (CLAUDE.md rule 4).
-- **The Editor isn't connected to AI yet.** Its suggestions come from fixed lists written into the app until the AI spec is approved.
+- **The Editor uses real AI** (Megan, Q3: "No" to fixed lists). It uses Replit's built-in AI connection (no API key pasted by us), only after the AI consent screen (CP5) is accepted. Without consent or offline, it falls back to fixed suggestions. Journal text is only sent if "read my journal" is on.
 - **One issue at a time = 40 pages.** "15 of 40" always means pages kept in the current issue.
 - **A week starts Monday.** One action per week.
 
@@ -31,7 +31,7 @@ Source: "ISSUE11 — Design Handoff v1" (taps + copy) + what Replit already has 
 - **Underneath:** heart = saved on the phone. "Upload your own" adds your photo to saves. Saved boards are grouped by topic (the Editor's sorting for v1). "Add to my issue" opens the page maker with that image. Sessions start playing on tap; the mini player stays across tabs and remembers where you stopped. Search filters titles and topics; "Send" on no results or "What are we missing?" opens an email to support@issue11.app.
 
 ## Issue
-- **Underneath:** new page in 3 steps (content → layout, "Editor decides" by default → keep). "Keep page" adds it and shows the toast; "Undo" (5 seconds) removes it. Edit swaps layout, photo or words (your words are never changed by the app). The pencil names the issue (Editor ideas = fixed list). The print screen unlocks at 40 pages; "Order my print · $29.99" opens the issue11.app order page (no in-app payment).
+- **Underneath:** new page in 3 steps (content → layout, "Editor decides" by default → keep). "Keep page" adds it and shows the toast; "Undo" (5 seconds) removes it. Edit swaps layout, photo or words (your words are never changed by the app). The pencil names the issue (Editor ideas = fixed list). The print screen unlocks at 40 pages; "Order my print · $29.99" opens the issue11.app order page (no in-app payment). An "I've ordered it" button then starts Issue 02 (Megan, Q2: "ok").
 
 ## Journal
 - **Underneath:** entries are private and autosave as you type. The wall shows newest first; empty wall → "Write my first page". "Add to my issue" opens the page maker with your words exactly as written. Tapping the 11 here gives one gentle question (JR6).

@@ -39,7 +39,7 @@ Press kit, app screenshots and founder photos: [link]
 ---
 
 ## Notes for Megan (not part of the release)
-- **Timing:** send under embargo about 1 week before Dec 11. A short version can go out for the **Nov 11 private beta** ("now accepting beta testers") if you want early coverage.
+- **Timing:** send under embargo about 1 week before Dec 11. (Dec 11 is the public App Store launch, Megan Nov 20; there is no separate beta announcement.)
 - **Personal story:** the postpartum part of your story is yours to share or not. This draft leaves it out; add it only if you want it public. Never frame ISSUE11 as help for depression or mental health.
 - **Claims check:** no promised outcomes ("designed to", "helps", not "will make you"). No user numbers until real ones exist.
 - **Before sending:** App Store link live, website live, press kit (screenshots, logo, 2 founder photos), and a media contact email.

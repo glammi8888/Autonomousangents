@@ -4,7 +4,8 @@
 
 💚 GROWTH, Media Buyer. **Draft only.** Nothing is live, nothing is spent, no accounts or keys are set up, no images are generated. Megan clicks every button herself.
 
-> ⚠️ **Date check first.** Megan, Nov 5: "The beta is december 11". The App Store launch date isn't set yet and follows the beta (lessons.md, Nov 5). This plan says "after App Store launch" and never "Dec 11 launch". Ads must not say "launches Dec 11".
+> ✅ **Date update (Megan, Nov 20, word for word: "No I want it to be on App Store on dec 11"):** Dec 11 is the public App Store launch. Ads may say "On the App Store Dec 11" (the site says the same); still no promised results. The note below is outdated.
+> ~~Date check first.~~ Megan, Nov 5: "The beta is december 11". The App Store launch date isn't set yet and follows the beta (lessons.md, Nov 5). This plan says "after App Store launch" and never "Dec 11 launch". Ads must not say "launches Dec 11".
 > ⚠️ **Provisional.** Several claude-ads reference files were due for a re-check on Nov 6, 2026 (compliance, platform specs, Meta automation, conversion tracking, bidding). Anything below that relies on them is marked *(provisional)*. Benchmark sites (apptweak.com, splitmetrics.com, ads.apple.com) are blocked in this environment, so every benchmark comes from search snippets and hasn't been verified.
 
 ---

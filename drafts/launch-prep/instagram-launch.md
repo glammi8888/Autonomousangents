@@ -14,7 +14,7 @@ Join the waitlist ↓
 ## 3 Story highlights
 1. **THE ISSUE** (what ISSUE11 is, screen previews)
 2. **THE EDITOR** (Megan, founder story, behind the scenes)
-3. **EARLY ACCESS** (waitlist, beta on 11.11, launch date)
+3. **EARLY ACCESS** (waitlist, App Store launch Dec 11)
 Covers: cream #f5eee0 circle, black Archivo Black label, one pink #f65aad dot. Flat and printed, no 3D.
 
 ## Format notes
@@ -86,14 +86,14 @@ Suggested dates (Hey Helen wants a live profile with 3–6 posts in the second h
 - **Hashtags:** #manifestation #selfexpression #intentionalliving #futureself #issue11
 
 ### Post 6 · Single image or carousel · Early access is open
-- **Direction:** cover style. Headline "EARLY ACCESS IS OPEN". Lines: "Beta: 11.11 · App Store: 1.11.27 · issue11.com".
+- **Direction:** cover style. Headline "EARLY ACCESS IS OPEN". Lines: "On the App Store · 12.11 · issue11.app".
 - **Caption:**
   > The first issues are almost ready.
-  > Join the waitlist at issue11.com (link in bio) to hear first when ISSUE11 opens.
-  > A private beta starts on 11.11. The App Store launch is January 11, 2027.
-- **Alt text:** "ISSUE11 announcement graphic: Early access is open, beta on November 11, App Store launch January 11, 2027, issue11.com."
+  > Request access at issue11.app (link in bio) to hear first when ISSUE11 opens.
+  > On the App Store December 11.
+- **Alt text:** "ISSUE11 announcement graphic: Early access is open, on the App Store December 11, issue11.app."
 - **Hashtags:** #waitlist #appLaunch #manifestationapp #futureself #issue11
-- ⚠️ Only promise beta access if Megan decides waitlist people get TestFlight invites (see README question). Otherwise say "hear first".
+- Date: Megan, Nov 20: "No I want it to be on App Store on dec 11" (public launch, no TestFlight beta for the waitlist).
 
 ## Before posting (checklist)
 - [ ] Holding page live, link in bio works on mobile.

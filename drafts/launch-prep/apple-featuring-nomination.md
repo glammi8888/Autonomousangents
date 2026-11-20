@@ -1,4 +1,5 @@
-# 💜 PR · Apple Featuring Nomination draft (App Launch, Jan 11, 2027)
+# 💜 PR · Apple Featuring Nomination draft (App Launch, Dec 11, 2026 · date changed by Megan Nov 20)
+> ⚠️ Nov 20: launch moved to **Dec 11, 2026** (Megan: "No I want it to be on App Store on dec 11"). Dec 11 is exactly 3 weeks from Nov 20, which is Apple's minimum lead time, so submit now and set the Publish Date to Dec 11. The timing table below still uses the old Jan 11 date.
 Oct 1, 2026 · DRAFT. Megan submits it herself in App Store Connect. Nothing submitted by agents.
 
 ## Apple's current process (checked Oct 1, 2026)

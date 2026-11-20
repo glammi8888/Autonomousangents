@@ -148,4 +148,4 @@ Small text on the last frame of both Reels: **"Early design preview."** The Scri
 
 ## 6. Decisions (both made by Megan, Nov 12)
 1. **Photos in ads:** ONLY Megan's own photos + the text screen, never the photos inside the interim app screens. Applied in section 3.
-2. **Publish date:** Mon Nov 17. 14 days ends around Dec 1, before holiday ad prices peak and with 10 days left to push the winner before the Dec 11 beta. If any checklist box isn't ticked by then, wait a day rather than publish without tracking.
+2. **Publish date:** Mon Nov 17. 14 days ends around Dec 1, before holiday ad prices peak and with 10 days left to push the winner before the Dec 11 App Store launch. If any checklist box isn't ticked by then, wait a day rather than publish without tracking.

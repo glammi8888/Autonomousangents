@@ -5,14 +5,15 @@
 
 **Offer (updated Nov 7, Megan):** founding rate for approved guests = **$39.99 for the first year** (then $69.99/yr; monthly is $9.99). ~~$4.99/mo for the first year~~ is retired. No number cap (Megan, Nov 7): exclusivity = approved guests only. Must work in the app on Dec 11 (offer code or RevenueCat; subscriptions = Megan's explicit approval).
 **Footer (every email):** ISSUE11 · [business mailing address after iPostal1] · beehiiv unsubscribe · issue11.app/privacy.
+**Date update (Megan, Nov 20: "No I want it to be on App Store on dec 11"):** Dec 11 is the PUBLIC App Store launch, so email 2 goes out on launch day with the App Store link. Weekdays corrected (Dec 11 is a Friday). The "invite-only" wording waits on Megan's answer.
 **Open:** sender address; App Store link; email 3 "last call" must truly be the last invite email.
 
 | # | When | Job | CTA |
 |---|---|---|---|
 | 1 | On import (beehiiv welcome) | Request received | Add us to your contacts |
-| 2 | Thu Dec 11 | You're invited | Accept your invitation |
-| 3 | Tue Dec 16, didn't click 2 (segment: Post 2 not clicked) | Last call + founding rate for approved guests | Open your invitation |
-| 4 | Thu Dec 18, clicked 2 | Feedback | Reply |
+| 2 | Fri Dec 11 (App Store launch day) | You're invited | Accept your invitation |
+| 3 | Wed Dec 16, didn't click 2 (segment: Post 2 not clicked) | Last call + founding rate for approved guests | Open your invitation |
+| 4 | Fri Dec 18, clicked 2 | Feedback | Reply |
 
 ### 1 · Request received
 **Subject:** we've received your request

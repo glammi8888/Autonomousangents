@@ -24,6 +24,18 @@ Megan, word for word: "No I want it to be on App Store on dec 11". Goal now = **
 - ⏳ Decisions 2 (sign-in + payments spec, Editor spec) and 3 (screen 34 rename) still open.
 - Next: step 5, the ONE Replit prompt + screens + zip, by Tue Nov 24 (starts right after the v8 OK).
 
+### Home v2 (Megan, Nov 20: "also this is the new home screen of the app")
+Source: design/site-screens/15-home-v2-full.png. REPLACES board 27's Home in the Replit prompt. Logic map v9 (board 26) updated.
+Copy check: ✅ "your dream girl" in the Write prompt is a phrase, not a feature name (Nov 12 rule only bans "Dream Girl" as a product/feature name). ✅ "Become the person your future requires" and "Write what you're becoming" are not "becoming her". ✅ "Who told you your destiny was already written?" and "The story is changing. So are you." are process-focused, no promised outcome (POSITIONING.md).
+Fixes for the prompt (recommended, small):
+1. **Add the floating 11** (rule: on every screen; it's missing on the screenshot).
+2. **Masthead "ISSUE 11" → "ISSUE 01"** (her Issue number; "ISSUE 11" reads as the brand and will say 11 for every user).
+3. **01 Focus keeps the v4 logic**: Monday "Pick this week's move" state, small "Week 7 · showing up", "Skip this week" link (not on the screenshot).
+4. **04 Vision "YOUR WALL →" → "SAVED →"** opening Explore → Saved: the block shows her saved images, and the Journal wall holds only her words (Oct 23). Same tap, no new screen.
+5. **"15/40 pages written" → "15 / 40 pages"**: image-only pages are allowed (Oct 23), so not every page is written.
+6. **Buttons square, not rounded** (flat brand, square corners) on "I did it / Not yet".
+7. **Images**: hero + section photos must be Megan-owned before launch (no Pinterest placeholders).
+
 ### Dates (each step must finish by)
 | By | Step | Owner |
 |---|---|---|

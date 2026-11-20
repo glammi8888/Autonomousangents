@@ -43,6 +43,21 @@ Source: "ISSUE11 — Design Handoff v1" (taps + copy) + what Replit already has 
 - **Tap:** one card for the screen you're on (Home: 3 smaller steps · Explore: 3 images or tonight's session · Issue: "Let me lay this out." · Journal: one question · You: nothing).
 - **Hold:** the existing chat preview stays as it is (not connected to AI). Affirmations (ED3) are skipped.
 
+## New in the handoff doc (updated Nov 20, evening)
+- **Brand pale pink** #F4E4E4 → #F0D0D8 replaces the old ombre; only on first open and the paywall (exact hex to confirm).
+- **Floating 11 glow:** bright pink #F6AAC6 → #FFD6E4, ~26px, gentle pulse (2.8s loop, opacity 0.85→1, scale 1→1.08).
+- **App Store screens CP1–CP5** (Apple rejects v1 without them):
+  - CP1 Sign in: Sign in with Apple first, email second, Terms + Privacy line.
+  - CP2 Paywall: Yearly with 7 days free (preselected) $69.99 · Monthly $9.99 · founding $39.99 first year as intro offer · Restore · Terms (EULA) · Privacy · Close.
+  - CP3/CP4 Delete account from You: warns it doesn't cancel the subscription + link to manage it → deletes account and all content → back to sign-in.
+  - CP5 AI consent the first time the 11 is held: names the AI provider, Allow / Not now / How we use your data; switch in You › The Editor & AI.
+  - Plus setup: bundle id com.issue11.app, remove demo/"preview" content, support page, privacy labels, demo account for Apple review.
+
+### What CP1–CP5 change in this logic
+These need a real account and real purchases, so the "data stays on the phone, no sign-in, no payments" ground rule can't hold for them. They touch sign-in, payments, user data, AI and account deletion: every one is on the "Megan approves the spec before building" list (CLAUDE.md rule 4). Recommended order to keep Replit credits low:
+1. **Now:** tabs + logic above (phone-only data) + the pink and 11 glow updates.
+2. **Next, one separate update after your OK:** CP1–CP5, using Replit's built-in sign-in and database, StoreKit via RevenueCat, and deleting everything in one place. Spec: `drafts/dev/signin-payments-spec-v1.md` (needs its price fixed to $69.99 first).
+
 ## 2 questions for Megan
 1. **After ordering the print**, when does Issue 02 start? We can't see the website order from the app. Recommend: a "I've ordered it" button on the print screen starts Issue 02.
 2. **The Editor's suggestions:** fixed lists for v1 until AI is connected? Recommend: yes.

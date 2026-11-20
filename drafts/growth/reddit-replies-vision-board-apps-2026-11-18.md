@@ -65,7 +65,7 @@ Pick at most 4: a recent question with few good answers, ideally under a year ol
 >
 > What I'd add: keep the board about how it feels to live there, not a checklist. And when an inspired action pops up, write it next to the image so it doesn't just float away.
 >
-> Full disclosure, I'm building one called ISSUE11. It turns your images, Pinterest saves and a few honest lines about the life you want into a personal magazine, with one small move a week. iPhone only, private beta in December, so it's not out yet and I'm obviously biased.
+> Full disclosure, I'm building one called ISSUE11. It turns your images, Pinterest saves and a few honest lines about the life you want into a personal magazine, with one small move a week. iPhone only, on the App Store Dec 11, so it's not out yet and I'm obviously biased.
 
 ---
 

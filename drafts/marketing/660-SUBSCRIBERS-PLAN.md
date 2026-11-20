@@ -14,7 +14,7 @@ Skills used: `graphify` (graphs/marketing/GRAPH_REPORT.md), `marketing-plan`, `l
 | Pinterest | 89 of Megan's favourite pins scheduled, 3/day, Nov 25 → Dec 24 | FAVOURITES-SCHEDULE.md |
 | Ads | $300 Instagram test not started ("Not yet", Megan Nov 18) | lessons.md |
 | Prices | $9.99/month (no trial) · $69.99/year (7-day trial) · $39.99 founding first year for waitlist guests | CURRENT FACTS |
-| Dates | Dec 11 private beta (TestFlight, so no paid subs in December). App Store launch is set after the beta; the launch-prep drafts use **Jan 11, 2027** (not confirmed) | CURRENT FACTS, drafts/launch-prep/ |
+| Dates | **Dec 11 = PUBLIC App Store launch** (Megan, Nov 20: "No I want it to be on App Store on dec 11"). App Store Connect submission due **Fri Dec 4** (ASO Scout checklist: 11 items still missing, incl. real screenshots, app privacy policy, support page) | CURRENT FACTS, drafts/aso/2026-11-20-asc-submission-checklist.md |
 | App Store search model | ~1,700 / 5,300 / 13,000 search downloads a month (Oct model); Nov ASOMobile data ≈ 9,900/month at the v15 ranks (search volumes ~2× Oct, maybe New Year seasonal) | aso-recheck-2026-10-04.md, 2026-11-18-listing-v15.md |
 | Conversion benchmarks | download → paid within 35 days: 2.0% median, **2.9% Health & Fitness**; trial → paid 35% H&F; trial start 5–7% of installs | RevenueCat 2026 via aso-recheck |
 
@@ -28,7 +28,7 @@ Skills used: `graphify` (graphs/marketing/GRAPH_REPORT.md), `marketing-plan`, `l
 **The biggest lever is conversion, not traffic.** Going from 2.9% to 5% cuts the downloads needed by 42%. At 5%, the optimistic App Store search case (~13,000/month) is enough on its own.
 
 **Waitlist before launch.** [A] 10–20% of waitlist guests take the $39.99 founding year at launch (a warm list converts far better than strangers; replace this with the beta's real rate).
-- Launch month from the waitlist alone: ≈ 100–200 paying needs about **1,000 sign-ups by Jan 11**.
+- Launch month from the waitlist alone: ≈ 100–200 paying would need about **1,000 sign-ups by Dec 11**. That's 3 weeks away. With ~200 visits/month, organic sign-ups won't get there; the $300 test (§5) might add 100–300 [A: $1–3 per sign-up]. Plan on a launch month built on **App Store search + launch-week momentum**, with the waitlist as a bonus.
 - Today's traffic (≈200 visits/month × 3–8% sign-up [A]) gives 6–16 a month. **The waitlist is the gap to close before launch.**
 
 **What a subscriber is worth (ads math).**
@@ -36,20 +36,33 @@ Skills used: `graphify` (graphs/marketing/GRAPH_REPORT.md), `marketing-plan`, `l
 - At 2.9% download → paid, the break-even cost per install is ≈ **$1.00–1.70**.
 - [A] Typical US Meta app-install costs for this audience run several dollars. So ads can't fill the gap profitably until conversion is higher. The $300 test is for **learning our real cost per sign-up and per install**, not for scaling.
 
-## 3. Each engine, by month (ranges, assumption-labelled)
-Assumes App Store launch on Jan 11 [A]. A new app ramps into its search ranks over ~3 months [A]: about 30% of the month-3 pace in month 1 and 60% in month 2.
-| Engine | Dec | Jan (from Jan 11) | Feb | Mar |
+## 3. Each engine, by month (re-planned Nov 20 for the Dec 11 public launch; ranges, assumption-labelled)
+A new app ramps into its search ranks over ~3 months [A]: about 30% of the month-3 pace in month 1, then 60%. December has only 20 live days (Dec 11–31), but it lands right on the New Year peak (Nov search volumes are already ~2× Oct).
+| Engine | Dec (Dec 11–31) | Jan | Feb | Mar |
 |---|---|---|---|---|
-| App Store search (Oct model 1.7k–13k, Nov 9.9k) | 0 (private beta) | 500–3,000 downloads | 1,000–6,000 | 1,700–13,000 |
-| Waitlist → founding year | builds the list | 100–200 paid **if ~1,000 sign-ups** [A] | trickle | trickle |
-| Pinterest → issue11.app → waitlist/App Store | pins from Nov 25; clicks unmeasurable on Pinterest (Megan) | site visits 3k–20k (100K-PLAN range) × 2–8% → 60–1,600 installs | similar to growing | 10k–30k visits → 200–2,400 installs |
-| Instagram/TikTok hooks + carousels (Megan's order: after the app) | 0 | 0–1,000 installs [A, very wide] | 0–3,000 | 0–5,000 (one hit can beat every row) |
-| Ads ($300/month, Megan's budget) | test → cost per sign-up | 60–150 installs [A: $2–5 CPI] | same | same, scale only if the CPI beats ~$1.70 |
-| Apple featuring (nomination) | submit ≥3 weeks before launch | 0 or a lot (can't be planned) | – | – |
-| Referrals / sharing an Issue | 0 | +5–15% of installs [A] | same | same |
-| **Paying subs at 2.9%** | **0** | **≈ 120–370** (waitlist 100–200 + 20–170 from ~600–5,800 installs) | **≈ 30–310** | **≈ 60–600** |
+| App Store search (month-3 pace 1.7k–13k, Nov model 9.9k) | 300–2,600 downloads | 1,000–8,000 (60% + New Year peak) | 1,500–11,000 | 1,700–13,000 |
+| Waitlist → founding year | 10–20% of whoever is on the list by Dec 11 [A] (list size: **missing**) | trickle | – | – |
+| Pinterest → issue11.app → App Store (89 favourites until Dec 24, article pins Dec 1–13) | visits 1k–8k (100K-PLAN) × 2–8% → 20–640 installs | 60–1,600 | similar | 200–2,400 |
+| Instagram/TikTok hooks + carousels | 0–500 installs [A] | 0–1,000 | 0–3,000 | 0–5,000 |
+| Ads ($300/month) | to the waitlist until Dec 10, then App Store installs: 60–150 [A: $2–5 CPI] | same | same | scale only if CPI beats ~$1.70 |
+| Apple featuring | the App Launch nomination is borderline: Apple asks for 2–3 weeks' notice and Dec 11 is exactly 3 weeks from Nov 20 | "New Content" nomination for the New Year In-App Event | – | – |
+| Referrals / sharing an Issue | +5–15% of installs [A] | same | same | same |
+| **Paying subs at 2.9% (+ waitlist)** | **≈ 10–110** | **≈ 30–330** | **≈ 45–450** | **≈ 60–600** |
 
-**When we realistically hit 660.** Not in Jan–Mar unless App Store search lands near the optimistic case, conversion beats 4% and one content format takes off. The realistic window is **month 4–6 after launch (≈ May–July 2027)**. That's if the App Store ranks hold, the paywall converts at 4–5% and content adds 3–5k installs a month. It's a range, not a promise. We re-run it with real App Store Connect + RevenueCat numbers 2 weeks after launch.
+**When we realistically hit 660:** launching Dec 11 instead of January moves the window about a month earlier, to **month 4–6 after launch (≈ April–June 2027)**. Same conditions: App Store ranks hold, the paywall converts at 4–5%, and content adds 3–5k installs a month. It's a range, not a promise. We re-run it with real App Store Connect + RevenueCat numbers on Dec 28 (2 weeks after launch).
+
+## 3b. Launch week (Dec 4 → Dec 18), drafts only, Megan clicks every button
+| Date | What | Owner |
+|---|---|---|
+| Fri Nov 20–Sat Nov 21 | **Featuring nomination (App Launch)**: submit now. Dec 11 is exactly 3 weeks out (Apple's minimum lead time); every day later misses it. Needs the app record in App Store Connect. Draft: drafts/launch-prep/apple-featuring-nomination.md (update its date to Dec 11) | Megan (ASC) · PR draft |
+| Mon Nov 23 | $300 Instagram test starts, pointed at the waitlist (cost per sign-up before launch) | Megan clicks · Media Buyer |
+| Fri Dec 4 | App Store submission with **manual release** (so the app goes live exactly on Dec 11, not the day it's approved) | Megan |
+| ~Dec 4 | Press release under embargo until Dec 11 (drafts/pr/press-release-launch.md) | Megan sends · PR |
+| ~Dec 7 | Submit the "New Year Issue" In-App Event (needs no new app version) + its "New Content" featuring nomination for early January | Megan · ASO Scout |
+| **Fri Dec 11** | Release the app · email 2 "you're invited" to the whole waitlist with the App Store link + founding rate · launch posts on Instagram/TikTok · ads switch from the waitlist to the App Store page · disclosed Reddit replies only after Megan's yes | Megan · all |
+| Dec 11–14 | Concentrate the first downloads in the first days (rank momentum): reply to every DM and comment, share early user Issues only with permission | Megan · Social |
+| Wed Dec 16 | Email 3 "last call" (didn't open email 2) | Resend |
+| Fri Dec 18 | Email 4 feedback (opened email 2) · first real numbers into this plan | Resend · Growth |
 
 ## 4. Everything we're doing, ranked by how directly it moves the 660
 | # | Work (owner) | Effect | Call |
@@ -57,7 +70,7 @@ Assumes App Store launch on Jan 11 [A]. A new app ramps into its search ranks ov
 | 1 | App Store listing v15 + launch readiness (ASO Scout) | biggest engine (search) | **KEEP, top priority** |
 | 2 | Paywall/trial conversion after launch (Product + RevenueCat; touches payments) | 2.9% → 5% cuts downloads needed by 42% | **START** after launch, needs Megan's spec OK (Production Safety Rule) |
 | 3 | Waitlist growth to ~1,000 by launch: waitlist CTA on every article, the emails, a freebie with sign-up (Editor's kits) | launch-month paying subs | **KEEP + push**; the Vision Board Kit waits on Megan's layout pick |
-| 4 | Apple featuring nomination (drafted Oct 1; PR) | possible big spike | **START**: Megan submits it ≥3 weeks before launch (≈ by Dec 21 for Jan 11) |
+| 4 | Apple featuring nomination (drafted Oct 1; PR) | possible big spike | **START NOW**: borderline for Dec 11 (exactly 3 weeks on Nov 20); then a New Content nomination for the New Year In-App Event |
 | 5 | Launch-day email to the waitlist (founding rate) + In-App Event "New Year Issue" (ASO plan) | launch-week velocity → rankings | **START drafting** (drafts only) |
 | 6 | Hooks + carousels (Brand+Social), then video | content engine | **KEEP in Megan's order**, App Store link once live |
 | 7 | Pinterest favourites scheduled (runs itself) | site visits → waitlist | **KEEP**; no new pin formats (Megan) |
@@ -66,7 +79,7 @@ Assumes App Store launch on Jan 11 [A]. A new app ramps into its search ranks ov
 | 10 | Reddit drafts | small until there's an app to mention | **PAUSE** until launch |
 | – | Glammi work | doesn't move this number (separate business, Megan's call) | no change |
 
-## 5. Decisions for Megan (recommended answer first)
-1. **Aim the public App Store launch for early January (Jan 11 or sooner) and submit the featuring nomination by ~Dec 21.** Why: manifestation searches peak Dec–Jan (Nov search data is ~2× Oct), and Apple asks for at least 3 weeks' notice. She decides the submission date (Production Safety Rule).
-2. **Start the $300 Instagram test now, pointed at the waitlist.** Why: it measures our real cost per sign-up before launch, and a warm founding-rate list is the cheapest paying subscriber we'll ever get.
-3. **OK a paywall test spec after launch (cover reveal before the paywall, trial on yearly).** Why: conversion is the biggest lever, and it touches payments, so it needs her spec approval first.
+## 5. Decisions for Megan (re-planned Nov 20, recommended answer first)
+1. **Submit the featuring nomination for Dec 11 today or tomorrow.** Why: Apple asks for at least 2–3 weeks' notice, and Dec 11 is exactly 3 weeks from Nov 20. It's free, and if it's too late we still have the New Year In-App Event nomination for January.
+2. **Start the $300 Instagram test Mon Nov 23 → waitlist, then switch it to the App Store page on Dec 11.** Why: 3 weeks of cost-per-sign-up data before launch, a bigger founding list for launch day, and the first install costs right after.
+3. **OK a paywall test spec after launch.** Why: conversion is the biggest lever (2.9% → 5% cuts the downloads needed by 42%), and payments need her spec approval.

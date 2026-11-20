@@ -723,3 +723,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-20 · OPS · Megan: trademark self-check for "ISSUE11" = DONE ("4. Done", replying to the pre-launch list). Don't list it again. Result of the check (any conflicts found?) not yet reported.
 
 - 2026-11-20 · OPS · DATE CHANGE (Megan): Dec 11 = public App Store launch, not a beta. Updated CURRENT FACTS, Megan Today, landing copy; told Design Room, ASO Scout, Marketing Room. Grep for "beta" in copy/emails/briefs before writing.
+- 2026-11-20 · Design Room · Dec 11 became the PUBLIC App Store launch (Megan: "No I want it to be on App Store on dec 11"). Re-plan in design/APP-STATUS-2026-11-19.md: v1 vs v1.1 table, dates to Dec 4 submit, 10 Apple items still missing. Lesson: for a store deadline, plan backwards from the first TestFlight build (Nov 30), not from the design: the untested Replit → Expo → TestFlight path is the biggest risk, not the screens.

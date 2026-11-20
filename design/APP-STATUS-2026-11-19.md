@@ -1,4 +1,53 @@
-# ISSUE11 app: what's left before the ONE Replit update (Dec 11 private beta)
+# ISSUE11 app: what's left before the ONE Replit update
+
+## ⚠️ RE-PLAN Nov 20: Dec 11 = PUBLIC App Store launch (not a beta)
+Megan, word for word: "No I want it to be on App Store on dec 11". Goal now = **Apple-approvable v1, not complete.** Back-plan (OPS): Paid Apps Agreement ~Nov 27 · finished build Dec 3 · submit Fri Dec 4 · release Dec 11. Sections 1–4 below are the Nov 19 checklist; where they differ, this block wins.
+
+### What ships Dec 11 (v1) vs v1.1
+| Area | v1 (Dec 11) | Moves to v1.1 |
+|---|---|---|
+| Onboarding | As built (locked), screen 34 renamed if Megan says yes | — |
+| Paywall + sign-in | Sign in with Apple + email code, Monthly $9.99 · Yearly $69.99 (7-day trial) · 37b founding $39.99 first year, Restore, Terms + Privacy links | Duo/Family, weekly/intro tests |
+| Home | Issue on top · Monday "Pick this week's move" (3 suggestions + write my own) · "I did it" → page lands · "Not yet" → smaller step · "Week N · showing up" · Skip this week | 11:11 surprise, monthly recap |
+| Explore | Images · Sessions · Saved (boards) · tap session = plays · Search · "What visuals are we missing?" card | — |
+| Issue | Reader · "+ New page" (words optional + photos) · "Let the Editor decide" + 4 layouts from **6 real templates** · Edit (layout / swap photo / my words) · progress "15 of 40" | "More layouts" library, layout unlocks, stickers, in-app print checkout (see Print) |
+| Print | At 40 pages: "Order my print" opens the print order page on issue11.app; Megan prints by hand (approved Nov 5). Physical goods may be paid outside in-app purchase (guideline 3.1.5(a), verify at build) | In-app Apple Pay checkout, order tracking |
+| Journal | Your wall (today's prompt + her lines) · Write · Add to my issue / Keep in Journal | — |
+| You | Name + pages · one list · Restore purchases · Delete account (real) · Help & support · "Help us improve" = opens an email to support@issue11.app (no new data stored) | My Issues shelf (nobody has a printed Issue yet), app icon picker if not built, widgets |
+| The Editor (11) | Floating, draggable · one card per screen with **written suggestions only (no live AI)** · "AI off" wording not needed | Live AI (needs LUCKY-STAR-ARCHITECTURE approval + privacy review) |
+| Brand | Inter Tight everywhere, white everyday screens, Electric Soft only on welcome / paywall | — |
+
+### Dates (each step must finish by)
+| By | Step | Owner |
+|---|---|---|
+| **Sat Nov 21** | Megan's 3 decisions (section 3) | Megan |
+| **Mon Nov 23** | Logic map v8 with the v1 cuts + board fixes (one floating 11, first-day state, gradient screens) → Megan's OK | Design Room → Megan |
+| **Tue Nov 24** | ONE Replit prompt + screens + zip (includes the cleanup list #1–#11) | Design Room |
+| **Thu Nov 26** | 6 real page templates (MISE-EN-PAGE) | 🖋 The Editor agent |
+| **Fri Nov 27** | Paid Apps Agreement + bank + tax active; subscriptions created in App Store Connect | Megan |
+| **Mon Nov 30** | **First test build to TestFlight from Replit/Expo** (catches signing, bundle id `com.issue11.app` and in-app purchase setup early) | Megan · Build Room checks read-only |
+| **Tue Dec 1** | Real content in: sessions with real audio (Replit had demo audio only on Oct 21) and Explore images Megan owns; all Pinterest placeholder images gone · privacy policy + terms live on issue11.app · support page live | Megan (content) · web agents (pages) |
+| **Thu Dec 3** | Build finished: sign-in, subscriptions, restore, delete account working · App Store screenshots from the real screens (2.3.14) · privacy labels + review notes + demo account drafted | Megan · ASO Scout · Design Room drafts |
+| **Fri Dec 4** | Submit for App Review | Megan |
+| **Thu Dec 11** | Release | Megan |
+
+### Apple requirements still missing (as of the Oct 21 audit; Megan to confirm anything newer)
+1. **Account deletion inside the app** (5.1.1(v)): placeholder only. Must delete her Issues and photos too.
+2. **Restore purchases** + real in-app subscriptions (3.1): not wired. Paywall must show price, renewal period, trial terms, how to cancel, Terms (EULA) + Privacy links.
+3. **Sign in with Apple** (needed if email or social login is offered): not wired.
+4. **Privacy policy** (5.1): draft only (`drafts/legal/issue11-privacy-DRAFT.md`), waiting on the iPostal1 mailing address. Must be live on issue11.app and linked in the app + App Store Connect.
+5. **App Privacy "nutrition labels"** in App Store Connect: not done. With no live AI in v1 they get much simpler.
+6. **Demo account + review notes** (login required): not done. Needs a test account that skips the paywall or a sandbox purchase path explained in the notes.
+7. **Support URL**: support@issue11.app is live, but App Store Connect needs a web page. Make issue11.app/support (FAQ + email).
+8. **Bundle id** `com.issue11.app` missing from app.json (Oct 21).
+9. **No demo or placeholder content** (2.1 completeness): demo audio, "preview" stubs, "not available in this preview" text and unfinished rows must all be gone or hidden.
+10. **Screenshots with the real UI** (2.3.14), only after the build exists.
+
+### Biggest risk
+The path from Replit to TestFlight (Expo build + signing + in-app purchases) has never been tested. That's why the first test build is set for Nov 30: if it fails, there are still 4 days to fix it before Dec 4.
+
+---
+*(Nov 19 checklist below. Its "private beta" wording is outdated.)*
 🎨🩵 Design Room · Nov 19, 2026 · checklist only (no new screens, no Replit prompt yet)
 Asked by Megan via OPS (Nov 18, "Sure"). Order she set: app first → hooks + carousels → video formats.
 
@@ -34,7 +83,7 @@ Asked by Megan via OPS (Nov 18, "Sure"). Order she set: app first → hooks + ca
 
 ## 3. Megan's decisions (max 3, recommended answer first)
 1. **Approve boards 26 (logic) + 27 + 28 (screens) as the beta design?** → **Yes, with fix #9 (floating 11 only).** Replit can't start until screens are approved (Nov 7 rule: unapproved screens never ship), and every tab after onboarding is waiting on this one OK.
-2. **Approve the 2 specs that touch user data: sign-in + payments (`drafts/dev/signin-payments-spec-v1.md`) and the Editor (`design/LUCKY-STAR-ARCHITECTURE.md`)?** → **Approve sign-in + payments now; for the Dec 11 beta keep the Editor on its written suggestions (no live AI) and approve its AI spec after the beta.** Safety Rule 4 needs your OK before building. Beta testers need to sign in and keep their Issue; live AI adds cost, privacy review and risk for 3 weeks of build.
+2. **Approve the 2 specs that touch user data: sign-in + payments (`drafts/dev/signin-payments-spec-v1.md`) and the Editor (`design/LUCKY-STAR-ARCHITECTURE.md`)?** → **Approve sign-in + payments now; for the Dec 11 launch keep the Editor on its written suggestions (no live AI) and approve its AI spec for v1.1.** Safety Rule 4 needs your OK before building. Apple won't approve a paid app without working sign-in, subscriptions and restore; live AI adds cost, privacy labels and review risk to a 10-day build.
 3. **Rename onboarding screen 34 "Meet Lucky Star" → "Meet the Editor"?** (onboarding is locked, so only you can) → **Yes, name only, nothing else on the screen changes.** Every other screen says "the Editor"; a different name on the consent screen would confuse testers right where we explain AI.
 
 Parked by default (no answer needed now): the 11:11 daily surprise from the Editor → after the beta. "Finish my Issue digitally" at 40 pages → after the beta.

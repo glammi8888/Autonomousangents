@@ -1,0 +1,1277 @@
+{
+ "nodes": [
+  {
+   "id": "drafts_marketing_660_subscribers_plan_doc",
+   "label": "660 Subscribers Plan",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_goal",
+   "label": "Goal: 660 new paying subscribers a month",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_conversion_lever",
+   "label": "Conversion is the biggest lever (2.9% to 5%)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_downloads_needed",
+   "label": "22,800 downloads a month needed at 2.9%",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_waitlist_gap",
+   "label": "Waitlist gap: ~1,000 sign-ups by Jan 11",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_subscriber_value",
+   "label": "Subscriber value and break-even CPI $1.00-1.70",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_instagram_test",
+   "label": "$300 Instagram test (learning, not scaling)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_apple_featuring",
+   "label": "Apple featuring nomination by ~Dec 21",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_listing_v15",
+   "label": "App Store listing v15 (ASO move #1)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_paywall_test",
+   "label": "Paywall test spec after launch (touches payments)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_realistic_window",
+   "label": "Realistic window to 660: May-Jul 2027",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_prices",
+   "label": "Prices: $9.99/mo, $69.99/yr, $39.99 founding",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_conversion_benchmarks",
+   "label": "RevenueCat conversion benchmarks (2.9% H&F)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_ranked_moves",
+   "label": "Ranked work list toward 660",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_decisions",
+   "label": "3 decisions for Megan",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_660_subscribers_plan_launch_date",
+   "label": "Public launch Jan 11, 2027 (unconfirmed); beta Dec 11",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_doc",
+   "label": "Marketing Room shared board",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_goal_100k",
+   "label": "Goal 1: 100k visits a month to issue11.app",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_goal_660",
+   "label": "Goal 2: 660 paying subscribers a month",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_weekly_numbers",
+   "label": "Weekly numbers table",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_lanes",
+   "label": "Agent lanes",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_growth_lead",
+   "label": "Growth Lead (runs the room)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_seo_aeo",
+   "label": "SEO/AEO workers (1 article a day)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_pinterest_agent",
+   "label": "Pinterest SEO agent",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_reddit_agent",
+   "label": "Reddit specialist (not started)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_viral_formats",
+   "label": "Viral Content Formats (Reels, TikTok)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_media_buyer",
+   "label": "Media Buyer",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_editor",
+   "label": "The Editor (lead magnets)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_cross_channel_loop",
+   "label": "Cross-channel loop: article to many doors to sign-ups",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_article_pace_rule",
+   "label": "Rule: 1 ISSUE11 article a day",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_search_console",
+   "label": "Search Console indexing (0 keywords in top 100)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_positioning_rule",
+   "label": "New Way of Manifestation positioning, no generic viral dilution",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_vision_board_kit",
+   "label": "Vision Board Kit layout decision",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_standups",
+   "label": "Cycle stand-up log",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_framer_sources",
+   "label": "Framer Sources baseline (6-8 visits a day)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_favourites_schedule",
+   "label": "89 favourite pins scheduled Nov 25-Dec 24",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_skills_map",
+   "label": "Marketing skills per agent",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_marketing_room_never_use",
+   "label": "Never-use list (pods, fake UGC, fake urgency)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_analytics_doc",
+   "label": "Pinterest analytics record",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_analytics_metricool_record",
+   "label": "Metricool running record (follower-only since Nov 16)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_analytics_notes_pin_snapshots",
+   "label": "Notes pin snapshots (150 views on 4 pins, Nov 17)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_analytics_reporting_break",
+   "label": "Pinterest analytics went to 0 after site claim",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "drafts_pinterest_analytics_no_estimate_rule",
+   "label": "Rule: numbers only from screenshots or exports",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  }
+ ],
+ "edges": [
+  {
+   "source": "drafts_marketing_660_subscribers_plan_doc",
+   "target": "drafts_marketing_660_subscribers_plan_goal",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_doc",
+   "target": "drafts_marketing_660_subscribers_plan_conversion_lever",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_doc",
+   "target": "drafts_marketing_660_subscribers_plan_waitlist_gap",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_doc",
+   "target": "drafts_marketing_660_subscribers_plan_ranked_moves",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_doc",
+   "target": "drafts_marketing_660_subscribers_plan_decisions",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_doc",
+   "target": "drafts_marketing_660_subscribers_plan_realistic_window",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_goal",
+   "target": "drafts_marketing_660_subscribers_plan_downloads_needed",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_conversion_lever",
+   "target": "drafts_marketing_660_subscribers_plan_downloads_needed",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_conversion_benchmarks",
+   "target": "drafts_marketing_660_subscribers_plan_downloads_needed",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_subscriber_value",
+   "target": "drafts_marketing_660_subscribers_plan_instagram_test",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_prices",
+   "target": "drafts_marketing_660_subscribers_plan_subscriber_value",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_listing_v15",
+   "target": "drafts_marketing_660_subscribers_plan_ranked_moves",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_paywall_test",
+   "target": "drafts_marketing_660_subscribers_plan_ranked_moves",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_apple_featuring",
+   "target": "drafts_marketing_660_subscribers_plan_ranked_moves",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_waitlist_gap",
+   "target": "drafts_marketing_660_subscribers_plan_ranked_moves",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_instagram_test",
+   "target": "drafts_marketing_660_subscribers_plan_ranked_moves",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_launch_date",
+   "target": "drafts_marketing_660_subscribers_plan_apple_featuring",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_launch_date",
+   "target": "drafts_marketing_660_subscribers_plan_waitlist_gap",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_decisions",
+   "target": "drafts_marketing_660_subscribers_plan_apple_featuring",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_decisions",
+   "target": "drafts_marketing_660_subscribers_plan_instagram_test",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_decisions",
+   "target": "drafts_marketing_660_subscribers_plan_paywall_test",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_conversion_lever",
+   "target": "drafts_marketing_660_subscribers_plan_paywall_test",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_listing_v15",
+   "target": "drafts_marketing_660_subscribers_plan_downloads_needed",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_goal_100k",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_goal_660",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_weekly_numbers",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_lanes",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_cross_channel_loop",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_standups",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_skills_map",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_never_use",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_article_pace_rule",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_doc",
+   "target": "drafts_marketing_room_positioning_rule",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_lanes",
+   "target": "drafts_marketing_room_growth_lead",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_lanes",
+   "target": "drafts_marketing_room_seo_aeo",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_growth_lead",
+   "target": "drafts_marketing_room_seo_aeo",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_lanes",
+   "target": "drafts_marketing_room_pinterest_agent",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_growth_lead",
+   "target": "drafts_marketing_room_pinterest_agent",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_lanes",
+   "target": "drafts_marketing_room_reddit_agent",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_growth_lead",
+   "target": "drafts_marketing_room_reddit_agent",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_lanes",
+   "target": "drafts_marketing_room_viral_formats",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_growth_lead",
+   "target": "drafts_marketing_room_viral_formats",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_lanes",
+   "target": "drafts_marketing_room_media_buyer",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_growth_lead",
+   "target": "drafts_marketing_room_media_buyer",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_lanes",
+   "target": "drafts_marketing_room_editor",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_growth_lead",
+   "target": "drafts_marketing_room_editor",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_cross_channel_loop",
+   "target": "drafts_marketing_room_pinterest_agent",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_cross_channel_loop",
+   "target": "drafts_marketing_room_reddit_agent",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_cross_channel_loop",
+   "target": "drafts_marketing_room_viral_formats",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_cross_channel_loop",
+   "target": "drafts_marketing_room_editor",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_cross_channel_loop",
+   "target": "drafts_marketing_room_seo_aeo",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_seo_aeo",
+   "target": "drafts_marketing_room_article_pace_rule",
+   "relation": "implements",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_seo_aeo",
+   "target": "drafts_marketing_room_search_console",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_pinterest_agent",
+   "target": "drafts_marketing_room_favourites_schedule",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_editor",
+   "target": "drafts_marketing_room_vision_board_kit",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_weekly_numbers",
+   "target": "drafts_marketing_room_framer_sources",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_standups",
+   "target": "drafts_marketing_room_framer_sources",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_skills_map",
+   "target": "drafts_marketing_room_never_use",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_skills_map",
+   "target": "drafts_marketing_room_lanes",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_positioning_rule",
+   "target": "drafts_marketing_room_pinterest_agent",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_positioning_rule",
+   "target": "drafts_marketing_room_viral_formats",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_media_buyer",
+   "target": "drafts_marketing_660_subscribers_plan_instagram_test",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_goal_660",
+   "target": "drafts_marketing_660_subscribers_plan_doc",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_analytics_doc",
+   "target": "drafts_pinterest_analytics_metricool_record",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_analytics_doc",
+   "target": "drafts_pinterest_analytics_notes_pin_snapshots",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_analytics_doc",
+   "target": "drafts_pinterest_analytics_no_estimate_rule",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_analytics_reporting_break",
+   "target": "drafts_pinterest_analytics_metricool_record",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_analytics_reporting_break",
+   "target": "drafts_pinterest_analytics_notes_pin_snapshots",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_doc",
+   "target": "drafts_marketing_room_doc",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_goal_660",
+   "target": "drafts_marketing_660_subscribers_plan_goal",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_instagram_test",
+   "target": "drafts_marketing_room_media_buyer",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.75,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_660_subscribers_plan_waitlist_gap",
+   "target": "drafts_marketing_room_editor",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_analytics_notes_pin_snapshots",
+   "target": "drafts_marketing_room_pinterest_agent",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_pinterest_analytics_notes_pin_snapshots",
+   "target": "drafts_marketing_room_weekly_numbers",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_framer_sources",
+   "target": "drafts_marketing_room_weekly_numbers",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "drafts_marketing_room_favourites_schedule",
+   "target": "drafts_pinterest_analytics_metricool_record",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.65,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [
+  {
+   "id": "waitlist_to_launch_levers",
+   "label": "Levers to hit 660 paying a month",
+   "nodes": [
+    "drafts_marketing_660_subscribers_plan_waitlist_gap",
+    "drafts_marketing_660_subscribers_plan_apple_featuring",
+    "drafts_marketing_660_subscribers_plan_listing_v15",
+    "drafts_marketing_660_subscribers_plan_paywall_test",
+    "drafts_marketing_660_subscribers_plan_conversion_lever"
+   ],
+   "relation": "participate_in",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md"
+  },
+  {
+   "id": "article_distribution_doors",
+   "label": "Article distribution doors",
+   "nodes": [
+    "drafts_marketing_room_pinterest_agent",
+    "drafts_marketing_room_reddit_agent",
+    "drafts_marketing_room_viral_formats",
+    "drafts_marketing_room_editor"
+   ],
+   "relation": "participate_in",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/drafts/marketing/ROOM.md"
+  }
+ ],
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "coverage": {
+  "/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md": 72,
+  "/home/user/Autonomousangents/drafts/marketing/ROOM.md": 280,
+  "/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md": 51
+ }
+}

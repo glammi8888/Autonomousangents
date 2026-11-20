@@ -1,7 +1,3 @@
+/home/user/Autonomousangents/drafts/marketing/660-SUBSCRIBERS-PLAN.md
 /home/user/Autonomousangents/drafts/marketing/ROOM.md
-/home/user/Autonomousangents/drafts/pinterest/ARTICLE-PINS-SCHEDULE.md
-/home/user/Autonomousangents/drafts/pinterest/BECOMING-HER-FIX.md
-/home/user/Autonomousangents/drafts/pinterest/FAVOURITES-SCHEDULE.md
-/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md
-/home/user/Autonomousangents/drafts/pinterest/QUEUE.md
-/home/user/Autonomousangents/drafts/pinterest/WEEK-NOV18.md
+/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md

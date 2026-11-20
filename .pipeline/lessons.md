@@ -13,7 +13,7 @@ Why: this week Megan corrected us 4 times on facts that were already in this fil
 - Megan does not want manual research steps ("I do not want to do the work manually"). Pinterest SEO data = Apify "Pinterest Trends Scraper" (apt_marble), security check passed; needs her Apify key.
 - ISSUE11 ads: $300 Instagram test launches Mon Nov 17; only Megan's own photos + the text screen. Ad account created Nov 12.
 - App Store description: DONE and published by Megan. Landing H2 + Editorial Bible both stay.
-- ISSUE11: **Dec 11, 2026 = private beta.** App Store launch date is set after the beta (never write "launches Dec 11").
+- ISSUE11 (CHANGED Nov 20, Megan word for word: "Im supposed to launch dec 11 hellooooo" then "No I want it to be on App Store on dec 11"): **Dec 11, 2026 = PUBLIC App Store launch** (no longer a private beta first). Back-plan: bank this weekend → Paid Apps Agreement + bank + tax active in App Store Connect by ~Nov 27 → finished build (sign-in, subscriptions, restore, delete account) by ~Dec 3 → submit for App Review by Fri Dec 4 (room for one rejection) → release Dec 11. Replaces the Nov 5 "Dec 11 = beta" fact.
 - ISSUE11 ads: Megan chose ~$300/mo (Option B) on Nov 6 (Pixel live Nov 11, ad account created Nov 12).
 - ISSUE11 prices (Megan, Nov 7: "Ok let's do that"): Monthly $9.99 (no trial) · Yearly **$69.99** (7-day trial) · founding rate for approved waitlist guests: **$39.99 for the first year** (then renews at $69.99; first year only, not forever). Wording: "Approved guests lock in their founding rate". No "first 1,000" cap (Megan, Nov 7). $69.99 must be the real price charged (no fake reference price). Never "50% off".
 - ISSUE11 pages: unlock ANYTIME; the weekly Next Move is an optional suggestion, never a lock (Megan, Nov 7: "2. Ok").
@@ -721,3 +721,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-20 (OPS): Images Megan pastes into chat WHILE I'm mid-turn arrive as previews only (no file). Images sent as their own message are saved to the session images/ folder and are usable. Ask her to resend standalone instead of hunting Drive (a Drive search for 7 pasted images cost ~370k agent tokens and found 1).
 - 2026-11-20 (OPS): Megan: "remove the pics you picked and replace with the ones i sent in this chat". For the landing page, use her chat-sent photos over my Drive picks. Gallery "Pages from issues like yours" is live on issue11.app (after App Screens); repeated stand-ins are hidden per the unique-image rule.
 - 2026-11-20 · OPS · Megan: trademark self-check for "ISSUE11" = DONE ("4. Done", replying to the pre-launch list). Don't list it again. Result of the check (any conflicts found?) not yet reported.
+
+- 2026-11-20 · OPS · DATE CHANGE (Megan): Dec 11 = public App Store launch, not a beta. Updated CURRENT FACTS, Megan Today, landing copy; told Design Room, ASO Scout, Marketing Room. Grep for "beta" in copy/emails/briefs before writing.

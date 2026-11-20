@@ -18,5 +18,7 @@ How to run it:
 - **Look at your own screenshots** (Playwright, deviceScaleFactor 1 for your own checks). Do the phone check at 390px wide. For pins, also check the ~236px feed width.
 - **Self-correct.** If anything seems odd, cropped or not relevant, fix it and look again before reporting. Don't hand over something you'd flag yourself.
 - **Image-to-topic match.** Each photo must fit its chapter or prompt (beauty → face, skincare or vanity; money → money or work; love → friends). When no photo fits, use the closest honest one and ask Megan for the specific shot (she offered to create them).
+- **Nudity check (added Nov 20 retro).** On photos full of small portraits (polaroid walls, collages, clippings), zoom into each portrait before showing Megan. Cover anything topless or nude with a small black or pink rectangle; Megan chose this fix twice (Nov 20: "just add a rectangle on the boobs", "you can cover with a small black rectangle").
+- **Behind a centred phone mockup:** the middle of the photo disappears, so pick photos with interest on both sides and no key subject (face, lips, collage wall) in the centre.
 - **Report.** Say what you checked and what you fixed. "Done" without screenshots doesn't count.
 - **Previews.** This replaces the old "never render or screenshot unless Megan asks" rule. Checking is now always required. Sending previews to Megan is still only when it helps her decide.

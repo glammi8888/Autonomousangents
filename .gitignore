@@ -2,3 +2,4 @@ __pycache__/
 
 # graphify output (local map, not committed)
 graphify-out/
+drafts/landing/photos/*.png

@@ -11,7 +11,7 @@ Oct 13, 2026 · 📣 Content Room (💚 GROWTH + 🎨 BRAND) · Method from Noti
 ## ⭐ Do first (free, fits pre-launch)
 | # | Target | When | What it costs | Status from search |
 |---|---|---|---|---|
-| 1 | **BetaList** (betalist.com) | As soon as issue11.com has the waitlist form | Free (queue about 2 months, which lands around the Nov-Dec beta). Paid skip about $129: no | Built for pre-launch. Needs a sign-up form and a page that doesn't look like a stock template |
+| 1 | **BetaList** (betalist.com) | As soon as issue11.app has the waitlist form | Free (queue about 2 months, which lands around the Nov-Dec beta). Paid skip about $129: no | Built for pre-launch. Needs a sign-up form and a page that doesn't look like a stock template |
 | 2 | **HARO** (helpareporter.com) | Now | Free | Relaunched by Featured.com (Apr 2025); 3 emails a day of journalist requests |
 | 3 | **Qwoted** (qwoted.com) | Now | Free Basic: 2 pitches a month | Pricing confirmed in search results from Qwoted's own page |
 | 4 | **SourceBottle** (sourcebottle.com) | Now | Free leads; skip the paid profile | Strong for lifestyle press |
@@ -79,7 +79,7 @@ Written to content-guidelines.md: process over outcome, no promises, no "becomin
 >
 > No streaks, no homework and no "I'm a millionaire" affirmations. Just your next real step.
 >
-> Private beta from November. Launching on iPhone [LAUNCH DATE].
+> Private beta on iPhone from December 11, 2026. App Store launch date to follow.
 
 ### C. Indie Hackers: product page + first post
 **Product one-liner:** = sentence A.
@@ -90,7 +90,7 @@ Written to content-guidelines.md: process over outcome, no promises, no "becomin
 >
 > ISSUE11 turns that into an iPhone app. You collect images, listen to short sessions and write a little, and it becomes your own magazine. The part I care about most comes after the magazine: one small move a week, because you can't control the outcome but you can control the process.
 >
-> I'm a non-developer founder building it with AI tools, and I'll share what works and what breaks along the way. Private beta in November.
+> I'm a non-developer founder building it with AI tools, and I'll share what works and what breaks along the way. Private beta on December 11.
 >
 > The magazine is step one. The rest is the in-between, and that's what I'm building.
 
@@ -139,7 +139,7 @@ Written to content-guidelines.md: process over outcome, no promises, no "becomin
 
 ## Order (smallest effort first)
 1. **Now (20 min):** HARO + Qwoted + SourceBottle sign-ups, Indie Hackers profile (C).
-2. **When issue11.com is live:** BetaList (B). Pitch 2 podcasts (F).
+2. **When issue11.app is live:** BetaList (B). Pitch 2 podcasts (F).
 3. **After the beta (Nov-Dec):** Bustle (H).
 4. **Launch week:** Product Hunt (E), AlternativeTo (D), Microlaunch, Peerlist, Launching Next, Uneed, Startup Stash. Fazier only if you OK the badge.
 5. **Once there are 50+ real ratings:** MindfulSuite free listing, Zapier.

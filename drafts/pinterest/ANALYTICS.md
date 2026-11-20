@@ -49,3 +49,6 @@ All three roughly doubled within the day. ⚠️ Megan: "the saves are me, in my
 | 2027 glow up · the list (how to glow up in 2027) | 9 | 1 | 3 |
 | Project: Personal Rebrand | 17 | 1 | 6 |
 Too early to pick winners (needs ~2–3 weeks). The 3rd icon's label isn't readable in the screenshot, so check it in Pinterest before using it.
+
+## Snapshot Nov 20 (Megan, in chat)
+- "we're already at over 600+ impressions". Total account impressions, from Megan; no per-pin breakdown yet.

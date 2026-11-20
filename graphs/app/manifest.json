@@ -24,6 +24,7 @@
 "issue11/src/hooks/use-color-scheme.ts": "d932151d9578a579f33858633c8a797a526f60f7",
 "issue11/src/hooks/use-color-scheme.web.ts": "350188df443cfbeb8729ed9f470026fe1b9903b0",
 "issue11/src/hooks/use-theme.ts": "5ee47e1aaabcbca792e95a7093d96c98f6874bfd",
+"tools/framer/cover-dupe-check.py": "8cc4435675a3bf79a90ffc73f657ecdf814bc7dd",
 "tools/framer/glammi-add-post.mjs": "29eab6d32bbf550a6cce7ebdf253e896828cc982",
 "tools/framer/glammi-cover.sh": "963261dfa2c83d0c6eb6a9311cbcfb6b5f11e1f1",
 "tools/framer/glammi-list.mjs": "205a76c3b0e76374a423ca290dff8d1b53b7ee1e",

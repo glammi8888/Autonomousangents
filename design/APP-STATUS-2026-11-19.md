@@ -17,6 +17,13 @@ Megan, word for word: "No I want it to be on App Store on dec 11". Goal now = **
 | The Editor (11) | Floating, draggable · one card per screen with **written suggestions only (no live AI)** · "AI off" wording not needed | Live AI (needs LUCKY-STAR-ARCHITECTURE approval + privacy review) |
 | Brand | Inter Tight everywhere, white everyday screens, Electric Soft only on welcome / paywall | — |
 
+### Progress (Nov 20)
+- ✅ Decision 1 DONE: Megan approved boards 26–28 ("i approve them just add them"), floating 11 only.
+- ✅ Step 2 drafted: logic map v8 (board 26): v1 vs v1.1 tags, Editor row (one card per tab, written suggestions only, steps KNOWN → RETRIEVE → ASK → GENERATE → KEEP for v1.1), first-day state without a page lock, Electric Soft only on first open + paywall, final prices, print = order page on issue11.app, feedback = email. **Waiting for Megan's OK.**
+- ✅ Step 3 done: boards 27–28 v2: header 11 removed everywhere (10 screens), floating 11 on every screen and never over a button or sheet, v1/v1.1 captions (print, My Issues, More layouts, unlock line, Help us improve).
+- ⏳ Decisions 2 (sign-in + payments spec, Editor spec) and 3 (screen 34 rename) still open.
+- Next: step 5, the ONE Replit prompt + screens + zip, by Tue Nov 24 (starts right after the v8 OK).
+
 ### Dates (each step must finish by)
 | By | Step | Owner |
 |---|---|---|

@@ -1,0 +1,48 @@
+# ISSUE11 v1 · logic per tab (for Megan's OK, Nov 20, 2026)
+
+Source: "ISSUE11 — Design Handoff v1" (taps + copy) + what Replit already has (audit Oct 21). This is the behavior *underneath* the screens. Nothing here goes to Replit until Megan says OK.
+
+## Ground rules
+- **Data stays on the phone** (the app's existing local storage). No cloud database, no sign-in, no payments, no backend changes in this round. Those need their own spec (CLAUDE.md rule 4).
+- **The Editor isn't connected to AI yet.** Its suggestions come from fixed lists written into the app until the AI spec is approved.
+- **One issue at a time = 40 pages.** "15 of 40" always means pages kept in the current issue.
+- **A week starts Monday.** One action per week.
+
+## What the app remembers
+| Thing | What it holds |
+|---|---|
+| Issue | number, title, list of pages (max 40), start date |
+| Page | photos, words, layout, where it came from (action, journal, save, upload), date |
+| Weekly action | text, week, status: open · smaller · done · moved to next week |
+| Journal entry | date, question, text, photo, private (always) |
+| Saves | images and sessions you hearted or uploaded, topic |
+| Player | the session playing and where you stopped |
+| Settings | notification switches, quiet hours, app icon, your name |
+
+## Home
+- **Sees:** cover with "[pages] of 40", this week's action, today's question, tonight's session, 3 latest saves, Your Issue.
+- **Does:** I did it · Not yet · Write today's page · Listen now · Explore your vision · Open my issue.
+- **Underneath:** first open on a Monday with no action → Focus pick (FC1). "I did it" marks the action done → celebration (FC5) → "See my page" opens the page maker with the action already written in. "Not yet" opens the smaller-action sheet, offered once a week. Today's question and tonight's session change daily from a fixed list. Vision shows your 3 newest saves; with none, it shows "Explore your vision" only.
+
+## Focus
+- **Underneath:** FC1 offers 3 Editor suggestions (fixed list by topic) or "Write my own". "Make it smaller" swaps in the smaller version; you can edit it. "Keep it for next week" moves it to next Monday. "Weeks showing up" = number of weeks with a done action. It never resets, and there's no streak and no guilt. Optional reminder Monday 9:00.
+
+## Explore
+- **Underneath:** heart = saved on the phone. "Upload your own" adds your photo to saves. Saved boards are grouped by topic (the Editor's sorting for v1). "Add to my issue" opens the page maker with that image. Sessions start playing on tap; the mini player stays across tabs and remembers where you stopped. Search filters titles and topics; "Send" on no results or "What are we missing?" opens an email to support@issue11.app.
+
+## Issue
+- **Underneath:** new page in 3 steps (content → layout, "Editor decides" by default → keep). "Keep page" adds it and shows the toast; "Undo" (5 seconds) removes it. Edit swaps layout, photo or words (your words are never changed by the app). The pencil names the issue (Editor ideas = fixed list). The print screen unlocks at 40 pages; "Order my print · $29.99" opens the issue11.app order page (no in-app payment).
+
+## Journal
+- **Underneath:** entries are private and autosave as you type. The wall shows newest first; empty wall → "Write my first page". "Add to my issue" opens the page maker with your words exactly as written. Tapping the 11 here gives one gentle question (JR6).
+
+## You
+- **Underneath:** notification switches schedule reminders on the phone (action Mon 9:00, journal daily if on, new page, Editor max 1 a day, quiet 22:00–7:00). App icon switches the iPhone icon. Help us improve opens an email to support@issue11.app → "Thank you." Membership is display only for now. Sign out and Delete account stay exactly as they are (making Delete real is a separate, required item before the App Store).
+
+## The 11 (Editor)
+- **Tap:** one card for the screen you're on (Home: 3 smaller steps · Explore: 3 images or tonight's session · Issue: "Let me lay this out." · Journal: one question · You: nothing).
+- **Hold:** the existing chat preview stays as it is (not connected to AI). Affirmations (ED3) are skipped.
+
+## 2 questions for Megan
+1. **After ordering the print**, when does Issue 02 start? We can't see the website order from the app. Recommend: a "I've ordered it" button on the print screen starts Issue 02.
+2. **The Editor's suggestions:** fixed lists for v1 until AI is connected? Recommend: yes.

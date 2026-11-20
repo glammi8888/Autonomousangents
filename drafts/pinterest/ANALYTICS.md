@@ -51,4 +51,4 @@ All three roughly doubled within the day. ⚠️ Megan: "the saves are me, in my
 Too early to pick winners (needs ~2–3 weeks). The 3rd icon's label isn't readable in the screenshot, so check it in Pinterest before using it.
 
 ## Snapshot Nov 20 (Megan, in chat)
-- "we're already at over 600+ impressions". Total account impressions, from Megan; no per-pin breakdown yet.
+- "we're already at over 600+ impressions". Screenshot, Pinterest Analytics, last 30 days (Oct 21 – Nov 20): impressions 669 · engagements 127 · outbound clicks 3 · saves 29 · total audience 26 · engaged audience 2. Engagement rate 19.0% (127/669); save rate 4.3% (29/669). Some saves are Megan's own (Nov 17 note). No per-pin breakdown yet.

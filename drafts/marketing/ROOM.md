@@ -14,7 +14,7 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 | Metric | Number | Source / date |
 |---|---|---|
 | issue11.app visits | **6–8 a day** (≈180–240/month), source not confirmed | Megan, Nov 18 (Framer). Waiting for a Framer Analytics → Sources screenshot |
-| Pinterest pin views | **150 views across the 4 Notes pins** (Nov 17, day 3, still climbing). Pinterest Analytics + Metricool show 0 since the site was claimed (Nov 16–17) | Megan's screenshots + drafts/pinterest/ANALYTICS.md |
+| Pinterest (last 30 days, Oct 21–Nov 20) | **669 impressions · 127 engagements · 29 saves · 3 outbound clicks** · audience 26 | Megan's Pinterest Analytics screenshot, Nov 20 (ANALYTICS.md) |
 | Pinterest outbound clicks | not available: Pinterest doesn't show outbound clicks (Megan, Nov 18) | use Framer Sources + utm_source=pinterest instead |
 | Email/waitlist sign-ups this month (leading indicator) | **missing** | Waitlist Sheet + freebie forms, not counted yet |
 | New paying app subscribers (goal 660/mo, after launch) | 0 (app not launched; beta Dec 11) | App Store Connect / RevenueCat after launch |
@@ -87,6 +87,16 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 24 · Nov 20, 22:25 UTC (daily)**
+- 📅 **Dec 11 is now the PUBLIC App Store launch** (Megan). Marketing drafts fixed this morning; 660 plan re-planned with launch week (see 03:50 log). App Store submission due Fri Dec 4.
+- 📌 Pinterest: first real 30-day numbers (Megan, Nov 20: "we're already at over 600+ impressions"): **669 impressions, 127 engagements (19%), 29 saves, 3 outbound clicks**, before the 89 favourites start on Nov 25. New: "The Body" (Netflix) trend pins TB01–TB04 + a carousel, in our photos and BANK lines. Agent cut to 2 runs/day (Friday retro).
+- 🎯 Audience update (Megan): "no my audience is gen z" + "gen z AND millenials both". Every brief now targets Gen Z AND millennial women.
+- 🖥 Site: landing page **frozen** (Megan: "let's keep it as is"), with her real v1 app screens live. The v1 app update was sent to Replit.
+- 🔎 SEO/AEO: 1/day holding; AI-prompt FAQ lever continues. SEO block cut to 2/day.
+- 💸 Media Buyer · 🧵 Reddit · 🎬 Viral · 🖋 Editor: no change. Ads test, featuring nomination and the "invite-only" wording are waiting on Megan's answers.
+- 💡 Idea: 3 outbound clicks from 669 impressions (0.4%) is our first Pinterest click rate. Most pins don't link out on purpose (favourites are mood pins). From Nov 25, compare the article pins' clicks against the favourites' in Megan's weekly screenshot, and give the article-pin format more slots if it clicks more. Traffic: tens–hundreds of visits/month at this scale. Cost: $0. Flag risk: none. Megan must: the weekly screenshot.
+- 0 subagents.
+
 **Cycle 23 · Nov 19, 22:25 UTC (daily)**
 - ✅ **ISSUE11 pace fixed:** Megan: "I think we decided to reduce the amount of articles to keep things safe 1-2 per day no ?". The routine prompts now say 1/day (SEO, Nov 19 18:15). The Nov 19 daily run had already published 3 (40 live now). 7 covered drafts are queued, so no new drafts for a few days. Removed from Waiting on Megan.
 - 🔎 SEO/AEO: still 0/108 keywords in the top 100 (Nov 18). Lever this week: exact answers to AI prompts (FAQ blocks on best-manifestation-apps, how-to-manifest and more) plus a winter-arc cluster (11,800/mo, Megan's favourite). Megan: "Please keep every image as unique image and don't repeat them". 8 repeated covers replaced, and a duplicate check was added.

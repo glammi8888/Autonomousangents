@@ -720,3 +720,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 
 - 2026-11-20 (OPS): Images Megan pastes into chat WHILE I'm mid-turn arrive as previews only (no file). Images sent as their own message are saved to the session images/ folder and are usable. Ask her to resend standalone instead of hunting Drive (a Drive search for 7 pasted images cost ~370k agent tokens and found 1).
 - 2026-11-20 (OPS): Megan: "remove the pics you picked and replace with the ones i sent in this chat". For the landing page, use her chat-sent photos over my Drive picks. Gallery "Pages from issues like yours" is live on issue11.app (after App Screens); repeated stand-ins are hidden per the unique-image rule.
+- 2026-11-20 · OPS · Megan: trademark self-check for "ISSUE11" = DONE ("4. Done", replying to the pre-launch list). Don't list it again. Result of the check (any conflicts found?) not yet reported.

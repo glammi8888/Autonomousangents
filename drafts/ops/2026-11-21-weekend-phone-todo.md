@@ -14,7 +14,7 @@ Launch: App Store Dec 11 · submit Dec 4 · first TestFlight Nov 30.
 
 ## 🟢 Content (by Tue Dec 1)
 7. **Session audio**: list the sessions for launch and record or pick the real audio (Replit has sample audio only).
-8. **Explore images you own**: start a phone album of images you have the rights to (no Pinterest images at launch).
+8. ✅ **Explore images you own**: DONE (Megan, Nov 20: "done already all the google drive images i have right to"). Use her Google Drive images for Explore and all app sample content.
 9. **IS4 open-magazine photo** (Midjourney on your phone) for the page maker.
 
 ## 👀 Check the build (Replit app on your phone)

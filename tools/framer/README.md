@@ -5,6 +5,7 @@ Setup: npm i --ignore-scripts framer-api@5.1.0 (scanned version).
 - i11-add-post.mjs <html> <slug> <date> <imageUrl|""> "<alt>": adds/updates an ISSUE11 Blog Posts item, ALWAYS as a draft.
 - glammi-list.mjs: lists Glammi blog items (LIVE/DRAFT, cover), pages, unpublished page changes. Read only.
 - glammi-add-post.mjs <html> <slug> <date>: adds a Glammi article as a draft; refuses live items.
+- glammi-add-faq.mjs <slug> <qa.json>: appends exact-match FAQ answers ([{q,a}], skips ones already there) to a blog item's FAQ section and its FAQ Schema field; keeps draft state. Then publish only if publishing.status() lists just that item, verify live, IndexNow.
 - glammi-publish-one.mjs <slug>: sets ONE item live and deploys; aborts on unpublished page changes or a missing cover.
 - i11-publish-one.mjs <slug>: sets ONE ISSUE11 item live and deploys; aborts if issue11.app still shows the template's fake reviews, on unpublished page changes, or if the cover is missing.
 - glammi-set-cover.mjs <slug> <jpg> "<alt>": converts to WebP 1600x1067 and sets the cover of a Glammi DRAFT (refuses live items).

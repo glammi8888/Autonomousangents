@@ -8,10 +8,11 @@ Launch: App Store Dec 11 · submit Dec 4 · first TestFlight Nov 30.
 | 1 | Bank account (BofA or Relay) | ~60 min |
 | 2 | App Store Connect: Paid Apps Agreement + bank + tax | ~30 min |
 | 3 | Quick decisions (affirmations, Focus photo) | ~5 min |
-| 4 | Session list for launch (titles only) | ~30 min |
+| 4 | Write session scripts (start with "I am my own dream girl.", template: drafts/content/session-scripts-TEMPLATE.md) | ~60–90 min |
 | 5 | Glance at ISSUE11 Final in the Replit app, screenshot anything off | ~20 min |
 | 6 | Onboarding + paywall: tell me what to change | ~10 min |
-| | **Total** | **~2 h 35** (buffer for waiting on banks) |
+| 7 | Writing content (articles, captions) if time is left | rest of the time |
+| | **Total** | **fits in 4 h** |
 
 Later, not this weekend: recording audio, the IS4 Midjourney photo, Supabase + RevenueCat accounts (easier on the Mac), Pinterest picks.
 

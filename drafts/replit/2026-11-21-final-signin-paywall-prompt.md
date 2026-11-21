@@ -11,6 +11,8 @@ ACCOUNTS (Supabase): Sign in with Apple first (native, Expo), "Continue with ema
 
 PAYWALL (RevenueCat + Apple in-app purchase): Yearly $69.99 with a 7-day free trial (pre-selected), Monthly $9.99, founding offer $39.99 for the first year as an introductory offer. Prices load live from the App Store via RevenueCat (never hard-coded). Show price, period, trial terms, auto-renew and how to cancel, "Restore purchases", Terms (Apple standard EULA) and Privacy links, Close. One entitlement "member" unlocks the app. Membership row in You: "Manage membership" (Apple subscriptions) and "Restore purchases".
 
+DOWNLOAD MY ISSUE (anytime): add "Download my issue (PDF)" to the Issue reader's Share sheet, to You › My Issues, and on the Delete account screen above "Delete my account". It builds a PDF of the cover and all kept pages in order on the phone (no upload) and opens the iOS share sheet.
+
 DELETE ACCOUNT (CP3/CP4, from You › Delete account): explain what gets deleted and that it doesn't cancel the membership, with a "Manage subscription" link; "Delete my account" (destructive red) → server deletes the Supabase user and their row, revokes Sign in with Apple, deletes the RevenueCat customer, and the app wipes this account's local data → "Account deleted" → Close → Sign in. If any step fails: "We couldn't finish. Try again." and retry completes it. Add "Sign out" in You (keeps local data on this phone for the same account).
 
 Do not: use Replit Auth or Replit Postgres for user data, put any key in code or chat, add in-app payment for prints (prints stay on issue11.app), or change onboarding.

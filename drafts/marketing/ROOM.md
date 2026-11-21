@@ -87,6 +87,15 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 25 · Nov 21, 22:25 UTC (daily)**
+- 🔎 SEO/AEO: 1 ISSUE11 article live (1/day holding). New cluster from Megan's TikTok tip: "personal magazine", "magazine collage", birthday and graduation magazines. Megan: "We should rank for all those small searches too since they're high intent". 2 drafts written (magazine-collage, personal-magazine). This fits the product better than generic manifestation terms.
+- 📱 ASO Scout: checked "personal magazine" / "magazine maker" on the App Store. ASOMobile is down to 1 API token, so Applyra is the fallback.
+- 💡 Post-launch idea logged by OPS: occasion/gift magazines (Megan's "Issue22"). Not before launch.
+- 📌 Pinterest · 💸 Media Buyer · 🧵 Reddit · 🎬 Viral · 🖋 Editor: no change. Megan has 4 hours of nanny time a day and is writing the in-app session scripts this weekend, so asks to her stay minimal.
+- ⏳ Featuring nomination: the 3-week window for Dec 11 closed today. Apple's "Getting featured" page asks for at least 2 weeks, so it can still go in by about **Nov 27**.
+- 💡 Idea: point the Dec 1–13 article pins and the magazine-cluster articles at the same intent ("make your own magazine"). Pin titles use the cluster keywords, linking to /blog/personal-magazine once it's live. Traffic: small but high-intent, and it's the most direct path from a search to the app. Cost: $0. Flag risk: none. Megan must: approve the pins when shown (her favourites rule).
+- 0 subagents.
+
 **Cycle 24 · Nov 20, 22:25 UTC (daily)**
 - 📅 **Dec 11 is now the PUBLIC App Store launch** (Megan). Marketing drafts fixed this morning; 660 plan re-planned with launch week (see 03:50 log). App Store submission due Fri Dec 4.
 - 📌 Pinterest: first real 30-day numbers (Megan, Nov 20: "we're already at over 600+ impressions"): **669 impressions, 127 engagements (19%), 29 saves, 3 outbound clicks**, before the 89 favourites start on Nov 25. New: "The Body" (Netflix) trend pins TB01–TB04 + a carousel, in our photos and BANK lines. Agent cut to 2 runs/day (Friday retro).

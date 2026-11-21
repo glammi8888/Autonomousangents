@@ -14,6 +14,7 @@ Used by: design/ONBOARDING-V3.md (pain cards, mirror, paywall), Lucky Star Audio
 **🗓 Megan, Nov 21, 2026, word for word:** "isn't that such a good and simple way to describe issue11 ? Pinterest meets a habit tracker, with your own magazine as the reward." OPS suggested "Pinterest meets your journal, and it all becomes your own magazine." Megan: "No I liked the first version though". → **Approved short description: "Pinterest meets a habit tracker, with your own magazine as the reward."** Use it as written. Megan added: "it's a low pressure habit tracket" → it is a **low-pressure** habit tracker: no streaks, no guilt, one action a week.
 **🗓 Megan, Nov 21, 2026, more lines she likes (word for word):** "Pinterest meets personal growth, but you become the main story." · "A vision board that turns into a magazine as you achieve your goals.(I also love this one)" → Candidates next to the approved line above.
 **🗓 Megan, Nov 21, 2026 (word for word):** "A vision board that makes you actually do things." → Candidate.
+**🗓 Megan, Nov 21, 2026 (word for word):** "It's like Pinterest meets a habit tracker, except your progress becomes a personalized magazine." → Refined version of the approved line.
 
 ---
 

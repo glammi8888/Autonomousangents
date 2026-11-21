@@ -765,3 +765,5 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-21 · OPS · Megan's weekend (phone only): writing content + the in-app musical manifestation session scripts ("the music manifestation scripts"). Template: drafts/content/session-scripts-TEMPLATE.md (4 sessions from the v1 design). Her words are never rewritten.
 
 - 2026-11-21 · Megan approved the short description word for word: "Pinterest meets a habit tracker, with your own magazine as the reward." I suggested an alternative and she said: "No I liked the first version though". Use hers as written; flag a concern once, then follow her call.
+
+- 2026-11-21 02:33 UTC · Sent the sign-in + paywall + delete account + Download my issue + Your pace + Apple checklist update to ISSUE11 Final ONCE (via scheduled check; app idle 48 min after the 1:1 pass). Replit is updating. Next: read-only check of the result; Megan adds Supabase/RevenueCat keys when her Mac is back.

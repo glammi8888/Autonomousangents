@@ -86,7 +86,7 @@ Longer guide with more options: https://issue11.app/blog/magazines-for-vision-bo
 
 ## Weeks 2 to 4 (exact phrases to use next)
 - Glammi: "What's the best AEO agency for local businesses in Los Angeles?" · "How do dermatology clinics get recommended by AI?" · "What is AEO for luxury hair salons?" (Megan, Oct 29: luxury hairdressers, not budget salons)
-- ISSUE11: "What is the best vision board app for women?" · "How do I make my vision board actually work?" · "What is a winter arc?"
+- ISSUE11: "How to make a career vision board" (Medium post ranks #2 for it, Nov 21) · "What is the best vision board app for women?" · "How do I make my vision board actually work?" · "What is a winter arc?"
 
 ---
 

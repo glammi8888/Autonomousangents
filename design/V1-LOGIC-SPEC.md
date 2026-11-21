@@ -62,6 +62,7 @@ These need a real account and real purchases, so the "data stays on the phone, n
 1. **After ordering the print**, when does Issue 02 start? We can't see the website order from the app. Recommend: a "I've ordered it" button on the print screen starts Issue 02.
 2. **The Editor's suggestions:** fixed lists for v1 until AI is connected? Recommend: yes.
 
-## Download my issue (Megan, Nov 21: "they should be able to download their issue anytime")
-- **Where:** Issue reader → Share → "Download my issue (PDF)" · You → My Issues → each issue → Download · Delete account (CP3), above "Delete my account".
+## Download my issue (Megan, Nov 21: "they should be able to download their issue anytime" + "(once they reach the 40 pages)")
+- **When:** unlocks when an issue reaches 40 of 40, and stays available anytime for every finished issue.
+- **Where:** Print screen (IS7) next to "Order my print" · Issue reader → Share · You → My Issues → each finished issue → Download · Delete account (CP3), above "Delete my account" (open: allow a partial PDF there even before 40, recommended).
 - **Underneath:** builds a PDF of all pages kept so far (cover + pages in order, print layout) on the phone and opens the iOS share sheet (save to Files, AirDrop, email). Works offline; nothing is uploaded. The same page layouts later make the print file.

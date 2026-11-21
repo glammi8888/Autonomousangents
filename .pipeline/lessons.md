@@ -767,3 +767,6 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-21 · Megan approved the short description word for word: "Pinterest meets a habit tracker, with your own magazine as the reward." I suggested an alternative and she said: "No I liked the first version though". Use hers as written; flag a concern once, then follow her call.
 
 - 2026-11-21 02:33 UTC · Sent the sign-in + paywall + delete account + Download my issue + Your pace + Apple checklist update to ISSUE11 Final ONCE (via scheduled check; app idle 48 min after the 1:1 pass). Replit is updating. Next: read-only check of the result; Megan adds Supabase/RevenueCat keys when her Mac is back.
+
+## Suggestions
+- 2026-11-21 · Post-launch idea (Megan): occasion/gift magazines, joke name "Issue22" ("Issue22 lmao"). OPS recommends: first test with a personal-magazine template pack (Etsy/Gumroad, no code), then a "Gift issue" mode inside ISSUE11 for Valentine's Day, not a separate app. Cost: a few hours of Megan's design time. Not before the Dec 4 submission. Check the name before any use.

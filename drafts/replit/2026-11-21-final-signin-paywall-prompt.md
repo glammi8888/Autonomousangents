@@ -30,3 +30,7 @@ APPLE COMPLIANCE CHECKLIST (all must pass; list any that can't and why):
 - Background audio on for sessions (UIBackgroundModes audio) so sessions keep playing when the phone locks.
 - Crisis safety stop (988) kept.
 - Review notes: provide a way for Apple to test the paywall (sandbox) and the Editor.
+
+FIXES TO EARLIER WORK:
+- AI consent (CP5) and all app copy: say "an AI provider". Never name Anthropic, Claude or any other service anywhere the user can see (replace "Anthropic Claude" wherever it appears, including replit.md's Editor section wording shown to users). The backend integration stays as is.
+- Delete account copy (CP3): "This can't be undone. Download your issue first if you'd like to keep it. Then everything below is permanently deleted from this phone and our servers." On this screen only, the download works even before 40 pages.

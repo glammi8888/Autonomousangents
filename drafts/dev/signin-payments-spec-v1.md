@@ -1,3 +1,4 @@
+> ✅ **APPROVED by Megan Nov 20, 2026: "Yes I approve"** (for ISSUE11 Final: Supabase + RevenueCat; journal/photos stay on the phone; prints stay on the website).
 > **Megan, Nov 4 (LA time), word for word: "Yes use then"** to "Use my recommendations for sign-in and payments?" → Q1 returning-user link on onboarding screen 1: YES · Q2 plans: Monthly $9.99 (no trial) + Yearly $59.99 with 7-day free trial (pre-selected) + 37b offer $39.99 first year · Q3 print orders placed by hand on Lulu at launch. Full spec approval to start building (Production Safety Rule 4): pending Megan's explicit "approve".
 
 > ✅ **Pricing update, Megan Nov 7:** Yearly is now **$69.99** (was $59.99). Founding rate for approved guests = **$39.99 first year** (43% off yearly), then $69.99. Any $59.99 below is outdated.

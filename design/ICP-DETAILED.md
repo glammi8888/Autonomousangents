@@ -91,3 +91,9 @@ Her rule of thumb (her words): "Doing to get = trying. Doing to remember = being
 - Dream-life angle vs. follow-through angle: which sells better (A/B test).
 - Age range and what made her sign up: add one waitlist question, "What made you sign up?"
 - Whether she wants personalized affirmation loops at launch (cut for v1 is still your open call).
+
+## Signal from Megan, Nov 21, 2026 (TikTok Creative Center screenshots)
+- "pinterest magazines": 277K searches, up 1000%+ in the last 7 days (spike starting ~Nov 19). Majority viewers: female, 16–17.
+- Related: "personalized magazine gifts for partners" 108K (+1000%), "personalized magazine gift tutorial" 80.9K, "how to make a personalized magazine" 35.7K, "personalized vogue magazine tutorial" 47.1K.
+- Megan: "Now I'm starting to think maybe it didn't need to be around manifestation ooo"
+- OPS read: a new and younger aesthetic/gift audience, one week old (could be a fad). Recommendation: lead discovery with "personal magazine" (the what), keep the action loop + manifestation ICP as the why; test both on TikTok before changing positioning. No product change before Dec 4.

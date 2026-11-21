@@ -47,6 +47,9 @@
 | W1b | 🎄 winter arc glow up edition | TBD | ~19 | DONE Nov 19 winter-arc-glow-up (DRAFT dated Nov 17, cover longhair-back; 30-day plan; SEO title retargeted Nov 19 to '30-Day Glow Up Challenge' = 180/mo KD 26; winter arc glow up/money/mindset/checklist have no measurable volume) |
 | W1c | 🎄 winter arc hot bod edition (30-day plan, Megan Nov 19: "Do it a 30 day plan") | winter arc workout 340 + winter arc workout plan 130 (Nov 19) | n/a | NEXT, needs a cover: Megan to send/generate a fitness or body-confidence photo |
 | W5 | career vision board | 840 | 23 | DONE Nov 19 career-vision-board (DRAFT dated Nov 18, cover drive/office-meeting with black logo; 30 ideas by career stage) |
+| P1 | personal magazine · personalized magazine · custom magazine · pinterest magazine (Megan Nov 21: 'I see it's high on TikTok') | 220 + 210 + 1,200 + 100 | 23 (custom) | NEXT, first in queue if Megan says go ('Personal Magazine: How to Make a Magazine About Your Own Life'; H2 'Turn your Pinterest board into a magazine'). Google intent today is mostly gift printing; TikTok demand not measurable here |
+| P2 | pinterest mood board | 4,000 | 31 | candidate (how to make one + turn it into a magazine) |
+| P3 | magazine collage | 1,600 | 29 | candidate (check overlap with magazines-for-vision-board) |
 | S1 | 🎄 new year intentions · intentions for the new year | 480 + 480 | 19 to 26 | NEXT (before Dec 20; angle: intentions vs resolutions, 30 intention examples, one small move each; link new-year-resolution-ideas, word-of-the-year-ideas, winter-arc) |
 | S2 | 🎄 end of year reflection | 530 | 20 | NEXT after S1 (check overlap with live december-january-journal-prompts first; make it a guided reflection, not more prompts) |
 | S3 | how to start over in life | 600 | 23 | later (Jan; check overlap with personal-rebrand) |

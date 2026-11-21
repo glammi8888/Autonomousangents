@@ -3,8 +3,8 @@
 Launch: App Store Dec 11 · submit Dec 4 · first TestFlight Nov 30.
 
 ## 🔴 Must do
-1. **App Store Connect: Paid Apps Agreement + bank + tax** (due Fri Nov 27). DBA ISSUE11 is filed (doc 2026216313, Oct 13), so the bank account can be opened under ISSUE11.
-1b. Confirm the DBA newspaper publication (ask the newspaper or call the County Clerk 800-201-8999 with the doc number). Phone browser → appstoreconnect.apple.com → Business. ~20 min.
+1. **App Store Connect: Paid Apps Agreement + bank + tax** (due Fri Nov 27). DBA ISSUE11 is filed (doc 2026216313, Oct 13), so the bank account can be opened under ISSUE11. Phone browser → appstoreconnect.apple.com → Business. ~20 min.
+1b. Confirm the DBA newspaper publication (ask the newspaper or call the County Clerk 800-201-8999 with the doc number).
 
 ## 🟡 Quick decisions (one message)
 2. Affirmations from the journal: keep or cut? (Recommend: cut for v1.)

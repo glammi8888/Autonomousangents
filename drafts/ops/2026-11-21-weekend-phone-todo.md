@@ -17,6 +17,13 @@ Launch: App Store Dec 11 · submit Dec 4 · first TestFlight Nov 30.
 Later, not this weekend: recording audio, the IS4 Midjourney photo, Supabase + RevenueCat accounts (easier on the Mac), Pinterest picks.
 
 
+## ✅ Megan's own list (Nov 20, 6pm), in this order
+1. **Open the bank account** (Bank of America or Relay) under ISSUE11, the DBA. ~60 min
+2. **Connect the bank to Apple:** App Store Connect → Business → Paid Apps Agreement + bank + tax. Due Fri Nov 27. ~30 min
+3. **Apply for the App Store Small Business Program** (free; Apple keeps 15% instead of 30%). Do it right after step 2. ~10 min
+4. **Write the session scripts** (start with "I am my own dream girl.", template: drafts/content/session-scripts-TEMPLATE.md). ~60–90 min
+5. **Decide what to do with onboarding:** notes only, logic first (what to keep, cut or change). ~20 min
+
 ## 🔴 Must do
 1. **App Store Connect: Paid Apps Agreement + bank + tax** (due Fri Nov 27). DBA ISSUE11 is filed (doc 2026216313, Oct 13), so the bank account can be opened under ISSUE11. Phone browser → appstoreconnect.apple.com → Business. ~20 min.
 1b. ✅ DBA newspaper publication paid (4 weeks). Keep the receipt; the newspaper files proof with the county.

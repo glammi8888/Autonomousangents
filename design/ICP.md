@@ -1,4 +1,5 @@
 # ISSUE11 ICP: who we design and create for
+> **Newest full version: `design/ICP-DETAILED.md` (Nov 21, 2026).** Start there.
 Made by 🩶 Manager, Oct 15, 2026, at Megan's request ("give it a bit more detail ... so our content room can design for them").
 Method: the Customer Research Kit rule. Every line is tagged:
 - **[Megan]** = Megan's founder insight (Sep 25–26 ICP, Oct 7–10 positioning). Strong, but not yet customer evidence.

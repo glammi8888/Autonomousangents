@@ -67,7 +67,7 @@ These need a real account and real purchases, so the "data stays on the phone, n
 - **Where:** Print screen (IS7) next to "Order my print" · Issue reader → Share · You → My Issues → each finished issue → Download · Delete account (CP3), above "Delete my account" (open: allow a partial PDF there even before 40, recommended).
 - **Underneath:** builds a PDF of all pages kept so far (cover + pages in order, print layout) on the phone and opens the iOS share sheet (save to Files, AirDrop, email). Works offline; nothing is uploaded. The same page layouts later make the print file.
 
-## Your pace: daily, weekly or monthly actions (PROPOSED, waiting for Megan's OK)
+## Your pace: daily, weekly or monthly actions (APPROVED by Megan, Nov 21: "let's add that to the logic for replit")
 Megan, Nov 21, word for word: "I'm thinking maybe we can have them choose if they want daily action reminders or weekly or monthly so they can act at their pace" + "No they can get daily actions that are different too doesn't have to be weekly".
 - **Choose:** first time on Focus (FC1), a "Your pace" choice: Daily · Weekly (default) · Monthly. Can be changed anytime in You › Your pace; the change starts with the next day, week or month. Onboarding is unchanged (locked).
 - **One action per period:** Daily = a new action each day (can differ every day); Weekly = one a week (Monday); Monthly = one a month (the 1st).
@@ -77,4 +77,4 @@ Megan, Nov 21, word for word: "I'm thinking maybe we can have them choose if the
 - **Your issue:** unchanged. Any done action can become a page ("See my page"), so a daily pace fills the 40 pages faster.
 - **The Editor:** with AI consent, fresh suggestions each period; without consent or offline, a fixed list per topic big enough for daily use (about 30 per topic) without repeats.
 - **Reminders:** follow the pace (daily morning, Monday 9:00, or the 1st), quiet hours 22:00–7:00, all can be turned off.
-- **Screens touched:** Home 01 label, FC1–FC6 copy, You (new "Your pace" row + a small picker). Megan to OK the logic, then draw the picker, then it goes in ONE Replit update.
+- **Screens touched:** Home 01 label, FC1–FC6 copy, You (new "Your pace" row + a small picker). Defaults used (OPS, low-risk, reversible): Weekly is the default; the picker reuses the Focus 3 "Not yet" sheet style until Megan draws her own. Ships in the same Replit update as sign-in + paywall.

@@ -15,6 +15,16 @@ DOWNLOAD MY ISSUE: unlocks when an issue reaches 40 of 40 pages, then available 
 
 DELETE ACCOUNT (CP3/CP4, from You › Delete account): explain what gets deleted and that it doesn't cancel the membership, with a "Manage subscription" link; "Delete my account" (destructive red) → server deletes the Supabase user and their row, revokes Sign in with Apple, deletes the RevenueCat customer, and the app wipes this account's local data → "Account deleted" → Close → Sign in. If any step fails: "We couldn't finish. Try again." and retry completes it. Add "Sign out" in You (keeps local data on this phone for the same account).
 
+YOUR PACE (new logic, approved by the owner): users choose how often they get an action: Daily, Weekly (default) or Monthly. Data stays on the phone.
+- Where: the first time Focus opens (before the FC1 pick), a small "Your pace" sheet with three options: Daily · Weekly · Monthly. Build it in the same style as the Focus 3 "Not yet" sheet (https://framerusercontent.com/images/FEHUtOq09cEBJVuvu6rNxXDTDWQ.jpg): same fonts, colors, spacing and buttons. Also add a "Your pace" row in You (above Notifications) that opens the same sheet. A change starts with the next day, week or month. Do not change onboarding.
+- One action per period: Daily = a new action each day (can be different every day), Weekly = one action each Monday, Monthly = one action on the 1st.
+- Home: the action label follows the pace: "Today's action" · "This week's action" · "This month's action". I did it / Not yet work as now.
+- Focus: the FC1 pick opens at the start of each period. "Keep it for next week" reads "Keep it for tomorrow" / "Keep it for next week" / "Keep it for next month". "Make it smaller" unchanged.
+- Progress: replace "Weeks showing up" with "Actions done": a total of done actions that never resets. No streaks, no guilt copy, missing a period changes nothing.
+- Issue: unchanged; any done action can become a page via "See my page".
+- The Editor: with AI consent, fresh action suggestions each period; without consent or offline, a fixed list of about 30 suggestions per topic, never repeating a recent one.
+- Reminders follow the pace: Daily 9:00, Weekly Monday 9:00, Monthly the 1st at 9:00; quiet hours 22:00–7:00 still apply; all can be turned off in Notifications.
+
 Do not: use Replit Auth or Replit Postgres for user data, put any key in code or chat, add in-app payment for prints (prints stay on issue11.app), or change onboarding.
 
 APPLE COMPLIANCE CHECKLIST (all must pass; list any that can't and why):

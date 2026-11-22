@@ -55,3 +55,4 @@ Too early to pick winners (needs ~2–3 weeks). The 3rd icon's label isn't reada
 
 ## Snapshot Nov 22 (Megan screenshot, Pinterest Analytics overall)
 - Impressions 1.14k (+70% vs 669 on Nov 20) · engagements 177 · outbound clicks 6 · saves 29 · total audience 31 · engaged audience 2. Engagement rate ~15.5%.
+- Nov 22 · Megan: "My toddler accidentally put all the content of my landing page into pinterest and it's great ! An additional 20+ pieces of content have been posted including apps screenshots etc". 20+ extra pins from issue11.app (landing images, app screenshots) are live on the account. Not made by the Pinterest worker; titles/descriptions unknown.

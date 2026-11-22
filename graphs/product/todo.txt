@@ -1,1 +1,7 @@
 /home/user/Autonomousangents/design/APP-STATUS-2026-11-19.md
+/home/user/Autonomousangents/design/GIFT-ISSUE-LOGIC.md
+/home/user/Autonomousangents/design/ICP-DETAILED.md
+/home/user/Autonomousangents/design/ICP.md
+/home/user/Autonomousangents/design/POSITIONING.md
+/home/user/Autonomousangents/design/V1-LOGIC-SPEC.md
+/home/user/Autonomousangents/design/VISUAL-QA.md

@@ -274,3 +274,4 @@ Megan, Nov 13: "I also would like you to give me a projection daily" · "Time pr
 - 2026-11-21 · (Glammi worker, 07:10Z block) Light block: no change (3 drafts still without covers).
 - 2026-11-21 · (Glammi worker, 13:09Z block) Light block: no change (3 drafts still without covers).
 - 2026-11-21 · (Glammi worker, 19:09Z block) Light block: no change (3 drafts still without covers). Dentist page relaunch is due from Nov 22 (next block).
+- 2026-11-22 · (Glammi worker, 01:09Z block) Held the dentist relaunch: fashion went live Nov 15 03Z, so a full week ends Nov 22 03Z. Relaunch in the 07:09Z block. 3 drafts still without covers.

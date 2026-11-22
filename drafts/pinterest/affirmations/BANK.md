@@ -37,6 +37,13 @@ Rule (Megan, Nov 15): "The quotes still sound way too AI it needs to stop". Agen
 - I have all the time in the world
 - The right people, places, and moments find me
 - I make $10,000 a month with ease
+- I make $15,000 a month with ease (Megan, Nov 22: CT62 amount versions)
+- I make $20,000 a month with ease (Megan, Nov 22: CT62 amount versions)
+- I make $25,000 a month with ease (Megan, Nov 22: CT62 amount versions)
+- I make $30,000 a month with ease (Megan, Nov 22: CT62 amount versions)
+- I make $40,000 a month with ease (Megan, Nov 22: CT62 amount versions)
+- I make $50,000 a month with ease (Megan, Nov 22: CT62 amount versions)
+- I make $100,000 a month with ease (Megan, Nov 22: CT62 amount versions)
 - I wake up to Stripe notifications
 - I am worthy of love, respect, and everything I desire
 - I love my long hair (Megan, Nov 16, for pin CT93)

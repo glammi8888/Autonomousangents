@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Money amount · $100,000 a month with ease (CT62 style)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800;900&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.pin{width:1000px;height:1500px;position:relative;overflow:hidden;font-family:'Inter Tight',system-ui,sans-serif;color:#0D0D0D}
+.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.logo{position:absolute;left:52px;bottom:44px;height:92px}
+.w{filter:invert(1)}
+.tag{position:absolute;font-weight:800;font-size:24px;letter-spacing:.16em;padding:12px 20px;text-transform:uppercase}
+
+.tl{position:absolute;left:50%;top:44px;height:76px;transform:translateX(-50%);z-index:5}
+.url{position:absolute;left:0;right:0;bottom:56px;text-align:center;font-weight:700;font-size:28px;z-index:5}
+.it{position:absolute;left:0;right:0;text-align:center;font-style:italic;font-weight:400;letter-spacing:-.03em}
+img.f{position:absolute;object-fit:cover;display:block}
+
+.pin{background:#0E0E0E}
+.ko{position:absolute;left:0;right:0;top:425px;font-weight:900;font-size:188px;line-height:.85;letter-spacing:-.07em;text-align:center;background:url('/_blob/b45e07b7551e4b017a09232ac4418b81') 50% 50%/cover;-webkit-background-clip:text;background-clip:text;color:transparent}
+.big{position:absolute;left:60px;right:60px;top:760px;text-align:center;color:#D9B3FF;font-weight:900;font-size:100px;line-height:.9;letter-spacing:-.05em;text-transform:uppercase}
+.big i{font-weight:300}
+
+</style>
+</helmet>
+<div class="pin">
+<img class="tl w" src="/_blob/d196614efc6265e2205729134fb523b8" alt="ISSUE11"><div class="ko">$100,000</div><div class="big">a month <i>with ease</i></div><div class="url" style="color:#D9B3FF">issue11.app</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1000,"height":1500}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

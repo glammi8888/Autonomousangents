@@ -52,3 +52,6 @@ Too early to pick winners (needs ~2–3 weeks). The 3rd icon's label isn't reada
 
 ## Snapshot Nov 20 (Megan, in chat)
 - "we're already at over 600+ impressions". Screenshot, Pinterest Analytics, last 30 days (Oct 21 – Nov 20): impressions 669 · engagements 127 · outbound clicks 3 · saves 29 · total audience 26 · engaged audience 2. Engagement rate 19.0% (127/669); save rate 4.3% (29/669). Some saves are Megan's own (Nov 17 note). No per-pin breakdown yet.
+
+## Snapshot Nov 22 (Megan screenshot, Pinterest Analytics overall)
+- Impressions 1.14k (+70% vs 669 on Nov 20) · engagements 177 · outbound clicks 6 · saves 29 · total audience 31 · engaged audience 2. Engagement rate ~15.5%.

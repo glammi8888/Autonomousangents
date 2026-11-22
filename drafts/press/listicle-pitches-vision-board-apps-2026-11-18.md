@@ -2,7 +2,7 @@
 
 Why: ISSUE11's AI score (tracker, US, Google AI) went 1.23 → 0.54. AI answers for "best vision board app" type prompts cite these lists, and ISSUE11 isn't on any of them. Getting listed is the fastest non-branded lever after the App Store page.
 
-Rules: Megan sends these from her own email. Honest, disclosed (she's the founder), no paid placement, no reviews offered for coverage. Best sent AFTER the Dec 11 beta (they can test it then). Send the unlimits one first.
+Rules: Megan sends these from her own email. Honest, disclosed (she's the founder), no paid placement, no reviews offered for coverage. Best sent AFTER the Dec 11 App Store launch (they can test it then). Send the unlimits one first.
 
 ## 1. unlimits.com (most cited list: avg AI score 73.7)
 Page: https://unlimits.com/the-best-vision-board-apps-2026/ by Sajith Ansar, co-founder. Unlimits is an AI coach app with no vision board, so we're a companion, not a rival. Contact: footer "Contact" link.
@@ -15,7 +15,7 @@ Your "Best Vision Board Apps (2026)" guide is one of the clearest I've read, esp
 
 Full disclosure: I'm the founder of ISSUE11, an iPhone app that turns your saved images, Pinterest saves and a few honest lines about the life you want into a personal magazine, then gives you one small move a week. It fits your "board into a plan" angle, and your list doesn't have a magazine-style option yet.
 
-Our beta opens December 11. Happy to send you early access so you can judge it yourself. No payment or swap expected, just useful if it earns a spot.
+ISSUE11 launches on the App Store on December 11. Happy to send you free access so you can judge it yourself. No payment or swap expected, just useful if it earns a spot.
 
 Megan
 Founder, ISSUE11 · issue11.app
@@ -29,7 +29,7 @@ Hi [name],
 
 I saw your "Best Vision Board Apps" roundup. When you refresh it for 2027, you might want a dedicated iPhone option next to the design tools.
 
-Full disclosure, I built it: ISSUE11 turns saved images and Pinterest saves into a personal magazine about the life you want, with one small move a week. Beta opens December 11; I can send early access so you can test it.
+Full disclosure, I built it: ISSUE11 turns saved images and Pinterest saves into a personal magazine about the life you want, with one small move a week. It launches on the App Store on December 11; I can send free access so you can test it.
 
 Megan
 Founder, ISSUE11 · issue11.app

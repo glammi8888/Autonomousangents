@@ -76,11 +76,11 @@ You bring the images you've already saved, from Pinterest or your camera roll, a
 
 The magazine is step one. The small moves are the point.
 
-ISSUE11 opens its private beta on iPhone on December 11, 2026. You can join the waitlist at https://issue11.app
+ISSUE11 launches on the App Store on December 11, 2026. You can join the waitlist at https://issue11.app
 
 Longer guide with more options: https://issue11.app/blog/magazines-for-vision-board
 
-*Check: ISSUE11 named openly as ours; no promised results; prices not mentioned; beta date as on the live site.*
+*Check: ISSUE11 named openly as ours; no promised results; prices not mentioned; launch date as on the live site (Dec 11 App Store launch, changed Nov 20).*
 
 ---
 
@@ -125,7 +125,7 @@ A magazine has a cover, a story, pages you turn. It makes the life you're pictur
 
 The magazine is step one. The small moves are the point.
 
-Private beta on iPhone opens December 11. Full article: Is There an App That Turns Your Vision Board Into a Magazine? (link)
+On the App Store December 11. Full article: Is There an App That Turns Your Vision Board Into a Magazine? (link)
 
 #VisionBoard #Manifestation #WomenFounders
 

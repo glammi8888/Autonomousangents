@@ -14,7 +14,8 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 | Metric | Number | Source / date |
 |---|---|---|
 | issue11.app visits | **6–8 a day** (≈180–240/month), source not confirmed | Megan, Nov 18 (Framer). Waiting for a Framer Analytics → Sources screenshot |
-| Pinterest (last 30 days, Oct 21–Nov 20) | **669 impressions · 127 engagements · 29 saves · 3 outbound clicks** · audience 26 | Megan's Pinterest Analytics screenshot, Nov 20 (ANALYTICS.md) |
+| Pinterest (30 days to Nov 22) | **1,140 impressions** (+70% vs Nov 20) · 177 engagements · 29 saves · 6 outbound clicks · audience 31 | Megan's screenshot, Nov 22 (ANALYTICS.md) |
+| Google rankings (ISSUE11) | **5 of 114 tracked keywords in the top 100** (was 0–1): vision board magazine #27 · best manifestation app #47 · career vision board #58 · how to manifest someone #66 · law of assumption #67 | SERPWatcher, Nov 22 |
 | Pinterest outbound clicks | not available: Pinterest doesn't show outbound clicks (Megan, Nov 18) | use Framer Sources + utm_source=pinterest instead |
 | Email/waitlist sign-ups this month (leading indicator) | **missing** | Waitlist Sheet + freebie forms, not counted yet |
 | New paying app subscribers (goal 660/mo, after launch) | 0 (app not launched; beta Dec 11) | App Store Connect / RevenueCat after launch |
@@ -87,6 +88,15 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 26 · Nov 22, 22:25 UTC (daily)**
+- 🔎 SEO/AEO: **First Google rankings.** 5 of 114 tracked keywords are now in the top 100: vision board magazine #27 (1,500/mo), best manifestation app #47, career vision board #58, how to manifest someone #66, law of assumption #67 (10,300/mo). Indexing requests + internal links are working. Same-day follow-up: +8 internal links to those pages, and "2026" added to the best-manifestation-apps title (the pages winning that search use the year). magazine-collage is live (43 articles). Live articles that still said "beta" were fixed.
+- 📌 Pinterest: 1,140 impressions (+70% in 2 days), 6 outbound clicks. Megan posted 20+ landing-page pins herself. Her winning pin CT62 was remade in 7 money amounts. The 89 favourites start Nov 25.
+- 📱 ASO Scout: the connector word "maker" unlocks zine maker, mood board maker, magazine maker and vision board maker. Personal-magazine description drafted.
+- 🖋 Editor: magazine templates + Editor training kit v0 drafted (product side).
+- 💸 Media Buyer · 🧵 Reddit · 🎬 Viral: no change. Still waiting on Megan: featuring nomination (by ~Nov 27), $300 test, "invite-only" wording.
+- 💡 Idea: "vision board magazine" (#27, 1,500/mo) is our best-ranked page and the closest match to the product. Point the next Pinterest article pin + the next ad hook at it, and make it the first page in Megan's next indexing batch. Traffic: page 1 here ≈ 75–150 visits/month [A: 5–10% click share]. Cost: $0. Flag risk: none. Megan must: nothing new.
+- 0 subagents.
+
 **Cycle 25 · Nov 21, 22:25 UTC (daily)**
 - 🔎 SEO/AEO: 1 ISSUE11 article live (1/day holding). New cluster from Megan's TikTok tip: "personal magazine", "magazine collage", birthday and graduation magazines. Megan: "We should rank for all those small searches too since they're high intent". 2 drafts written (magazine-collage, personal-magazine). This fits the product better than generic manifestation terms.
 - 📱 ASO Scout: checked "personal magazine" / "magazine maker" on the App Store. ASOMobile is down to 1 API token, so Applyra is the fallback.

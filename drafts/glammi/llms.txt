@@ -29,6 +29,7 @@
 - [AEO for Skincare Brands](https://glammi.ai/aeo-for-skincare-brands)
 - [AEO for Perfume Brands](https://glammi.ai/aeo-for-perfume-brands)
 - [AEO for Fashion Brands](https://glammi.ai/aeo-for-fashion-brands)
+- [AEO for Cosmetic Dentists](https://glammi.ai/aeo-for-cosmetic-dentists)
 
 ## Guides: AI search basics
 

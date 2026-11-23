@@ -88,6 +88,13 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 27 · Nov 23, 22:25 UTC (daily, Monday)**
+- 📌 Pinterest: new **orbit motion pins** approved (Megan: "This is excellent!"). The person stays still, big text sits behind her, and the background swings. 10 made; Megan rejected OR03, OR06 and OR10; OR01 (winter arc) scheduled at her request; upload copy ready for 6. Megan paid for Metricool ("we had reached the 20 pin limit"), so the 3 → 5 → 7 → 10/day ramp can continue. Next, from Megan: "we need to write pins with hooks that create curiosity because we are getting lots of impressions but not a lot of outbound clicks".
+- 🔎 SEO/AEO weekly review: 5 in the top 100 (0 a week ago), 0 in the top 10 yet. Rankings flat Nov 22 → 23. personal-magazine live (44 articles). Megan: "I think we should also try to rank for 'personal magazine app'" (10/mo, tracked as an AI prompt too).
+- 💸 Media Buyer · 🧵 Reddit · 🎬 Viral · 🖋 Editor: no change. Waiting on Megan: featuring nomination (by ~Nov 27), $300 test, "invite-only" wording.
+- 💡 Idea for the curiosity hooks (supports Megan's next step): make each article pin promise one specific thing only the article gives ("the 3 pages every vision board magazine needs", "the 1 line that makes a law of assumption script work"), and match the pin title to the ranking keyword. Start with the 5 pages already in Google's top 100, so Pinterest and Google push the same pages. Traffic: outbound clicks are 6 per 1,140 impressions (0.5%) today; doubling that = tens of extra visits/month at current reach [A]. Cost: $0. Flag risk: none (no clickbait claims; the article delivers what the pin promises). Megan must: approve the pins.
+- 0 subagents.
+
 **Cycle 26 · Nov 22, 22:25 UTC (daily)**
 - 🔎 SEO/AEO: **First Google rankings.** 5 of 114 tracked keywords are now in the top 100: vision board magazine #27 (1,500/mo), best manifestation app #47, career vision board #58, how to manifest someone #66, law of assumption #67 (10,300/mo). Indexing requests + internal links are working. Same-day follow-up: +8 internal links to those pages, and "2026" added to the best-manifestation-apps title (the pages winning that search use the year). magazine-collage is live (43 articles). Live articles that still said "beta" were fixed.
 - 📌 Pinterest: 1,140 impressions (+70% in 2 days), 6 outbound clicks. Megan posted 20+ landing-page pins herself. Her winning pin CT62 was remade in 7 money amounts. The 89 favourites start Nov 25.

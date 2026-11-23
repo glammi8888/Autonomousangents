@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFont
 src, dmodel, mmodel, out, BIG, ITA, CAPL, CAPR = sys.argv[1:9]; A = float(sys.argv[9]) if len(sys.argv) > 9 else 70
 HERE = os.path.dirname(os.path.abspath(__file__)); KIT = os.path.join(HERE, '../../issue11-gift/rebrand-kit')
 F_BIG, F_ITA, F_MONO, F_SANS = f'{HERE}/fonts/Anton-Regular.ttf', f'{HERE}/fonts/InstrumentSerif-Italic.ttf', f'{KIT}/IBMPlexMono-Regular.ttf', f'{KIT}/InterTight.ttf'
-W, H, N = 1000, 1500, 180
+W, H, N = 1000, 1500, 180; CYC = int(os.environ.get("CYCLES", "2"))
 img = cv2.imread(src); h, w = img.shape[:2]
 if w / h > W / H: nw = int(h * W / H); img = img[:, (w - nw) // 2:(w - nw) // 2 + nw]
 else: img = img[:int(w * H / W)]
@@ -68,7 +68,7 @@ def warp(im, sx, sc, border=cv2.BORDER_REFLECT):
     mx = (cx + (xx - cx) / sc - sx).astype(np.float32); my = (cy + (yy - cy) / sc).astype(np.float32)
     return cv2.remap(im, mx, my, cv2.INTER_LINEAR, borderMode=border)
 for i in range(N):
-    t = 2 * np.pi * i / N; s = np.sin(t); dx = A * s
+    t = 2 * np.pi * CYC * i / N; s = np.sin(t); dx = A * s                                # CYC swings per 6s loop (Megan: "a bit more rapid")
     fr = warp(bgc, dx * far, Z + .02 * (1 - np.cos(t)) / 2)                             # background: big swing, slight push
     bk = warp(back, dx * .45, Z, cv2.BORDER_CONSTANT)                                      # text: half the swing
     split = 3 + 2 * np.sin(t * 2)

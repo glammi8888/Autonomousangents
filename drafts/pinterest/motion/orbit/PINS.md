@@ -15,3 +15,5 @@ Titles are keyword-first, from real Pinterest searches (drafts/pinterest/2026-11
 ## OR10 · manifestation journal · REJECTED by Megan, Nov 23 ("manifestation journal doesn't work"). Don't upload; redo later with another photo or topic.
 
 ## OR03 · new year affirmations (long red hair, e32) · REJECTED by Megan, Nov 23 ("As well as long hair red head"). Don't upload.
+
+## OR06 · 2027 vision board · REJECTED by Megan, Nov 23 ("Also visionboard pin doesn't work either"). Don't upload.

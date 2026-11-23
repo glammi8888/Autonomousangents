@@ -58,3 +58,20 @@ Too early to pick winners (needs ~2–3 weeks). The 3rd icon's label isn't reada
 - Nov 22 · Megan: "My toddler accidentally put all the content of my landing page into pinterest and it's great ! An additional 20+ pieces of content have been posted including apps screenshots etc". 20+ extra pins from issue11.app (landing images, app screenshots) are live on the account. Not made by the Pinterest worker; titles/descriptions unknown.
 - Nov 22 · Megan: CT62 "$10,000 a month with ease" is doing well → remade with $15k, $20k, $25k, $30k, $40k, $50k, $100k (M15K–M100K, color-test/money_amounts_gen.py). On canvas, waiting for her go.
 - Nov 23 · WINNER (Megan screenshot): the first pin "Project: Personal Rebrand" (phone notes, links "How to rebrand") has ~10x the impressions of the other pins.
+
+## Top pins, last 30 days (Oct 24 – Nov 23, Megan screenshot), impressions
+| # | Pin | Format | Impr. |
+|---|---|---|---|
+| 1 | Project: Personal Rebrand: how to rebrand | phone notes | 712 |
+| 2 | $10,000 a month with ease (CT62) | cash knockout number | 61 |
+| 3 | How to glow up in 2027: my glow up notes | phone notes | 52 |
+| 4 | Letter to my future self: 5 journal prompts | phone notes | 50 |
+| 5 | Glow up tips: can't talk rn, I'm rebranding | phone notes | 49 |
+| 6 | Rich and stylish 2027 vision board ideas | vision board grid | 49 |
+| 7 | My face card is absolutely lethal | lilac + photo | 48 |
+| 8 | I am my own dream girl | photo + caption | 46 |
+| 9 | Manifestation tips for beginners | phone notes | 46 |
+| 10 | My life can do a 180 in just 1 year | cream letter | 45 |
+| 11 | How to lifemaxx 2027 | phone notes | 41 |
+| 12 | rebranding my entire life at 11pm | phone notes | 38 |
+Takeaway: phone notes = 6 of the top 12, and #1 by 10x. Rebrand / glow up / 2027 topics lead.

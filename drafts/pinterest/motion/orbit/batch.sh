@@ -9,9 +9,9 @@ while IFS='|' read -r id photo ita big cap; do
 done <<'LIST'
 OR01|n14|my|winter arc|the winter arc issue
 OR02|e37|your|glow up|the glow up issue
-OR03|m24|money|affirmations|the money issue
+OR03|e32|new year|affirmations|the new year issue
 OR04|e25|law of|assumption|the law of assumption issue
-OR05|e36|my|word of the year|the word of the year issue
+OR05|e35|my|word of the year|the word of the year issue
 OR06|e34|2027|vision board|the 2027 vision board issue
 OR07|n16|be|that girl|the that girl issue
 OR08|e33|the|self love|the self love issue

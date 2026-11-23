@@ -12,3 +12,5 @@ Titles are keyword-first, from real Pinterest searches (drafts/pinterest/2026-11
 - Article checked live Nov 23: "Winter Arc: Meaning, Rules + a 90-Day Plan for Women".
 
 ## OR10 · manifestation journal · REJECTED by Megan, Nov 23 ("manifestation journal doesn't work"). Don't upload; redo later with another photo or topic.
+
+## OR03 · new year affirmations (long red hair, e32) · REJECTED by Megan, Nov 23 ("As well as long hair red head"). Don't upload.

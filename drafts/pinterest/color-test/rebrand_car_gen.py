@@ -13,7 +13,7 @@ def note(k,i,title,secs):
 note('PRC-1',1,'Project: Personal Rebrand 🎀🫧',[("the plan",["physical","mentally","wardrobe","money + space"]),("when",["starting now, not january"])])
 note('PRC-2',2,'Physical ✨',[("the list",["pilates 3x a week (or just walk)","drink water. actually","fix my skincare routine","nails always done","8 hours of sleep, no negotiating"])])
 note('PRC-3',3,'Mentally 🧠',[("the list",["no more people-pleasing","journal before i touch my phone","unfollow anyone who makes me feel behind","one hard thing a week"])])
-note('PRC-4',4,'Wardrobe 👗',[("the list",["get rid of what i don't wear","find my signature scent","invest in cute pajama sets","a uniform i actually love"])])
+note('PRC-4',4,'Wardrobe 👗',[("the list",["get rid of what i don't wear","find my signature scent","invest in cute pajama sets","buy a good investment piece"])])
 note('PRC-5',5,'Money + space 💸',[("money",["open a HYSA account just for future me","raise my rates (or ask for a raise)"]),("space",["clean out my camera roll","make my bed every day"])])
 for k,v in P.items(): open(f'{k}.dc.html','w').write(v); open(f'../carousels/{k}.dc.html','w').write(v)
 print(len(P))

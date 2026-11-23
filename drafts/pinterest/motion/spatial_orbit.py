@@ -12,7 +12,7 @@ from PIL import Image, ImageDraw, ImageFont
 src, dmodel, mmodel, out, BIG, ITA, CAPL, CAPR = sys.argv[1:9]; A = float(sys.argv[9]) if len(sys.argv) > 9 else 70
 HERE = os.path.dirname(os.path.abspath(__file__)); KIT = os.path.join(HERE, '../../issue11-gift/rebrand-kit')
 F_BIG, F_ITA, F_MONO, F_SANS = f'{HERE}/fonts/Anton-Regular.ttf', f'{HERE}/fonts/InstrumentSerif-Italic.ttf', f'{KIT}/IBMPlexMono-Regular.ttf', f'{KIT}/InterTight.ttf'
-W, H, N = 1000, 1500, 180; CYC = int(os.environ.get("CYCLES", "2")); TXT = float(os.environ.get("TEXT_SWING", ".45"))
+W, H, N = 1000, 1500, 180; CYC = int(os.environ.get("CYCLES", "2")); TXT = float(os.environ.get("TEXT_SWING", ".45")); OUTL = os.environ.get("OUTLINE", "0") == "1"
 img = cv2.imread(src); h, w = img.shape[:2]
 if w / h > W / H: nw = int(h * W / H); img = img[:, (w - nw) // 2:(w - nw) // 2 + nw]
 else: img = img[:int(w * H / W)]
@@ -47,7 +47,7 @@ def spaced(xy, text, font, right=False):
     cw = [fd.textlength(c, font=font) + 4 for c in text]; x0 = xy[0] - sum(cw) if right else xy[0]
     for c, wch in zip(text, cw): fd.text((x0, xy[1]), c, font=font, fill=255); x0 += wch
 capw = sum(fd.textlength(c, font=fm) + 4 for c in CAPL.lower()); itw = fi.getlength(ITA)
-capy = 34 if M + 6 + itw < W - M - capw - 24 else by + bh + 16                      # move the caption under the big word if the italic would hit it
+capy = 34 if M + 6 + itw < W - M - capw - 24 else H - 122                          # italic would hit it: move the caption above "starting now" (never over a face)
 spaced((W - M - 4, capy), CAPL.lower(), fm, right=True); spaced((W - M - 4, H - 84), CAPR.lower(), fm, right=True)  # Megan: no capital letters
 fs = ImageFont.truetype(F_SANS, 40)
 try: fs.set_variation_by_axes([600])
@@ -80,6 +80,9 @@ for i in range(N):
     fr = fr * (1 - bk[..., None]) + c_back * bk[..., None]
     sub = warp(rgb, dx * .06, Z); m = np.clip(warp(matte, dx * .06, Z, cv2.BORDER_CONSTANT), 0, 1)[..., None]
     fr = fr * (1 - m) + sub * m                                                            # her, nearly still, on top
+    if OUTL:                                                                               # Megan: "make sure the writing behind is visible"
+        ol = np.clip(cv2.dilate(bk, np.ones((5, 5), np.uint8)) - bk, 0, 1)                  # outline of the letters she hides
+        ol = (ol * m[..., 0] * .9)[..., None]; fr = fr * (1 - ol) + c_back * ol
     fr = fr * (1 - shadow); fr = fr * (1 - itl) + PINK * itl; fr = fr * (1 - front) + np.ones(3, np.float32) * front
     fr = fr + rng.normal(0, .035, (H, W, 1)).astype(np.float32)
     cv2.imwrite(f'{tmp}/{i:04d}.png', (np.clip(fr, 0, 1) * 255).astype(np.uint8)[..., ::-1])

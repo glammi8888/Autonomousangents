@@ -10,7 +10,7 @@ def note(k,i,title,secs):
     fs=int(re.search(r'padding-left:30px; font-size:(\d+)px',inner).group(1))
     inner=inner[:-6]+f'<p style="position:absolute; left:64px; bottom:60px; margin:0; font-size:{fs}px; line-height:1.3">issue11.app</p></div>'
     P[k]=ns['doc'](f'Personal rebrand carousel · slide {i}',inner,bg)
-note('PRC-1',1,'project: personal rebrand',[("the plan",["physical","mental","outfits","money + space"]),("when",["starting now"])])
+note('PRC-1',1,'personal rebrand 🩷',[("the plan",["physical","mental","outfits","money + space"]),("when",["starting now"])])
 note('PRC-2',2,'physical',[("the list",["pilates 3x per week","daily hot girl walks","drink water!!!","skincare routine every night and morning","nails and hair always done","8 hrs of sleep minimum"])])
 note('PRC-3',3,'mental',[("the list",["no more people pleasing","journal before opening my phone","unfollow anyone that makes me feel not good enough","do 1 hard thing a week"])])
 note('PRC-4',4,'outfits',[("the list",["get rid of what i don't wear","find my signature scent","invest in cute pajama sets","buy 1 investment piece (shoes or bag)"])])

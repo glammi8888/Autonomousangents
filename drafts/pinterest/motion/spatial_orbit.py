@@ -53,6 +53,8 @@ fs = ImageFont.truetype(F_SANS, 40)
 try: fs.set_variation_by_axes([600])
 except Exception: pass
 fd.text((M + 4, H - 96), 'issue11.app', font=fs, fill=255)
+lg = Image.open(f'{KIT}/img/logo-mask.png').split()[-1].resize((156, 120), Image.LANCZOS)   # ISSUE11 logo above the url, bottom-left (never bottom-right)
+front.paste(255, (M + 4, H - 96 - 134), lg)
 front = np.asarray(front).astype(np.float32)[..., None] / 255
 shadow = np.clip(cv2.GaussianBlur(np.maximum(front, itl)[..., 0], (0, 0), 4) * .55, 0, .55)[..., None]  # soft shadow under all front type
 def ink(region):                                   # white type on dark ground, near-black on light ground

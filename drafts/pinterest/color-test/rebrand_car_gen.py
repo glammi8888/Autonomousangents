@@ -9,6 +9,7 @@ def note(k,i,title,secs):
     inner=inner[:inner.index('<div style="position:absolute; left:0; right:0; bottom:0')].rstrip()
     fs=int(re.search(r'padding-left:30px; font-size:(\d+)px',inner).group(1))
     inner=inner[:-6]+f'<p style="position:absolute; left:64px; bottom:60px; margin:0; font-size:{fs}px; line-height:1.3">issue11.app</p></div>'
+    if i<5: inner=inner[:-6]+f'<p style="position:absolute; right:64px; bottom:60px; margin:0; font-size:{fs}px; line-height:1.3">swipe →</p></div>'  # Megan: "Remember it's a carousel" → swipe cue on 1–4
     P[k]=ns['doc'](f'Personal rebrand carousel · slide {i}',inner,bg)
 HEART='<svg viewBox="0 0 64 58" style="height:.82em;width:auto;vertical-align:-.04em;margin-left:.28em"><defs><linearGradient id="hg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFB4D9"/><stop offset="1" stop-color="#F27BB7"/></linearGradient></defs><path d="M32 56C14 43 2 32 2 18 2 8.6 9.6 2 18.5 2 24.6 2 29.4 5.2 32 10 34.6 5.2 39.4 2 45.5 2 54.4 2 62 8.6 62 18 62 32 50 43 32 56Z" fill="url(#hg)"/><ellipse cx="17" cy="14" rx="6.5" ry="4.2" fill="#fff" opacity=".55" transform="rotate(-30 17 14)"/></svg>'  # drawn 🩷 (light pink heart) so it looks the same everywhere (Megan: "Make it match this one: 🩷")
 note('PRC-1',1,'personal rebrand'+HEART,[("the plan",["physical","mental","outfits","money + space"]),("when",["starting now"])])

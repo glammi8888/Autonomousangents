@@ -72,7 +72,7 @@ def warp(im, sx, sc, border=cv2.BORDER_REFLECT):
 for i in range(N):
     t = 2 * np.pi * CYC * i / N; s = np.sin(t); dx = A * s                                # CYC swings per 6s loop (Megan: "a bit more rapid")
     fr = warp(bgc, dx * far, Z + .02 * (1 - np.cos(t)) / 2)                             # background: big swing, slight push
-    bk = warp(back, dx * TXT, Z, cv2.BORDER_CONSTANT)                                      # text swing: TXT (0 = locked in place)
+    bk = warp(back, dx * TXT, 1.0, cv2.BORDER_CONSTANT)                                      # text swing: TXT (0 = locked in place)
     split = 3 + 2 * np.sin(t * 2)
     for ch, sx in ((0, split), (2, -split)):
         g = cv2.warpAffine(bk, np.float32([[1, 0, sx], [0, 1, 0]]), (W, H)) * .55

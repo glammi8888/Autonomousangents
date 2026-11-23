@@ -13,7 +13,7 @@ OR03|m24|money|affirmations|the money issue
 OR04|e25|law of|assumption|the law of assumption issue
 OR05|e36|my|word of the year|the word of the year issue
 OR06|e34|2027|vision board|the 2027 vision board issue
-OR07|n16|that|girl|the that girl issue
+OR07|n16|be|that girl|the that girl issue
 OR08|e33|the|self love|the self love issue
 OR09|e27|journaling|prompts|the journaling issue
 OR10|e4|manifestation|journal|the manifestation issue

@@ -46,7 +46,9 @@ fm = ImageFont.truetype(F_MONO, 24)
 def spaced(xy, text, font, right=False):
     cw = [fd.textlength(c, font=font) + 4 for c in text]; x0 = xy[0] - sum(cw) if right else xy[0]
     for c, wch in zip(text, cw): fd.text((x0, xy[1]), c, font=font, fill=255); x0 += wch
-spaced((W - M - 4, 34), CAPL.lower(), fm, right=True); spaced((W - M - 4, H - 84), CAPR.lower(), fm, right=True)  # Megan: no capital letters
+capw = sum(fd.textlength(c, font=fm) + 4 for c in CAPL.lower()); itw = fi.getlength(ITA)
+capy = 34 if M + 6 + itw < W - M - capw - 24 else by + bh + 16                      # move the caption under the big word if the italic would hit it
+spaced((W - M - 4, capy), CAPL.lower(), fm, right=True); spaced((W - M - 4, H - 84), CAPR.lower(), fm, right=True)  # Megan: no capital letters
 fs = ImageFont.truetype(F_SANS, 40)
 try: fs.set_variation_by_axes([600])
 except Exception: pass

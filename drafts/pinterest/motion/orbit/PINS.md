@@ -10,6 +10,7 @@ Titles are keyword-first, from real Pinterest searches (drafts/pinterest/2026-11
 - Link: https://issue11.app/blog/winter-arc?utm_source=pinterest&utm_medium=organic&utm_campaign=winter-arc
 - Board: Winter Arc (new board if it doesn't exist yet)
 - Article checked live Nov 23: "Winter Arc: Meaning, Rules + a 90-Day Plan for Women".
+- SCHEDULED in Metricool by this worker at Megan's direct request ("Can you post winter arc in metricool?"), Nov 23 14:00 PT, post id 439474304, board 253327616479086940 (the glow up / self care board; no winter arc board yet).
 
 ## OR10 · manifestation journal · REJECTED by Megan, Nov 23 ("manifestation journal doesn't work"). Don't upload; redo later with another photo or topic.
 

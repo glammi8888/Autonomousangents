@@ -1,0 +1,831 @@
+{
+ "nodes": [
+  {
+   "id": "design_magazine_editor_training_kit_editor_training_kit",
+   "label": "Editor Magazine Training Kit v0",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Training = rulebook + layouts + approved examples + automatic check; no custom model trained, AI only chooses and fills."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_editor_rulebook",
+   "label": "Editor Rulebook (sent with every request)",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "8 rules: choose and fill only, approved layouts, her own words, her photos, one accent, locked voice, ask instead of guess, JSON page plan output."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_layout_library",
+   "label": "Layout Library (slot sheets)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Megan picks 8-12 page layouts + 2-3 covers from Rebrand Kit canvas; each gets a slot sheet."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_example_training_rounds",
+   "label": "Sample Issues Few-Shot Training",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "3 sample issues of 10 pages graded keep/fix/never; fixes become rules; stop at >=8/10 kept."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_automatic_page_check",
+   "label": "Automatic Page Check",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Validates layout id, no repeat, text limits, quote match, banned words, accent, no text over faces; fail -> retry once -> safe default."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_post_launch_measurement",
+   "label": "Post-Launch Editor Measurement",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Remake taps, layout swaps, pages kept vs deleted; counts only, no plan review without consent (privacy)."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_page_plan_json",
+   "label": "Page Plan JSON Output",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Layout id, photo per slot, text per slot, accent colour; the app draws it."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_freedom_question",
+   "label": "Freedom Question (A layouts+edits vs B drag-and-drop)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Option A recommended, matches approved Oct 9 spec."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_magazine_ai_spec",
+   "label": "magazine-ai-spec (AI fills, never designs)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "design_magazine_editor_training_kit_mise_en_page",
+   "label": "MISE-EN-PAGE",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "design_magazine_editor_training_kit_lucky_star_voice",
+   "label": "LUCKY-STAR-VOICE",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "design_magazine_editor_training_kit_known_retrieve_ask_generate",
+   "label": "KNOWN -> RETRIEVE -> ASK -> GENERATE context rule",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "A clarifying question is always preferable to a fabricated personalized answer."
+  },
+  {
+   "id": "design_magazine_editor_training_kit_v1_logic_spec",
+   "label": "V1-LOGIC-SPEC (page maker)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "design_magazine_editor_training_kit_rebrand_kit_canvas",
+   "label": "Rebrand Kit Canvas (layouts A-Z)",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "design_magazine_template_logic_template_logic",
+   "label": "Magazine Templates + Editor Training Logic",
+   "file_type": "document",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Logic-first doc (rule 12): Megan OKs logic -> templates made -> one Replit update."
+  },
+  {
+   "id": "design_magazine_template_logic_example_to_template_flow",
+   "label": "Example-to-Template Flow",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Megan sends example -> Editor agent remakes in ISSUE11 style -> slot sheet -> approval -> tags -> batched Replit update. Inspiration, not copying."
+  },
+  {
+   "id": "design_magazine_template_logic_slot_sheet",
+   "label": "Template Slot Sheet",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "id, name, best for, photo slots, text slots with max chars, accents, phone + print versions."
+  },
+  {
+   "id": "design_magazine_template_logic_template_tags",
+   "label": "Template Tags",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Photo count, word amount, mood, use (page/opener/breather/cover)."
+  },
+  {
+   "id": "design_magazine_template_logic_layout_step",
+   "label": "Layout Step (Editor decides + 4 suggestions + More layouts)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Megan Oct 23."
+  },
+  {
+   "id": "design_magazine_template_logic_edit_page",
+   "label": "Edit a Page (swap template, not-used tray)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "design_magazine_template_logic_cover_template",
+   "label": "Cover Template",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "design_magazine_template_logic_issue_rhythm",
+   "label": "Issue Rhythm Rules",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Never same template twice in a row, breather every 3-4 pages, opener at new topic."
+  },
+  {
+   "id": "design_magazine_template_logic_print_version",
+   "label": "Print Version (US Letter)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "PDF and printed issue match the app."
+  },
+  {
+   "id": "design_magazine_template_logic_matching_rules",
+   "label": "Template Matching Rules",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Content type, fit, mood, variety; best match = Editor decides, next 4 = suggestions; works without AI."
+  },
+  {
+   "id": "design_magazine_template_logic_editor_training",
+   "label": "Editor Training per Template",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  },
+  {
+   "id": "design_magazine_template_logic_template_data_model",
+   "label": "Template/Page Data Model (on-device, versioned)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Pages keep template version so updates never break old pages; templates ship in app updates."
+  },
+  {
+   "id": "design_magazine_template_logic_ai_consent_fallback",
+   "label": "AI Consent (CP5) + No-AI Fallback",
+   "file_type": "rationale",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Without consent or offline, matching rules run locally."
+  },
+  {
+   "id": "design_magazine_template_logic_launch_scope",
+   "label": "Launch Scope (Dec 4 submission)",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null,
+   "rationale": "Templates approved by ~Nov 28, aim 8-12 pages + 2-3 covers."
+  },
+  {
+   "id": "design_magazine_template_logic_examples_drive_folder",
+   "label": "ISSUE11 templates Drive folder",
+   "file_type": "concept",
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "source_url": null,
+   "captured_at": null,
+   "author": null,
+   "contributor": null
+  }
+ ],
+ "edges": [
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_editor_rulebook",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_layout_library",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_example_training_rounds",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_automatic_page_check",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_post_launch_measurement",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_freedom_question",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_magazine_ai_spec",
+   "relation": "cites",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_mise_en_page",
+   "relation": "cites",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_lucky_star_voice",
+   "relation": "cites",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_v1_logic_spec",
+   "relation": "cites",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_training_kit",
+   "target": "design_magazine_editor_training_kit_known_retrieve_ask_generate",
+   "relation": "cites",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_magazine_ai_spec",
+   "target": "design_magazine_editor_training_kit_editor_rulebook",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_known_retrieve_ask_generate",
+   "target": "design_magazine_editor_training_kit_editor_rulebook",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_rulebook",
+   "target": "design_magazine_editor_training_kit_page_plan_json",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_editor_rulebook",
+   "target": "design_magazine_editor_training_kit_layout_library",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_layout_library",
+   "target": "design_magazine_editor_training_kit_rebrand_kit_canvas",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_example_training_rounds",
+   "target": "design_magazine_editor_training_kit_editor_rulebook",
+   "relation": "conceptually_related_to",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_editor_training_kit_automatic_page_check",
+   "target": "design_magazine_editor_training_kit_page_plan_json",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_example_to_template_flow",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_layout_step",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_edit_page",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_cover_template",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_issue_rhythm",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_print_version",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_matching_rules",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_editor_training",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_template_data_model",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_ai_consent_fallback",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_template_logic_launch_scope",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_editor_training_kit_editor_training_kit",
+   "relation": "cites",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_editor_training_kit_magazine_ai_spec",
+   "relation": "cites",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_editor_training_kit_mise_en_page",
+   "relation": "cites",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_example_to_template_flow",
+   "target": "design_magazine_template_logic_slot_sheet",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_example_to_template_flow",
+   "target": "design_magazine_template_logic_template_tags",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_example_to_template_flow",
+   "target": "design_magazine_template_logic_examples_drive_folder",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_matching_rules",
+   "target": "design_magazine_template_logic_template_tags",
+   "relation": "shares_data_with",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_matching_rules",
+   "target": "design_magazine_template_logic_layout_step",
+   "relation": "rationale_for",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_ai_consent_fallback",
+   "target": "design_magazine_template_logic_matching_rules",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_slot_sheet",
+   "target": "design_magazine_template_logic_print_version",
+   "relation": "references",
+   "confidence": "EXTRACTED",
+   "confidence_score": 1.0,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_data_model",
+   "target": "design_magazine_template_logic_slot_sheet",
+   "relation": "shares_data_with",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_slot_sheet",
+   "target": "design_magazine_editor_training_kit_layout_library",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_editor_training",
+   "target": "design_magazine_editor_training_kit_example_training_rounds",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_editor_training",
+   "target": "design_magazine_editor_training_kit_automatic_page_check",
+   "relation": "semantically_similar_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.95,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_issue_rhythm",
+   "target": "design_magazine_editor_training_kit_editor_rulebook",
+   "relation": "conceptually_related_to",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  },
+  {
+   "source": "design_magazine_template_logic_template_logic",
+   "target": "design_magazine_editor_training_kit_freedom_question",
+   "relation": "references",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md",
+   "source_location": null,
+   "weight": 1.0
+  }
+ ],
+ "hyperedges": [
+  {
+   "id": "editor_training_pipeline",
+   "label": "Editor training pipeline (rules + slot sheets + few-shot + auto check)",
+   "nodes": [
+    "design_magazine_editor_training_kit_editor_rulebook",
+    "design_magazine_template_logic_slot_sheet",
+    "design_magazine_editor_training_kit_example_training_rounds",
+    "design_magazine_editor_training_kit_automatic_page_check"
+   ],
+   "relation": "form",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md"
+  },
+  {
+   "id": "template_selection_flow",
+   "label": "Template selection in the app",
+   "nodes": [
+    "design_magazine_template_logic_layout_step",
+    "design_magazine_template_logic_matching_rules",
+    "design_magazine_template_logic_template_tags",
+    "design_magazine_template_logic_ai_consent_fallback"
+   ],
+   "relation": "participate_in",
+   "confidence": "INFERRED",
+   "confidence_score": 0.85,
+   "source_file": "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md"
+  }
+ ],
+ "input_tokens": 0,
+ "output_tokens": 0,
+ "coverage": {
+  "/home/user/Autonomousangents/design/magazine/EDITOR-TRAINING-KIT.md": 43,
+  "/home/user/Autonomousangents/design/magazine/TEMPLATE-LOGIC.md": 49
+ }
+}

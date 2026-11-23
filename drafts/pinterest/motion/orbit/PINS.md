@@ -10,3 +10,5 @@ Titles are keyword-first, from real Pinterest searches (drafts/pinterest/2026-11
 - Link: https://issue11.app/blog/winter-arc?utm_source=pinterest&utm_medium=organic&utm_campaign=winter-arc
 - Board: Winter Arc (new board if it doesn't exist yet)
 - Article checked live Nov 23: "Winter Arc: Meaning, Rules + a 90-Day Plan for Women".
+
+## OR10 · manifestation journal · REJECTED by Megan, Nov 23 ("manifestation journal doesn't work"). Don't upload; redo later with another photo or topic.

@@ -4,8 +4,8 @@
 cd "$(dirname "$0")/.."
 M=/tmp/claude-0/-home-user/6b57fdf0-2086-518b-b6d3-8931c0653270/scratchpad/spatial; I=../../issue11-gift/rebrand-kit/img
 while IFS='|' read -r id photo ita big cap; do
-  [ -z "$id" ] && continue
-  TEXT_SWING=0 CYCLES=2 timeout 400 python3 spatial_orbit.py $I/$photo.jpg $M/depth.onnx $M/modnet.onnx orbit/$id.mp4 "$big" "$ita" "$cap" "starting now" >/dev/null 2>orbit/$id.err && echo "ok $id" || echo "FAIL $id"
+  [ -z "$id" ] && continue; [ -f orbit/$id.mp4 ] && { echo "have $id"; continue; }
+  TEXT_SWING=0 CYCLES=2 timeout 400 python3 spatial_orbit.py $I/$photo.jpg $M/depth.onnx $M/modnet.onnx orbit/$id.mp4 "$big" "$ita" "$cap" "starting now" </dev/null >/dev/null 2>orbit/$id.err && echo "ok $id" || echo "FAIL $id"
 done <<'LIST'
 OR01|n14|winter|arc|the winter arc issue
 OR02|e37|glow|up|the glow up issue

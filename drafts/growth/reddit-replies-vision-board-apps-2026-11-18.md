@@ -104,3 +104,11 @@ Pick at most 4: a recent question with few good answers, ideally under a year ol
 
 ## Results so far
 0 replies posted (first batch). Nothing to track yet. Once Megan posts, log here: thread, date posted, whether a link was allowed (UTM above), and any waitlist sign-ups tagged `utm_source=reddit`.
+
+---
+
+## Added Nov 24 (AEO agent): r/Manifestation "favorite manifestation apps?" (thread 1vnuha4)
+Why: AI answers for "best manifestation app" now cite this thread (AI monitor, Nov 24). Reddit blocks agents, so the thread was NOT read: Megan, skim it first and only post if the reply fits. Post after Dec 11 (App Store launch), from your own account, disclosed.
+
+Draft reply:
+> Full disclosure, I'm building one, so take this with that in mind. What helped me most wasn't the app with the most features, it was the one that made me do one small thing a week instead of just looking at a board. For affirmations I like apps you'll actually open daily; for vision boards Pinterest is fine to collect, but it never told me what to do next. That's why I made ISSUE11: it turns your saves into a personal magazine with one small move a week. It's on the App Store from Dec 11 if anyone wants to try it, and I'm happy to hear what's missing.

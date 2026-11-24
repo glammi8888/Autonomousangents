@@ -56,6 +56,24 @@ fd.text((M + 4, H - 96), 'issue11.app', font=fs, fill=255)
 lg = Image.open(f'{KIT}/img/logo-mask.png').split()[-1].resize((156, 120), Image.LANCZOS)   # ISSUE11 logo above the url, bottom-left (never bottom-right)
 front.paste(255, (M + 4, H - 96 - 134), lg)
 front = np.asarray(front).astype(np.float32)[..., None] / 255
+HOOK = os.environ.get("HOOK", "")                                                   # Megan Nov 24: curiosity hook on the pin so people click
+hbox = np.zeros((H, W, 1), np.float32); htxt = np.zeros((H, W, 1), np.float32)
+if HOOK:
+    fh = ImageFont.truetype(F_SANS, 46)
+    try: fh.set_variation_by_axes([650])
+    except Exception: pass
+    lines, cur = [], ''
+    for w_ in HOOK.split():                                                            # wrap to the frame width
+        test = (cur + ' ' + w_).strip()
+        if fh.getlength(test) > W - 2 * M - 60 and cur: lines.append(cur); cur = w_
+        else: cur = test
+    lines.append(cur); lh = 60; bh_ = lh * len(lines) + 30; by_ = H - 96 - 134 - 36 - bh_   # just above the logo
+    bw_ = int(max(fh.getlength(l) for l in lines)) + 48
+    hb = Image.new('L', (W, H), 0); ImageDraw.Draw(hb).rectangle([M + 4, by_, M + 4 + bw_, by_ + bh_], fill=255)
+    ht = Image.new('L', (W, H), 0); hd = ImageDraw.Draw(ht)
+    for k, l in enumerate(lines): hd.text((M + 28, by_ + 12 + k * lh), l, font=fh, fill=255)
+    hbox = np.asarray(hb).astype(np.float32)[..., None] / 255 * .9; htxt = np.asarray(ht).astype(np.float32)[..., None] / 255
+
 shadow = np.clip(cv2.GaussianBlur(np.maximum(front, itl)[..., 0], (0, 0), 4) * .55, 0, .55)[..., None]  # soft shadow under all front type
 def ink(region):                                   # white type on dark ground, near-black on light ground
     return np.array([1, 1, 1], np.float32) if region.mean() < .6 else np.array([.07, .07, .07], np.float32)
@@ -86,6 +104,7 @@ for i in range(N):
         ol = np.clip(cv2.dilate(bk, np.ones((5, 5), np.uint8)) - bk, 0, 1)                  # outline of the letters she hides
         ol = (ol * m[..., 0] * .9)[..., None]; fr = fr * (1 - ol) + c_back * ol
     fr = fr * (1 - shadow); fr = fr * (1 - itl) + PINK * itl; fr = fr * (1 - front) + np.ones(3, np.float32) * front
+    fr = fr * (1 - hbox); fr = fr * (1 - htxt) + np.ones(3, np.float32) * htxt                 # hook: white on a black box
     fr = fr + rng.normal(0, .035, (H, W, 1)).astype(np.float32)
     cv2.imwrite(f'{tmp}/{i:04d}.png', (np.clip(fr, 0, 1) * 255).astype(np.uint8)[..., ::-1])
 subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-framerate', '30', '-i', f'{tmp}/%04d.png', '-c:v', 'libx264', '-profile:v', 'main', '-pix_fmt', 'yuv420p', '-crf', '20', '-movflags', '+faststart', out], check=True)

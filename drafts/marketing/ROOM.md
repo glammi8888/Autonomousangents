@@ -15,7 +15,7 @@ Megan, word for word: "Remember goal is 100,000 per Month" · "Millions of pin v
 |---|---|---|
 | issue11.app visits | **6–8 a day** (≈180–240/month), source not confirmed | Megan, Nov 18 (Framer). Waiting for a Framer Analytics → Sources screenshot |
 | Pinterest (30 days to Nov 22) | **1,140 impressions** (+70% vs Nov 20) · 177 engagements · 29 saves · 6 outbound clicks · audience 31 | Megan's screenshot, Nov 22 (ANALYTICS.md) |
-| Google rankings (ISSUE11) | **5 of 114 tracked keywords in the top 100** (was 0–1): vision board magazine #27 · best manifestation app #47 · career vision board #58 · how to manifest someone #66 · law of assumption #67 | SERPWatcher, Nov 22 |
+| Google rankings (ISSUE11) | **10 keywords in the top 100** (5 on Nov 22, 0 on Nov 16): vision board magazine #27 · best manifestation app #47 · career vision board #58 · how to rebrand yourself #61 · how to manifest a job #62 · … | SERPWatcher, Nov 24 |
 | Pinterest outbound clicks | not available: Pinterest doesn't show outbound clicks (Megan, Nov 18) | use Framer Sources + utm_source=pinterest instead |
 | Email/waitlist sign-ups this month (leading indicator) | **missing** | Waitlist Sheet + freebie forms, not counted yet |
 | New paying app subscribers (goal 660/mo, after launch) | 0 (app not launched; beta Dec 11) | App Store Connect / RevenueCat after launch |
@@ -88,6 +88,15 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 28 · Nov 24, 22:25 UTC (daily)**
+- 🔎 SEO/AEO: **10 keywords in the top 100** (5 yesterday), incl. how to rebrand yourself #61 and how to manifest a job #62. love-affirmations live (45 articles). The vision-board-magazine H1 now uses the exact phrase (Megan: "vision board magazine is incredible!!! I hope to rank 1st page very soon"). A weekly results-only report for Megan now runs Mondays 9:41 LA. A disclosed Reddit reply was drafted for the thread AI answers cite (post after Dec 11, Megan's call).
+- 📌 Pinterest: 6 orbit pins with Megan's approved polarizing hooks scheduled Nov 25–30 (her go). Rule from her iterations: hooks must not sound AI and should be a pattern interrupt.
+- 💜 PR: backlink submissions kit (ISSUE11 + Glammi) drafted. Megan's approved one-liner for listings: "It's like Pinterest meets a habit tracker, except your progress becomes a personalized magazine."
+- 🩵 Product (outside this room, matters for the 660 plan): onboarding "Option A" wireframes + a 10-paywall teardown. This is the conversion lever from §2 of the plan.
+- 💸 Media Buyer · 🎬 Viral · 🖋 Editor: no change. Waiting on Megan: featuring nomination (window closes ~Nov 27), $300 test, "invite-only" wording.
+- 💡 Idea: the PR backlink kit + the 10 ranking pages go together. Point the first free listings (app directories, "best apps" roundups) at the vision-board-magazine page and the homepage, the 2 pages closest to page 1 / most on-product. Traffic: page 1 for vision board magazine ≈ 75–150 visits/month [A]. Cost: $0 (free listings only; no bought links). Flag risk: low if listings are real directories, never link farms. Megan must: submit the listings that need her login.
+- 0 subagents.
+
 **Cycle 27 · Nov 23, 22:25 UTC (daily, Monday)**
 - 📌 Pinterest: new **orbit motion pins** approved (Megan: "This is excellent!"). The person stays still, big text sits behind her, and the background swings. 10 made; Megan rejected OR03, OR06 and OR10; OR01 (winter arc) scheduled at her request; upload copy ready for 6. Megan paid for Metricool ("we had reached the 20 pin limit"), so the 3 → 5 → 7 → 10/day ramp can continue. Next, from Megan: "we need to write pins with hooks that create curiosity because we are getting lots of impressions but not a lot of outbound clicks".
 - 🔎 SEO/AEO weekly review: 5 in the top 100 (0 a week ago), 0 in the top 10 yet. Rankings flat Nov 22 → 23. personal-magazine live (44 articles). Megan: "I think we should also try to rank for 'personal magazine app'" (10/mo, tracked as an AI prompt too).

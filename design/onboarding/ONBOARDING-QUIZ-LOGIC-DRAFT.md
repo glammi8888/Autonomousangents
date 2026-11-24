@@ -15,37 +15,36 @@ Columns: **You see · You can tap · Goes to · Changes underneath.** `[COMPARE]
 
 ---
 
-## Option A · "Your cover, then save it" (RECOMMENDED) · 20 screens + Home · about 3 min (time it; must be true)
-Why: the length of the top manifestation earners (I am, Stella, Aya: 21–25 screens), keeps the best of V3, cuts what changes nothing, ends on a real cover.
+## Option A · "Your cover, then save it" (RECOMMENDED) · v2 with Megan's changes · 20 screens + Home · about 3 min (time it; must be true)
+**Megan, Nov 24, word for word:** "I think we need to ask on the onbarding how they heard from us (on one of the first screens)" · "how many times they want to get their goals reminded of? Daily, every 3 days, or weekly" · "Maybe shorten the pain points although important" · "But remember issue11 isn't just manifesting but it is though" · "maybe Where are you with the creation of your dream life" · "can we make the copy on the onboarding with the landing page copy ?" · "yessss sounds good".
+**Copy source:** the live issue11.app landing page (Nov 24), adapted to "you" and one line per screen. Pending Megan: exact screen-1 wording (her "the creation of your dream life" vs the shorter "creating your dream life").
 
 | # | You see | You can tap | Goes to | Changes underneath |
 |---|---|---|---|---|
-| A1 `[COMPARE]` | **Welcome + first question.** "Your dreams, as your own magazine. About 3 minutes." Below: *Where are you with manifesting?* | Just curious · Tried it, nothing changed yet · Sometimes · It's part of my life · small link "Already have an Issue? Sign in" | A2 (link → Sign in "Welcome back" → Home) | Tone of later replies |
-| A2 | **What should we call our cover star?** "It goes on the cover of your Issue." | Type name · Continue | A3 | Cover name, greetings |
-| A3 | Reward: your name on a blank ISSUE11 cover. "Hi [name]. Your cover's waiting." | Continue | A4 | — |
-| A4 | **How old are you?** (kept by Megan, Oct 7, for data) | 18–24 · 25–34 · 35–44 · 45+ | A5 | Tone; App Store privacy label |
-| A5 | **What's your first Issue about?** | Love · Money & freedom · My own thing · A home I love · Glow-up · Peace · Travel · Help me choose | A6 | Cover headline, topic for first actions, Explore + My saves topic |
-| A6 | **What do you want to feel more of?** | Like I'm moving forward · Unstuck · In control · Confident · Calm · Proud of myself (pick up to 2) | A7 | Tonight's session pick, one cover line |
-| A7 | **What's stopping you?** | Big dreams, no idea where to start · I start strong, then stop · I'm trying, nothing seems to change · Honestly? All three | A8 | Reply on A8, size of first action suggestions (smaller for "start strong, then stop") |
-| A8 | Reply that changes with A7 (e.g. "Then we start small. One action at your pace.") | Continue | A9 | — |
-| A9 | Pain card: "My vision board inspired me for a week. Now I don't even see it." | That's me · Not really | A10 | Before/after line on A11 |
-| A10 | Pain card: "I say 'I'm a millionaire' and feel a little delulu." | That's me · Not really | A11 | Before/after line on A11 |
-| A11 | **How it works.** "You can't control the outcome. You are in control of the process." Your Issue + your actions = your way there. Lines from the cards you said yes to. | Build my Issue | A12 | — |
-| A12 | **Pick what feels like future you.** Image grid by your topic | Pick 3+ | A13 | First 3 images in My saves; cover photo choice |
-| A13 `[COMPARE]` | **Pick your cover.** Cream on Red · Noir · Over a photo | Pick one | A14 | Cover style |
-| A14 | **Describe your dream life in one sentence.** "This becomes your cover story." Mic (iOS dictation) + tap-to-use examples | Type or speak · Skip | A15 | Cover story (your words, never rewritten) |
-| A15 | **Your pace.** "How often do you want a new action?" | Daily · Weekly (preselected) · Monthly | A16 | Focus pace (V1 "Your pace"), Home label "Today's / This week's / This month's action" |
-| A16 `[COMPARE]` | **Your first action.** 3 suggestions from the fixed list for your topic, sized by A7 | Pick one · Make it smaller · Write my own | A17 | Home's first action; page 1 of your Issue once done |
-| A17 | **Reminders.** Live preview of your real first reminder, timed to your pace; quiet hours 22:00–7:00 | Allow → iOS prompt · Not now | A18 | Reminder schedule (Mon 9:00 / daily morning / the 1st) |
-| A18 | Honest loader: "Putting your cover together…" shows your name, topic, cover story landing | (auto, ~3 s) | A19 | — |
-| A19 `[COMPARE]` | **Your cover reveal.** Your real cover (name, headline, cover story, style). "Page 1 of 40: [your first action]." Button: **Save my cover** | Save my cover | A20 | — |
-| A20 `[COMPARE]` | **Sign in (CP1).** "Save your cover." Sign in with Apple first, email second, Terms + Privacy | Apple · Email | A21 | Account created; quiz answers + cover copied to the account |
-| A21 `[COMPARE]` | **Paywall (CP2), one screen.** Your cover on top. Yearly with 7 days free (preselected) · Monthly. Trial timeline: Today · Day 5 "we'll remind you" · Day 7 first charge. Cancel anytime · Restore · Terms (EULA) · Privacy · visible Close | Start my 7 days free · Monthly · Close | Home (Close → offer card once, only if Megan approves one; otherwise the limited state Megan decides) | Subscription via App Store; Day-5 reminder scheduled (must really send) |
+| A1 `[COMPARE]` | **"You know what everyone else's dream life looks like. What about yours?"** Below: *Where are you with creating your dream life?* | Just dreaming about it · I start, then stop · Taking small steps · Living it more every day · Just curious · small link "Already have an Issue? Sign in" | A2 (link → Sign in "Welcome back" → Home) | Tone of later replies (no "manifesting" label; manifestation stays the why) |
+| A2 | Reply that changes with A1. Dreaming: "Imagination is one of the most underrated tools you have." · Start, then stop: "You've gotten very good at preparing to change your life. That's exactly what ISSUE11 is for." · Small steps / Living it: "You had plans. Good ones, too. Let's give them a home." · Curious: "Welcome. Let's talk about your story." | Continue | A3 | — |
+| A3 | **What should we call our cover star?** "It goes on the cover of your Issue." | Type name · Continue | A4 | Cover name, greetings |
+| A4 | Reward: your name on a blank ISSUE11 cover. "Hi [name]. Your cover's waiting." | Continue | A5 | — |
+| A5 | **How did you hear about us?** | TikTok · Instagram · Pinterest · A friend · App Store search · Google or ChatGPT · Other · Skip | A6 | Attribution (the only reliable source data until launch analytics) |
+| A6 | **How old are you?** (kept by Megan, Oct 7, for data) | 18–24 · 25–34 · 35–44 · 45+ | A7 | Tone; App Store privacy label |
+| A7 | **What's your first Issue about?** | Love · Money & freedom · My own thing · A home I love · Glow-up · Peace · Travel · Help me choose | A8 | Cover headline, topic for first actions, Explore + My saves topic |
+| A8 | **What do you want to feel more of?** | Like I'm moving forward · Unstuck · In control · Confident · Calm · Proud of myself (pick up to 2) | A9 | Tonight's session pick, one cover line |
+| A9 | **What's stopping you?** | Big dreams, no idea where to start · I start strong, then stop · I'm trying, nothing seems to change · Honestly? All three | A10 | Size of first action suggestions (smaller for "start strong, then stop") |
+| A10 | Pain card 1 (landing): "You've made vision boards, bought the planners and started more morning routines than you care to admit." | That's me · Not really | A11 | Line on A12 |
+| A11 | Pain card 2 (landing): "You've got ambitions of your own that haven't made it past the Notes app." | That's me · Not really | A12 | Line on A12 |
+| A12 | **"Your vision board is gorgeous. Now what?"** "Imagine the outcome, certainly. Then imagine the person you'd need to become, and what you'd do when things get difficult." + "You can't control the outcome. You are in control of the process." | Build my Issue | A13 | — |
+| A13 | **"You've been following everyone else's story. Let's talk about yours."** Pick what feels like future you: image grid by your topic | Pick 3+ | A14 | First 3 images in My saves; cover photo choice |
+| A14 `[COMPARE]` | **Pick your cover.** Cream on Red · Noir · Over a photo | Pick one | A15 | Cover style |
+| A15 | **Describe your dream life in one sentence.** "This becomes your cover story." Mic (iOS dictation) + tap-to-use examples | Type or speak · Skip | A16 | Cover story (your words, never rewritten) |
+| A16 `[COMPARE]` | **Your pace + reminders (one screen).** "Some weeks you'll make exciting progress. Other weeks, keeping one promise to yourself will be enough." *How often do you want your next action?* Live preview of your real reminder underneath | Daily · Every 3 days · Weekly (preselected) · Monthly → Allow reminders (iOS prompt) · Not now | A17 | Focus pace + reminder schedule in one (Your pace gains "Every 3 days"); quiet hours 22:00–7:00 |
+| A17 `[COMPARE]` | **Your first action.** "Start acting like you mean it." 3 suggestions from the fixed list for your topic, sized by A9 | Pick one · Make it smaller · Write my own | A18 | Home's first action; page 1 of your Issue once done |
+| A18 `[COMPARE]` | Honest loader "Putting your cover together…", then **your cover reveal: "Your future. In print."** Your real cover (name, headline, cover story, style). "Page 1 of 40: [your first action]." | Save my cover | A19 | — |
+| A19 `[COMPARE]` | **Sign in (CP1).** "Save your cover." Sign in with Apple first, email second, Terms + Privacy | Apple · Email | A20 | Account created; quiz answers + cover copied to the account |
+| A20 `[COMPARE]` | **Paywall (CP2), one screen.** "All that potential. Let's see what you do with it." Your cover on top. Yearly with 7 days free (preselected) · Monthly. Timeline: Today · Day 5 "we'll remind you" · Day 7 first charge. Small print (landing): "Skip any week, no streaks. Cancel anytime in your iPhone settings." Restore · Terms (EULA) · Privacy · visible Close | Start my 7 days free · Monthly · Close | Home | Subscription via App Store; Day-5 reminder scheduled (must really send) |
 | Home | Your cover "1 of 40", your first action, tonight's session, your 3 saves | — | — | First open done; the 11 stays quiet until you tap or hold it |
 
-**Cut from V3, and why:** celebrity question (trust risk, changes nothing visible) · dreamer/doer label · 4 of the 6 pain cards · before/after screen (folded into A11) · past proof (moves to the first Journal page) · Listen/Watch + minutes (session length can default) · Day 1 streak screen (no streaks) · app icon pick (lives in You) · Meet Lucky Star (AI invisible) · bridge + future timeline (A19 does the job).
-
----
+**Cut from V3, and why:** celebrity question (trust risk) · dreamer/doer label · 4 of the 6 pain cards (Megan: shorten) · before/after screen (folded into A12) · past proof (moves to the first Journal page) · Listen/Watch + minutes · Day 1 streak screen (no streaks) · app icon pick (lives in You) · Meet Lucky Star (AI invisible) · bridge + future timeline (A18 does the job). Megan's own Oct 8 pain lines ("old habits", "vision board… forgot about it") stay available as swaps for A10/A11.
+**New "Every 3 days" pace** also needs a line in design/V1-LOGIC-SPEC.md "Your pace" once Megan approves this option.
 
 ## Option B · "Short and calm" (Calm / Stoic style) · 11 screens + Home · about 1.5 min
 Why: cheapest to build in Replit, least drop-off. Risk [Inference]: less investment before the paywall than the manifestation earners use.

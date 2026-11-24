@@ -1,4 +1,6 @@
 # ISSUE11 Onboarding (v3) · 🔒 LOCKED
+
+> **🗓 Nov 24, 2026 · Reopened by Megan, redesign in progress. V3 stays live until she approves the new one.** Megan, word for word: "there are softwares for apps onboarding that I want to use to re-create our onboarding" · "I just want one that finds the most successful apps onboarding's secrets and I want an agent to help me decide which screens to use" · "Then we can redesign the onboarding quiz based off the data of others (until we have ours)" · "yes I want to work on onboarding right now". Research: design/onboarding/ONBOARDING-RESEARCH-2026-11-24.md · options (logic only): design/onboarding/ONBOARDING-QUIZ-LOGIC-DRAFT.md.
 **Locked by Megan, Oct 8, 2026.** Megan: "I'm happy." (the onboarding flow; she clarified: "not paywall lol I meant onboarding").
 This is the final onboarding logic: screen order, questions, answer options, replies and what each answer feeds. It replaces onboarding v2 (design/FLOW-MAP.md) and wins wherever another doc differs.
 

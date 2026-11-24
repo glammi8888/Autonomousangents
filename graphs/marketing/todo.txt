@@ -1,5 +1,4 @@
+/home/user/Autonomousangents/drafts/ads/2026-11-23-competitor-watch.md
 /home/user/Autonomousangents/drafts/marketing/ROOM.md
-/home/user/Autonomousangents/drafts/marketing/authority-mentions-list.md
-/home/user/Autonomousangents/drafts/pinterest/ANALYTICS.md
-/home/user/Autonomousangents/drafts/pinterest/carousels/README.md
-/home/user/Autonomousangents/drafts/social/linkedin-articles-2026-11-21.md
+/home/user/Autonomousangents/drafts/ops/business-subscriptions.md
+/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md

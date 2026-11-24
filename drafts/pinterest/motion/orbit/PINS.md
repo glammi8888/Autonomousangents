@@ -76,3 +76,13 @@ Use `hook/ORxx.mp4` instead of `ORxx.mp4` for these. Same title, description, li
 - OR07: "that girl is a myth. this 30-day plan isn't"
 - OR08: "your affirmations are lies. say these instead"
 - OR09: "journaling is making your overthinking worse. do this instead"
+
+## SCHEDULED in Metricool (Megan, Nov 24: "Go for the orbit pins"), hook versions, 11:31 PT daily
+| Date | Pin | Metricool id |
+|---|---|---|
+| Nov 25 | OR02 your glow up | 440867880 |
+| Nov 26 | OR04 law of assumption | 440867961 |
+| Nov 27 | OR05 my word of the year | 440868038 |
+| Nov 28 | OR07 be that girl | 440868140 |
+| Nov 29 | OR08 the self love issue | 440868198 |
+| Nov 30 | OR09 journaling prompts | 440868263 |

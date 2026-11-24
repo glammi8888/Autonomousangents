@@ -13,5 +13,7 @@ Rule: switch each one to the Relay business card when it next renews; personal b
 | Claude | agents | | |
 | Midjourney | images | | |
 | Suno | audio / music | | |
+| RevenueCat | in-app payments | $0 under $2,500/month of app revenue, then 1% of all of it (checked revenuecat.com/pricing, Nov 24) | Card needed only once over $2,500 |
+| Supabase | sign-in + accounts | Free now; Pro $25/month from launch (free projects pause after 1 week of no activity; checked supabase.com/pricing, Nov 24) | Switch to Pro ~Dec 10 on the Relay card |
 
 Funding rule of thumb: one month of the total above + ~$300 buffer. Add $300 when the Instagram ad test starts.

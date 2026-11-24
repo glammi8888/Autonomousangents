@@ -66,3 +66,13 @@ Titles are keyword-first, from real Pinterest searches (drafts/pinterest/2026-11
 - Link: https://issue11.app/blog/journaling-prompts?utm_source=pinterest&utm_medium=organic&utm_campaign=journaling-prompts
 - Board: 253327616479086943 (manifestation / journal)
 - Article checked live Nov 23; every claim is a section of it.
+
+
+## Hook versions (Nov 24, approved hooks: "ok this is much better")
+Use `hook/ORxx.mp4` instead of `ORxx.mp4` for these. Same title, description, link and board as above.
+- OR02: "skincare isn't a glow up. it's a hobby. here's the real one"
+- OR04: "if you're not a little delusional, the law of assumption won't work"
+- OR05: "resolutions are for people who quit in february. pick one word instead"
+- OR07: "that girl is a myth. this 30-day plan isn't"
+- OR08: "your affirmations are lies. say these instead"
+- OR09: "journaling is making your overthinking worse. do this instead"

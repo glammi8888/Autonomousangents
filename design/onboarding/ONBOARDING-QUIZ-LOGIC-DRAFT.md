@@ -49,6 +49,13 @@ Columns: **You see · You can tap · Goes to · Changes underneath.** `[COMPARE]
 **Cut from V3, and why:** dreamer/doer label · 3 of the 6 pain cards · "What do you want to feel more of?" (only picked tonight's session; topic does that now) (Megan: shorten; then "I do like the pain points tbh", so 3 cards kept) · before/after screen (folded into A11) · past proof (moves to the first Journal page) · Listen/Watch + minutes · Day 1 streak screen (no streaks) · app icon pick (lives in You) · Meet Lucky Star (AI invisible) · bridge + future timeline (A17 does the job). Megan's own Oct 8 pain lines ("old habits", "vision board… forgot about it") stay available as swaps for A8/A9.
 **New "Every 3 days" pace** also needs a line in design/V1-LOGIC-SPEC.md "Your pace" once Megan approves this option.
 
+
+### Option A v3 · magazine first + the magazine path (Nov 24, wireframe: https://claude.ai/artifact/1eg1EZMDivPgksvv7oD4Ep)
+Megan, Nov 24: "i don't know it doesn't sell me to be honest" → rebuilt magazine-first (a sample issue on screen 1; every answer visibly fills your cover, a "letter from the editor" and page 1). Then: "I wonder how the onboarding would go for someone that would be only interested in the magazine making feature ?" → "yesss smart let's do that".
+- **Fork on screen 3** ("Where are you with creating your dream life?"): new answer **"I just want to make my magazine 💗"**.
+- **Magazine path:** screens 1–7 same → M8 pick your sections (table of contents) → M9 your cover line ("The year I…") → M10 your first page (pick 3 photos) → M11 optional nudge to add pages (every week / 3 days / monthly / none) → two quick ones → same reveal, save, paywall with the headline "Your magazine. 40 pages. Yours to print." About 15 screens.
+- **Underneath:** path saved on the account, so the app can measure which path converts and retains (decides who ads target).
+
 ## Option B · "Short and calm" (Calm / Stoic style) · 11 screens + Home · about 1.5 min
 Why: cheapest to build in Replit, least drop-off. Risk [Inference]: less investment before the paywall than the manifestation earners use.
 

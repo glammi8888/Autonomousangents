@@ -1,5 +1,6 @@
 # Pinterest agent: hourly log (newest first)
 
+- 2026-11-24 20:3x UTC · At Megan's go ("Go for the orbit pins"), scheduled the 6 hooked orbit pins in Metricool, one a day at 11:31 PT, Nov 25–30 (ids in motion/orbit/PINS.md).
 - 2026-11-23 21:4x UTC · At Megan's direct request, scheduled orbit pin OR01 (winter arc video) in Metricool for Nov 23 14:00 PT (id 439474304). Note: the Nov 23 08:19 PT pin ("I am healthy, I am wealthy...") failed earlier with "You have reached your Metricool account limit" (before the upgrade).
 - 2026-11-19 00:2x UTC · BLOCKED: no new article pins until Megan picks which approved favourite style to use (she rejected the phone-notes article pins on Nov 18: "the pins are so bad").
 - 2026-11-18 20:2x UTC · Job 1: made ArticlePinMEX (manifestation-examples) in the phone-notes format, 4 want → first move pairs from the article. Canvas v164 next to VBQ, INDEX.md "ready for Framer". Visual QA 390 + 236 passed after one fix (5 long items ran into issue11.app, so I cut to 4 and shortened them).

@@ -1,1 +1,2 @@
+/home/user/Autonomousangents/.claude/vendor/INSTALLED-SKILLS.md
 /home/user/Autonomousangents/.pipeline/lessons.md

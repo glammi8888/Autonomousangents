@@ -1,5 +1,5 @@
 # 💜 PR · Apple Featuring Nomination draft (App Launch, Dec 11, 2026 · date changed by Megan Nov 20)
-> ⚠️ Nov 20: launch moved to **Dec 11, 2026** (Megan: "No I want it to be on App Store on dec 11"). Dec 11 is exactly 3 weeks from Nov 20, which is Apple's minimum lead time, so submit now and set the Publish Date to Dec 11. The timing table below still uses the old Jan 11 date.
+> ⚠️ Nov 20: launch moved to **Dec 11, 2026** (Megan: "No I want it to be on App Store on dec 11"). Dec 11 is exactly 3 weeks from Nov 20, which is Apple's minimum lead time, so submit now and set the Publish Date to Dec 11. Timing table updated Nov 24.
 Oct 1, 2026 · DRAFT. Megan submits it herself in App Store Connect. Nothing submitted by agents.
 
 ## Apple's current process (checked Oct 1, 2026)
@@ -24,46 +24,49 @@ What they say:
 | Oct 11, 2026 | Earliest "3 months ahead" date. |
 | Before Nov 11 | Create the app record in App Store Connect (needed to open Nominations and for TestFlight). |
 | **Nov 12–30 (recommended)** | Submit the nomination, right after the beta is live, with a TestFlight public link + early screens in Supplemental Materials. About 6–8 weeks of lead time. |
-| **Dec 21, 2026** | Latest date (3 weeks before Jan 11). Too tight; don't aim for it. |
+| **Fri Nov 27, 2026** | Submit by this date (launch Dec 11; Apple asks for 2–3 weeks' notice). |
 | Early Dec | Submit the 1.0 build for App Review, with time to fix rejections. Apple review is often slower over the late-December holidays (verify the current notice on developer.apple.com/news). |
 
-## Draft fields
+## Draft fields · FINAL v2 (Nov 24, 2026) · copy into App Store Connect
+Megan, Nov 24: YES to the nomination; "especially now that it is visionboard season" / "Add that to the pitch"; one-line pitch word for word: « Pinterest meets habit tracker and the reward becomes your personal magazine »; close with both lines: "I think we can close with both. But what does PR agent think though".
 
 **Nomination Name**
-ISSUE11 launch: the manifestation journal that becomes your magazine
+ISSUE11: your vision board, turned into your own magazine
 
 **Nomination Type**
 App Launch
 
 **Publish Date**
-January 11, 2027 (specific day)
+December 11, 2026 (specific day)
 
 **Description**
-> ISSUE11 is a new iPhone app that turns a manifestation practice into a personal magazine. Users collect images of the life they're becoming, listen to short immersive audio and visual sessions, and write a few lines in their journal. ISSUE11 turns their own words and photos into an editorial-style magazine about their future self, with a cover that carries their name and a new issue each season. Past Proof brings back an old intention months later and asks: "Is this part of your life now?", building a personal archive of what came true.
+> Pinterest meets habit tracker and the reward becomes your personal magazine.
 >
-> It's made for ambitious, aesthetically driven women in their 20s and 30s who already use vision boards, journals and affirmations, but find their dreams scattered across screenshots, notes and boards. ISSUE11 brings it together in one place that looks and feels like a fashion magazine, not a wellness app.
+> ISSUE11 is a new iPhone app for women who keep beautiful vision boards but want their life to actually move. You save the images that excite you, write a few lines in your journal, and choose one small action at your own pace: daily, every few days, weekly or monthly. There are no streaks to break. Every action you take and every page you keep fills your own 40-page magazine, with your name and your photo on the cover. When it's full, you can order it in print.
 >
-> ISSUE11 launches on January 11, 2027, timed for New Year intentions. The 11th is the brand's recurring moment: a private beta opened on 11.11.
+> We're launching on December 11, right as people sit down to make their vision boards and set their New Year intentions. ISSUE11 gives that board somewhere to go after January.
+>
+> You know what everyone else's dream life looks like. What about yours?
+> Become your own dream girl.
 
 **Related Apps:** none (first app).
-**Platforms:** iPhone *(add iPad only if the build supports it)*.
-**Countries/Regions:** all regions where it's available *(auto-filled; at minimum the US)*.
-**Localizations:** English (U.S.) *(auto-filled)*.
-**In-App Events:** none at first. Idea for later (Megan decides): a "New Year Issue" In-App Event in January, which needs its own approval and could be nominated separately.
+**Platforms:** iPhone.
+**Countries/Regions:** all regions where it's available (at minimum the US).
+**Localizations:** English (U.S.).
+**In-App Events:** none at launch. Idea for later (Megan decides): a "New Year Issue" event in January.
 
 **Supplemental Materials (max 5 URLs)**
-1. https://issue11.com (holding page)
-2. TestFlight public link *(after Nov 11; only if Megan opens a public link)*
-3. Press kit: logo, screens, founder photo, 1-page fact sheet *(to make; PR)*
-4. 30-second app preview / screen recording of the cover reveal *(to make)*
-5. Founder story page or video (Megan + her original coffee-table magazine) *(to make)*
+1. https://issue11.app
+2. TestFlight public link (only once the Nov 30 build is live and Megan opens a public link)
+3. Press kit / screens (when made)
 
 **Helpful Details**
-> ISSUE11 was founded by Megan, a fashion designer whose work appeared in ELLE Belgium and Vogue Italia. After her daughter was born, she designed a magazine about the woman she wanted to become and kept it on her coffee table. Some of those pages became her real life. ISSUE11 is that magazine, made for everyone. Megan designed the app and records the audio and video sessions herself.
+> ISSUE11 is founded and designed by Megan Scott Manolova, a designer who built the first version of this idea as a printed magazine about the life she wanted, and kept it on her coffee table. The app is built by a one-woman studio. Journal entries and photos stay on the user's phone; the AI Editor only runs with the user's consent.
 >
-> Accessibility *(only list what is really built; check before submitting)*: VoiceOver labels on all controls, Dynamic Type for journal text, text transcripts for every audio session, captions on video, and respect for Reduce Motion in the cover reveal.
->
-> Built for iOS 26: [list what's really used, e.g. home-screen cover widget, notifications, Sign in with Apple, Liquid Glass design].
+> Accessibility: list only what is really in the Dec 3 build (check before submitting).
+
+### PR view on the closing (💜 PR Lead, Nov 24)
+Close with both, in this order, and nothing after them. The question ("…What about yours?") is the hook and earns the last-but-one spot; "Become your own dream girl." works as a four-word sign-off, like a magazine's last line. Keep them as two short lines, not a paragraph: Apple's editors read for the product first, so the substance above stays the body and the two lines are the finish. Trust check: no claims, numbers or promises in either line, so both are safe.
 
 ## Before Megan submits (checklist)
 - [ ] Apple Developer account open; Megan has the Account Holder or Marketing role.

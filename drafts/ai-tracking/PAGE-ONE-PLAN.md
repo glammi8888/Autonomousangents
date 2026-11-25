@@ -313,3 +313,4 @@ Megan, Nov 13: "I also would like you to give me a projection daily" · "Time pr
 - 2026-11-24 · (Glammi worker, 19:09Z block) Light block: no change; live llms.txt still 47 links (52-link file with Megan).
 - 2026-11-25 · (Glammi worker, 01:10Z block) Light block: no site change; llms.txt still 47 live. Reminder due today (SPEED-UP-TODO line 46): order the ISSUE11 App Store launch press release (~$100, write + distribute) about now so it can run Dec 11. Paid = Megan's call.
 - 2026-11-25 · (Glammi worker, 07:10Z block) Light block: no change; llms.txt still 47 live.
+- 2026-11-25 · (Glammi worker, 13:09Z block) Light block: no change; llms.txt still 47 live. Next candidate lever: a claim audit of the 43 live Glammi articles (the ISSUE11 side found 2 wrong claims in theirs).

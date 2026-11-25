@@ -88,6 +88,15 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 29 · Nov 25, 22:25 UTC (daily)**
+- ✅ Decisions (Megan, Nov 24): featuring nomination "Yes let's try it out". Final v2 is ready (Dec 11, vision-board season, her pitch line); Megan submits it in App Store Connect by ~Nov 27. Founding rate $39.99 ends **Jan 11, 2027** ("jan 11 I think no?" → agreed). The 660 plan's waitlist offer now has a real deadline to use in launch emails.
+- 🔎 SEO/AEO: best-manifestation-books live (46 articles) + day-one links. Claim audit of all live articles: fixed a wrong "no meditations" claim (the landing lists musical meditations). Stale "private beta" lines on glammi.ai fixed.
+- 📌 Pinterest: Megan dropped the on-pin hook box ("i don't think i like the captions unfortunately"). The 6 scheduled orbit pins were swapped to no-hook videos; curiosity hooks now go in the pin title/description only.
+- 💜 PR: reminder from the SEO worker. Ordering the launch press release (~$100, written + distributed) now would let it run on Dec 11. Paid, so Megan's call.
+- 💸 Media Buyer · 🧵 Reddit · 🎬 Viral · 🖋 Editor: no change. Still waiting on Megan: $300 test, "invite-only" wording, press release yes/no.
+- 💡 Idea: put the Jan 11 founding-rate deadline into the waitlist emails (email 2 on Dec 11, last call on Dec 16) and the Dec 11 posts. It's a real deadline, not invented urgency. Traffic: none directly; it lifts launch-week conversion [A]. Cost: $0. Flag risk: none (the date is real and stated plainly). Megan must: OK the line when she reviews the emails.
+- 0 subagents.
+
 **Cycle 28 · Nov 24, 22:25 UTC (daily)**
 - 🔎 SEO/AEO: **10 keywords in the top 100** (5 yesterday), incl. how to rebrand yourself #61 and how to manifest a job #62. love-affirmations live (45 articles). The vision-board-magazine H1 now uses the exact phrase (Megan: "vision board magazine is incredible!!! I hope to rank 1st page very soon"). A weekly results-only report for Megan now runs Mondays 9:41 LA. A disclosed Reddit reply was drafted for the thread AI answers cite (post after Dec 11, Megan's call).
 - 📌 Pinterest: 6 orbit pins with Megan's approved polarizing hooks scheduled Nov 25–30 (her go). Rule from her iterations: hooks must not sound AI and should be a pattern interrupt.

@@ -86,3 +86,5 @@ Use `hook/ORxx.mp4` instead of `ORxx.mp4` for these. Same title, description, li
 | Nov 28 | OR07 be that girl | 440868140 |
 | Nov 29 | OR08 the self love issue | 440868198 |
 | Nov 30 | OR09 journaling prompts | 440868263 |
+
+## Nov 24 (PT evening): hook box removed (Megan: "i don't think i like the captions unfortunately" -> the hook in the black box). All 6 scheduled posts swapped to the no-hook videos (`ORxx.mp4`), same times, titles, links and boards. New Metricool ids: OR02 441098703 · OR04 441098737 · OR05 441098768 · OR07 441098811 · OR08 441098851 · OR09 441098978.

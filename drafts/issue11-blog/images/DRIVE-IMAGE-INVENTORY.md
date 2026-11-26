@@ -26,7 +26,7 @@ Download one with Google Drive `download_file_content <id>`, save it here as src
 | 1Z_nyuEdETBc7E7tNnKBPrT8kLlSx-FTF | Determined woman, conceptual 0a6300bd_2 | reserved: issue11.app landing (Nov 20) |
 | 1v16F9Nnjr7MXWshkE-r7vhLrgD28mFkF | Determined woman, conceptual b807525f_1 | unused |
 | 12P1l-mUqvWQwNOKV1stTg-WHoNG90gt_ | Experimental editorial portrait 4c1d16f2_2 | reserved: issue11.app landing (Nov 20) |
-| 1jLPy1sSX8ABFPqBfER3xRPwCvEyfDntb | Cinematic, solitary woman cd432d69_3 | unused |
+| 1jLPy1sSX8ABFPqBfER3xRPwCvEyfDntb | Cinematic, solitary woman cd432d69_3 | USED new-year-intentions (src-red-door-woman-megan.png) |
 | 1FHk1eptYZYGDBh4e6K67WMOR8gWwxGYy | Cinematic, solitary woman 0ef4636f_2 | reserved: issue11.app landing (Nov 20) |
 | 1IsNfdjeMyqABYWUDH264gPmmuHk-K9cw | Mixed-media, woman physically... 6b2981f4_1 | USED magazine-collage |
 | 11muk_mOZu1OS1CesnMBEytRfqVkQfHYp | Mixed-media 73d63faf_2 | unused |

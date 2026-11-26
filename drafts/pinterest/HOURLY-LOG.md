@@ -1,5 +1,8 @@
 # Pinterest agent: hourly log (newest first)
 
+- 2026-11-26 16:2x UTC · Job 3: board kit done in drafts/pinterest/BOARDS.md (15 boards by the 4 pillars: names, descriptions, which articles and pins go where). 9 to create, 1 rename; Megan or the Manager makes them after her go.
+- 2026-11-26 12:2x UTC · BLOCKED: out of fresh orbit-ready photos (single person, clean outline, head clear of the top); every good one in rebrand-kit/img is used. Need new photos from Megan, or her OK to reuse.
+- 2026-11-26 08:2x UTC · Job 2 (QUEUE briefs), in the approved orbit style: Q01 vision board ideas and Q11 stop overthinking pass QA, logged in QUEUE.md as "waiting for Megan's go". Q06 vision board examples failed (dark type lost on a beige background), left out.
 - 2026-11-24 20:3x UTC · At Megan's go ("Go for the orbit pins"), scheduled the 6 hooked orbit pins in Metricool, one a day at 11:31 PT, Nov 25–30 (ids in motion/orbit/PINS.md).
 - 2026-11-23 21:4x UTC · At Megan's direct request, scheduled orbit pin OR01 (winter arc video) in Metricool for Nov 23 14:00 PT (id 439474304). Note: the Nov 23 08:19 PT pin ("I am healthy, I am wealthy...") failed earlier with "You have reached your Metricool account limit" (before the upgrade).
 - 2026-11-19 00:2x UTC · BLOCKED: no new article pins until Megan picks which approved favourite style to use (she rejected the phone-notes article pins on Nov 18: "the pins are so bad").

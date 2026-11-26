@@ -19,7 +19,7 @@ Pinterest skills** where they disagree. Before using it, also read the Pinterest
 Full sourced guidance: `references/pinterest-playbook.md` (Part 1 organic, Part 2 paid, gaps, sources).
 
 ## 0. ISSUE11's point of view (every pin carries it)
-Megan, Nov 26: "I also want the content to contain the point of view of issue11 and its philosophy".
+Megan, Nov 26: "I also want the content to contain the point of view of issue11 and its philosophy" + "Not verbatim but it needs to match our values". Express the values in fresh words; don't paste these lines onto pins.
 Source, word for word: `design/POSITIONING.md` → "The New Way of Manifestation" (Megan, Nov 17) and
 `design/editorial/POSITIONING-STRATEGY-2026-11.md`. Read them before writing copy.
 - **The philosophy:** THE NEW WAY OF MANIFESTATION. "We believe in imagination, but we also believe in

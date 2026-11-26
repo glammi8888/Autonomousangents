@@ -1,5 +1,5 @@
 # ISSUE11 Point of View (step 1: logic first)
-Nov 17, 2026 · DRAFT for Megan's OK · no carousel designs or scripts yet
+Nov 17, 2026 · **APPROVED by Megan, Nov 26** ("Perfect so now we are creating content from there"): the 7 beliefs are the content pillars. Decisions: start with 1 (participation) + 4 (setback); content uses DESIRE → IMAGINE → ACT → EVOLVE; belief 2's line is OK to use.
 
 **Why this page exists.** Megan, Nov 16, word for word: "But now we are going to work on some carousels.... Which I really need to develop the thought leadership and philosophy of the brand for that, in order to make it informative". Platforms: "Instagram, tiktok and pinterest".
 **Built only from:** Editorial Bible (Bible), Marketing Playbook (Playbook), Attraction vs Devotion, Lexicon, POSITIONING.md, NORTH-STAR.md, PRODUCT-ARCHITECTURE.md, BANK.md, CAROUSEL-FRAMEWORK-REFS.md, content-pillars-formats.md, `.pipeline/lessons.md` (Nov 9 + Nov 17). Nothing new is written as copy. Titles marked *working* are planning labels, not slide text.

@@ -39,6 +39,21 @@ Source, word for word: `design/POSITIONING.md` → "The New Way of Manifestation
   viral manifestation content, even if it generates more views." → Viral formats are welcome; viral *messages*
   that contradict our POV (trust the universe, just believe, become her) are not.
 
+### The 7 pillars (approved Nov 26; full doc: design/editorial/POINT-OF-VIEW.md)
+Enemy: passive manifestation (wishing, waiting, consuming content). Stance: "You don't have to see it to believe it.
+But you have to participate to create it." Every pin and carousel belongs to one pillar; rotate them, start with 1 and 4.
+1 manifestation is participation · 2 you control the process, not the outcome · 3 a vision board needs a next step ·
+4 a setback isn't a verdict · 5 become YOU · 6 progress counts before it arrives · 7 your dream life is yours, not the feed's.
+Loop words in content: DESIRE → IMAGINE → ACT → EVOLVE.
+
+### The 4 content pillars (what we talk about; Megan: "Ok smart", Nov 26)
+The 7 beliefs are what we SAY; these pillars are what we TALK ABOUT. Every pin = 1 pillar + 1 belief + her words.
+1. **The new way of manifestation**: manifestation, law of assumption, scripting, "it didn't manifest" (beliefs 1, 2, 4, 6)
+2. **Personal rebrand + glow up**: personal rebrand, glow up, that girl, winter arc (belief 5). Best-ever pin topic.
+3. **Vision board + your future, in print**: vision board 2027, word of the year, the free kit, the magazine (beliefs 3, 7). Closest to the app.
+4. **Money + soft life**: money affirmations, savings, raise your rates (beliefs 2, 6). The "$10,000 a month" pin does well.
+Rotation: about equal, push the pillar in season (vision board now → glow up in January → self love before Valentine's).
+
 ### Her words (lexicon)
 Megan, Nov 26: "Also it needs to match the lexicon of our audience". Full source, their words as written:
 `design/editorial/LEXICON.md` (+ `design/research/ICP-VERBIAGE-LINKS.md`). Check a line against it before it goes on a pin.
@@ -64,7 +79,10 @@ Megan, Nov 26: "Also it needs to match the lexicon of our audience". Full source
 - Never "becoming her" (Megan: "becoming her should not be a thing"). Never copy Megan's personal details.
 - Audience: Gen Z **and** millennial women. Captions and on-pin text are lowercase (Megan: "No capital letters").
 - Copy: **concise, no fluff, no AI jargon** (Megan: "keep it concise no extra fluff words etc and ai jargon"). Cut every word that isn't doing work; never "elevate", "unlock", "journey", "game-changer", "dive in".
+- **HUMANIZE EVERYTHING** (Megan, in caps): every line sounds like a real girl talking to a friend, not a brand, coach or AI. Contractions, casual words, her lexicon; no lofty or clinical words ("verdict", "conceptual model", "embark", "elevate"). Test: read it out loud.
 - Keep it simple: **one idea per slide, readable in a glance** (Megan: "People have short attention spans so we have to make things simple").
+- Never the word **"move"**; say **"action"** (Megan).
+- **Last slide = CTA** (Megan): "ready to be your own dream girl? check issue11 on the app store". Only true from the App Store launch (planned Dec 11, 2026); check it's live before using it, use a pre-launch version before then.
 - Carousels: **aim for 5 slides; 6 only if it truly needs it**, short text on each (Megan: "Preferably 5 but if it needs 6 then it's fine too it's not a hard rule just a hard preference").
 - Never place text over a face. Never cut off a face. Run Visual QA (phone 390px + 236px feed) before showing anything.
 

@@ -801,3 +801,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-26 · RULE (Megan, word for word: "And then also keep it concise no extra fluff words etc and ai jargon"): pin and carousel copy = fewest words possible, no filler, no AI jargon (no "elevate", "unlock", "journey", "game-changer", "dive in", "it's not X, it's Y").
 - 2026-11-26 · RULE UPDATE (Megan: "6 is ok but not too lengthy"): carousels up to 6 slides max, short text on each.
 - 2026-11-26 · RULE (Megan, word for word: "People have short attention spans so we have to make things simple"): one idea per slide, few words, readable in a glance.
+- 2026-11-26 · RULE UPDATE (Megan: "Preferably 5 but if it needs 6 then it's fine too it's not a hard rule just a hard preference"): aim for 5 slides; 6 only when the content truly needs it.

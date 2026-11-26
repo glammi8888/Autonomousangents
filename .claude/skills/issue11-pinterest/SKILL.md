@@ -29,7 +29,7 @@ Full sourced guidance: `references/pinterest-playbook.md` (Part 1 organic, Part 
 - Audience: Gen Z **and** millennial women. Captions and on-pin text are lowercase (Megan: "No capital letters").
 - Copy: **concise, no fluff, no AI jargon** (Megan: "keep it concise no extra fluff words etc and ai jargon"). Cut every word that isn't doing work; never "elevate", "unlock", "journey", "game-changer", "dive in".
 - Keep it simple: **one idea per slide, readable in a glance** (Megan: "People have short attention spans so we have to make things simple").
-- Carousels: **6 slides max, short text on each** (Megan: "Also carousels no more than 5 panels", then "6 is ok but not too lengthy").
+- Carousels: **aim for 5 slides; 6 only if it truly needs it**, short text on each (Megan: "Preferably 5 but if it needs 6 then it's fine too it's not a hard rule just a hard preference").
 - Never place text over a face. Never cut off a face. Run Visual QA (phone 390px + 236px feed) before showing anything.
 
 ## 2. What wins (approved)

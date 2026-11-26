@@ -53,8 +53,8 @@
 | P4 | 🎓 graduation magazine · graduation magazine cover | 100 + 90 | n/a | SEASONAL spring: write in April for May/June graduations |
 | P2 | pinterest mood board | 4,000 | 31 | candidate (how to make one + turn it into a magazine) |
 | P3 | magazine collage | 1,600 | 29 | DONE Nov 21 magazine-collage (DRAFT dated Nov 17, publishes next; cover Drive scissors collage). Was: NEXT, EASY (SERP Nov 21: weak sites, #3 is a DA 12 blog with 1 referring domain, how-to intent; AI Overview + PAA). Angle: how to make a magazine collage (vision board style), link magazines-for-vision-board. Megan asked Nov 21 |
-| S1 | 🎄 new year intentions · intentions for the new year | 480 + 480 | 19 to 26 | NEXT (before Dec 20; angle: intentions vs resolutions, 30 intention examples, one small move each; link new-year-resolution-ideas, word-of-the-year-ideas, winter-arc) |
-| S2 | 🎄 end of year reflection | 530 | 20 | NEXT after S1 (check overlap with live december-january-journal-prompts first; make it a guided reflection, not more prompts) |
+| S1 | 🎄 new year intentions · intentions for the new year | 480 + 480 | 19 to 26 | DONE Nov 26 new-year-intentions (DRAFT dated Nov 19, cover red-door photo, publishes Nov 27). Was: NEXT (before Dec 20; angle: intentions vs resolutions, 30 intention examples, one small move each; link new-year-resolution-ideas, word-of-the-year-ideas, winter-arc) |
+| S2 | 🎄 end of year reflection | 530 | 20 | NEXT (check overlap with live december-january-journal-prompts first; make it a guided reflection, not more prompts) |
 | S3 | how to start over in life | 600 | 23 | later (Jan; check overlap with personal-rebrand) |
 | W4 | sunday reset · sunday reset routine | 2,000 | 28 | NEXT (weekly reset checklist; link self-care-ideas, winter-arc, romanticize-your-life) |
 | skip | words of affirmation (48,300) | love-language intent, off brand | 20 | skip |

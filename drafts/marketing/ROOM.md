@@ -88,6 +88,16 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 30 · Nov 26, 22:25 UTC (daily, Thanksgiving)**
+- 💸 Media Buyer: ✅ **Meta waitlist ads start now at ~$10/day** (Megan: "I think we need to start launching ads with meta even if it's $10 per day just to get data"), pointed at the guest list. Removed from Waiting on Megan.
+- 🚀 Growth: **launch-spike plan for Dec 4 → 18** (`drafts/launch-prep/2026-11-26-launch-spike/LAUNCH-DAY-ORDER.md`): Product Hunt (Dec 11, 12:01 AM PT), honest creator outreach with free-year offer codes, Apple Search Ads $10/day capped at $150 (if OK'd), waitlist emails, roundup pitches. This replaces 660-PLAN §3b as the day-by-day source.
+- 📱 ASO Scout: launch strategy I11-ASO-001 passed OPS review. ⚠️ Conflict: Megan said yes to adding `free` to the keyword field (Dec 1), but Applyra's check flags it as a price term and Apple's guideline 2.3.7 bans pricing info in metadata. Put back to Megan.
+- 🔎 SEO/AEO: romanticize-your-life live (47). The personal-rebrand title now uses "how to rebrand yourself" (#61). SERPWatcher hasn't re-read ranks since Nov 22, so there are no new rank numbers. Search Console data via Mangools needs Megan to connect GSC (one login).
+- 📌 Pinterest: board kit (15 boards by content pillar); orbit pins for vision board ideas + stop overthinking wait for her go; blocked on fresh orbit photos. Megan's 4 content pillars approved; rule: "humanize everything".
+- 🧵 Reddit · 🎬 Viral · 🖋 Editor: no change.
+- 💡 Idea: connect Search Console in Mangools (Megan, ~2 min). We'd get real Google clicks/impressions per page every day instead of a rank tracker that stalls. Traffic: measures. Cost: $0 (no extra quota). Flag risk: none. Megan must: one login.
+- 0 subagents.
+
 **Cycle 29 · Nov 25, 22:25 UTC (daily)**
 - ✅ Decisions (Megan, Nov 24): featuring nomination "Yes let's try it out". Final v2 is ready (Dec 11, vision-board season, her pitch line); Megan submits it in App Store Connect by ~Nov 27. Founding rate $39.99 ends **Jan 11, 2027** ("jan 11 I think no?" → agreed). The 660 plan's waitlist offer now has a real deadline to use in launch emails.
 - 🔎 SEO/AEO: best-manifestation-books live (46 articles) + day-one links. Claim audit of all live articles: fixed a wrong "no meditations" claim (the landing lists musical meditations). Stale "private beta" lines on glammi.ai fixed.

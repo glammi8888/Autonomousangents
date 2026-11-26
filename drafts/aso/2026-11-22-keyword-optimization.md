@@ -97,3 +97,7 @@ New Year matters: vision board searches peak Dec 26–Jan 15. Recheck `vision bo
 ## For Megan (2 questions, recommended answer first)
 1. Keyword field: swap `scripting` → `maker` + `personal`? **Yes.** It adds 4 measured "maker" terms with real traffic and low or mid difficulty, and loses only floor terms.
 2. Description: use the new 3-line opening + the YOUR ISSUE line + the promo text + the caption 3 fix? **Yes.** It says "make your own personal magazine" up top, and caption 3 currently breaks the "action" rule.
+
+
+## Update Nov 26 (Megan said yes)
+Add `free` to the keyword field at the Dec 1 recheck (swap out the weakest word, stay ≤100). Target: vision board free (23/23). Visible copy: "7 days free, then $39.99 for your first year" only. Watch reviews 2 weeks; drop it if "not free" complaints appear. Also recheck `personal magazine` + `personalized magazine`.

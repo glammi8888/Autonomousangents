@@ -18,6 +18,27 @@ Pinterest skills** where they disagree. Before using it, also read the Pinterest
 
 Full sourced guidance: `references/pinterest-playbook.md` (Part 1 organic, Part 2 paid, gaps, sources).
 
+## 0. ISSUE11's point of view (every pin carries it)
+Megan, Nov 26: "I also want the content to contain the point of view of issue11 and its philosophy".
+Source, word for word: `design/POSITIONING.md` → "The New Way of Manifestation" (Megan, Nov 17) and
+`design/editorial/POSITIONING-STRATEGY-2026-11.md`. Read them before writing copy.
+- **The philosophy:** THE NEW WAY OF MANIFESTATION. "We believe in imagination, but we also believe in
+  experimentation, participation and continuous evolution. We don't shame people when manifestation doesn't work."
+- **Old way → our way:** inspirational quotes → intellectual provocations · manifest your dream life → art
+  direct your life · visualize the outcome → imagine the entire process · maintain alignment → experiment and
+  adapt · become her → **become YOU** · vision boards → an evolving personal magazine · consume inspiration →
+  participate in your evolution · trust the universe → trust your capacity to create.
+- **Vocabulary to use:** art direct your life · future you · the Editor · your future, in print · a new issue.
+- **Who we talk to:** "the experienced but disillusioned manifestor". "We do not need to sell her on imagining a
+  different future. We need to sell her on a better approach." Campaign line: "What if we have been manifesting wrong?"
+  (This is why the skeptic hooks work: "tried manifestation but felt like it was bullshit? this is for you".)
+- **The product in one line (approved):** "Pinterest meets a habit tracker, with your own magazine as the reward."
+  Low pressure: no streaks, no guilt, one action a week.
+- **The test** (Megan): people should think "Finally, someone is talking about manifestation the way I've always
+  felt about it," not "another manifestation app". "Resist the temptation to dilute this positioning with generic
+  viral manifestation content, even if it generates more views." → Viral formats are welcome; viral *messages*
+  that contradict our POV (trust the universe, just believe, become her) are not.
+
 ## 1. Hard rules (never break)
 - Never schedule, post or upload unless Megan said go **for those pins**. The scheduled 4h Pinterest
   agent never posts. Only a session Megan is talking to, after her go, may use Metricool.

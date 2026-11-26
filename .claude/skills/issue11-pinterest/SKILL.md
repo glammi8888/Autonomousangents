@@ -39,6 +39,21 @@ Source, word for word: `design/POSITIONING.md` → "The New Way of Manifestation
   viral manifestation content, even if it generates more views." → Viral formats are welcome; viral *messages*
   that contradict our POV (trust the universe, just believe, become her) are not.
 
+### Her words (lexicon)
+Megan, Nov 26: "Also it needs to match the lexicon of our audience". Full source, their words as written:
+`design/editorial/LEXICON.md` (+ `design/research/ICP-VERBIAGE-LINKS.md`). Check a line against it before it goes on a pin.
+- **Two girls, pick one per pin:** Gen Z wants to become someone new ("glow up", "lock in", "winter arc",
+  "that girl", "era", "no because…"). Millennial 30s wants to become herself again ("becoming me again",
+  "same girl, bigger dreams", "protect my peace", "one small action", "I let today be enough", "it's not too
+  late", "starting over at 35", "not skinny, regulated", "unlearning").
+- **Her pains, in her words:** "feeling like you're falling behind", "rebranding my entire life at 11pm",
+  "to say no without a 3-paragraph apology", "I was neither productive nor did I actually relax", burnt out, tired.
+- **Her skeptic voice** (fits our disillusioned manifestor): "it's all woo woo", "this is a scam", "bullshit".
+- **She'd never say (instant unfollow):** hey queen / bestie · high-value woman · boss babe (unless ironic) ·
+  goddess / divine feminine · just stay positive · good vibes only · everything happens for a reason ·
+  love and light · unlock your abundance · money promised by a date. Plus our own bans: "becoming her"
+  (it's in her lexicon, but Megan banned it), AI jargon.
+
 ## 1. Hard rules (never break)
 - Never schedule, post or upload unless Megan said go **for those pins**. The scheduled 4h Pinterest
   agent never posts. Only a session Megan is talking to, after her go, may use Metricool.

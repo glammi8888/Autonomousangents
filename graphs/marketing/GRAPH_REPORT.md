@@ -1,19 +1,19 @@
-# Graph Report - Autonomousangents  (2026-11-25)
+# Graph Report - Autonomousangents  (2026-11-26)
 
 ## Corpus Check
-- 72 files · ~0 words
+- 73 files · ~0 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 566 nodes · 815 edges · 25 communities (24 shown, 1 thin omitted)
+- 570 nodes · 819 edges · 25 communities (24 shown, 1 thin omitted)
 - Extraction: 84% EXTRACTED · 16% INFERRED · 0% AMBIGUOUS · INFERRED: 131 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Community Hubs (Navigation)
 - ISSUE11 Paid Ads Launch Plan (Nov 6)
-- AI Manifest Angle (content angle draft)
 - Waitlist page review (Nov 17)
-- Cross-channel loop: article to pins, Red
+- AI Manifest Angle (content angle draft)
+- Keyword to pin map
 - 100K+ PLAN: issue11.app visits per month
 - Competitor ads: Stella and other manifes
 - Customer Panel report: homepage + concep
@@ -21,13 +21,13 @@
 - Hooks from the Positioning Strategy (Nov
 - Informative carousel series (logic only)
 - Glammi Studio paid ads plan (Nov 6 draft
-- ISSUE11 Authority & Mentions target list
 - Hooks reframed in the audience's words (
+- ISSUE11 Authority & Mentions target list
 - ISSUE11 Content Guidelines (Oct 13)
+- Competitor ad watch Nov 23 2026
 - The Dream Life Gap Test v2 build sheet
 - ISSUE11 Viral Formats Library
 - Pinterest analytics record
-- Competitor ad watch Nov 23 2026
 - ISSUE11 Canva master templates plan (Oct
 - ISSUE11 Content Pillars x Formats v2/v3 
 - LinkedIn article test (1/week per brand)
@@ -55,7 +55,7 @@
   drafts/ads/2026-11-11-issue11-meta-launch-kit.md → drafts/ads/2026-11-06-issue11-launch-plan.md
 - `Hook A: "Manifestation doesn't work."` --semantically_similar_to--> `Ad Concept 3: The Tuesday Problem`  [INFERRED] [semantically similar]
   drafts/ads/2026-11-11-issue11-meta-launch-kit.md → drafts/ads/2026-11-06-issue11-launch-plan.md
-- `CAR16 manifestation loop (DESIRE IMAGINE EMBODY BECOME)` --semantically_similar_to--> `Cross-channel loop: article to pins, Reddit, Reels, lead magnet to waitlist`  [INFERRED] [semantically similar]
+- `CAR16 manifestation loop (DESIRE IMAGINE EMBODY BECOME)` --semantically_similar_to--> `Cross-channel loop: article to many doors to sign-ups`  [INFERRED] [semantically similar]
   drafts/pinterest/carousels/README.md → drafts/marketing/ROOM.md
 - `Gap: nobody shows a fashion-magazine look or real product` --semantically_similar_to--> `Insight: nobody runs the process/magazine angle`  [INFERRED] [semantically similar]
   drafts/ads/2026-11-16-competitor-ads.md → drafts/ads/2026-11-11-competitor-ads-stella.md
@@ -70,7 +70,7 @@
 - **Customer panel browsing personas** — drafts_research_panel_2026_11_16_issue11_homepage_and_concept_browse_out1_persona_jess, drafts_research_panel_2026_11_16_issue11_homepage_and_concept_browse_out2_persona_dana, drafts_research_panel_2026_11_16_issue11_homepage_and_concept_browse_out3_persona_rachel, drafts_research_panel_2026_11_16_issue11_homepage_and_concept_browse_out4_persona_mia [EXTRACTED 1.00]
 - **Recommended first 3 hooks** — drafts_social_hooks_positioning_hook_p1, drafts_social_hooks_positioning_hook_p6, drafts_social_hooks_positioning_hook_p3 [EXTRACTED 1.00]
 - **ISSUE11 Ad/Organic Hook Concepts Shared Across Paid and Organic** — drafts_ads_2026_11_06_issue11_launch_plan_concept1_saves_printed, drafts_ads_2026_11_06_issue11_launch_plan_concept2_cover_story, drafts_ads_2026_11_06_issue11_launch_plan_concept3_tuesday_problem, drafts_ads_2026_11_06_issue11_launch_plan_concept4_feed_vs_issue, drafts_ads_2026_11_06_issue11_launch_plan_concept5_founders_magazine, drafts_social_2026_11_week1_issue11_p1_hundreds_of_pins, drafts_social_2026_11_week1_issue11_p3_cover_of_your_life, drafts_social_2026_11_week1_issue11_p5_editors_desk [EXTRACTED 1.00]
-- **Marketing Room agent lanes feeding the 100k visits goal** — drafts_marketing_room_seo_aeo_workers, drafts_marketing_room_pinterest_seo_agent, drafts_marketing_room_reddit_specialist, drafts_marketing_room_viral_formats, drafts_marketing_room_media_buyer, drafts_marketing_room_the_editor [EXTRACTED 1.00]
+- **Marketing room agents feeding the cross-channel loop** — drafts_marketing_room_seo_aeo_workers, drafts_marketing_room_pinterest_seo_agent, drafts_marketing_room_reddit_specialist, drafts_marketing_room_viral_formats, drafts_marketing_room_the_editor, drafts_marketing_room_media_buyer [EXTRACTED 1.00]
 - **Meta Waitlist Tracking Stack** — drafts_ads_2026_11_11_issue11_meta_launch_kit_meta_pixel, drafts_ads_2026_11_11_issue11_meta_launch_kit_waitlist_signup_conversion, drafts_ads_2026_11_06_issue11_launch_plan_waitlist_google_sheet, drafts_ads_2026_11_11_issue11_meta_launch_kit_campaign_settings [EXTRACTED 1.00]
 - **Recommended first 5 MOFU hooks** — drafts_social_hooks_reframed_r3_stuck_between_vision_and_todo, drafts_social_hooks_reframed_r5_manifestation_giving_full_time_job, drafts_social_hooks_reframed_k6_visualize_hard_parts, drafts_social_hooks_reframed_r4_burnt_out_regulated_nervous_system, drafts_social_hooks_reframed_r13_five_questions_not_worked_yet [EXTRACTED 1.00]
 - **Mental contrasting / obstacle-planning content** — drafts_marketing_ai_manifest_angle_obstacle_check_prompt, drafts_social_hooks_mofu_hook_wishful_thinking_woop, drafts_social_hooks_mofu_meghans_loved_formats [INFERRED 0.75]
@@ -90,17 +90,17 @@
 Cohesion: 0.06
 Nodes (50): Vendor Benchmarks (RevenueCat, Adapty, AppTweak, SplitMetrics), Break-even Money Math ($34 / $51 per paying customer), Option B: $300/mo Instagram Test, Ad Concept 1: Your Saves, Printed, Ad Concept 2: Your Cover Story, Ad Concept 3: The Tuesday Problem, Ad Concept 4: Your Feed vs Your Issue, Ad Concept 5: The Founder's Magazine (+42 more)
 
-### Community 1 - "AI Manifest Angle (content angle draft)"
-Cohesion: 0.05
-Nodes (44): AI Manifest Angle (content angle draft), Editorial vision board photo prompt (prompt 6), Format A: prompt pin text card, Format B: prompt + the image it made, Format C: '5 prompts to...' carousel, Format D: TikTok photo mode story, Search demand data (Mangools US + Apify Pinterest scrape), LIVE (Embody to Become) (+36 more)
-
-### Community 2 - "Waitlist page review (Nov 17)"
+### Community 1 - "Waitlist page review (Nov 17)"
 Cohesion: 0.06
 Nodes (50): issue11.app homepage fixes (Nov 16-17), Homepage copy edits (fixes 1-8, softened 'actually works' claims), Fix 9: 'Cancel anytime in your iPhone settings' line, Founding rate $39.99 first year then $69.99/yr, 7-day trial, Phone layout fixes (stacked steps, hero mockup, founder quote), Nov 17 waitlist-page fixes (live, version 1f9201075), Offer Line: 'Free to join, no card needed. Founding rate $39.99...', Open questions: what 'approved' means, trial on founding year (+42 more)
 
-### Community 3 - "Cross-channel loop: article to pins, Red"
-Cohesion: 0.07
-Nodes (37): Public App Store launch Dec 11, 2026, 89 favourite pins scheduled in Metricool, Nov 25 to Dec 24, Goal: 100,000+ visits a month to issue11.app, Goal 2: 660 new paying app subscribers a month, Growth Lead (room owner), Marketing Room shared board, Marketing skills per agent (marketingskills pack), Orbit motion pins with curiosity hooks (+29 more)
+### Community 2 - "AI Manifest Angle (content angle draft)"
+Cohesion: 0.05
+Nodes (42): AI Manifest Angle (content angle draft), Editorial vision board photo prompt (prompt 6), Format A: prompt pin text card, Format B: prompt + the image it made, Format C: '5 prompts to...' carousel, Format D: TikTok photo mode story, Search demand data (Mangools US + Apify Pinterest scrape), LIVE (Embody to Become) (+34 more)
+
+### Community 3 - "Keyword to pin map"
+Cohesion: 0.06
+Nodes (40): Marketing Room shared board, 100K-PLAN.md, 660-SUBSCRIBERS-PLAN.md, Dec 11 public App Store launch, Founding rate $39.99 until Jan 11, 2027, Goal: 100k+ visits/month to issue11.app, Goal 2: 660 new paying subscribers/month, Google rankings: 10 keywords in top 100 (+32 more)
 
 ### Community 4 - "100K+ PLAN: issue11.app visits per month"
 Cohesion: 0.06
@@ -130,33 +130,33 @@ Nodes (25): DESIRE, IMAGINE, EMBODY, BECOME philosophy, Reel 2: Blind ranking wo
 Cohesion: 0.12
 Nodes (19): Unverified vendor benchmarks (WordStream, adwave, ZenABM), Tracking: Booked call conversion, Pixel + Google tag, privacy policy, Three budget options A $0 / B ~$150 / C ~$900, What a Glammi client is worth ($499 placeholder, 60% margin), Ad concept 2: Ask it yourself, Ad concept 5: Can AI read your website?, Ad concept 4: The ring question (jewelers), Ad concept 1: The short list (+11 more)
 
-### Community 11 - "ISSUE11 Authority & Mentions target list"
+### Community 11 - "Hooks reframed in the audience's words ("
+Cohesion: 0.17
+Nodes (14): D: Their words (Lexicon) as the cover, AI giveaways (contrast turns, lists of three, 'you don't need X, you need Y'), Audience Lexicon (their exact phrases), Hooks reframed in the audience's words (Nov 17), ISSUE11 Editorial Hooks & Visual Philosophy (Megan's 27-page ChatGPT doc), K6 what if we started visualizing the hard parts, too, Keep-as-is hooks K1-K10, Recommended first 5 for MOFU: R3, R5, K6, R4, R13 (+6 more)
+
+### Community 12 - "ISSUE11 Authority & Mentions target list"
 Cohesion: 0.16
 Nodes (15): Move 8: earned links and mentions, The one sentence AI engines should repeat, AlternativeTo, ISSUE11 Authority & Mentions target list, BetaList, Bustle writer pitch, HARO, Indie Hackers (+7 more)
-
-### Community 12 - "Hooks reframed in the audience's words ("
-Cohesion: 0.20
-Nodes (12): AI giveaways (contrast turns, lists of three, 'you don't need X, you need Y'), Hooks reframed in the audience's words (Nov 17), ISSUE11 Editorial Hooks & Visual Philosophy (Megan's 27-page ChatGPT doc), K6 what if we started visualizing the hard parts, too, Keep-as-is hooks K1-K10, Recommended first 5 for MOFU: R3, R5, K6, R4, R13, R13 5 questions for when it has not worked yet, R3 STUCK BETWEEN MY VISION AND MY TO-DO LIST (+4 more)
 
 ### Community 13 - "ISSUE11 Content Guidelines (Oct 13)"
 Cohesion: 0.18
 Nodes (5): ISSUE11 Content Guidelines (Oct 13), ISSUE11: process-focused manifestation app that turns dreams into a personal magazine, Pre-publish check (8 questions), Voice: Witty · Sharp · Human + 4 ISSUE11 rules, Weekly rhythm: 4 reels + 3 carousels, funnel jobs
 
-### Community 14 - "The Dream Life Gap Test v2 build sheet"
+### Community 14 - "Competitor ad watch Nov 23 2026"
+Cohesion: 0.18
+Nodes (9): Competitor ad watch Nov 23 2026, I am app competitor (30+ ad weekly burst), Magazine Of You (personalized gift magazines), Meta Ad Library API (ads_library_search), Mindvalley 60% off Black Friday ads, Myfrqncy (UK manifestation app ads), Print-on-demand magazine cover gift shops, Richfest Daily Rituals (actually works claim, ads stopped) (+1 more)
+
+### Community 15 - "The Dream Life Gap Test v2 build sheet"
 Cohesion: 0.23
 Nodes (11): The Blurry Dreamer, The Dream Life Gap Test v2 build sheet, First-week reset email (Kit), Scoring: Gap % (Q2+Q3) + profile rules, The Pinterest Collector, The Progress Doubter, Hooks to test, The Serial Reinventor (+3 more)
 
-### Community 15 - "ISSUE11 Viral Formats Library"
+### Community 16 - "ISSUE11 Viral Formats Library"
 Cohesion: 0.19
 Nodes (11): Content Room handoff (Oct 14), Next actions (screen-record short, chaotic stories, FormatFinder test), Carousels C1-C3 (vision boards forgotten, Bad/Okay/Great, Gap teaser), 5 format types; Megan picks Skits, Wait for It, Storytelling, FormatFinder (paid format tool, 7-day guarantee), Harmless "rage bait" details (open), Logic-flip scripts v1-v3 (Megan picks #5 "Dreams are for kids"), Parody: marketing bros / get-rich-quick gurus (+3 more)
 
-### Community 16 - "Pinterest analytics record"
+### Community 17 - "Pinterest analytics record"
 Cohesion: 0.21
 Nodes (11): CT62 $10,000 a month with ease pin + money remakes, 20+ landing-page pins posted Nov 22, Metricool running record (brand 7995906), Project: Personal Rebrand pin (10x impressions winner), Phone notes pin format (6 of top 12), Pinterest analytics record, Pinterest Analytics dropped to 0 after claiming site, Snapshot Nov 20: 669 impressions (+3 more)
-
-### Community 17 - "Competitor ad watch Nov 23 2026"
-Cohesion: 0.20
-Nodes (9): Competitor ad watch Nov 23 2026, I am app competitor (30+ ad weekly burst), Magazine Of You (personalized gift magazines), Meta Ad Library API (ads_library_search), Mindvalley 60% off Black Friday ads, Myfrqncy (UK manifestation app ads), Print-on-demand magazine cover gift shops, Richfest Daily Rituals (actually works claim, ads stopped) (+1 more)
 
 ### Community 18 - "ISSUE11 Canva master templates plan (Oct"
 Cohesion: 0.20
@@ -183,24 +183,24 @@ Cohesion: 0.40
 Nodes (5): Launch date mismatch fix (Dec 11), Brand kit check vs Brand Guide v1 (colors, Archivo, IBM Plex Mono), Tagline: "See it. Write it. Become it." vs "Dream it. Live it. Become it.", Proposed 5th pillar: THE MINI FILM, Open decisions (tagline, launch date, quiz names, money rule, mini film...)
 
 ## Knowledge Gaps
-- **136 isolated node(s):** `$499/mo AEO Essentials placeholder price (unconfirmed)`, `Ad concept 1: The short list`, `Ad concept 4: The ring question (jewelers)`, `Ad concept 5: Can AI read your website?`, `Glammi stop rules ($150 Meta / $500 Google)` (+131 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 176 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **138 isolated node(s):** `$499/mo AEO Essentials placeholder price (unconfirmed)`, `Ad concept 1: The short list`, `Ad concept 4: The ring question (jewelers)`, `Ad concept 5: Can AI read your website?`, `Glammi stop rules ($150 Meta / $500 Google)` (+133 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 179 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `ISSUE11 Content Guidelines (Oct 13)` connect `ISSUE11 Content Guidelines (Oct 13)` to `ISSUE11 Viral Formats Library`, `ISSUE11 Canva master templates plan (Oct`, `ISSUE11 Content Pillars x Formats v2/v3 `, `ISSUE11 Funnel Map (Oct 13)`, `Open decisions (tagline, launch date, qu`?**
-  _High betweenness centrality (0.242) - this node is a cross-community bridge._
+  _High betweenness centrality (0.244) - this node is a cross-community bridge._
 - **What connects `$499/mo AEO Essentials placeholder price (unconfirmed)`, `Ad concept 1: The short list`, `Ad concept 4: The ring question (jewelers)` to the rest of the system?**
-  _136 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _138 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `ISSUE11 Paid Ads Launch Plan (Nov 6)` be split into smaller, more focused modules?**
   _Cohesion score 0.06196078431372549 - nodes in this community are weakly interconnected._
 - **Why does `Voice: Witty · Sharp · Human + 4 ISSUE11 rules` connect `ISSUE11 Content Guidelines (Oct 13)` to `Hooks reframed in the audience's words (`?**
-  _High betweenness centrality (0.185) - this node is a cross-community bridge._
-- **Should `AI Manifest Angle (content angle draft)` be split into smaller, more focused modules?**
-  _Cohesion score 0.05176470588235294 - nodes in this community are weakly interconnected._
-- **Why does `Voice Guide` connect `Hooks reframed in the audience's words (` to `ISSUE11 Content Guidelines (Oct 13)`?**
-  _High betweenness centrality (0.184) - this node is a cross-community bridge._
+  _High betweenness centrality (0.188) - this node is a cross-community bridge._
 - **Should `Waitlist page review (Nov 17)` be split into smaller, more focused modules?**
   _Cohesion score 0.0611764705882353 - nodes in this community are weakly interconnected._
+- **Why does `Voice Guide` connect `Hooks reframed in the audience's words (` to `ISSUE11 Content Guidelines (Oct 13)`?**
+  _High betweenness centrality (0.187) - this node is a cross-community bridge._
+- **Should `AI Manifest Angle (content angle draft)` be split into smaller, more focused modules?**
+  _Cohesion score 0.05442176870748299 - nodes in this community are weakly interconnected._

@@ -45,7 +45,7 @@ S.push(shell(4, `<div class="lab" style="top:230px">not real data. just real lif
 <div class="mid" style="top:1180px;font-size:44px;font-weight:600">still going up though.</div>`));
 // 5 · the decision + next step
 S.push(shell(5, `<div class="big" style="top:250px;font-size:112px">one slow month doesn't mean it's over.</div>
-<div style="position:absolute;left:60px;right:60px;top:700px;font-weight:700;font-size:56px;line-height:1.35">keep going.<br>change the plan.<br>take a break.<br>or let it go.<br><span style="color:${PINK}">your call.</span></div>
+<div style="position:absolute;left:60px;right:60px;top:700px;font-weight:700;font-size:56px;line-height:1.35">keep going.<br>change the plan.<br>take a break.<br>try a smaller step.<br><span style="color:${PINK}">your call.</span></div>
 <div style="position:absolute;left:60px;right:60px;top:1150px;font-weight:600;font-size:38px">save this for month two.</div>`));
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({viewport: {width: 1000, height: 1500}});

@@ -68,7 +68,7 @@ Columns: **Applyra** traffic/difficulty (0–100, date) · **ASOM** = ASOMobile 
 | journal prompts | 45/47 (Nov 18) | 288 | solo. 6 · Ink 17 · Prompted 6,906 | M/G | ✅ | Med | N+K |
 | law of attraction | 48/58 (Nov 18) | 276 | LoA Toolbox 3,012 · LoA Affirmations 2,194 · LoA Space 13 | M | ✅ | High | MX |
 | manifestation journal | 43/40 (Nov 18) | 246 | Nov 26: Myla 750 · Manifestation Journal 34 · Soul 3,817 (Nov 20: Gratitude 44,996 was #2) | M | ✅ | **High** | N (exact) |
-| daily journal prompts | 25/53 (Nov 18) | 213 | Ink 17 · Quill 2 · Day One 119K | G | ✅ | Med | K+N |
+| daily journal prompts | 25/53 (Nov 18) | 213 | Ink 17 · Quill 2 · Day One 119K (Nov 20 scan, time-to-top3) | G | ✅ | Med | K+N |
 | manifesting | 25/30 (Nov 18) | 162 | Stella 5,686 · Myla 749 · Soul 3,804 | M | ✅ | High | K+MX |
 | dream board | 25/35 (Nov 18) | 155 | VB & Goal Tracker 3,760 · Dreamboard 322 · VB 4 | M | ✅ | Med–High | K+S |
 | **zine maker** | **48/13** (Nov 22; same on Nov 26) | not measured | Artino 3 · EZZINE 12 · AnyPiece 0 | MAG | ✅ | Low–Med | K (`zine`+`maker`) |
@@ -219,3 +219,7 @@ Each needs real-app screenshots (Apple). Whether CPPs can go live without a new 
 
 ## 13. What I did NOT do
 No App Store Connect access, no submission, no Applyra app or keyword tracking added (the app isn't live), no ASOMobile tokens, no Apify, no edits to the approved v15 file's fields, and no edits to skills.
+
+
+---
+**OPS independent evaluation:** round 1 (Nov 26) FAIL: 1 blocker, 7 fixes, 4 nits (data rows, source dates, 660/month reconciliation, unlabeled benchmarks), all corrected. **Round 2 (Nov 26): PASS, all 12 items verified**, plus counts (30/28/90 US · 26/29/96 es-MX) and MRR math re-run independently.

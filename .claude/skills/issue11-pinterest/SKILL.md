@@ -46,6 +46,14 @@ But you have to participate to create it." Every pin and carousel belongs to one
 4 a setback isn't a verdict · 5 become YOU · 6 progress counts before it arrives · 7 your dream life is yours, not the feed's.
 Loop words in content: DESIRE → IMAGINE → ACT → EVOLVE.
 
+### The 4 content pillars (what we talk about; Megan: "Ok smart", Nov 26)
+The 7 beliefs are what we SAY; these pillars are what we TALK ABOUT. Every pin = 1 pillar + 1 belief + her words.
+1. **The new way of manifestation**: manifestation, law of assumption, scripting, "it didn't manifest" (beliefs 1, 2, 4, 6)
+2. **Personal rebrand + glow up**: personal rebrand, glow up, that girl, winter arc (belief 5). Best-ever pin topic.
+3. **Vision board + your future, in print**: vision board 2027, word of the year, the free kit, the magazine (beliefs 3, 7). Closest to the app.
+4. **Money + soft life**: money affirmations, savings, raise your rates (beliefs 2, 6). The "$10,000 a month" pin does well.
+Rotation: about equal, push the pillar in season (vision board now → glow up in January → self love before Valentine's).
+
 ### Her words (lexicon)
 Megan, Nov 26: "Also it needs to match the lexicon of our audience". Full source, their words as written:
 `design/editorial/LEXICON.md` (+ `design/research/ICP-VERBIAGE-LINKS.md`). Check a line against it before it goes on a pin.

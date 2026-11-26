@@ -27,6 +27,7 @@ Full sourced guidance: `references/pinterest-playbook.md` (Part 1 organic, Part 
 - ISSUE11 logo fully visible, **never bottom-right**. Our spot: logo above `issue11.app`, bottom-left.
 - Never "becoming her" (Megan: "becoming her should not be a thing"). Never copy Megan's personal details.
 - Audience: Gen Z **and** millennial women. Captions and on-pin text are lowercase (Megan: "No capital letters").
+- Copy: **concise, no fluff, no AI jargon** (Megan: "keep it concise no extra fluff words etc and ai jargon"). Cut every word that isn't doing work; never "elevate", "unlock", "journey", "game-changer", "dive in".
 - Carousels: **5 slides max** (Megan: "Also carousels no more than 5 panels").
 - Never place text over a face. Never cut off a face. Run Visual QA (phone 390px + 236px feed) before showing anything.
 

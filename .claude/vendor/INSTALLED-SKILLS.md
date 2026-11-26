@@ -266,3 +266,5 @@ Megan: "ASOMobile has a MCP since today and i just connected it !" (connected by
 - Sends online: our research queries (e.g. "onboarding of top journaling apps"). Never send user data, journal text, keys or repo files to it.
 - Privacy (Increasebrand OÜ, Estonia): no data selling; no MCP-specific retention or training statement.
 - Verdict so far: OK to connect for read-only research IF the connect screen asks only for ScreensDesign account access and lists read/search tools. Re-check the tool list right after connecting; stop if any tool writes outside ScreensDesign. Megan approves before connecting.
+
+- 2026-11-26 · issue11-pinterest (in-house, written by the Pinterest worker at Megan's request: "Just save everything as a skill"). Markdown only: no scripts, no network calls, no keys. Scan: PASS.

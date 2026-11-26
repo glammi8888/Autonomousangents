@@ -799,3 +799,4 @@ Format: `- YYYY-MM-DD · <agent> · <what> · why · cost`
 - 2026-11-26 · DECISION (Megan: "I think it is a good idea to adapt the viral formats creative to ours"): standing workflow = daily viral watch (VIRAL-WATCH.md) → adapt the winning FORMAT to our own content, photos and hooks, in an approved non-notes style (CAR5 editorial, orbit, kit pages) → draft for Megan's go. Never copy other creators' wording or images.
 - 2026-11-26 · RULE (Megan, word for word: "Also carousels no more than 5 panels"): every carousel has at most 5 slides.
 - 2026-11-26 · RULE (Megan, word for word: "And then also keep it concise no extra fluff words etc and ai jargon"): pin and carousel copy = fewest words possible, no filler, no AI jargon (no "elevate", "unlock", "journey", "game-changer", "dive in", "it's not X, it's Y").
+- 2026-11-26 · RULE UPDATE (Megan: "6 is ok but not too lengthy"): carousels up to 6 slides max, short text on each.

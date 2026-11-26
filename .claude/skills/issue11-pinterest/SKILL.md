@@ -39,6 +39,13 @@ Source, word for word: `design/POSITIONING.md` → "The New Way of Manifestation
   viral manifestation content, even if it generates more views." → Viral formats are welcome; viral *messages*
   that contradict our POV (trust the universe, just believe, become her) are not.
 
+### The 7 pillars (approved Nov 26; full doc: design/editorial/POINT-OF-VIEW.md)
+Enemy: passive manifestation (wishing, waiting, consuming content). Stance: "You don't have to see it to believe it.
+But you have to participate to create it." Every pin and carousel belongs to one pillar; rotate them, start with 1 and 4.
+1 manifestation is participation · 2 you control the process, not the outcome · 3 a vision board needs a next step ·
+4 a setback isn't a verdict · 5 become YOU · 6 progress counts before it arrives · 7 your dream life is yours, not the feed's.
+Loop words in content: DESIRE → IMAGINE → ACT → EVOLVE.
+
 ### Her words (lexicon)
 Megan, Nov 26: "Also it needs to match the lexicon of our audience". Full source, their words as written:
 `design/editorial/LEXICON.md` (+ `design/research/ICP-VERBIAGE-LINKS.md`). Check a line against it before it goes on a pin.

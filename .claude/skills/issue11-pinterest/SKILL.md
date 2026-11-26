@@ -106,3 +106,14 @@ goals is "clarity over cleverness", so if the hook is spicy, the next line says 
 ## 8. Still unknown (needs the real Academy courses, behind Megan's login)
 The "4Cs of creative effectiveness", Pinterest's video specs and first-seconds guidance, official
 keyword/SEO guidance, and 14 of the 21 Predicts 2026 trends. See the playbook's Gaps section.
+
+## 9. Viral watch (carousels)
+Megan, Nov 26: "keep looking on what is going viral in our niche content wise via apify", "Especially for carousels".
+- The Pinterest scraper has no carousel flag and mostly 0 likes, so carousels are tracked on **TikTok photo
+  slideshows** (`clockworks~tiktok-scraper`: isSlideshow, playCount, collectCount) and **Instagram carousels**
+  (`apify~instagram-hashtag-scraper`: type Sidecar, likesCount, commentsCount).
+- Once a day, under ~$1 per run; check `GET https://api.apify.com/v2/users/me/limits` first (cap $19/month).
+- Write to `drafts/pinterest/viral/VIRAL-WATCH.md` (newest on top) + raw `<date>-viral-carousels.json`.
+- Borrow **formats and hooks**, never content, photos or wording. Winning formats so far (Nov 26): the free
+  system/roadmap carousel, vision-board-came-true proof, numbered series (13/15), "all you'll ever need" list +
+  "save this", aesthetic-only slides, "lock in and actually stick to it".

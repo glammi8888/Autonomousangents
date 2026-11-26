@@ -71,6 +71,7 @@ Megan, Nov 26: "Also it needs to match the lexicon of our audience". Full source
 - Never "becoming her" (Megan: "becoming her should not be a thing"). Never copy Megan's personal details.
 - Audience: Gen Z **and** millennial women. Captions and on-pin text are lowercase (Megan: "No capital letters").
 - Copy: **concise, no fluff, no AI jargon** (Megan: "keep it concise no extra fluff words etc and ai jargon"). Cut every word that isn't doing work; never "elevate", "unlock", "journey", "game-changer", "dive in".
+- **HUMANIZE EVERYTHING** (Megan, in caps): every line sounds like a real girl talking to a friend, not a brand, coach or AI. Contractions, casual words, her lexicon; no lofty or clinical words ("verdict", "conceptual model", "embark", "elevate"). Test: read it out loud.
 - Keep it simple: **one idea per slide, readable in a glance** (Megan: "People have short attention spans so we have to make things simple").
 - Carousels: **aim for 5 slides; 6 only if it truly needs it**, short text on each (Megan: "Preferably 5 but if it needs 6 then it's fine too it's not a hard rule just a hard preference").
 - Never place text over a face. Never cut off a face. Run Visual QA (phone 390px + 236px feed) before showing anything.

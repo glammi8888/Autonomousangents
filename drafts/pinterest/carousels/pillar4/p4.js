@@ -31,21 +31,21 @@ S.push(shell(2, `<div class="mid" style="top:520px;font-size:76px">they told you
 // 3 · the turn (registry line) + framed photo
 S.push(shell(3, `<div style="position:absolute;inset:0;background:#EFEAFB"></div>
 <img src="${PHOTO}" style="position:absolute;left:250px;top:190px;width:500px;height:620px;object-fit:cover;object-position:50% 20%">
-<div class="mid" style="top:880px;font-size:66px;font-style:italic">your mind is powerful.<br>it is not the entire universe.</div>`));
+<div class="mid" style="top:880px;font-size:66px;font-style:italic">your mind is powerful.<br>it's just not the whole universe.</div>`));
 // 4 · conceptual model: the month you pictured vs the month you had
-S.push(shell(4, `<div class="lab" style="top:230px">conceptual model</div>
+S.push(shell(4, `<div class="lab" style="top:230px">not real data. just real life.</div>
 <svg style="position:absolute;left:100px;top:330px" width="800" height="620" viewBox="0 0 800 620">
 <line x1="40" y1="580" x2="780" y2="580" stroke="#0D0D0D" stroke-width="3"/>
 <line x1="40" y1="580" x2="40" y2="20" stroke="#0D0D0D" stroke-width="3"/>
 <path d="M40 560 L760 60" stroke="#BDBDBD" stroke-width="10" fill="none" stroke-dasharray="22 16" stroke-linecap="round"/>
 <path d="M40 560 C150 430 210 420 280 420 S390 440 440 470 S540 330 600 260 S700 170 760 150" stroke="${PINK}" stroke-width="12" fill="none" stroke-linecap="round"/>
 </svg>
-<div style="position:absolute;left:110px;top:1010px;font-weight:700;font-size:38px;color:#9A9A9A">- - the month you pictured</div>
-<div style="position:absolute;left:110px;top:1070px;font-weight:700;font-size:38px;color:${PINK}">— the month you had</div>
-<div class="mid" style="top:1180px;font-size:44px;font-weight:600">both still go up.</div>`));
+<div style="position:absolute;left:110px;top:1010px;font-weight:700;font-size:38px;color:#9A9A9A">- - what you pictured</div>
+<div style="position:absolute;left:110px;top:1070px;font-weight:700;font-size:38px;color:${PINK}">— what actually happened</div>
+<div class="mid" style="top:1180px;font-size:44px;font-weight:600">still going up though.</div>`));
 // 5 · the decision + next step
-S.push(shell(5, `<div class="big" style="top:250px;font-size:118px">a setback is not a verdict.</div>
-<div style="position:absolute;left:60px;right:60px;top:640px;font-weight:700;font-size:56px;line-height:1.35">keep going.<br>adjust.<br>pause.<br>stop.<br><span style="color:${PINK}">your call.</span></div>
+S.push(shell(5, `<div class="big" style="top:250px;font-size:112px">one slow month doesn't mean it's over.</div>
+<div style="position:absolute;left:60px;right:60px;top:700px;font-weight:700;font-size:56px;line-height:1.35">keep going.<br>change the plan.<br>take a break.<br>or let it go.<br><span style="color:${PINK}">your call.</span></div>
 <div style="position:absolute;left:60px;right:60px;top:1150px;font-weight:600;font-size:38px">save this for month two.</div>`));
 (async () => {
   const b = await chromium.launch(); const p = await b.newPage({viewport: {width: 1000, height: 1500}});

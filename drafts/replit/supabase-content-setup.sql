@@ -62,7 +62,7 @@ create policy "public read active" on public.editor_suggestions for select to an
 create policy "public read active" on public.sessions           for select to anon, authenticated using (active);
 create policy "public read active" on public.explore_images     for select to anon, authenticated using (active);
 
-revoke insert, update, delete on public.journal_questions, public.first_actions, public.editor_suggestions, public.sessions, public.explore_images from anon, authenticated;
+revoke all on public.journal_questions, public.first_actions, public.editor_suggestions, public.sessions, public.explore_images from anon, authenticated;
 grant select on public.journal_questions, public.first_actions, public.editor_suggestions, public.sessions, public.explore_images to anon, authenticated;
 
 -- 3. Storage folder for audio + images (public to read, only you can upload from the dashboard)

@@ -330,3 +330,4 @@ Megan, Nov 13: "I also would like you to give me a projection daily" · "Time pr
 - 2026-11-26 · (Glammi worker, 13:09Z block) Light block: Search Console still not connected in Mangools (Megan's step). No site change.
 - 2026-11-26 · (Glammi worker, 19:09Z block) Light block: GSC still not connected; no site change.
 - 2026-11-27 · (Glammi worker, 01:09Z block) Light block: GSC still not connected; no site change. Photographers industry page allowed from Nov 29.
+- 2026-11-27 · (Glammi worker, 07:09Z block) Prepped /aeo-for-photographers copy (own niche section: client asks, what AI looks for, common gaps, 3 FAQs, 3 related reads, all 200) in drafts/glammi/industry-page-sections-2026-11-14.json. Build + publish no earlier than Nov 29 (1 page/week; dentist relaunch was Nov 22 07Z, so from Nov 29 07Z). GSC still not connected. No site change.

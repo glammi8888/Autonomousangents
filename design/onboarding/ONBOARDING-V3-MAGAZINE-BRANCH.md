@@ -45,3 +45,10 @@ Reuses V3 screens where it can (same design), so only 4 new screens are needed.
 1. OK this branch as written? (recommended: yes)
 2. Sign in **before** the paywall (Nov 20) or **after** purchase (V3 #38)? Recommended: before, "Save your cover", it's what Calm/Rosebud do for apps that store private pages.
 3. Keep "A gift for someone" in M5 (ties to the Gift issue idea later)? Recommended: yes.
+
+## Pre-paywall loader + honesty check (Megan's reference, Nov 27: Viral App Launch carousel "what happens right before the paywall")
+Applies to V3 #36 and branch M14. The idea is already in V3 ("WE'VE STARTED YOUR FIRST ISSUE", timeline fills live → sneak peek → paywall); these make it sharper and keep it honest:
+1. **2–3 second loader** with REAL steps, each true for what the app actually does: "Putting your name on the cover…" → "Setting your cover story…" → "Choosing tonight's session for you…" (magazine branch: "Laying out page 1…").
+2. **Anticipation:** the reveal shows her actual cover (name, photo, cover story), so she's waiting to see what she unlocked.
+3. **Paywall = the next step**, not an interruption: "Your Issue is step one. Keep going." with her cover on top (V3 #37 already does this).
+4. **Don't fake personalization:** only claim what's built. The cover and page 1 ARE built from her answers. Sessions are curated, not generated, so say "chosen for you", never "made for you". V3 #36 "◐ your first session" → "tonight's session, chosen for your topic".

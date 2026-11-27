@@ -88,6 +88,15 @@ Hand-off by files, not by calling each other: new article URLs come from the AEO
 - 🖋 **The Editor (not run this round):** Wallpaper pack v1 done. Vision Board Kit + Journal Prompts wait on your layout pick.
 
 ## 5c. Cycle stand-up (latest first)
+**Cycle 31 · Nov 27, 22:25 UTC (daily)**
+- ✅ **Apple featuring nomination: SUBMITTED by Megan** (Megan: "Yes done the featuring nomination I said it 3 times Already"). I asked again on Nov 24–25 because I didn't check her chat confirmations. Removed from Waiting for good. Lesson logged.
+- 💰 **Pricing A** (Megan, Nov 27): Yearly $39.99 with a 1-week free trial, **founding members keep $39.99** ("founding members keep $39.99"). Monthly $9.99, no trial. From Jan 11, new subscribers pay $69.99/yr. Launch giveaway: one Offer Code (e.g. ISSUE100), 100 redemptions × 3 months free, announced Dec 11. **Updated in the drafts:** waitlist emails (last call now says "ends January 11"), week-1 social, Meta ad hooks ("then $69.99/yr" removed), Product Hunt copy. ⚠️ Live Meta ads still read "then $69.99/yr", so the Media Buyer should swap the text when the test is next touched.
+- 🩵 Product decisions (Megan): no sign-in in v1 ("it makes people bounce"); in-app content in Supabase (read-only); V3 onboarding stays + a magazine-maker branch.
+- 🔎 SEO/AEO: new-year-intentions live (48). The Search Console connect task went to Megan's to-do list via OPS (3 min).
+- 📌 Pinterest: viral watch (law of assumption explainer 2.1M saves-style reach; narrator-POV format).
+- 💡 Idea: the ISSUE100 giveaway is a ready-made launch-day hook for creators and Product Hunt ("first 100 get 3 months free"). It's real and limited by Apple's 100 redemptions, so it's honest scarcity. Use it in the creator DMs (Dec 1–3) and the Dec 11 posts. Traffic: helps launch-day downloads concentrate [A]. Cost: $0 (the codes are Apple's). Flag risk: none if the number stays 100. Megan must: create the code in launch week.
+- 0 subagents.
+
 **Cycle 30 · Nov 26, 22:25 UTC (daily, Thanksgiving)**
 - 💸 Media Buyer: ✅ **Meta waitlist ads start now at ~$10/day** (Megan: "I think we need to start launching ads with meta even if it's $10 per day just to get data"), pointed at the guest list. Removed from Waiting on Megan.
 - 🚀 Growth: **launch-spike plan for Dec 4 → 18** (`drafts/launch-prep/2026-11-26-launch-spike/LAUNCH-DAY-ORDER.md`): Product Hunt (Dec 11, 12:01 AM PT), honest creator outreach with free-year offer codes, Apple Search Ads $10/day capped at $150 (if OK'd), waitlist emails, roundup pitches. This replaces 660-PLAN §3b as the day-by-day source.

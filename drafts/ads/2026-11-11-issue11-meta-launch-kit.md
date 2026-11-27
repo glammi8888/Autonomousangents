@@ -96,7 +96,7 @@ Small text on the last frame of both Reels: **"Early design preview."** The Scri
 **Primary text** (about 125 characters before "more")
 1. Wishing and waiting don't change a life. What you do each week does. Make your own magazine, then live it one move at a time. *(round 1)*
 2. Affirmations, vision boards, scripting. Then December looks like January. ISSUE11 swaps wishing for one small move a week.
-3. Done with wishful thinking? Make your own magazine, live it weekly. Approved guests: $39.99 for year one, then $69.99/yr.
+3. Done with wishful thinking? Make your own magazine, live it weekly. Founding members: $39.99/yr, kept. Until Jan 11.
 
 **Headline (about 40 characters):** Less wishing. One small move a week.
 **CTA:** Sign Up
@@ -119,7 +119,7 @@ Small text on the last frame of both Reels: **"Early design preview."** The Scri
 **Primary text**
 1. Your vision board is a museum of a life you're not living. Turn it into your own magazine, then live it one small move a week. *(round 1)*
 2. Your camera roll is half screenshots of a life you want. Put them in a magazine you make, with your name on the cover.
-3. Most vision boards get forgotten. Make yours a magazine you live, page by page. Approved guests: $39.99 year one, then $69.99/yr.
+3. Most vision boards get forgotten. Make yours a magazine you live, page by page. Founding members: $39.99/yr, kept. Until Jan 11.
 
 **Headline:** Make your own manifestation magazine
 **CTA:** Sign Up

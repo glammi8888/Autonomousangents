@@ -45,7 +45,7 @@ Facts used, all from the repo: the coffee-table magazine she made about her futu
 > • Short musical meditations for when you want to picture it again.
 > • When you want to hold it, order a printed Issue.
 >
-> Pricing: 7 days free, then $39.99 for your first year (founding rate until Jan 11, 2027). iPhone only.
+> Pricing: 7 days free, then $39.99 a year, and founding members keep that price (until Jan 11, 2027). iPhone only.
 >
 > I'd really love your honest take on two things: does the magazine reveal make you want to come back next week, and is one action a week the right size?
 

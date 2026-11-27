@@ -3,7 +3,8 @@
 
 **Megan's rules for this sequence (word for word):** "It is an exclusive access invite only. Because they're here early and curious enough they are accepted by exclusive invite only." · "Don't give the prompts. They should be grateful to have access in the first place lol" · "keep things concise and sweet" · founding member rate, first year only, never state the price.
 
-**Offer (updated Nov 7, Megan):** founding rate for approved guests = **$39.99 for the first year** (then $69.99/yr; monthly is $9.99). ~~$4.99/mo for the first year~~ is retired. No number cap (Megan, Nov 7): exclusivity = approved guests only. Must work in the app on Dec 11 (offer code or RevenueCat; subscriptions = Megan's explicit approval).
+**Offer (updated Nov 27, Megan, Pricing A):** founding rate **$39.99 a year, kept for good by everyone who subscribes before Jan 11, 2027** (1-week free trial on yearly); monthly $9.99, no trial; from Jan 11 new subscribers pay $69.99/yr. Megan: "founding members keep $39.99". The Nov 7 line below is outdated.
+**Old offer (Nov 7):** founding rate for approved guests = **$39.99 for the first year** (then $69.99/yr; monthly is $9.99). ~~$4.99/mo for the first year~~ is retired. No number cap (Megan, Nov 7): exclusivity = approved guests only. Must work in the app on Dec 11 (offer code or RevenueCat; subscriptions = Megan's explicit approval).
 **Footer (every email):** ISSUE11 · [business mailing address after iPostal1] · beehiiv unsubscribe · issue11.app/privacy.
 **Date update (Megan, Nov 20: "No I want it to be on App Store on dec 11"):** Dec 11 is the PUBLIC App Store launch, so email 2 goes out on launch day with the App Store link. Weekdays corrected (Dec 11 is a Friday). The "invite-only" wording waits on Megan's answer.
 **Open:** sender address; App Store link; email 3 "last call" must truly be the last invite email.
@@ -53,7 +54,7 @@ Megan
 
 You asked for this. You found ISSUE11 early, requested access and got accepted.
 
-Your invitation is still unopened, and the founding rate ($39.99 for your first year) is only for approved guests who accept.
+Your invitation is still unopened. The founding rate ($39.99 a year, and you keep it) ends January 11.
 
 Open it or let it go.
 

@@ -1,1 +1,5 @@
 /home/user/Autonomousangents/drafts/marketing/ROOM.md
+/home/user/Autonomousangents/drafts/pinterest/BOARDS.md
+/home/user/Autonomousangents/drafts/pinterest/HOURLY-LOG.md
+/home/user/Autonomousangents/drafts/pinterest/PINTEREST-PLAYBOOK.md
+/home/user/Autonomousangents/drafts/pinterest/QUEUE.md

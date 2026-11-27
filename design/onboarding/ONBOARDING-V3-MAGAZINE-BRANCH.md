@@ -41,6 +41,8 @@ Reuses V3 screens where it can (same design), so only 4 new screens are needed.
 - `path` (dream-life / magazine) saved on the account → after launch we compare trial starts, paid and week-2 return per path (decides who ads target).
 - A magazine-path user can switch on actions later from You → "Add goals" (not pushed).
 
+## Megan, Nov 27: 1 = yes (approved), 3 = keep. 2 = sign-in optional (pending her final yes)
+
 ## Questions for Megan (max 3)
 1. OK this branch as written? (recommended: yes)
 2. Sign in **before** the paywall (Nov 20) or **after** purchase (V3 #38)? Recommended: before, "Save your cover", it's what Calm/Rosebud do for apps that store private pages.

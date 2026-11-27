@@ -13,7 +13,7 @@ Download one with Google Drive `download_file_content <id>`, save it here as src
 | 1GVdE-hy_axaykuyQDflmJGradiFi9uAN | Ethereal experimental portrait 26aea9e3_2 | unused |
 | 1zvHqTR_eQht-BfB_4xoV0UtM0x4spyby | Ethereal experimental portrait 26aea9e3_0 | unused |
 | 1zUV1USKw9HKWvC36--fcsj2hyz5vB55f | Ethereal experimental portrait 73ef8af1_0 | unused |
-| 1m4dKT7UR2kHBskeTHC5SQGL_hNOfwB_w | Fashion campaign, multiple exposures 2881c378_1 | unused |
+| 1m4dKT7UR2kHBskeTHC5SQGL_hNOfwB_w | Fashion campaign, multiple exposures 2881c378_1 | USED end-of-year-reflection (src-multiple-exposures-walk-megan.png) |
 | 1elljfM1PKWxn-7AF_ZgSWQZRjgKjz6CF | Fashion campaign, multiple exposures 11858d50_1 | reserved: issue11.app landing (Nov 20) |
 | 1-OvoeJM4Ww4KE8ojLP5AHck6pk68cuub | Fashion campaign, multiple exposures 3cdab0db_0 | unused |
 | 1BpiQdJWa1utzXk2_ab9twCplJAFKXHwT | Fashion campaign, multiple exposures 10a60116_1 | unused |

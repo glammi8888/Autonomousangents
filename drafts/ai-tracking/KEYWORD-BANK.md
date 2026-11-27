@@ -53,10 +53,11 @@
 | P4 | 🎓 graduation magazine · graduation magazine cover | 100 + 90 | n/a | SEASONAL spring: write in April for May/June graduations |
 | P2 | pinterest mood board | 4,000 | 31 | candidate (how to make one + turn it into a magazine) |
 | P3 | magazine collage | 1,600 | 29 | DONE Nov 21 magazine-collage (DRAFT dated Nov 17, publishes next; cover Drive scissors collage). Was: NEXT, EASY (SERP Nov 21: weak sites, #3 is a DA 12 blog with 1 referring domain, how-to intent; AI Overview + PAA). Angle: how to make a magazine collage (vision board style), link magazines-for-vision-board. Megan asked Nov 21 |
-| S1 | 🎄 new year intentions · intentions for the new year | 480 + 480 | 19 to 26 | DONE Nov 26 new-year-intentions (DRAFT dated Nov 19, cover red-door photo, publishes Nov 27). Was: NEXT (before Dec 20; angle: intentions vs resolutions, 30 intention examples, one small move each; link new-year-resolution-ideas, word-of-the-year-ideas, winter-arc) |
-| S2 | 🎄 end of year reflection | 530 | 20 | NEXT (check overlap with live december-january-journal-prompts first; make it a guided reflection, not more prompts) |
+| S1 | 🎄 new year intentions · intentions for the new year | 480 + 480 | 19 to 26 | DONE Nov 26 new-year-intentions (DRAFT dated Nov 19, cover red-door photo, LIVE Nov 27). Was: NEXT (before Dec 20; angle: intentions vs resolutions, 30 intention examples, one small move each; link new-year-resolution-ideas, word-of-the-year-ideas, winter-arc) |
+| S2 | 🎄 end of year reflection | 530 | 20 | DONE Nov 27 end-of-year-reflection (DRAFT dated Nov 19, publishes Nov 28; Year in Review issue angle, questions differ from new-year-journal-prompts). Was: NEXT |
 | S3 | how to start over in life | 600 | 23 | later (Jan; check overlap with personal-rebrand) |
-| W4 | sunday reset · sunday reset routine | 2,000 | 28 | NEXT (weekly reset checklist; link self-care-ideas, winter-arc, romanticize-your-life) |
+| W6 | 🎄 life reset · life reset app · new year reset | 660 (KD 28) + 280 + 150 (Mangools US Nov 27) | 28 | NEXT, before W4 (Jan peak; app-intent 'life reset app' fits ISSUE11 directly: how to reset your life in a weekend + what a life reset app should do, ISSUE11 named as ours; link personal-rebrand, new-year-intentions, romanticize-your-life; avoid repeating personal-rebrand's 5 steps) |
+| W4 | sunday reset · sunday reset routine · sunday reset checklist (590, Nov 27) | 2,000 | 28 | NEXT (weekly reset checklist; link self-care-ideas, winter-arc, romanticize-your-life) |
 | skip | words of affirmation (48,300) | love-language intent, off brand | 20 | skip |
 | skip | affirmations for anxiety (1,700) | mental-health risk | 26 | skip for now |
 | skip | glow up makeup terms | product intent, off brand | n/a | skip (how-to-glow-up is live) |

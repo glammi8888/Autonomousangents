@@ -1,56 +1,275 @@
 {
-"/aeo-for-med-spas": {
- "label": "< For med spas >",
- "who": "patients",
- "asks": ["Which med spa near me is best for Botox or lip filler?", "Is [your med spa] legit and are the injectors licensed?", "How much does a HydraFacial cost in Los Angeles?"],
- "looks": "AI tools lean on signals they can check: who is injecting (names, licenses and medical oversight), clear treatment pages with prices or price ranges, recent Google reviews that mention specific treatments and a Google Business Profile with the right categories. Before and after photos help when they are labeled with the treatment and kept consistent. If those facts are missing or contradict each other across your site, Yelp and booking platforms, AI tends to recommend the clinic that is easier to verify.",
- "mistakes": "The most common gaps we see: one generic services page instead of a page per treatment, injector credentials hidden in an About page, prices only inside a booking app AI cannot read, and reviews that never mention the treatment by name. We fix the pages and listings first, because that is what AI reads.",
- "faq": [["How long does AEO take for a med spa?", "Most clinics see their first changes in AI answers within one to three months, once treatment pages, schema and listings are fixed. We re-check the same patient questions every month so you can see what moved."], ["Do I need to list prices for AI to recommend my med spa?", "Not exact prices, but ranges help. Patients ask AI what treatments cost, and AI prefers clinics that answer that question clearly on their own site."], ["Does AEO replace Google SEO for my clinic?", "No. AEO builds on the same foundations as SEO: a fast site, clear pages and a strong Google Business Profile. The difference is that we also check and shape what AI tools say about you."]],
- "reads": [["How to rank your med spa on Google and AI search", "/blog/med-spa-seo"], ["Med spa AI visibility", "/blog/med-spa-ai-visibility"], ["How to get more med spa reviews", "/blog/med-spa-reviews"]]
-},
-"/aeo-for-jewelers": {
- "label": "< For jewelers >",
- "who": "shoppers",
- "asks": ["Where can I buy a lab grown engagement ring in Los Angeles?", "Which jeweler near me does custom engagement rings?", "Is [your store] a trustworthy place to buy diamonds?"],
- "looks": "For jewelry, AI looks for proof and specifics: metal and stone details on every product, certificates such as GIA or IGI named on the page, clear return and resizing policies, and photos that show the piece on a hand. Reviews that mention custom work, proposals or repairs carry weight, and so does a store listing with accurate hours and services. Vague product names like \"Classic Ring 3\" give AI nothing to match a shopper's question to.",
- "mistakes": "We often find product pages without materials or carat weight, custom design services that only appear on Instagram, and certificates mentioned nowhere on the site. We rewrite product and service pages so AI can match them to real questions.",
- "faq": [["Can AEO help an online-only jewelry brand?", "Yes. AI recommends online brands too, when product pages are specific, policies are clear and other sites mention the brand. Location matters less, proof matters more."], ["What should a jewelry product description include for AI search?", "Metal, stone, carat, cut, size options, the certificate if there is one, care instructions and who the piece is for. Write it like you are answering a shopper's question."], ["Do reviews on my own site count?", "They help shoppers, but AI weighs reviews on Google and other independent platforms more. Ask happy customers to mention what they bought."]],
- "reads": [["How jewelers get recommended by ChatGPT", "/blog/how-jewelers-get-recommended-by-chatgpt"], ["Jewelry product descriptions that sell", "/blog/jewelry-product-descriptions"], ["How to photograph jewelry", "/blog/how-to-photograph-jewelry"]]
-},
-"/aeo-for-hair-salons": {
- "label": "< For hair salons >",
- "who": "clients",
- "asks": ["Who is the best balayage colorist near me?", "Which salon in Los Angeles is good with curly hair?", "How much does a keratin treatment cost at a high-end salon?"],
- "looks": "Salon searches are about the stylist as much as the salon. AI looks for stylist names with their specialties, service pages for color, extensions or curly cuts, photos tied to those services and reviews that name the stylist and the service. A Google Business Profile with the right categories and booking link matters a lot for \"near me\" questions.",
- "mistakes": "Most salon sites list services in one price table and keep the stylists' work on Instagram only. AI cannot connect \"best balayage near me\" to a stylist it has never seen described. We give each specialty and stylist a clear, readable page.",
- "faq": [["Should each stylist have their own page?", "For specialists, yes. A short page per stylist with their specialties, photos and booking link gives AI something specific to recommend."], ["Do Instagram posts help with AI search?", "Some, but AI reads websites and listings more reliably than social posts. Use Instagram for inspiration and your site for the facts."], ["How do salon reviews affect AI answers?", "Reviews that mention the service and stylist by name help AI match your salon to specific questions, like who does the best blonde."]],
- "reads": [["Salon marketing for luxury hair salons", "/blog/salon-marketing"], ["AI search optimization explained", "/blog/ai-search-optimization"], ["What is AI visibility?", "/blog/what-is-ai-visibility"]]
-},
-"/aeo-for-dermatology-clinics": {
- "label": "< For dermatology clinics >",
- "who": "patients",
- "asks": ["Which dermatologist near me treats acne scars?", "Is [your clinic] board certified and does it take my insurance?", "Who does the best laser treatment for melasma in Los Angeles?"],
- "looks": "Health questions get extra caution from AI. It favors clinics where credentials are easy to confirm: board certification, the doctors' names and training, condition and treatment pages written in plain language, insurance information and consistent details across Google, Healthgrades and similar directories. Medical claims need to stay careful and accurate, because AI tools avoid repeating promises they cannot verify.",
- "mistakes": "We often see doctor bios without certifications, one long services page instead of condition pages, and directory listings with outdated addresses or doctors who have left. We clean up the facts first, then build pages for the conditions patients actually ask about.",
- "faq": [["Is AEO different for medical practices?", "The method is the same, but the bar is higher. Credentials, accurate medical information and consistent listings matter more, and we never write claims a doctor would not sign off on."], ["Should we list the conditions we treat?", "Yes. Patients ask AI about conditions like acne scars, rosacea or melasma, so a clear page per condition helps AI recommend you for the right question."], ["Do directory listings like Healthgrades matter for AI?", "They do. AI tools cross-check details across directories, so outdated or conflicting listings can cost you recommendations."]],
- "reads": [["Dermatology marketing for AI search", "/blog/dermatology-marketing"], ["Med spa AI visibility", "/blog/med-spa-ai-visibility"], ["What is AEO?", "/blog/what-is-aeo"]]
-},
-"/aeo-for-skincare-brands": {
- "label": "< For skincare brands >",
- "who": "shoppers",
- "asks": ["What is the best vitamin C serum for sensitive skin?", "Is [your brand] clean and cruelty free?", "Which moisturizer is good for acne-prone skin under $50?"],
- "looks": "Skincare questions are specific, so AI looks for specifics: full ingredient lists, the concentration of key actives, skin types each product suits, certifications like Leaping Bunny for cruelty free, and honest reviews that mention results and skin type. Mentions in editorials, roundups and Reddit threads often decide which brands AI names.",
- "mistakes": "Common gaps: ingredient lists only in product images, \"clean\" claims with no definition, no page answering which product fits which skin type and no presence in the roundups AI cites. We fix the product pages first, then help you earn mentions on the sites AI reads.",
- "faq": [["How does AI decide which skincare brands to recommend?", "It combines what your product pages say with what independent sources say about you: reviews, editorial roundups and community discussions. Clear product facts plus outside mentions work best."], ["Should we put ingredient lists as text, not images?", "Yes. AI and search engines read text far more reliably than text inside images, and shoppers search by ingredient."], ["Can a small indie brand compete in AI answers?", "Yes. AI often names smaller brands when their pages answer a specific need better, like a product for sensitive, acne-prone skin."]],
- "reads": [["Skincare marketing for AI search", "/blog/skincare-marketing"], ["Shopify SEO for beauty brands", "/blog/shopify-seo"], ["Brand positioning for AI search", "/blog/brand-positioning-for-ai-search"]]
-},
-"/aeo-for-perfume-brands": {
- "label": "< For perfume brands >",
- "who": "shoppers",
- "asks": ["What is a long-lasting vanilla perfume that isn't too sweet?", "Which niche perfume brands are worth trying?", "Is [your brand] good for a signature scent?"],
- "looks": "Fragrance is hard to describe, so AI relies on words: notes listed as top, heart and base, the scent family, longevity and projection, the season or mood it suits and comparisons people already use. Reviews and fragrance communities that describe how a scent wears carry weight. A product page that only says \"sensual and mysterious\" gives AI nothing to match.",
- "mistakes": "We often see poetic copy without notes, no guidance on which scent suits whom and sample or discovery sets that are hard to find. We rewrite product pages so they answer real questions, and help your scents show up where fragrance lovers talk.",
- "faq": [["How do people search for perfume with AI?", "They describe what they want, like a warm vanilla that isn't too sweet or a fresh scent for summer. Pages that describe notes, mood and longevity in plain words get matched to those questions."], ["Should we compare our perfumes to famous fragrances?", "Honest comparisons like \"if you love X, try this\" help shoppers and AI, as long as you don't use another brand's trademark to mislead."], ["Do discovery sets help with AI search?", "Indirectly. They lower the risk of buying a scent unsmelled, which leads to more reviews and mentions, and those are what AI reads."]],
- "reads": [["Brand positioning for AI search", "/blog/brand-positioning-for-ai-search"], ["Shopify SEO for beauty brands", "/blog/shopify-seo"], ["LLM SEO explained", "/blog/llm-seo"]]
-}
+ "/aeo-for-med-spas": {
+  "label": "< For med spas >",
+  "who": "patients",
+  "asks": [
+   "Which med spa near me is best for Botox or lip filler?",
+   "Is [your med spa] legit and are the injectors licensed?",
+   "How much does a HydraFacial cost in Los Angeles?"
+  ],
+  "looks": "AI tools lean on signals they can check: who is injecting (names, licenses and medical oversight), clear treatment pages with prices or price ranges, recent Google reviews that mention specific treatments and a Google Business Profile with the right categories. Before and after photos help when they are labeled with the treatment and kept consistent. If those facts are missing or contradict each other across your site, Yelp and booking platforms, AI tends to recommend the clinic that is easier to verify.",
+  "mistakes": "The most common gaps we see: one generic services page instead of a page per treatment, injector credentials hidden in an About page, prices only inside a booking app AI cannot read, and reviews that never mention the treatment by name. We fix the pages and listings first, because that is what AI reads.",
+  "faq": [
+   [
+    "How long does AEO take for a med spa?",
+    "Most clinics see their first changes in AI answers within one to three months, once treatment pages, schema and listings are fixed. We re-check the same patient questions every month so you can see what moved."
+   ],
+   [
+    "Do I need to list prices for AI to recommend my med spa?",
+    "Not exact prices, but ranges help. Patients ask AI what treatments cost, and AI prefers clinics that answer that question clearly on their own site."
+   ],
+   [
+    "Does AEO replace Google SEO for my clinic?",
+    "No. AEO builds on the same foundations as SEO: a fast site, clear pages and a strong Google Business Profile. The difference is that we also check and shape what AI tools say about you."
+   ]
+  ],
+  "reads": [
+   [
+    "How to rank your med spa on Google and AI search",
+    "/blog/med-spa-seo"
+   ],
+   [
+    "Med spa AI visibility",
+    "/blog/med-spa-ai-visibility"
+   ],
+   [
+    "How to get more med spa reviews",
+    "/blog/med-spa-reviews"
+   ]
+  ]
+ },
+ "/aeo-for-jewelers": {
+  "label": "< For jewelers >",
+  "who": "shoppers",
+  "asks": [
+   "Where can I buy a lab grown engagement ring in Los Angeles?",
+   "Which jeweler near me does custom engagement rings?",
+   "Is [your store] a trustworthy place to buy diamonds?"
+  ],
+  "looks": "For jewelry, AI looks for proof and specifics: metal and stone details on every product, certificates such as GIA or IGI named on the page, clear return and resizing policies, and photos that show the piece on a hand. Reviews that mention custom work, proposals or repairs carry weight, and so does a store listing with accurate hours and services. Vague product names like \"Classic Ring 3\" give AI nothing to match a shopper's question to.",
+  "mistakes": "We often find product pages without materials or carat weight, custom design services that only appear on Instagram, and certificates mentioned nowhere on the site. We rewrite product and service pages so AI can match them to real questions.",
+  "faq": [
+   [
+    "Can AEO help an online-only jewelry brand?",
+    "Yes. AI recommends online brands too, when product pages are specific, policies are clear and other sites mention the brand. Location matters less, proof matters more."
+   ],
+   [
+    "What should a jewelry product description include for AI search?",
+    "Metal, stone, carat, cut, size options, the certificate if there is one, care instructions and who the piece is for. Write it like you are answering a shopper's question."
+   ],
+   [
+    "Do reviews on my own site count?",
+    "They help shoppers, but AI weighs reviews on Google and other independent platforms more. Ask happy customers to mention what they bought."
+   ]
+  ],
+  "reads": [
+   [
+    "How jewelers get recommended by ChatGPT",
+    "/blog/how-jewelers-get-recommended-by-chatgpt"
+   ],
+   [
+    "Jewelry product descriptions that sell",
+    "/blog/jewelry-product-descriptions"
+   ],
+   [
+    "How to photograph jewelry",
+    "/blog/how-to-photograph-jewelry"
+   ]
+  ]
+ },
+ "/aeo-for-hair-salons": {
+  "label": "< For hair salons >",
+  "who": "clients",
+  "asks": [
+   "Who is the best balayage colorist near me?",
+   "Which salon in Los Angeles is good with curly hair?",
+   "How much does a keratin treatment cost at a high-end salon?"
+  ],
+  "looks": "Salon searches are about the stylist as much as the salon. AI looks for stylist names with their specialties, service pages for color, extensions or curly cuts, photos tied to those services and reviews that name the stylist and the service. A Google Business Profile with the right categories and booking link matters a lot for \"near me\" questions.",
+  "mistakes": "Most salon sites list services in one price table and keep the stylists' work on Instagram only. AI cannot connect \"best balayage near me\" to a stylist it has never seen described. We give each specialty and stylist a clear, readable page.",
+  "faq": [
+   [
+    "Should each stylist have their own page?",
+    "For specialists, yes. A short page per stylist with their specialties, photos and booking link gives AI something specific to recommend."
+   ],
+   [
+    "Do Instagram posts help with AI search?",
+    "Some, but AI reads websites and listings more reliably than social posts. Use Instagram for inspiration and your site for the facts."
+   ],
+   [
+    "How do salon reviews affect AI answers?",
+    "Reviews that mention the service and stylist by name help AI match your salon to specific questions, like who does the best blonde."
+   ]
+  ],
+  "reads": [
+   [
+    "Salon marketing for luxury hair salons",
+    "/blog/salon-marketing"
+   ],
+   [
+    "AI search optimization explained",
+    "/blog/ai-search-optimization"
+   ],
+   [
+    "What is AI visibility?",
+    "/blog/what-is-ai-visibility"
+   ]
+  ]
+ },
+ "/aeo-for-dermatology-clinics": {
+  "label": "< For dermatology clinics >",
+  "who": "patients",
+  "asks": [
+   "Which dermatologist near me treats acne scars?",
+   "Is [your clinic] board certified and does it take my insurance?",
+   "Who does the best laser treatment for melasma in Los Angeles?"
+  ],
+  "looks": "Health questions get extra caution from AI. It favors clinics where credentials are easy to confirm: board certification, the doctors' names and training, condition and treatment pages written in plain language, insurance information and consistent details across Google, Healthgrades and similar directories. Medical claims need to stay careful and accurate, because AI tools avoid repeating promises they cannot verify.",
+  "mistakes": "We often see doctor bios without certifications, one long services page instead of condition pages, and directory listings with outdated addresses or doctors who have left. We clean up the facts first, then build pages for the conditions patients actually ask about.",
+  "faq": [
+   [
+    "Is AEO different for medical practices?",
+    "The method is the same, but the bar is higher. Credentials, accurate medical information and consistent listings matter more, and we never write claims a doctor would not sign off on."
+   ],
+   [
+    "Should we list the conditions we treat?",
+    "Yes. Patients ask AI about conditions like acne scars, rosacea or melasma, so a clear page per condition helps AI recommend you for the right question."
+   ],
+   [
+    "Do directory listings like Healthgrades matter for AI?",
+    "They do. AI tools cross-check details across directories, so outdated or conflicting listings can cost you recommendations."
+   ]
+  ],
+  "reads": [
+   [
+    "Dermatology marketing for AI search",
+    "/blog/dermatology-marketing"
+   ],
+   [
+    "Med spa AI visibility",
+    "/blog/med-spa-ai-visibility"
+   ],
+   [
+    "What is AEO?",
+    "/blog/what-is-aeo"
+   ]
+  ]
+ },
+ "/aeo-for-skincare-brands": {
+  "label": "< For skincare brands >",
+  "who": "shoppers",
+  "asks": [
+   "What is the best vitamin C serum for sensitive skin?",
+   "Is [your brand] clean and cruelty free?",
+   "Which moisturizer is good for acne-prone skin under $50?"
+  ],
+  "looks": "Skincare questions are specific, so AI looks for specifics: full ingredient lists, the concentration of key actives, skin types each product suits, certifications like Leaping Bunny for cruelty free, and honest reviews that mention results and skin type. Mentions in editorials, roundups and Reddit threads often decide which brands AI names.",
+  "mistakes": "Common gaps: ingredient lists only in product images, \"clean\" claims with no definition, no page answering which product fits which skin type and no presence in the roundups AI cites. We fix the product pages first, then help you earn mentions on the sites AI reads.",
+  "faq": [
+   [
+    "How does AI decide which skincare brands to recommend?",
+    "It combines what your product pages say with what independent sources say about you: reviews, editorial roundups and community discussions. Clear product facts plus outside mentions work best."
+   ],
+   [
+    "Should we put ingredient lists as text, not images?",
+    "Yes. AI and search engines read text far more reliably than text inside images, and shoppers search by ingredient."
+   ],
+   [
+    "Can a small indie brand compete in AI answers?",
+    "Yes. AI often names smaller brands when their pages answer a specific need better, like a product for sensitive, acne-prone skin."
+   ]
+  ],
+  "reads": [
+   [
+    "Skincare marketing for AI search",
+    "/blog/skincare-marketing"
+   ],
+   [
+    "Shopify SEO for beauty brands",
+    "/blog/shopify-seo"
+   ],
+   [
+    "Brand positioning for AI search",
+    "/blog/brand-positioning-for-ai-search"
+   ]
+  ]
+ },
+ "/aeo-for-perfume-brands": {
+  "label": "< For perfume brands >",
+  "who": "shoppers",
+  "asks": [
+   "What is a long-lasting vanilla perfume that isn't too sweet?",
+   "Which niche perfume brands are worth trying?",
+   "Is [your brand] good for a signature scent?"
+  ],
+  "looks": "Fragrance is hard to describe, so AI relies on words: notes listed as top, heart and base, the scent family, longevity and projection, the season or mood it suits and comparisons people already use. Reviews and fragrance communities that describe how a scent wears carry weight. A product page that only says \"sensual and mysterious\" gives AI nothing to match.",
+  "mistakes": "We often see poetic copy without notes, no guidance on which scent suits whom and sample or discovery sets that are hard to find. We rewrite product pages so they answer real questions, and help your scents show up where fragrance lovers talk.",
+  "faq": [
+   [
+    "How do people search for perfume with AI?",
+    "They describe what they want, like a warm vanilla that isn't too sweet or a fresh scent for summer. Pages that describe notes, mood and longevity in plain words get matched to those questions."
+   ],
+   [
+    "Should we compare our perfumes to famous fragrances?",
+    "Honest comparisons like \"if you love X, try this\" help shoppers and AI, as long as you don't use another brand's trademark to mislead."
+   ],
+   [
+    "Do discovery sets help with AI search?",
+    "Indirectly. They lower the risk of buying a scent unsmelled, which leads to more reviews and mentions, and those are what AI reads."
+   ]
+  ],
+  "reads": [
+   [
+    "Brand positioning for AI search",
+    "/blog/brand-positioning-for-ai-search"
+   ],
+   [
+    "Shopify SEO for beauty brands",
+    "/blog/shopify-seo"
+   ],
+   [
+    "LLM SEO explained",
+    "/blog/llm-seo"
+   ]
+  ]
+ },
+ "/aeo-for-photographers": {
+  "label": "< For photographers >",
+  "who": "clients",
+  "asks": [
+   "Who is the best wedding photographer in Los Angeles for a candid, editorial style?",
+   "How much does a brand photoshoot cost for a small business?",
+   "Which headshot photographer near me is good with nervous clients?"
+  ],
+  "looks": "Clients ask AI for a style and a budget, not just a name. AI tools lean on what they can check: a clear niche on your site (weddings, brands, headshots), galleries labeled by type and location, a page that explains packages with a starting price, a complete Google Business Profile and reviews that name the shoot and describe the experience. Mentions in vendor directories, wedding blogs and local roundups help AI connect your name with the style people ask for.",
+  "mistakes": "The most common gaps we see: a portfolio of images with no words AI can read, one 'services' page covering every kind of shoot, pricing only by email and a business name that differs between the website, Instagram and directories. We give AI the words first: niche pages, captions and a consistent profile everywhere.",
+  "faq": [
+   [
+    "How long does AEO take for a photographer?",
+    "Most studios see first changes in AI answers within one to three months, once niche pages, galleries and listings are fixed. We re-check the same client questions every month so you can see what moved."
+   ],
+   [
+    "Do I need to show prices for AI to recommend me?",
+    "A starting price or package range helps. Clients often ask AI what a shoot costs, and AI tends to name photographers who answer that clearly on their own site."
+   ],
+   [
+    "Does Instagram count for AI search?",
+    "It helps people recognize you, but AI tools read your website, Google profile, reviews and directories more reliably. Your site should say in plain words what you shoot and where."
+   ]
+  ],
+  "reads": [
+   [
+    "SEO for photographers",
+    "/blog/photographer-seo"
+   ],
+   [
+    "Google Business Profile optimization checklist",
+    "/blog/google-business-profile-optimization"
+   ],
+   [
+    "How to rank in ChatGPT",
+    "/blog/how-to-rank-in-chatgpt"
+   ]
+  ]
+ }
 }

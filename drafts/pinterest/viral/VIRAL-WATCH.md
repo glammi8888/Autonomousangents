@@ -6,6 +6,30 @@ carousels (Apify `apify~instagram-hashtag-scraper`, type Sidecar). The Pinterest
 flag and its like counts are mostly 0, so it isn't used for this. Raw data sits next to this file
 (`<date>-viral-carousels.json`). We copy **formats and hooks**, never someone's content, photos or wording.
 
+## 2026-11-27 · 18 TikTok slideshows + 36 Instagram carousels (searches: law of assumption, money affirmations, journaling ideas, soft life, new year reset, it girl habits, romanticize your life)
+
+**Top performers**
+| Views / likes | Saves / comments | Format | Link |
+|---|---|---|---|
+| 2.1M views | 114k saves (5.4% save rate) | TikTok, "the law of assumption explained", a plain explainer | tiktok.com/@blissfulmanifesting/video/7582003647886757138 |
+| 909k views | 61k saves | TikTok, it girl habits with a self-aware caption ("not my aesthetic changing every post") | tiktok.com/@luvfara__/video/7643335427771976974 |
+| 656k views | 58k saves (8.9%, the highest) | TikTok, journal inspo, pure aesthetic pages | tiktok.com/@clara_phia/video/7682815683750579489 |
+| 560k views | 38k saves | TikTok, "yours sincerely, the author of rom-com autumn": romanticize your life as the main character's narrator | tiktok.com/@livnevill/video/7703926283465542934 |
+| 255k views | 14k saves | TikTok, "easy but cute journal spread ideas you can try tonight… saving you from blank page anxiety" | tiktok.com/@yanadumplings99/video/7608801272212344084 |
+| 127k views | 10k saves | TikTok, "new series!! weekly tasks to become your best self by 2027" | tiktok.com/@awitsalisa/video/7680231850115140871 |
+| 28.8k likes | 495 comments | IG, "comment MYSTERIOUS and I'll send you a full list of hobbies…" (comment-to-get) | instagram.com/p/DWRmTamDL--/ |
+| 4.4k likes | 47 comments | IG, "\"journaling takes too much time\" ❌ nice try: 100 prompts in under five minutes" (objection-buster hook) | instagram.com/p/DdJQPY_FpB0/ |
+| 2.7k likes | 372 comments | IG, "5-step 2026 reset" (steps + comment prompt) | instagram.com/p/DRxQwSIjJRM/ |
+
+**Patterns that win (formats to borrow)**
+1. **"___ explained":** the law of assumption explainer got 2.1M views. → Pillar 1 carousel "law of assumption, explained (the version with actions)", linked to our law-of-assumption article and its cheat sheet.
+2. **Journaling saves best (8.9%):** aesthetic journal pages + "try tonight". → Pillar 3 carousel from our journaling-prompts article: 5 prompts for when your head is loud, in kit-page style.
+3. **Narrator POV ("yours sincerely, the author of…"):** romanticize your life as authorship. → This IS "art direct your life". Pillar 2 carousel: "yours truly, the art director of my 2027".
+4. **Objection-buster hook ("journaling takes too much time" ❌ nice try).** → Pairs with the skeptic hook pattern Megan liked.
+5. **Comment-to-get and series** show up again (2nd day in a row). → On Pinterest the link is the "comment"; series = numbered carousels.
+
+**Watch out:** the money-affirmation slideshows that win use "money magnet energy / shift to abundance" language. That clashes with our point of view (trust your capacity, not the universe), so we take the format, not the message.
+
 ## 2026-11-26 · 16 TikTok slideshows + 26 Instagram carousels (searches: glow up, personal rebrand, that girl, manifestation, vision board 2027, self improvement, winter arc)
 
 **Top performers**

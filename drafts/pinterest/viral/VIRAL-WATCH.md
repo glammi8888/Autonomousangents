@@ -6,6 +6,25 @@ carousels (Apify `apify~instagram-hashtag-scraper`, type Sidecar). The Pinterest
 flag and its like counts are mostly 0, so it isn't used for this. Raw data sits next to this file
 (`<date>-viral-carousels.json`). We copy **formats and hooks**, never someone's content, photos or wording.
 
+## 2026-11-28 · 15 TikTok slideshows + 14 Instagram carousels (searches: dream life, 2027 goals, glow up challenge, manifestation journal, main character energy, self care sunday, vision board party)
+
+**Top performers**
+| Views / likes | Saves / comments | Format | Link |
+|---|---|---|---|
+| 221k views | 28k saves (**12.9% save rate, best so far**) | TikTok, "save it for when you plan 2027", fear-setting (write down what could go wrong and what you'd do) | tiktok.com/@wellnessquitters/video/7712107451146898696 |
+| 74k views | 7.8k saves (10.5%) | TikTok, "2027 goals that aren't 'lose weight'", numbered list with one specific money goal + "which one are you picking?" | tiktok.com/@style.your.lifestyle/video/7712083277049302285 |
+| 327k views | 25k saves | TikTok, a manifestation journal method written as a step formula | tiktok.com/@miliebou_/video/7691782876416789793 |
+| 325k views | 15k saves | TikTok, "7 tips to manifest correctly" | tiktok.com/@dailybetteryou1/video/7575319524359032097 |
+| 379k views | 8.6k saves | TikTok, "my dream life" pure aesthetic | tiktok.com/@jb.addict/video/7671204095277026568 |
+| 133k views | 2k saves | TikTok, "how to host a vision board party" | tiktok.com/@girly.nightin/video/7379715163471023393 |
+| 22k likes | 113 comments | IG, "30 things to add to your 2027 bucket list" | instagram.com/p/DeovqayDPRg/ |
+
+**Patterns that win (formats to borrow)**
+1. **Plan the hard parts (fear-setting) saves the most (12.9%).** That's our point of view exactly: imagine the whole process, obstacles included (beliefs 2 + 3). → Pillar 3 carousel: "plan 2027 the honest way": what you want, what could get in the way, your first action. Links to vision-board-ideas or how-to-make-a-vision-board.
+2. **Goal lists that skip the cliché ("2027 goals that aren't 'lose weight'")** + "which one are you picking?". → Pillar 2/3 carousel: "2027 goals that aren't 'lose weight'", our own list, one real money goal from the kit ("$20,000 saved"), comment-style ending.
+3. **Step formulas for manifestation journaling** keep saving well (3rd day running). → Pillar 1: our scripting method from the scripting-manifestation article, as a 5-step formula.
+4. **Vision board party how-to** is a seasonal angle for December. → Pillar 3, later in December.
+
 ## 2026-11-27 · 18 TikTok slideshows + 36 Instagram carousels (searches: law of assumption, money affirmations, journaling ideas, soft life, new year reset, it girl habits, romanticize your life)
 
 **Top performers**

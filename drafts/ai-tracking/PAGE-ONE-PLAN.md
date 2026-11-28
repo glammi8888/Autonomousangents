@@ -341,3 +341,4 @@ Megan, Nov 13: "I also would like you to give me a projection daily" · "Time pr
 - 2026-11-27 · (Glammi worker, 13:09Z block) Light block: GSC still not connected; no site change.
 - 2026-11-27 · (Glammi worker, 19:09Z block) Light block: GSC still not connected; no site change.
 - 2026-11-28 · (Glammi worker, 01:09Z block) Light block: GSC still not connected; no site change. Photographers page from Nov 29 07Z.
+- 2026-11-28 · (Glammi worker, 07:10Z block) Light block: GSC still not connected; no site change. Photographers page next block after Nov 29 07Z.

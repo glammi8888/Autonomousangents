@@ -1,5 +1,6 @@
 # Pinterest agent: hourly log (newest first)
 
+- 2026-11-28 00:2x UTC · Viral watch: "plan 2027 with fear-setting" slideshow saved at 12.9% (best yet), matching our "imagine the whole process" belief. In viral/VIRAL-WATCH.md. Other jobs still wait on Megan.
 - 2026-11-27 00:2x UTC · Viral watch: "law of assumption explained" slideshow at 2.1M views; journaling slides save best (8.9%); narrator-POV "author of my life" format fits "art direct your life". Written up in viral/VIRAL-WATCH.md. Other jobs still wait on Megan (photos, carousel feedback).
 - 2026-11-26 16:2x UTC · Job 3: board kit done in drafts/pinterest/BOARDS.md (15 boards by the 4 pillars: names, descriptions, which articles and pins go where). 9 to create, 1 rename; Megan or the Manager makes them after her go.
 - 2026-11-26 12:2x UTC · BLOCKED: out of fresh orbit-ready photos (single person, clean outline, head clear of the top); every good one in rebrand-kit/img is used. Need new photos from Megan, or her OK to reuse.
